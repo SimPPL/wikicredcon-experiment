@@ -1,70 +1,1133 @@
 {
   "id": "semaglutide",
   "title": "Semaglutide",
-  "revisionDate": "2026-04-01",
-  "revisionId": "current-snapshot",
-  "qualityClass": "B",
+  "revisionDate": "2026-04-04",
+  "revisionId": "1346156481",
   "sections": [
     {
-      "id": "lead",
-      "title": "Semaglutide",
+      "id": "semaglutide-lead",
+      "title": "Lead",
       "level": 1,
-      "content": "Semaglutide is a medication used for the treatment of type 2 diabetes and, at higher doses, for chronic weight management. It is a glucagon-like peptide-1 (GLP-1) receptor agonist, originally developed by Novo Nordisk. It is marketed under the brand names Ozempic (for diabetes, as a subcutaneous injection), Wegovy (for weight management, as a subcutaneous injection), and Rybelsus (for diabetes, as an oral tablet).\n\nSemaglutide works by mimicking the hormone GLP-1, which regulates appetite and food intake. It was approved by the FDA for type 2 diabetes in 2017 and for chronic weight management in 2021. In 2024, the FDA also approved Wegovy for reducing cardiovascular risk in adults with established cardiovascular disease who have obesity or are overweight.",
+      "content": "]]\n\nSemaglutide is an anti-diabetic medication used for the treatment of type2 diabetes, and an anti-obesity medication used for long-term weight management and to reduce the risk of major adverse cardiovascular events. It is a peptide similar to the hormone glucagon-like peptide-1 (GLP-1), modified with a side chain. It is sold by Novo Nordisk under the brand names Ozempic It is on the World Health Organization's List of Essential Medicines.",
       "citations": [
-        { "id": "c1", "index": 1, "text": "FDA approval of Ozempic, December 2017", "url": "https://www.fda.gov/news-events/press-announcements" },
-        { "id": "c2", "index": 2, "text": "FDA approval of Wegovy, June 2021", "url": "https://www.fda.gov/news-events/press-announcements" },
-        { "id": "c2b", "index": 3, "text": "FDA approves Wegovy for cardiovascular risk reduction, March 2024", "url": "https://www.fda.gov/news-events/press-announcements" }
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Rybelsus APMDS, (22 February 2022)",
+          "url": "https://www.tga.gov.au/resources/auspmd/rybelsus"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Summary for ARTG Entry: 346198 Rybelsus semaglutide 3 mg tablet blister pack",
+          "url": "https://tga-search.clients.funnelback.com/s/search.html?collection=tga-artg&profile=record&meta_i=346198"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Wegovy (Novo Nordisk Pharmaceuticals Pty Ltd), (7 October 2022)",
+          "url": "https://www.tga.gov.au/resources/prescription-medicines-registrations/wegovy-novo-nordisk-pharmaceuticals-pty-ltd"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Product Monograph Including Patient Medication Information – Ozempic semaglutide injection, (21 August 2020)",
+          "url": "https://pdf.hres.ca/dpd_pm/00058023.PDF"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Product Monograph Including Patient Medication Information – Rybelsus semaglutide tablets, (30 March 2020)",
+          "url": "https://pdf.hres.ca/dpd_pm/00055582.PDF"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Regulatory Decision Summary – Rybelsus, (23 October 2014)",
+          "url": "https://hpr-rps.hres.ca/reg-content/regulatory-decision-summary-detail.php?linkID=RDS00625"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Drug and medical device highlights 2018: Helping you maintain and improve your health, (14 October 2020)",
+          "url": "https://www.canada.ca/en/health-canada/services/publications/drugs-health-products/drug-medical-device-highlights-2018.html"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Ozempic 0.25 mg solution for injection in pre-filled pen – Summary of Product Characteristics (SmPC), (9 April 2021)",
+          "url": "https://www.medicines.org.uk/emc/product/9748/smpc"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Rybelsus – Summary of Product Characteristics (SmPC), (25 November 2020)",
+          "url": "https://www.medicines.org.uk/emc/product/11507/smpc"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Wegovy 2.4 mg, FlexTouch solution for injection in pre-filled pen SmPC, (27 November 2024)",
+          "url": "https://www.medicines.org.uk/emc/product/13803/smpc"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Ozempic PI, (12 February 2018)",
+          "url": "https://ec.europa.eu/health/documents/community-register/html/h1251.htm"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Rybelsus PI, (7 April 2020)",
+          "url": "https://ec.europa.eu/health/documents/community-register/html/h1430.htm"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Rybelsus, INN-semaglutide",
+          "url": "https://www.ema.europa.eu/en/documents/product-information/rybelsus-epar-product-information_en.pdf"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Wegovy (semaglutide): a new weight loss drug for chronic weight management, (January 2022)"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Clinical review of subcutaneous semaglutide for obesity, (February 2022)"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Efficacy and safety of semaglutide for weight management: evidence from the STEP program, (January 2022)"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Oral Semaglutide, (January 2020)"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "Top 300 of 2023",
+          "url": "https://clincalc.com/DrugStats/Top300Drugs.aspx"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Semaglutide Drug Usage Statistics, United States, 2014–2023",
+          "url": "https://clincalc.com/DrugStats/Drugs/Semaglutide"
+        },
+        {
+          "id": "cite-19",
+          "index": 19,
+          "text": "The selection and use of essential medicines, 2025: WHO Model List of Essential Medicines, 24th list, (2025)"
+        }
       ]
     },
     {
       "id": "medical-uses",
       "title": "Medical uses",
       "level": 2,
-      "content": "Semaglutide is indicated for the treatment of adults with type 2 diabetes mellitus as an adjunct to diet and exercise. The higher-dose formulation (Wegovy) is indicated for chronic weight management in adults with obesity (BMI ≥30) or overweight (BMI ≥27) with at least one weight-related comorbidity. Wegovy is also approved for cardiovascular risk reduction in adults with established cardiovascular disease and obesity or overweight.\n\nClinical trials have demonstrated significant weight loss in patients taking semaglutide compared to placebo. The STEP trials showed average weight loss of approximately 15% of body weight over 68 weeks. The STEP 5 trial demonstrated sustained weight loss over 104 weeks, though weight regain was observed after discontinuation in the STEP 4 trial.",
+      "content": "===United States===",
+      "citations": []
+    },
+    {
+      "id": "united-states",
+      "title": "United States",
+      "level": 3,
+      "content": "In the US, semaglutide is indicated as an adjunct to diet and exercise to improve glycemic control in adults with type2 diabetes, and to reduce the risk of major adverse cardiovascular events in adults with type2 diabetes and established cardiovascular disease. to reduce excess body weight and maintain weight reduction long term in obese individuals twelve years of age or older, or for overweight adults with at least one weight-related comorbid condition. After stopping semaglutide, individuals on average regain about two-thirds (67%) of the weight they lost during treatment within the following year. People return to their previous weight within a year and a half on average after stopping semaglutide.\n\nIn August 2025, the Food and Drug Administration (FDA) expanded the indication for semaglutide (as Wegovy) to include the treatment of noncirrhotic metabolic-associated steatohepatitis (MASH), formerly known as nonalcoholic steatohepatitis (NASH), with moderate to advanced liver fibrosis (consistent with stages F2 to F3 fibrosis) in adults.\n\nIn October 2025, the FDA further expanded the indication for semaglutide (as Rybelsus) to reduce the risk of major adverse cardiovascular events (cardiovascular death, non-fatal myocardial infarction, or non-fatal stroke) in adults with type2 diabetes who are at high risk for these events.\n\nIn December 2025, the FDA approved an oral version of semaglutide for weight management, using the same brand name (Wegovy) as the injectable version.\n\n===European Union===",
       "citations": [
-        { "id": "c3", "index": 4, "text": "Wilding JP, et al. STEP 1 trial. NEJM, 2021", "url": "https://doi.org/10.1056/NEJMoa2032183" },
-        { "id": "c3b", "index": 5, "text": "Garvey WT, et al. STEP 5 trial. Nature Medicine, 2022", "url": "https://doi.org/10.1038/s41591-022-02026-4" }
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Ozempic – semaglutide injection, solution",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Rybelsus – oral semaglutide tablet",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Wegovy- semaglutide injection, solution; Wegovy- semaglutide tablet, (30 January 2026)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "FDA Approves New Drug Treatment for Chronic Weight Management, First Since 2014, (4 June 2021)",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-drug-treatment-chronic-weight-management-first-2014"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "FDA Approves First Treatment to Reduce Risk of Serious Heart Problems Specifically in Adults with Obesity or Overweight, (8 March 2024)",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-reduce-risk-serious-heart-problems-specifically-adults-obesity-or"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "A systematic review and meta-analysis of the efficacy and safety of pharmacological treatments for obesity in adults, (October 2025)"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Weight Regain After Liraglutide, Semaglutide or Tirzepatide Interruption: A Narrative Review of Randomized Studies, (May 2025)"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "West, Weight regain after cessation of medication for weight management: systematic review and meta-analysis, (2026-01-07)"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "FDA Approves Treatment for Serious Liver Disease Known as 'MASH', (15 August 2025)",
+          "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-treatment-serious-liver-disease-known-mash"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "FDA approves Novo Nordisk's oral semaglutide for cardiovascular (CV) risk reduction in adults with type 2 diabetes who are at high risk, including those who have not had a prior CV event, (17 October 2025)",
+          "url": "https://www.prnewswire.com/news-releases/fda-approves-novo-nordisks-oral-semaglutide-for-cardiovascular-cv-risk-reduction-in-adults-with-type-2-diabetes-who-are-at-high-risk-including-those-who-have-not-had-a-prior-cv-event-302588005.html"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Wegovy (semaglutide) injection, for subcutaneous use; Wegovy (semaglutide) tablets, for oral use",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/218316Orig1s000lbl.pdf"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Novo Nordisk A/S: Wegovy pill approved in the US as first oral GLP-1 for weight management, (22 December 2025)",
+          "url": "https://www.globenewswire.com/news-release/2025/12/22/3209605/0/en/Novo-Nordisk-A-S-Wegovy-pill-approved-in-the-US-as-first-oral-GLP-1-for-weight-management.html"
+        }
       ]
+    },
+    {
+      "id": "european-union",
+      "title": "European Union",
+      "level": 3,
+      "content": "In the European Union, semaglutide is indicated for the treatment of adults with insufficiently controlled type2 diabetes as an adjunct to diet and exercise as monotherapy when metformin is considered inappropriate due to intolerance or contraindications, in addition to other medicinal products for the treatment of diabetes.\n\nSemaglutide (as Wegovy) is further indicated as an adjunct to a reduced-calorie diet and increased physical activity for weight management, including weight loss and weight maintenance, in adults with obesity (initial  or who are overweight  and have at least one weight-related comorbidity such as dysglycemia (prediabetes or type2 diabetes), hypertension, dyslipidemia, or cardiovascular disease. It is also indicated as an adjunct to a reduced-calorie diet and increased physical activity for weight management in adolescents (aged twelve years and older) with obesity and body weight above .\n\n==Side effects==",
+      "citations": []
     },
     {
       "id": "side-effects",
       "title": "Side effects",
       "level": 2,
-      "content": "The most common side effects of semaglutide include gastrointestinal symptoms such as nausea, vomiting, diarrhea, abdominal pain, and constipation. These effects are usually mild to moderate and tend to decrease over time.\n\nMore serious but rare side effects include pancreatitis, gallbladder problems, and potential thyroid tumors (based on animal studies). Semaglutide carries a boxed warning regarding the risk of thyroid C-cell tumors.\n\nIn June 2025, the FDA updated prescribing information for semaglutide to include a warning about non-arteritic anterior ischemic optic neuropathy (NAION), a rare eye condition, following reports of cases in patients using GLP-1 receptor agonists. A retrospective study found a potential association, though a causal relationship has not been established.\n\nReports of suicidal ideation in patients taking GLP-1 drugs prompted an FDA review, which concluded in early 2025 that available evidence did not establish a causal link between semaglutide and suicidal thoughts or behaviors.",
+      "content": "Possible adverse effects include nausea, diarrhea, vomiting, constipation, abdominal pain, headache, fatigue, indigestion/heartburn, dizziness, abdominal distension, belching, hypoglycemia (low blood glucose) in people with type2 diabetes, flatulence, gastroenteritis, and gastroesophageal reflux disease (GERD). Among people who were prescribed a glucagon-like peptide-1 (GLP-1) medication, 0.1% were diagnosed with gastroparesis at least six months later, which equates to a 52% increased risk of being diagnosed with gastroparesis while on a GLP-1 medication. A 2019 meta-analysis did not indicate a significantly elevated risk of acute pancreatitis.\n\nThe US prescription label for semaglutide contains a boxed warning for thyroid C-cell tumors in rodents. It is unknown whether semaglutide causes thyroid C-cell tumors, including medullary thyroid carcinoma, in humans.\n\nIn January 2026, the US Food and Drug Administration requested removal of suicidal behavior and ideation warning from glucagon-like peptide-1 receptor agonist (GLP-1 RA) medications.\n\n== Contraindications ==",
       "citations": [
-        { "id": "c4", "index": 6, "text": "Ozempic prescribing information, Novo Nordisk", "url": "https://www.novo-pi.com/ozempic.pdf" },
-        { "id": "c4b", "index": 7, "text": "FDA Drug Safety Communication: NAION risk with GLP-1 RAs, June 2025", "url": "https://www.fda.gov/drugs/drug-safety-and-availability" },
-        { "id": "c4c", "index": 8, "text": "FDA review of suicidality reports with GLP-1 RAs, January 2025", "url": "https://www.fda.gov/drugs/drug-safety-and-availability" }
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Risk of Gastrointestinal Adverse Events Associated With Glucagon-Like Peptide-1 Receptor Agonists for Weight Loss, (November 2023)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "People using popular drugs for weight loss, diabetes are more likely to be diagnosed with stomach paralysis, studies confirm, (20 May 2024)",
+          "url": "https://edition.cnn.com/2024/05/20/health/glp-1-drugs-stomach-paralysis/index.html"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Incretin-based glucose-lowering medications and the risk of acute pancreatitis and malignancies: a meta-analysis based on cardiovascular outcomes trials, (April 2020)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Ozempic Drug Trial Snapshot, (5 December 2017)",
+          "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/drug-trial-snapshot-ozempic"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "The Thyroid Pathologist Meets Therapeutic Pharmacology, (March 2023)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "FDA Requests Removal of Suicidal Behavior and Ideation Warning from Glucagon-Like Peptide-1 Receptor Agonist (GLP-1 RA) Medications, (30 January 2024)",
+          "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-requests-removal-suicidal-behavior-and-ideation-warning-glucagon-peptide-1-receptor-agonist-glp"
+        }
       ]
     },
     {
-      "id": "compounding",
-      "title": "Compounding controversy",
+      "id": "contraindications",
+      "title": "Contraindications",
       "level": 2,
-      "content": "During semaglutide shortages, compounding pharmacies began producing custom versions of semaglutide at lower cost. The FDA issued warnings that compounded semaglutide products are not FDA-approved and may pose safety risks due to variability in formulation and sterility. Novo Nordisk filed lawsuits against several compounding pharmacies.\n\nIn late 2025, as brand-name supply stabilized, the FDA moved to restrict compounded semaglutide. Patient advocacy groups argued this limited access for patients who could not afford brand-name products, while public health officials emphasized safety concerns with unregulated compounding.",
+      "content": "Semaglutide is contraindicated in people with a personal or family history of medullary thyroid carcinoma or in people with multiple endocrine neoplasia type2.\n\n==Mechanism of action==",
       "citations": [
-        { "id": "c7", "index": 9, "text": "FDA statement on compounded semaglutide, 2024", "url": "https://www.fda.gov/drugs/human-drug-compounding" },
-        { "id": "c8", "index": 10, "text": "Novo Nordisk legal actions against compounding pharmacies, Reuters, 2025", "url": "https://www.reuters.com" }
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Glucagon-like Peptide-1 receptor agonists activate rodent thyroid C-cells causing calcitonin release and C-cell proliferation, (April 2010)"
+        }
       ]
     },
     {
-      "id": "society-culture",
+      "id": "mechanism-of-action",
+      "title": "Mechanism of action",
+      "level": 2,
+      "content": "Semaglutide is a glucagon-like peptide-1 receptor agonist. It also appears to enhance growth of pancreatic beta cells, which are responsible for insulin production and release. Additionally, it inhibits the production of glucagon, the hormone that increases glycogenolysis (release of stored carbohydrate from the liver) and gluconeogenesis (synthesis of new glucose). It reduces food intake by lowering appetite and slowing down digestion in the stomach, helping reduce body weight.\n\n==Structure and pharmacology==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes, (November 2016)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Glucagon-like Peptide-1 Receptor Signaling Modulates β Cell Apoptosis, (2003)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Semaglutide in type 2 diabetes – is it the best glucagon-like peptide 1 receptor agonist (GLP-1R agonist)?, (March 2018)",
+          "url": "https://eprints.qut.edu.au/121664/2/121664.pdf"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Semaglutide: First Global Approval, (February 2018)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Effects of once-weekly semaglutide on appetite, energy intake, control of eating, food preference and body weight in subjects with obesity, (September 2017)"
+        }
+      ]
+    },
+    {
+      "id": "structure-and-pharmacology",
+      "title": "Structure and pharmacology",
+      "level": 2,
+      "content": "Semaglutide is chemically similar to human GLP-1. The substitution of the alanine prevents chemical breakdown by dipeptidyl peptidase-4.\n\nSemaglutide's half-life in the blood is about seven days (165–184 hours).\n\n==History==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Discovery of the Once-Weekly Glucagon-Like Peptide-1 (GLP-1) Analogue Semaglutide, (September 2015)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "The human GLP-1 analogs liraglutide and semaglutide: absence of histopathological effects on the pancreas in nonhuman primates, (July 2014)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Semaglutide: Review and Place in Therapy for Adults With Type 2 Diabetes, (March 2019)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Semaglutide, a once-weekly human GLP-1 analog, does not reduce the bioavailability of the combined oral contraceptive, ethinylestradiol/levonorgestrel, (May 2015)"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "level": 2,
+      "content": "In the 1970s, Jens Juul Holst and Joel Habener began research on the GLP-1 hormone, initially in relation to duodenal ulcer disease. They were examining hormones secreted during eating, and testing them on pig pancreases, leading to the discovery of GLP-1's significant potency in 1988. Their work, which later contributed significantly to diabetes and obesity treatments, earned them and Daniel J. Drucker the 2021 Warren Alpert Foundation Prize. This was followed by the development of semaglutide by a team of researchers at Novo Nordisk, including Jesper Lau, Thomas Kruse, and Paw Bloch.\n\n=== Clinical trials and early approvals for diabetes ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "What the Scientists Who Pioneered Weight-Loss Drugs Want You to Know",
+          "url": "https://www.wired.com/story/obesity-drugs-researcher-interview-ozempic-wegovy/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Interview with Weight Loss Drugs Inventor Lotte Bjerre Knudsen: \"I'm Experimenting with Periodic Fasting\", (4 January 2024)",
+          "url": "https://www.spiegel.de/international/business/interview-with-weight-loss-drugs-inventor-lotte-bjerre-knudsen-a-f2815950-ff24-4e87-b7e9-b6d6c1982d57"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Inventor of The Year – IPO Education Foundation, (10 November 2017)",
+          "url": "https://www.ipoef.org/inventor-of-the-year/"
+        }
+      ]
+    },
+    {
+      "id": "clinical-trials-and-early-approvals-for-diabetes",
+      "title": "Clinical trials and early approvals for diabetes",
+      "level": 3,
+      "content": "In June 2008, a phase II clinical trial began studying semaglutide, a once-weekly diabetes therapy as a longer-acting alternative to liraglutide. It was given the brand name Ozempic. Clinical trials started in January 2016 and ended in May 2017.\n\nThe US Food and Drug Administration (FDA) approved semaglutide based on evidence from seven clinical trials of 4087 participants with type2 diabetes. and NCT02305381), participants were randomly assigned to receive either semaglutide or placebo injection weekly. NCT01885208, NCT02128932, NCT02207374, and NCT02254291), participants were randomly assigned to receive either semaglutide or another anti-diabetic medication, and the participant and provider knew which medication was being given in four trials.), which was sponsored by Novo Nordisk, of 3297 participants with type2 diabetes who were at high risk for cardiovascular events. This trial was conducted in 20 countries: multiple European countries, Russia, Turkey, Brazil, Israel, Malaysia, Mexico, Thailand, Taiwan, Canada, and the United States. The participants were randomly assigned to receive semaglutide or placebo. Neither the participant nor the health care provider knew which treatment was being given. Treatment was given for 104 weeks (2 years), and the occurrence of cardiovascular events, including heart attacks, strokes, and hospitalization due to unstable angina (near heart attack) were recorded and compared in the two groups of participants.\n\n=== Trials for obesity ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "A Randomised Controlled Clinical Trial in Type 2 Diabetes Comparing Semaglutide to Placebo and Liraglutide, (August 2019)",
+          "url": "https://clinicaltrials.gov/study/NCT00696657"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Once-weekly glucagon-like peptide 1 receptor agonists, (July 2015)",
+          "url": "https://jpma.org.pk/article-details/7416?article_id=7416"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Efficacy and Safety of Semaglutide Versus Dulaglutide as add-on to Metformin in Subjects With Type 2 Diabetes. (SUSTAIN 7), (October 2019)",
+          "url": "https://clinicaltrials.gov/study/NCT02648204"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Efficacy and Safety of Semaglutide Once-weekly Versus Placebo in Drug-naïve Subjects With Type 2 Diabetes (SUSTAIN 1), (May 2019)",
+          "url": "https://clinicaltrials.gov/study/NCT02054897"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Efficacy and Safety of Semaglutide Once-weekly Versus Placebo as add-on to Basal Insulin Alone or Basal Insulin in Combination With Metformin in Subjects With Type 2 Diabetes (SUSTAIN 5), (May 2019)",
+          "url": "https://clinicaltrials.gov/study/NCT02305381"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "ClinicalTrials.gov, (May 2019)",
+          "url": "https://clinicaltrials.gov/study/NCT01930188"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Efficacy and Safety of Semaglutide Once-weekly Versus Sitagliptin Once-daily as add-on to Metformin and/or TZD in Subjects With Type 2 Diabetes (SUSTAIN 2), (May 2019)",
+          "url": "https://clinicaltrials.gov/study/NCT01885208"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Efficacy and Safety of Semaglutide Once Weekly Versus Insulin Glargine Once Daily as add-on to Metformin With or Without Sulphonylurea in Insulin-naïve Subjects With Type 2 Diabetes (SUSTAIN 4), (May 2019)",
+          "url": "https://clinicaltrials.gov/study/NCT02128932"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "A Trial Comparing the Safety and Efficacy of Semaglutide Once Weekly in Monotherapy or in Combination With One OAD in Japanese Subjects With Type 2 Diabetes (SUSTAIN), (June 2018)",
+          "url": "https://clinicaltrials.gov/study/NCT02207374"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "A Trial Comparing the Safety and Efficacy of Semaglutide Once Weekly Versus Sitagliptin Once Daily in Japanese Subjects With Type 2 Diabetes (SUSTAIN™), (December 2017)",
+          "url": "https://clinicaltrials.gov/study/NCT02254291"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Trial to Evaluate Cardiovascular and Other Long-term Outcomes With Semaglutide in Subjects With Type 2 Diabetes (SUSTAIN 6), (June 2019)",
+          "url": "https://clinicaltrials.gov/study/NCT01720446"
+        }
+      ]
+    },
+    {
+      "id": "trials-for-obesity",
+      "title": "Trials for obesity",
+      "level": 3,
+      "content": "In March 2021, in a phase III randomized, double-blind trial, 1,961 adults with a body mass index of 30 or greater were assigned in a 2:1 ratio to a treatment with once-weekly subcutaneous semaglutide or placebo, plus lifestyle intervention. The trials occurred at 129 sites in 16 countries in Asia, Europe, North America, and South America. The mean percentage change in body weight at week 68 was −14.9% in the semaglutide group vs −2.4% with placebo, for an estimated treatment difference of −12.4 percentage points (95% CI, −13.4 to −11.5).\n\nA 2022 review of anti-obesity treatments found that semaglutide as well as tirzepatide (which has an overlapping mechanism of action) were more promising than previous anti-obesity drugs, although less effective than bariatric surgery.\n=== Trials for cardiovascular health ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Once-Weekly Semaglutide in Adults with Overweight or Obesity, (March 2021)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "What Is Ozempic and Why Is It Getting So Much Attention?, (22 November 2022)",
+          "url": "https://www.nytimes.com/2022/11/22/well/ozempic-diabetes-weight-loss.html"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Two-year effects of semaglutide in adults with overweight or obesity: the STEP 5 trial, (October 2022)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "WHO advisers to consider whether obesity medication should be added to Essential Medicines List, (29 March 2023)",
+          "url": "https://www.cnn.com/2023/03/29/health/who-essential-medicines-liraglutide/index.html"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Anti-obesity drug discovery: advances and challenges, (March 2022)"
+        }
+      ]
+    },
+    {
+      "id": "trials-for-cardiovascular-health",
+      "title": "Trials for cardiovascular health",
+      "level": 3,
+      "content": "In March 2024, the US Food and Drug Administration expanded the indication for semaglutide (brand name Wegovy) to reduce the risk of cardiovascular death, heart attack, and stroke in adults with cardiovascular disease and who are either obese or overweight. This was based on a placebo-controlled randomized double-blind trial, which was sponsored by Novo Nordisk, on the efficacy and safety of semaglutide for this indication. 17,604 participant were randomly assigned to receive either semaglutide (Wegovy) or placebo. Participants in both groups also received standard-of-care medical treatment (e.g., management of blood pressure and cholesterol) and healthy lifestyle counseling (including diet and physical activity). The trial reported cumulative occurrence of major adverse cardiovascular events, a primary end-point event of the trial, for 569 of the 8803 patients in the semaglutide group, which were 6.5% of the participants, and for 701 of the 8801 patients in the placebo group, which were 8% of the participants, showing relative 18.8% less major adverse cardiovascular events, such as death from cardiovascular causes, nonfatal myocardial infarction, or nonfatal stroke, occurring for participants who had received semaglutide in the trial relative to those who had received placebo over the course of around 48 months, or 34.2±13.7 months, which was the mean (±SD) total duration of the participants in either group's exposure to the placebo or semaglutide during the trial.\n\n==Society and culture==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "FDA Approves First Treatment to Reduce Risk of Serious Heart Problems Specifically in Adults with Obesity or Overweight, (8 March 2024)",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-reduce-risk-serious-heart-problems-specifically-adults-obesity-or"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes, (11 November 2023)",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2307563"
+        }
+      ]
+    },
+    {
+      "id": "society-and-culture",
       "title": "Society and culture",
       "level": 2,
-      "content": "Semaglutide has attracted significant public attention due to its use for weight loss, including reports of celebrity use. The high demand has led to periodic shortages of both Ozempic and Wegovy. Concerns have been raised about the cost of these medications, with monthly prices exceeding $1,000 in the United States without insurance.\n\nThe popularity of GLP-1 drugs has sparked broader conversations about the medicalization of obesity and access to weight loss treatments. In 2025, the Trump administration announced pricing negotiations for GLP-1 drugs under its TrumpRx initiative, though details remained contested. Several countries have restricted or limited public funding for semaglutide prescriptions for weight loss, citing budget concerns.",
+      "content": "=== Legal status ===",
+      "citations": []
+    },
+    {
+      "id": "legal-status",
+      "title": "Legal status",
+      "level": 3,
+      "content": "In December 2016, a new drug application was filed with the US Food and Drug Administration (FDA), and in October 2017, an FDA advisory committee approved it unanimously. In December 2017, the injectable version with the brand name Ozempic was approved in the US for use by people with diabetes, and, in January 2018, in Canada. In February 2018, authorization was granted in the European Union, in March 2018 in Japan, and in August 2019 in Australia.\n\nA version of semaglutide to treat diabetes that can be taken orally (Rybelsus) was approved for medical use in the US in September 2019, and in the European Union in April 2020. In January 2023, the US FDA prescription label for Rybelsus was updated to reflect that it can be used as a first-line treatment for adults with type2 diabetes.\n\nIn June 2021, a higher-dose version for injectable use, sold under the brand name Wegovy, was approved by the FDA as an anti-obesity medication for long-term weight management in adults.\n\nIn December 2025, an oral version of semaglutide, sold under the brand name Wegovy, was approved in the US for weight management.\n\nIn January 2026, the Committee for Medicinal Products for Human Use of the European Medicines Agency adopted a positive opinion, recommending the granting of a conditional marketing authorization for the medicinal product Kayshild, intended for the treatment of adults with non-cirrhotic metabolic dysfunction-associated steatohepatitis (MASH).\n\n===Generics and copies===",
       "citations": [
-        { "id": "c5", "index": 11, "text": "Drug shortages: Semaglutide. FDA Drug Shortage Database", "url": "https://www.fda.gov/drugs/drug-shortages" },
-        { "id": "c5b", "index": 12, "text": "GLP-1 drug pricing negotiations, White House fact sheet, 2025", "url": "https://www.whitehouse.gov" }
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Development Status and FDA Approval Process for semaglutide, (2017)",
+          "url": "https://www.drugs.com/history/semaglutide.html"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Drug Approval Package: Ozempic (semaglutide) Injection, (16 January 2018)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209637Orig1s000TOC.cfm"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Ozempic (semaglutide) approved in the US, (5 December 2017)",
+          "url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=712"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Regulatory Decision Summary – Ozempic, (23 October 2014)",
+          "url": "https://hpr-rps.hres.ca/reg-content/regulatory-decision-summary-detail.php?lang=en&linkID=RDS00317"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Ozempic EPAR, (8 February 2018)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ozempic"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Novo Nordisk A/S: Ozempic (semaglutide) approved in the EU for the treatment of type 2 diabetes, (9 February 2018)",
+          "url": "https://globenewswire.com/news-release/2018/02/09/1338393/0/en/Novo-Nordisk-A-S-Ozempic-semaglutide-approved-in-the-EU-for-the-treatment-of-type-2-diabetes.html"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Ozempic approved in Japan for the treatment of type 2 diabetes, (23 March 2018)",
+          "url": "https://www.globenewswire.com/news-release/2018/03/23/1449172/0/en/Ozempic-approved-in-Japan-for-the-treatment-of-type-2-diabetes.html"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "AusPAR: Semaglutide, (2 December 2020)",
+          "url": "https://www.tga.gov.au/auspar/auspar-semaglutide"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Summary for ARTG Entry: 315107 Ozempic 1 mg semaglutide (rys) 1.34 mg/mL solution for injection pre-filled pen",
+          "url": "https://tga-search.clients.funnelback.com/s/search.html?collection=tga-artg&profile=record&meta_i=315107"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Drug Approval Package: Rybelsus, (10 June 2020)",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/213051Orig1s000TOC.cfm"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "FDA approves first oral GLP-1 treatment for type 2 diabetes, (20 September 2019)",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-glp-1-treatment-type-2-diabetes"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Rybelsus EPAR, (29 January 2020)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rybelsus"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Novo Nordisk announces FDA approval of label update for Rybelsus (semaglutide) allowing use as a first-line option for adults with type 2 diabetes, (12 January 2023)",
+          "url": "https://www.prnewswire.com/news-releases/novo-nordisk-announces-fda-approval-of-label-update-for-rybelsus-semaglutide-allowing-use-as-a-first-line-option-for-adults-with-type-2-diabetes-301720965.html"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Wegovy EPAR, (6 January 2022)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wegovy"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Wegovy Product information",
+          "url": "https://ec.europa.eu/health/documents/community-register/html/h1608.htm"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Wegovy approval letter",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/218316Orig1s000ltr.pdf"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Kayshild EPAR, (30 January 2026)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kayshild"
+        }
+      ]
+    },
+    {
+      "id": "generics-and-copies",
+      "title": "Generics and copies",
+      "level": 3,
+      "content": "Semaglutide's pharmaceutical data exclusivity period expired in Canada in January 2026. (Novo Nordisk failed to pay a required patent maintenance fee, and their patent on the chemical structure of the drug expired in 2020.) Several applications to sell generic drugs have been made, but not yet approved, including by Apotex, Aspen Pharmacare, Dr. Reddy's Laboratories, Sandoz, Taro Pharmaceuticals and Teva Pharmaceuticals. Hims & Hers Health expects to partner with an approved manufacturer to market a generic version. Sandoz' 2026 offering would be for diabetes only, while Biocon hopes to offer generic semaglutide for diabetes and weight loss by 2027. Novo Nordisk is considering competing against the new generic drugs with Plosbrio and Poviztra: additional brand names for semaglutide, but marketed at a lower price than Ozempic and Wegovy. (In contrast to generics, which may be chemically synthesized versions manufactured using different processes than the original biologic drug, Health Canada confirmed that Plosbrio and Poviztra differ from the existing proprietary drugs Ozempic and Wegovy only in name and packaging, and are unrelated to the generics from a regulatory perspective.)\n\n=== India ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "{{lang, (8 January 2026)",
+          "url": "https://ici.radio-canada.ca/nouvelle/2218748/expiration-ozempic-wegovy-semaglutide-generique"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Novo Nordisk prepares new cheaper version of Ozempic as generics face delays, (5 January 2026)",
+          "url": "https://www.theglobeandmail.com/canada/article-ozempic-cheaper-version-novo-nordisk-health-canada-generics/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Did Novo open the Canadian market to GLP-1 generics?, (16 June 2025)",
+          "url": "https://www.labiotech.eu/in-depth/novo-nordisk-semaglutide-patent-expiration-canada/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Cheaper, generic versions of Ozempic could come to Canada as early as next year, (11 March 2025)",
+          "url": "https://www.theglobeandmail.com/canada/article-ozempic-generic-brands-canada-type-2-diabetes/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Hims & Hers to offer generic semaglutide in Canada as Novo Nordisk patent lapses, (9 July 2025)",
+          "url": "https://www.cnbc.com/2025/07/09/hims-hers-generic-semaglutide-novo-nordisk-ozempic-wegovy-canada.html"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Sandoz sees unbranded versions of Ozempic launching in Canada by end-June 2026, (12 November 2025)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/sandoz-ceo-expects-ozempic-biosimilars-enter-canadian-market-q1-q2-2025-11-12/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Biocon eyes generic Wegovy obesity drug launch in India, Canada in next 2 years, CEO says, (16 July 2025)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/biocon-eyes-generic-wegovy-obesity-drug-launch-india-canada-next-2-years-ceo-2025-07-16/"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "title": "India",
+      "level": 3,
+      "content": "Following the expiration of the semaglutide patent in India in March 2026, several domestic pharmaceutical companies launched generic versions of the drug for the treatment of type 2 diabetes and obesity. These included Sun Pharmaceutical Industries, Dr. Reddy's Laboratories, Zydus Life Sciences, Torrent Pharmaceuticals, Alkem Laboratories, Glenmark Pharmaceuticals, and Natco Pharma in partnership with Eris Lifesciences.The entry of generic manufacturers significantly reduced treatment costs compared to the innovator products marketed by Novo Nordisk under the brand names Wegovy and Ozempic. Monthly therapy costs for generic semaglutide ranged from approximately ₹2,200 to ₹4,200, while some weekly therapies were priced between ₹750 and ₹2,000.Dr. Reddy's Laboratories launched its product under the brand name \"Obeda\", while Sun Pharma introduced \"Noveltreat\" and \"Sematrinity\". Zydus Life Sciences marketed its versions as \"Semaglyn\", \"Mashema\", and \"Alterme\". Glenmark launched \"Glipiq\", and Torrent introduced \"Sembolic\" and \"Semalix\". Alkem marketed \"Semasize\", \"Obesema\", and \"Hepaglide\".\n\n=== Brazil ===",
+      "citations": []
+    },
+    {
+      "id": "brazil",
+      "title": "Brazil",
+      "level": 3,
+      "content": "In Brazil, the supreme court refused to extend semaglutide's patent protection, which expires in March 2026. Hypera plans to offer its own generic semaglutide in the Brazilian market immediately thereafter, and Biomm announced an agreement to offer Biocon's generic.\n\n=== China ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Brazilian federal court denies semaglutide patent extension, (9 May 2023)",
+          "url": "https://www.pharmaceutical-technology.com/pricing-and-market-access/brazilian-federal-court-semaglutide-patent-extension/?cf-view"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Brazil's Hypera to launch an Ozempic generic in 2026, CEO says, (21 March 2025)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/brazils-hypera-launch-an-ozempic-generic-2026-ceo-says-2025-03-21/"
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "title": "China",
+      "level": 3,
+      "content": "The Chinese patent was scheduled to expire in 2026, but a court ruled in 2022 that all patents on semaglutide were invalid \"for reasons related to experimental data availability\". Novo Nordisk appealed the ruling and the decision was overturned by the Supreme People's Court. Government records indicate that at least 15 generic versions of semaglutide are being developed for the Chinese market, both for diabetes and weight loss; 11 were in the final stages of clinical trials .) and Sihuan Pharmaceutical were all preparing generic offerings. Biocon plans to offer generic semaglutide in Mexico and Saudi Arabia.\n\nSemaglutide is expected to become patent-free in the United States no earlier than December 2031, and in Europe and Japan in that same year.\n\n===Compounded versions===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Novo Nordisk braces for generic challenge to Ozempic, Wegovy in China, (5 June 2024)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/novo-nordisk-braces-generic-challenge-ozempic-wegovy-china-2024-06-05/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Novo Nordisk, Eli Lilly Slash Prices in China, (5 January 2026)",
+          "url": "https://www.chosun.com/english/industry-en/2026/01/05/MP67GCTEKZDTJNZSYRWMIIKC2M/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Drugmaker seeks approval for China's first biosimilar Ozempic, (3 April 2024)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/chinas-first-biosimilar-ozempic-drug-applies-approval-2024-04-03/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "India's Dr Reddy's plans to launch generic obesity drugs in 87 countries next year, CEO says, (23 July 2025)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/indias-dr-reddys-plans-launch-generic-obesity-drugs-87-countries-next-year-ceo-2025-07-23/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Is India about to make Ozempic-like weight-loss drugs a whole lot cheaper?, (7 February 2026)",
+          "url": "https://www.cnn.com/2026/02/07/india/india-semaglutide-patent-expiry-intl-hnk-dst"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "India's Biocon developing its own version of Wegovy, clinical trial likely next year, (18 April 2024)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/indias-biocon-developing-its-own-version-wegovy-clinical-trial-likely-next-year-2024-04-18/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "OZEMPIC Drug Patent Profile",
+          "url": "https://www.drugpatentwatch.com/p/tradename/OZEMPIC"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Novo Nordisk is losing Canadian patent protection on a blockbuster drug after not paying a small fee, (17 June 2025)",
+          "url": "https://fortune.com/2025/06/17/novo-nordisk-ozempic-wegovy-semaglutide-canada-patent-protection-fee/"
+        }
+      ]
+    },
+    {
+      "id": "compounded-versions",
+      "title": "Compounded versions",
+      "level": 3,
+      "content": "In the US, compounding pharmacies may prepare compounded versions of a drug on the Food and Drug Administration's (FDA) drug shortages list if the compounded drug meets certain conditions detailed in federal law. The FDA declared a shortage for Ozempic and Wegovy (but not Rybelsus) starting in August 2022.\n\n, there were up to  users of compounded GLP-1 drugs (including semaglutide) in the United States, according to Novo Nordisk CEO Mike Doustdar.\n\nSome compounded versions contain salts of semaglutide, including the sodium and the acetate. The FDA cautioned that formulations containing semaglutide sodium or semaglutide acetate had not yet been shown to be safe and effective, and stated that moreover, the FDA does not evaluate compounded drugs for safety and effectiveness.\n\nThe National Association of Boards of Pharmacy, a trade organization for pharmacy regulators, claims that there are tens of thousands of online pharmacies operating illegally or outside of the association's recommendations. Novo Nordisk has taken legal action against several businesses that it alleges are selling unfit semaglutide products.\n\n===Counterfeits===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Compounding when Drugs are on FDA's Drug Shortages List, (1 October 2024)",
+          "url": "https://www.fda.gov/drugs/human-drug-compounding/compounding-when-drugs-are-fdas-drug-shortages-list"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Compounding and the FDA: Q & A, (1 October 2024)",
+          "url": "https://www.fda.gov/drugs/human-drug-compounding/compounding-and-fda-questions-and-answers"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Compounding pharmacies are making their own versions of blockbuster weight loss drugs, (30 May 2024)",
+          "url": "https://www.npr.org/2024/05/30/nx-s1-4973307/compounding-pharmacies-are-making-their-own-versions-of-blockbuster-weight-loss-drugs"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Drug Shortages: Semaglutide Injection",
+          "url": "https://dps.fda.gov/drugshortages/activeingredient/semaglutide-injection"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Alyssa Billingsley, Is Semaglutide in Shortage? The Latest on Ozempic and Wegovy Availability, (26 November 2024)",
+          "url": "https://www.goodrx.com/classes/glp-1-agonists/semaglutide-shortage"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Novo Nordisk CEO flags 1.5 million US users of compounded GLP-1 drugs, (13 January 2026)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/novo-nordisk-ceo-flags-15-million-us-users-compounded-glp-1-drugs-2026-01-12/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss, (1 October 2024)",
+          "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Medications Containing Semaglutide Marketed for Type 2 Diabetes or Weight Loss, (21 December 2023)",
+          "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/medications-containing-semaglutide-marketed-type-2-diabetes-or-weight-loss"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Thinking of buying Wegovy online? Here's what to know about compounding pharmacies, (7 June 2024)",
+          "url": "https://www.npr.org/sections/shots-health-news/2024/06/07/g-s1-3331/wegovy-online-compound-semaglutide-compounding-pharmacies"
+        }
+      ]
+    },
+    {
+      "id": "counterfeits",
+      "title": "Counterfeits",
+      "level": 3,
+      "content": "In October 2023, there were reports of counterfeit Ozempic pens being sold in Europe. The pens possibly contained insulin, and led to several people being hospitalised with hypoglycemia and seizures.\n\nIn December 2023, the US FDA issued a warning about counterfeit Ozempic.\n\n===Economics===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "EMA alerts EU patients and healthcare professionals to reports of falsified Ozempic pens, (18 October 2023)",
+          "url": "https://www.ema.europa.eu/en/news/ema-alerts-eu-patients-and-healthcare-professionals-reports-falsified-ozempic-pens"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Ozempic (semaglutide) and Saxenda (liraglutide): vigilance required due to potentially harmful falsified products, (23 November 2023)",
+          "url": "https://www.gov.uk/drug-safety-update/ozempicv-semaglutide-and-saxenda-liraglutide-vigilance-required-due-to-potentially-harmful-falsified-products"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "European regulator warns EU, UK about fake Ozempic pens, (18 October 2023)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/eu-medicines-regulator-warns-eu-uk-fake-ozempic-pens-2023-10-18/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Several hospitalised in Austria after using suspected fake diabetes drug, (24 October 2023)",
+          "url": "https://www.theguardian.com/world/2023/oct/24/several-hospitalised-in-austria-after-using-suspected-fake-diabetes-drug"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Kyinsu, (2026-02-12)",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kyinsu"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "FDA warns consumers not to use counterfeit Ozempic (semaglutide) found in U.S. drug supply chain, (21 December 2023)",
+          "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-warns-consumers-not-use-counterfeit-ozempic-semaglutide-found-us-drug-supply-chain"
+        }
+      ]
+    },
+    {
+      "id": "economics",
+      "title": "Economics",
+      "level": 3,
+      "content": "Semaglutide had the highest earnings from sales of medications in the US in 2023, with expenditures of .\n\n====Cost, coverage and supply====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "National trends in prescription drug expenditures and projections for 2024, (July 2024)"
+        }
+      ]
+    },
+    {
+      "id": "cost-coverage-and-supply",
+      "title": "Cost, coverage and supply",
+      "level": 4,
+      "content": "In the US, Wegovy has a list price of $1,349.02 per month as of 2022, suggesting that because of the high costs many people \"who could most benefit from weight loss may be unable to afford such expensive drugs\". High costs of Ozempic prompted some insurance companies to investigate and refuse to cover individuals with what the companies considered was insufficient evidence to support a diabetes diagnosis, alleging off-label prescribing for weight loss.\n\nNovo Nordisk announced in February 2026, that effective January 2027 the list price of Wegovy, Ozempic and Rybelsus would drop to $675/month.\n\nIn the UK, semaglutide is available on NHS prescription for diabetes at nominal or no cost to the individual. It is also available for obesity, limited to treatment for two years. In Finland, semaglutide is included in the national price regulation scheme and is available by prescription; however, for people with type 2 diabetes and a BMI over 27, part of the cost is covered by Kela, the Finnish social insurance institution. In Australia, semaglutide is available on the Pharmaceutical Benefits Scheme prescription for diabetes at the regular co-payment rates of $31.60, or $7.70 for concession card holders. By contrast, in the United States, due to high costs, some health plans do not cover weight-loss drugs like semaglutide and tirzepatide. (, about half of plans sponsored by private-sector employers cover these drugs, federal Medicare Part D does not cover weight-loss drugs, and only a few federally-funded, state-administered Medicaid plans cover drugs for obesity.)\n\nHigh demand caused worldwide supply shortages of semaglutide in 2023; new UK prescriptions were not issued during the shortage. Novo Nordisk revealed in April 2024, that to meet the enormous demand for semaglutide, it was running its production facilities 24/7; it had budgeted $6 billion in 2024 to expand its crowded and congested facilities; and it had hired over 10,000 new employees in 2023 alone.\n\n====Economic impact on Denmark====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Patients Taking Experimental Obesity Drug Lost More Than 50 Pounds, Maker Claims, (28 April 2022)",
+          "url": "https://www.nytimes.com/2022/04/28/health/obesity-drug-eli-lilly-tirzepatide-wegovy.html"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "U.S. Leads the world in list prices for diabetes, antiobesity meds, (21 August 2023)",
+          "url": "https://www.medicaleconomics.com/view/u-s-leads-the-world-in-list-prices-for-diabetes-antiobesity-meds"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Charted: The cost of weight-loss drugs in the US vs. Other countries",
+          "url": "https://www.advisory.com/daily-briefing/2023/08/21/weight-loss-drug-cost"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Novo Nordisk announces significant reduction in US list price for Wegovy®, Ozempic®, and Rybelsus® (Semaglutide medicines), building on continued efforts to expand access",
+          "url": "https://www.prnewswire.com/news-releases/novo-nordisk-announces-significant-reduction-in-us-list-price-for-wegovy-ozempic-and-rybelsus-semaglutide-medicines-building-on-continued-efforts-to-expand-access-302695705.html"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "NICE recommended weight-loss drug to be made available in specialist NHS services, (8 March 2023)",
+          "url": "https://www.nice.org.uk/news/article/nice-recommended-weight-loss-drug-to-be-made-available-in-specialist-nhs-services"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "I lost 40 pounds on Ozempic. But I'm left with even more questions, (6 June 2023)",
+          "url": "https://www.washingtonpost.com/opinions/2023/06/06/ozempic-weight-loss-ruth-marcus/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Finns' appetite for weightloss drugs grows, (8 October 2024)",
+          "url": "https://yle.fi/a/74-20116566"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Semaglutide",
+          "url": "https://www.pbs.gov.au/medicine/item/12075m-12080t"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "2024 Employer Health Benefits Survey, (9 October 2024)",
+          "url": "https://www.kff.org/report-section/ehbs-2024-summary-of-findings/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Health Benefits In 2024: Higher Premiums Persist, Employer Strategies For GLP-1 Coverage And Family-Building Benefits, (November 2024)"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Buried in Wegovy Costs, North Carolina Will Stop Paying for Obesity Drugs, (26 January 2024)",
+          "url": "https://www.nytimes.com/2024/01/26/business/obesity-drugs-insurance-north-carolina.html"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "The State That Chose to Cover Obesity Drugs for Its Poor, but Not Its Own Employees, (30 August 2024)",
+          "url": "https://www.nytimes.com/2024/08/30/upshot/wegovy-obesity-drugs-north-carolina.html"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Obesity Drugs Would Be Covered by Medicare and Medicaid Under Biden Proposal, (26 November 2024)",
+          "url": "https://www.nytimes.com/2024/11/26/upshot/obesity-drugs-medicare-medicaid.html"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Insurers clamping down on doctors who prescribe Ozempic for weight loss, (12 June 2023)",
+          "url": "https://www.washingtonpost.com/business/2023/06/11/weight-loss-ozempic-wegovy-insurance/"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "It Introduced Ozempic to the World. Now It Must Remake Itself., (20 April 2024)",
+          "url": "https://www.nytimes.com/2024/04/20/business/ozempic-novo-nordisk-wegovy.html"
+        }
+      ]
+    },
+    {
+      "id": "economic-impact-on-denmark",
+      "title": "Economic impact on Denmark",
+      "level": 4,
+      "content": "By 2023, Novo Nordisk was the most valuable corporation in the European Union, worth more than , and accounted for almost all economic growth in Denmark. The large amounts of foreign currency earned by Novo Nordisk from Wegovy and Ozempic sales, when converted to Danish krone, have exerted upward pressure on the value of the krone, making it necessary for Danmarks Nationalbank to maintain lower interest rates than the European Central Bank. Poor clinical trial results published by Novo Nordisk in December 2024 contributed to a drop in the krone's value.\n\nProfits from Novo Nordisk result in increased Danish tax revenues and employment.\n\nAs of February 2026, Novo Nordisk has a market capitalization of $220.42 billion.\n\n=== Rejection of Biden-Era Proposal ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "How Ozempic could affect the health of the global economy in more ways than one, (19 December 2023)",
+          "url": "https://www.abc.net.au/news/2023-12-19/ozempic-obesity-diabetes-health-challenges-impact-global-economy/103244056"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Something Is Golden in the State of Denmark, (16 October 2023)",
+          "url": "https://www.theatlantic.com/ideas/archive/2023/10/novo-nordisk-ozempic-wegovy-denmark/675638/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Denmark's economy runs on Novo. Will the drugmaker's troubles slim it down?, (3 August 2025)",
+          "url": "https://finance.yahoo.com/news/denmark-economy-runs-novo-drugmaker-070026676.html"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Novo Nordisk's drug trial results weaken Danish currency, (20 December 2024)",
+          "url": "https://www.reuters.com/markets/currencies/novo-nordisks-drug-trial-results-weaken-danish-currency-2024-12-20/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Novo Nordisk's Wegovy bonanza looms large in Denmark, (5 October 2023)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/novo-nordisks-wegovy-bonanza-looms-large-denmark-2023-10-05/"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Novo Nordisk (NVO), (14 February 2026)",
+          "url": "https://companiesmarketcap.com/novo-nordisk/marketcap/"
+        }
+      ]
+    },
+    {
+      "id": "rejection-of-biden-era-proposal",
+      "title": "Rejection of Biden-Era Proposal",
+      "level": 3,
+      "content": "On April 4, 2025, the Trump Administration declined to finalize a proposal from the Biden Administration that would have required Medicare, Medicaid, and CHIP to broadly cover GLP-1s for weight loss. Despite the rejection, CMS has indicated that it might cover obesity medication in future rulemaking. However, in November 2025, the Trump Administration announced TrumpRx, an initiative similar to GoodRx to lower the price of GLP-1s to $245 per month for patients covered by Medicaid and CHIP and $50 month for Medicare patients if states opted in. Coverage for patients with obesity and at least one comorbidity like (elevated LDL-cholesterol, high blood pressure and/or MASLD), will be implemented as early as April 1, 2026. However, the cost will be significantly higher to taxpayers due to the fact that most insurance companies do not cover it in their formulary. Prior to this change, most Medicaid and CHIP patients only paid $3 a month, the same price for brand-name medication.\n\n== Research ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Think 2025 Was a Big Year for Health News? Fasten Your Seat Belts",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-01-01/health-metrics-shaping-2026-fda-approvals-measles-trends-insurance-premiums?embedded-checkout=true"
+        }
       ]
     },
     {
       "id": "research",
       "title": "Research",
       "level": 2,
-      "content": "Ongoing research is investigating semaglutide for additional indications beyond diabetes and obesity. Studies are examining its potential benefits for cardiovascular disease, non-alcoholic fatty liver disease (NAFLD, now termed metabolic dysfunction-associated steatotic liver disease or MASLD), Alzheimer's disease, addiction, and sleep apnea.\n\nThe SELECT trial demonstrated that semaglutide reduced the risk of major adverse cardiovascular events by 20% in overweight or obese adults without diabetes. Phase 3 trials for MASLD are ongoing. Preliminary results from studies on alcohol use disorder suggest semaglutide may reduce cravings, though larger trials are needed.",
+      "content": "A 2014 meta-analysis found that semaglutide may be effective in lowering liver enzymes (transaminitis) and improving certain radiologically observed features of metabolic dysfunction–associated steatotic liver disease.\nThe French national health care insurance system database had previously suggested that one to three years of use of glucagon-like peptide-1 receptor agonists like exenatide, liraglutide, and dulaglutide may be linked with increased occurrence of thyroid cancer. Semaglutide belongs to the same family of medicine. A meta-analysis involving data from 37 randomized controlled trials and 19 real-world studies (46,719 individuals) showed that semaglutide use over 18 months was not associated with increased risk of any cancer, supported by high-quality evidence.\n\nIn March 2023, a Novo Nordisk official said, based on a randomized, double-blind study (NCT03548935) funded by the company, that people using semaglutide to lose weight regained two-thirds of their original weight loss one year (52 weeks) after discontinuing use of the drug. After two years (120 weeks), the patients retained roughly one-third of their original weight loss (5.6% of the original 17.3% loss).\n\nIn July 2023, the Icelandic Medicines Agency reported two cases of suicidal thoughts and one case of self-injury of users of the injection, prompting a safety assessment of Ozempic, Wegovy, Saxenda, and similar drugs. In January 2024, a preliminary review conducted by the US Food and Drug Administration (FDA) confirmed no evidence had been found to suggest that the medicine causes suicidal thoughts or actions.\n\nIn June 2025, the European Medicines Agency recommended that the product information for semaglutide medicines be updated to include non-arteritic anterior ischemic optic neuropathy as a very rare side effect, while the World Health Organization concluded that the risk management plan for semaglutide should be revised to include non-arteritic anterior ischemic optic neuropathy as a potential risk.\n\nA 2025 observational study reported a modest increased risk of a serious eye condition in people with diabetes taking glucagon-like peptide-1 (GLP-1) receptor agonists. The analysis found that individuals using the medications had a slightly higher incidence of neovascular age-related macular degeneration compared to similar individuals not on the medications.\n\nIn the STEP-HFpEF trial including people with obesity and heart failure with preserved ejection fraction, weight loss was associated with improvements in heart failure symptoms and functional capacity. An observational study on people with obesity and type 2diabetes and heart failure with preserved ejection fraction, semaglutide had about a 42% lower risk of hospitalization for heart failure and all-cause death combined compared with sitagliptin.\n\nAn analysis of events in the US FDA Adverse Event Reporting System suggests an association between several GLP-1 agonists (including semaglutide) and cutaneous reactions, such as dermal hypersensitivity reactions, eosinophilic panniculitis, bullous pemphigoid, and morbilliform drug eruptions.\n\n=== Effect on lean body mass ===",
       "citations": [
-        { "id": "c6", "index": 13, "text": "Lincoff AM, et al. SELECT trial. NEJM, 2023", "url": "https://doi.org/10.1056/NEJMoa2307563" },
-        { "id": "c6b", "index": 14, "text": "Semaglutide and alcohol use disorder: preliminary findings. Nature Medicine, 2025", "url": "https://doi.org/10.1038/s41591-025-placeholder" }
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Impact of semaglutide on biochemical and radiologic measures of metabolic-dysfunction associated fatty liver disease across the spectrum of glycaemia: A meta-analysis, (June 2022)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Semaglutide and cancer: A systematic review and meta-analysis, (September 2023)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "STEP 1: Research Study Investigating How Well Semaglutide Works in People Suffering From Overweight or Obesity (STEP 1), (November 2021)",
+          "url": "https://clinicaltrials.gov/study/NCT03548935"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Novo Nordisk says stopping obesity drug may cause full weight regain in 5 years, (30 March 2023)",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/novo-nordisk-says-stopping-obesity-drug-may-cause-full-weight-regain-5-years-2023-03-30/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension, (August 2022)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Ozempic, Drugs for Weight Loss Being Reviewed for Links to Suicide Risk, (27 July 2023)",
+          "url": "https://people.com/ozempic-wegovy-weight-loss-drug-suicide-risks-uk-7566473"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Weight-loss jabs investigated for suicide risk, (10 July 2023)",
+          "url": "https://www.bbc.com/news/health-66119059"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "FDA reports no link between weight-loss drugs and suicidal thoughts, (11 January 2024)",
+          "url": "https://www.washingtonpost.com/health/2024/01/11/fda-ozempic-wegovy-suicide-safety/"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Update on FDA's ongoing evaluation of reports of suicidal thoughts or actions in patients taking a certain type of medicines approved for type 2 diabetes and obesity, (11 January 2024)",
+          "url": "https://www.fda.gov/drugs/drug-safety-and-availability/update-fdas-ongoing-evaluation-reports-suicidal-thoughts-or-actions-patients-taking-certain-type"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "PRAC concludes eye condition NAION is a very rare side effect of semaglutide medicines Ozempic, Rybelsus and Wegovy, (6 June 2025)",
+          "url": "https://www.ema.europa.eu/en/news/prac-concludes-eye-condition-naion-very-rare-side-effect-semaglutide-medicines-ozempic-rybelsus-wegovy"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "The use of semaglutide medicines and risk of non-arteritic anterior ischemic optic neuropathy (NAION)",
+          "url": "https://www.who.int/news/item/27-06-2025-27-06-2025-semaglutide-medicines-naion"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "GLP-1 drugs may be linked to elevated risk of serious eye disease, study finds, (5 June 2025)",
+          "url": "https://www.statnews.com/2025/06/05/glp-1-drugs-low-but-elevated-risk-of-age-related-macular-degeneration/"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Glucagon-Like Peptide-1 Receptor Agonists and Risk of Neovascular Age-Related Macular Degeneration, (June 2025)"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Semaglutide versus placebo in people with obesity-related heart failure with preserved ejection fraction: a pooled analysis of the STEP-HFpEF and STEP-HFpEF DM randomised trials, (April 2024)"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Semaglutide and Tirzepatide in Patients With Heart Failure With Preserved Ejection Fraction, (August 2025)"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Daniel, A Retrospective Comparative Analysis of Cutaneous Adverse Reactions in GLP-1 Agonist Therapies, (1 April 2025)",
+          "url": "https://jddonline.com/articles/retrospective-comparative-analysis-of-cutaneous-adverse-reactions-in-glp-1-agonist-therapies-S1545961625P8605X"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Salazar, Rare cutaneous adverse reactions associated with GLP-1 agonists: a review of the published literature, (25 May 2024)",
+          "url": "https://link.springer.com/article/10.1007/s00403-024-02969-3"
+        }
+      ]
+    },
+    {
+      "id": "effect-on-lean-body-mass",
+      "title": "Effect on lean body mass",
+      "level": 3,
+      "content": "A 2024 systematic review of six studies found that while lean body mass was unchanged in some cases, there were instances of significant decreases in lean body mass ranging from 0 to 40%. However, the review concluded that in all studies the ratio of lean body mass to total body mass increased, supporting continued use of the medication.\n\n==Notes==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "A systematic review of the effect of semaglutide on lean mass: insights from clinical trials, (April 2024)"
+        }
       ]
     }
   ]

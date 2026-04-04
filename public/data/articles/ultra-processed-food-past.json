@@ -1,0 +1,489 @@
+{
+  "id": "ultra-processed-food",
+  "title": "Ultra-processed food",
+  "revisionDate": "2025-04-02",
+  "revisionId": "1283556375",
+  "sections": [
+    {
+      "id": "ultra-processed-food-lead",
+      "title": "Lead",
+      "level": 1,
+      "content": ", a cereal, which is ultra processed.]]\n]]\nAn ultra-processed food (UPF) is a grouping of processed food characterized by relatively involved methods of production. There is no simple definition of UPF, but they are generally understood to be an industrial creation derived from natural food or synthesized from other organic compounds. The resulting products are designed to be highly profitable, convenient, and hyperpalatable, often through food additives such as preservatives, colourings, and flavourings. UPFs have often undergone processes such as moulding/extruding, hydrogenation, or frying. though the term \"ultra-processed food\" gained prominence from a 2009 paper by Brazilian researchers as part of the Nova classification system. The Nova definition considers ingredients, processing, and how products are marketed;\n\nSince the 1990s, UPF sales have consistently increased or remained high in most countries. While national data is limited, as of 2023, the United States and the United Kingdom lead the consumption rankings, with 58% and 57% of daily calories, respectively. Consumption varies widely across countries, ranging from 25% to 35%. Chile, France, Mexico, and Spain fall within this range, while Colombia, Italy, and Taiwan have consumption levels of 20% or less. A 2024 meta-analysis published in The BMJ identified 32 studies that associated UPF with negative health outcomes, though it also noted a possible heterogeneity among sub-groups of UPF. The specific mechanism of the effects was not clear. \n\nSome authors have criticised the concept of \"ultra-processed foods\" as poorly defined, and the Nova classification system as too focused on the type rather than the amount of food consumed. Other authors, mostly in the field of nutrition, have been critical of the lack of attributed mechanisms for the health effects, focusing on how the current research evidence does not provide specific explanations for how ultra-processed food affects body systems.",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "The big issue is ultra-processing, (2010)",
+          "url": "https://wphna.org/worldnutritionjournal/index.php/wn/article/view/535"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "The big issue is ultra-processing. Why bread, hot dogs – and margarine – are ultra-processed, (2011)",
+          "url": "https://wphna.org/worldnutritionjournal/index.php/wn/article/view/452"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Ultra-processed foods: what they are and how to identify them, (April 2019)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Advances in Food and Nutrition Research, (2018)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Dixon, Ultra-processed foods: the 19 things everyone needs to know, (Sep 6, 2023)",
+          "url": "https://www.theguardian.com/food/2023/sep/06/ultra-processed-foods-the-19-things-everyone-needs-to-know"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Ultra-processed foods and cardiometabolic health: public health policies to reduce consumption cannot wait, (October 2023)"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Consumption of ultra-processed foods and health status: a systematic review and meta-analysis, (February 2021)"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Ultra-processed food exposure and adverse health outcomes: umbrella review of epidemiological meta-analyses, (February 2024)"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "The ultra-processed foods hypothesis: a product processed well beyond the basic ingredients in the package, (December 2023)"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Ultraprocessed Foods and Obesity Risk: A Critical Review of Reported Mechanisms, (July 2023)"
+        }
+      ]
+    },
+    {
+      "id": "definitions",
+      "title": "Definitions",
+      "level": 2,
+      "content": "Concerns about food processing have existed since at least the Industrial Revolution. The origin of ultra-processed food is more recent: Michael Pollan's influential book ''The Omnivore's Dilemma'' (2006) referred to highly processed industrial food as 'edible food-like substances'. Carlos Augusto Monteiro cited Pollan as an influence in coining the term 'ultra-processed food' in a 2009 commentary.\n\nMonteiro's team developed the Nova classification for grouping unprocessed and processed foods beginning in 2010, whose definition of ultra-processing became the most widely accepted, refined through successive publications. The identification of ultra-processed foods, as well as the category itself, is a subject of debate among nutrition and public health scientists, and other definitions have been proposed.\n\nA survey of systems for classifying levels of food processing in 2021 identified four 'defining themes':\n* Extent of change (from natural state)\n* Nature of change (properties, ingredients added)\n* Place of processing (where/by whom)\n* Purpose of processing (why, essential/cosmetic)\n\n=== Monteiro's 2009 commentary ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Food Classification Systems Based on Food Processing: Significance and Implications for Policies and Actions: A Systematic Literature Review and Assessment, (June 2014)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "The omnivore's dilemma: A natural history of four meals, (2006)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "You may be eating predigested food. Here's why, (February 1, 2024)",
+          "url": "https://www.cnn.com/2024/02/01/health/predigested-food-wellness?cid=external-feeds_iluminar_yahoo"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Melted, pounded, extruded: Why many ultra-processed foods are unhealthy, (June 27, 2023)",
+          "url": "https://www.washingtonpost.com/wellness/2023/06/27/ultra-processed-foods-predigested-health-risks/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Experts Warn That the Food You're Eating May Have Been \"Pre-Digested, (February 3, 2024)",
+          "url": "https://futurism.com/ultraprocessed-food-predigested"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "You might be eating 'predigested' food. Seriously, (February 5, 2024)",
+          "url": "https://www.ajc.com/pulse/you-might-be-eating-predigested-food-seriously/7NJSSE4ZYNDVZGR5ZXJMVUY5QQ/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Ultra-Processed Foods: Definitions and Policy Issues, (February 2019)"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Ultra-processed foods: A new holistic paradigm?, (November 2019)"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Processed food classification: Conceptualisation and challenges, (June 2021)"
+        }
+      ]
+    },
+    {
+      "id": "monteiros-2009-commentary",
+      "title": "Monteiro's 2009 commentary",
+      "level": 3,
+      "content": "Carlos Monteiro, working with a team of researchers at the University of São Paulo, first published the concept of ultra-processed foods:\n\nUltra-processed foods are basically confections of group 2 ingredients [substances extracted from whole foods], typically combined with sophisticated use of additives, to make them edible, palatable, and habit-forming. They have no real resemblance to group 1 foods [minimally processed foods], although they may be shaped, labelled and marketed so as to seem wholesome and 'fresh'. Unlike the ingredients included in group 2, ultra-processed foods are typically not consumed with or as part of minimally processed foods, dishes and meals. On the contrary, they are designed to be ready-to-eat (sometimes with addition of liquid such as milk) or ready-to-heat, and are often consumed alone or in combination (such as savoury snacks with soft drinks, bread with burgers).\n\nThis definition is as much social as one based on specific ingredients, which makes the understanding of ultra-processed foods highly intuitive, even among untrained consumers. A letter responding to Monteiro's 2009 commentary suggested that the definition 'lacks precision', since it lacks the measurable definitions of traditional food science. Because of this, researchers disagree whether the definition can form a valid basis for scientific investigation.\n\n=== Nova classification ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Nutrition and health. The issue is not food, nor nutrients, so much as processing, (May 2009)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Perceived degree of food processing as a cue for perceived healthiness: The NOVA system mirrors consumers' perceptions, (August 2023)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Consumers' conceptualization of ultra-processed foods, (October 2016)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "The good, the bad, and the ultra-processed, (October 2009)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Hyper-Palatable Foods: Development of a Quantitative Definition and Application to the US Food System Database, (November 2019)"
+        }
+      ]
+    },
+    {
+      "id": "nova-classification",
+      "title": "Nova classification",
+      "level": 3,
+      "content": "Monteiro's team subsequently presented ultra-processed foods as a group in the Nova food classification system. The system focuses on food processing rather than foods types or nutrients. Nova categorizes foods into four groups:\n\nThe Nova definition of ultra-processed food does not comment on the nutritional content of food and is not intended to be used for nutrient profiling.\n\n=== International Agency for Research on Cancer (IARC) ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "A new classification of foods based on the extent and purpose of their processing, (November 2010)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Best practices for applying the Nova food classification system, (June 2023)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "How do we differentiate not demonise - Is there a role for healthier processed foods in an age of food insecurity? Proceedings of a roundtable event, (June 2023)",
+          "url": "https://research.tees.ac.uk/en/publications/f1b185a9-59fd-41ee-9632-0ca08ecb280b"
+        }
+      ]
+    },
+    {
+      "id": "international-agency-for-research-on-cancer-iarc",
+      "title": "International Agency for Research on Cancer (IARC)",
+      "level": 3,
+      "content": "The International Agency for Research on Cancer, an intergovernmental agency that forms part of the World Health Organization, classifies foods by their degree of processing. This system breaks food into 'non-processed', 'moderately processed', and 'highly processed' food. The system does not take into account the nature or purpose of changes.\n\n=== Siga Index ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Ecological-level associations between highly processed food intakes and plasma phospholipid elaidic acid concentrations: results from a cross-sectional study within the European prospective investigation into cancer and nutrition (EPIC), (November 2011)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Contribution of highly industrially processed foods to the nutrient intakes and patterns of middle-aged populations in the European Prospective Investigation into Cancer and Nutrition study, (November 2009)"
+        }
+      ]
+    },
+    {
+      "id": "siga-index",
+      "title": "Siga Index",
+      "level": 3,
+      "content": "The Siga Index is a classification system for processed foods developed in France.\n\nThe Siga Index assigns a score from 1 to 100 to each food product, where higher scores indicate higher nutritional quality and lower processing. The Siga Index also defines ultra-processed foods (UPFs) as those with a score below 40, which are considered to have low nutritional value and high levels of additives, preservatives, and artificial ingredients.\n\n=== International Food Information Council (IFIC) ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "The holistico-reductionist Siga classification according to the degree of food processing: an evaluation of ultra-processed foods in French supermarkets, (March 2020)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Vers une classification des aliments selon leur degré de transformation: Approches holistique et/ou réductionniste, (October 2018)"
+        }
+      ]
+    },
+    {
+      "id": "international-food-information-council-ific",
+      "title": "International Food Information Council (IFIC)",
+      "level": 3,
+      "content": "The International Food Information Council defines five levels of food processing: minimally processed, foods processed for preservation, mixtures of combined ingredients, ready-to-eat processed foods, and prepared foods/meals.\n\n=== NUPENS ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Energy and Nutrient Intakes from Processed Foods Differ by Sex, Income Status, and Race/Ethnicity of US Adults, (June 2015)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Contributions of processed foods to dietary intake in the US from 2003-2008: a report of the Food and Nutrition Science Solutions Joint Task Force of the Academy of Nutrition and Dietetics, American Society for Nutrition, Institute of Food Technologists, and International Food Information Council, (November 2012)"
+        }
+      ]
+    },
+    {
+      "id": "nupens",
+      "title": "NUPENS",
+      "level": 3,
+      "content": "The Center for Epidemiological Research in Nutrition and Health at the University of São Paulo has proposed a variant on the Nova classification consisting of: unprocessed, minimally, or moderately processed foods; processed foods; and ultra-processed foods.\n\n== Economics ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Consumption of ultra-processed foods and obesity in Brazilian adolescents and adults, (December 2015)",
+          "url": "https://www.repository.cam.ac.uk/handle/1810/249066"
+        }
+      ]
+    },
+    {
+      "id": "economics",
+      "title": "Economics",
+      "level": 2,
+      "content": "The high amount of processing lends ultra-processed food to be subject to different economic constraints compared to natural food.\n\n=== Profitability ===",
+      "citations": []
+    },
+    {
+      "id": "profitability",
+      "title": "Profitability",
+      "level": 3,
+      "content": "is one of the world's major distributors of ultra-processed food, with a presence in 188 countries.]]\nUltra-processed foods often use less expensive ingredients, allowing ultra-processed food to be priced lower. Furthermore, ultra-processed foods are more consistently available in stores. Global production networks of multinational food companies creating ultra-processed food are supported by high brand awareness, aggressive globalization tactics, and the purchasing of local companies selling similar products.\n\nCompanies selling ultra-processed food frequently target youth consumers and middle income countries. Many of these companies use big data to choose which consumers to market to. Furthermore, the ultra-processed food industry uses indirect and direct lobbying in large countries to influence local food policy.\n\n=== Affordability for consumers ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Characterizing Ultra-Processed Foods by Energy Density, Nutrient Density, and Cost, (2019-05-28)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Ultra-processed products are becoming dominant in the global food system, (November 2013)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Big food, food systems, and global health, (2012-06-19)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Ultra-processed foods and the nutrition transition: Global, regional and national trends, food systems transformations and political economy drivers, (December 2020)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "The UN Decade of Nutrition, the NOVA food classification and the trouble with ultra-processing, (January 2018)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Big Data and the transformation of food and beverage marketing: undermining efforts to reduce obesity?, (January 2019)",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/09581596.2017.1392483"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "'I had never seen so many lobbyists': food industry political practices during the development of a new nutrition front-of-pack labelling system in Colombia, (June 2021)"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Corporate interest groups and their implications for global food governance: mapping and analysing the global corporate influence network of the transnational ultra-processed food industry, (February 2024)"
+        }
+      ]
+    },
+    {
+      "id": "affordability-for-consumers",
+      "title": "Affordability for consumers",
+      "level": 3,
+      "content": "They often have an extended shelf life, an important consideration for lower income consumers without reliable access to refrigeration. Among other reasons for the popularity of ultra-processed foods are the inexpensive cost of their main ingredients. The price of ultra-processed food fluctuated less than unprocessed food over a twelve-year period.\n\n== Health effects ==",
+      "citations": []
+    },
+    {
+      "id": "health-effects",
+      "title": "Health effects",
+      "level": 2,
+      "content": "The effect of ultra-processed foods on health has mainly been investigated using nutritional epidemiology and so far there has been no randomized controlled trial to investigate the effect of these foods on any health outcome other than weight gain.{{efn|The one often-cited RCT on UPF, energy intake, and weight gain does not control for macronutrient profile and therefore calorie density. Calorie density is known to have a strong effect on weight gain.although studies separating different types of ultra-processed food have found adverse effects mainly for only some sub-groups such as soft drinks and animal products, with some sub-groups such as cereals showing an inverse effect. Another study proposed that food addiction may also be associated with consumption of ultra-processed foods. There is currently however no scientific consensus.\n\n== Environmental impact ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Ultra-processed food consumption and cancer risk: A systematic review and meta-analysis, (June 2023)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Ultra-Processed Food Consumption and Risk of Type 2 Diabetes: Three Large Prospective U.S. Cohort Studies, (July 2023)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Ultra-processed foods and cancer risk: from global food systems to individual exposures and mechanisms, (July 2022)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Ultra-Processed Food Addiction: An Epidemic?, (2022-11-07)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Kelly, Demonising processed food undermines our trust in science, (December 9, 2019)",
+          "url": "https://theconversation.com/demonising-processed-food-undermines-our-trust-in-science-128442"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Nichols, Beyond the Headlines: Unpacking the Truth About \"Ultra-Processed\" Foods and Health, (2024-05-20)",
+          "url": "https://consumerbrandsassociation.org/blog/beyond-the-headlines-unpacking-the-truth-about-ultra-processed-foods-and-health/"
+        }
+      ]
+    },
+    {
+      "id": "environmental-impact",
+      "title": "Environmental impact",
+      "level": 2,
+      "content": "In a non-peer-reviewed \"comment\" article, Seferidi et al. argue that UPFs require extensive processing and packaging, resulting in higher energy consumption and waste production compared to minimally processed foods. Moreover, the globalized supply chains for the ingredients of ultra-processed foods contribute to greenhouse gas emissions. However, the \"UPF\" classification also includes plant-based dairy and meat substitutes, which contribute lower emissions compared to their animal-based counterparts. Moreover, studies focusing on the overall food system have consistently found that the greenhouse gas emissions from the supply chain is far outweighed by the emissions from land use and agriculture.\n\nLeite et al. (2022) describes an overlooked aspect of the discourse: UPFs are generally produced from a handful of high-yielding plant species. This phenomenon encourages monoculture and reduces global agrobiodiversity by displacing more diverse traditional foods.\n\n== Regulation and policy ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "The neglected environmental impacts of ultra-processed foods, (October 2020)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Daas, The role of ultra-processed foods in plant-based diets: associations with human health and environmental sustainability., (December 2024)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Ritchie, How much of global greenhouse gas emissions come from food?, (18 March 2024)",
+          "url": "https://ourworldindata.org/greenhouse-gas-emissions-food"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Ultra-processed foods should be central to global food systems dialogue and action on biodiversity, (March 2022)"
+        }
+      ]
+    },
+    {
+      "id": "regulation-and-policy",
+      "title": "Regulation and policy",
+      "level": 2,
+      "content": "Given the health and environmental impacts of ultra-processed foods, there have been calls for better regulation and policy surrounding these products. These measures face significant challenges, including industry opposition and the global nature of food supply chains. Future policy efforts may require a combination of regulation, education, and incentives to promote healthier, more sustainable food choices.\n\nFour Latin American countries—Brazil, Uruguay, Peru, and Ecuador—have so far published national official dietary guidelines that recommend avoiding ultra-processed foods. Chile requires warning labels on some ultra-processed foods and taxes sugar-sweetened beverages. A report on obesity published by the World Bank in 2020 mentions ultra-processed foods as a potential contributor.\n\nIn 2022, the Scientific Advisory Committee on Nutrition (SACN) reviewed scientific literature to consider whether the British government should adopt a position on ultra-processed food and recommended further research, scheduling a review on its position for June 2024.\n\n== Criticism ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Dietary Guidelines for the Brazilian Population, (2014)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Guías Alimentarias para la Población Uruguaya, (2016)",
+          "url": "https://www.gub.uy/ministerio-salud-publica/comunicacion/publicaciones/guia-alimentaria-para-la-poblacion-uruguaya"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Guías Alimentarias para la Población Peruana, (2018)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Documento Técnico de las Guías Alimentarias Basadas en Alimentos (GABA) del Ecuador, (2018)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "The impacts on food purchases and tax revenues of a tax based on Chile's nutrient profiling model, (2021-12-02)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Shekar, Obesity: Health and economic consequences of an impending global challenge, (2020-02-13)"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Scientific Advisory Committee on Nutrition, SACN statement on processed foods and health, (2023-07-11)",
+          "url": "https://www.gov.uk/government/publications/sacn-statement-on-processed-foods-and-health"
+        }
+      ]
+    },
+    {
+      "id": "criticism",
+      "title": "Criticism",
+      "level": 2,
+      "content": "Following the publication of the Nova a four classification, some researchers questioned whether food processing should itself be considered a factor in nutrient intake, especially in a prominent 2017 criticism written by researchers, one of which was funded by Nestlé and the Kerry Group. UPFs are imprecisely defined and it is unclear how any adverse effects on health may come about.\n\nIn 2022, Carlos Monteiro and Arne Astrup argued for and against the Nova classification in a series of three articles written in the style of an Oxford debate. Monteiro's 'yes' argument states that the effects of ultra-processed food are demonstrated by representative dietary surveys and long-term cohort studies; that consuming ultra-processed food is associated with negative health outcomes; and that the associations are supported by discussions of specific mechanisms. Astrup's 'no' argument states that the Nova definition of ultra-processed foods is ambiguous and inherently leads to misclassification of foods; that evidence is lacking for effects that are not already accounted for by known factors such as nutrient composition; that existing evidence is limited to observational studies rather than being supported by randomized controlled trials; and that some ultra-processing techniques are valuable in achieving the transition to sustainable food production. The two researchers nonetheless agreed that food processing significantly affects diet quality and health outcomes; that most types of food processing are harmless or beneficial, with a minority being harmful; that some characteristics of food processing are useful for food classification systems; and that further study is required to understand the effect of food processing on human health.\n\nA number of studies show that although UPFs in general are associated with higher health risks, there exists a large heterogeneity among UPF subgroups. For example, although bread and cereals are classified as UPFs, a large 2023 study published in The Lancet finds them inversely associated with cancer and cardiometabolic diseases in the European population (hazard ratio 0.97). The study found that animal-based products (HR = 1.09) and artificially and sugar-sweetened beverages (HR = 1.09) are most strongly associated with diseases among UPFs. Robinson and Johnstone (2024) cite a similar study conducted in the US population. They argue that there should be a balanced approach in approaching UPFs: consumers should not be prematurely advised to avoid all UPFs, not just because of physical health concerns (UPF provide a large part of lower-income peoples' nutrition, and replacements may actually be less nutritious), but also because of social costs of the removal of UPFs (unnecessary anxiety and mistrust of science).\n\n== See also ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Ultra-processed foods in human health: a critical appraisal, (September 2017)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Eliminate or reformulate ultra-processed foods? Biological mechanisms matter, (December 2021)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Does the concept of \"ultra-processed foods\" help inform dietary guidelines, beyond conventional classification systems? YES, (December 2022)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Does the concept of \"ultra-processed foods\" help inform dietary guidelines, beyond conventional classification systems? NO, (December 2022)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Does the concept of \"ultra-processed foods\" help inform dietary guidelines, beyond conventional classification systems? Debate consensus, (December 2022)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Campbell, Some ultra-processed foods are good for your health, WHO-backed study finds, (13 November 2023)",
+          "url": "https://www.theguardian.com/society/2023/nov/13/some-ultra-processed-foods-are-good-for-your-health-who-backed-study-finds"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Cordova, Consumption of ultra-processed foods and risk of multimorbidity of cancer and cardiometabolic diseases: a multinational cohort study, (December 2023)"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Mendoza, Ultra-processed foods and cardiovascular disease: analysis of three large US prospective cohorts and a systematic review and meta-analysis of prospective cohort studies., (September 2024)"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Robinson, Ultraprocessed food (UPF), health, and mechanistic uncertainty: What should we be advising the public to do about UPFs?, (15 October 2024)"
+        }
+      ]
+    },
+    {
+      "id": "external-link",
+      "title": "External link",
+      "level": 2,
+      "content": "* How US Young Adults Understand and Conceptualize Ultra-Processed Foods. In: Current Developments in Nutrition Volume 8, July 2024 (Open Access)\n\nCategory:Food processing\nCategory:Food science\nCategory:Nutrition\nCategory:Food industry\nCategory:Food and drink terminology\nCategory:Health promotion",
+      "citations": []
+    }
+  ]
+}

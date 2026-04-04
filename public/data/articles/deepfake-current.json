@@ -1,0 +1,1868 @@
+{
+  "id": "deepfake",
+  "title": "Deepfake",
+  "revisionDate": "2026-04-04",
+  "revisionId": "1345341427",
+  "sections": [
+    {
+      "id": "deepfake-lead",
+      "title": "Lead",
+      "level": 1,
+      "content": "created in 2020 by a nonpartisan advocacy group RepresentUs]]\n\nDeepfakes (a portmanteau of  and ) are images, videos, or audio that have been edited or generated using artificial intelligence, AI-based tools or audio-video editing software. They may depict real or fictional people and are considered a form of synthetic media, that is media that is usually created by artificial intelligence systems by combining various media elements into a new media artifact.\n\nWhile the act of creating fake content is not new, deepfakes uniquely leverage machine learning and artificial intelligence techniques, including facial recognition algorithms and artificial neural networks such as variational autoencoders and generative adversarial networks (GANs). In turn, the field of image forensics has worked to develop techniques to detect manipulated images. Deepfakes have garnered widespread attention for their potential use in creating child sexual abuse material, celebrity pornographic videos, revenge porn, fake news, hoaxes, bullying, and financial fraud.\n\nAcademics have raised concerns about the potential for deepfakes to promote disinformation and hate speech, as well as interfere with elections. In response, the information technology industry and governments have proposed recommendations and methods to detect and mitigate their use. Academic research has also delved deeper into the factors driving deepfake engagement online as well as potential countermeasures to malicious application of deepfakes.\n\nFrom traditional entertainment to gaming, deepfake technology has evolved to be increasingly convincing and available to the public, allowing for the disruption of the entertainment and media industries.",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Wahab, Futures of Deepfake and society: Myths, metaphors, and future implications for a trustworthy digital future, (1 October 2025)",
+          "url": "https://www.sciencedirect.com/science/article/pii/S001632872500134X"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Kalpokas, Deepfakes, (2022)",
+          "url": "https://link.springer.com/book/10.1007/978-3-030-93802-4"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Berry, Synthetic media and computational capitalism: towards a critical theory of artificial intelligence, (19 March 2025)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Juefei-Xu, Countering Malicious DeepFakes: Survey, Battleground, and Horizon, (1 July 2022)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Kietzmann, Deepfakes: Trick or treat?, (2020)",
+          "url": "https://irep.ntu.ac.uk/id/eprint/38737/1/1247050_Lee.pdf"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Waldrop, Synthetic media: The real trouble with deepfakes, (16 March 2020)",
+          "url": "https://knowablemagazine.org/article/technology/2020/synthetic-media-real-trouble-deepfakes"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Schwartz, You thought fake news was bad? Deep fakes are where truth goes to die, (12 November 2018)",
+          "url": "https://www.theguardian.com/technology/2018/nov/12/deep-fakes-fake-news-truth"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Farid, Image Forensics, (15 September 2019)",
+          "url": "https://www.annualreviews.org/doi/full/10.1146/annurev-vision-091718-014827"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Banks, What Are Deepfakes & Why the Future of Porn is Terrifying, (20 February 2018)",
+          "url": "https://www.highsnobiety.com/p/what-are-deepfakes-ai-porn/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Christian, Experts fear face swapping tech could start an international showdown",
+          "url": "https://theoutline.com/post/3179/deepfake-videos-are-freaking-experts-out"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Roose, Here Come the Fake Videos, Too, (4 March 2018)",
+          "url": "https://www.nytimes.com/2018/03/04/technology/fake-videos-deepfakes.html"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Schreyer, Adversarial Learning of Deepfakes in Accounting, (October 2019)"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Dangers of Deepfake: What to Watch For {{!",
+          "url": "https://uit.stanford.edu/news/dangers-deepfake-what-watch"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Savat, Political deepfake videos no more deceptive than other fake news, research finds, (19 August 2024)",
+          "url": "https://source.washu.edu/2024/08/political-deepfake-videos-no-more-deceptive-than-other-fake-news-research-finds/"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Caramancion, 2021 IEEE International IOT, Electronics and Mechatronics Conference (IEMTRONICS), (21 April 2021)",
+          "url": "http://dx.doi.org/10.1109/iemtronics52119.2021.9422597"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Lalla, Artificial Intelligence: Deepfakes in the Entertainment Industry",
+          "url": "https://www.wipo.int/wipo_magazine/en/2022/02/article_0003.html"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "level": 2,
+      "content": "Photo manipulation was developed in the 19th century and soon applied to motion pictures. Technology steadily improved during the 20th century, and more quickly with the advent of digital video.\n\nDeepfake technology has been developed by researchers at academic institutions beginning in the 1990s, and later by amateurs in online communities. More recently, the methods have been adopted by industry.\n\n=== Academic research ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Harwell, Top AI researchers race to detect 'deepfake' videos: 'We are outgunned', (12 June 2019)",
+          "url": "https://www.washingtonpost.com/technology/2019/06/12/top-ai-researchers-race-detect-deepfake-videos-we-are-outgunned/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Sanchez, Thanks to AI, the future of 'fake news' is being pioneered in homemade porn, (8 February 2018)",
+          "url": "https://www.nbcnews.com/think/opinion/thanks-ai-future-fake-news-may-be-easily-faked-video-ncna845726"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Porter, Another convincing deepfake app goes viral prompting immediate privacy backlash, (2 September 2019)",
+          "url": "https://www.theverge.com/2019/9/2/20844338/zao-deepfake-app-movie-tv-show-face-replace-privacy-policy-concerns"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Keith D., A Brief History of Generative AI",
+          "url": "https://www.dataversity.net/articles/a-brief-history-of-generative-ai"
+        }
+      ]
+    },
+    {
+      "id": "academic-research",
+      "title": "Academic research",
+      "level": 3,
+      "content": "Academic research related to deepfakes is split between the field of computer vision, a sub-field of computer science, As deepfakes have risen in prominence in popularity with innovations provided by AI tools, significant research has gone into detection methods and defining the factors driving engagement with deepfakes on the internet. Deepfakes have been shown to appear on social media platforms and other parts of the internet for purposes ranging from entertainment and education related to deepfakes to misinformation to elicit strong reactions. There are gaps in research related to the propagation of deepfakes on social media. Negativity and emotional response are the primary driving factors for users sharing deepfakes.\n\n=== Social science and humanities approaches to deepfakes ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Vatreš, Deepfake Phenomenon: An advanced form of fake news and its implications on reliable journalism, (2021)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Rana, Deepfake Detection: A Systematic Literature Review, (2022)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Sudarsan, 2024 20th IEEE International Colloquium on Signal Processing & Its Applications (CSPA), (1 March 2024)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Sudarsan, 2024 20th IEEE International Colloquium on Signal Processing & Its Applications (CSPA), (1 March 2024)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Sudarsan, 2024 20th IEEE International Colloquium on Signal Processing & Its Applications (CSPA), (1 March 2024)"
+        }
+      ]
+    },
+    {
+      "id": "social-science-and-humanities-approaches-to-deepfakes",
+      "title": "Social science and humanities approaches to deepfakes",
+      "level": 3,
+      "content": "In cinema studies, deepfakes illustrate how \"the human face is emerging as a central object of ambivalence in the digital age\". Video artists have used deepfakes to \"playfully rewrite film history by retrofitting canonical cinema with new star performers\". Film scholar Christopher Holliday analyses how altering the gender and race of performers in familiar movie scenes destabilizes gender classifications and categories. including British artist Jake Elwes' Zizi: Queering the Dataset, an artwork that uses deepfakes of drag queens to intentionally play with gender. The aesthetic potentials of deepfakes are also beginning to be explored. Theatre historian John Fletcher notes that early demonstrations of deepfakes are presented as performances, and situates these in the context of theater, discussing \"some of the more troubling paradigm shifts\" that deepfakes represent as a performance genre.\n\nWhile most English-language academic studies of deepfakes focus on the Western anxieties about disinformation and pornography, digital anthropologist Gabriele de Seta has analyzed the Chinese reception of deepfakes, which are known as huanlian, which translates to \"changing faces\". The Chinese term does not contain the \"fake\" of the English deepfake, and de Seta argues that this cultural context may explain why the Chinese response has centered on practical regulatory measures to \"fraud risks, image rights, economic profit, and ethical imbalances\".\n\n=== Computer science research on deepfakes ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Bode, The Digital Face and Deepfakes on Screen, (29 July 2021)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Take it down act adult content creators platforms",
+          "url": "https://copyrightshark.com/take-it-down-act-adult-content-creators-platforms/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Holliday, Rewriting the stars: Surface tensions and gender troubles in the online media production of digital deepfakes, (26 July 2021)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Gingrich, GENDER*UCK: Reframing gender & media art, (5 July 2021)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Fletcher, Deepfakes, Artificial Intelligence, and Some Kind of Dystopia: The New Faces of Online Post-Fact Performance, (2018)",
+          "url": "https://muse.jhu.edu/article/715916"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "de Seta, Huanlian, or changing faces: Deepfakes on Chinese digital media platforms, (30 July 2021)",
+          "url": "http://journals.sagepub.com/doi/10.1177/13548565211030185"
+        }
+      ]
+    },
+    {
+      "id": "computer-science-research-on-deepfakes",
+      "title": "Computer science research on deepfakes",
+      "level": 3,
+      "content": "A landmark early project was the \"Video Rewrite\" program, published in 1997. The program modified existing video footage of a person speaking to depict that person mouthing the words from a different audio track. It was the first system to fully automate this kind of facial reanimation, and it did so using machine learning techniques to make connections between the sounds produced by a video's subject and the shape of the subject's face. The \"Synthesizing Obama\" program, published in 2017, modifies video footage of former president Barack Obama to depict him mouthing the words contained in a separate audio track. In this work, it was shown how an attacker can automatically inject or remove lung cancer in a patient's 3D CT scan. The result was so convincing that it fooled three radiologists and a state-of-the-art lung cancer detection AI. To demonstrate the threat, the authors successfully performed the attack on a hospital in a White hat penetration test.\n\nA survey of deepfakes, published in May 2020, provides a timeline of how the creation and detection of deepfakes have advanced over the last few years. The survey identifies that researchers have been focusing on resolving the following challenges of deepfake creation:\n* Generalization. High-quality deepfakes are often achieved by training on hours of footage of the target. This challenge is to minimize the amount of training data and the time to train the model required to produce quality images and to enable the execution of trained models on new identities (unseen during training).\n* Paired Training. Training a supervised model can produce high-quality results, but requires data pairing. This is the process of finding examples of inputs and their desired outputs for the model to learn from. Data pairing is laborious and impractical when training on multiple identities and facial behaviors. Some solutions include self-supervised training (using frames from the same video), the use of unpaired networks such as Cycle-GAN, or the manipulation of network embeddings.\n* Identity leakage. This is where the identity of the driver (i.e., the actor controlling the face in a reenactment) is partially transferred to the generated face. Some solutions proposed include attention mechanisms, few-shot learning, disentanglement, boundary conversions, and skip connections.\n* Occlusions. When part of the face is obstructed with a hand, hair, glasses, or any other item then artifacts can occur. A common occlusion is a closed mouth which hides the inside of the mouth and the teeth. Some solutions include image segmentation during training and in-painting.\n* Temporal coherence. In videos containing deepfakes, artifacts such as flickering and jitter can occur because the network has no context of the preceding frames. Some researchers provide this context or use novel temporal coherence losses to help improve realism. As the technology improves, the interference is diminishing.\n\nOverall, deepfakes are expected to have several implications in media and society, media production, media representations, media audiences, gender, law, and regulation, and politics.\n\n=== Amateur development ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Bregler, Proceedings of the 24th annual conference on Computer graphics and interactive techniques – SIGGRAPH '97, (1997)",
+          "url": "https://dl.acm.org/doi/10.1145/258734.258880"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Suwajanakorn, Synthesizing Obama: Learning Lip Sync from Audio, (July 2017)",
+          "url": "https://dl.acm.org/doi/10.1145/3072959.3073640"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Thies, 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), (June 2016)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Mirsky, CT-GAN: Malicious Tampering of 3D Medical Imagery using Deep Learning, (2019)",
+          "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/mirsky"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "O'Neill, Researchers Demonstrate Malware That Can Trick Doctors Into Misdiagnosing Cancer, (3 April 2019)",
+          "url": "https://gizmodo.com/researchers-demonstrate-malware-that-can-trick-doctors-1833786672"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Mirsky, The Creation and Detection of Deepfakes: A Survey, (12 May 2020)"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Karnouskos, Artificial Intelligence in Digital Media: The Era of Deepfakes, (2020)",
+          "url": "https://papers.duckdns.org/files/2020_Deepfakes.pdf"
+        }
+      ]
+    },
+    {
+      "id": "amateur-development",
+      "title": "Amateur development",
+      "level": 3,
+      "content": "The term deepfake originated in late 2017 from a Reddit user named \"deepfakes\". He, along with other members of Reddit's \"r/deepfakes\", shared deepfakes they created; many videos involved celebrities' faces swapped onto the bodies of actors in pornographic videos,\n\nAfter this first introduction, amateur development grew at a quick rate because of the presence of open-source software and tutorials on the Internet. The freely available tools like FakeApp, FaceSwap, and DeepFaceLab allowed users who did not have any formal education in computer science to assemble deepfake videos with consumer hardware. Online forums such as Reddit, GitHub and YouTube were important to the distribution of software, instructions, and sample content, and helped to spread and perfect amateur creation of deepfakes quicker.\n\n=== Commercial development ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Cole, We Are Truly Fucked: Everyone Is Making AI-Generated Fake Porn Now, (24 January 2018)",
+          "url": "https://www.vice.com/en/article/reddit-fake-porn-app-daisy-ridley/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Haysom, People Are Using Face-Swapping Tech to Add Nicolas Cage to Random Movies and What Is 2018, (31 January 2018)",
+          "url": "https://mashable.com/2018/01/31/nicolas-cage-face-swapping-deepfakes/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Lyu, 2020 IEEE International Conference on Multimedia & Expo Workshops (ICMEW), (July 2020)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Masood, Deepfakes generation and detection: state-of-the-art, open challenges, countermeasures, and way forward, (February 2023)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Hathaway, Here's where 'deepfakes,' the new fake celebrity porn, went after the Reddit ban, (8 February 2018)",
+          "url": "https://www.dailydot.com/unclick/deepfake-sites-reddit-ban/"
+        }
+      ]
+    },
+    {
+      "id": "commercial-development",
+      "title": "Commercial development",
+      "level": 3,
+      "content": "In January 2018, a proprietary desktop application called \"FakeApp\" was launched. This app allows users to easily create and share videos with their faces swapped with each other. As of 2019, \"FakeApp\" had been largely replaced by open-source alternatives such as \"Faceswap\", command line-based \"DeepFaceLab\", and web-based apps such as DeepfakesWeb.\n\nLarger companies started to use deepfakes. The mobile app Momo created the application Zao which allows users to superimpose their face on television and movie clips with a single picture.\n\nAs of 2020 audio deepfakes, and AI software capable of detecting deepfakes and cloning human voices after 5 seconds of listening time also exist. A mobile deepfake app, Impressions, was launched in March 2020. It was the first app for the creation of celebrity deepfake videos from mobile phones.\n\n=== Resurrection ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "What is a Deepfake and How Are They Made?, (23 May 2019)",
+          "url": "https://www.online-tech-tips.com/computer-tips/what-is-a-deepfake-and-how-are-they-made/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Robertson, I'm using AI to face-swap Elon Musk and Jeff Bezos, and I'm really bad at it, (11 February 2018)",
+          "url": "https://www.theverge.com/2018/2/11/16992986/fakeapp-deepfakes-ai-face-swapping"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Deepfakes web {{!",
+          "url": "https://deepfakesweb.com/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Faceswap is the leading free and Open Source multi-platform Deepfakes software., (15 October 2019)",
+          "url": "https://faceswap.dev"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "DeepFaceLab is a tool that utilizes machine learning to replace faces in videos. Includes prebuilt ready to work standalone Windows 7,8,10 binary (look readme.md).: iperov/DeepFaceLab, (19 June 2019)",
+          "url": "https://github.com/iperov/DeepFaceLab"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Chandler, Why Deepfakes Are A Net Positive For Humanity",
+          "url": "https://www.forbes.com/sites/simonchandler/2020/03/09/why-deepfakes-are-a-net-positive-for-humanity/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Pangburn, You've been warned: Full body deepfakes are the next step in AI-based human mimicry, (21 September 2019)",
+          "url": "https://www.fastcompany.com/90407145/youve-been-warned-full-body-deepfakes-are-the-next-step-in-ai-based-human-mimicry"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Lyons, FTC says the tech behind audio deepfakes is getting better, (29 January 2020)",
+          "url": "https://www.theverge.com/2020/1/29/21080553/ftc-deepfakes-audio-cloning-joe-rogan-phone-scams"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Audio samples from \"Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis\"",
+          "url": "https://google.github.io/tacotron/publications/speaker_adaptation/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Jia, Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis, (2 January 2019)"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "TUM Visual Computing: Prof. Matthias Nießner",
+          "url": "http://www.niessnerlab.org/projects/roessler2019faceforensicspp.html"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Full Page Reload, (11 December 2019)",
+          "url": "https://spectrum.ieee.org/facebook-ai-launches-its-deepfake-detection-challenge"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Contributing Data to Deepfake Detection Research, (24 September 2019)",
+          "url": "http://ai.googleblog.com/2019/09/contributing-data-to-deepfake-detection.html"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Thalen, You can now deepfake yourself into a celebrity with just a few clicks",
+          "url": "https://www.dailydot.com/debug/impressions-deepfake-app///"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Matthews, Fun or Fear: Deepfake App Puts Celebrity Faces In Your Selfies, (6 March 2020)",
+          "url": "https://kool1079.com/fun-or-fear-deepfake-app-puts-celebrity-faces-in-your-selfies//"
+        }
+      ]
+    },
+    {
+      "id": "resurrection",
+      "title": "Resurrection",
+      "level": 3,
+      "content": "Deepfake technology's ability to fabricate messages and actions of others can extend to the deceased, such as in grief therapy that allows seeming communication with a deceased loved one. In October 2020, Kim Kardashian posted a video featuring a hologram of her late father, Robert Kardashian, created by the company Kaleida, which used a combination of performance, motion tracking, SFX, VFX and DeepFake technologies to create the illusion.\n\nIn 2020, a deepfake video of Joaquin Oliver, a victim of the Parkland shooting, was created as part of a gun safety campaign. Oliver's parents partnered with nonprofit Change the Ref and McCann Health to produce a video in which Oliver to encourage people to support gun safety legislation and politicians who back do so as well.\n\nIn 2022, a deepfake video of Elvis Presley was used on the program ''America's Got Talent 17''.\n\n== Techniques ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "van der Sloot, Regulating the Synthetic Society : Generative AI, Legal Questions, and Societal Challenges, (2024)",
+          "url": "https://directory.doabooks.org/handle/20.500.12854/135010"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Kanye West, Kim Kardashian and her dad: Should we make holograms of the dead?, (31 October 2020)",
+          "url": "https://www.bbc.com/news/entertainment-arts-54753214"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Kanye West Gave Kim Kardashian a Hologram of Her Father for Her Birthday, (30 October 2020)",
+          "url": "https://www.themodems.com/post/kanye-west-gave-kim-kardashian-a-hologram-of-her-father-for-her-birthday"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Parkland victim Joaquin Oliver comes back to life in heartbreaking plea to voters, (2 October 2020)",
+          "url": "https://adage.com/article/advertising/parkland-victim-joaquin-oliver-comes-back-life-heartbreaking-plea-voters/2285166"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Bowenbank, Simon Cowell Duets With Elvis in Metaphysic's Latest Deepfake 'AGT' Performance: Watch, (14 September 2022)",
+          "url": "https://www.billboard.com/culture/tv-film/simon-cowell-duet-elvis-deepfake-agt-performance-1235138799/"
+        }
+      ]
+    },
+    {
+      "id": "techniques",
+      "title": "Techniques",
+      "level": 2,
+      "content": "Deepfakes rely on a type of neural network called an autoencoder. These consist of an encoder, which reduces an image to a lower dimensional latent space, and a decoder, which reconstructs the image from the latent representation. Deepfakes utilize this architecture by having a universal encoder which encodes a person in to the latent space. The latent representation contains key features about their facial features and body posture. This can then be decoded with a model trained specifically for the target. This means the target's detailed information will be superimposed on the underlying facial and body features of the original video, represented in the latent space.\n\nA popular upgrade to this architecture attaches a generative adversarial network to the decoder. A GAN trains a generator, in this case the decoder, and a discriminator in an adversarial relationship. The first network, known as the generator, attempts to craft fabricated images, while the second network, the discriminator, distinguishes between real and fake images using a legitimate data set to guide its judgment. This causes the generator to create images that mimic reality extremely well as any defects would be caught by the discriminator. Both algorithms improve constantly in a zero sum game. This makes deepfakes difficult to combat as they are constantly evolving; any time a defect is determined, it can be corrected.\n\n==Applications==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Zucconi, Understanding the Technology Behind DeepFakes, (14 March 2018)",
+          "url": "https://www.alanzucconi.com/2018/03/14/understanding-the-technology-behind-deepfakes/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "What is a Deepfake?, (3 May 2022)",
+          "url": "https://blog.synthesys.io/what-is-deepfake/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Ayata, Artificial Realities: Mitigations against Deepfakes",
+          "url": "https://www.cigionline.org/static/documents/DPH-paper-Ayata.pdf"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "These New Tricks Can Outsmart Deepfake Videos—for Now",
+          "url": "https://www.wired.com/story/these-new-tricks-can-outsmart-deepfake-videosfor-now/"
+        }
+      ]
+    },
+    {
+      "id": "applications",
+      "title": "Applications",
+      "level": 2,
+      "content": "===Acting===",
+      "citations": []
+    },
+    {
+      "id": "acting",
+      "title": "Acting",
+      "level": 3,
+      "content": "Digital clones of professional actors have appeared in films before, and progress in deepfake technology is expected to further the accessibility and effectiveness of such clones. The use of AI technology was a major issue in the 2023 SAG-AFTRA strike, as new techniques enabled the capability of generating and storing a digital likeness to use in place of actors.\n\nDisney has improved their visual effects using high-resolution deepfake face swapping technology. Disney improved their technology through progressive training programmed to identify facial expressions, implementing a face-swapping feature, and iterating in order to stabilize and refine the output. Disney's deepfake generation model can produce AI-generated media at a 1024 x 1024 resolution, as opposed to common models that produce media at a 256 x 256 resolution. Similar technology was initially used by fans to unofficially insert faces into existing media, such as  overlaying Harrison Ford's young face onto Han Solo's face in Solo: A Star Wars Story. Disney used deepfakes for the characters of Princess Leia in Rogue One and Luke Skywalker in both The Mandalorian and The Book of Boba Fett.\n\nIn the 2024 Indian Tamil science fiction action thriller The Greatest of All Time, the teenage version of Vijay's character Jeevan is portrayed by Ayaz Khan. Vijay's teenage face was then attained by AI deepfake.In May 2025, an AI-generated actress called Tilly Norwood was developed by the Dutch company Xicoia, a division of the existing production company Particle6 that was founded by actor and comedian Eline Van der Velden.\n\n===Art===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Kemp, In the age of deepfakes, could virtual actors put humans out of business?, (8 July 2019)",
+          "url": "https://www.theguardian.com/film/2019/jul/03/in-the-age-of-deepfakes-could-virtual-actors-put-humans-out-of-business"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Verma, Digital clones made by AI tech could make Hollywood extras obsolete, (21 July 2023)",
+          "url": "https://www.washingtonpost.com/technology/2023/07/19/ai-actors-fear-sag-strike-hollywood/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "High-Resolution Neural Face Swapping for Visual Effects {{!",
+          "url": "https://studios.disneyresearch.com/2020/06/29/high-resolution-neural-face-swapping-for-visual-effects/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Disney's deepfake technology could be used in film and TV, (21 July 2020)",
+          "url": "https://blooloop.com/news/disney-deepfake-face-swap-technology/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Lindley, Disney Ventures Into Bringing Back 'Dead Actors' Through Facial Recognition, (2 July 2020)",
+          "url": "https://www.techtimes.com/articles/250776/20200702/disney-is-using-deepfakes-and-facial-recognition-to-bring-back-dead-actors.htm"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Radulovic, Harrison Ford is the star of Solo: A Star Wars Story thanks to deepfake technology, (17 October 2018)",
+          "url": "https://www.polygon.com/2018/10/17/17989214/harrison-ford-solo-movie-deepfake-technology"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Winick, How acting as Carrie Fisher's puppet made a career for Rogue One's Princess Leia",
+          "url": "https://www.technologyreview.com/s/612241/how-acting-as-carrie-fishers-puppet-made-a-career-for-rogue-ones-princess-leia/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Deepfake Luke Skywalker is another step down a ghoulish CGI path, (10 February 2022)",
+          "url": "https://www.gq-magazine.co.uk/culture/article/boba-fett-luke-skywalker"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": ", Not Vijay, Here's Who Played the Younger Version of Him in The GOAT, (8 September 2024)",
+          "url": "https://english.tupaki.com/entertainment/vijay-younger-version-in-goat-1383681"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Constantine, The Student Movement Volume 110 Issue 5: At the Market for Cuisine and K-Pop, (2025-10-24)",
+          "url": "https://digitalcommons.andrews.edu/sm-110/5/"
+        }
+      ]
+    },
+    {
+      "id": "art",
+      "title": "Art",
+      "level": 3,
+      "content": "Deepfakes are also being used in education and media to create realistic videos and interactive content, which offer new ways to engage audiences.\n\nIn March 2018 the multidisciplinary artist Joseph Ayerle published the video artwork ''Un'emozione per sempre 2.0 (English title: The Italian Game). The artist worked with Deepfake technology to create an AI actor,'' a synthetic version of 80s movie star Ornella Muti, traveling in time from 1978 to 2018. The Massachusetts Institute of Technology referred this artwork in the study \"Collective Wisdom\". The artist used Ornella Muti's time travel to explore generational reflections, while also investigating questions about the role of provocation in the world of art. For the technical realization Ayerle used scenes of photo model Kendall Jenner. The program replaced Jenner's face by an AI calculated face of Ornella Muti. As a result, the AI actor has the face of the Italian actor Ornella Muti and the body of Kendall Jenner.\n\nDeepfakes have been widely used in satire or to parody celebrities and politicians. The 2020 webseries Sassy Justice, created by Trey Parker and Matt Stone, heavily features the use of deepfaked public figures to satirize current events and raise awareness of deepfake technology.\n\n=== Blackmail ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Katerina Cizek, William Uricchio, and Sarah Wolozin: Collective Wisdom | Massachusetts Institute of Technology [https://wip.mitpress.mit.edu/pub/collective-wisdom-part-6] {{Webarchive|url=https://web.archive.org/web/20200304015015/https://wip.mitpress.mit.edu/pub/collective-wisdom-part-6|date=4 March 2020}}",
+          "url": "https://web.archive.org/web/20200304015015/https://wip.mitpress.mit.edu/pub/collective-wisdom-part-6"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "ANSA {{!, (3 November 2017)",
+          "url": "http://www.ansa.it/toscana/notizie/2017/11/03/ornella-muti-in-cortometraggio-a-firenze_36349008-ce7b-4c7e-8742-43e28f7225f4.html"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "'South Park' creators launch new deepfake satire series 'Sassy Justice', (27 October 2020)",
+          "url": "https://www.nme.com/news/tv/south-park-creators-launch-new-deepfake-satire-series-sassy-justice-2800657"
+        }
+      ]
+    },
+    {
+      "id": "blackmail",
+      "title": "Blackmail",
+      "level": 3,
+      "content": "Deepfakes can be used to generate blackmail materials that falsely incriminate a victim. A report by the American Congressional Research Service warned that deepfakes could be used to blackmail elected officials or those with access to classified information for espionage or influence purposes.\n\nWhen or if fakes cannot reliably be distinguished from genuine evidence, victims who are blackmailed over digital evidence might claim that true artifacts are fakes, thereby seeking plausible deniability by relying on an argument of indistinguishability between fake and genuine evidence. The hoped-for effect is to void credibility of certain existing blackmail materials, which, if they were the sole evidence retained by a blackmailer and could not be distinguished by a jury from fake evidence under this argument, could in theory erode loyalty to blackmailers and limit their control over the blackmailed. This phenomenon has been termed \"blackmail inflation\", since in theory it \"devalues\" authentic blackmail material. It is possible to utilize commodity GPU hardware with a small software program to generate fake content intended to blackmail anyone for whom an adversary has ample training data. However, even carefully manipulated fakes may still be detected.\n\nThe existence of efficient techniques for fabricating false evidence certainly suggests that any combination of video, audio, photographic or other generable evidence alone as the basis for conviction of a crime is by now a perilous and tenuous standard owing to the possibility of maliciously fabricated evidence, raising the importance of multiple firsthand witnesses to a crime, especially for more serious allegations.\n\n=== Entertainment ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Tayler, Deep Fakes and National Security, (8 June 2021)",
+          "url": "https://crsreports.congress.gov/product/pdf/IF/IF11333"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Limberg, Blackmail Inflation, (24 May 2020)",
+          "url": "https://cultstate.com/2020/05/24/Podcast-18--Blackmail-Inflation/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "For Kappy, (24 May 2020)",
+          "url": "https://t.me/forKappy"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Harwell, How deepfake videos are used to spread disinformation and harass people, (8 February 2023)",
+          "url": "https://www.washingtonpost.com/technology/2023/02/08/deepfakes-misinformation-harassment"
+        }
+      ]
+    },
+    {
+      "id": "entertainment",
+      "title": "Entertainment",
+      "level": 3,
+      "content": "On 8 June 2022, Daniel Emmet, a former AGT contestant, teamed up with the AI startup Metaphysic AI, to create a hyperrealistic deepfake to make it appear as Simon Cowell. Cowell, notoriously known for severely critiquing contestants, was on stage interpreting \"You're The Inspiration\" by Chicago. Emmet sang on stage as an image of Simon Cowell emerged on the screen behind him in flawless synchronicity.\n\nOn 30 August 2022, Metaphysic AI had 'deep-fake' Simon Cowell, Howie Mandel and Terry Crews singing opera on stage.\n\nOn 13 September 2022, Metaphysic AI performed with a synthetic version of Elvis Presley for the finals of ''America's Got Talent''.\n\nThe MIT artificial intelligence project 15.ai has been used for content creation for multiple Internet fandoms, particularly on social media.\n\nIn 2023 the bands ABBA and Kiss partnered with Industrial Light & Magic and Pophouse Entertainment to develop deepfake avatars capable of performing virtual concerts.\n\n=== Fraud and scams ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "The AGT Judges Had Priceless Reactions to That Simon Cowell Singing Audition, (8 June 2022)",
+          "url": "https://www.nbc.com/nbc-insider/agt-2022-see-the-judges-reactions-to-simon-cowell-singing"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Marr, Can A Metaverse AI Win America's Got Talent? (And What That Means For The Industry)",
+          "url": "https://www.forbes.com/sites/bernardmarr/2022/08/30/can-a-metaverse-ai-win-americas-got-talent-and-what-that-means-for-the-industry/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Morales, Deepfakes Go Mainstream: How Metaphysic's AGT Entry Will Impact Entertainment, (10 June 2022)",
+          "url": "https://www.makeuseof.com/deepfakes-mainstream-agt-entry/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Carter, BGT viewers slam Simon Cowell for 'rude' and 'nasty' remark to contestant, (1 June 2019)",
+          "url": "https://www.entertainmentdaily.co.uk/tv/bgt-viewers-slam-simon-cowell-for-rude-and-nasty-remark-to-contestant/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Simon Cowell Sings on Stage?! Metaphysic Will Leave You Speechless {{!",
+          "url": "https://www.youtube.com/watch?v=mPU0WNUzsBo&ab_channel=America%27sGotTalent"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Segarra, 'AGT' judges Simon Cowell, Howie Mandel get 'deepfake' treatment by AI act Metaphysic: Watch here",
+          "url": "https://www.usatoday.com/story/entertainment/tv/2022/08/30/agt-simon-cowell-calls-ai-opera-best-act-metaphysic/7947094001/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Bowenbank, Simon Cowell Duets With Elvis in Metaphysic's Latest Deepfake 'AGT' Performance: Watch, (14 September 2022)",
+          "url": "https://www.billboard.com/culture/tv-film/simon-cowell-duet-elvis-deepfake-agt-performance-1235138799/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Zwiezen, Website Lets You Make GLaDOS Say Whatever You Want, (18 January 2021)",
+          "url": "https://kotaku.com/this-website-lets-you-make-glados-say-whatever-you-want-1846062835"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Ruppert, Make Portal's GLaDOS And Other Beloved Characters Say The Weirdest Things With This App, (18 January 2021)",
+          "url": "https://www.gameinformer.com/gamer-culture/2021/01/18/make-portals-glados-and-other-beloved-characters-say-the-weirdest-things"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Clayton, Make the cast of TF2 recite old memes with this AI text-to-speech tool, (19 January 2021)",
+          "url": "https://www.pcgamer.com/make-the-cast-of-tf2-recite-old-memes-with-this-ai-text-to-speech-tool"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Sherman, Kiss say farewell to live touring, become first US band to go virtual and become digital avatars, (3 December 2023)",
+          "url": "https://apnews.com/article/kiss-digital-avatars-end-of-road-finale-37a8ae9905099343c7b41654b2344d0c"
+        }
+      ]
+    },
+    {
+      "id": "fraud-and-scams",
+      "title": "Fraud and scams",
+      "level": 3,
+      "content": "Fraudsters and scammers make use of deepfakes to trick people into fake investment schemes, financial fraud, cryptocurrencies, sending money, and following endorsements. The likenesses of celebrities and politicians have been used for large-scale scams, as well as those of private individuals, which are used in spearphishing attacks. According to the Better Business Bureau, deepfake scams are becoming more prevalent. These scams are responsible for an estimated $12 billion in fraud losses globally. According to a recent report these numbers are expected to reach $40 Billion over the next three years. Oprah Winfrey, and Elon Musk; news anchors like Gayle King and politicians like Lee Hsien Loong and Jim Chalmers. Videos of them have appeared in online advertisements on YouTube, Facebook, and TikTok, who have policies against synthetic and manipulated media. Ads running these videos are seen by millions of people. A single Medicare fraud campaign had been viewed more than 195 million times across thousands of videos. Deepfakes have been used for: a fake giveaway of Le Creuset cookware for a \"shipping fee\" without receiving the products, except for hidden monthly charges; investment, and cryptocurrency schemes.\n\nAudio deepfakes have been used as part of social engineering scams, fooling people into thinking they are receiving instructions from a trusted individual. In 2019, a U.K.-based energy firm's CEO was scammed over the phone when he was ordered to transfer €220,000 into a Hungarian bank account by an individual who reportedly used audio deepfake technology to impersonate the voice of the firm's parent company's chief executive. As of 2023, the combination advances in deepfake technology, which could clone an individual's voice from a recording of a few seconds to a minute, and new text generation tools, enabled automated impersonation scams, targeting victims using a convincing digital clone of a friend or relative.\n\n=== Politics ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Cerullo, AI-generated ads using Taylor Swift's likeness dupe fans with fake Le Creuset giveaway, (9 January 2024)",
+          "url": "https://www.cbsnews.com/news/taylor-swift-le-creuset-ai-generated-ads/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Westfall, AI Deepfakes On The Rise Causing Billions In Fraud Losses",
+          "url": "https://www.forbes.com/sites/chriswestfall/2024/11/29/ai-deepfakes-of-elon-musk-on-the-rise-causing-billions-in-fraud-losses/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Hsu, No, That's Not Taylor Swift Peddling Le Creuset Cookware, (9 January 2024)",
+          "url": "https://www.nytimes.com/2024/01/09/technology/taylor-swift-le-creuset-ai-deepfake.html"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Taylor, Tom Hanks Warns of Dental Ad Using A.I. Version of Him, (2 October 2023)",
+          "url": "https://www.nytimes.com/2023/10/02/technology/tom-hanks-ai-dental-video.html"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Johnson, Arizona woman falls victim to deepfake scam using celebrities on social media, (11 December 2023)",
+          "url": "https://www.abc15.com/news/let-joe-know/arizona-woman-falls-victim-to-deep-fake-scam-using-celebrities-on-social-media"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Kulundu, Deepfake videos of Elon Musk used in get-rich-quick scam, (4 January 2024)",
+          "url": "https://factcheck.afp.com/doc.afp.com.349D4AG"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Esmael, PH needs multifaceted approach vs 'deepfake' videos used to scam Pinoys, (3 January 2024)",
+          "url": "https://www.cnnphilippines.com/news/2024/1/3/cybersecurity-deepfake-technology.html"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Gerken, MrBeast and BBC stars used in deepfake scam videos, (4 October 2023)",
+          "url": "https://www.bbc.com/news/technology-66993651"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Lim, Singapore PM Lee warns of 'very convincing' deepfakes 'spreading disinformation' after fake video of him emerges, (29 December 2023)",
+          "url": "https://www.scmp.com/week-asia/politics/article/3246701/singapore-pm-lee-warns-very-convincing-deepfakes-spreading-disinformation-after-fake-video-him"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Taylor, Scammer paid Facebook 7c per view to circulate video of deepfake Jim Chalmers and Gina Rinehart, (30 November 2023)",
+          "url": "https://www.theguardian.com/technology/2023/dec/01/scammer-paid-facebook-7c-per-view-to-circulate-video-of-deepfake-jim-chalmers-and-gina-rinehart"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Palmer, Deepfake of Australian treasury, central bank officials used to promote investment scam, (14 December 2023)",
+          "url": "https://factcheck.afp.com/doc.afp.com.34766ZF"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Koebler, Deepfaked Celebrity Ads Promoting Medicare Scams Run Rampant on YouTube, (9 January 2024)",
+          "url": "https://www.404media.co/joe-rogan-taylor-swift-andrew-tate-ai-deepfake-youtube-medicare-ads/"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Rosenblatt, MrBeast calls TikTok ad showing an AI version of him a 'scam', (3 October 2023)",
+          "url": "https://www.nbcnews.com/tech/mrbeast-ai-tiktok-ad-deepfake-rcna118596"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Koebler, YouTube Deletes 1,000 Videos of Celebrity AI Scam Ads, (25 January 2024)",
+          "url": "https://www.404media.co/youtube-deletes-1-000-videos-of-celebrity-ai-scam-ads/"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Bucci, Dick Smith criticises Facebook after scammers circulate deepfake video ad, (27 November 2023)",
+          "url": "https://www.theguardian.com/australia-news/2023/nov/27/dick-smith-criticises-facebook-after-scammers-circulate-deepfake-video-ad"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Lomas, Martin Lewis warns over 'first' deepfake video scam ad circulating on Facebook, (7 July 2023)",
+          "url": "https://techcrunch.com/2023/07/07/martin-lewis-deepfake-scam-ad-facebook/"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Lopatto, Fun new deepfake consequence: more convincing crypto scams, (3 January 2024)",
+          "url": "https://www.theverge.com/2024/1/3/24024262/youtube-twitter-x-crypto-solana-deepfake-scam"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "Statt, Thieves are now using AI deepfakes to trick companies into sending them money, (5 September 2019)",
+          "url": "https://www.theverge.com/2019/9/5/20851248/deepfakes-ai-fake-audio-phone-calls-thieves-trick-companies-stealing-money"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Damiani, A Voice Deepfake Was Used To Scam A CEO Out Of $243,000",
+          "url": "https://www.forbes.com/sites/jessedamiani/2019/09/03/a-voice-deepfake-was-used-to-scam-a-ceo-out-of-243000/"
+        },
+        {
+          "id": "cite-19",
+          "index": 19,
+          "text": "Deepfakes, explained, (5 March 2024)",
+          "url": "https://mitsloan.mit.edu/ideas-made-to-matter/deepfakes-explained"
+        },
+        {
+          "id": "cite-20",
+          "index": 20,
+          "text": "Schwartz, Voice deepfakes are calling – here's what they are and how to avoid getting scammed, (17 March 2023)",
+          "url": "https://theconversation.com/voice-deepfakes-are-calling-heres-what-they-are-and-how-to-avoid-getting-scammed-201449"
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "title": "Politics",
+      "level": 3,
+      "content": "Deepfakes have been used to misrepresent well-known politicians in videos.\n* In February 2018, in separate videos, the face of the Argentine President Mauricio Macri had been replaced by the face of Adolf Hitler, and Angela Merkel's face has been replaced with Donald Trump's.\n* In April 2018, Jordan Peele collaborated with BuzzFeed to create a deepfake of Barack Obama with Peele's voice; it served as a public service announcement to increase awareness of deepfakes.\n* In January 2019, Fox affiliate KCPQ aired a deepfake of Trump during his Oval Office address, mocking his appearance and skin color. The employee found responsible for the video was subsequently fired.\n* In June 2019, the United States House Intelligence Committee held hearings on the potential malicious use of deepfakes to sway elections.\n* In April 2020, the Belgian branch of Extinction Rebellion published a deepfake video of Belgian Prime Minister Sophie Wilmès on Facebook. The video promoted a possible link between deforestation and COVID-19. It had more than 100,000 views within 24 hours and received many comments. On the Facebook page where the video appeared, many users interpreted the deepfake video as genuine.\n* During the 2020 US presidential campaign, many deepfakes surfaced purporting Joe Biden in cognitive decline—falling asleep during an interview, getting lost, and misspeaking—all bolstering rumors of his decline.\n* During the 2020 Delhi Legislative Assembly election campaign, the Delhi Bharatiya Janata Party used similar technology to distribute a version of an English-language campaign advertisement by its leader, Manoj Tiwari, translated into Haryanvi to target Haryana voters. A voiceover was provided by an actor, and AI trained using video of Tiwari speeches was used to lip-sync the video to the new voiceover. A party staff member described it as a \"positive\" use of deepfake technology, which allowed them to \"convincingly approach the target audience even if the candidate didn't speak the language of the voter.\"\n* In 2020, Bruno Sartori produced deepfakes parodying politicians like Jair Bolsonaro and Donald Trump.\n* In April 2021, politicians in a number of European countries were approached by pranksters Vovan and Lexus, who are accused by critics of working for the Russian state. They impersonated Leonid Volkov, a Russian opposition politician and chief of staff of the Russian opposition leader Alexei Navalny's campaign, allegedly through deepfake technology. However, the pair told The Verge that they did not use deepfakes, and just used a look-alike.\n* In May 2023, a deepfake video of Vice President Kamala Harris supposedly slurring her words and speaking nonsensically about today, tomorrow and yesterday went viral on social media.\n* In June 2023, in the United States, Ron DeSantis's presidential campaign used a deepfake to misrepresent Donald Trump.\n* In November 2023, a deepfake video of the German Chancellor Olaf Scholz announcing a plan to ban the political activities of the AfD was uploaded to YouTube by the Zentrum für Politische Schönheit (Center of Political Beauty).\n* In March 2024, during India's state assembly elections, deepfake technology was widely employed by political candidates to reach out to voters. Many politicians used AI-generated deepfakes created by startup The Indian Deepfaker, founded by Divyendra Singh Jadoun, to translate their speeches into multiple regional languages, allowing them to engage with diverse linguistic communities across the country. This surge in the use of deepfakes for political campaigns marked a significant shift in electioneering tactics in India.\n* In June 2025, Javier Milei's government backed a smear campaign against journalist Mengolini, which was partly based on explicit deepfakes.\n* In July 2025, Donald Trump posted a deepfake on his Truth Social account, depicting former president Barack Obama getting arrested at the White House and put in prison.\n\n=== Pornography ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Wenn Merkel plötzlich Trumps Gesicht trägt: die gefährliche Manipulation von Bildern und Videos, (3 February 2018)",
+          "url": "https://www.aargauerzeitung.ch/leben/digital/wenn-merkel-ploetzlich-trumps-gesicht-traegt-die-gefaehrliche-manipulation-von-bildern-und-videos-132155720"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Gensing, Deepfakes: Auf dem Weg in eine alternative Realität?",
+          "url": "http://faktenfinder.tagesschau.de/hintergrund/deep-fakes-101.html"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Romano, Jordan Peele's simulated Obama PSA is a double-edged warning against fake news, (18 April 2018)",
+          "url": "https://www.vox.com/2018/4/18/17252410/jordan-peele-obama-deepfake-buzzfeed"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Swenson, A Seattle TV station aired doctored footage of Trump's Oval Office speech. The employee has been fired., (11 January 2019)",
+          "url": "https://www.washingtonpost.com/nation/2019/01/11/seattle-tv-station-aired-doctored-footage-trumps-oval-office-speech-employee-has-been-fired/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "O'Sullivan, Congress to investigate deepfakes as doctored Pelosi video causes stir, (4 June 2019)",
+          "url": "https://www.cnn.com/2019/06/04/politics/house-intelligence-committee-deepfakes-threats-hearing/index.html"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "#TellTheTruthBelgium",
+          "url": "https://www.extinctionrebellion.be/en/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Holubowicz, Extinction Rebellion s'empare des deepfakes, (15 April 2020)",
+          "url": "https://journalism.design/les-deepfakes/extinction-rebellion-sempare-des-deepfakes/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Carnahan, Faked videos shore up false beliefs about Biden's mental health, (16 September 2020)",
+          "url": "http://theconversation.com/faked-videos-shore-up-false-beliefs-about-bidens-mental-health-145975"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Parker, Trump and allies ramp up efforts to spread disinformation and fake news, (7 September 2020)",
+          "url": "https://www.independent.co.uk/news/world/americas/us-election-2020/trump-us-election-fake-news-biden-twitter-deep-fake-videos-b404815.html"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Christopher, We've Just Seen the First Use of Deepfakes in an Indian Election Campaign, (18 February 2020)",
+          "url": "https://www.vice.com/en/article/the-first-use-of-deepfakes-in-indian-election-by-bjp/"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Amabie: the mythical creature making a coronavirus comeback, (28 April 2020)",
+          "url": "https://www.economist.com/1843/2020/04/28/amabie-the-mythical-creature-making-a-coronavirus-comeback"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Roth, European MPs targeted by deepfake video calls imitating Russian opposition, (22 April 2021)",
+          "url": "https://www.theguardian.com/world/2021/apr/22/european-mps-targeted-by-deepfake-video-calls-imitating-russian-opposition"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Ivanov, Hello, this is Leonid Volkov* Using deepfake video and posing as Navalny's right-hand man, Russian pranksters fool Latvian politicians and journalists into invitation and TV interview, (22 April 2021)",
+          "url": "https://meduza.io/en/feature/2021/04/22/hello-this-is-leonid-volkov"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Dutch MPs in video conference with deep fake imitation of Navalny's Chief of Staff, (24 April 2021)",
+          "url": "https://nltimes.nl/2021/04/24/dutch-mps-video-conference-deep-fake-imitation-navalnys-chief-staff"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "'Deepfake' Navalny Aide Targets European Lawmakers, (23 April 2021)",
+          "url": "https://www.themoscowtimes.com/2021/04/23/deepfake-navalny-aide-targets-european-lawmakers-a73717"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Vincent, 'Deepfake' that supposedly fooled European politicians was just a look-alike, say pranksters, (30 April 2021)",
+          "url": "https://www.theverge.com/2021/4/30/22407264/deepfake-european-polticians-leonid-volkov-vovan-lexus"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Novak, Viral Video Of Kamala Harris Speaking Gibberish Is Actually A Deepfake, (8 May 2023)",
+          "url": "https://www.forbes.com/sites/mattnovak/2023/05/08/viral-video-of-kamala-harris-speaking-gibberish-is-deepfake/?sh=723384a270f7"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "PolitiFact - Kamala Harris wasn't slurring about today, yesterday or tomorrow. This video is altered",
+          "url": "https://www.politifact.com/factchecks/2023/may/05/facebook-posts/kamala-harris-wasnt-slurring-about-today-yesterday/"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Shuham, DeSantis Campaign Ad Shows Fake AI Images Of Trump Hugging Fauci, (8 June 2023)",
+          "url": "https://www.huffpost.com/entry/desantis-trump-fauci-fake-ai-ad_n_64822436e4b025003edc3c8b"
+        },
+        {
+          "id": "cite-19",
+          "index": 19,
+          "text": "GÖRGEN, Deepfake Technology, Media, and National Security: The Case of the German Chancellor's Deepfake Video., (2025-08-01)",
+          "url": "https://research.ebsco.com/linkprocessor/plink?id=73f9c920-6d4a-3267-be6e-6ce6242847c9"
+        },
+        {
+          "id": "cite-20",
+          "index": 20,
+          "text": "AI Deepfakes Pose Major Threat to Elections in US and India",
+          "url": "https://www.washingtonpost.com/technology/2024/04/23/ai-deepfake-election-2024-us-india/"
+        },
+        {
+          "id": "cite-21",
+          "index": 21,
+          "text": "Christopher, Indian Voters Are Being Bombarded With Millions of Deepfakes. Political Candidates Approve, (March 2024)",
+          "url": "https://www.wired.com/story/indian-elections-ai-deepfakes/"
+        },
+        {
+          "id": "cite-22",
+          "index": 22,
+          "text": "What an Indian Deepfaker Tells Us About Global Election Security",
+          "url": "https://www.bloomberg.com/features/2024-ai-election-security-deepfakes/"
+        },
+        {
+          "id": "cite-23",
+          "index": 23,
+          "text": "Politi, Argentina's President Joins A.I.-Fueled Smear Campaign Against Journalist, (2 July 2025)",
+          "url": "https://www.nytimes.com/2025/07/02/world/americas/argentina-president-milei-press-attacks.html"
+        },
+        {
+          "id": "cite-24",
+          "index": 24,
+          "text": "Julia Mengolini se quebró por una violenta campaña de libertarios a la que se sumó Milei",
+          "url": "https://www.lanacion.com.ar/politica/julia-mengolini-se-quebro-por-una-campana-de-libertarios-a-la-que-se-sumo-milei-nid28062025/"
+        },
+        {
+          "id": "cite-25",
+          "index": 25,
+          "text": "Smith, Trump Live Updates: Epstein Fallout Continues as President Urges Base to Move on, (21 July 2025)",
+          "url": "https://www.nytimes.com/live/2025/07/21/us/trump-news"
+        },
+        {
+          "id": "cite-26",
+          "index": 26,
+          "text": "Margolis, Trump posts AI-generated video showing Obama getting arrested to 'YMCA', (20 July 2025)",
+          "url": "https://www.foxnews.com/politics/trump-posts-ai-generated-video-showing-obama-getting-arrested-ymca"
+        }
+      ]
+    },
+    {
+      "id": "pornography",
+      "title": "Pornography",
+      "level": 3,
+      "content": "In 2017, Deepfake pornography prominently surfaced on the Internet, particularly on Reddit. As of 2019, many deepfakes on the internet feature pornography of female celebrities whose likeness is typically used without their consent. A report published in October 2019 by Dutch cybersecurity startup Deeptrace estimated that 96% of all deepfakes online were pornographic.\nAs of 2018, a Daisy Ridley deepfake first captured attention, As of October 2019, most of the deepfake subjects on the internet were British and American actors.\n\nIn June 2019, a downloadable Windows and Linux application called DeepNude was released that used neural networks, specifically generative adversarial networks, to remove clothing from images of women. The app had both a paid and unpaid version, the paid version costing $50. On 27 June the creators removed the application and refunded consumers.\n\nFemale celebrities are often a main target when it comes to deepfake pornography. In 2023, deepfake porn videos appeared online of Emma Watson and Scarlett Johansson in a face swapping app. In 2024, deepfake porn images circulated online of Taylor Swift.\n\nAcademic studies have reported that women, LGBT people and people of color (particularly activists, politicians and those questioning power) are at higher risk of being targets of promulgation of deepfake pornography.\n\n=== Social media ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Roettgers, Porn Producers Offer to Help Hollywood Take Down Deepfake Videos, (21 February 2018)",
+          "url": "https://variety.com/2018/digital/news/deepfakes-porn-adult-industry-1202705749/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Dickson, Deepfake Porn Is Still a Threat, Particularly for K-Pop Stars, (7 October 2019)",
+          "url": "https://www.rollingstone.com/culture/culture-news/deepfakes-nonconsensual-porn-study-kpop-895605/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "The State of Deepfake - Landscape, Threats, and Impact, (1 October 2019)",
+          "url": "https://regmedia.co.uk/2019/10/08/deepfake_report.pdf"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Goggin, From porn to 'Game of Thrones': How deepfakes and realistic-looking fake videos hit it big, (7 June 2019)",
+          "url": "https://www.businessinsider.com/deepfakes-explained-the-rise-of-fake-realistic-videos-online-2019-6"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Lee, 'Fake porn' has serious consequences, (3 February 2018)",
+          "url": "https://www.bbc.com/news/technology-42912529"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Cole, Gfycat's AI Solution for Fighting Deepfakes Isn't Working, (19 June 2018)",
+          "url": "https://www.vice.com/en/article/gfycat-spotting-deepfakes-fake-ai-porn/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Zoe, Deepfake Porn Is Here To Stay, (24 November 2019)",
+          "url": "https://medium.com/@frenizoe/deepfake-porn-efb80f39bae3"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Cole, This Horrifying App Undresses a Photo of Any Woman with a Single Click, (26 June 2019)",
+          "url": "https://www.vice.com/en/article/deepnude-app-creates-fake-nudes-of-any-woman/"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Cox, GitHub Removed Open Source Versions of DeepNude, (9 July 2019)",
+          "url": "https://www.vice.com/en/article/github-removed-open-source-versions-of-deepnude-app-deepfakes/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "pic.twitter.com/8uJKBQTZ0o, (27 June 2019)",
+          "url": "https://twitter.com/deepnudeapp/status/1144307316231200768"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Hundreds of sexual deepfake ads using Emma Watson's face ran on Facebook and Instagram in the last two days, (7 March 2023)",
+          "url": "https://www.nbcnews.com/tech/social-media/emma-watson-deep-fake-scarlett-johansson-face-swap-app-rcna73624"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Filipovic, Anyone could be a victim of 'deepfakes'. But there's a reason Taylor Swift is a target, (31 January 2024)",
+          "url": "https://www.theguardian.com/commentisfree/2024/jan/31/taylor-swift-ai-pictures-far-right"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Paris, Configuring Fakes: Digitized Bodies, the Politics of Evidence, and Agency, (October 2021)"
+        }
+      ]
+    },
+    {
+      "id": "social-media",
+      "title": "Social media",
+      "level": 3,
+      "content": "Deepfakes have begun to see use in popular social media platforms, notably through Zao, a Chinese deepfake app that allows users to substitute their own faces onto those of characters in scenes from films and television shows such as Romeo + Juliet and Game of Thrones. The app originally faced scrutiny over its invasive user data and privacy policy, after which the company put out a statement claiming it would revise the policy.\n\nThe Congressional Research Service cited unspecified evidence as showing that foreign intelligence operatives used deepfakes to create social media accounts with the purposes of recruiting individuals with access to classified information. said he first got interested in deepfakes in 2018 and saw the \"creative potential\" of them.\n\n===Sockpuppets===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Damiani, Chinese Deepfake App Zao Goes Viral, Faces Immediate Criticism Over User Data And Security Policy",
+          "url": "https://www.forbes.com/sites/jessedamiani/2019/09/03/chinese-deepfake-app-zao-goes-viral-faces-immediate-criticism-over-user-data-and-security-policy/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Ahead of Irish and US elections, Facebook announces new measures against 'deepfake' videos, (7 January 2020)",
+          "url": "https://www.independent.ie/business/technology/ahead-of-irish-and-us-elections-facebook-announces-new-measures-against-deepfake-videos-38840513.html"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "How Belgian visual expert Chris Ume masterminded Tom Cruise's deepfakes, (6 March 2021)",
+          "url": "https://www.thestatesman.com/technology/science/belgian-visual-expert-chris-ume-masterminded-tom-cruises-deepfakes-1502955882.html"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Metz, How a deepfake Tom Cruise on TikTok turned into a very real AI company",
+          "url": "https://edition.cnn.com/2021/08/06/tech/tom-cruise-deepfake-tiktok-company/index.html"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Corcoran, This is not Tom Cruise. That's what has security experts so worried, (23 June 2021)",
+          "url": "https://www.abc.net.au/news/2021-06-24/tom-cruise-deepfake-chris-ume-security-washington-dc/100234772"
+        }
+      ]
+    },
+    {
+      "id": "sockpuppets",
+      "title": "Sockpuppets",
+      "level": 3,
+      "content": "Deepfake photographs can be used to create sockpuppets, non-existent people, who are active both online and in traditional media. A deepfake photograph appears to have been generated together with a legend for an apparently non-existent person named Oliver Taylor, whose identity was described as a university student in the United Kingdom. The Oliver Taylor persona submitted opinion pieces in several newspapers and was active in online media attacking a British legal academic and his wife, as \"terrorist sympathizers.\" The academic had drawn international attention in 2018 when he commenced a lawsuit in Israel against NSO, a surveillance company, on behalf of people in Mexico who alleged they were victims of NSO's phone hacking technology. Reuters could find only scant records for Oliver Taylor and \"his\" university had no records for him. Many experts agreed that the profile photo is a deepfake. Several newspapers have not retracted articles attributed to him or removed them from their websites. It is feared that such techniques are a new battleground in disinformation.\n\n==Concerns and countermeasures==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Reuters, 15 July 2020, [https://www.reuters.com/article/us-cyber-deepfake-activist-idUSKCN24G15E Deepfake Used to Attack Activist Couple Shows New Disinformation Frontier] {{Webarchive|url=https://web.archive.org/web/20200926073638/https://www.reuters.com/article/us-cyber-deepfake-activist-idUSKCN24G15E |date=26 September 2020 }}",
+          "url": "https://web.archive.org/web/20200926073638/https://www.reuters.com/article/us-cyber-deepfake-activist-idUSKCN24G15E"
+        }
+      ]
+    },
+    {
+      "id": "concerns-and-countermeasures",
+      "title": "Concerns and countermeasures",
+      "level": 2,
+      "content": "Though fake photos have long been plentiful, faking motion pictures has been more difficult, and the presence of deepfakes increases the difficulty of classifying videos as genuine or not. Li predicted that genuine videos and deepfakes would become indistinguishable in as soon as six months, as of October 2019, due to rapid advancement in artificial intelligence and computer graphics.\n\n=== Credibility of information ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Perfect Deepfake Tech Could Arrive Sooner Than Expected, (2 October 2019)",
+          "url": "https://www.wbur.org/hereandnow/2019/10/02/deepfake-technology"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Vincent, Deepfakes are becoming more realistic — and harder to detect",
+          "url": "https://www.theverge.com/2022/10/17/23409637/deepfakes-technology-ai-detection-future"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Sonnemaker, As social media platforms brace for the incoming wave of deepfakes, Google's former 'fraud czar' predicts the biggest danger is that deepfakes will eventually become boring",
+          "url": "https://www.businessinsider.com/google-ex-fraud-czar-danger-of-deepfakes-is-becoming-boring-2020-1"
+        }
+      ]
+    },
+    {
+      "id": "credibility-of-information",
+      "title": "Credibility of information",
+      "level": 3,
+      "content": "A primary pitfall is that humanity could fall into an age in which it can no longer be determined whether a medium's content corresponds to the truth. Deepfakes are one of a number of tools for disinformation attack, creating doubt, and undermining trust. They have a potential to interfere with democratic functions in societies, such as identifying collective agendas, debating issues, informing decisions, and solving problems through the exercise of political will. People may also start to dismiss real events as fake.\n\n===Defamation===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Vaccari, Deepfakes and Disinformation: Exploring the Impact of Synthetic Political Video on Deception, Uncertainty, and Trust in News, (January 2020)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Pawelec, Deepfakes and Democracy (Theory): How Synthetic Audio-Visual Media for Disinformation and Hate Speech Threaten Core Democratic Functions., (2022)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Somers, Deepfakes, explained, (21 July 2020)",
+          "url": "https://mitsloan.mit.edu/ideas-made-to-matter/deepfakes-explained"
+        }
+      ]
+    },
+    {
+      "id": "defamation",
+      "title": "Defamation",
+      "level": 3,
+      "content": "Deepfakes possess the ability to damage individual entities tremendously. This is because deepfakes are often targeted at one individual, and/or their relations to others in hopes to create a narrative powerful enough to influence public opinion or beliefs. This can be done through deepfake voice phishing, which manipulates audio to create fake phone calls or conversations.\n\n=== Detection ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Bateman, Summary, (2020)",
+          "url": "https://www.jstor.org/stable/resrep25783.6"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Kelion, Deepfake detection tool unveiled by Microsoft, (September 2020)",
+          "url": "https://www.bbc.com/news/technology-53984114"
+        }
+      ]
+    },
+    {
+      "id": "detection",
+      "title": "Detection",
+      "level": 3,
+      "content": "==== Audio ====",
+      "citations": []
+    },
+    {
+      "id": "audio",
+      "title": "Audio",
+      "level": 4,
+      "content": "Detecting fake audio is a highly complex task that requires careful attention to the audio signal in order to achieve good performance. Using deep learning, preprocessing of feature design and masking augmentation have been proven effective in improving performance.\n\n==== Video ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Cohen, A study on data augmentation in voice anti-spoofing, (June 2022)"
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "title": "Video",
+      "level": 4,
+      "content": "Most of the academic research surrounding deepfakes focuses on the detection of deepfake videos. One approach to deepfake detection is to use algorithms to recognize patterns and pick up subtle inconsistencies that arise in deepfake videos. The winning model of the Deepfake Detection Challenge was 65% accurate on the holdout set of 4,000 videos. A team at Massachusetts Institute of Technology published a paper in December 2021 demonstrating that ordinary humans are 69–72% accurate at identifying a random sample of 50 of these videos.\n\nAnother team led by Wael AbdAlmageed with Visual Intelligence and Multimedia Analytics Laboratory (VIMAL) of the Information Sciences Institute at the University Of Southern California developed two generations of deepfake detectors based on convolutional neural networks. The first generation For instance, a video might have to be verified through the ledger before it is shown on social media platforms. That allows tracing every photograph or video back to its original owner that can be used to pursue dissidents.\n\n=== Deepfake detection and regulation ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Manke, Researchers use facial quirks to unmask 'deepfakes', (18 June 2019)",
+          "url": "https://news.berkeley.edu/2019/06/18/researchers-use-facial-quirks-to-unmask-deepfakes/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Farid, Digital Doctoring: How to Tell the Real from the Fake, (1 December 2006)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Join the Deepfake Detection Challenge (DFDC)",
+          "url": "https://deepfakedetectionchallenge.ai/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Deepfake Detection Challenge Results: An open initiative to advance AI",
+          "url": "https://ai.facebook.com/blog/deepfake-detection-challenge-results-an-open-initiative-to-advance-ai/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Groh, Deepfake detection by human crowds, machines, and machine-informed crowds, (2022)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Google Scholar",
+          "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0,39&q=Recurrent+Convolutional+Strategies+for+Face+Manipulation+Detection+in+Videos&btnG="
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Masi, Two-branch recurrent network for isolating deepfakes in videos, (2020)",
+          "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tRGH8FkAAAAJ&citation_for_view=tRGH8FkAAAAJ:nb7KW1ujOQ8C"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "The Blockchain Solution to Our Deepfake Problems",
+          "url": "https://www.wired.com/story/the-blockchain-solution-to-our-deepfake-problems/"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Leetaru, Why Digital Signatures Won't Prevent Deep Fakes But Will Help Repressive Governments",
+          "url": "https://www.forbes.com/sites/kalevleetaru/2018/09/09/why-digital-signatures-wont-prevent-deep-fakes-but-will-help-repressive-governments/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "To Uncover a Deepfake Video Call, Ask the Caller to Turn Sideways, (8 August 2022)",
+          "url": "https://metaphysic.ai/to-uncover-a-deepfake-video-call-ask-the-caller-to-turn-sideways/"
+        }
+      ]
+    },
+    {
+      "id": "deepfake-detection-and-regulation",
+      "title": "Deepfake detection and regulation",
+      "level": 3,
+      "content": "Legal experts are actively questioning whether current and emerging regulatory frameworks adequately balance the advancements in deepfake detection with the protection of individual rights. Relevant legislation being scrutinized includes the EU AI Act, the General Data Protection Regulation (GDPR), the Digital Services Act in the European Union, as well as the fragmented state and federal laws in the United States, the Online Safety Act 2023 in the United Kingdom, and China's Administrative Provisions on Deep Synthesis in Internet-Based Information Services (commonly known as the Deep Synthesis Provisions). Scholars are evaluating if these frameworks effectively address the complex interplay between technology, rights, and responsibilities in the context of deepfakes.\n\n===Prevention===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Helmus, Artificial Intelligence, Deepfakes, and Disinformation: A Primer, (2022)",
+          "url": "http://www.jstor.org/stable/resrep42027"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Romero-Moreno, Deepfake detection in generative AI: A legal framework proposal to protect human rights, (23 June 2025)"
+        }
+      ]
+    },
+    {
+      "id": "prevention",
+      "title": "Prevention",
+      "level": 3,
+      "content": "Henry Ajder who works for Deeptrace, a company that detects deepfakes, says there are several ways to protect against deepfakes in the workplace. Semantic passwords or secret questions can be used when holding important conversations. Voice authentication and other biometric security features should be up to date. Educate employees about deepfakes.\n\n=== Media literacy and deepfakes ===",
+      "citations": []
+    },
+    {
+      "id": "media-literacy-and-deepfakes",
+      "title": "Media literacy and deepfakes",
+      "level": 3,
+      "content": "Due to the capability of deepfakes to fool viewers and believably mimic a person, research has indicated that the concept of truth through observation cannot be fully relied on. Additionally, literacy of the technology among populations could be called into question due to the relatively new success of convincing deepfakes. research has indicated that critical thinking and a skeptical outlook toward a presented piece of media are effective at assisting an individual in determining a deepfake. Media literacy frameworks promote critical analysis of media and the motivations behind the presentation of the associated content. Media literacy shows promise as a potential cognitive countermeasure when interacting with malicious deepfakes.\n\n===Controversies===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Karnouskos, Artificial Intelligence in Digital Media: The Era of Deepfakes, (September 2020)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Turós, Fake video detection among secondary school students: The impact of sociocultural, media literacy and media use factors, (September 2024)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Ahmed, Navigating the maze: Deepfakes, cognitive ability, and social media news skepticism, (May 2023)",
+          "url": "https://journals.sagepub.com/doi/10.1177/14614448211019198"
+        }
+      ]
+    },
+    {
+      "id": "controversies",
+      "title": "Controversies",
+      "level": 3,
+      "content": "In March 2024, a video clip was released by Buckingham Palace announcing that Kate Middleton had cancer and was undergoing chemotherapy. The appearance of a ring worn by Middleton in the clip fueled rumors that the clip was a deepfake. Johnathan Perkins, UCLA's Director of Race and Equity, doubted Middleton had cancer, and further speculated that she could be in critical condition or dead.\n\n=== Politics ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Kate Middleton's ring mysteriously vanishes, raises more AI concerns, (25 March 2024)",
+          "url": "https://www.msn.com/en-ae/news/featured/kate-middleton-s-ring-mysteriously-vanishes-raises-more-ai-concerns/ar-BB1ktPZJ"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Hindustan Times, 'Kate's cancer admission is fake', Meghan Markle's fan and UCLA director, Johnathan Perkins, floats conspiracy theory, (5 April 2024)",
+          "url": "https://www.hindustantimes.com/world-news/us-news/kates-cancer-admission-is-fake-meghan-markles-fan-and-ucla-director-johnathan-perkins-floats-conspiracy-theory-101712301940262.html"
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "title": "Politics",
+      "level": 3,
+      "content": "Recently, the use of deepfakes has inspired research on deepfake's capability and effects when used in disinformation campaigns. This capability has raised concerns, partly due to the potential of deepfakes to circumvent a person's skepticism and influence their views on an issue.   Due to the continued advancement in technology that improves deceptive capabilities of deepfakes, some scholars believe that deepfakes could pose a significant threat to democratic societies. Studies have investigated the effects of political deepfakes.\n\n=== Liar's dividend ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Hameleers, They Would Never Say Anything Like This! Reasons To Doubt Political Deepfakes, (February 2024)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Salubi, Artificial Intelligence, Misinformation, and Libraries: A New Frontier for Information Professionals, (2025-10-16)",
+          "url": "https://asistdl.onlinelibrary.wiley.com/doi/10.1002/pra2.1279"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Dobber, Do (Microtargeted) Deepfakes Have Real Effects on Political Attitudes?, (January 2021)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Salvi, THE ATTACK OF THE CLONES: Deepfakes and the evolving landscape of disinformation, (2024)",
+          "url": "http://www.jstor.org/stable/resrep62147.7"
+        }
+      ]
+    },
+    {
+      "id": "liars-dividend",
+      "title": "Liar's dividend",
+      "level": 3,
+      "content": "The liar's dividend is a political and social phenomenon in which, when faced with incriminating or embarrassing authentic video or audio recordings of themselves, individuals will claim that the recordings are AI in order to dismiss the claims and gain sympathy.\n\n== Example events ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Deepfakes, Elections, and Shrinking the Liar's Dividend {{!, (2024-02-08)",
+          "url": "https://www.brennancenter.org/our-work/research-reports/deepfakes-elections-and-shrinking-liars-dividend"
+        }
+      ]
+    },
+    {
+      "id": "example-events",
+      "title": "Example events",
+      "level": 2,
+      "content": "-created image of Donald Trump being arrested]]\n\n; Barack Obama: On 17 April 2018, American actor Jordan Peele, BuzzFeed, and Monkeypaw Productions posted a deepfake of Barack Obama to YouTube, which depicted Barack Obama cursing and calling Donald Trump names. In this deepfake, Peele's voice and face were transformed and manipulated into those of Obama. The intent of this video was to portray the dangerous consequences and power of deepfakes, and how deepfakes can make anyone say anything.\n; Donald Trump: On 5 May 2019, Derpfakes posted a deepfake of Donald Trump to YouTube, based on a skit Jimmy Fallon performed on The Tonight Show. In the deepfake, Jimmy Fallon's face was transformed into Donald Trump's face, with the audio remaining the same. This deepfake video was produced by Derpfakes with a comedic intent. In March 2023, a series of images appeared to show New York Police Department officers restraining Trump. The images, created using Midjourney, were initially posted on Twitter by Eliot Higgins but were later re-shared without context, leading some viewers to believe they were real photographs.\n; Mark Zuckerberg: In May 2019, two artists collaborating with the company CannyAI created a deepfake video of Facebook founder Mark Zuckerberg talking about harvesting and controlling data from billions of people. The video was part of an exhibit to educate the public about the dangers of artificial intelligence.\n; Kim Jong-un and Vladimir Putin: On 29 September 2020, deepfakes of North Korean leader Kim Jong-un and Russian President Vladimir Putin were uploaded to YouTube, created by a nonpartisan advocacy group RepresentUs. The deepfakes of Kim and Putin were meant to air publicly as commercials to relay the notion that interference by these leaders in US elections would be detrimental to the United States' democracy. The commercials also aimed to shock Americans to realize how fragile democracy is, and how media and news can significantly influence the country's path regardless of credibility.\n; Volodymyr Zelenskyy:On 16 March 2022, a one-minute long deepfake video depicting Ukraine's president Volodymyr Zelenskyy seemingly telling his soldiers to lay down their arms and surrender during the 2022 Russian invasion of Ukraine was circulated on social media.\n; Wolf News: In late 2022, pro-China propagandists started spreading deepfake videos purporting to be from \"Wolf News\" that used synthetic actors. The technology was developed by a London company called Synthesia, which markets it as a cheap alternative to live actors for training and HR videos.\n; Pope Francis: In March 2023, an anonymous construction worker from Chicago used Midjourney to create a fake image of Pope Francis in a white Balenciaga puffer jacket. The image went viral, receiving over twenty million views. Writer Ryan Broderick dubbed it \"the first real mass-level AI misinformation case\". Experts consulted by Slate characterized the image as unsophisticated: \"you could have made it on Photoshop five years ago\".\n; Keir Starmer: In October 2023, a deepfake audio clip of the UK Labour Party leader Keir Starmer abusing staffers was released on the first day of a Labour Party conference. The clip purported to be an audio tape of Starmer abusing his staffers.\n; Rashmika Mandanna: In early November 2023, a famous South Indian actor, Rashmika Mandanna fell prey to DeepFake when a morphed video of a famous British-Indian influencer, Zara Patel, with Rashmika's face started to float on social media. Zara Patel claims to not be involved in its creation.\n; Bongbong Marcos: In April 2024, a deepfake video misrepresenting Philippine President Bongbong Marcos was released. It is a slideshow accompanied by a deepfake audio of Marcos purportedly ordering the Armed Forces of the Philippines and special task force to act \"however appropriate\" should China attack the Philippines. The video was released amidst tensions related to the South China Sea dispute. The Presidential Communications Office has said that there is no such directive from the president and said a foreign actor might be behind the fabricated media. Criminal charges has been filed by the Kapisanan ng mga Brodkaster ng Pilipinas in relation to the deepfake media. On 22 July 2024, a video of Marcos purportedly snorting illegal drugs was released by Claire Contreras, a former supporter of Marcos. Dubbed as the polvoron video, the media noted its consistency with the insinuation of Marcos' predecessor—Rodrigo Duterte—that Marcos is a drug addict; the video was also shown at a Hakbang ng Maisug rally organized by people aligned with Duterte. Two days later, the Philippine National Police and the National Bureau of Investigation, based on their own findings, concluded that the video was created using AI; they further pointed out inconsistencies with the person on the video with Marcos, such as details on the two people's ears.\n; Joe Biden: Prior to the 2024 United States presidential election, phone calls imitating the voice of the incumbent Joe Biden were made to dissuade people from voting for him. The person responsible for the calls was charged with voter suppression and impersonating a candidate. The FCC proposed to fine him US$6 million and Lingo Telecom, the company that allegedly relayed the calls, $2 million.\n; Arup Group: The firm Arup Group lost $25 million in 2024 from a deepfake scam.\n;Sara Duterte: Philippine Senator Ronald dela Rosa on 14 June 2025 shared a 40-second Deepfake video created via Veo where two students on the street testified on why the impeachment proceedings against Vice President Sara Duterte is selective and politically motivated. Dela Rosa lauded the supposed youth for their opinions. When informed it was an AI video, he says that if that was the case the video creator had a point. Duterte herself defended Dela Rosa, insisting that sharing an AI video is not wrong as long as its \"not for profit\".\n\n;Catherine Connolly: On October 2025, Irish presidential candidate Catherine Connolly condemned an AI-generated deepfake video that mimicked an RTÉ News report and falsely claimed she was withdrawing from the presidential election; her campaign reported the video to the social media platforms it appeared on.\n== Responses ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "AI-generated images of Trump being arrested circulate on social media, (21 March 2023)",
+          "url": "https://apnews.com/article/fact-check-trump-nypd-stormy-daniels-539393517762"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Fagan, A viral video that appeared to show Obama calling Trump a 'dips---' shows a disturbing new trend called 'deepfakes'",
+          "url": "https://www.businessinsider.com/obama-deepfake-video-insulting-trump-2018-4"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "The rise of the deepfake and the threat to democracy",
+          "url": "http://www.theguardian.com/technology/ng-interactive/2019/jun/22/the-rise-of-the-deepfake-and-the-threat-to-democracy"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Trump shares deepfake photo of himself praying as AI images of arrest spread online, (24 March 2023)",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-ai-praying-photo-b2307178.html"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Towers-Clark, Mona Lisa And Nancy Pelosi: The Implications Of Deepfakes",
+          "url": "https://www.forbes.com/sites/charlestowersclark/2019/05/31/mona-lisa-and-nancy-pelosi-the-implications-of-deepfakes/"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "What Is The Difference Between A Deepfake And Shallowfake?, (21 April 2020)",
+          "url": "https://deepfakenow.com/what-is-the-difference-between-a-deepfake-and-shallowfake/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Gallery: 'Spectre' Launches ( Press Release), (29 May 2019)",
+          "url": "https://billposters.ch/spectre-launch/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Cole, This Deepfake of Mark Zuckerberg Tests Facebook's Fake Video Policies, (11 June 2019)",
+          "url": "https://www.vice.com/en/article/deepfake-of-mark-zuckerberg-facebook-fake-video-policy/"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Deepfake Putin is here to warn Americans about their self-inflicted doom",
+          "url": "https://www.technologyreview.com/2020/09/29/1009098/ai-deepfake-putin-kim-jong-un-us-election/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Sonne, Fake Putin Speech Calling for Martial Law Aired in Russia, (5 June 2023)",
+          "url": "https://www.nytimes.com/2023/06/05/world/europe/putin-deep-fake-speech-hackers.html"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Allyn, Bobby, Deepfake video of Zelenskyy could be 'tip of the iceberg' in info war, experts warn, (16 March 2022)",
+          "url": "https://www.npr.org/2022/03/16/1087062648/deepfake-video-zelenskyy-experts-war-manipulation-ukraine-russia"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Satariano, The People Onscreen Are Fake. The Disinformation Is Real., (7 February 2023)",
+          "url": "https://www.nytimes.com/2023/02/07/technology/artificial-intelligence-training-deepfake.html"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Pope Francis in Balenciaga deepfake fools millions: 'Definitely scary', (28 March 2023)",
+          "url": "https://nypost.com/2023/03/27/pope-francis-in-balenciaga-deepfake-fools-millions-definitely-scary/"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Lu, Misinformation, mistakes and the Pope in a puffer: what rapidly evolving AI can – and can't – do, (31 March 2023)",
+          "url": "https://www.theguardian.com/technology/2023/apr/01/misinformation-mistakes-and-the-pope-in-a-puffer-what-rapidly-evolving-ai-can-and-cant-do"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Murphy, The Pope in a Coat Is Not From a Holy Place, (29 March 2023)",
+          "url": "https://slate.com/technology/2023/03/pope-coat-midjourney-puffer-jacket-balenciaga-explained.html"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Deepfake audio of Sir Keir Starmer released on first day of Labour conference",
+          "url": "https://news.sky.com/story/labour-faces-political-attack-after-deepfake-audio-is-posted-of-sir-keir-starmer-12980181"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Woman in deepfake video with Rashmika Mandanna's face breaks silence: I'm deeply disturbed and upset by what is happening, (9 November 2023)",
+          "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/woman-in-deepfake-video-with-rashmika-mandannas-face-breaks-silence-im-deeply-disturbed-and-upset-by-what-is-happening/articleshow/105047285.cms?from=mdr"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "Cupin, Malacañang flags deepfake audio of Marcos ordering military attack, (24 April 2024)",
+          "url": "https://www.rappler.com/philippines/malacanang-flags-deepfake-audio-marcos-ordering-military-attack-april-2024/"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Flores, 'Foreign actor' seen behind President Marcos audio deepfake, (27 April 2024)",
+          "url": "https://www.philstar.com/headlines/2024/04/27/2350826/foreign-actor-seen-behind-president-marcos-audio-deepfake"
+        },
+        {
+          "id": "cite-19",
+          "index": 19,
+          "text": "Argosino, Raps filed vs social media pages for libelous content, Marcos deepfake, (14 May 2024)",
+          "url": "https://newsinfo.inquirer.net/1940406/raps-filed-vs-social-media-pages-for-libelous-content-marcos-deepfake"
+        },
+        {
+          "id": "cite-20",
+          "index": 20,
+          "text": "Face-swapped? Deepfake detector flags alleged Marcos video as 'suspicious', (23 July 2024)",
+          "url": "https://www.rappler.com/philippines/face-swapped-deepfake-detector-flags-alleged-marcos-video-suspicious/"
+        },
+        {
+          "id": "cite-21",
+          "index": 21,
+          "text": "NBI, PNP findings show 'polvoron' video fake, (24 July 2024)",
+          "url": "https://www.philstar.com/nation/2024/07/24/2372498/nbi-pnp-findings-show-polvoron-video-fake"
+        },
+        {
+          "id": "cite-22",
+          "index": 22,
+          "text": "Shepardson, US political consultant indicted over AI-generated Biden robocalls, (23 May 2024)",
+          "url": "https://www.reuters.com/world/us/us-political-consultant-indicted-over-ai-generated-biden-robocalls-2024-05-23/"
+        },
+        {
+          "id": "cite-23",
+          "index": 23,
+          "text": "US political consultant indicted over AI-generated Biden robocalls, (23 May 2024)",
+          "url": "https://apnews.com/article/biden-robocalls-ai-new-hampshire-charges-fines-9e9cc63a71eb9c78b9bb0d1ec2aa6e9c"
+        },
+        {
+          "id": "cite-24",
+          "index": 24,
+          "text": "Magramo, British engineering giant Arup revealed as $25 million deepfake scam victim, (17 May 2024)",
+          "url": "https://edition.cnn.com/2024/05/16/tech/arup-deepfake-scam-loss-hong-kong-intl-hnk/index.html"
+        },
+        {
+          "id": "cite-25",
+          "index": 25,
+          "text": "Dela Cruz, Fact Check: Video of students opposing Sara Duterte impeachment is AI-generated, (16 June 2025)",
+          "url": "https://www.rappler.com/newsbreak/fact-check/video-students-oppose-sara-duterte-impeachment-ai-generated/"
+        },
+        {
+          "id": "cite-26",
+          "index": 26,
+          "text": "Cabato, Dela Rosa ridiculed over AI video on Sara Duterte impeachment, (16 June 2025)",
+          "url": "https://newsinfo.inquirer.net/2070901/dela-rosa-ridiculed-over-ai-video-on-sara-duterte-impeachment"
+        },
+        {
+          "id": "cite-27",
+          "index": 27,
+          "text": "Magsambol, Sara Duterte: Nothing wrong with sharing AI video opposing my impeachment, (16 June 2025)",
+          "url": "https://www.rappler.com/philippines/sara-duterte-nothing-wrong-sharing-ai-video-opposing-impeachment/"
+        },
+        {
+          "id": "cite-28",
+          "index": 28,
+          "text": "Liggett, 'Disgraceful' deep-fake AI video condemned by presidential candidate, (22 October 2025)",
+          "url": "https://www.bbc.com/news/articles/czxkn504lqpo"
+        },
+        {
+          "id": "cite-29",
+          "index": 29,
+          "text": "Haeck, Deepfake video of Irish presidential candidate rocks campaign, (22 October 2025)",
+          "url": "https://www.politico.eu/article/deepfake-video-of-irish-presidential-candidate-rocks-campaign/"
+        }
+      ]
+    },
+    {
+      "id": "responses",
+      "title": "Responses",
+      "level": 2,
+      "content": "=== Social media platforms ===",
+      "citations": []
+    },
+    {
+      "id": "social-media-platforms",
+      "title": "Social media platforms",
+      "level": 3,
+      "content": "Chat site Discord took action against deepfake pornography in 2018, and has taken a general stance against deepfakes. Gfycat began removing all deepfakes from its site on 31 January 2018. \n\nReddit banned the r/deepfakes subreddit on 7 February 2018, due to the policy violation of \"involuntary pornography\". Also in February 2018, Pornhub said that it would ban deepfake videos on its website because it is considered \"non consensual content\" which violates their terms of service. They had also stated previously that they will take down content flagged as deepfakes. Writers from Motherboard reported that searching \"deepfakes\" on Pornhub still returned multiple recent deepfake videos. This came a few days after the publication of a VICE article in which its author, Emanuel Maiberg, reported \"Most deepfakes are non-consensual porn\", and that the main use of popular deepfake software DeepFaceLab (DFL), \"the most important technology powering the vast majority of this generation of deepfakes\", which often was used in combination with Google colabs, was to create non-consensual pornography. Maiberg pointed to the fact that among many other well-known examples of third-party DFL implementations, such as deepfakes commissioned by The Walt Disney Company, official music videos, and web series Sassy Justice by the creators of South Park, DFL's GitHub page, also linked to deepfake porn website  and participants of the DFL Discord server also participate on .\n\nFacebook has previously stated that they would not remove deepfakes from their platforms. The videos will instead be flagged as fake by third-parties and then have a lessened priority in user's feeds. This response was prompted in June 2019 after a deepfake featuring a 2016 video of Mark Zuckerberg circulated on Facebook and Instagram. The top performing models with the highest detection accuracy were analyzed for similarities and differences; these findings are areas of interest in further research to improve and refine deepfake detection models. However, media that has been edited to alter the order or context of words in one's message would remain on the site but be labeled as false, since it was not generated by artificial intelligence. In 2019, Twitter announced it was seeking public feedback on a prospective policy for its handling of \"synthetic and manipulated media\". Under the draft policy, TechCrunch reported that Twitter \"would label and warn, but not always remove, manipulated media\". In August 2024, the secretaries of state of Minnesota, Pennsylvania, Washington, Michigan and New Mexico penned an open letter to X owner Elon Musk urging modifications to its AI chatbot Grok's new text-to-video generator, added in August 2024, stating that it had disseminated election misinformation.\n\n=== Legislation ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Price, Discord just shut down a chat group dedicated to sharing porn videos edited with AI to include celebrities, (27 January 2018)",
+          "url": "https://www.businessinsider.com/discord-closes-down-deepfakes-server-ai-celebrity-porn-2018-1"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Twitter bans 'deepfake' AI-generated porn, (20 July 2019)",
+          "url": "https://www.engadget.com/2018/02/07/twitter-joins-those-banning-deepfake-ai-porn/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Cole, AI-Generated Fake Porn Makers Have Been Kicked Off Their Favorite Host, (31 January 2018)",
+          "url": "https://www.vice.com/en/article/deepfakes-ai-porn-removed-from-gfycat/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Ghoshal, Twitter, Pornhub and other platforms ban AI-generated celebrity porn, (7 February 2018)",
+          "url": "https://thenextweb.com/insider/2018/02/07/twitter-pornhub-and-other-platforms-ban-ai-generated-celebrity-porn/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Böhm, \"Deepfakes\": Firmen gehen gegen gefälschte Promi-Pornos vor, (7 February 2018)",
+          "url": "https://www.spiegel.de/netzwelt/web/deepfakes-online-plattformen-wollen-fake-promi-pornos-loeschen-a-1192170.html"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "barbara.wimmer, Deepfakes: Reddit löscht Forum für künstlich generierte Fake-Pornos, (8 February 2018)",
+          "url": "https://futurezone.at/digital-life/deepfakes-reddit-loescht-forum-fuer-kuenstlich-generierte-fake-pornos/400003061"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Deepfakes: Auch Reddit verbannt Fake-Porn, (8 February 2018)",
+          "url": "https://www.heise.de/newsticker/meldung/Deepfakes-Auch-Reddit-verbannt-Fake-Porn-3962987.html"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Reddit verbannt Deepfake-Pornos - derStandard.de",
+          "url": "https://www.derstandard.at/story/2000073855676/reddit-verbannt-deepfake-pornos"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Robertson, Reddit bans 'deepfakes' AI porn communities, (7 February 2018)",
+          "url": "https://www.theverge.com/2018/2/7/16982046/reddit-deepfakes-ai-celebrity-face-swap-porn-community-ban"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Cole, Pornhub Is Banning AI-Generated Fake Porn Videos, Says They're Nonconsensual, (6 February 2018)",
+          "url": "https://www.vice.com/en/article/pornhub-bans-deepfakes/"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Beres, A guide to 'deepfakes,' the internet's latest moral crisis, (2 February 2018)",
+          "url": "https://mashable.com/2018/02/02/what-are-deepfakes/"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "[[Google]] added \"involuntary synthetic pornographic imagery\" to its ban list in September 2018, allowing anyone to request the block of results showing their fake nudes.<ref name=\"Fake-porn videos are being weaponized to harass and humiliate women: 'Everybody is a potential target'\" />{{check quotation}} In May 2022, Google officially changed the terms of service for their [[Project Jupyter#Industry adoption|Jupyter Notebook colabs]], banning the use of their colab service for the purpose of creating deepfakes.<ref>Anderson, Martin (2022). [https://www.unite.ai/google-has-banned-the-training-of-deepfakes-in-colab/ ''Google Has Banned the Training of Deepfakes in Colab''] {{Webarchive|url=https://web.archive.org/web/20220530122326/https://www.unite.ai/google-has-banned-the-training-of-deepfakes-in-colab/ |date=30 May 2022 }}, Unite.ai, 28 May 2022",
+          "url": "https://web.archive.org/web/20220530122326/https://www.unite.ai/google-has-banned-the-training-of-deepfakes-in-colab/"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Maiberg, Emanuel (2022). [https://www.vice.com/en/article/ethical-deepfakes-deep-tom-cruise-ai-generated-porn/ ''It Takes 2 Clicks to Get From 'Deep Tom Cruise' to Vile Deepfake Porn''], VICE, 17 May 2022",
+          "url": "https://www.vice.com/en/article/ethical-deepfakes-deep-tom-cruise-ai-generated-porn/"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Facebook has promised to leave up a deepfake video of Mark Zuckerberg",
+          "url": "https://www.technologyreview.com/f/613690/facebook-deepfake-zuckerberg-instagram-social-media-election-video/"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Cole, This Deepfake of Mark Zuckerberg Tests Facebook's Fake Video Policies, (11 June 2019)",
+          "url": "https://www.vice.com/en/article/deepfake-of-mark-zuckerberg-facebook-fake-video-policy/"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Deepfake Detection Challenge Results: An open initiative to advance AI",
+          "url": "https://ai.facebook.com/blog/deepfake-detection-challenge-results-an-open-initiative-to-advance-ai/"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Paul, Twitter to label deepfakes and other deceptive media, (4 February 2020)",
+          "url": "https://www.reuters.com/article/us-twitter-security-idUSKBN1ZY2OV"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "Cole, Twitter Is the Latest Platform to Ban AI-Generated Porn, (6 February 2018)",
+          "url": "https://www.vice.com/en/article/twitter-bans-deepfakes/"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Help us shape our approach to synthetic and manipulated media",
+          "url": "https://blog.twitter.com/en_us/topics/company/2019/synthetic_manipulated_media_policy_feedback.html"
+        },
+        {
+          "id": "cite-19",
+          "index": 19,
+          "text": "TechCrunch, (11 November 2019)",
+          "url": "https://techcrunch.com/2019/11/11/twitter-drafts-a-deepfake-policy-that-would-label-and-warn-but-not-remove-manipulated-media/"
+        },
+        {
+          "id": "cite-20",
+          "index": 20,
+          "text": "[https://www.reuters.com/technology/artificial-intelligence/five-us-states-push-musk-fix-ai-chatbot-over-election-misinformation-2024-08-05/ Five US states push Musk to fix AI chatbot over election misinformation] Reuters accessed 19 August 2024.",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/five-us-states-push-musk-fix-ai-chatbot-over-election-misinformation-2024-08-05/"
+        },
+        {
+          "id": "cite-21",
+          "index": 21,
+          "text": "[https://www.washingtonpost.com/technology/2024/08/16/elon-musk-grok-ai/ Noxious images spread after Elon Musk launches AI tool with few guardrails] The Washington Post accessed 19 August 2024.",
+          "url": "https://www.washingtonpost.com/technology/2024/08/16/elon-musk-grok-ai/"
+        },
+        {
+          "id": "cite-22",
+          "index": 22,
+          "text": "[https://www.rollingstone.com/culture/culture-features/elon-musk-twitter-misinformation-timeline-1235076786/ How Elon Musk and X Became the Biggest Purveyors of Online Misinformation] Rolling Stone accessed 19 August 2024.",
+          "url": "https://www.rollingstone.com/culture/culture-features/elon-musk-twitter-misinformation-timeline-1235076786/"
+        }
+      ]
+    },
+    {
+      "id": "legislation",
+      "title": "Legislation",
+      "level": 3,
+      "content": "In the United States, there have been some responses to the problems posed by deepfakes. In 2018, the Malicious Deep Fake Prohibition Act was introduced to the US Senate; in 2019, the Deepfakes Accountability Act was introduced in the 116th United States Congress by U.S. representative for New York's 9th congressional district Yvette Clarke.\n\nIn 2024, over half of documented identity fraud involved AI-created forgeries, leading several states to introduce legislation regarding deepfakes, including Virginia, Texas, California, and New York; charges as varied as identity theft, cyberstalking, and revenge porn have been pursued, while more comprehensive statutes are urged.\n\nAmong U.S. legislative efforts, on 3 October 2019, California governor Gavin Newsom signed into law Assembly Bills No. 602 and No. 730. Assembly Bill No. 602 provides individuals targeted by sexually explicit deepfake content made without their consent with a cause of action against the content's creator. U.S. representative María Salazar introduced H.R. 6943: No AI Fraud Act into the 118th United States Congress on 10 January 2024, to establish specific property rights of individual physicality, including voice.\n\n=== Response from DARPA ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Sasse, S. 3805–115th Congress (2017-2018): Malicious Deep Fake Prohibition Act of 2018, (21 December 2018)",
+          "url": "https://www.congress.gov/bill/115th-congress/senate-bill/3805"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Clarke, H.R.3230 - 116th Congress (2019-2020): Defending Each and Every Person from False Appearances by Keeping Exploitation Subject to Accountability Act of 2019, (28 June 2019)",
+          "url": "https://www.congress.gov/bill/116th-congress/house-bill/3230"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Digital ID Verification Trends 2025",
+          "url": "https://www.zyphe.com/resources/blog/2025-trends-in-digital-id-verification-tech"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "'Deepfake' revenge porn is now illegal in Virginia, (July 2019)",
+          "url": "https://techcrunch.com/2019/07/01/deepfake-revenge-porn-is-now-illegal-in-virginia/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Iacono Brown, Congress Wants to Solve Deepfakes by 2020. That Should Worry Us., (15 July 2019)",
+          "url": "https://slate.com/technology/2019/07/congress-deepfake-regulation-230-2020.html"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Harrell, Fake-porn videos are being weaponized to harass and humiliate women: 'Everybody is a potential target'",
+          "url": "https://www.washingtonpost.com/technology/2018/12/30/fake-porn-videos-are-being-weaponized-harass-humiliate-women-everybody-is-potential-target"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Bill Text - AB-602 Depiction of individual using digital or electronic technology: sexually explicit material: cause of action.",
+          "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200AB602"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Bill Text - AB-730 Elections: deceptive audio or visual media.",
+          "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201920200AB730"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Assembly Bill No. 730 prohibits the distribution of malicious deepfake audio or visual media targeting a candidate running for public office within 60 days of their election.<ref name=\"AB730\" /> U.S. representative Yvette Clarke introduced H.R. 5586: Deepfakes Accountability Act into the [[118th United States Congress]] on 20 September 2023 in an effort to protect national security from threats posed by deepfake technology.<ref>[https://www.govtrack.us/congress/bills/118/hr5586 H.R. 5586: DEEPFAKES Accountability Act] Govtrack.US accessed 15 August 2024.",
+          "url": "https://www.govtrack.us/congress/bills/118/hr5586"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "[https://www.govtrack.us/congress/bills/118/hr6943 H.R. 6943: No AI FRAUD Act] Govtrack.US accessed 15 August 2024.",
+          "url": "https://www.govtrack.us/congress/bills/118/hr6943"
+        }
+      ]
+    },
+    {
+      "id": "response-from-darpa",
+      "title": "Response from DARPA",
+      "level": 3,
+      "content": "In 2016, the Defense Advanced Research Projects Agency (DARPA) launched the Media Forensics (MediFor) program which was funded through 2020. MediFor aimed at automatically spotting digital manipulation in images and videos, including Deepfakes. In the summer of 2018, MediFor held an event where individuals competed to create AI-generated videos, audio, and images as well as automated tools to detect these deepfakes. According to the MediFor program, it established a framework of three tiers of information—digital integrity, physical integrity and semantic integrity—to generate one integrity score in an effort to enable accurate detection of manipulated media.\n\nIn 2019, DARPA hosted a \"proposers day\" for the Semantic Forensics (SemaFor) program where researchers were driven to prevent viral spread of AI-manipulated media. DARPA and the Semantic Forensics Program were also working together to detect AI-manipulated media through efforts in training computers to utilize common sense, logical reasoning. In March 2024, SemaFor published an analytic catalog that offers the public access to open-source resources developed under SemaFor.\n\n=== International Panel on the Information Environment ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Hatmaker, DARPA is funding new tech that can identify manipulated videos and 'deepfakes', (1 May 2018)",
+          "url": "https://techcrunch.com/2018/04/30/deepfakes-fake-videos-darpa-sri-international-media-forensics/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Hsu, Experts Bet on First Deepfakes Political Scandal - IEEE Spectrum, (22 June 2018)",
+          "url": "https://spectrum.ieee.org/experts-bet-on-first-deepfakes-political-scandal"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Media Forensics",
+          "url": "https://www.darpa.mil/program/media-forensics"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "The US military is funding an effort to catch deepfakes and other AI trickery",
+          "url": "https://www.technologyreview.com/2018/05/23/142770/the-us-military-is-funding-an-effort-to-catch-deepfakes-and-other-ai-trickery/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Collins, DARPA Tackles Deepfakes With AI, (11 March 2019)",
+          "url": "https://govciomedia.com/darpa-tackles-deepfakes-with-ai/"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "DARPA Is Taking On the Deepfake Problem, (6 August 2019)",
+          "url": "https://www.nextgov.com/emerging-tech/2019/08/darpa-taking-deepfake-problem/158980/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Sybert, DARPA Launches New Programs to Detect Falsified Media, (16 September 2021)",
+          "url": "https://govciomedia.com/darpa-launches-new-programs-to-detect-falsified-media/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Cooper, DARPA Launches 2 New Efforts to Boost Defenses Against Manipulated Media, (15 March 2024)",
+          "url": "https://executivegov.com/2024/03/darpa-launches-2-new-efforts-to-boost-defenses-against-manipulated-media/"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Semantic Forensics - Analytic Catalog",
+          "url": "https://semanticforensics.com/analytic-catalog"
+        }
+      ]
+    },
+    {
+      "id": "international-panel-on-the-information-environment",
+      "title": "International Panel on the Information Environment",
+      "level": 3,
+      "content": "The International Panel on the Information Environment was launched in 2023 as a consortium of over 250 scientists working to develop effective countermeasures to deepfakes and other problems created by perverse incentives in organizations disseminating information via the Internet.\n\n==See also==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "<!-- National Academies of Sciences, Engineering, and Medicine (2023) Nobel Prize Summit Fuels Initiatives to Combat Misinformation and Disinformation and Build Trust in Science-->{{cite Q|Q124711722|author=((National Academies of Sciences, Engineering, and Medicine)) }}"
+        }
+      ]
+    }
+  ]
+}

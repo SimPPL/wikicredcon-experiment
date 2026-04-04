@@ -1,55 +1,653 @@
 {
   "id": "vaccine-misinfo",
   "title": "Vaccine misinformation",
-  "revisionDate": "2025-04-01",
-  "revisionId": "past-snapshot",
-  "qualityClass": "B",
+  "revisionDate": "2025-04-05",
+  "revisionId": "1284034303",
   "sections": [
     {
-      "id": "lead",
-      "title": "Vaccine misinformation",
+      "id": "vaccine-misinfo-lead",
+      "title": "Lead",
       "level": 1,
-      "content": "Vaccine misinformation is misinformation about vaccines, including their safety, efficacy, and composition. It has been identified as a major public health threat by the World Health Organization, which listed vaccine hesitancy as one of the top ten threats to global health in 2019.\n\nVaccine misinformation spreads through social media platforms, alternative health websites, and word of mouth. It includes false claims about vaccines causing autism, containing microchips, altering DNA, or being part of population control schemes.",
+      "content": "Misinformation related to immunization and the use of vaccines circulates in mass media and social media despite the fact that there is no serious hesitancy or debate within mainstream medical and scientific circles about the benefits of vaccination. Unsubstantiated safety concerns related to vaccines are often presented on the Internet as being scientific information.\n\nAlthough opposition to vaccination has existed for centuries, the internet and social media have recently facilitated the spread of vaccine-related misinformation. \nIntentional spreading of false information and conspiracy theories have been propagated by the general public and celebrities. Active disinformation campaigns by foreign actors are related to increases in negative discussions online and decreases in vaccination use over time.  As of 2019, prior to the COVID-19 pandemic, vaccine hesitancy was considered one of the top 10 threats to global health by the World Health Organization.",
       "citations": [
-        { "id": "c1", "index": 1, "text": "WHO: Ten threats to global health in 2019", "url": "https://www.who.int/news-room/spotlight/ten-threats-to-global-health-in-2019" },
-        { "id": "c2", "index": 2, "text": "Kata A. Anti-vaccine activists and the internet. Vaccine, 2012", "url": "https://doi.org/10.1016/j.vaccine.2011.11.112" }
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Misinformation about the vaccine could be worse than disinformation about the elections, (21 December 2020)",
+          "url": "https://www.politico.com/news/2020/12/21/social-media-vaccine-misinformation-449770"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Zadrozny, Covid-19 vaccines face a varied and powerful misinformation movement online, (30 November 2020)",
+          "url": "https://www.nbcnews.com/tech/tech-news/covid-19-vaccines-face-varied-powerful-misinformation-movement-online-n1249378"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Dubé, Vaccine Hesitancy, Acceptance, and Anti-Vaccination: Trends and Future Prospects for Public Health, (1 April 2021)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Kortum, The Impact of Inaccurate Internet Health Information in a Secondary School Learning Environment, (30 June 2008)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Hoffman, It's not all about autism: The emerging landscape of anti-vaccination sentiment on Facebook, (10 April 2019)",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0264410X19303032"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Gillmor, The Power of Local Celebrities in the Fight against Vaccine Hesitancy, (July 11, 2021)",
+          "url": "https://www.scientificamerican.com/article/the-power-of-local-celebrities-in-the-fight-against-vaccine-hesitancy/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Wiysonge, Misinformation on social media fuels vaccine hesitancy: a global study shows the link, (3 December 2020)",
+          "url": "https://theconversation.com/misinformation-on-social-media-fuels-vaccine-hesitancy-a-global-study-shows-the-link-150652"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Ten health issues WHO will tackle this year",
+          "url": "https://www.who.int/news-room/spotlight/ten-threats-to-global-health-in-2019"
+        }
       ]
     },
     {
-      "id": "history",
-      "title": "History",
+      "id": "extent",
+      "title": "Extent",
       "level": 2,
-      "content": "Opposition to vaccination is as old as vaccination itself. When Edward Jenner introduced the smallpox vaccine in 1796, religious leaders objected on theological grounds. The Anti-Vaccination League was founded in London in 1853 in response to mandatory vaccination laws.\n\nThe modern anti-vaccine movement gained momentum after Andrew Wakefield published a fraudulent study in The Lancet in 1998 claiming a link between the MMR vaccine and autism. The study was retracted in 2010 and Wakefield was struck off the medical register, but the false claim continues to circulate.",
+      "content": "A survey by the Royal Society for Public Health found that 50% of the parents of children under the age of five regularly encountered misinformation related to vaccination on social media. On Twitter, bots, masked as legitimate users were found creating false pretenses that there are nearly equal number of individuals on both sides of the debate, thus spreading misleading information related to vaccination and vaccine safety. The accounts created by bots used additional compelling stories related to anti-vaccination as clickbait to drive up their revenue and expose users to malware. Another study showed that a predisposition to believe in conspiracy theories was negatively correlated to the intention of individuals to get vaccinated.\n\nSpreading vaccine misinformation can lead to financial rewards by posting on social media and asking for donations or fundraising for anti-vaccination causes.\n\n==List of popular misinformation==",
       "citations": [
-        { "id": "c3", "index": 3, "text": "Wolfe RM, Sharp LK. Anti-vaccinationists past and present. BMJ, 2002", "url": "https://doi.org/10.1136/bmj.325.7361.430" },
-        { "id": "c4", "index": 4, "text": "Retraction of Wakefield et al. The Lancet, 2010", "url": "https://doi.org/10.1016/S0140-6736(10)60175-4" }
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Burki, Vaccine misinformation and social media, (1 October 2019)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Broniatowski, Weaponized Health Communication: Twitter Bots and Russian Trolls Amplify the Vaccine Debate, (October 2018)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Normalization of vaccine misinformation on social media amid COVID 'a huge problem'",
+          "url": "https://abcnews.go.com/Health/normalization-vaccine-misinformation-social-media-amid-covid-huge/story?id=74585753"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Bertin, Conspiracy Beliefs, Rejection of Vaccination, and Support for hydroxychloroquine: A Conceptual Replication-Extension in the COVID-19 Pandemic Context, (2020)"
+        }
+      ]
+    },
+    {
+      "id": "list-of-popular-misinformation",
+      "title": "List of popular misinformation",
+      "level": 2,
+      "content": "The World Health Organization has classified vaccine related misinformation into five topic areas. These are: threat of disease (vaccine preventable diseases are harmless), trust (questioning the trustworthiness of healthcare authorities who administer vaccines), alternative methods (such as alternative medicine to replace vaccination), effectiveness (vaccines do not work) and safety (vaccines have more risks than benefits).\n\n===Vaccination causes idiopathic conditions===",
+      "citations": []
+    },
+    {
+      "id": "vaccination-causes-idiopathic-conditions",
+      "title": "Vaccination causes idiopathic conditions",
+      "level": 3,
+      "content": "* False: Vaccines cause autism:  The established scientific consensus is that there is no link between vaccines and autism. No ingredients in vaccines, including thiomersal, have been found to cause autism.  The incorrect claim that vaccines cause autism dates to a paper published in 1998 and has since been retracted. The article was partially retracted by The Lancet as of March 6, 2004, after journalist Brian Deer raised issues including the possibility of severe research misconduct, conflict of interest and probable falsehood.  The paper was fully retracted as of February 2, 2010, following an investigation of the flawed study by Britain's General Medical Council which supported those concerns. The British Medical Association took disciplinary action against Wakefield on May 24, 2010, revoking his right to practice medicine. There are some indications that people with autism may also tend to have gastrointestinal disorders like an unusually shaped intestinal tract and micro bacteria alterations. However, multiple large-scale studies of more than half a million children have been carried out without finding a causal link between MMR vaccines and autism. In traditional vaccines, the virus is attenuated (weakened) and thus it is not possible to contract the disease, while in newer technologies like mRNA vaccines the vaccine does not contain the virus at all.\n* False: Vaccines can cause harmful side effects and even death: Vaccines are very safe. Most adverse events after vaccination are mild and temporary, such as a sore throat or mild fever, which can be controlled by taking paracetamol after vaccination. In 2020, as COVID-19 numbers rose and vaccinations started to roll out, the misinformation around vaccines causing infertility began to circulate. The false narrative began that mRNA vaccine-induced antibodies which act against the SARS-CoV-2 spruce protein could also attack the placental protein syncytin-1, and that this could cause infertility. There is no evidence to support this.  A joint statement of the American College of Obstetricians and Gynecologists, the American Society for Reproductive Medicine, and the Society for Maternal-Fetal Medicine clearly states “that there is no evidence that the vaccine can lead to loss of fertility”.\nThere are numerous studies and surveys that purport to show an association between vaccines and a range of conditions: from ear infections and asthma, to ADHD and autism; however most of the studies have been retracted, or are unpublished, and the surveys are non peer-reviewed. One of the studies in question\n\n===Alternative remedies to vaccination===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Autism and Vaccines {{!, (25 August 2020)",
+          "url": "https://www.cdc.gov/vaccinesafety/concerns/autism.html"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Geoghegan, Vaccine Safety: Myths and Misinformation, (17 March 2020)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Vaccines and Autism, (5 November 2014)",
+          "url": "https://www.chop.edu/centers-programs/vaccine-education-center/vaccines-and-other-conditions/vaccines-autism"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Davidson, Vaccination as a cause of autism—myths and controversies, (December 2017)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "A timeline of the Wakefield retraction, (1 March 2010)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Eggertson, Lancet retracts 12-year-old article linking autism to MMR vaccines, (2010-03-09)"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Andrew Wakefield's Harmful Myth of Vaccine-induced \"Autistic Entercolitis\", (2011)",
+          "url": "https://badgut.org/information-centre/a-z-digestive-topics/andrew-wakefield-vaccine-myth/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Burns, British Medical Council Bars Doctor Who Linked Vaccine With Autism, (25 May 2010)",
+          "url": "https://www.nytimes.com/2010/05/25/health/policy/25autism.html"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Fliesler, The Autism-GI Link Inflammatory bowel disease found more prevalent in ASD patients, (August 12, 2015)",
+          "url": "https://hms.harvard.edu/news/autism-gi-link"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Vaccines: The Myths and the Facts",
+          "url": "https://www.aaaai.org/conditions-and-treatments/library/allergy-library/vaccine-myth-fact"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Vaccines and immunization: Myths and misconceptions",
+          "url": "https://www.who.int/news-room/q-a-detail/vaccines-and-immunization-myths-and-misconceptions"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Understanding mRNA COVID-19 Vaccines, (18 December 2020)",
+          "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mrna.html"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Safrai, Stopping the misinformation: BNT162b2 COVID-19 vaccine has no negative effect on women's fertility, (2021-06-01)"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "COVID-19 Vaccines: Myth Versus Fact",
+          "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/covid-19-vaccines-myth-versus-fact"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Abbasi, Widespread Misinformation About Infertility Continues to Create COVID-19 Vaccine Hesitancy, (2022-03-15)"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "ASRM, ACOG and SMFM Issue Joint Statement: Medical Experts Continue to Assert that COVID Vaccines Do Not Impact Fertility",
+          "url": "https://www.asrm.org/news-and-publications/covid-19/covid-19-press-releases-and-announcements/asrm-smfm-acog-issue-joint-statement-medical-experts-continue-to-assert-that-covid-vaccines-do-not-impact-fertility/"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "https://yale62.org/wp-content/uploads/2021/06/Verstraeten-Thomas-M.D.-et-al-CDC-1999.pdf",
+          "url": "https://yale62.org/wp-content/uploads/2021/06/Verstraeten-Thomas-M.D.-et-al-CDC-1999.pdf"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "R Mawson, Pilot comparative study on the health of vaccinated and unvaccinated 6- to 12- year old U.S. children, (2017)",
+          "url": "http://www.oatext.com/Pilot-comparative-study-on-the-health-of-vaccinated-and-unvaccinated-6-to-12-year-old-U-S-children.php"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Hooker, Analysis of health outcomes in vaccinated and unvaccinated children: Developmental delays, asthma, ear infections and gastrointestinal disorders, (January 2020)"
+        },
+        {
+          "id": "cite-19",
+          "index": 19,
+          "text": "Mawson, Multiple Vaccinations and the Enigma of Vaccine Injury, (2020-11-12)"
+        },
+        {
+          "id": "cite-20",
+          "index": 20,
+          "text": "Yumpu.com, NVKP survey - Think Twice Global Vaccine Institute",
+          "url": "https://www.yumpu.com/en/document/view/31846969/nvkp-survey-think-twice-global-vaccine-institute"
+        },
+        {
+          "id": "cite-21",
+          "index": 21,
+          "text": "https://icandecide.org/wp-content/uploads/2021/08/Letter-to-NY-DOH_2021_05_21.pdf",
+          "url": "https://icandecide.org/wp-content/uploads/2021/08/Letter-to-NY-DOH_2021_05_21.pdf"
+        },
+        {
+          "id": "cite-22",
+          "index": 22,
+          "text": "Ioniuc, Challenges in the Pharmacotherapeutic Management of Pediatric Asthma, (2022-12-18)"
+        }
+      ]
+    },
+    {
+      "id": "alternative-remedies-to-vaccination",
+      "title": "Alternative remedies to vaccination",
+      "level": 3,
+      "content": "Responding to misinformation, some may resort to complementary or alternative medicine as an alternative to vaccination. Those who believe in this narrative view vaccines as 'toxic and adulterating' while seeing alternative 'natural' methods as safe and effective. Some of the misinformation circulating around alternate remedies for vaccination include:\n* False: Eating yoghurt cures human papillomavirus:\n* False: Nosodes are an alternative to vaccines: There is no evidence supporting nosodes effectiveness in preventing or treating infectious diseases.\n\n===Vaccination as genocide===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Attwell, \"Do-it-yourself\": Vaccine rejection and complementary and alternative medicine (CAM), (January 2018)",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S027795361730686X"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Covid-19 — Myth Versus Fact, (14 February 2022)",
+          "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/2019-novel-coronavirus-myth-versus-fact"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Rieder, 'Nosodes' are no substitute for vaccines, (May 2015)"
+        }
+      ]
+    },
+    {
+      "id": "vaccination-as-genocide",
+      "title": "Vaccination as genocide",
+      "level": 3,
+      "content": "Misinformation that forced vaccination could be used to \"depopulate\" the earth circulated in 2011 by misquoting Bill Gates. There is misinformation implying that vaccines (particularly the mRNA vaccine) could alter DNA in the nucleus.  mRNA in the cytosol is very rapidly degraded before it would have time to gain entry into the cell nucleus. (mRNA vaccines must be stored at very low temperatures to prevent mRNA degradation.) Retrovirus can be single-stranded RNA (just as SARS-CoV-2 vaccine is single-stranded RNA) which enters the cell nucleus and uses reverse transcriptase to make DNA from the RNA in the cell nucleus. A retrovirus has mechanisms to be imported into the nucleus, but other mRNA lack these mechanisms. Once inside the nucleus, creation of DNA from RNA cannot occur without a primer, which accompanies a retrovirus, but which would not exist for other mRNA if placed in the nucleus. Thus, mRNA vaccines cannot alter DNA because they cannot enter the nucleus, and because they have no primer to activate reverse transcriptase.\n\n===Vaccine components contain forbidden additives===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "False Bill Gates 'depopulate with vaccines' news a conspiracy theory classic – Australian Associated Press, (8 December 2020)",
+          "url": "https://www.aap.com.au/false-bill-gates-depopulate-with-vaccines-news-a-conspiracy-theory-classic/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Vaccine rumours debunked: Microchips, 'altered DNA' and more, (2 December 2020)",
+          "url": "https://www.bbc.co.uk/news/54893437"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Retroviral DNA Transposition: Themes and Variations, (December 2014)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "No, Really, mRNA Vaccines Are Not Going To Affect Your DNA, (24 November 2020)",
+          "url": "https://www.deplatformdisease.com/blog/no-really-mrna-vaccines-are-not-going-to-affect-your-dna"
+        }
+      ]
+    },
+    {
+      "id": "vaccine-components-contain-forbidden-additives",
+      "title": "Vaccine components contain forbidden additives",
+      "level": 3,
+      "content": "Anti-vaxxers emphasize that the components in vaccines such as thiomersal and aluminum are capable for causing health hazards. Thiomersal is a harmless component in vaccines which is used to maintain its sterility, and there are no known adverse effects due to it. Aluminium is included in the vaccine as an adjuvant, and it has low toxicity even in large amounts.\n\n===Vaccines are part of a governmental/pharmaceutical conspiracy===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "How a Vaccine Is Like a Banana – and Why That's Good",
+          "url": "https://time.com/4058511/vaccine-ingredients-inserts/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "WHO {{!",
+          "url": "https://www.who.int/vaccine_safety/committee/topics/thiomersal/statement_jul2006/en/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Ningtyas, Indonesia battles spread of vaccine misinformation, (27 January 2021)",
+          "url": "https://www.aa.com.tr/en/asia-pacific/indonesia-battles-spread-of-vaccine-misinformation/2124319"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Good, Concerns grow COVID vaccine misinformation campaigns targeting Muslims, (22 January 2021)",
+          "url": "https://www.euronews.com/2021/01/22/concerns-grow-that-covid-vaccine-misinformation-campaigns-are-targeting-muslims"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Covid: Fake news 'causing UK South Asians to reject jab', (15 January 2021)",
+          "url": "https://www.bbc.com/news/uk-55666407"
+        }
+      ]
+    },
+    {
+      "id": "vaccines-are-part-of-a-governmentalpharmaceutical-conspiracy",
+      "title": "Vaccines are part of a governmental/pharmaceutical conspiracy",
+      "level": 3,
+      "content": "The Big Pharma conspiracy theory, that pharmaceutical companies operate for sinister purposes and against the public good, has been used in the context of vaccination. The theory states that vaccines have unusual substances in them and that they are only made for an increase in profit.\n\n===Vaccine preventable diseases are harmless===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Rauhala, The pandemic is amplifying the U.S. anti-vaccine movement – and globalizing it",
+          "url": "https://www.washingtonpost.com/world/coronaviurs-antivax-conspiracies/2020/10/06/96ddd2c2-028e-11eb-b92e-029676f9ebec_story.html"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Kata, Anti-vaccine activists, Web 2.0, and the postmodern paradigm – An overview of tactics and tropes used online by the anti-vaccination movement, (28 May 2012)",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0264410X11019086"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Blaskiewicz, The Big Pharma conspiracy theory, (December 2013)",
+          "url": "https://www.researchgate.net/publication/272310471"
+        }
+      ]
+    },
+    {
+      "id": "vaccine-preventable-diseases-are-harmless",
+      "title": "Vaccine preventable diseases are harmless",
+      "level": 3,
+      "content": "There is a common misconception that vaccine-preventable diseases such as measles are harmless. However, measles remains a serious disease, and can cause severe complications or even death. Vaccination is the only way to protect against measles.\n\n===Personal anecdotes about harmed individuals===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Addressing misconceptions on measles vaccination, (15 April 2014)",
+          "url": "https://www.ecdc.europa.eu/en/measles/prevention-and-control/addressing-misconceptions-measles"
+        }
+      ]
+    },
+    {
+      "id": "personal-anecdotes-about-harmed-individuals",
+      "title": "Personal anecdotes about harmed individuals",
+      "level": 3,
+      "content": "Personal anecdotes and sometimes false stories are circulated about vaccination. Misinformation has spread claiming that people died due to COVID-19 vaccination. There are individuals that perpetuate the harmful mistruths about vaccinations and the falsified links vaccinations have with autism. Through the spread of false media, civilians are blindly being led to believe that vaccinations are the leading cause of autism, when in fact, this is far from the truth. For one, autism occurs during fetal development, not after the mother has given birth (Rodier, P. M. 2000). However, there are contributing factors that can influence where a child may be placed on the spectrum. These factors include the mother consuming medication while pregnant that should not be consumed during pregnancy, genetics playing a part, the environment as well as metabolic disorders and epigenetic mechanisms (Manzi, B. et al. 2008). Though individuals tend to believe that autism is a harmful and negative disorder—and therefore refusing to be vaccinated—they are actually causing more harm to themselves and others by potentially putting themselves at risk of being exposed to diseases and infections that can be harmful to their body. Moreover, when infected, they can then transfer the disease to a person who is immunocompromised. This not only harms themselves but can contribute to the spread of viral infections with harmful long-term effects that can potentially result in death. All in all, through the many experiments performed on the links between vaccinations and autism, no experiment has conclusively proven the link between autism and vaccinations.\n\n===Other conspiracy theories===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Kata, Anti-vaccine activists, Web 2.0, and the postmodern paradigm – An overview of tactics and tropes used online by the anti-vaccination movement, (28 May 2012)",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0264410X11019086"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Nurse who fainted after COVID-19 vaccine shot is not dead – Australian Associated Press, (30 December 2020)",
+          "url": "https://www.aap.com.au/nurse-who-fainted-after-covid-19-vaccine-shot-is-not-dead/"
+        }
+      ]
+    },
+    {
+      "id": "other-conspiracy-theories",
+      "title": "Other conspiracy theories",
+      "level": 3,
+      "content": "Other conspiracy theories circulated on social media have included the false notion such as;\n\n* False: Polio is not a real disease and the symptoms are actually due to DDT poisoning: The first major documented polio outbreak in the United States occurred in 1894 in Vermont. In the early 20th century, a polio epidemic started in the west causing 6,000 deaths and leaving 27,000 people paralyzed. In 1954, the Salk Institute created the polio vaccine putting an end to the epidemic and saving millions of lives. The incorrect theory that polio was related to  pesticide poisoning predates the discovery of the polio vaccine. It was proposed in 1952 by Dr. Ralph R. Scobey in an article in the Archives of Pediatrics.  Scobey argued that there were similarities between the symptoms of polio and various types of poisoning, and suggested that polio outbreaks might be more likely to occur during the summer and be related to consumption of fresh fruit and vegetables. they are not dangerous in the way that Scobey believed them to be, as a cause of polio.   Studies have clearly demonstrated causal relationships showing that polio is caused by a virus. Vaccines have proven effective in preventing the disease and eliminating wild poliovirus in most parts of the world.\n* False: The COVID-19 vaccines contain injectable microchips to identify and track people: This conspiracy theory started circulating in 2020 claiming the COVID-19 pandemic was a cover for a plan to implant trackable microchips and Bill Gates, co-founder of Microsoft, was behind it. A YouGov poll conducted in 2020 suggested that 28% of Americans believe in this conspiracy theory. The origin of the theory is a long-term effort of Bill and Melinda Gates Foundation on sponsoring research on vaccinating people by pricking skin with an array of a large count of sharp microneedles coated with a vaccine, as long as with some fluorescent ink. The needles were made of silicon using the similar technology integrated circuits are made. Any piece of silicon resulted from this technology is called a \"chip\", be it an integrated circuit, a MEMS device, or something else. So the theory has arisen from the confusion of different meanings of the word \"chip\". In the series of research papers, the chip is just pressed against the skin with a finger to make the needles prick the skin, then the vaccine coating and fluorescent ink are transferred from the needles into skin, then the chip itself is disposed. The ink is meant to leave a tattoo that could be visualized by irradiating the dye with the light of certain wavelengths, this way allowing to check if the tattoo was made, which is useful in the contexts when vaccination is compulsory and using more low-cost and secure alternatives like database lookups of ID card or biometrics is infeasible due to lack of infrastructure like power grid and Internet connectivity. So the chip is neither meant to be implanted, nor can physically fit into a syringe needle, as the conspiracy theory suggests.\n\n==Impact==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Hoffman, It's not all about autism: The emerging landscape of anti-vaccination sentiment on Facebook, (2019-04-10)",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0264410X19303032"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Caverly, First U.S. Polio Epidemic {{!",
+          "url": "https://www.historyofvaccines.org/content/first-us-polio-epidemic"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "\"Breaking the back of polio\"",
+          "url": "https://medicine.yale.edu/news/yale-medicine-magazine/article/breaking-the-back-of-polio/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "The Story of Silent Spring, (August 13, 2015)",
+          "url": "https://www.nrdc.org/stories/story-silent-spring"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Williams, Paralysed with Fear: The Story of Polio, (27 June 2013)",
+          "url": "https://books.google.com/books?id=EWkhAQAAQBAJ&dq=Scobey&pg=PT372"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Polio is caused by a virus, not 'industrial toxins', (2021-11-09)",
+          "url": "https://www.aap.com.au/factcheck/polio-is-caused-by-a-virus-not-industrial-toxins/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Kew, Breaking the Last Chains of Poliovirus Transmission: Progress and Challenges in Global Polio Eradication, (29 September 2018)"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Fact check: COVID-19 vaccine labels would not microchip or track individuals, but serve logistical purpose, (2020-12-14)",
+          "url": "https://www.reuters.com/article/uk-factcheck-microchip-not-injected-covi-idUSKBN28O1TM"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Alba, From Voter Fraud to Vaccine Lies: Misinformation Peddlers Shift Gears, (2020-12-16)",
+          "url": "https://www.nytimes.com/2020/12/16/technology/from-voter-fraud-to-vaccine-lies-misinformation-peddlers-shift-gears.html"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Gerts, \"Thought I'd Share First\" and Other Conspiracy Theory Tweets from the COVID-19 Infodemic: Exploratory Study, (2021-04-14)"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Coronavirus: Bill Gates ‘microchip’ conspiracy theory and other vaccine claims fact-checked, (29 May 2020)",
+          "url": "https://www.bbc.com/news/52847648"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Prausnitz, Engineering Microneedle Patches for Vaccination and Drug Delivery to Skin, (2017)"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "McHugh, Biocompatible near-infrared quantum dots delivered to the skin by microneedle patches record vaccination, (2019)"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Coronavirus: Bill Gates 'microchip' conspiracy theory and other vaccine claims fact-checked, (2020-05-29)",
+          "url": "https://www.bbc.com/news/52847648"
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "content": "Fueled by misinformation, anti-vaccination activism is on the rise on social media and in many countries. Research has shown that viewing a website containing vaccine misinformation for 5–10 minutes decreases a person's intention to vaccinate. A 2020 study found that \"large proportions of the content about vaccines on popular social media sites are anti-vaccination messages.\" It further found that there is a significant relationship between joining vaccine hesitant groups on social media and openly casting doubts in public about vaccine safety, as well as a substantial relationship between foreign disinformation campaigns and declining vaccination coverage.\n\nIn 2003, rumors about polio vaccines intensified vaccine hesitancy in Nigeria and led to a five-fold increase in the number of polio cases in the country over three years. A 2021 study found that misinformation about COVID-19 vaccines on social media \"induced a decline in intent [to vaccinate] of 6.2 percentage points in the [United Kingdom] and 6.4 percentage points in the [United States] among those who said they would definitely accept a vaccine\".\n\nSocial media is again the leading platform for the rapid spreading of vaccine misinformation during a pandemic. For example, A study in 2020 of public opinions about the developing Chinese domestic COVID-19 vaccines found around one-fifth of the post on weibo related to the vaccine claimed that the COVID-19 vaccines are generally overpriced, even though they are later being administered totally free. Many people in China also hold the belief that inactive vaccines are safer than the newly developed mRNA vaccine of SARS-Covid-2. The cause of this might be a combination of national pride and a lack of understanding of vaccine literacy. \n\nIn general, misinformation related to the COVID-19 vaccine reduced public confidence. Public acceptance of Chinese domestic COVID-19 vaccines dropped significantly due to concerns about the possible high cost. An online survey in China showed only 28.7% of the participants expressed definite interest in getting the vaccine. Most people (54.6%) held some hesitancy toward the vaccine.  \n\n==Measures against misinformation==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "DiResta, Anti-vaxxers Think This Is Their Moment, (20 December 2020)",
+          "url": "https://www.theatlantic.com/ideas/archive/2020/12/campaign-against-vaccines-already-under-way/617443/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Betsch, The Influence of Vaccine-critical Websites on Perceiving Vaccination Risks, (26 March 2010)",
+          "url": "https://journals.sagepub.com/doi/pdf/10.1177/1359105309353647"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Chou, Addressing Health-Related Misinformation on Social Media, (18 December 2018)",
+          "url": "https://jamanetwork.com/journals/jama/article-abstract/2715795"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Wilson, Social media and vaccine hesitancy, (1 October 2020)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Vaccine Hesitancy, an Escalating Danger in Africa {{!, (17 December 2019)",
+          "url": "https://www.thinkglobalhealth.org/article/vaccine-hesitancy-escalating-danger-africa"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Wiysonge, How ending polio in Africa has had positive spinoffs for public health, (3 November 2020)",
+          "url": "https://theconversation.com/how-ending-polio-in-africa-has-had-positive-spinoffs-for-public-health-148857"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Loomba, Measuring the impact of COVID-19 vaccine misinformation on vaccination intent in the UK and USA, (5 February 2021)"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Yin, Unfolding the Determinants of COVID-19 Vaccine Acceptance in China, (2021-01-15)",
+          "url": "https://www.jmir.org/2021/1/e26089"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Lin, Understanding COVID-19 vaccine demand and hesitancy: A nationwide online survey in China, (2020-12-17)"
+        }
+      ]
+    },
+    {
+      "id": "measures-against-misinformation",
+      "title": "Measures against misinformation",
+      "level": 2,
+      "content": "=== Communication ===",
+      "citations": []
+    },
+    {
+      "id": "communication",
+      "title": "Communication",
+      "level": 3,
+      "content": "After repeated exposure to misinformation - for example through social media-, individuals might hold misinformed mental models of the function, risk, and purpose of vaccines. The longer an individual holds misinformation, the more staunchly rooted it becomes in their mental model, making its correction and retraction all the more difficult. Over time, these models may become integral to a vaccine hesitant individual's worldview. People are likely to filter any new information they receive to fit their preexisting worldviewcorrective vaccine facts are no exception to this motivated reasoning. Thus, by the time vaccine hesitant individuals arrive at the doctor's office, healthcare workers face an uphill battle. If they seek to change minds and maintain herd immunity against preventable diseases, they must do more than simply present facts about vaccines. Providers need communication strategies that effectively change minds and behavior.\n\nCommunication strategies to counter vaccine misinformation and effectively improve the intention to vaccinate include communicating the scientific consensus that vaccines are safe and effective, using humour to dispel vaccine myths, and providing vaccine misinformation warnings. Compared to these, debunking vaccine misinformation and providing vaccine education materials work less in tackling misinformation. Scare tactics, and failing to acknowledge uncertainty is not effective, and can even backfire and worsen the intention to vaccinate.\nResearch shows that science communicators should directly counter misinformation because of its negative influence on silent audience who are observing the vaccine debate, but not engaging in it. The refutations to vaccine-related misinformation should be straightforward in order to avoid emphasizing misinformation. Before and after each intervention, researchers measured parents' belief in the vaccine/autism misperception, their intent to vaccinate future children, and their general risk perception of the vaccine. They found that none of the interventions increased parental intent to vaccinate. \n\n=== Social media ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Ecker, He did it! She did it! No, she did not! Multiple causal explanations and the continued influence of misinformation, (November 2015)",
+          "url": "https://linkinghub.elsevier.com/retrieve/pii/S0749596X15001035"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Kunda, The case for motivated reasoning., (1990)",
+          "url": "http://doi.apa.org/getdoi.cfm?doi=10.1037/0033-2909.108.3.480"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Whitehead, A systematic review of communication interventions for countering vaccine misinformation, (2023-01-27)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "How to tackle vaccine misinformation: what works and what doesn't?, (13 July 2023)",
+          "url": "https://evidence.nihr.ac.uk/alert/how-to-tackle-vaccine-misinformation-what-works-and-what-doesnt/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Steffens, How organisations promoting vaccination respond to misinformation on social media: a qualitative investigation, (23 October 2019)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Nyhan, Effective Messages in Vaccine Promotion: A Randomized Trial, (1 April 2014)",
+          "url": "http://pediatrics.aappublications.org/cgi/doi/10.1542/peds.2013-2365"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Why vaccination is safe and important, (31 July 2019)",
+          "url": "https://www.nhs.uk/conditions/vaccinations/why-vaccination-is-safe-and-important/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Questions and Concerns {{!, (25 August 2020)",
+          "url": "https://www.cdc.gov/vaccinesafety/concerns/index.html"
+        }
       ]
     },
     {
       "id": "social-media",
-      "title": "Role of social media",
-      "level": 2,
-      "content": "Social media platforms have been identified as major vectors for vaccine misinformation. Studies have found that anti-vaccine content receives high engagement on platforms including Facebook, Twitter, YouTube, and Instagram.\n\nPlatform responses have included labeling vaccine-related content, reducing algorithmic amplification of anti-vaccine posts, and removing accounts that repeatedly share misinformation. The effectiveness of these measures remains debated.",
+      "title": "Social media",
+      "level": 3,
+      "content": "Pinterest was one of the first social media platforms to surface only trustworthy information from reliable sources on their vaccine related searches back in 2019. In 2020, Facebook announced that it would no longer allow anti-vaccination advertisements on its platform. Facebook also said it would elevate posts from the World Health Organization, UNICEF and other NGOs, in order to increase immunization rates through public health campaigns. In April 22, Meta announced that its collaboration with UNICEF had reached more than 150 million people with information about the COVID-19 vaccine via online outreach campaigns in several countries. Twitter announced that it would put a warning label on tweets containing disputed or unsubstantiated rumors about vaccination and require users to remove tweets that spread false information about vaccines. TikTok announced that it would start directing people to official health sources when they search for vaccine related information. By December 2020, YouTube had removed more than 700,000 videos containing misinformation related to COVID-19.\n\n===Vaccine-preventable diseases have been eradicated===",
       "citations": [
-        { "id": "c5", "index": 5, "text": "Johnson NF, et al. The online competition between pro- and anti-vaccination views. Nature, 2020", "url": "https://doi.org/10.1038/s41586-020-2281-1" }
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Pinterest's new vaccine search will offer something rare on social media: facts, (28 August 2019)",
+          "url": "http://www.theguardian.com/society/2019/aug/28/pinterest-anti-vaccine-combat-health-misinformation"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Isaac, Facebook Bans Anti-Vaccination Ads, Clamping Down Again, (13 October 2020)",
+          "url": "https://www.nytimes.com/2020/10/13/technology/facebook-bans-anti-vaccination-ads.html"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Supporting Public Health Experts’ Vaccine Efforts, (2020-10-13)",
+          "url": "https://about.fb.com/news/2020/10/supporting-public-health-experts-vaccine-efforts/#:~:text=Insights%20for%20Impact,%20which%20is,people%20are%20talking%20about%20vaccines."
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "New lessons learned in building COVID-19 vaccine acceptance {{!",
+          "url": "https://research.facebook.com/blog/2022/4/new-lessons-learned-in-building-covid-19-vaccine-acceptance/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Lerman, Vaccine hoaxes are rampant on social media. Here's how to spot them.",
+          "url": "https://www.washingtonpost.com/technology/2020/12/18/faq-coronavirus-vaccine-misinformation/"
+        }
       ]
     },
     {
-      "id": "covid19",
-      "title": "COVID-19 vaccine misinformation",
-      "level": 2,
-      "content": "The COVID-19 pandemic saw an unprecedented surge in vaccine misinformation, sometimes termed an \"infodemic.\" False claims about COVID-19 vaccines included assertions that mRNA vaccines alter human DNA, that vaccines contain tracking microchips, and that vaccines cause infertility.\n\nResearch has shown that exposure to COVID-19 vaccine misinformation is associated with reduced vaccination intent. Governments and international organizations launched counter-misinformation campaigns with varying degrees of success.",
+      "id": "vaccine-preventable-diseases-have-been-eradicated",
+      "title": "Vaccine-preventable diseases have been eradicated",
+      "level": 3,
+      "content": "Vaccination has enabled the reduction of most vaccine-preventable diseases (e.g. polio has been eradicated in every country except Afghanistan and Pakistan). However, some are still prevalent and even cause epidemics in some parts of the world. If the affected population is not protected by vaccination, the disease can quickly spread from country to country.\n\nEradication is the permanent elimination of an infectious disease worldwide through deliberate efforts, rendering further intervention measures unnecessary. To date, the only disease that has been successfully eradicated is smallpox. Poliomyelitis was targeted for eradication by the year 2000, and significant progress was made towards this goal, with the Western Hemisphere being declared polio-free and over a year having passed without any reported cases in the Western Pacific Region of the World Health Organization. An examination of the technical feasibility of eradicating other diseases preventable by vaccines currently available in the United States suggests that measles, hepatitis B, mumps, rubella, and possibly Haemophilus influenzae type b are potential candidates for eradication. From a practical standpoint, measles appears to be the most likely candidate for the next eradication effort. Despite the challenges, eradication represents the ultimate achievement in sustainability and social justice, and even if eradication is not possible, significant improvements in control can still be made with existing vaccines and new and improved vaccines may offer further possibilities in the future.\n\n== See also ==",
       "citations": [
-        { "id": "c6", "index": 6, "text": "Loomba S, et al. Measuring the impact of COVID-19 vaccine misinformation. Nature Human Behaviour, 2021", "url": "https://doi.org/10.1038/s41562-021-01056-1" }
-      ]
-    },
-    {
-      "id": "responses",
-      "title": "Public health responses",
-      "level": 2,
-      "content": "Public health authorities have employed several strategies to counter vaccine misinformation, including public education campaigns, fact-checking initiatives, and partnerships with social media companies. The WHO's Vaccine Safety Net provides a network of verified websites providing reliable vaccine information.\n\nResearch suggests that prebunking — preemptively warning people about misinformation techniques — may be more effective than debunking false claims after exposure.",
-      "citations": [
-        { "id": "c7", "index": 7, "text": "van der Linden S, et al. Inoculating the public against misinformation. Global Challenges, 2017", "url": "https://doi.org/10.1002/gch2.201600008" }
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "What Would Happen If We Stopped Vaccinations? {{!, (28 September 2020)",
+          "url": "https://www.cdc.gov/vaccines/vac-gen/whatifstop.htm"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Hinman A. Eradication of vaccine-preventable diseases. Annu Rev Public Health. 1999;20:211-29. doi: 10.1146/annurev.publhealth.20.1.211. PMID 10352857."
+        }
       ]
     }
   ]
