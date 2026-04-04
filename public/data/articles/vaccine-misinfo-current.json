@@ -1,0 +1,71 @@
+{
+  "id": "vaccine-misinfo",
+  "title": "Vaccine misinformation",
+  "revisionDate": "2026-04-01",
+  "revisionId": "current-snapshot",
+  "qualityClass": "B",
+  "sections": [
+    {
+      "id": "lead",
+      "title": "Vaccine misinformation",
+      "level": 1,
+      "content": "Vaccine misinformation is misinformation about vaccines, including their safety, efficacy, and composition. It has been identified as a major public health threat by the World Health Organization, which listed vaccine hesitancy as one of the top ten threats to global health in 2019.\n\nVaccine misinformation spreads through social media platforms, alternative health websites, and word of mouth. It includes false claims about vaccines causing autism, containing microchips, altering DNA, or being part of population control schemes. The appointment of Robert F. Kennedy Jr. as U.S. Secretary of Health and Human Services in 2025, a prominent vaccine skeptic, brought renewed attention to the influence of vaccine misinformation on public policy.",
+      "citations": [
+        { "id": "c1", "index": 1, "text": "WHO: Ten threats to global health in 2019", "url": "https://www.who.int/news-room/spotlight/ten-threats-to-global-health-in-2019" },
+        { "id": "c2", "index": 2, "text": "Kata A. Anti-vaccine activists and the internet. Vaccine, 2012", "url": "https://doi.org/10.1016/j.vaccine.2011.11.112" },
+        { "id": "c2b", "index": 3, "text": "Kennedy confirmed as HHS Secretary, AP News, February 2025", "url": "https://apnews.com" }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "level": 2,
+      "content": "Opposition to vaccination is as old as vaccination itself. When Edward Jenner introduced the smallpox vaccine in 1796, religious leaders objected on theological grounds. The Anti-Vaccination League was founded in London in 1853 in response to mandatory vaccination laws.\n\nThe modern anti-vaccine movement gained momentum after Andrew Wakefield published a fraudulent study in The Lancet in 1998 claiming a link between the MMR vaccine and autism. The study was retracted in 2010 and Wakefield was struck off the medical register, but the false claim continues to circulate.",
+      "citations": [
+        { "id": "c3", "index": 3, "text": "Wolfe RM, Sharp LK. Anti-vaccinationists past and present. BMJ, 2002", "url": "https://doi.org/10.1136/bmj.325.7361.430" },
+        { "id": "c4", "index": 4, "text": "Retraction of Wakefield et al. The Lancet, 2010", "url": "https://doi.org/10.1016/S0140-6736(10)60175-4" }
+      ]
+    },
+    {
+      "id": "social-media",
+      "title": "Role of social media",
+      "level": 2,
+      "content": "Social media platforms have been identified as major vectors for vaccine misinformation. Studies have found that anti-vaccine content receives high engagement on platforms including Facebook, Twitter (now X), YouTube, Instagram, and TikTok.\n\nPlatform responses have included labeling vaccine-related content, reducing algorithmic amplification of anti-vaccine posts, and removing accounts that repeatedly share misinformation. The effectiveness of these measures remains debated. Following Elon Musk's acquisition of Twitter in 2022, the platform rolled back many content moderation policies, leading to documented increases in vaccine misinformation on X. Meta similarly scaled back fact-checking partnerships in early 2025.",
+      "citations": [
+        { "id": "c5", "index": 5, "text": "Johnson NF, et al. The online competition between pro- and anti-vaccination views. Nature, 2020", "url": "https://doi.org/10.1038/s41586-020-2281-1" },
+        { "id": "c5b", "index": 6, "text": "Pierri F, et al. Changes in vaccine misinformation on Twitter/X after moderation changes. JAMA Network Open, 2023", "url": "https://jamanetwork.com" },
+        { "id": "c5c", "index": 7, "text": "Meta ends fact-checking program. NYT, January 2025", "url": "https://www.nytimes.com" }
+      ]
+    },
+    {
+      "id": "covid19",
+      "title": "COVID-19 vaccine misinformation",
+      "level": 2,
+      "content": "The COVID-19 pandemic saw an unprecedented surge in vaccine misinformation, sometimes termed an \"infodemic.\" False claims about COVID-19 vaccines included assertions that mRNA vaccines alter human DNA, that vaccines contain tracking microchips, and that vaccines cause infertility.\n\nResearch has shown that exposure to COVID-19 vaccine misinformation is associated with reduced vaccination intent. Governments and international organizations launched counter-misinformation campaigns with varying degrees of success.",
+      "citations": [
+        { "id": "c6", "index": 8, "text": "Loomba S, et al. Measuring the impact of COVID-19 vaccine misinformation. Nature Human Behaviour, 2021", "url": "https://doi.org/10.1038/s41562-021-01056-1" }
+      ]
+    },
+    {
+      "id": "government-policy",
+      "title": "Government policy and institutional credibility",
+      "level": 2,
+      "content": "In November 2025, the U.S. Centers for Disease Control and Prevention (CDC) modified its web page on \"Autism and Vaccines\" to include language suggesting that the question of a link between vaccines and autism remained open, contradicting decades of scientific research finding no such link. The change drew widespread criticism from medical professionals and public health experts, who noted that it aligned with claims made by HHS Secretary Kennedy.\n\nThe episode highlighted the vulnerability of public health communication to political influence and reignited debates about the independence of scientific agencies. Several countries, including Australia and the UK, issued public statements reaffirming the scientific consensus that vaccines do not cause autism.",
+      "citations": [
+        { "id": "c8", "index": 9, "text": "CDC changes vaccine-autism page. Washington Post, November 2025", "url": "https://www.washingtonpost.com" },
+        { "id": "c9", "index": 10, "text": "Medical community response to CDC changes. JAMA, 2025", "url": "https://jamanetwork.com" },
+        { "id": "c10", "index": 11, "text": "International responses to U.S. vaccine policy changes. The Lancet, 2026", "url": "https://www.thelancet.com" }
+      ]
+    },
+    {
+      "id": "responses",
+      "title": "Public health responses",
+      "level": 2,
+      "content": "Public health authorities have employed several strategies to counter vaccine misinformation, including public education campaigns, fact-checking initiatives, and partnerships with social media companies. The WHO's Vaccine Safety Net provides a network of verified websites providing reliable vaccine information.\n\nResearch suggests that prebunking — preemptively warning people about misinformation techniques — may be more effective than debunking false claims after exposure. Google and Jigsaw launched prebunking video campaigns in multiple countries with measurable improvements in misinformation recognition.\n\nAs platform-level content moderation has weakened, some researchers have shifted focus toward individual-level interventions such as lateral reading training, accuracy nudges, and media literacy programs integrated into school curricula.",
+      "citations": [
+        { "id": "c7", "index": 12, "text": "van der Linden S, et al. Inoculating the public against misinformation. Global Challenges, 2017", "url": "https://doi.org/10.1002/gch2.201600008" },
+        { "id": "c7b", "index": 13, "text": "Roozenbeek J, et al. Prebunking interventions at scale. Science Advances, 2022", "url": "https://doi.org/10.1126/sciadv.abo6254" }
+      ]
+    }
+  ]
+}

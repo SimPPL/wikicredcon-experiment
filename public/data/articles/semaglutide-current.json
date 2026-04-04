@@ -1,0 +1,71 @@
+{
+  "id": "semaglutide",
+  "title": "Semaglutide",
+  "revisionDate": "2026-04-01",
+  "revisionId": "current-snapshot",
+  "qualityClass": "B",
+  "sections": [
+    {
+      "id": "lead",
+      "title": "Semaglutide",
+      "level": 1,
+      "content": "Semaglutide is a medication used for the treatment of type 2 diabetes and, at higher doses, for chronic weight management. It is a glucagon-like peptide-1 (GLP-1) receptor agonist, originally developed by Novo Nordisk. It is marketed under the brand names Ozempic (for diabetes, as a subcutaneous injection), Wegovy (for weight management, as a subcutaneous injection), and Rybelsus (for diabetes, as an oral tablet).\n\nSemaglutide works by mimicking the hormone GLP-1, which regulates appetite and food intake. It was approved by the FDA for type 2 diabetes in 2017 and for chronic weight management in 2021. In 2024, the FDA also approved Wegovy for reducing cardiovascular risk in adults with established cardiovascular disease who have obesity or are overweight.",
+      "citations": [
+        { "id": "c1", "index": 1, "text": "FDA approval of Ozempic, December 2017", "url": "https://www.fda.gov/news-events/press-announcements" },
+        { "id": "c2", "index": 2, "text": "FDA approval of Wegovy, June 2021", "url": "https://www.fda.gov/news-events/press-announcements" },
+        { "id": "c2b", "index": 3, "text": "FDA approves Wegovy for cardiovascular risk reduction, March 2024", "url": "https://www.fda.gov/news-events/press-announcements" }
+      ]
+    },
+    {
+      "id": "medical-uses",
+      "title": "Medical uses",
+      "level": 2,
+      "content": "Semaglutide is indicated for the treatment of adults with type 2 diabetes mellitus as an adjunct to diet and exercise. The higher-dose formulation (Wegovy) is indicated for chronic weight management in adults with obesity (BMI ≥30) or overweight (BMI ≥27) with at least one weight-related comorbidity. Wegovy is also approved for cardiovascular risk reduction in adults with established cardiovascular disease and obesity or overweight.\n\nClinical trials have demonstrated significant weight loss in patients taking semaglutide compared to placebo. The STEP trials showed average weight loss of approximately 15% of body weight over 68 weeks. The STEP 5 trial demonstrated sustained weight loss over 104 weeks, though weight regain was observed after discontinuation in the STEP 4 trial.",
+      "citations": [
+        { "id": "c3", "index": 4, "text": "Wilding JP, et al. STEP 1 trial. NEJM, 2021", "url": "https://doi.org/10.1056/NEJMoa2032183" },
+        { "id": "c3b", "index": 5, "text": "Garvey WT, et al. STEP 5 trial. Nature Medicine, 2022", "url": "https://doi.org/10.1038/s41591-022-02026-4" }
+      ]
+    },
+    {
+      "id": "side-effects",
+      "title": "Side effects",
+      "level": 2,
+      "content": "The most common side effects of semaglutide include gastrointestinal symptoms such as nausea, vomiting, diarrhea, abdominal pain, and constipation. These effects are usually mild to moderate and tend to decrease over time.\n\nMore serious but rare side effects include pancreatitis, gallbladder problems, and potential thyroid tumors (based on animal studies). Semaglutide carries a boxed warning regarding the risk of thyroid C-cell tumors.\n\nIn June 2025, the FDA updated prescribing information for semaglutide to include a warning about non-arteritic anterior ischemic optic neuropathy (NAION), a rare eye condition, following reports of cases in patients using GLP-1 receptor agonists. A retrospective study found a potential association, though a causal relationship has not been established.\n\nReports of suicidal ideation in patients taking GLP-1 drugs prompted an FDA review, which concluded in early 2025 that available evidence did not establish a causal link between semaglutide and suicidal thoughts or behaviors.",
+      "citations": [
+        { "id": "c4", "index": 6, "text": "Ozempic prescribing information, Novo Nordisk", "url": "https://www.novo-pi.com/ozempic.pdf" },
+        { "id": "c4b", "index": 7, "text": "FDA Drug Safety Communication: NAION risk with GLP-1 RAs, June 2025", "url": "https://www.fda.gov/drugs/drug-safety-and-availability" },
+        { "id": "c4c", "index": 8, "text": "FDA review of suicidality reports with GLP-1 RAs, January 2025", "url": "https://www.fda.gov/drugs/drug-safety-and-availability" }
+      ]
+    },
+    {
+      "id": "compounding",
+      "title": "Compounding controversy",
+      "level": 2,
+      "content": "During semaglutide shortages, compounding pharmacies began producing custom versions of semaglutide at lower cost. The FDA issued warnings that compounded semaglutide products are not FDA-approved and may pose safety risks due to variability in formulation and sterility. Novo Nordisk filed lawsuits against several compounding pharmacies.\n\nIn late 2025, as brand-name supply stabilized, the FDA moved to restrict compounded semaglutide. Patient advocacy groups argued this limited access for patients who could not afford brand-name products, while public health officials emphasized safety concerns with unregulated compounding.",
+      "citations": [
+        { "id": "c7", "index": 9, "text": "FDA statement on compounded semaglutide, 2024", "url": "https://www.fda.gov/drugs/human-drug-compounding" },
+        { "id": "c8", "index": 10, "text": "Novo Nordisk legal actions against compounding pharmacies, Reuters, 2025", "url": "https://www.reuters.com" }
+      ]
+    },
+    {
+      "id": "society-culture",
+      "title": "Society and culture",
+      "level": 2,
+      "content": "Semaglutide has attracted significant public attention due to its use for weight loss, including reports of celebrity use. The high demand has led to periodic shortages of both Ozempic and Wegovy. Concerns have been raised about the cost of these medications, with monthly prices exceeding $1,000 in the United States without insurance.\n\nThe popularity of GLP-1 drugs has sparked broader conversations about the medicalization of obesity and access to weight loss treatments. In 2025, the Trump administration announced pricing negotiations for GLP-1 drugs under its TrumpRx initiative, though details remained contested. Several countries have restricted or limited public funding for semaglutide prescriptions for weight loss, citing budget concerns.",
+      "citations": [
+        { "id": "c5", "index": 11, "text": "Drug shortages: Semaglutide. FDA Drug Shortage Database", "url": "https://www.fda.gov/drugs/drug-shortages" },
+        { "id": "c5b", "index": 12, "text": "GLP-1 drug pricing negotiations, White House fact sheet, 2025", "url": "https://www.whitehouse.gov" }
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "level": 2,
+      "content": "Ongoing research is investigating semaglutide for additional indications beyond diabetes and obesity. Studies are examining its potential benefits for cardiovascular disease, non-alcoholic fatty liver disease (NAFLD, now termed metabolic dysfunction-associated steatotic liver disease or MASLD), Alzheimer's disease, addiction, and sleep apnea.\n\nThe SELECT trial demonstrated that semaglutide reduced the risk of major adverse cardiovascular events by 20% in overweight or obese adults without diabetes. Phase 3 trials for MASLD are ongoing. Preliminary results from studies on alcohol use disorder suggest semaglutide may reduce cravings, though larger trials are needed.",
+      "citations": [
+        { "id": "c6", "index": 13, "text": "Lincoff AM, et al. SELECT trial. NEJM, 2023", "url": "https://doi.org/10.1056/NEJMoa2307563" },
+        { "id": "c6b", "index": 14, "text": "Semaglutide and alcohol use disorder: preliminary findings. Nature Medicine, 2025", "url": "https://doi.org/10.1038/s41591-025-placeholder" }
+      ]
+    }
+  ]
+}

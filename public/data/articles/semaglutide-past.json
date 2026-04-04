@@ -1,0 +1,55 @@
+{
+  "id": "semaglutide",
+  "title": "Semaglutide",
+  "revisionDate": "2025-04-01",
+  "revisionId": "past-snapshot",
+  "qualityClass": "B",
+  "sections": [
+    {
+      "id": "lead",
+      "title": "Semaglutide",
+      "level": 1,
+      "content": "Semaglutide is a medication used for the treatment of type 2 diabetes and, at higher doses, for chronic weight management. It is a glucagon-like peptide-1 (GLP-1) receptor agonist, originally developed by Novo Nordisk. It is marketed under the brand names Ozempic (for diabetes, as a subcutaneous injection), Wegovy (for weight management, as a subcutaneous injection), and Rybelsus (for diabetes, as an oral tablet).\n\nSemaglutide works by mimicking the hormone GLP-1, which regulates appetite and food intake. It was approved by the FDA for type 2 diabetes in 2017 and for chronic weight management in 2021.",
+      "citations": [
+        { "id": "c1", "index": 1, "text": "FDA approval of Ozempic, December 2017", "url": "https://www.fda.gov/news-events/press-announcements" },
+        { "id": "c2", "index": 2, "text": "FDA approval of Wegovy, June 2021", "url": "https://www.fda.gov/news-events/press-announcements" }
+      ]
+    },
+    {
+      "id": "medical-uses",
+      "title": "Medical uses",
+      "level": 2,
+      "content": "Semaglutide is indicated for the treatment of adults with type 2 diabetes mellitus as an adjunct to diet and exercise. The higher-dose formulation (Wegovy) is indicated for chronic weight management in adults with obesity (BMI ≥30) or overweight (BMI ≥27) with at least one weight-related comorbidity.\n\nClinical trials have demonstrated significant weight loss in patients taking semaglutide compared to placebo. The STEP trials showed average weight loss of approximately 15% of body weight over 68 weeks.",
+      "citations": [
+        { "id": "c3", "index": 3, "text": "Wilding JP, et al. STEP 1 trial. NEJM, 2021", "url": "https://doi.org/10.1056/NEJMoa2032183" }
+      ]
+    },
+    {
+      "id": "side-effects",
+      "title": "Side effects",
+      "level": 2,
+      "content": "The most common side effects of semaglutide include gastrointestinal symptoms such as nausea, vomiting, diarrhea, abdominal pain, and constipation. These effects are usually mild to moderate and tend to decrease over time.\n\nMore serious but rare side effects include pancreatitis, gallbladder problems, and potential thyroid tumors (based on animal studies). Semaglutide carries a boxed warning regarding the risk of thyroid C-cell tumors.",
+      "citations": [
+        { "id": "c4", "index": 4, "text": "Ozempic prescribing information, Novo Nordisk", "url": "https://www.novo-pi.com/ozempic.pdf" }
+      ]
+    },
+    {
+      "id": "society-culture",
+      "title": "Society and culture",
+      "level": 2,
+      "content": "Semaglutide has attracted significant public attention due to its use for weight loss, including reports of celebrity use. The high demand has led to periodic shortages of both Ozempic and Wegovy. Concerns have been raised about the cost of these medications, with monthly prices exceeding $1,000 in the United States without insurance.\n\nThe popularity of GLP-1 drugs has sparked broader conversations about the medicalization of obesity and access to weight loss treatments.",
+      "citations": [
+        { "id": "c5", "index": 5, "text": "Drug shortages: Semaglutide. FDA Drug Shortage Database", "url": "https://www.fda.gov/drugs/drug-shortages" }
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "level": 2,
+      "content": "Ongoing research is investigating semaglutide for additional indications beyond diabetes and obesity. Studies are examining its potential benefits for cardiovascular disease, non-alcoholic fatty liver disease (NAFLD), and Alzheimer's disease.\n\nThe SELECT trial demonstrated that semaglutide reduced the risk of major adverse cardiovascular events in overweight or obese adults without diabetes.",
+      "citations": [
+        { "id": "c6", "index": 6, "text": "Lincoff AM, et al. SELECT trial. NEJM, 2023", "url": "https://doi.org/10.1056/NEJMoa2307563" }
+      ]
+    }
+  ]
+}

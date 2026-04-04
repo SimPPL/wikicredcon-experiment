@@ -1,0 +1,102 @@
+[
+  {
+    "id": "sem-1",
+    "articleId": "semaglutide",
+    "relevantSectionIds": ["side-effects"],
+    "claimText": "New study links Ozempic to a rare eye condition (NAION) that can cause sudden vision loss. The FDA has now added this to the drug's warnings.",
+    "platform": "twitter",
+    "date": "2025-06-15",
+    "engagement": { "likes": 12400, "shares": 5200, "comments": 890 },
+    "topic": "Side effects"
+  },
+  {
+    "id": "sem-2",
+    "articleId": "semaglutide",
+    "relevantSectionIds": ["side-effects"],
+    "claimText": "People are reporting suicidal thoughts on Ozempic. The FDA is investigating but hasn't found a direct link yet. Still, patients should be aware.",
+    "platform": "reddit",
+    "date": "2025-02-20",
+    "engagement": { "likes": 8900, "comments": 1240 },
+    "topic": "Side effects"
+  },
+  {
+    "id": "sem-3",
+    "articleId": "semaglutide",
+    "relevantSectionIds": ["compounding", "society-culture"],
+    "claimText": "Big Pharma is suing compounding pharmacies to stop affordable Ozempic alternatives. People can't afford $1000/month and now they're taking away the only option.",
+    "platform": "twitter",
+    "date": "2025-08-10",
+    "engagement": { "likes": 34500, "shares": 15200, "comments": 3100 },
+    "topic": "Access and cost"
+  },
+  {
+    "id": "sem-4",
+    "articleId": "semaglutide",
+    "relevantSectionIds": ["compounding"],
+    "claimText": "FDA warns compounded semaglutide may contain wrong doses or contaminants. Several patients hospitalized. These aren't the same as brand-name Ozempic.",
+    "platform": "youtube",
+    "date": "2025-09-05",
+    "engagement": { "views": 890000, "likes": 22000, "comments": 4500 },
+    "topic": "Safety concerns"
+  },
+  {
+    "id": "sem-5",
+    "articleId": "semaglutide",
+    "relevantSectionIds": ["research"],
+    "claimText": "Ozempic might help with addiction? Early studies show it reduces alcohol cravings. Researchers are calling it a potential breakthrough.",
+    "platform": "reddit",
+    "date": "2025-11-12",
+    "engagement": { "likes": 15600, "comments": 2300 },
+    "topic": "New research"
+  },
+  {
+    "id": "sem-6",
+    "articleId": "semaglutide",
+    "relevantSectionIds": ["medical-uses", "lead"],
+    "claimText": "FDA just approved Wegovy for heart disease prevention, not just weight loss. This is huge - first obesity drug approved for cardiovascular outcomes.",
+    "platform": "twitter",
+    "date": "2025-05-01",
+    "engagement": { "likes": 28000, "shares": 9800, "comments": 1800 },
+    "topic": "Regulatory updates"
+  },
+  {
+    "id": "sem-7",
+    "articleId": "semaglutide",
+    "relevantSectionIds": ["society-culture"],
+    "claimText": "Trump's new drug pricing plan claims to cut Ozempic costs but experts say the details don't add up. Pharma stocks barely moved.",
+    "platform": "bluesky",
+    "date": "2025-12-01",
+    "engagement": { "likes": 5600, "shares": 1900, "comments": 780 },
+    "topic": "Policy and pricing"
+  },
+  {
+    "id": "sem-8",
+    "articleId": "semaglutide",
+    "relevantSectionIds": ["research"],
+    "claimText": "BREAKING: Long-term data shows weight comes right back when you stop Ozempic. This isn't a cure, it's a subscription model for Big Pharma.",
+    "platform": "twitter",
+    "date": "2025-07-20",
+    "engagement": { "likes": 52000, "shares": 23000, "comments": 5600 },
+    "topic": "Efficacy debates"
+  },
+  {
+    "id": "sem-9",
+    "articleId": "semaglutide",
+    "relevantSectionIds": ["research"],
+    "claimText": "New research exploring semaglutide for Alzheimer's disease. The GLP-1 pathway may have neuroprotective effects. Clinical trials are enrolling now.",
+    "platform": "youtube",
+    "date": "2025-10-08",
+    "engagement": { "views": 450000, "likes": 12000, "comments": 1800 },
+    "topic": "New research"
+  },
+  {
+    "id": "sem-10",
+    "articleId": "semaglutide",
+    "relevantSectionIds": ["medical-uses"],
+    "claimText": "STEP 5 trial results: people maintained weight loss for 2 full years on semaglutide. But the real question is what happens at year 3, 5, 10?",
+    "platform": "bluesky",
+    "date": "2025-04-15",
+    "engagement": { "likes": 3200, "shares": 890, "comments": 340 },
+    "topic": "Clinical evidence"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "vaccine-misinfo",
+  "title": "Vaccine misinformation",
+  "revisionDate": "2025-04-01",
+  "revisionId": "past-snapshot",
+  "qualityClass": "B",
+  "sections": [
+    {
+      "id": "lead",
+      "title": "Vaccine misinformation",
+      "level": 1,
+      "content": "Vaccine misinformation is misinformation about vaccines, including their safety, efficacy, and composition. It has been identified as a major public health threat by the World Health Organization, which listed vaccine hesitancy as one of the top ten threats to global health in 2019.\n\nVaccine misinformation spreads through social media platforms, alternative health websites, and word of mouth. It includes false claims about vaccines causing autism, containing microchips, altering DNA, or being part of population control schemes.",
+      "citations": [
+        { "id": "c1", "index": 1, "text": "WHO: Ten threats to global health in 2019", "url": "https://www.who.int/news-room/spotlight/ten-threats-to-global-health-in-2019" },
+        { "id": "c2", "index": 2, "text": "Kata A. Anti-vaccine activists and the internet. Vaccine, 2012", "url": "https://doi.org/10.1016/j.vaccine.2011.11.112" }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "level": 2,
+      "content": "Opposition to vaccination is as old as vaccination itself. When Edward Jenner introduced the smallpox vaccine in 1796, religious leaders objected on theological grounds. The Anti-Vaccination League was founded in London in 1853 in response to mandatory vaccination laws.\n\nThe modern anti-vaccine movement gained momentum after Andrew Wakefield published a fraudulent study in The Lancet in 1998 claiming a link between the MMR vaccine and autism. The study was retracted in 2010 and Wakefield was struck off the medical register, but the false claim continues to circulate.",
+      "citations": [
+        { "id": "c3", "index": 3, "text": "Wolfe RM, Sharp LK. Anti-vaccinationists past and present. BMJ, 2002", "url": "https://doi.org/10.1136/bmj.325.7361.430" },
+        { "id": "c4", "index": 4, "text": "Retraction of Wakefield et al. The Lancet, 2010", "url": "https://doi.org/10.1016/S0140-6736(10)60175-4" }
+      ]
+    },
+    {
+      "id": "social-media",
+      "title": "Role of social media",
+      "level": 2,
+      "content": "Social media platforms have been identified as major vectors for vaccine misinformation. Studies have found that anti-vaccine content receives high engagement on platforms including Facebook, Twitter, YouTube, and Instagram.\n\nPlatform responses have included labeling vaccine-related content, reducing algorithmic amplification of anti-vaccine posts, and removing accounts that repeatedly share misinformation. The effectiveness of these measures remains debated.",
+      "citations": [
+        { "id": "c5", "index": 5, "text": "Johnson NF, et al. The online competition between pro- and anti-vaccination views. Nature, 2020", "url": "https://doi.org/10.1038/s41586-020-2281-1" }
+      ]
+    },
+    {
+      "id": "covid19",
+      "title": "COVID-19 vaccine misinformation",
+      "level": 2,
+      "content": "The COVID-19 pandemic saw an unprecedented surge in vaccine misinformation, sometimes termed an \"infodemic.\" False claims about COVID-19 vaccines included assertions that mRNA vaccines alter human DNA, that vaccines contain tracking microchips, and that vaccines cause infertility.\n\nResearch has shown that exposure to COVID-19 vaccine misinformation is associated with reduced vaccination intent. Governments and international organizations launched counter-misinformation campaigns with varying degrees of success.",
+      "citations": [
+        { "id": "c6", "index": 6, "text": "Loomba S, et al. Measuring the impact of COVID-19 vaccine misinformation. Nature Human Behaviour, 2021", "url": "https://doi.org/10.1038/s41562-021-01056-1" }
+      ]
+    },
+    {
+      "id": "responses",
+      "title": "Public health responses",
+      "level": 2,
+      "content": "Public health authorities have employed several strategies to counter vaccine misinformation, including public education campaigns, fact-checking initiatives, and partnerships with social media companies. The WHO's Vaccine Safety Net provides a network of verified websites providing reliable vaccine information.\n\nResearch suggests that prebunking — preemptively warning people about misinformation techniques — may be more effective than debunking false claims after exposure.",
+      "citations": [
+        { "id": "c7", "index": 7, "text": "van der Linden S, et al. Inoculating the public against misinformation. Global Challenges, 2017", "url": "https://doi.org/10.1002/gch2.201600008" }
+      ]
+    }
+  ]
+}

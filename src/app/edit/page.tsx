@@ -1,0 +1,440 @@
+'use client';
+
+import { useState, useEffect, useCallback, useRef } from 'react';
+import { LS_KEYS, EXPERIMENT } from '@/lib/constants';
+import { getArticleForPhase } from '@/lib/experiment';
+import { loadArticle, loadClaims } from '@/lib/articles';
+import { formatDuration, generateId } from '@/lib/utils';
+import type {
+  Participant,
+  Article,
+  ArbiterClaim,
+  ExperimentPhase,
+  EditSession,
+  EditEvent,
+  CitationEvent,
+  ArbiterInteraction,
+  TabBlurEvent,
+} from '@/types';
+import WikiTabs from '@/components/wiki/WikiTabs';
+import ArticleRenderer from '@/components/wiki/ArticleRenderer';
+import EditToolbar from '@/components/wiki/EditToolbar';
+import ClaimsSidebar from '@/components/arbiter/ClaimsSidebar';
+
+export default function EditPage() {
+  // --- State ---
+  const [participant, setParticipant] = useState<Participant | null>(null);
+  const [phase, setPhase] = useState<ExperimentPhase>('editing-1');
+  const [article, setArticle] = useState<Article | null>(null);
+  const [claims, setClaims] = useState<ArbiterClaim[]>([]);
+  const [condition, setCondition] = useState<'treatment' | 'control'>('control');
+  const [editedContent, setEditedContent] = useState<Record<string, string>>({});
+  const [editingSectionId, setEditingSectionId] = useState<string | null>(null);
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [timeRemaining, setTimeRemaining] = useState(EXPERIMENT.EDIT_DURATION_MS);
+  const [showTransition, setShowTransition] = useState(false);
+  const [loading, setLoading] = useState(true);
+
+  // --- Refs for metrics (avoid re-renders) ---
+  const sessionRef = useRef<EditSession | null>(null);
+  const sectionFocusStart = useRef<{ sectionId: string; startTime: number } | null>(null);
+  const tabBlurStart = useRef<number | null>(null);
+  const timerStartRef = useRef<number>(0);
+  const flushIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  // --- Initialize ---
+  useEffect(() => {
+    const storedParticipant = localStorage.getItem(LS_KEYS.PARTICIPANT);
+    const storedPhase = localStorage.getItem(LS_KEYS.PHASE) as ExperimentPhase;
+
+    if (!storedParticipant) {
+      window.location.href = '/';
+      return;
+    }
+
+    const p: Participant = JSON.parse(storedParticipant);
+    setParticipant(p);
+
+    if (storedPhase === 'transition') {
+      setShowTransition(true);
+      setPhase('transition');
+      setLoading(false);
+      return;
+    }
+
+    if (storedPhase !== 'editing-1' && storedPhase !== 'editing-2') {
+      if (storedPhase === 'survey' || storedPhase === 'complete') {
+        window.location.href = storedPhase === 'survey' ? '/survey' : `/dashboard/${p.id}`;
+      } else {
+        window.location.href = '/';
+      }
+      return;
+    }
+
+    setPhase(storedPhase);
+
+    const { articleId, condition: cond } = getArticleForPhase(p, storedPhase);
+    setCondition(cond);
+
+    // Load article and claims
+    loadArticle(articleId, 'past').then((art) => {
+      setArticle(art);
+      // Initialize editedContent with original content
+      const initial: Record<string, string> = {};
+      art.sections.forEach((s) => {
+        initial[s.id] = s.content;
+      });
+      setEditedContent(initial);
+      setLoading(false);
+    });
+
+    if (cond === 'treatment') {
+      loadClaims(articleId).then(setClaims).catch(() => setClaims([]));
+    }
+
+    // Initialize session
+    const session: EditSession = {
+      sessionId: generateId(),
+      participantId: p.id,
+      condition: cond,
+      articleId,
+      startedAt: Date.now(),
+      editEvents: [],
+      sectionTimes: {},
+      hoverEvents: [],
+      citationsAdded: [],
+      tabBlurEvents: [],
+      arbiterInteractions: [],
+      finalContent: {},
+      totalEditTime: 0,
+    };
+    sessionRef.current = session;
+    timerStartRef.current = Date.now();
+
+    // Check if there's a stored timer start (for page refresh resilience)
+    const storedTimerStart = localStorage.getItem(`wikicred_timer_start_${storedPhase}`);
+    if (storedTimerStart) {
+      timerStartRef.current = parseInt(storedTimerStart, 10);
+    } else {
+      localStorage.setItem(`wikicred_timer_start_${storedPhase}`, String(Date.now()));
+    }
+
+    // Tab visibility tracking
+    const handleVisibility = () => {
+      if (document.hidden) {
+        tabBlurStart.current = Date.now();
+      } else if (tabBlurStart.current && sessionRef.current) {
+        const duration = Date.now() - tabBlurStart.current;
+        const event: TabBlurEvent = { timestamp: tabBlurStart.current, duration };
+        sessionRef.current.tabBlurEvents.push(event);
+        tabBlurStart.current = null;
+      }
+    };
+    document.addEventListener('visibilitychange', handleVisibility);
+
+    // Flush to localStorage periodically
+    flushIntervalRef.current = setInterval(() => {
+      if (sessionRef.current) {
+        localStorage.setItem(LS_KEYS.CURRENT_SESSION, JSON.stringify(sessionRef.current));
+      }
+    }, 5000);
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibility);
+      if (flushIntervalRef.current) clearInterval(flushIntervalRef.current);
+    };
+  }, []);
+
+  // --- Timer ---
+  useEffect(() => {
+    if (loading || showTransition) return;
+
+    const interval = setInterval(() => {
+      const elapsed = Date.now() - timerStartRef.current;
+      const remaining = Math.max(0, EXPERIMENT.EDIT_DURATION_MS - elapsed);
+      setTimeRemaining(remaining);
+
+      if (remaining <= 0) {
+        clearInterval(interval);
+        handlePublish();
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [loading, showTransition]);
+
+  // --- Handlers ---
+  const handleContentChange = useCallback(
+    (sectionId: string, newContent: string) => {
+      const oldContent = editedContent[sectionId] || '';
+      setEditedContent((prev) => ({ ...prev, [sectionId]: newContent }));
+
+      if (sessionRef.current) {
+        const event: EditEvent = {
+          timestamp: Date.now(),
+          sectionId,
+          action: 'replace',
+          contentBefore: oldContent.slice(-100), // last 100 chars for context
+          contentAfter: newContent.slice(-100),
+        };
+        sessionRef.current.editEvents.push(event);
+      }
+    },
+    [editedContent]
+  );
+
+  const handleToggleEdit = useCallback((sectionId: string) => {
+    setEditingSectionId((prev) => (prev === sectionId ? null : sectionId));
+  }, []);
+
+  const handleSectionFocus = useCallback((sectionId: string) => {
+    // End previous section timing
+    if (sectionFocusStart.current && sessionRef.current) {
+      const elapsed = Date.now() - sectionFocusStart.current.startTime;
+      const prevId = sectionFocusStart.current.sectionId;
+      sessionRef.current.sectionTimes[prevId] =
+        (sessionRef.current.sectionTimes[prevId] || 0) + elapsed;
+    }
+    sectionFocusStart.current = { sectionId, startTime: Date.now() };
+  }, []);
+
+  const handleSectionBlur = useCallback((sectionId: string) => {
+    if (sectionFocusStart.current?.sectionId === sectionId && sessionRef.current) {
+      const elapsed = Date.now() - sectionFocusStart.current.startTime;
+      sessionRef.current.sectionTimes[sectionId] =
+        (sessionRef.current.sectionTimes[sectionId] || 0) + elapsed;
+      sectionFocusStart.current = null;
+    }
+  }, []);
+
+  const handleToolbarAction = useCallback(
+    (action: 'bold' | 'italic' | 'link' | 'cite' | 'heading' | 'undo' | 'redo') => {
+      if (!editingSectionId) return;
+
+      if (action === 'cite') {
+        const refText = prompt('Enter reference text or URL:');
+        if (refText && sessionRef.current) {
+          const citation: CitationEvent = {
+            timestamp: Date.now(),
+            sectionId: editingSectionId,
+            referenceText: refText,
+            url: refText.startsWith('http') ? refText : undefined,
+          };
+          sessionRef.current.citationsAdded.push(citation);
+
+          // Insert citation marker into content
+          const currentContent = editedContent[editingSectionId] || '';
+          const citationCount = sessionRef.current.citationsAdded.length;
+          setEditedContent((prev) => ({
+            ...prev,
+            [editingSectionId]: currentContent + ` [${citationCount}]`,
+          }));
+        }
+      }
+      // Other toolbar actions can insert markup but for textarea editing
+      // they're more about the gesture than the formatting
+    },
+    [editingSectionId, editedContent]
+  );
+
+  const handleClaimView = useCallback((claimId: string) => {
+    if (sessionRef.current) {
+      const interaction: ArbiterInteraction = {
+        timestamp: Date.now(),
+        claimId,
+        action: 'view',
+        duration: 0, // updated on scroll-out
+      };
+      sessionRef.current.arbiterInteractions.push(interaction);
+    }
+  }, []);
+
+  const handleClaimClick = useCallback((claimId: string) => {
+    if (sessionRef.current) {
+      const interaction: ArbiterInteraction = {
+        timestamp: Date.now(),
+        claimId,
+        action: 'click',
+        duration: 0,
+      };
+      sessionRef.current.arbiterInteractions.push(interaction);
+    }
+  }, []);
+
+  const handlePublish = useCallback(() => {
+    if (!sessionRef.current || !participant) return;
+
+    // Finalize section timing
+    if (sectionFocusStart.current) {
+      const elapsed = Date.now() - sectionFocusStart.current.startTime;
+      const sId = sectionFocusStart.current.sectionId;
+      sessionRef.current.sectionTimes[sId] =
+        (sessionRef.current.sectionTimes[sId] || 0) + elapsed;
+    }
+
+    sessionRef.current.endedAt = Date.now();
+    sessionRef.current.totalEditTime = sessionRef.current.endedAt - sessionRef.current.startedAt;
+    sessionRef.current.finalContent = { ...editedContent };
+
+    // Save completed session
+    const completedSessions = JSON.parse(
+      localStorage.getItem(LS_KEYS.COMPLETED_SESSIONS) || '[]'
+    );
+    completedSessions.push(sessionRef.current);
+    localStorage.setItem(LS_KEYS.COMPLETED_SESSIONS, JSON.stringify(completedSessions));
+    localStorage.removeItem(LS_KEYS.CURRENT_SESSION);
+
+    // Advance phase
+    if (phase === 'editing-1') {
+      localStorage.setItem(LS_KEYS.PHASE, 'transition');
+      localStorage.removeItem(`wikicred_timer_start_editing-1`);
+      setShowTransition(true);
+      setPhase('transition');
+    } else {
+      localStorage.setItem(LS_KEYS.PHASE, 'survey');
+      localStorage.removeItem(`wikicred_timer_start_editing-2`);
+      window.location.href = '/survey';
+    }
+  }, [editedContent, participant, phase]);
+
+  const handleContinueToTask2 = useCallback(() => {
+    localStorage.setItem(LS_KEYS.PHASE, 'editing-2');
+    setShowTransition(false);
+    // Reload page to reinitialize with new article
+    window.location.href = '/edit';
+  }, []);
+
+  // --- Render ---
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <p className="text-lg" style={{ color: 'var(--wiki-text-secondary)' }}>
+          Loading article...
+        </p>
+      </div>
+    );
+  }
+
+  if (showTransition) {
+    const nextCondition =
+      participant?.assignedOrder === 'arbiter-first' ? 'without' : 'with';
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="max-w-lg text-center p-8">
+          <h1
+            className="text-2xl mb-4"
+            style={{ fontFamily: "Georgia, 'Linux Libertine', serif" }}
+          >
+            Task 1 Complete
+          </h1>
+          <p className="mb-4" style={{ color: 'var(--wiki-text-secondary)' }}>
+            You will now edit a different article {nextCondition} the Arbiter
+            sidebar showing social media claims.
+          </p>
+          <p className="mb-6 text-sm" style={{ color: 'var(--wiki-text-disabled)' }}>
+            You will have another 12 minutes for this task.
+          </p>
+          <button
+            onClick={handleContinueToTask2}
+            className="px-6 py-2 text-white rounded cursor-pointer"
+            style={{ backgroundColor: 'var(--wiki-button-primary)' }}
+          >
+            Continue to Task 2
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  if (!article) return null;
+
+  const isWarning = timeRemaining < 2 * 60 * 1000; // under 2 minutes
+
+  return (
+    <div className="min-h-screen">
+      {/* Header */}
+      <div
+        className="px-4 py-2 flex items-center justify-between"
+        style={{ background: 'var(--wiki-chrome)', borderBottom: '1px solid var(--wiki-chrome-border)' }}
+      >
+        <div className="flex items-center gap-4">
+          <span className="font-bold text-lg">W</span>
+          <span className="text-sm" style={{ color: 'var(--wiki-text-secondary)' }}>
+            WikiCredCon Editing Experiment
+          </span>
+        </div>
+        <div className="flex items-center gap-4">
+          <span className="text-sm" style={{ color: 'var(--wiki-text-secondary)' }}>
+            {condition === 'treatment' ? 'Treatment Group' : 'Control Group'}
+          </span>
+          <div
+            className={`font-mono text-lg font-bold ${isWarning ? 'timer-warning' : ''}`}
+            style={{ color: isWarning ? 'var(--wiki-error)' : 'var(--wiki-text)' }}
+          >
+            {formatDuration(timeRemaining)}
+          </div>
+        </div>
+      </div>
+
+      {/* Wiki Tabs */}
+      <WikiTabs mode="edit" />
+
+      {/* Main Content */}
+      <div className="flex">
+        {/* Article Area */}
+        <div className={`flex-1 ${condition === 'treatment' && !sidebarCollapsed ? '' : ''}`}>
+          <div className="max-w-[960px] mx-auto px-4 py-4">
+            {/* Article title info */}
+            <div
+              className="text-sm mb-2 px-1"
+              style={{ color: 'var(--wiki-text-secondary)' }}
+            >
+              Editing version from {article.revisionDate} — You have{' '}
+              {formatDuration(timeRemaining)} remaining
+            </div>
+
+            {/* Toolbar */}
+            <EditToolbar
+              onAction={handleToolbarAction}
+              disabled={!editingSectionId}
+            />
+
+            {/* Article */}
+            <ArticleRenderer
+              article={article}
+              editedContent={editedContent}
+              editingSectionId={editingSectionId}
+              onToggleEdit={handleToggleEdit}
+              onContentChange={handleContentChange}
+              onSectionFocus={handleSectionFocus}
+              onSectionBlur={handleSectionBlur}
+            />
+
+            {/* Publish button */}
+            <div className="mt-8 mb-12 flex justify-end">
+              <button
+                onClick={handlePublish}
+                className="px-6 py-2 text-white rounded cursor-pointer text-sm font-semibold"
+                style={{ backgroundColor: 'var(--wiki-button-primary)' }}
+              >
+                Publish changes
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Arbiter Sidebar (treatment only) */}
+        {condition === 'treatment' && (
+          <ClaimsSidebar
+            claims={claims}
+            activeSectionId={editingSectionId}
+            onClaimView={handleClaimView}
+            onClaimClick={handleClaimClick}
+            collapsed={sidebarCollapsed}
+            onToggle={() => setSidebarCollapsed(!sidebarCollapsed)}
+          />
+        )}
+      </div>
+    </div>
+  );
+}

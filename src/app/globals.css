@@ -1,0 +1,217 @@
+@import "tailwindcss";
+
+:root {
+  /* Wikipedia color palette */
+  --wiki-text: #202122;
+  --wiki-text-secondary: #54595d;
+  --wiki-text-disabled: #a2a9b1;
+  --wiki-link: #3366cc;
+  --wiki-link-hover: #3056a9;
+  --wiki-link-visited: #6a60b0;
+  --wiki-link-red: #bf3c2c;
+  --wiki-bg: #ffffff;
+  --wiki-chrome: #eaecf0;
+  --wiki-chrome-border: #c8ccd1;
+  --wiki-button-primary: #3366cc;
+  --wiki-button-primary-hover: #2a4b8d;
+  --wiki-success: #14866d;
+  --wiki-warning: #ffcc33;
+  --wiki-error: #dd3333;
+
+  --background: #ffffff;
+  --foreground: #202122;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--wiki-bg);
+  color: var(--wiki-text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Inter, Helvetica, Arial, sans-serif;
+}
+
+/* Wikipedia article typography */
+.wiki-article {
+  font-family: Georgia, 'Linux Libertine', 'Times New Roman', serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--wiki-text);
+}
+
+.wiki-article h1 {
+  font-family: Georgia, 'Linux Libertine', serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  border-bottom: 1px solid var(--wiki-chrome-border);
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.wiki-article h2 {
+  font-family: Georgia, 'Linux Libertine', serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-bottom: 1px solid var(--wiki-chrome-border);
+  padding-bottom: 0.15rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.wiki-article h3 {
+  font-family: Georgia, 'Linux Libertine', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.wiki-article a {
+  color: var(--wiki-link);
+  text-decoration: none;
+}
+
+.wiki-article a:hover {
+  text-decoration: underline;
+}
+
+.wiki-article a:visited {
+  color: var(--wiki-link-visited);
+}
+
+/* Wikipedia tab styling */
+.wiki-tabs {
+  border-bottom: 1px solid var(--wiki-chrome-border);
+  background: var(--wiki-chrome);
+}
+
+.wiki-tab {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  color: var(--wiki-link);
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-bottom: none;
+  margin-bottom: -1px;
+}
+
+.wiki-tab:hover {
+  background: #f8f9fa;
+}
+
+.wiki-tab.active {
+  background: var(--wiki-bg);
+  border-color: var(--wiki-chrome-border);
+  color: var(--wiki-text);
+  font-weight: 600;
+}
+
+.wiki-tab.disabled {
+  color: var(--wiki-text-disabled);
+  cursor: default;
+}
+
+/* Section edit links */
+.wiki-edit-link {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 0.8rem;
+  color: var(--wiki-link);
+  cursor: pointer;
+  margin-left: 0.5rem;
+  font-weight: 400;
+}
+
+.wiki-edit-link:hover {
+  text-decoration: underline;
+}
+
+/* Editing textarea styled to blend with article */
+.wiki-editor-textarea {
+  font-family: monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  padding: 0.75rem;
+  border: 1px solid var(--wiki-chrome-border);
+  background: #f8f9fa;
+  border-radius: 2px;
+  width: 100%;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.wiki-editor-textarea:focus {
+  outline: none;
+  border-color: var(--wiki-link);
+  box-shadow: 0 0 0 1px var(--wiki-link);
+}
+
+/* Citation markers */
+.wiki-citation {
+  color: var(--wiki-link);
+  font-size: 0.75rem;
+  vertical-align: super;
+  cursor: pointer;
+}
+
+/* Diff view */
+.diff-added {
+  background-color: #d4edda;
+  border-left: 3px solid var(--wiki-success);
+  padding: 2px 4px;
+}
+
+.diff-removed {
+  background-color: #f8d7da;
+  border-left: 3px solid var(--wiki-error);
+  padding: 2px 4px;
+  text-decoration: line-through;
+}
+
+/* Arbiter sidebar */
+.arbiter-sidebar {
+  border-left: 3px solid #6366f1;
+  background: #fafbff;
+}
+
+/* Timer */
+.timer-warning {
+  animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Toolbar */
+.wiki-toolbar {
+  background: #f8f9fa;
+  border: 1px solid var(--wiki-chrome-border);
+  border-bottom: none;
+  padding: 0.25rem 0.5rem;
+}
+
+.wiki-toolbar button {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 2px;
+  color: var(--wiki-text);
+}
+
+.wiki-toolbar button:hover {
+  background: var(--wiki-chrome);
+  border-color: var(--wiki-chrome-border);
+}
+
+/* Bar chart for dashboards */
+.bar-chart-bar {
+  transition: width 0.5s ease-out;
+}
