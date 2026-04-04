@@ -3,7 +3,9 @@
 import { useState, useEffect, useMemo, useCallback } from 'react';
 import { EXPERIMENT } from '@/lib/constants';
 import { formatDuration } from '@/lib/utils';
-import type { ParticipantData, EditSession } from '@/types';
+import type { ParticipantData, Article } from '@/types';
+
+// ── Statistical helpers ────────────────────────────────────
 
 function mean(values: number[]): number {
   if (values.length === 0) return 0;
@@ -34,20 +36,89 @@ function pairedTTest(treatment: number[], control: number[]) {
   return { tStatistic: tStat, pValue, meanDiff, cohensD };
 }
 
+// ── Article IDs ────────────────────────────────────────────
+
+const ALL_ARTICLE_IDS = [
+  'semaglutide',
+  'vaccine-misinfo',
+  'ultra-processed-food',
+  'glp1-receptor-agonist',
+  'pfas',
+  'deepfake',
+  'agi',
+  'cultivated-meat',
+  'openai',
+  'misinformation',
+  'microplastics',
+  'right-to-repair',
+] as const;
+
+const SELECTED_ARTICLES_KEY = 'wikicred_selected_articles';
+
+// ── Article stats type ─────────────────────────────────────
+
+interface ArticleStats {
+  id: string;
+  title: string;
+  pastDate: string;
+  currentDate: string;
+  pastSections: number;
+  currentSections: number;
+  pastCitations: number;
+  currentCitations: number;
+  growthPercent: number;
+  newCitations: number;
+  loaded: boolean;
+  error?: string;
+}
+
+// ── Shared styles ──────────────────────────────────────────
+
+const serif = "Georgia, 'Linux Libertine', serif";
+
+const cardStyle: React.CSSProperties = {
+  background: '#ffffff',
+  border: '1px solid #c8ccd1',
+  borderRadius: '4px',
+};
+
+// ── Component ──────────────────────────────────────────────
+
 export default function AdminPage() {
+  // Auth state — session-only, no localStorage
   const [authenticated, setAuthenticated] = useState(false);
+  const [loginUsername, setLoginUsername] = useState('');
+  const [loginPassword, setLoginPassword] = useState('');
+  const [loginError, setLoginError] = useState('');
+
+  // Data state
   const [participants, setParticipants] = useState<ParticipantData[]>([]);
   const [expandedId, setExpandedId] = useState<string | null>(null);
+  const [activeTab, setActiveTab] = useState<'articles' | 'participants' | 'analysis'>('articles');
 
-  useEffect(() => {
-    const pwd = prompt('Admin password:');
-    if (pwd === EXPERIMENT.ADMIN_PASSWORD) {
+  // Article state
+  const [articleStats, setArticleStats] = useState<ArticleStats[]>([]);
+  const [selectedArticles, setSelectedArticles] = useState<Set<string>>(new Set());
+  const [articlesLoading, setArticlesLoading] = useState(false);
+
+  // ── Login handler ──────────────────────────────────────
+
+  const handleLogin = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (
+      loginUsername === EXPERIMENT.ADMIN_USERNAME &&
+      loginPassword === EXPERIMENT.ADMIN_PASSWORD
+    ) {
       setAuthenticated(true);
-      loadAllParticipants();
+      setLoginError('');
+    } else {
+      setLoginError('Invalid username or password.');
     }
-  }, []);
+  };
 
-  const loadAllParticipants = () => {
+  // ── Load participants from localStorage ────────────────
+
+  const loadAllParticipants = useCallback(() => {
     const all: ParticipantData[] = [];
     for (let i = 0; i < localStorage.length; i++) {
       const key = localStorage.key(i);
@@ -61,23 +132,153 @@ export default function AdminPage() {
       }
     }
     setParticipants(all);
-  };
+  }, []);
 
-  const handleImport = useCallback(async (e: React.ChangeEvent<HTMLInputElement>) => {
-    const files = e.target.files;
-    if (!files) return;
+  // ── Load article stats ────────────────────────────────
 
-    for (const file of Array.from(files)) {
+  const loadArticleStats = useCallback(async () => {
+    setArticlesLoading(true);
+    const results: ArticleStats[] = [];
+
+    for (const id of ALL_ARTICLE_IDS) {
       try {
-        const text = await file.text();
-        const data: ParticipantData = JSON.parse(text);
-        localStorage.setItem(`wikicred_participant_data_${data.participant.id}`, text);
-      } catch (err) {
-        console.error('Failed to import file:', file.name, err);
+        const [pastRes, currentRes] = await Promise.all([
+          fetch(`/data/articles/${id}-past.json`),
+          fetch(`/data/articles/${id}-current.json`),
+        ]);
+
+        if (!pastRes.ok || !currentRes.ok) {
+          results.push({
+            id,
+            title: id,
+            pastDate: '',
+            currentDate: '',
+            pastSections: 0,
+            currentSections: 0,
+            pastCitations: 0,
+            currentCitations: 0,
+            growthPercent: 0,
+            newCitations: 0,
+            loaded: false,
+            error: 'Failed to fetch',
+          });
+          continue;
+        }
+
+        const past: Article = await pastRes.json();
+        const current: Article = await currentRes.json();
+
+        const pastCitations = past.sections.reduce((sum, s) => sum + s.citations.length, 0);
+        const currentCitations = current.sections.reduce((sum, s) => sum + s.citations.length, 0);
+
+        const pastContentLength = past.sections.reduce((sum, s) => sum + s.content.length, 0);
+        const currentContentLength = current.sections.reduce((sum, s) => sum + s.content.length, 0);
+
+        const growthPercent =
+          pastContentLength > 0
+            ? ((currentContentLength - pastContentLength) / pastContentLength) * 100
+            : 0;
+
+        results.push({
+          id,
+          title: current.title || id,
+          pastDate: past.revisionDate,
+          currentDate: current.revisionDate,
+          pastSections: past.sections.length,
+          currentSections: current.sections.length,
+          pastCitations,
+          currentCitations,
+          growthPercent,
+          newCitations: currentCitations - pastCitations,
+          loaded: true,
+        });
+      } catch {
+        results.push({
+          id,
+          title: id,
+          pastDate: '',
+          currentDate: '',
+          pastSections: 0,
+          currentSections: 0,
+          pastCitations: 0,
+          currentCitations: 0,
+          growthPercent: 0,
+          newCitations: 0,
+          loaded: false,
+          error: 'Fetch error',
+        });
       }
     }
-    loadAllParticipants();
+
+    setArticleStats(results);
+    setArticlesLoading(false);
   }, []);
+
+  // ── Init after authentication ─────────────────────────
+
+  useEffect(() => {
+    if (!authenticated) return;
+    loadAllParticipants();
+    loadArticleStats();
+
+    // Restore selected articles from localStorage
+    try {
+      const stored = localStorage.getItem(SELECTED_ARTICLES_KEY);
+      if (stored) {
+        const ids: string[] = JSON.parse(stored);
+        setSelectedArticles(new Set(ids));
+      }
+    } catch {
+      // ignore
+    }
+  }, [authenticated, loadAllParticipants, loadArticleStats]);
+
+  // ── Toggle article selection ──────────────────────────
+
+  const toggleArticle = (id: string) => {
+    setSelectedArticles((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) {
+        next.delete(id);
+      } else {
+        next.add(id);
+      }
+      localStorage.setItem(SELECTED_ARTICLES_KEY, JSON.stringify(Array.from(next)));
+      return next;
+    });
+  };
+
+  const selectAllArticles = () => {
+    const all = new Set(ALL_ARTICLE_IDS as unknown as string[]);
+    setSelectedArticles(all);
+    localStorage.setItem(SELECTED_ARTICLES_KEY, JSON.stringify(Array.from(all)));
+  };
+
+  const deselectAllArticles = () => {
+    setSelectedArticles(new Set());
+    localStorage.setItem(SELECTED_ARTICLES_KEY, JSON.stringify([]));
+  };
+
+  // ── Import / Export ───────────────────────────────────
+
+  const handleImport = useCallback(
+    async (e: React.ChangeEvent<HTMLInputElement>) => {
+      const files = e.target.files;
+      if (!files) return;
+
+      for (const file of Array.from(files)) {
+        try {
+          const text = await file.text();
+          const data: ParticipantData = JSON.parse(text);
+          localStorage.setItem(`wikicred_participant_data_${data.participant.id}`, text);
+        } catch (err) {
+          console.error('Failed to import file:', file.name, err);
+        }
+      }
+      loadAllParticipants();
+    },
+    [loadAllParticipants],
+  );
 
   const handleExportCSV = useCallback(() => {
     if (participants.length === 0) return;
@@ -152,6 +353,8 @@ export default function AdminPage() {
     URL.revokeObjectURL(url);
   }, [participants]);
 
+  // ── Statistical analysis (only when data exists) ──────
+
   const stats = useMemo(() => {
     const completed = participants.filter((p) => p.sessions.length === 2);
     if (completed.length === 0) return null;
@@ -167,11 +370,11 @@ export default function AdminPage() {
 
     completed.forEach((p) => {
       p.sessions.forEach((s) => {
-        const arr = s.condition === 'treatment';
-        (arr ? treatmentCitations : controlCitations).push(s.citationsAdded.length);
-        (arr ? treatmentEditEvents : controlEditEvents).push(s.editEvents.length);
-        (arr ? treatmentDuration : controlDuration).push(s.totalEditTime);
-        (arr ? treatmentTabBlurs : controlTabBlurs).push(s.tabBlurEvents.length);
+        const isTreatment = s.condition === 'treatment';
+        (isTreatment ? treatmentCitations : controlCitations).push(s.citationsAdded.length);
+        (isTreatment ? treatmentEditEvents : controlEditEvents).push(s.editEvents.length);
+        (isTreatment ? treatmentDuration : controlDuration).push(s.totalEditTime);
+        (isTreatment ? treatmentTabBlurs : controlTabBlurs).push(s.tabBlurEvents.length);
       });
     });
 
@@ -200,196 +403,568 @@ export default function AdminPage() {
     };
   }, [participants]);
 
+  // ── Login screen ──────────────────────────────────────
+
   if (!authenticated) {
     return (
-      <div className="flex items-center justify-center min-h-screen">
-        <p style={{ color: 'var(--wiki-text-secondary)' }}>Access denied.</p>
+      <div
+        className="min-h-screen flex items-center justify-center"
+        style={{ background: '#f8f9fa' }}
+      >
+        <div style={{ ...cardStyle, padding: '2rem', width: '100%', maxWidth: '380px' }}>
+          <h1
+            style={{
+              fontFamily: serif,
+              fontSize: '1.5rem',
+              marginBottom: '0.25rem',
+              color: '#202122',
+            }}
+          >
+            Admin Sign In
+          </h1>
+          <p style={{ fontSize: '0.85rem', color: '#54595d', marginBottom: '1.5rem' }}>
+            WikiCredCon Editing Experiment
+          </p>
+
+          <form onSubmit={handleLogin}>
+            <label
+              style={{ display: 'block', fontSize: '0.85rem', color: '#202122', marginBottom: '0.25rem' }}
+            >
+              Username
+            </label>
+            <input
+              type="text"
+              value={loginUsername}
+              onChange={(e) => setLoginUsername(e.target.value)}
+              autoFocus
+              style={{
+                display: 'block',
+                width: '100%',
+                padding: '0.5rem 0.6rem',
+                border: '1px solid #c8ccd1',
+                borderRadius: '2px',
+                fontSize: '0.9rem',
+                marginBottom: '0.75rem',
+                boxSizing: 'border-box',
+              }}
+            />
+
+            <label
+              style={{ display: 'block', fontSize: '0.85rem', color: '#202122', marginBottom: '0.25rem' }}
+            >
+              Password
+            </label>
+            <input
+              type="password"
+              value={loginPassword}
+              onChange={(e) => setLoginPassword(e.target.value)}
+              style={{
+                display: 'block',
+                width: '100%',
+                padding: '0.5rem 0.6rem',
+                border: '1px solid #c8ccd1',
+                borderRadius: '2px',
+                fontSize: '0.9rem',
+                marginBottom: '1rem',
+                boxSizing: 'border-box',
+              }}
+            />
+
+            {loginError && (
+              <p style={{ color: '#d33', fontSize: '0.85rem', marginBottom: '0.75rem' }}>
+                {loginError}
+              </p>
+            )}
+
+            <button
+              type="submit"
+              style={{
+                width: '100%',
+                padding: '0.55rem',
+                backgroundColor: '#3366cc',
+                color: '#fff',
+                border: 'none',
+                borderRadius: '2px',
+                fontSize: '0.9rem',
+                cursor: 'pointer',
+                fontWeight: 600,
+              }}
+            >
+              Sign in
+            </button>
+          </form>
+        </div>
       </div>
     );
   }
+
+  // ── Authenticated dashboard ───────────────────────────
 
   return (
     <div className="min-h-screen" style={{ background: '#f8f9fa' }}>
       {/* Header */}
       <div
-        className="px-6 py-4"
-        style={{ background: 'var(--wiki-chrome)', borderBottom: '1px solid var(--wiki-chrome-border)' }}
+        style={{
+          background: '#eaecf0',
+          borderBottom: '1px solid #c8ccd1',
+          padding: '1rem 1.5rem',
+        }}
       >
-        <h1 style={{ fontFamily: "Georgia, 'Linux Libertine', serif", fontSize: '1.5rem' }}>
+        <h1 style={{ fontFamily: serif, fontSize: '1.5rem', color: '#202122', margin: 0 }}>
           Admin Dashboard
         </h1>
-        <p className="text-sm mt-1" style={{ color: 'var(--wiki-text-secondary)' }}>
-          WikiCredCon Editing Experiment — Treatment vs Control Comparison
+        <p style={{ fontSize: '0.85rem', color: '#54595d', marginTop: '0.2rem' }}>
+          WikiCredCon Editing Experiment — Manage articles, participants, and results
         </p>
       </div>
 
-      <div className="max-w-[1200px] mx-auto px-6 py-6">
-        {/* Controls */}
-        <div className="flex gap-4 mb-6">
-          <label
-            className="px-4 py-2 text-white rounded cursor-pointer text-sm"
-            style={{ backgroundColor: 'var(--wiki-button-primary)' }}
+      {/* Tab navigation */}
+      <div
+        style={{
+          display: 'flex',
+          gap: '0',
+          borderBottom: '1px solid #c8ccd1',
+          background: '#fff',
+          paddingLeft: '1.5rem',
+        }}
+      >
+        {([
+          ['articles', 'Articles'],
+          ['participants', 'Participants'],
+          ['analysis', 'Analysis'],
+        ] as const).map(([key, label]) => (
+          <button
+            key={key}
+            onClick={() => setActiveTab(key)}
+            style={{
+              padding: '0.65rem 1.25rem',
+              fontSize: '0.9rem',
+              background: 'transparent',
+              border: 'none',
+              borderBottom: activeTab === key ? '3px solid #3366cc' : '3px solid transparent',
+              color: activeTab === key ? '#3366cc' : '#54595d',
+              fontWeight: activeTab === key ? 600 : 400,
+              cursor: 'pointer',
+            }}
           >
-            Import Participant Data
+            {label}
+          </button>
+        ))}
+      </div>
+
+      <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '1.5rem' }}>
+        {/* ── Action bar ─────────────────────────────────── */}
+        <div style={{ display: 'flex', gap: '0.75rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
+          <label
+            style={{
+              padding: '0.45rem 1rem',
+              backgroundColor: '#3366cc',
+              color: '#fff',
+              borderRadius: '2px',
+              cursor: 'pointer',
+              fontSize: '0.85rem',
+              fontWeight: 500,
+            }}
+          >
+            Import JSON
             <input
               type="file"
               accept=".json"
               multiple
               onChange={handleImport}
-              className="hidden"
+              style={{ display: 'none' }}
             />
           </label>
           <button
             onClick={handleExportCSV}
-            className="px-4 py-2 text-white rounded cursor-pointer text-sm"
-            style={{ backgroundColor: 'var(--wiki-success)' }}
+            style={{
+              padding: '0.45rem 1rem',
+              backgroundColor: '#14866d',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '2px',
+              cursor: 'pointer',
+              fontSize: '0.85rem',
+              fontWeight: 500,
+            }}
           >
-            Export All (CSV)
+            Export CSV
           </button>
           <button
             onClick={loadAllParticipants}
-            className="px-4 py-2 rounded cursor-pointer text-sm border"
-            style={{ borderColor: 'var(--wiki-chrome-border)' }}
+            style={{
+              padding: '0.45rem 1rem',
+              border: '1px solid #c8ccd1',
+              background: '#fff',
+              borderRadius: '2px',
+              cursor: 'pointer',
+              fontSize: '0.85rem',
+            }}
           >
             Refresh
           </button>
         </div>
 
-        {/* Overview */}
-        <div className="grid grid-cols-3 gap-4 mb-8">
-          <div className="bg-white p-4 rounded border" style={{ borderColor: 'var(--wiki-chrome-border)' }}>
-            <div className="text-3xl font-bold">{participants.length}</div>
-            <div className="text-xs" style={{ color: 'var(--wiki-text-secondary)' }}>
-              Total participants
+        {/* ── Overview cards ─────────────────────────────── */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1rem', marginBottom: '1.5rem' }}>
+          <div style={{ ...cardStyle, padding: '1rem' }}>
+            <div style={{ fontSize: '2rem', fontWeight: 700, color: '#202122' }}>
+              {participants.length}
             </div>
+            <div style={{ fontSize: '0.8rem', color: '#54595d' }}>Total participants</div>
           </div>
-          <div className="bg-white p-4 rounded border" style={{ borderColor: 'var(--wiki-chrome-border)' }}>
-            <div className="text-3xl font-bold">
+          <div style={{ ...cardStyle, padding: '1rem' }}>
+            <div style={{ fontSize: '2rem', fontWeight: 700, color: '#202122' }}>
               {participants.filter((p) => p.sessions.length === 2).length}
             </div>
-            <div className="text-xs" style={{ color: 'var(--wiki-text-secondary)' }}>
-              Completed both tasks
-            </div>
+            <div style={{ fontSize: '0.8rem', color: '#54595d' }}>Completed both tasks</div>
           </div>
-          <div className="bg-white p-4 rounded border" style={{ borderColor: 'var(--wiki-chrome-border)' }}>
-            <div className="text-3xl font-bold">
+          <div style={{ ...cardStyle, padding: '1rem' }}>
+            <div style={{ fontSize: '2rem', fontWeight: 700, color: '#202122' }}>
               {participants.filter((p) => p.survey).length}
             </div>
-            <div className="text-xs" style={{ color: 'var(--wiki-text-secondary)' }}>
-              Completed survey
-            </div>
+            <div style={{ fontSize: '0.8rem', color: '#54595d' }}>Completed survey</div>
           </div>
         </div>
 
-        {/* Statistical Comparison */}
-        {stats && (
-          <div className="bg-white p-6 rounded border mb-6" style={{ borderColor: 'var(--wiki-chrome-border)' }}>
-            <h2
-              className="mb-4"
-              style={{ fontFamily: "Georgia, 'Linux Libertine', serif", fontSize: '1.3rem' }}
-            >
-              Treatment vs Control (N={stats.n} paired observations)
-            </h2>
-            <div className="overflow-x-auto">
-              <table className="w-full text-sm">
-                <thead>
-                  <tr style={{ borderBottom: '2px solid var(--wiki-chrome-border)' }}>
-                    <th className="text-left py-2 pr-4">Metric</th>
-                    <th className="text-right py-2 px-4">Treatment (M ± SD)</th>
-                    <th className="text-right py-2 px-4">Control (M ± SD)</th>
-                    <th className="text-right py-2 px-4">Diff</th>
-                    <th className="text-right py-2 px-4">t</th>
-                    <th className="text-right py-2 px-4">p</th>
-                    <th className="text-right py-2 pl-4">Cohen&apos;s d</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {[
-                    { label: 'Citations added', data: stats.citations, format: (v: number) => v.toFixed(1) },
-                    { label: 'Edit events', data: stats.editEvents, format: (v: number) => v.toFixed(0) },
-                    {
-                      label: 'Duration (ms)',
-                      data: stats.duration,
-                      format: (v: number) => formatDuration(v),
-                    },
-                    { label: 'Tab switches', data: stats.tabBlurs, format: (v: number) => v.toFixed(1) },
-                  ].map(({ label, data: d, format }) => (
-                    <tr key={label} style={{ borderBottom: '1px solid var(--wiki-chrome)' }}>
-                      <td className="py-2 pr-4">{label}</td>
-                      <td className="text-right py-2 px-4">
-                        {format(d.treatment.mean)} ± {format(d.treatment.sd)}
-                      </td>
-                      <td className="text-right py-2 px-4">
-                        {format(d.control.mean)} ± {format(d.control.sd)}
-                      </td>
-                      <td className="text-right py-2 px-4">{d.test.meanDiff.toFixed(2)}</td>
-                      <td className="text-right py-2 px-4">{d.test.tStatistic.toFixed(2)}</td>
-                      <td
-                        className="text-right py-2 px-4 font-semibold"
-                        style={{ color: d.test.pValue < 0.05 ? 'var(--wiki-success)' : 'var(--wiki-text)' }}
-                      >
-                        {d.test.pValue.toFixed(3)}
-                      </td>
-                      <td className="text-right py-2 pl-4">{d.test.cohensD.toFixed(2)}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+        {/* ── ARTICLES TAB ───────────────────────────────── */}
+        {activeTab === 'articles' && (
+          <div style={{ ...cardStyle, padding: '1.5rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '1rem' }}>
+              <h2 style={{ fontFamily: serif, fontSize: '1.25rem', color: '#202122', margin: 0 }}>
+                Article Corpus ({selectedArticles.size} of {ALL_ARTICLE_IDS.length} selected)
+              </h2>
+              <div style={{ display: 'flex', gap: '0.5rem' }}>
+                <button
+                  onClick={selectAllArticles}
+                  style={{
+                    padding: '0.3rem 0.75rem',
+                    fontSize: '0.8rem',
+                    border: '1px solid #c8ccd1',
+                    background: '#fff',
+                    borderRadius: '2px',
+                    cursor: 'pointer',
+                  }}
+                >
+                  Select all
+                </button>
+                <button
+                  onClick={deselectAllArticles}
+                  style={{
+                    padding: '0.3rem 0.75rem',
+                    fontSize: '0.8rem',
+                    border: '1px solid #c8ccd1',
+                    background: '#fff',
+                    borderRadius: '2px',
+                    cursor: 'pointer',
+                  }}
+                >
+                  Deselect all
+                </button>
+              </div>
             </div>
-            <p className="text-xs mt-3" style={{ color: 'var(--wiki-text-disabled)' }}>
-              Paired t-test (within-subjects). Green p-values indicate p &lt; 0.05.
-            </p>
+
+            {articlesLoading ? (
+              <p style={{ color: '#54595d', fontSize: '0.9rem' }}>Loading article data...</p>
+            ) : (
+              <div style={{ overflowX: 'auto' }}>
+                <table style={{ width: '100%', fontSize: '0.85rem', borderCollapse: 'collapse' }}>
+                  <thead>
+                    <tr style={{ borderBottom: '2px solid #c8ccd1' }}>
+                      <th style={{ textAlign: 'center', padding: '0.5rem 0.5rem', width: '40px' }}></th>
+                      <th style={{ textAlign: 'left', padding: '0.5rem 0.75rem' }}>Article</th>
+                      <th style={{ textAlign: 'left', padding: '0.5rem 0.75rem' }}>Past date</th>
+                      <th style={{ textAlign: 'left', padding: '0.5rem 0.75rem' }}>Current date</th>
+                      <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>Growth</th>
+                      <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>Past citations</th>
+                      <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>Current citations</th>
+                      <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>New citations</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {articleStats.map((a) => (
+                      <tr
+                        key={a.id}
+                        onClick={() => toggleArticle(a.id)}
+                        style={{
+                          borderBottom: '1px solid #eaecf0',
+                          cursor: 'pointer',
+                          background: selectedArticles.has(a.id) ? '#f0f4ff' : 'transparent',
+                          opacity: a.loaded ? 1 : 0.5,
+                        }}
+                      >
+                        <td style={{ textAlign: 'center', padding: '0.5rem 0.5rem' }}>
+                          <input
+                            type="checkbox"
+                            checked={selectedArticles.has(a.id)}
+                            onChange={() => toggleArticle(a.id)}
+                            onClick={(e) => e.stopPropagation()}
+                            style={{ cursor: 'pointer' }}
+                          />
+                        </td>
+                        <td style={{ padding: '0.5rem 0.75rem', fontWeight: 500 }}>
+                          {a.title}
+                          {a.error && (
+                            <span style={{ color: '#d33', fontSize: '0.75rem', marginLeft: '0.5rem' }}>
+                              ({a.error})
+                            </span>
+                          )}
+                        </td>
+                        <td style={{ padding: '0.5rem 0.75rem', color: '#54595d' }}>{a.pastDate}</td>
+                        <td style={{ padding: '0.5rem 0.75rem', color: '#54595d' }}>{a.currentDate}</td>
+                        <td
+                          style={{
+                            textAlign: 'right',
+                            padding: '0.5rem 0.75rem',
+                            color: a.growthPercent > 0 ? '#14866d' : a.growthPercent < 0 ? '#d33' : '#54595d',
+                            fontWeight: 500,
+                          }}
+                        >
+                          {a.loaded ? `${a.growthPercent > 0 ? '+' : ''}${a.growthPercent.toFixed(1)}%` : '—'}
+                        </td>
+                        <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
+                          {a.loaded ? a.pastCitations : '—'}
+                        </td>
+                        <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
+                          {a.loaded ? a.currentCitations : '—'}
+                        </td>
+                        <td
+                          style={{
+                            textAlign: 'right',
+                            padding: '0.5rem 0.75rem',
+                            color: a.newCitations > 0 ? '#14866d' : '#54595d',
+                            fontWeight: 500,
+                          }}
+                        >
+                          {a.loaded ? (a.newCitations > 0 ? `+${a.newCitations}` : a.newCitations) : '—'}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
           </div>
         )}
 
-        {/* Participant Table */}
-        <div className="bg-white p-6 rounded border" style={{ borderColor: 'var(--wiki-chrome-border)' }}>
-          <h2
-            className="mb-4"
-            style={{ fontFamily: "Georgia, 'Linux Libertine', serif", fontSize: '1.3rem' }}
-          >
-            All Participants
-          </h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr style={{ borderBottom: '2px solid var(--wiki-chrome-border)' }}>
-                  <th className="text-left py-2">Email</th>
-                  <th className="text-left py-2">Order</th>
-                  <th className="text-center py-2">Sessions</th>
-                  <th className="text-center py-2">Survey</th>
-                  <th className="text-right py-2">Dashboard</th>
-                </tr>
-              </thead>
-              <tbody>
-                {participants.map((p) => (
-                  <tr
-                    key={p.participant.id}
-                    style={{ borderBottom: '1px solid var(--wiki-chrome)' }}
-                    className="cursor-pointer hover:bg-gray-50"
-                    onClick={() =>
-                      setExpandedId(expandedId === p.participant.id ? null : p.participant.id)
-                    }
-                  >
-                    <td className="py-2">{p.participant.email}</td>
-                    <td className="py-2">{p.participant.assignedOrder}</td>
-                    <td className="text-center py-2">{p.sessions.length}/2</td>
-                    <td className="text-center py-2">{p.survey ? 'Yes' : 'No'}</td>
-                    <td className="text-right py-2">
-                      <a
-                        href={`/dashboard/${p.participant.id}`}
-                        style={{ color: 'var(--wiki-link)' }}
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        View
-                      </a>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+        {/* ── PARTICIPANTS TAB ───────────────────────────── */}
+        {activeTab === 'participants' && (
+          <div style={{ ...cardStyle, padding: '1.5rem' }}>
+            <h2 style={{ fontFamily: serif, fontSize: '1.25rem', color: '#202122', marginBottom: '1rem' }}>
+              All Participants
+            </h2>
+
+            {participants.length === 0 ? (
+              <p style={{ color: '#54595d', fontSize: '0.9rem' }}>
+                No participant data found. Import JSON files or wait for participants to complete sessions.
+              </p>
+            ) : (
+              <div style={{ overflowX: 'auto' }}>
+                <table style={{ width: '100%', fontSize: '0.85rem', borderCollapse: 'collapse' }}>
+                  <thead>
+                    <tr style={{ borderBottom: '2px solid #c8ccd1' }}>
+                      <th style={{ textAlign: 'left', padding: '0.5rem 0.75rem' }}>Email</th>
+                      <th style={{ textAlign: 'left', padding: '0.5rem 0.75rem' }}>Wiki username</th>
+                      <th style={{ textAlign: 'left', padding: '0.5rem 0.75rem' }}>Order</th>
+                      <th style={{ textAlign: 'center', padding: '0.5rem 0.75rem' }}>Sessions</th>
+                      <th style={{ textAlign: 'center', padding: '0.5rem 0.75rem' }}>Survey</th>
+                      <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>Dashboard</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {participants.map((p) => (
+                      <>
+                        <tr
+                          key={p.participant.id}
+                          onClick={() =>
+                            setExpandedId(expandedId === p.participant.id ? null : p.participant.id)
+                          }
+                          style={{
+                            borderBottom: expandedId === p.participant.id ? 'none' : '1px solid #eaecf0',
+                            cursor: 'pointer',
+                          }}
+                        >
+                          <td style={{ padding: '0.5rem 0.75rem' }}>{p.participant.email}</td>
+                          <td style={{ padding: '0.5rem 0.75rem', color: '#54595d' }}>
+                            {p.participant.wikiUsername || '—'}
+                          </td>
+                          <td style={{ padding: '0.5rem 0.75rem' }}>{p.participant.assignedOrder}</td>
+                          <td style={{ textAlign: 'center', padding: '0.5rem 0.75rem' }}>
+                            <span
+                              style={{
+                                display: 'inline-block',
+                                padding: '0.15rem 0.5rem',
+                                borderRadius: '10px',
+                                fontSize: '0.8rem',
+                                fontWeight: 500,
+                                background: p.sessions.length === 2 ? '#d5fdd5' : '#fff3cd',
+                                color: p.sessions.length === 2 ? '#14866d' : '#856404',
+                              }}
+                            >
+                              {p.sessions.length}/2
+                            </span>
+                          </td>
+                          <td style={{ textAlign: 'center', padding: '0.5rem 0.75rem' }}>
+                            {p.survey ? 'Yes' : 'No'}
+                          </td>
+                          <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
+                            <a
+                              href={`/dashboard/${p.participant.id}`}
+                              style={{ color: '#3366cc', textDecoration: 'none' }}
+                              onClick={(e) => e.stopPropagation()}
+                            >
+                              View
+                            </a>
+                          </td>
+                        </tr>
+                        {expandedId === p.participant.id && (
+                          <tr key={`${p.participant.id}-detail`} style={{ borderBottom: '1px solid #eaecf0' }}>
+                            <td colSpan={6} style={{ padding: '0.75rem', background: '#f8f9fa' }}>
+                              <div style={{ fontSize: '0.82rem', lineHeight: '1.6' }}>
+                                <strong>ID:</strong> {p.participant.id}
+                                <br />
+                                <strong>Experience:</strong> {p.participant.experience.yearsActive},{' '}
+                                {p.participant.experience.approxEditCount} edits
+                                <br />
+                                <strong>Content areas:</strong>{' '}
+                                {p.participant.experience.contentAreas.join(', ') || 'None specified'}
+                                {p.sessions.map((s, idx) => (
+                                  <div
+                                    key={s.sessionId}
+                                    style={{
+                                      marginTop: '0.5rem',
+                                      padding: '0.5rem',
+                                      background: '#fff',
+                                      border: '1px solid #eaecf0',
+                                      borderRadius: '2px',
+                                    }}
+                                  >
+                                    <strong>Session {idx + 1}</strong> — {s.condition} on{' '}
+                                    <em>{s.articleId}</em>
+                                    <br />
+                                    Duration: {formatDuration(s.totalEditTime)} | Citations:{' '}
+                                    {s.citationsAdded.length} | Edits: {s.editEvents.length} | Tab
+                                    switches: {s.tabBlurEvents.length}
+                                    {s.condition === 'treatment' && (
+                                      <>
+                                        {' '}
+                                        | Arbiter interactions: {s.arbiterInteractions.length}
+                                      </>
+                                    )}
+                                  </div>
+                                ))}
+                              </div>
+                            </td>
+                          </tr>
+                        )}
+                      </>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
           </div>
-        </div>
+        )}
+
+        {/* ── ANALYSIS TAB ───────────────────────────────── */}
+        {activeTab === 'analysis' && (
+          <div style={{ ...cardStyle, padding: '1.5rem' }}>
+            <h2 style={{ fontFamily: serif, fontSize: '1.25rem', color: '#202122', marginBottom: '1rem' }}>
+              Treatment vs Control Comparison
+            </h2>
+
+            {!stats ? (
+              <p style={{ color: '#54595d', fontSize: '0.9rem' }}>
+                No completed sessions yet. At least two participants must finish both editing tasks
+                before statistical comparisons become available.
+              </p>
+            ) : (
+              <>
+                <p style={{ fontSize: '0.9rem', color: '#54595d', marginBottom: '1rem' }}>
+                  Based on {stats.n} participant{stats.n !== 1 ? 's' : ''} who completed both
+                  conditions (paired within-subjects design).
+                </p>
+                <div style={{ overflowX: 'auto' }}>
+                  <table style={{ width: '100%', fontSize: '0.85rem', borderCollapse: 'collapse' }}>
+                    <thead>
+                      <tr style={{ borderBottom: '2px solid #c8ccd1' }}>
+                        <th style={{ textAlign: 'left', padding: '0.5rem 0.75rem' }}>Metric</th>
+                        <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
+                          Treatment (M +/- SD)
+                        </th>
+                        <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
+                          Control (M +/- SD)
+                        </th>
+                        <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>Diff</th>
+                        <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>t</th>
+                        <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>p</th>
+                        <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
+                          Cohen&apos;s d
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {[
+                        {
+                          label: 'Citations added',
+                          data: stats.citations,
+                          format: (v: number) => v.toFixed(1),
+                        },
+                        {
+                          label: 'Edit events',
+                          data: stats.editEvents,
+                          format: (v: number) => v.toFixed(0),
+                        },
+                        {
+                          label: 'Duration',
+                          data: stats.duration,
+                          format: (v: number) => formatDuration(v),
+                        },
+                        {
+                          label: 'Tab switches',
+                          data: stats.tabBlurs,
+                          format: (v: number) => v.toFixed(1),
+                        },
+                      ].map(({ label, data: d, format }) => (
+                        <tr key={label} style={{ borderBottom: '1px solid #eaecf0' }}>
+                          <td style={{ padding: '0.5rem 0.75rem' }}>{label}</td>
+                          <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
+                            {format(d.treatment.mean)} +/- {format(d.treatment.sd)}
+                          </td>
+                          <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
+                            {format(d.control.mean)} +/- {format(d.control.sd)}
+                          </td>
+                          <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
+                            {d.test.meanDiff.toFixed(2)}
+                          </td>
+                          <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
+                            {d.test.tStatistic.toFixed(2)}
+                          </td>
+                          <td
+                            style={{
+                              textAlign: 'right',
+                              padding: '0.5rem 0.75rem',
+                              fontWeight: 600,
+                              color: d.test.pValue < 0.05 ? '#14866d' : '#202122',
+                            }}
+                          >
+                            {d.test.pValue.toFixed(3)}
+                          </td>
+                          <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
+                            {d.test.cohensD.toFixed(2)}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                <p style={{ fontSize: '0.78rem', color: '#a2a9b1', marginTop: '0.75rem' }}>
+                  Paired t-test (within-subjects). Green p-values indicate p &lt; 0.05.
+                </p>
+              </>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

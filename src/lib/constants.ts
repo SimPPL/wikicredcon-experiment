@@ -22,7 +22,8 @@ export const EXPERIMENT = {
     A: 'semaglutide',
     B: 'vaccine-misinfo',
   },
-  ADMIN_PASSWORD: 'wikicredcon2026',
+  ADMIN_USERNAME: 'admin',
+  ADMIN_PASSWORD: 'demo',
 } as const;
 
 // --- Wikipedia Styling ---

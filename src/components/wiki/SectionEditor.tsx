@@ -63,20 +63,54 @@ export default function SectionEditor({
 }: SectionEditorProps) {
   const HeadingTag = section.level <= 2 ? 'h2' : 'h3';
 
-  const heading = section.level === 1 ? (
-    <h1>
-      {section.title}
-      <span
-        className="wiki-edit-link"
-        role="button"
-        tabIndex={0}
-        onClick={(e) => { e.stopPropagation(); onToggleEdit(section.id); }}
-        onKeyDown={(e) => { if (e.key === 'Enter') onToggleEdit(section.id); }}
-      >
-        [edit]
-      </span>
-    </h1>
-  ) : (
+  // Lead section (level 1) doesn't show a separate heading —
+  // the article title is already rendered by ArticleRenderer
+  if (section.level === 1 && section.id === 'lead') {
+    const value = editedContent !== undefined ? editedContent : section.content;
+    if (isEditing) {
+      return (
+        <div className="mb-4" style={{ border: '1px solid var(--wiki-link)', borderRadius: 2, padding: '0.5rem' }}>
+          <div className="flex items-center justify-between mb-1">
+            <span className="text-sm font-semibold" style={{ color: 'var(--wiki-text-secondary)' }}>Editing lead section</span>
+            <button
+              onClick={() => onToggleEdit(section.id)}
+              className="text-xs px-3 py-1 rounded cursor-pointer"
+              style={{ color: 'var(--wiki-link)', border: '1px solid var(--wiki-chrome-border)' }}
+            >
+              Done
+            </button>
+          </div>
+          <textarea
+            className="wiki-editor-textarea"
+            value={value}
+            onChange={(e) => onContentChange(section.id, e.target.value)}
+            onFocus={() => onFocus?.(section.id)}
+            onBlur={() => onBlur?.(section.id)}
+            rows={Math.max(6, value.split('\n').length + 2)}
+            autoFocus
+          />
+        </div>
+      );
+    }
+    const displayContent = editedContent !== undefined ? editedContent : section.content;
+    return (
+      <div className="mb-4">
+        <span
+          className="wiki-edit-link"
+          role="button"
+          tabIndex={0}
+          onClick={(e) => { e.stopPropagation(); onToggleEdit(section.id); }}
+          onKeyDown={(e) => { if (e.key === 'Enter') onToggleEdit(section.id); }}
+          style={{ float: 'right' }}
+        >
+          [edit]
+        </span>
+        {renderContentWithCitations(displayContent, section.citations)}
+      </div>
+    );
+  }
+
+  const heading = (
     <HeadingTag>
       {section.title}
       <span
