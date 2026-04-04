@@ -19,6 +19,8 @@ import type {
 import WikiTabs from '@/components/wiki/WikiTabs';
 import ArticleRenderer from '@/components/wiki/ArticleRenderer';
 import EditToolbar from '@/components/wiki/EditToolbar';
+import EditNotice from '@/components/wiki/EditNotice';
+import PublishDialog from '@/components/wiki/PublishDialog';
 import ClaimsSidebar from '@/components/arbiter/ClaimsSidebar';
 
 export default function EditPage() {
@@ -33,6 +35,8 @@ export default function EditPage() {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [timeRemaining, setTimeRemaining] = useState(EXPERIMENT.EDIT_DURATION_MS);
   const [showTransition, setShowTransition] = useState(false);
+  const [showPublishDialog, setShowPublishDialog] = useState(false);
+  const [editSummary, setEditSummary] = useState('');
   const [loading, setLoading] = useState(true);
 
   // --- Refs for metrics (avoid re-renders) ---
@@ -156,7 +160,7 @@ export default function EditPage() {
 
       if (remaining <= 0) {
         clearInterval(interval);
-        handlePublish();
+        handlePublish('Time expired — auto-published', false);
       }
     }, 1000);
 
@@ -261,8 +265,25 @@ export default function EditPage() {
     }
   }, []);
 
-  const handlePublish = useCallback(() => {
+  const handlePublishClick = useCallback(() => {
+    setShowPublishDialog(true);
+  }, []);
+
+  const handlePublish = useCallback((summary?: string, isMinorEdit?: boolean) => {
     if (!sessionRef.current || !participant) return;
+
+    // Store edit summary in session
+    if (summary) {
+      setEditSummary(summary);
+      // Store as a special edit event
+      sessionRef.current.editEvents.push({
+        timestamp: Date.now(),
+        sectionId: '__edit_summary__',
+        action: 'replace',
+        contentBefore: '',
+        contentAfter: `summary: ${summary} | minor: ${isMinorEdit ? 'yes' : 'no'}`,
+      });
+    }
 
     // Finalize section timing
     if (sectionFocusStart.current) {
@@ -283,6 +304,7 @@ export default function EditPage() {
     completedSessions.push(sessionRef.current);
     localStorage.setItem(LS_KEYS.COMPLETED_SESSIONS, JSON.stringify(completedSessions));
     localStorage.removeItem(LS_KEYS.CURRENT_SESSION);
+    setShowPublishDialog(false);
 
     // Advance phase
     if (phase === 'editing-1') {
@@ -364,9 +386,6 @@ export default function EditPage() {
           </span>
         </div>
         <div className="flex items-center gap-4">
-          <span className="text-sm" style={{ color: 'var(--wiki-text-secondary)' }}>
-            {condition === 'treatment' ? 'Treatment Group' : 'Control Group'}
-          </span>
           <div
             className={`font-mono text-lg font-bold ${isWarning ? 'timer-warning' : ''}`}
             style={{ color: isWarning ? 'var(--wiki-error)' : 'var(--wiki-text)' }}
@@ -384,14 +403,8 @@ export default function EditPage() {
         {/* Article Area */}
         <div className={`flex-1 ${condition === 'treatment' && !sidebarCollapsed ? '' : ''}`}>
           <div className="max-w-[960px] mx-auto px-4 py-4">
-            {/* Article title info */}
-            <div
-              className="text-sm mb-2 px-1"
-              style={{ color: 'var(--wiki-text-secondary)' }}
-            >
-              Editing version from {article.revisionDate} — You have{' '}
-              {formatDuration(timeRemaining)} remaining
-            </div>
+            {/* Edit notices — Wikipedia-style guidance banners */}
+            <EditNotice articleId={article.id} revisionDate={article.revisionDate} />
 
             {/* Toolbar */}
             <EditToolbar
@@ -410,16 +423,69 @@ export default function EditPage() {
               onSectionBlur={handleSectionBlur}
             />
 
-            {/* Publish button */}
-            <div className="mt-8 mb-12 flex justify-end">
-              <button
-                onClick={handlePublish}
-                className="px-6 py-2 text-white rounded cursor-pointer text-sm font-semibold"
-                style={{ backgroundColor: 'var(--wiki-button-primary)' }}
+            {/* Publish area — mimics Wikipedia's bottom section */}
+            <div
+              className="mt-6 mb-12 pt-4"
+              style={{ borderTop: '1px solid var(--wiki-chrome-border)' }}
+            >
+              {/* Copyright notice */}
+              <p
+                className="text-xs mb-4"
+                style={{ color: 'var(--wiki-text-secondary)', lineHeight: 1.5 }}
               >
-                Publish changes
-              </button>
+                By publishing changes, you agree to the{' '}
+                <span style={{ color: 'var(--wiki-link)' }}>Terms of Use</span>, and you
+                irrevocably agree to release your contribution under the{' '}
+                <span style={{ color: 'var(--wiki-link)' }}>CC BY-SA 4.0 License</span>{' '}
+                and the <span style={{ color: 'var(--wiki-link)' }}>GFDL</span>.
+              </p>
+
+              {/* Action buttons — matches Wikipedia's button row */}
+              <div className="flex items-center gap-3">
+                <button
+                  onClick={handlePublishClick}
+                  className="px-5 py-1.5 text-white rounded cursor-pointer text-sm font-semibold"
+                  style={{ backgroundColor: 'var(--wiki-button-primary)' }}
+                >
+                  Publish changes
+                </button>
+                <button
+                  className="px-4 py-1.5 text-sm cursor-pointer rounded"
+                  style={{
+                    color: 'var(--wiki-link)',
+                    background: 'transparent',
+                    border: '1px solid var(--wiki-chrome-border)',
+                  }}
+                  title="Preview not available in experiment mode"
+                  disabled
+                >
+                  Show preview
+                </button>
+                <button
+                  className="px-4 py-1.5 text-sm cursor-pointer rounded"
+                  style={{
+                    color: 'var(--wiki-link)',
+                    background: 'transparent',
+                    border: '1px solid var(--wiki-chrome-border)',
+                  }}
+                  title="Changes view not available in experiment mode"
+                  disabled
+                >
+                  Show changes
+                </button>
+                <span className="flex-1" />
+                <span className="text-xs" style={{ color: 'var(--wiki-text-disabled)' }}>
+                  {formatDuration(timeRemaining)} remaining
+                </span>
+              </div>
             </div>
+
+            {/* Publish dialog */}
+            <PublishDialog
+              open={showPublishDialog}
+              onPublish={handlePublish}
+              onCancel={() => setShowPublishDialog(false)}
+            />
           </div>
         </div>
 
