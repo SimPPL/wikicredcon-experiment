@@ -494,6 +494,11 @@ export default function EditPage() {
           <ClaimsSidebar
             claims={claims}
             activeSectionId={editingSectionId}
+            sectionTitles={
+              article
+                ? Object.fromEntries(article.sections.map((s) => [s.id, s.title]))
+                : {}
+            }
             onClaimView={handleClaimView}
             onClaimClick={handleClaimClick}
             collapsed={sidebarCollapsed}
