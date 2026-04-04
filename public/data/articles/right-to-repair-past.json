@@ -1,0 +1,703 @@
+{
+  "id": "right-to-repair",
+  "title": "Right to repair",
+  "revisionDate": "2025-10-31",
+  "revisionId": "1319707307",
+  "sections": [
+    {
+      "id": "right-to-repair-lead",
+      "title": "Lead",
+      "level": 1,
+      "content": "Right to repair is a legal right for owners of devices and equipment to freely modify and repair products such as automobiles, electronics, and farm equipment. Right to repair may also refer to the social movement of citizens putting pressure on their governments to enact laws protecting a right to repair.\n\nCommon obstacles to repair include requirements to use only the manufacturer's maintenance services, restrictions on access to tools and components, and software barriers.\n\nProponents for this right point to the benefits in affordability, sustainability, and availability of critical supplies in times of crisis.",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Ozturkcan, The right-to-repair movement: Sustainability and consumer rights, (2024)"
+        }
+      ]
+    },
+    {
+      "id": "impacts",
+      "title": "Impacts",
+      "level": 2,
+      "content": "While initially majorly driven by automotive consumers protection agencies and the automotive after sales service industry, the discussion of establishing a right to repair not only for vehicles but for any kind of electronic product gained traction as consumer electronics such as smartphones and computers became universally available, causing broken and used electronics to become the fastest growing waste stream. Today it's estimated that more than half of the population of the western world has one or more used or broken electronic devices at home that are not introduced back into the market due to a lack of affordable repair.\n\nIn addition to the consumer goods, healthcare equipment repair access made news at the start of the COVID-19 pandemic in 2020, when hospitals had trouble getting maintenance for some critical high-demand medical equipment, most notably ventilators.\n\nThe pandemic has also been credited with helping to grow the right-to-repair movement since many repair shops were closed. The Economist also cites the expectation that owners of products should be able to repair them as a sense of moral justice or property rights. Those fighting against planned obsolescence have also taken note of when repair costs exceeds replacement costs because the companies that created the product have retained a monopoly on its repair, driving up prices.\n\n== Definition ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Semuels, The World Has an E-Waste Problem, (23 May 2019)",
+          "url": "https://time.com/5594380/world-electronic-waste-problem/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Thobe, Fino a 2.6 Miliardi di Euro & 1 Miliardo di KG CO2 sprecati dagli smartphone che gli italiani non usano più, (October 4, 2017)",
+          "url": "https://www.ricompro.it/blog/fino-a-26-miliardi-di-euro-1-miliardo-di-kg-co2-sprecati-dagli-smartphone-che-gli-italiani-non-usano-pi/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "He, The medical right to repair: the right to save lives, (April 2021)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Perlow, Your right to repair: How COVID sent businesses, hospitals, and consumers to the breaking point, (July 7, 2021)",
+          "url": "https://www.zdnet.com/article/the-right-to-repair-covid-19-sending-businesses-hospitals-and-consumers-to-the-tipping-point/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Condon, Lawmakers call for \"right to repair\" medical equipment during COVID-19 pandemic, (August 6, 2020)",
+          "url": "https://www.zdnet.com/article/lawmakers-call-for-right-to-repair-medical-equipment-during-covid-19-pandemic/"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Why is the \"right to repair\" gadgets and machines spreading?, (November 19, 2021)",
+          "url": "https://www.economist.com/the-economist-explains/2021/11/19/why-is-the-right-to-repair-gadgets-and-machines-spreading"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "How digital devices challenge the nature of ownership, (September 30, 2017)",
+          "url": "https://www.economist.com/leaders/2017/09/30/how-digital-devices-challenge-the-nature-of-ownership"
+        }
+      ]
+    },
+    {
+      "id": "definition",
+      "title": "Definition",
+      "level": 2,
+      "content": "Right to repair refers to the concept that end users of technical, electronic or automotive devices should be allowed to freely repair these products. Some notable aspects of a product include:\n\n# the device should be constructed and designed in a manner that allows repairs to be made easily;\n# end users and independent repair providers should be able to access original spare parts and necessary tools (software as well as physical tools) at fair market conditions;\n# repairs should, by design, be possible and not be hindered by software programming; and\n# the repairability of a device should be clearly communicated by the manufacturer.\n\nSome goals of the right to repair are to favor repair instead of replacement, and make such repairs more affordable leading to a more sustainable economy and reduction in electronic waste.\n\n=== Repair-friendly design ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Park, Sustainable shopping: if you really, truly need a new phone, buy one with replaceable parts, (March 22, 2018)",
+          "url": "http://theconversation.com/sustainable-shopping-if-you-really-truly-need-a-new-phone-buy-one-with-replaceable-parts-93069"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "What You Should Know About Right to Repair, (15 July 2021)",
+          "url": "https://www.nytimes.com/wirecutter/blog/what-is-right-to-repair/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Chen, Why You Should Care About Your Right to Repair Gadgets, (14 July 2021)",
+          "url": "https://www.nytimes.com/2021/07/14/technology/personaltech/right-to-repair-iphones-android.html"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "King, It's getting easier to throw out broken technology, and harder to repair it — but an Australian movement is pushing back, (2021-07-10)",
+          "url": "https://www.abc.net.au/news/2021-07-10/act-right-to-repair-movement-growing-in-australia/100283348"
+        }
+      ]
+    },
+    {
+      "id": "repair-friendly-design",
+      "title": "Repair-friendly design",
+      "level": 3,
+      "content": "The use of glue or proprietary screws can make repairs more difficult.\n\n=== Accessible spare parts and tools ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Cooper, The Right to Repair movement won its biggest victories in 2023, (2023-12-27)",
+          "url": "https://www.engadget.com/the-right-to-repair-movement-won-its-biggest-victories-in-2023-143010331.html"
+        }
+      ]
+    },
+    {
+      "id": "accessible-spare-parts-and-tools",
+      "title": "Accessible spare parts and tools",
+      "level": 3,
+      "content": "Parts and tools needed to make repairs, should be available to everyone, including consumers.\n\n=== Software ===",
+      "citations": []
+    },
+    {
+      "id": "software",
+      "title": "Software",
+      "level": 3,
+      "content": "Parts pairing  prevents parts being swapped without a password that they provide to preferred technicians. Using approved parts can increase the cost of the repair, leading many consumers to speed up their upgrade cycle to a new device.\n\nIn addition to access to software updates, the ability to install third-party software is also mentioned as a major goal, which would, for example, allow some devices to be adapted over time.\n\n=== Transparency ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "De Leon, It's Now Okay to Bypass DRM Software to Fix Gadgets, but Right-to-Repair Fight Isn't Over, (26 October 2018)",
+          "url": "https://www.consumerreports.org/electronics/now-okay-to-bypass-drm-software-locks-but-right-to-repair-fight-not-over/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Casserly, Right to Repair laws may soon make Apple change iPhone design, (November 17, 2020)",
+          "url": "https://www.techadvisor.com/news/mobile-phone/will-right-repair-change-smartphone-design-3798101/"
+        }
+      ]
+    },
+    {
+      "id": "transparency",
+      "title": "Transparency",
+      "level": 3,
+      "content": "Manuals and design schematics should be freely available and help consumers know how to repair their devices.\n{| class=\"wikitable\"\n|+Example of a law addressing different aspects of repairability\n!Aspect of repairability\n!Scope\n!Jurisdiction\n|-\n|Repairability scorecards\n|\n|France\n|-\n|Standardized parts\n|USB-C\n|European Union\n|-\n|Parts pairing\n|\n|Oregon\n|-\n|Third-party software allowed\n|\n|\n|-\n|Software update support\n|\n|\n|-\n|Sell spare parts\n|\n|\n|-\n|Tools needed to make repairs can be found easily\n|\n|\n|-\n|Manuals and design schematic freely available\n|\n|\n|}\n\n== History ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Marshall, High-Tech Cars Are Killing the Auto Repair Shop, (October 20, 2022)",
+          "url": "https://www.wired.com/story/high-tech-cars-killing-the-traditional-auto-repair-shop/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Hoover, Apple Is Making It Slightly Easier to Repair Your iPhone",
+          "url": "https://www.wired.com/story/apple-iphone-parts-pairing-right-to-repair/"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "level": 2,
+      "content": "is often claimed to be an example of planned obsolescence.]]\nThe strategy to continuously change products to create continuous demand for the latest generation was pursued at a large scale by General Motors executive Alfred P. Sloan. GM overtook Ford as the biggest American automaker and planned obsolescence with annual variants of a product became widely adopted across industries in the American economy, eventually becoming adopted by Ford by 1933.\n\nThe car industry was at the forefront of establishing the concept of certified repair: starting from the 1910s, Ford established certified dealerships and service networks to promote parts made by Ford instead of independent repair shops and often after-sales parts. Ford also pushed for standardized pricing among certified repair shops, making flat fees mandatory even for different repairs. The combination of annual updates to cars and components made it more difficult for independent repair shops to maintain a stock of parts.\n\nIn 1947, a business owner was refurbishing old spark plugs and reselling them. However, he was reselling them under a trademarked name. This led to a lawsuit that provided the framework for legislation that would provide a right to resell repaired or refurbished items, as long as they were labelled correctly.\n\nChampion Spark Plug Co. v. Sanders provided the basis of FTC guidelines which provides an uninfringeable right to resell repaired or refurbished items as long as they were labeled as such. The decision also provided the framework for trademark guidelines regarding the resale of used goods under a trademarked namesake.\n\nFTC guidelines Title 16, Chapter I, Subchapter B, Part 20 provides guidance and regulations on the labeling of items that have been “rebuilt”, “refurbished”, or “re-manufactured” in order to prevent unfair competitive advantage in selling components in the automobile industry. This guideline hence allowed businesses the ability to repair items, for resale later.\n\nSome manufacturers shifted towards more repairable designs. Apple, which rose quickly to become one of the largest computer manufacturers, sold the first computers with circuit board descriptions, easy-to-swap components, and clear repair instructions, but has since developed a reputation for imposing strict repair restrictions on its products. \n\nCopyright with regard to computer software source code also became a front on the limitation of repairability. In the U.S., the Digital Millennium Copyright Act of 1998 prohibits repairs unless granted an exception, and has been used to block repairs as software became more common in a range of devices and appliances.\n\nTo prevent refilling of empty ink cartridges, manufacturers had started placing microchips counting fill levels and usage, rendering refills difficult or impossible. Reselling and refurbishing products was confirmed to be legal by the Supreme Court in 2017 in ''Impression Prods., Inc. v. Lexmark Int'l, Inc.''. As of 2022, complaints about the longevity and repairability of printers remains.\nIn the early 2000s, the automotive industry defeated the first proposal of a right to repair bill for the automotive sector. While the National Automotive Service Task Force (NASTF), an organization supported by the automotive industry, established an online directory for accessing manufacturer information and tools in 2001, a study conducted by the Terrance Group found that around 59% of independent repair services continued to struggle to get access to diagnostic tools and parts from manufacturers. The share of electronic components in the total bill of materials for a car also rose from 5% in the 1970s to over 22% in 2000. The increasing hybridization of cars brought the need of special tools that a manufacturer only shared with authorized repair services.\n\nA trend towards right to repair in automotive and other industries gained traction with more proposed laws and court decisions.\n\n{| class=\"wikitable sortable\"\n|+ Major events concerning the \"Right to Repair\" movement since 2000\n|-\n! Year !! Events \n!Description!! Notes\n|-\n| 2012 || Automotive right to repair passed in Massachusetts\n|-\n| 2015 || Library of Congress ruled in favor of repair-related exemption in DMCA \n|Broad protections for consumer devices that rely on copyrighted software to function.|| DMCA act copy protection circumvention exemption for repairs\n|-\n|2021\n|France created repairability index\n|A rating from 1-10 providing a value for how repairable a device is.\n|First government to do so, modeled on iFixit's and HP-BATTERY scorecard.\n|-\n|2021\n|U.K. Right to Repair law in effect (Statutory Instruments 2021 No. 745)\n|Requires manufacturers provide repair information and spare parts available for repairs for up to ten years for certain new white goods and televisions.\n|Electronic appliance manufacturers required to be able to provide consumers with spare parts for \"simple and safe\" repairs and to make complex parts available to repair shops.\n|-\n|2022 || Colorado enacts the Consumer Right To Repair Powered Wheelchairs\n|Concerning a requirement that a powered wheelchair manufacturer facilitate the repair of its powered wheelchairs by providing certain other persons with the resources needed to repair the manufacturer's powered wheelchairs. || First state in the U.S. to enact a Right to Repair law covering motorized wheelchairs=\n|-\n| 2022 || New York enacts the Digital Fair Repair Act \n|Requires original equipment manufacturers to make diagnostic and repair information for digital electronic parts and equipment available to independent repair providers and consumers.|| First state in the U.S. to enact a Right to Repair law covering consumer electronics\n|-\n| 2023 || Colorado enacts the Consumer Right To Repair Agricultural Equipment Act \n|Requires agricultural equipment manufacturers to provide owners or independent repair providers with the resources and information to repair their equipment.|| First state in the U.S. to enact a Right to Repair law covering farming equipment\n|-\n|2023\n|Minnesota law passed\n|Requires manufactures of certain electronic products to make documentation, parts, and  tools for diagnosis, maintenance, or repair available to independent repair providers and consumers.\n|It is the first right-to-repair law to address home appliances; the Verge called it 'groundbreaking' \n|Requires that manufacturers of electronic and/or appliance products provide documentation, parts, and tools to owners, service and repair facilities, and service dealers for diagnostics and repair.||Engadget believes this bill will be the model for future federal legislation.\n|Aims to make it easier and more cost-effective for consumers to repair their goods.\n|The rules are not yet finalized as they must be adopted by member states and approved by the Council.\n|-\n|2024\n|Oregon bans parts pairing starting in 2025\n|Expands the scope of the right-to-repair statutes to include digital electronic equipment manufactured and sold or used for the first time in Colorado on or after July 1, 2021.\n|\"...most comprehensive right to repair bill in the country\"\n|-\n|2025\n|Oregon parts pairing ban takes effect \n|Oregon's right-to-repair law took effect January 1, 2025, becoming the first U.S. state to prohibit \"parts pairing\" practices that prevent consumers from installing replacement parts without manufacturer approval. \n|Law applies to devices manufactured after January 1, 2025, with broader right-to-repair provisions covering devices sold since 2015. \n|-\n|2025\n|Texas passes a right to repair bill.\n|Applies to all consumer electronics retailing over $50 sold after September 2026.\n|\n|}\n\nThe first successful implementation of a right to repair came when Massachusetts passed the United States' first right to repair law for the automotive sector in 2012, which required automobile manufacturers to sell the same service materials and diagnostics directly to consumers or to independent mechanics as they used to provide exclusively to their dealerships. As a result, major automobile trade organizations signed a Memorandum of Understanding in January 2014 using the Massachusetts law as the basis of their agreement for all 50 states starting in the 2018 automotive year.\n\nCompanies like Apple, John Deere, and AT&T have lobbied against Right to Repair bills, and created a number of \"strange bedfellows\" from high tech and agricultural sectors on both sides of the issue, according to Time. The tech industry has lobbied in opposition through groups like TechNet, the Entertainment Software Alliance (\"ESA\"). The Association of Equipment Manufacturers (\"AEM\") and their dealership counterparts the Equipment Dealers Association's 2018 Statement of Principles became the subject of media backlash when in January 2021 the promised means to make complete repairs had not been visibly available.\n\nIn late 2017, users of older iPhone models discovered evidence that recent updates to the phone's operating system, iOS, were throttling the phone's performance. This led to accusations that Apple sabotaged the performance of older iPhones to compel customers to buy new models more frequently. Apple disputed this assumed intention, stating instead that the goal of the software was to prevent overtaxing older lithium-ion batteries, which have degraded over time, to avoid unexpected shutdowns of the phone. Furthermore, Apple allowed users to disable the feature in an iOS update but advised against it. Additionally, Apple allowed users of affected iPhones to obtain service to replace batteries in their phones for a reduced cost of service ( compared to ) for the next six months. However, the \"right to repair\" movement argued that the best outcome would be Apple allowing consumers to purchase third-party batteries and possess the instructions to replace it at a lower cost.\n\nIn April 2018, the Federal Trade Commission sent notice to six automobile, consumer electronics, and video game console manufacturers, later revealed through a Freedom of Information Act request to be Hyundai, Asus, HTC, Microsoft, Sony, and Nintendo, stating that their warranty practices may violate the Magnuson-Moss Warranty Act. The FTC specifically identified that informing consumers that warranties are voided if they break a warranty sticker or seal on the unit's packaging, use third-party replacement parts, or use third-party repair services is a deceptive practice, as these terms are only valid if the manufacturer provides free warranty service or replacement parts. Both Sony and Nintendo released updated warranty statements following this notice.\n\nIn April 2018, US Public Interest Research Group issued a statement defending Eric Lundgren over his sentencing for creating the ‘restore disks’ to extend the life of computers.\n\nIn 2018, the exemption for making software modifications to \"land-based motor vehicles\" was expanded to allow equipment owners to engage the services of third parties to assist with making changes. These changes were endorsed by the American Farm Bureau Federation. In its 2021 recommendations, the Library of Congress further extend the exemption, with favorable right-to-repair considerations for automobiles, boats, agricultural vehicles, and medical equipment, as well as modifying prior rules related to other consumer goods.\n\nSenator Elizabeth Warren, as part of her campaign for president, laid out plans for legislation related to agriculture in March 2019, stated her intent to introduce legislation to affirm the right to repair farm equipment, potentially expanding this to other electronic devices.\n\nIn August 2019, Apple announced a program where independent repair shops may have the ability to buy official replacement parts for Apple products. Several operators became Authorized under their \"IRP\" program but many smaller repair operators avoided the option due to legally onerous burdens.\n\nIn the 2010s the trend of making one's repairs to devices spread from the east into the Western Europe. In July 2017, the European Parliament approved recommendations that member states should pass laws that give consumers the right to repair their electronics, as part of a larger update to its previous Ecodesign Directive from 2009 which called for manufacturers to produce more energy-efficient and cleaner consumer devices. The ability to repair devices is seen by these recommendations as a means to reduce waste to the environment. With these recommendations, work began on establishing the legal Directive for the EU to support the recommendations, and from which member states would then pass laws to meet the Directive. One of the first areas of focus was consumer appliances such as refrigerators and washing machines. Some were assembled using adhesives instead of mechanical fasteners which made it impossible for consumers or repair technicians from making non-destructive repairs. The right-to-repair facets of appliances were a point of contention and lobbying between European consumer groups and appliance manufacturers. Sweden also offers tax breaks for people who repair their own goods.\n\nThe EU also has directives toward a circular economy which are aimed toward reducing greenhouse gas emissions and other excessive wastes through recycling and other programs. A 2020 \"Circular Economy Action Plan\" draft included the electronics right to repair for EU citizens to allow device owners to replace only malfunctioning parts rather than replace the entire device, reducing electronics waste. The Action Plan included additional standardization that would aid toward rights to repair, such as common power ports on mobile devices.\n\nIn the midst of the COVID-19 pandemic, where medical equipment became critical for many hospitals, iFixit and a team of volunteers worked to publish and make accessible the largest known collection of manuals and service guides for medical equipment, using information crowdsourced from hospitals, medical institutions and sites like Frank's Hospital Workshop. iFixit had found, like with consumer electronics, some of the more expensive medical equipment had used means to make non-routine servicing difficult for end-users and requiring authorized repair processes.\n\n2020 Massachusetts Question 1 passed to update the previous measure on automobile repair to include electronic vehicle data. Before it could come into effect, in June 2023, the federal National Highway Traffic Safety Administration instructed manufacturers to ignore the 2020 Massachusetts law, asserting it was preempted by federal law because opening telematics to other organizations could make cars more vulnerable to computer hackers. (Both claims are disputed by Massachusetts in the lawsuit.)\n\nIn May 2021, the Federal Trade Commission (FTC) issued a report \"Nixing the Fix\" to Congress that outlined issues around corporations' policies that limit repairs on consumer goods that it considered in violation of trade laws, and outlined steps that could be done to better enforce this. This included self-regulation by the industries involved, as well as expansion of existing laws such as the Magnuson-Moss Warranty Act or new laws to give the FTC better enforcement to protect consumers from overzealous repair restrictions.\n\nIn July 2021, the Biden administration issued an executive order to the FTC and the Department of Agriculture to widely improve access to repair for both consumers and farmers. The executive order to the FTC included instructions to craft rules to prevent manufacturers from preventing repairs performed by owners or independent repair shops. About two weeks later, the FTC voted unanimously to enforce the right to repair as policy and to look to take action against companies that limit the type of repair work that can be done at independent repair shops.\n\nApple announced in November 2021 that it would be allowing consumers to order parts and make repairs on Apple products, initially with iPhone 12 and 13 devices but eventually rolling out to include Mac computers. Reception to the program has been mixed, with Right to Repair advocate Louis Rossmann seeing the program as a step in the right direction, but criticized the omission of certain parts, and the need to input a serial number before ordering parts.\n\nIn 2021, France created a repairability scoring system that took inspiration from iFixit's scorecard. France expressed its intent to merge it into a 'Durability index' that also considers how long items are expected to last.\n\nIn 2022, Framework Computer, Adafruit, Raspberry Pi, among other computer systems, started sharing 3D-printable models for replacement parts.\n\nOn December 28, 2022, New York Governor Kathy Hochul signed into law the Digital Fair Repair Act, nearly seven months after it had passed the state senate. The law established the right of consumers and independent repairers to get manuals, diagrams, and original parts from manufacturers, although The Verge, Engadget, and Ars Technica noted that the bill was made less vigorous by way of last-minute changes that provided exceptions to original equipment manufacturers. It will apply to electronic devices sold in the state in 2023.\n\nJohn Deere announced in January 2023 that it was signing a memorandum of understanding with the American Farm Bureau Federation agreeing that American farmers had the right to repair their own equipment or have it serviced at independent repair shops in the United States. Consumers and independent repair centers would still be bound against divulging certain trade secrets, and cannot tamper or override emission control settings, but are otherwise free to repair as they see fit.\n\nIn 2023, three business professors cautioned that right-to-repair laws by themselves, could have unintended consequences including incentivizing companies to create cheaper products that are lower-cost and less repairable or durable, or raise the initial sale price of the item.\n\nThe U.S. Copyright Office, as part of the tri-annual review of exemptions for the Digital Millennium Copyright Act, approved an exemption for bypassing technical controls for retail-level commercial food preparation equipment for the purposes of repair and maintenance. Notoriously, the inability for third-party repairs of such equipment had been the cause of numerous McDonald's ice cream machines being out-of-service, as the manufacturer, Taylor Company, had only allowed themselves to repair these machines.\n\n==Enacted legislation==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Yanes, The Origin and Myths of Planned Obsolescence, (11 September 2020)",
+          "url": "https://www.bbvaopenmind.com/en/technology/innovation/origin-and-myths-of-planned-obsolescence/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Strauss, How GM Invented Planned Obsolescence, (December 7, 2018)",
+          "url": "https://www.treehugger.com/how-planned-obsolescence-began-4856701"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Slade, Made to break : technology and obsolescence in America, (2006)",
+          "url": "https://books.google.com/books?id=YMoxdac6J-cC&q=%E2%80%9CPsychological+obsolescence+was+now+the+rule+for+U.S.+automakers.+And+because+car+production+was+America%E2%80%99s+flagship+industry%2C+this+lesson+was+quickly+copied+in+all+other+areas+of+manufacturing.%22&pg=PA47"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Strasser, Waste and want: a social history of trash, (1999)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "McIntyre, The Failure of Fordism: Reform of the Automobile Repair Industry, 1913–1940, (April 1, 2000)",
+          "url": "https://www.jstor.org/stable/25147500"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Unfair Competition—Reconditioning Used Goods—Permissible Limits of Resale of Patented or Trademarked Articles, (Jan 1, 1939)",
+          "url": "https://journals.library.wustl.edu/lawreview/article/id/7377/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "O'Neil, Patents – Contributory Infringement – History and Trend: Convertible Top Cases, (July 1, 1965)",
+          "url": "https://via.library.depaul.edu/cgi/viewcontent.cgi?article=3336&context=law-review"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Kan, Apple Co-Founder Steve Wozniak Publicly Backs Right to Repair, (July 8, 2021)",
+          "url": "https://www.pcmag.com/news/apple-co-founder-steve-wozniak-publicly-backs-right-to-repair"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Gault, It Is Time, Yet Again, to Beg for the Right to Repair, (4 January 2021)",
+          "url": "https://www.vice.com/en/article/it-is-time-yet-again-to-beg-for-the-right-to-repair/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Mirr, Defending the Right to Repair: An Argument for Federal Legislation Guaranteeing the Right to Repair, (Jul 1, 2020)",
+          "url": "https://ilr.law.uiowa.edu/print/volume-105-issue-5/defending-the-right-to-repair-an-argument-for-federal-legislation-guaranteeing-the-right-to-repair/"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Stohr, U.S. Supreme Court Curbs Patent-Holder Power to Block Resale, (May 30, 2017)",
+          "url": "https://www.bloomberg.com/news/articles/2017-05-30/u-s-supreme-court-curbs-patent-holders-power-to-block-resale"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Weatherbed, Bricked Epson printers make a strong case for user repairability, (2022-08-11)",
+          "url": "https://www.theverge.com/2022/8/11/23301272/epson-ink-pad-right-to-repair"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Hatta, The Right to Repair, the Right to Tinker, and the Right to Innovate, (15 August 2020)"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Automotive Group Testifies Against Right to Repair Act Bill, (August 6, 2002)"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "How the clean air act affects auto repair, (28 June 2005)",
+          "url": "https://books.google.com/books?id=H6eLPswsEVYC&dq=survey+terrance+group+access+spare+parts+2005&pg=PA18"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Statista Research Department, Automotive electronics cost as a percentage of total car cost worldwide from 1970 to 2030, (Feb 5, 2021)",
+          "url": "https://www.statista.com/statistics/277931/automotive-electronics-cost-as-a-share-of-total-car-cost-worldwide/"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Borg, Auto Mechanics: Technology and Expertise in Twentieth-Century America, (2007)"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "Stanton, The DIY D-Day A movement taking on the likes of Apple is winning a major battle for consumers., (30 December 2022)",
+          "url": "https://nymag.com/intelligencer/2022/12/the-right-to-repair-movements-biggest-battle.html"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Reardon, President signs cell phone unlocking bill into law, (August 1, 2014)",
+          "url": "https://www.cnet.com/tech/mobile/president-signs-cell-phone-unlocking-bill-into-law/"
+        },
+        {
+          "id": "cite-19",
+          "index": 19,
+          "text": "Stoltz, New Exemptions to DMCA Section 1201 Are Welcome, But Don't Go Far Enough, (26 October 2018)",
+          "url": "https://www.eff.org/deeplinks/2018/10/new-exemptions-dmca-section-1201-are-welcome-dont-go-far-enough"
+        },
+        {
+          "id": "cite-20",
+          "index": 20,
+          "text": "Stone, Why France's New Tech 'Repairability Index' Is a Big Deal, (February 20, 2021)",
+          "url": "https://www.wired.com/story/frances-new-tech-repairability-index-is-a-big-deal/"
+        },
+        {
+          "id": "cite-21",
+          "index": 21,
+          "text": "Espiner, Right to repair rules will extend lifespan of products, government says, (July 1, 2021)",
+          "url": "https://www.bbc.com/news/business-57665593"
+        },
+        {
+          "id": "cite-22",
+          "index": 22,
+          "text": "Colorado Enacts First ‘Right to Repair’ Law, But Only for Wheelchairs, (2023-04-26)",
+          "url": "https://stateline.org/2022/06/03/colorado-enacts-first-right-to-repair-law-but-only-for-wheelchairs:~:text=Colorado"
+        },
+        {
+          "id": "cite-23",
+          "index": 23,
+          "text": "Colorado becomes 1st to pass 'right to repair' for farmers, (2023-04-26)",
+          "url": "https://apnews.com/article/colorado-right-to-repair-farming-equipment-1da00ea957fd1057bf522cb4725e62d4"
+        },
+        {
+          "id": "cite-24",
+          "index": 24,
+          "text": "Robertson, Right-to-repair rules are now the law in Minnesota, (2023-05-24)",
+          "url": "https://theverge.com/2023/5/24/23736326/minnesota-right-to-repair-laws-passed-electronics-free-documentation"
+        },
+        {
+          "id": "cite-25",
+          "index": 25,
+          "text": "Elizabeth Lopatto, Right-to-repair is now the law in California / California to the rest of the US: You're welcome!, (October 10, 2023)",
+          "url": "https://www.theverge.com/23910066/right-to-repair-law-newsom-california-sb-244"
+        },
+        {
+          "id": "cite-26",
+          "index": 26,
+          "text": "Khalid, The EU's new right-to-repair rules make companies fix your device after a warranty expires, (2024-04-23)",
+          "url": "https://www.theverge.com/2024/4/23/24138499/eu-new-right-to-repair-rules-fix-after-warranty-expire"
+        },
+        {
+          "id": "cite-27",
+          "index": 27,
+          "text": "EU's new right-to-repair rules force companies to repair out-of-warranty devices, (2024-04-24)",
+          "url": "https://www.engadget.com/eus-new-right-to-repair-rules-force-companies-to-repair-out-of-warranty-devices-081939123.html"
+        },
+        {
+          "id": "cite-28",
+          "index": 28,
+          "text": "Hinrichsen, Consumer Right to Repair Digital Electronic Equipment",
+          "url": "https://leg.colorado.gov/bills/hb24-1121"
+        },
+        {
+          "id": "cite-29",
+          "index": 29,
+          "text": "Oregon Just Struck a Blow to Parts Pairing and Won a Decade of Repair Support, (2025-06-16)",
+          "url": "https://www.ifixit.com/News/92144/oregon-just-struck-a-blow-to-parts-pairing-and-won-a-decade-of-repair-support"
+        },
+        {
+          "id": "cite-30",
+          "index": 30,
+          "text": "Oregon Governor signs landmark right to repair bill into law",
+          "url": "https://advocacy.consumerreports.org/press_release/oregon-governor-signs-landmark-right-to-repair-bill-into-law/"
+        },
+        {
+          "id": "cite-31",
+          "index": 31,
+          "text": "RELEASE: Oregonians will soon have the Right to Repair, (2024-12-20)",
+          "url": "https://pirg.org/oregon/media-center/release-oregonians-will-soon-have-the-right-to-repair/"
+        },
+        {
+          "id": "cite-32",
+          "index": 32,
+          "text": "Evanson, Right to repair bill in Texas has been signed into law after winning by a landslide victory, with not a single vote against it, (July 1, 2025)",
+          "url": "https://www.pcgamer.com/hardware/right-to-repair-bill-in-texas-has-been-signed-into-law-after-winning-by-a-landslide-victory-with-not-a-single-vote-against-it/"
+        },
+        {
+          "id": "cite-33",
+          "index": 33,
+          "text": "Weins, You Gotta Fight For Your Right to Repair Your Car, (February 13, 2014)",
+          "url": "https://www.theatlantic.com/technology/archive/2014/02/you-gotta-fight-for-your-right-to-repair-your-car/283791/"
+        },
+        {
+          "id": "cite-34",
+          "index": 34,
+          "text": "Fitzpatrick, Hand Me That Wrench: Farmers and Apple Fight Over the Toolbox, (June 22, 2017)",
+          "url": "https://time.com/4828099/farmers-and-apple-fight-over-the-toolbox/"
+        },
+        {
+          "id": "cite-35",
+          "index": 35,
+          "text": "Said, Broken laptop? How California's right-to-repair movement is trying to make it easier to fix your electronics, (20 May 2022)",
+          "url": "https://www.sfchronicle.com/bayarea/article/Broken-laptop-How-California-s-right-to-repair-17185453.php"
+        },
+        {
+          "id": "cite-36",
+          "index": 36,
+          "text": "Koebler, The Video Game Industry Is Lobbying Against Your Right to Repair Consoles, (February 25, 2017)",
+          "url": "https://www.vice.com/en/article/the-video-game-industry-is-lobbying-against-your-right-to-repair-consoles/"
+        },
+        {
+          "id": "cite-37",
+          "index": 37,
+          "text": "Koebler, John Deere Promised Farmers It Would Make Tractors Easy to Repair. It Lied., (February 18, 2021)",
+          "url": "https://www.vice.com/en/article/john-deere-promised-farmers-it-would-make-tractors-easy-to-repair-it-lied/"
+        },
+        {
+          "id": "cite-38",
+          "index": 38,
+          "text": "Kottasová, Apple is facing lawsuits over iPhone slowdown controversy",
+          "url": "https://money.cnn.com/2018/01/12/technology/apple-iphone-slow-battery-lawsuit/index.html"
+        },
+        {
+          "id": "cite-39",
+          "index": 39,
+          "text": "Kirby, Apple admitted it's slowing down certain iPhones, (December 28, 2017)",
+          "url": "https://www.vox.com/2017/12/22/16807056/apple-slow-iphone-batteries"
+        },
+        {
+          "id": "cite-40",
+          "index": 40,
+          "text": "Warren, Apple confirms iPhones with older batteries will take hits in performance, (December 20, 2017)",
+          "url": "https://www.theverge.com/2017/12/20/16800058/apple-iphone-slow-fix-battery-life-capacity"
+        },
+        {
+          "id": "cite-41",
+          "index": 41,
+          "text": "Vomiero, You can now disable the feature that lets Apple slow down your phone, but should you?, (March 30, 2018)",
+          "url": "https://globalnews.ca/news/4115331/apple-ios-update-disable-slow-iphone/"
+        },
+        {
+          "id": "cite-42",
+          "index": 42,
+          "text": "Stevens, Accused of Slowing Old iPhones, Apple Offers Battery Discounts, (December 28, 2017)",
+          "url": "https://www.nytimes.com/2017/12/28/business/apple-iphone-batteries.html"
+        },
+        {
+          "id": "cite-43",
+          "index": 43,
+          "text": "Koebler, Apple's iPhone Throttling Will Reinvigorate the Push for Right to Repair Laws, (December 21, 2017)",
+          "url": "https://www.vice.com/en/article/apple-iphone-throttling-right-to-repair/"
+        },
+        {
+          "id": "cite-44",
+          "index": 44,
+          "text": "Kastrenakes, Microsoft, Nintendo, and Sony warned by FTC about potentially illegal product warranties, (May 1, 2018)",
+          "url": "https://www.theverge.com/2018/5/1/17308042/ftc-illegal-warranty-letters-warning-microsoft-sony-nintendo-asus-htc-hyundai"
+        },
+        {
+          "id": "cite-45",
+          "index": 45,
+          "text": "Liao, FTC warns console and smartphone makers against limiting consumer warranties, (April 10, 2018)",
+          "url": "https://www.theverge.com/2018/4/10/17220462/ftc-reminds-companies-warranty-stickers-are-illegal"
+        },
+        {
+          "id": "cite-46",
+          "index": 46,
+          "text": "Kim, Nintendo, Sony Update Their Warranty Following Warning From the FTC, (May 9, 2018)",
+          "url": "https://www.usgamer.net/articles/nintendo-sony-updates-their-warranty-following-warning-from-the-ftc"
+        },
+        {
+          "id": "cite-47",
+          "index": 47,
+          "text": "Carman, E-waste recycler must serve 15-month sentence for selling discs with free Microsoft software, (April 25, 2018)",
+          "url": "https://www.theverge.com/2018/4/25/17279190/microsoft-restore-disk-eric-lundgren-sentence-right-to-repair"
+        },
+        {
+          "id": "cite-48",
+          "index": 48,
+          "text": "Rogers, The 'Right to Repair' Movement Is Being Led by Farmers, (January 31, 2017)",
+          "url": "https://www.vice.com/en/article/farmers-right-to-repair/"
+        },
+        {
+          "id": "cite-49",
+          "index": 49,
+          "text": "Koebler, Farmer Lobbying Group Sells Out Farmers, Helps Enshrine John Deere's Tractor Repair Monopoly, (11 September 2018)",
+          "url": "https://www.vice.com/en/article/california-farm-bureau-john-deere-tractor-hacking-right-to-repair/"
+        },
+        {
+          "id": "cite-50",
+          "index": 50,
+          "text": "Koebler, In Groundbreaking Decision, Feds Say Hacking DRM to Fix Your Electronics Is Legal, (October 25, 2018)",
+          "url": "https://www.vice.com/en/article/1201-exemptions-right-to-repair/"
+        },
+        {
+          "id": "cite-51",
+          "index": 51,
+          "text": "Robertson, The US Copyright Office just struck a blow for the right to repair, (October 27, 2021)",
+          "url": "https://www.theverge.com/2021/10/27/22747310/us-copyright-office-dmca-section-1201-exemption-rulemaking-report"
+        },
+        {
+          "id": "cite-52",
+          "index": 52,
+          "text": "Kelly, Elizabeth Warren comes out in support of a national right-to-repair law, (March 27, 2019)",
+          "url": "https://www.theverge.com/2019/3/27/18284011/elizabeth-warren-apple-right-to-repair-john-deere-law-presidential-campaign-iowa"
+        },
+        {
+          "id": "cite-53",
+          "index": 53,
+          "text": "Potuck, Apple comes under fire for Independent Repair Program contract that lawyers are calling 'crazy', (2020-02-06)",
+          "url": "https://9to5mac.com/2020/02/06/apple-independent-repair-program-criticism/"
+        },
+        {
+          "id": "cite-54",
+          "index": 54,
+          "text": "Gault, Protesters Are Slowly Winning Electronics Right-to-Repair Battles in Europe, (December 14, 2018)",
+          "url": "https://www.vice.com/en/article/protesters-are-slowly-winning-electronics-right-to-repair-battles-in-europe/"
+        },
+        {
+          "id": "cite-55",
+          "index": 55,
+          "text": "Matsakis, The European Parliament Wants Europeans to Have the Right to Repair, (July 5, 2017)",
+          "url": "https://www.vice.com/en/article/the-european-parliament-wants-europeans-to-have-the-right-to-repair/"
+        },
+        {
+          "id": "cite-56",
+          "index": 56,
+          "text": "Harriban, EU brings in 'right to repair' rules for appliances, (October 1, 2019)",
+          "url": "https://www.bbc.com/news/business-49884827"
+        },
+        {
+          "id": "cite-57",
+          "index": 57,
+          "text": "Baum, Tinker tailors: the grassroots movement reclaiming the right to repair, (2019-10-14)",
+          "url": "https://www.theguardian.com/lifeandstyle/2019/oct/15/tinker-tailors-the-grassroots-movement-reclaiming-the-right-to-repair"
+        },
+        {
+          "id": "cite-58",
+          "index": 58,
+          "text": "Peltier, Europe Wants a 'Right to Repair' Smartphones and Gadgets, (March 12, 2020)",
+          "url": "https://www.nytimes.com/2020/03/12/world/europe/eu-right-to-repair-smartphones.html"
+        },
+        {
+          "id": "cite-59",
+          "index": 59,
+          "text": "Goode, Right-to-Repair Groups Fire Shots at Medical Device Manufacturers, (May 19, 2020)",
+          "url": "https://www.wired.com/story/right-to-repair-medical-equipment-ifixit/"
+        },
+        {
+          "id": "cite-60",
+          "index": 60,
+          "text": "Introducing the World's Largest Medical Repair Database, Free for Everyone, (2021-08-10)",
+          "url": "https://www.ifixit.com/News/41440/introducing-the-worlds-largest-medical-repair-database-free-for-everyone"
+        },
+        {
+          "id": "cite-61",
+          "index": 61,
+          "text": "Janzer, What Massachusetts' New Right-to-Repair Law Means for Small Auto Repair Shops, (15 December 2020)",
+          "url": "https://nextcity.org/daily/entry/what-massachusetts-new-right-to-repair-law-means-for-small-auto-repair-shop"
+        },
+        {
+          "id": "cite-62",
+          "index": 62,
+          "text": "Hiawatha Bray, Federal government warns carmakers not to comply with Mass. right-to-repair law, (June 14, 2023)",
+          "url": "https://www.bostonglobe.com/2023/06/14/business/feds-warn-carmakers-not-comply-with-mass-right-to-repair-law/"
+        },
+        {
+          "id": "cite-63",
+          "index": 63,
+          "text": "Porter, FTC report blasts manufacturers for restricting product repairs, (May 7, 2021)",
+          "url": "https://www.theverge.com/2021/5/7/22424363/ftc-repair-restrictions-report-nixing-the-fix-smartphones-automakers"
+        },
+        {
+          "id": "cite-64",
+          "index": 64,
+          "text": "Goode, Joe Biden Wants You to Be Able to Fix Your Own Damn iPhones, (July 9, 2021)",
+          "url": "https://www.wired.com/story/biden-executive-order-right-to-repair/"
+        },
+        {
+          "id": "cite-65",
+          "index": 65,
+          "text": "Ahl, Right To Repair Mandate From Biden Might Help Farmers Fix Their Own Equipment",
+          "url": "https://www.harvestpublicmedia.org/post/right-repair-mandate-biden-might-help-farmers-fix-their-own-equipment"
+        },
+        {
+          "id": "cite-66",
+          "index": 66,
+          "text": "Breuninger, Biden signs order to crack down on Big Tech, boost competition 'across the board', (July 9, 2021)",
+          "url": "https://www.cnbc.com/2021/07/09/biden-to-sign-executive-order-aimed-at-cracking-down-on-big-tech-business-practices.html"
+        },
+        {
+          "id": "cite-67",
+          "index": 67,
+          "text": "Sullivan, Biden signs sweeping executive order that targets Big Tech and aims to push competition in US economy, (July 9, 2021)",
+          "url": "https://www.cnn.com/2021/07/09/politics/biden-big-tech-executive-order/index.html"
+        },
+        {
+          "id": "cite-68",
+          "index": 68,
+          "text": "Kelly, FTC pledges to fight unlawful right to repair restrictions, (July 21, 2021)",
+          "url": "https://www.theverge.com/2021/7/21/22587331/right-to-repair-apple-iphone-ftc-lina-khan-open-meeting"
+        },
+        {
+          "id": "cite-69",
+          "index": 69,
+          "text": "Iyengar, Apple will let iPhone users repair their own devices, (November 17, 2021)",
+          "url": "https://www.cnn.com/2021/11/17/tech/apple-iphone-right-to-repair/index.html"
+        },
+        {
+          "id": "cite-70",
+          "index": 70,
+          "text": "Apple's self service repair program got released, let's check it out, (27 April 2022)",
+          "url": "https://www.youtube.com/watch?v=agG108sxkyo"
+        },
+        {
+          "id": "cite-71",
+          "index": 71,
+          "text": "Mikolajczak, Apple crushes one-man repair shop in Norway's Supreme Court, after three-year battle, (July 2024)",
+          "url": "https://repair.eu/news/apple-crushes-one-man-repair-shop/"
+        },
+        {
+          "id": "cite-72",
+          "index": 72,
+          "text": "Purdy, Framework, Noctua, and other brands add official 3D models to Printables, (2022-12-20)",
+          "url": "https://arstechnica.com/gadgets/2022/12/framework-noctua-and-other-brands-add-official-3d-models-to-printables/"
+        },
+        {
+          "id": "cite-73",
+          "index": 73,
+          "text": "Faulkner, New York breaks the right to repair bill as it's signed into law, (2022-12-29)",
+          "url": "https://www.theverge.com/2022/12/29/23530733/right-to-repair-law-new-york-tech-hochul-oems-parts"
+        },
+        {
+          "id": "cite-74",
+          "index": 74,
+          "text": "New York's governor signs watered-down right-to-repair bill, (29 December 2022)",
+          "url": "https://www.engadget.com/new-york-right-to-repair-law-kathy-hochul-184654713.html"
+        },
+        {
+          "id": "cite-75",
+          "index": 75,
+          "text": "Cunningham, New York governor signs modified right-to-repair bill at the last minute, (2022-12-29)",
+          "url": "https://arstechnica.com/gadgets/2022/12/weakened-right-to-repair-bill-is-signed-into-law-by-new-yorks-governor/"
+        },
+        {
+          "id": "cite-76",
+          "index": 76,
+          "text": "Miller, US farmers win right to repair John Deere equipment, (2023-01-08)",
+          "url": "https://www.bbc.com/news/business-64206913"
+        },
+        {
+          "id": "cite-77",
+          "index": 77,
+          "text": "Yang, Research: The Unintended Consequences of Right-to-Repair Laws, (2023-01-19)",
+          "url": "https://hbr.org/2023/01/research-the-unintended-consequences-of-right-to-repair-laws"
+        },
+        {
+          "id": "cite-78",
+          "index": 78,
+          "text": "Jin, Right to Repair: Pricing, Welfare, and Environmental Implications, (February 2023)",
+          "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4401"
+        },
+        {
+          "id": "cite-79",
+          "index": 79,
+          "text": "Roth, McDonald's busted ice cream machines can now be fixed — legally, (October 25, 2024)",
+          "url": "https://www.theverge.com/2024/10/25/24279371/mcdonalds-ice-cream-machines-right-to-repair-copyright"
+        }
+      ]
+    },
+    {
+      "id": "enacted-legislation",
+      "title": "Enacted legislation",
+      "level": 2,
+      "content": "Some jurisdictions have enacted right to repair legislation.\n\n=== Canada ===",
+      "citations": []
+    },
+    {
+      "id": "canada",
+      "title": "Canada",
+      "level": 3,
+      "content": "On November 7th, 2024, Bill C-244 received royal assent and became law, making Canada the first country to enact a national right to repair law.\n\n=== European Union ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Chan, Right to repair in Canada: You can now fix your own stuff, (2025-04-03)",
+          "url": "https://www.millerthomson.com/en/insights/technology-ip-and-privacy/whats-new-canada-copyright-law/"
+        }
+      ]
+    },
+    {
+      "id": "european-union",
+      "title": "European Union",
+      "level": 3,
+      "content": "Adopted on May 30, 2024, the European Union's Right to Repair Directive (R2RD) requires manufacturers to offer repair services that are both efficient and affordable, while also making sure consumers are aware of their repair rights. Previously, the right to repair in the EU was regulated by the Sale of Goods Directive and the different product-specific Commission Regulations provided under the Ecodesign Directive.\n\n===United States===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Right to repair: Making repair easier and more appealing to consumers {{!, (2024-04-23)",
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20240419IPR20590/right-to-repair-making-repair-easier-and-more-appealing-to-consumers"
+        }
+      ]
+    },
+    {
+      "id": "united-states",
+      "title": "United States",
+      "level": 3,
+      "content": "The following is a list of legislation that has been enacted by the state's legislature and signed by the respective governor.\n{|class=\"wikitable sortable\"\n|+State legislation\n!State\n!Law\n!Bill\n!Effective date\n|-\n|California\n|PRC § 42488–42488.3\n|2023–24 SB 244\n|\n|-\n|rowspan=\"2\"|Colorado\n|rowspan=\"2\"|C.R.S. § 6-1-1501 – 6-1-1505\n|HB23-1011\n|\n|-\n|HB24-1121\n|\n|-\n| rowspan=\"2\" |Massachusetts\n|\n|Automotive Right to Repair\n|\n|-\n|\n|2020 Massachusetts Question 1\n|TBD\n|-\n|Minnesota\n|MN Stat. § 325E.72\n|2023 SF 2744\n|\n|-\n|New York\n|\n|Digital Fair Repair Act\n|July 1, 2023\n|-\n|Oregon\n|TBD\n|2024 SB1596\n|\n|-\n|Washington\n|, \n|2024 HB-1483\n|\n|}\n\n==Non-government right to repair organizations==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "McEvoy, Washington governor signs 'Right to Repair Act' to make tools for electronics repairs more accessible, (May 27, 2025)",
+          "url": "https://www.krem.com/article/news/local/right-to-repair-act-washington-electronics-law/293-5374bc85-a677-4eb7-a6d9-d44e0813d415"
+        }
+      ]
+    },
+    {
+      "id": "non-government-right-to-repair-organizations",
+      "title": "Non-government right to repair organizations",
+      "level": 2,
+      "content": "There is a growing list of non-governmental organizations that advocate for the right to repair from independent NGO advocacy groups to industry sponsored organizations that advocate for their industry members. These groups include:\n\n;Canada\n*Canrepair.ca - website of the Canadian Repair Coalition (Canadian-based group of repair professionals, individuals, academics, industry associations and firms that support Right to Repair policies at all levels of government)\n;EU\n*Repair.eu - website of the Right to Repair Europe Coalition, which represents over 170 organizations from 27 European countries. It includes environmental NGOs and repair actors such as community repair groups, social economy actors, spare parts distributors, self-repairers, repair and refurbishing businesses. \n;USA\n*Repair.org - website of the Repair Association (US-based group of mostly smaller repair professionals and firms that support Right to Repair policies)\n*Pirg.org/campaigns/right-to-repair - website for the U.S. Public Interest Research Group's (PIRG's) right to repair campaign. US PIRG is a leading advocate for right to repair legislation at both the state and federal level. \n*iFixit.com - website for iFixit's right to repair campaign page. iFixit is a leading source of online information regarding device repair and a leading advocate for right to repair laws. \n*Fulu Foundation - Created by Louis Rossmann and Eron Jokipii in 2023 to expose companies anti-ownership practices, educate the public, unite those in the repair industry, and lobby to reform anti repair legislation.\n*Consumer Rights Wiki - Website for people to document companies and products that violate the right to repair. Created by Louis Rossmann in 2024.\n\nThere are also innumerable Repair Café that are run in communities around the world.  Some are sponsored by municipalities and others are mainly unaffiliated.\n\n==See also==",
+      "citations": []
+    }
+  ]
+}

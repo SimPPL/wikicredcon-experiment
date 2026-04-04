@@ -55,6 +55,10 @@ const ARTICLES = [
   { id: 'deepfake', title: 'Deepfake', pastRevId: '1315983705', pastDate: '2025-10-09' },
   { id: 'agi', title: 'Artificial general intelligence', pastRevId: '1319993000', pastDate: '2025-11-02' },
   { id: 'cultivated-meat', title: 'Cultured meat', pastRevId: '1315006090', pastDate: '2025-10-04' },
+  { id: 'openai', title: 'OpenAI', pastRevId: '1319721659', pastDate: '2025-10-31' },
+  { id: 'misinformation', title: 'Misinformation', pastRevId: '1318405418', pastDate: '2025-10-21' },
+  { id: 'microplastics', title: 'Microplastics', pastRevId: '1319319080', pastDate: '2025-10-29' },
+  { id: 'right-to-repair', title: 'Right to repair', pastRevId: '1319707307', pastDate: '2025-10-31' },
 ];
 
 const USER_AGENT = 'WikiCredConWorkshopBot/1.0 (https://github.com/simppl; research workshop tool)';

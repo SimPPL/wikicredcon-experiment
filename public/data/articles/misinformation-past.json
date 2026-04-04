@@ -1,0 +1,1538 @@
+{
+  "id": "misinformation",
+  "title": "Misinformation",
+  "revisionDate": "2025-10-21",
+  "revisionId": "1318405418",
+  "sections": [
+    {
+      "id": "misinformation-lead",
+      "title": "Lead",
+      "level": 1,
+      "content": "for the successful Vote Leave in the 2016 United Kingdom European Union membership referendum. The claim made by the sign was widely considered to have been an example of misinformation.]]\n\nMisinformation is incorrect or misleading information. Whereas misinformation can exist with or without specific malicious intent, disinformation is deliberately deceptive and intentionally propagated. Misinformation can include inaccurate, incomplete, misleading, or false information as well as selective or half-truths.\n\nIn January 2024, the World Economic Forum identified misinformation and disinformation, propagated by both internal and external interests, to \"widen societal and political divides\" as the most severe global risks in the short term. The reason is that misinformation can influence people's beliefs about communities, politics, medicine, and more.\n\nThe term came into wider recognition during the mid-1990s through the early 2020s, when its effects on public ideological influence began to be investigated. However, misinformation campaigns have existed for hundreds of years.",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Henley, Why Vote Leave's £350m weekly EU cost claim is wrong, (10 June 2016)",
+          "url": "https://www.theguardian.com/politics/reality-check/2016/may/23/does-the-eu-really-cost-the-uk-350m-a-week"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "The UK's EU membership fee, (25 February 2016)",
+          "url": "https://fullfact.org/europe/our-eu-membership-fee-55-million/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Reality Check: Would Brexit mean extra £350m a week for NHS?, (15 April 2016)",
+          "url": "https://www.bbc.co.uk/news/uk-politics-eu-referendum-36040060"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Ackrill, Fact Check: how much does the UK actually pay to the EU?, (27 April 2016)",
+          "url": "https://theconversation.com/fact-check-how-much-does-the-uk-actually-pay-to-the-eu-58120"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Merriam-Webster Dictionary, Misinformation, (19 August 2020)",
+          "url": "https://www.merriam-webster.com/dictionary/misinformation"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Fetzer, Information: Does it Have To Be True?, (2004-05-01)"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Woolley, Political Communication, Computational Propaganda, and Autonomous Agents, (2016)",
+          "url": "https://ijoc.org/index.php/ijoc/article/view/6298"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Caramancion, 2020 3rd International Conference on Information and Computer Technologies (ICICT), (2020)"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Karlova, A social diffusion model of misinformation and disinformation for understanding human information behaviour, (2013-03-15)",
+          "url": "https://informationr.net/ir/18-1/paper573.html"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Diaz Ruiz, Disinformation on digital media platforms: A market-shaping approach, (2023-10-30)"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "[https://www.weforum.org/publications/global-risks-report-2024/ The Global Risks Report 2024], World Economic Forum. {{ISBN|978-2-940631-64-3}}",
+          "url": "https://www.weforum.org/publications/global-risks-report-2024/"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Fighting Fake News: How Mis- and Disinformation Legislation is Weaponized Against Journalists, (2023-08-10)",
+          "url": "https://www.cima.ned.org/blog/fighting-fake-news-how-mis-and-disinformation-legislation-is-weaponized-against-journalists/"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Bode, In Related News, That was Wrong: The Correction of Misinformation Through Related Stories Functionality in Social Media, (23 June 2015)",
+          "url": "https://academic.oup.com/joc/article/65/4/619-638/4082315"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Posetti, A Short Guide to the History of 'Fake News' and Disinformation: A New ICFJ Learning Module, (June 23, 2018)",
+          "url": "https://www.icfj.org/news/short-guide-history-fake-news-and-disinformation-new-icfj-learning-module"
+        }
+      ]
+    },
+    {
+      "id": "terminology",
+      "title": "Terminology",
+      "level": 2,
+      "content": "Scholars distinguish between misinformation, disinformation, and malinformation in terms of intent and effect. Misinformation is false or inaccurate information published without malicious intent, while disinformation is designed to mislead.\n\nMalinformation is correct information used in the wrong or harmful context, for instance, selectively publishing personal details to influence public opinion.\n\nDisinformation is created or spread by a person or organization actively attempting to deceive their audience. In addition to causing harm directly, disinformation can also cause indirect harm by undermining trust and obstructing the capacity to effectively communicate information with one another. Disinformation can appear in any medium including text, audio, and imagery. For example, the scientific guidance around infant sleep positions has evolved over time, and these changes could be a source of confusion for new parents. Misinformation can also often be observed as news events are unfolding and questionable or unverified information fills information gaps. Even if later retracted, false information can continue to influence actions and memory.\n\nRumors are unverified information not attributed to any particular source and may be either true or false.\n\nDefinitions of these terms may vary between cultural contexts.\n\n== History ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Tandoc, E. C., Lim, Z. W., & Ling, R. (2018). \"Defining 'Fake News': A Typology of Scholarly Definitions.\" ''Digital Journalism'', 6(2), 137-153."
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Wardle, C., & Derakhshan, H. (2017). \"Information Disorder: Toward an Interdisciplinary Framework for Research and Policymaking.\" ''Council of Europe Report''. Retrieved from [https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c rm.coe.int]",
+          "url": "https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Fallis, What Is Disinformation?, (2015)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "What is disinformation?",
+          "url": "https://www.bundesregierung.de/breg-de/themen/umgang-mit-desinformation/disinformation-definition-1911048"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Hanopol, When 'misinformation' strikes, experts say here's what you can do, (2021-05-12)",
+          "url": "https://verafiles.org/articles/when-midinformation-strikes-experts-say-heres-what-you-can-d"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Safe to Sleep",
+          "url": "https://safetosleep.nichd.nih.gov/campaign/history"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Ecker, He did it! She did it! No, she did not! Multiple causal explanations and the continued influence of misinformation, (November 2015)",
+          "url": "https://api.research-repository.uwa.edu.au/ws/files/11787265/Ecker_et_al_He_did_it_She_did_it_2015_.pdf"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Definition of RUMOR, (May 21, 2023)",
+          "url": "https://www.merriam-webster.com/dictionary/rumor"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "level": 2,
+      "content": "Early examples include the insults and smears spread among political rivals in Imperial and Renaissance Italy in the form of pasquinades. These are anonymous and witty verses named for the Pasquino piazza and talking statues in Rome. In pre-revolutionary France, \"canards\", or printed broadsides, sometimes included an engraving to convince readers to take them seriously.\n\nDuring the summer of 1587, continental Europe anxiously awaited news as the Spanish Armada sailed to fight the English. The Spanish postmaster and Spanish agents in Rome promoted reports of Spanish victory in hopes of convincing Pope Sixtus V to release his promised one million ducats upon landing of troops. In France, the Spanish and English ambassadors promoted contradictory narratives in the press, and a Spanish victory was incorrectly celebrated in Paris, Prague, and Venice. It was not until late August that reliable reports of the Spanish defeat arrived in major cities and were widely believed; the remains of the fleet returned home in the autumn.\n\nMisinformation has historically been linked to advancements in communications technologies. With the mass media revolution in the 20th century, television, radio, and newspapers were major vehicles for reliable information and misinformation. War-time propaganda, political disinformation, and corporate public relations operations often shaped the public perception, occasionally distorting facts to promote economic or ideological agendas. With the discovery of television as a popular medium, disinformation could be rapidly disseminated to millions of individuals, reinforcing existing bias and making correction more difficult. These early trends set the foundation for modern digital misinformation, which now spreads even more efficiently along internet networks.\n\nThe first recorded large-scale disinformation campaign was the Great Moon Hoax, published in 1835 in the New York The Sun, in which a series of articles claimed to describe life on the Moon, \"complete with illustrations of humanoid bat-creatures and bearded blue unicorns\". The challenges of mass-producing news on a short deadline can lead to factual errors and mistakes. An example of such is the Chicago Tribunes infamous 1948 headline \"Dewey Defeats Truman\".\n\nSocial media platforms allow for easy spread of misinformation. Post-election surveys in 2016 suggest that many individuals who intake false information on social media believe them to be factual. The specific reasons why misinformation spreads through social media so easily remain unknown. A 2018 study of Twitter determined that, compared to accurate information, false information spread significantly faster, further, deeper, and more broadly. Similarly, a research study of Facebook found that misinformation was more likely to be clicked on than factual information.\n displaying the inaccurate Chicago Tribune headline, an example of misinformation]]\nMoreover, the advent of the Internet has changed traditional ways that misinformation spreads. During the 2016 United States presidential election, content from websites deemed 'untrustworthy' reached up to 40% of Americans, despite misinformation making up only 6% of overall news media. Misinformation has been spread during many health crises. For example, misinformation about alternative treatments was spread during the Ebola outbreak in 2014–2016. During the COVID-19 pandemic, the proliferation of mis- and dis-information was exacerbated by a general lack of health literacy.\n\n== Research ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "The True History of Fake News, (2017-02-13)",
+          "url": "https://www.nybooks.com/daily/2017/02/13/the-true-history-of-fake-news/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Darnton, The Devil in the Holy Water: Political Libel in Eighteenth-Century France, (2007)",
+          "url": "https://dash.harvard.edu/entities/publication/73120378-7cca-6bd4-e053-0100007fdf3b"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Andrew Pettegree, The Invention of News, (2015)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Starbird, K., Arif, A., & Wilson, T. (2019). \"Disinformation as Collaborative Work: Surfacing the Participatory Nature of Strategic Information Operations.\" ''Proceedings of the ACM on Human-Computer Interaction'', 3(CSCW), 1-26."
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Benkler, Y., Faris, R., & Roberts, H. (2018). ''Network Propaganda: Manipulation, Disinformation, and Radicalization in American Politics''. Oxford University Press. ISBN 978-0190923624."
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Vraga, E.\". K., & Bode, L. (2020). \"Defining Misinformation and Understanding Its Bind to Political Communication.\" 'Political Communication', 37(1), 136-144. [https://doi.org/10.1080/10584609.2020.1716494 doi:10.1080/10584609.2020.1716494]",
+          "url": "https://doi.org/10.1080/10584609.2020.1716494"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "A short guide to the history of 'fake news' and disinformation",
+          "url": "https://www.icfj.org/news/short-guide-history-fake-news-and-disinformation-new-icfj-learning-module"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Jones, Dewey defeats Truman: The most famous wrong call in electoral history, (2020-10-31)",
+          "url": "https://www.chicagotribune.com/2020/10/31/dewey-defeats-truman-the-most-famous-wrong-call-in-electoral-history/"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Allcott, Trends in the diffusion of misinformation on social media, (April 2019)"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Vosoughi, The spread of true and false news online, (2018-03-09)",
+          "url": "https://www.science.org/doi/10.1126/science.aap9559"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Godfrey-Smith, Misinformation, (December 1989)",
+          "url": "https://www.cambridge.org/core/product/identifier/S0045509100016945/type/journal_article"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "West, Misinformation in and about science, (2021-04-13)"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Blum, Health Misinformation Is Evolving. Here's How to Spot It. - Experts offer tips for combating false medical claims in your own circles., (March 16, 2024)",
+          "url": "https://www.nytimes.com/2024/03/16/well/health-misinformation.html"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Zeng, A cross-national diagnosis of infodemics: comparing the topical and temporal features of misinformation around COVID-19 in China, India, the US, Germany and France, (2021-01-01)"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Fung, Social Media's Initial Reaction to Information and Misinformation on Ebola, August 2014: Facts and Rumors, (May 2016)"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Oyeyemi, Ebola, Twitter, and misinformation: a dangerous combination?, (2014-10-14)",
+          "url": "https://www.bmj.com/content/349/bmj.g6178"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Swire-Thompson, Public Health and Online Misinformation: Challenges and Recommendations, (2020-04-02)"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "level": 2,
+      "content": "Much research on how to correct misinformation has focused on fact-checking. However, this can be challenging because the information deficit model does not necessarily apply well to beliefs in misinformation.\n\n=== Causes ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Lewandowsky, Misinformation and Its Correction: Continued Influence and Successful Debiasing, (2012)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Social Media and News Fact Sheet, (2024-09-17)",
+          "url": "https://www.pewresearch.org/journalism/fact-sheet/social-media-and-news-fact-sheet/"
+        }
+      ]
+    },
+    {
+      "id": "causes",
+      "title": "Causes",
+      "level": 3,
+      "content": "Factors that contribute to beliefs in misinformation are an ongoing subject of study.  According to Scheufele and Krause, misinformation belief has roots at the individual, group and societal levels. At the individual level, individuals have varying levels of skill in recognizing mis- or dis-information and may be predisposed to certain misinformation beliefs due to other personal beliefs, motivations, or emotions. At the group level, in-group bias and a tendency to associate with like-minded or similar people can produce echo chambers and information silos that can create and reinforce misinformation beliefs. At the societal level, public figures like politicians and celebrities can disproportionately influence public opinions, as can mass media outlets. In addition, societal trends like political polarization, economic inequalities, declining trust in science, and changing perceptions of authority contribute to the impact of misinformation. Social media ease of sharing simply makes the problem worse, making there be the prevalence of believing false stories even after they are debunked. It causes political polarization, public misconceptions, and weakening trust in traditional media.\n\nHistorically, people have relied on journalists and other information professionals to relay facts. As the number and variety of information sources has increased, it has become more challenging for the general public to assess their credibility. This growth of consumer choice when it comes to news media allows the consumer to choose a news source that may align with their biases, which consequently increases the likelihood that they are misinformed. Polling shows that Americans trust mass media at record-low rates, and that US young adults place similar levels of trust in information from social media and from national news organizations. The pace of the 24 hour news cycle does not always allow for adequate fact-checking, potentially leading to the spread of misinformation. Further, the distinction between opinion and reporting can be unclear to viewers or readers.\n\nSources of misinformation can appear highly convincing and similar to trusted legitimate sources. For example, misinformation cited with hyperlinks has been found to increase readers' trust. Trust is even higher when these hyperlinks are to scientific journals, and higher still when readers do not click on the sources to investigate for themselves. Research has also shown that the presence of relevant images alongside incorrect statements increases both their believability and shareability, even if the images do not actually provide evidence for the statements. For example, a false statement about macadamia nuts accompanied by an image of a bowl of macadamia nuts tends to be rated as more believable than the same statement without an image. Dramatic headlines may gain readers' attention, but they do not always accurately reflect scientific findings.\n\nHuman cognitive tendencies can also be a contributing factor to misinformation belief. One study found that an individual's recollection of political events could be altered when presented with misinformation about the event, even when primed to identify warning signs of misinformation. Misinformation may also be appealing by seeming novel or incorporating existing stereotypes.\n\n=== Identification ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Jerit, Political Misinformation, (2020-05-11)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Scheufele, Science audiences, misinformation, and fake news, (April 16, 2019)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Pennycook, Analytic cognitive style predicts religious and paranormal belief, (2012-06-01)",
+          "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010027712000534"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Robson, Lazy or different? A quantitative content analysis of how believers and nonbelievers of misinformation reason, (2024-10-09)",
+          "url": "https://advances.in/psychology/10.56296/aip00027/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Scherer, Who is susceptible to online health misinformation? A test of four psychosocial hypotheses., (April 2021)",
+          "url": "http://doi.apa.org/getdoi.cfm?doi=10.1037/hea0000978"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Törnberg, Echo chambers and viral misinformation: Modeling fake news as complex contagion, (2018-09-20)"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Literature Review: Echo chambers, filter bubbles and polarization",
+          "url": "https://royalsociety.org/-/media/policy/projects/online-information-environment/oie-echo-chambers.pdf"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Disinformation has evolved and grown over the years, with the advent of online platforms, which facilitate the speed of transmission. Research indicates there is evidence to demonstrate that misinformation circulates at a faster rate than accurate facts, and to some degree due to the emotional and sensationalized presentation of the lie.<ref>Lazer, D. M., Baum, M. A., Benkler, Y., Berinsky, A. J., Greenhill, K. M., Menczer, F.,. & Schudson, M. (2018). \"The Science of Fake News.\" ''Science'', 359(6380), 1094–1096."
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Lewandowsky, S., Ecker, U. K., & Cook, J. (2017). \"Beyond Misinformation: Understanding and Coping with the 'Post-Truth' Era.\" ''Journal of Applied Research in Memory and Cognition'', 6(4), 353-369.\". [https://doi.org/10.1016/j.jarmac.2017.07.008 doi:10.1016/j.jarmac.2017.07.008]",
+          "url": "https://doi.org/10.1016/j.jarmac.2017.07.008"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Flynn, D. J., Nyhan, B., & Reifler, J. (2017). \"The Nature and Origins of Misperceptions: Understanding False and Unsupported Beliefs About Politics.\" ''Political Psychology'', 38(S1), 127-150. [https://doi.org/10.1111/pops.12394 doi:10.1111/pops.12394]",
+          "url": "https://doi.org/10.1111/pops.12394"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Web of Deception: Misinformation on the Internet, (1 December 2002)"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Domonoske, Students Have 'Dismaying' Inability To Tell Fake News From Real, Study Finds, (23 November 2016)",
+          "url": "https://www.npr.org/sections/thetwo-way/2016/11/23/503129818/study-finds-students-have-dismaying-inability-to-tell-fake-news-from-real"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Shearer, News Use Across Social Media Platforms 2017, (2017-09-07)",
+          "url": "https://www.journalism.org/2017/09/07/news-use-across-social-media-platforms-2017/"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Media Confidence in U.S. Matches 2016 Record Low, (2023-10-19)",
+          "url": "https://news.gallup.com/poll/512861/media-confidence-matches-2016-record-low.aspx"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Liedke, U.S. adults under 30 now trust information from social media almost as much as from national news outlets, (2022-10-27)",
+          "url": "https://www.pewresearch.org/short-reads/2022/10/27/u-s-adults-under-30-now-trust-information-from-social-media-almost-as-much-as-from-national-news-outlets/"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Croteau, Media Society: Industries, Images, and Audiences",
+          "url": "http://www.sagepub.com/upm-data/40857_9.pdf"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Mitchell, Distinguishing Between Factual and Opinion Statements in the News, (2018-06-18)",
+          "url": "https://www.pewresearch.org/journalism/2018/06/18/distinguishing-between-factual-and-opinion-statements-in-the-news/"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "Journalists know news and opinion are separate, but readers often can't tell the difference",
+          "url": "https://www.niemanlab.org/2020/06/journalists-know-news-and-opinion-are-separate-but-readers-often-cant-tell-the-difference/"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Stanford researchers find students have trouble judging the credibility of information online, (2016-11-21)",
+          "url": "https://ed.stanford.edu/news/stanford-researchers-find-students-have-trouble-judging-credibility-information-online"
+        },
+        {
+          "id": "cite-19",
+          "index": 19,
+          "text": "Verma, Human values and trust in scientific journals, the mainstream media and fake news, (January 2017)"
+        },
+        {
+          "id": "cite-20",
+          "index": 20,
+          "text": "Sehgal, Mutual Hyperlinking Among Misinformation Peddlers, (2021)"
+        },
+        {
+          "id": "cite-21",
+          "index": 21,
+          "text": "Newman, Nonprobative photographs (or words) inflate truthiness, (October 2012)"
+        },
+        {
+          "id": "cite-22",
+          "index": 22,
+          "text": "Sundar, Seeing Is Believing: Is Video Modality More Powerful in Spreading Fake News via Online Messaging Apps?, (2021-11-12)",
+          "url": "https://academic.oup.com/jcmc/article/26/6/301/6336055"
+        },
+        {
+          "id": "cite-23",
+          "index": 23,
+          "text": "Selvaraj, Media Coverage of Medical Journals: Do the Best Articles Make the News?, (2014-01-17)"
+        },
+        {
+          "id": "cite-24",
+          "index": 24,
+          "text": "How to spot misleading science reporting – QB3 Berkeley",
+          "url": "https://qb3.berkeley.edu/news/how-to-spot-misleading-science-reporting/"
+        },
+        {
+          "id": "cite-25",
+          "index": 25,
+          "text": "Freeze, Fake Claims of Fake News: Political Misinformation, Warnings, and the Tainted Truth Effect, (2021-12-01)"
+        },
+        {
+          "id": "cite-26",
+          "index": 26,
+          "text": "Healy, Misinformation about the coronavirus abounds, but correcting it can backfire, (8 February 2020)",
+          "url": "https://www.latimes.com/science/story/2020-02-08/coronavirus-outbreak-false-information-psychology"
+        }
+      ]
+    },
+    {
+      "id": "identification",
+      "title": "Identification",
+      "level": 3,
+      "content": "Research has yielded a number of strategies that can be employed to identify misinformation, many of which share common features. Although a common recommendation is to use common sense and check whether the source or sharers of the information might be biased or have an agenda, this is not always a reliable strategy. Readers tend to distinguish between unintentional misinformation and uncertain evidence from politically or financially motivated misinformation. It can be difficult to undo the effects of misinformation once individuals believe it to be true. Individuals may desire to reach a certain conclusion, causing them to accept information that supports that conclusion, and are more likely to retain and share information if it emotionally resonates with them.\n\nThe SIFT Method, also called the Four Moves, is one commonly taught method of distinguishing between reliable and unreliable information. This method instructs readers to first Stop and begin to ask themselves about what they are reading or viewing - do they know the source and if it is reliable? Second, readers should Investigate the source. What is the source's relevant expertise and do they have an agenda? Third, a reader should Find better coverage and look for reliable coverage on the claim at hand to understand if there is a consensus around the issue. Finally, a reader should Trace claims, quotes, or media to their original context: has important information been omitted, or is the original source questionable?\n\nVisual misinformation presents particular challenges, but there are some effective strategies for identification. Misleading graphs and charts can be identified through careful examination of the data presentation; for example, truncated axes or poor color choices can cause confusion. Reverse image searching can reveal whether images have been taken out of their original context. There are currently some somewhat reliable ways to identify AI-generated imagery, but it is likely that this will become more difficult to identify as the technology advances.\n\nA person's formal education level and media literacy do correlate with their ability to recognize misinformation. People who are familiar with a topic, the processes of researching and presenting information, or have critical evaluation skills are more likely to correctly identify misinformation. However, these are not always direct relationships. Higher overall literacy does not always lead to improved ability to detect misinformation. Context clues can also significantly impact people's ability to detect misinformation.\n\nMartin Libicki, author of Conquest In Cyberspace: National Security and Information Warfare, notes that readers should aim to be skeptical but not cynical. Readers should not be gullible, believing everything they read without question, but also should not be paranoid that everything they see or read is false.\n\n=== Factors influencing susceptibility to misinformation ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Mintz, The Misinformation Superhighway?",
+          "url": "https://www.pbs.org/now/shows/401/internet-politics.html"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Ecker, The psychological drivers of misinformation belief and its resistance to correction, (January 2022)",
+          "url": "https://www.nature.com/articles/s44159-021-00006-y"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Hameleers, You Are Wrong Because I Am Right! The Perceived Causes and Ideological Biases of Misinformation Beliefs, (16 February 2022)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Ecker, Can Corrections Spread Misinformation to New Audiences? Testing for the Elusive Familiarity Backfire Effect, (2020-04-22)",
+          "url": "http://psyarxiv.com/qrm69/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Lewandowsky, Misinformation and Its Correction: Continued Influence and Successful Debiasing, (2012)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "SIFT (The Four Moves), (2019-06-19)",
+          "url": "https://hapgood.us/2019/06/19/sift-the-four-moves/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Cowles, When Seeing Isn't Believing: Navigating Visual Health Misinformation through Library Instruction, (2024-01-02)",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/02763869.2024.2290963"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Grootendorst, Misleading Graphs, (2021-03-23)",
+          "url": "https://www.maartengrootendorst.com/blog/misleading/"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Qian, Fighting cheapfakes: using a digital media literacy intervention to motivate reverse search of out-of-context visual misinformation, (2022-11-04)"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Groh, Deepfake detection by human crowds, machines, and machine-informed crowds, (2022-01-05)"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Bond, AI-generated images are everywhere. Here's how to spot them, (13 June 2023)",
+          "url": "https://www.npr.org/2023/06/07/1180768459/how-to-identify-ai-generated-deepfake-images"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Hern, 'Time is running out': can a future of undetectable deepfakes be avoided?, (2024-04-08)",
+          "url": "https://www.theguardian.com/technology/2024/apr/08/time-is-running-out-can-a-future-of-undetectable-deepfakes-be-avoided"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Verma, AI Can Draw Hands Now",
+          "url": "https://www.washingtonpost.com/technology/2023/03/26/ai-generated-hands-midjourney/"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Khan, Recognise misinformation and verify before sharing: a reasoned action and information literacy perspective, (2 December 2019)"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Lazer, The science of fake news, (2018)"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Vraga, Leveraging institutions, educators, and networks to correct misinformation: A commentary on Lewandosky, Ecker, and Cook., (December 2017)"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Caramancion, 2020 IEEE International IOT, Electronics and Mechatronics Conference (IEMTRONICS), (2020)"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "Libicki, Conquest in Cyberspace: National Security and Information Warfare, (2007)",
+          "url": "https://archive.org/details/conquestcyberspa00libi_962"
+        }
+      ]
+    },
+    {
+      "id": "factors-influencing-susceptibility-to-misinformation",
+      "title": "Factors influencing susceptibility to misinformation",
+      "level": 3,
+      "content": "Various demographic, cognitive, social, and technological factors can influence an individual's susceptibility to misinformation. This section examines how age, political ideology, and algorithms may affect vulnerability to false or misleading information.\n\n==== Age ====",
+      "citations": []
+    },
+    {
+      "id": "age",
+      "title": "Age",
+      "level": 4,
+      "content": "Research suggests that age can be a significant factor in how individuals process and respond to misinformation. Some researchers have suggested that older individuals are more susceptible to misinformation than younger individuals due to cognitive decline. Other studies have found that, while this may be a factor, the issue is more complex than simply aging and experiencing cognitive decline. One notable area where cognitive decline is prevalent is repeated exposure to misinformation. A study found that older adults are more likely than younger adults to believe misinformation after repeated exposure, known as the illusory truth effect. This is linked to declines in memory and analytical reasoning, which can make it more challenging for older adults to distinguish between true and false information.\n\nAnother commonly found explanation for older adults' susceptibility to misinformation is a lack of digital literacy. According to a nationally representative study of U.S. adults by Pew Research Center from 2023, 61% of adults aged 65 years or older own a smartphone, 45% use social media, and 44% own a tablet computer. All three numbers represent an increase over the last decade, indicating that older adults are spending more time online, thereby increasing their potential exposure to misinformation. Research indicates that older adults often struggle to identify internet hoaxes and distinguish between advertorial and editorial content. This exposes older adults to more fringe news sources, complicating the issue of correcting misinformed beliefs.\n\nThese factors have contributed to older adults sharing more misinformation than other demographics, a trend that may increase as the American population ages.\n\n==== Political ideology and confirmation bias ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Anspach, Not who you think? Exposure and vulnerability to misinformation, (2024-08-01)",
+          "url": "https://journals.sagepub.com/doi/10.1177/14614448221130422"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Lyons, Older Americans are more vulnerable to prior exposure effects in news evaluation, (2023-07-24)",
+          "url": "https://misinforeview.hks.harvard.edu/article/older-americans-are-more-vulnerable-to-prior-exposure-effects-in-news-evaluation/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Brashier, Aging in an Era of Fake News, (2020-06-01)"
+        }
+      ]
+    },
+    {
+      "id": "political-ideology-and-confirmation-bias",
+      "title": "Political ideology and confirmation bias",
+      "level": 4,
+      "content": "Political ideology can significantly shape how individuals encounter, process, and respond to misinformation, with implications for both information consumption patterns and cognitive processing.\n\nResearch from 2022 suggests that motivated reasoning, or confirmation bias—the tendency to accept information that supports pre-existing beliefs while rejecting contradictory views—influences information processing, regardless of political affiliation.\n\nThis cognitive bias fosters an environment where misinformation that aligns with one's view thrives, creating echo chambers. Researchers explored the relationship between partisanship, the presence of an echo chamber, and vulnerability to misinformation, finding a strong correlation between right-wing partisanship and the sharing of online misinformation. They also discovered a similar trend among left-leaning users. Similar research has found that right- and left-wing partisans exhibit similar levels of metacognitive awareness, which refers to individuals' conscious awareness of their own thoughts and mental processes. In a study that asked participants to identify news headlines as true or false, both Democrats and Republicans admitted to occasionally suspecting they were wrong. This finding, coupled with confirmation bias, contributes to a media ecosystem where misinformation can thrive.\n\n==== Algorithms ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "van der Linden, Misinformation: susceptibility, spread, and interventions to immunize the public, (March 2022)",
+          "url": "https://www.nature.com/articles/s41591-022-01713-6"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Nikolov, Right and left, partisanship predicts (asymmetric) vulnerability to misinformation, (2021-02-15)",
+          "url": "https://misinforeview.hks.harvard.edu/article/right-and-left-partisanship-predicts-asymmetric-vulnerability-to-misinformation/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Dobbs, Democrats are better than Republicans at discerning true and false news but do not have better metacognitive awareness, (2023-12-18)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Tokita, Measuring receptivity to misinformation at scale on a social media platform, (2024-10-01)",
+          "url": "https://academic.oup.com/pnasnexus/article/3/10/pgae396/7754768?login=false"
+        }
+      ]
+    },
+    {
+      "id": "algorithms",
+      "title": "Algorithms",
+      "level": 4,
+      "content": "Social media algorithms are designed to increase user engagement. Research suggests that humans are naturally drawn to emotionally charged content, and algorithms perpetuate a cycle in which emotionally charged misinformation is disproportionately promoted on social media platforms. This misinformation is spread rapidly through algorithms, outpacing the speed of fact-checking.\n\nAdditionally, most social media users possess a limited understanding of how algorithms curate their information feeds. This knowledge gap makes it difficult for users to recognize potential biases on their social media feeds or to implement strategies to diversify the content they are exposed to. In response, some researchers and organizations call for modifications to algorithmic systems to help reduce the amplification of misinformation.\n\n=== AI contribution to the problem and aid in combatting ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Brady, Algorithm-mediated social learning in online social networks, (2023-10-01)",
+          "url": "https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(23)00166-3?_returnURL=https://linkinghub.elsevier.com/retrieve/pii/S1364661323001663?showall=true"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "McLoughlin, Human-algorithm interactions help explain the spread of misinformation, (2024-04-01)",
+          "url": "https://linkinghub.elsevier.com/retrieve/pii/S2352250X23002154"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Misinformation Amplification Analysis and Tracking Dashboard",
+          "url": "https://integrityinstitute.org/blog/misinformation-amplification-tracking-dashboard"
+        }
+      ]
+    },
+    {
+      "id": "ai-contribution-to-the-problem-and-aid-in-combatting",
+      "title": "AI contribution to the problem and aid in combatting",
+      "level": 3,
+      "content": "result in 10 August 2025 incorrectly stating that Joaquín Correa is the brother of Ángel Correa; the two are unrelated.]]\nArtificial intelligence exacerbates the problem of misinformation but also contributes to the fight against misinformation.\n\n* Deepfakes and Synthetic media create very convincing visual, audio, and textual evidence that is difficult to distinguish from legitimate authoritative evidence.\n* Internet bots and automated Internet trolls can rapidly sow disinformation.\n* Algorithmic bias plays a role in amplification of sensational and controversial material regardless of truth.\n\n==Countermeasures==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Joaquín Correa fue presentado en Botafogo para jugar el Mundial de Clubes y tuvo un insólito cruce con un periodista: \"No es mi hermano\", (14 June 2025)",
+          "url": "https://www.clarin.com/deportes/joaquin-correa-presentado-botafogo-jugar-mundial-clubes-insolito-cruce-periodista-hermano_0_1HjL2zmnR0.html"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Westerlund, The Emergence of Deepfake Technology: A Review, (2019-01-01)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Ferrara, Disinformation and Social Bot Operations in the Run Up to the 2017 French Presidential Election, (2017-07-31)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Bakshy, Exposure to ideologically diverse news and opinion on Facebook, (2015-06-05)"
+        }
+      ]
+    },
+    {
+      "id": "countermeasuresanchorcountering-misinformation",
+      "title": "Countermeasures{{anchor|Countering misinformation}}",
+      "level": 2,
+      "content": "Factors that contribute to the effectiveness of a corrective message include an individual's mental model or worldview, repeated exposure to the misinformation, time between misinformation and correction, credibility of the sources, and relative coherency of the misinformation and corrective message. Corrective messages will be more effective when they are coherent and/or consistent with the audience's worldview. They will be less effective when misinformation is believed to come from a credible source, is repeated prior to correction (even if the repetition occurs in the process of debunking), and/or when there is a time lag between the misinformation exposure and corrective message. Additionally, corrective messages delivered by the original source of the misinformation tend to be more effective. However, misinformation research has often been criticized for its emphasis on efficacy (i.e., demonstrating effects of interventions in controlled experiments) over effectiveness (i.e., confirming real-world impacts of these interventions). Critics argue that while laboratory settings may show promising results, these do not always translate into practical, everyday situations where misinformation spreads. Research has identified several major challenges in this field: an overabundance of lab research and a lack of field studies, the presence of testing effects that impede intervention longevity and scalability, modest effects for small fractions of relevant audiences, reliance on item evaluation tasks as primary efficacy measures, low replicability in the Global South and a lack of audience-tailored interventions, and the underappreciation of potential unintended consequences of intervention implementation.\n\n=== Fact-checking and debunking ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Walter, A Meta-Analytic Examination of the Continued Influence of Misinformation in the Face of Correction: How Powerful Is It, Why Does It Happen, and How to Stop It?, (March 2020)",
+          "url": "https://digitalcommons.chapman.edu/cgi/viewcontent.cgi?article=1061&context=comm_articles"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Roozenbeek, Beyond the headlines: On the efficacy and effectiveness of misinformation interventions, (2024-07-27)",
+          "url": "https://advances.in/psychology/10.56296/aip00019/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Tay, A focus shift in the evaluation of misinformation interventions, (2023-10-05)",
+          "url": "https://misinforeview.hks.harvard.edu/article/a-focus-shift-in-the-evaluation-of-misinformation-interventions/"
+        }
+      ]
+    },
+    {
+      "id": "fact-checking-and-debunking",
+      "title": "Fact-checking and debunking",
+      "level": 3,
+      "content": "Websites have been created to help people to discern fact from fiction. For example, the site FactCheck.org aims to fact check the media, especially viral political stories. The site also includes a forum where people can openly ask questions about the information. Similar sites allow individuals to copy and paste misinformation into a search engine and the site will investigate it. Some sites exist to address misinformation about specific topics, such as climate change misinformation. DeSmog, formerly The DeSmogBlog, publishes factually accurate information in order to counter the well-funded disinformation campaigns spread by motivated deniers of climate change. Science Feedback  focuses on evaluating science, health, climate, and energy claims in the media and providing an evidence-based analysis of their veracity.\n\nFlagging or eliminating false statements in media using algorithmic fact checkers is becoming an increasingly common tactic to fight misinformation. Google and many social media platforms have added automatic fact-checking programs to their sites and created the option for users to flag information that they think is false. In some cases social media platforms' efforts to curb the spread of misinformation has resulted in controversy, drawing criticism from people who see these efforts as constructing a barrier to their right to expression.\n\n==== One-on-one correction ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Ask FactCheck",
+          "url": "https://www.factcheck.org/askfactcheck/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Fernandez, Companion of the Web Conference 2018 on the Web Conference 2018 – WWW '18, (2018)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "About - Science Feedback",
+          "url": "https://science.feedback.org/about/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Lewandowsky, Beyond misinformation: Understanding and coping with the 'post-truth' era, (December 2017)",
+          "url": "https://api.research-repository.uwa.edu.au/ws/files/22250770/Lewandowsky.2017.JARMAC.pdf"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Nott, Free Speech on Social Media: The Complete Guide, (2022-08-03)",
+          "url": "https://www.freedomforum.org/free-speech-on-social-media/"
+        }
+      ]
+    },
+    {
+      "id": "one-on-one-correction",
+      "title": "One-on-one correction",
+      "level": 4,
+      "content": "Within the context of personal interactions, some strategies for debunking have the potential to be effective. Simply delivering facts is frequently ineffective because misinformation belief is often not the result of a deficit of accurate information, More effective strategies focus on instilling doubt and encouraging people to examine the roots of their beliefs. In these situations, tone can also play a role: expressing empathy and understanding can keep communication channels open. It is important to remember that beliefs are driven not just by facts but by emotion, worldview, intuition, social pressure, and many other factors.\n\n==== Social correction ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Pasquetto, Social Debunking of Misinformation on WhatsApp: The Case for Strong and In-group Ties, (2022-04-07)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "How should you talk to friends and relatives who believe conspiracy theories?, (2020-12-21)",
+          "url": "https://www.bbc.com/news/blogs-trending-55350794"
+        }
+      ]
+    },
+    {
+      "id": "social-correction",
+      "title": "Social correction",
+      "level": 4,
+      "content": "Fact-checking and debunking can be done in one-on-one interactions, but when this occurs on social media it is likely that other people may encounter and read the interaction, potentially learning new information from it or examining their own beliefs. This type of correction has been termed social correction. Researchers have identified three ways to increase the efficacy of these social corrections for observers. Interestingly, while the tone of the correction may impact how the target of the correction receives the message and can increase engagement with a message, it is less likely to affect how others seeing the correction perceive its accuracy.\n\nWhile social correction has the potential to reach a wider audience with correct information, it can also potentially amplify an original post containing misinformation.\n\n=== Prebunking ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Vraga, Correction as a Solution for Health Misinformation on Social Media, (October 2020)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "COVID-19 Mythbusters – World Health Organization",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "MacKay, Canadian COVID-19 Crisis Communication on Twitter: Mixed Methods Research Examining Tweets from Government, Politicians, and Public Health for Crisis Communication Guiding Principles and Tweet Engagement, (2022-06-06)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Bode, Do the right thing: Tone may not affect correction of misinformation on social media, (2020-06-11)",
+          "url": "https://misinforeview.hks.harvard.edu/article/do-the-right-thing-tone-may-not-affect-correction-of-misinformation-on-social-media/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Health Misinformation — Current Priorities of the U.S. Surgeon General",
+          "url": "https://www.hhs.gov/surgeongeneral/reports-and-publications/health-misinformation/index.html"
+        }
+      ]
+    },
+    {
+      "id": "prebunking",
+      "title": "Prebunking",
+      "level": 3,
+      "content": "Misinformation typically spreads more readily than fact-checking. While prebunking can involve fact-based correction, it focuses more on identifying common logical fallacies (e.g., emotional appeals to manipulate individuals' perceptions and judgments, false dichotomies, or ad hominem fallacies) and tactics used to spread misinformation as well as common misinformation sources.\n\n=== Other interventions ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Smith, The \"broadcast\" model no longer works in an era of disinformation, (2020-12-18)",
+          "url": "https://firstdraftnews.org/articles/the-broadcast-model-no-longer-works-in-an-era-of-disinformation/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Garcia, A guide to prebunking: a promising way to inoculate against misinformation, (2021-06-29)",
+          "url": "https://firstdraftnews.org/articles/a-guide-to-prebunking-a-promising-way-to-inoculate-against-misinformation/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Cook, Deconstructing climate misinformation to identify reasoning errors, (1 February 2018)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Traberg, Counteracting socially endorsed misinformation through an emotion-fallacy inoculation, (2024-06-20)",
+          "url": "https://advances.in/psychology/10.56296/aip00017/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Roozenbeek, Psychological inoculation improves resilience against misinformation on social media, (2022-08-26)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Roozenbeek, Fake news game confers psychological resistance against online misinformation, (2019-06-25)"
+        }
+      ]
+    },
+    {
+      "id": "other-interventions",
+      "title": "Other interventions",
+      "level": 3,
+      "content": "A report by the Royal Society in the UK lists additional potential or proposed countermeasures:\n** New Jersey mandated K-12 students to learn information literacy\n** \"Inoculation\" via educational videos shown to adults is being explored\n\nBroadly described, the report recommends building resilience to scientific misinformation and a healthy online information environment and not having offending content removed. It cautions that censorship could e.g. drive misinformation and associated communities \"to harder-to-address corners of the internet\".\n\nOnline misinformation about climate change can be counteracted through different measures at different stages. Prior to misinformation exposure, education and \"inoculation\" are proposed. Technological solutions, such as early detection of bots and ranking and selection algorithms are suggested as ongoing mechanisms. Post misinformation, corrective and collaborator messaging can be used to counter climate change misinformation. Incorporating fines and similar consequences has also been suggested.\n\nThe International Panel on the Information Environment was launched in 2023 as a consortium of over 250 scientists working to develop effective countermeasures to misinformation and other problems created by perverse incentives in organizations disseminating information via the Internet.\n\nThere also is research and development of platform-built-in as well as browser-integrated (currently in the form of addons) misinformation mitigation. This includes quality/neutrality/reliability ratings for news sources. Wikipedia's perennial sources page categorizes many large news sources by reliability. Researchers have also demonstrated the feasibility of falsity scores for popular and official figures by developing such for over 800 contemporary elites on Twitter as well as associated exposure scores.\n\nStrategies that may be more effective for lasting correction of false beliefs include focusing on intermediaries (such as convincing activists or politicians who are credible to the people who hold false beliefs, or promoting intermediaries who have the same identities or worldviews as the intended audience), minimizing the association of misinformation with political or group identities (such as providing corrections from nonpartisan experts, or avoiding false balance based on partisanship in news coverage), and emphasizing corrections that are hard for people to avoid or deny (such as providing information that the economy is unusually strong or weak, or describing the increased occurrence of extreme weather events in response to climate change denial).\n\n=== AI as a tool to combat misinformation ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Yee, The country inoculating against disinformation",
+          "url": "https://www.bbc.com/future/article/20220128-the-country-inoculating-against-disinformation"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Sitrin, New Jersey becomes first state to mandate K-12 students learn information literacy, (5 January 2023)",
+          "url": "https://www.politico.com/news/2023/01/05/new-jersey-is-the-first-state-to-mandate-k-12-students-learn-information-literacy-00076352"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Roozenbeek, Psychological inoculation improves resilience against misinformation on social media, (26 August 2022)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Royal Society cautions against censorship of scientific misinformation online",
+          "url": "https://royalsociety.org/news/2022/01/scientific-misinformation-report/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Treen, Online misinformation about climate change, (September 2020)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "<!-- National Academies of Sciences, Engineering, and Medicine (2023) Nobel Prize Summit Fuels Initiatives to Combat Misinformation and Disinformation and Build Trust in Science-->{{cite Q|Q124711722|author=National Academies of Sciences, Engineering, and Medicine}}"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Zewe, Empowering social media users to assess content helps fight misinformation",
+          "url": "https://techxplore.com/news/2022-11-empowering-social-media-users-content.html"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Jahanbakhsh, Leveraging Structured Trusted-Peer Assessments to Combat Misinformation, (11 November 2022)"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Elliott, Fake news spotter: How to enable Microsoft Edge's NewsGuard",
+          "url": "https://www.cnet.com/tech/mobile/fake-news-spotter-how-to-enable-microsoft-edges-newsguard/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "12 Browser Extensions to Help You Detect and Avoid Fake News, (18 March 2021)",
+          "url": "https://thetrustedweb.org/browser-extensions-to-detect-and-avoid-fake-news/"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Darcy, Wikipedia administrators caution editors about using Fox News as source on 'contentious' claims, (24 July 2020)",
+          "url": "https://edition.cnn.com/2020/07/24/media/wikipedia-fox-news-reliable-sources/index.html"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "New MIT Sloan research measures exposure to misinformation from political elites on Twitter, (29 November 2022)",
+          "url": "https://apnews.com/press-release/pr-newswire/misinformation-701fb46656eb2197a845f789857d83b2"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Mosleh, Measuring exposure to misinformation from political elites on Twitter, (21 November 2022)"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Nyhan B, Why the backfire effect does not explain the durability of political misperceptions., (2021)"
+        }
+      ]
+    },
+    {
+      "id": "ai-as-a-tool-to-combat-misinformation",
+      "title": "AI as a tool to combat misinformation",
+      "level": 3,
+      "content": "* Fact-checking algorithms are employed to fact-check truth claims in real-time.\n* Researchers are developing AI tools for detecting fabricated audio and video.\n* AI can be used for Information literacy and Media literacy education.\n\n===Limitations===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Deng, Document-level Claim Extraction and Decontextualisation for Fact-Checking, (2024)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Afchar, 2018 IEEE International Workshop on Information Forensics and Security (WIFS), (December 2018)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Carroll, Integrating large language models and generative artificial intelligence tools into information literacy instruction, (July 2024)"
+        }
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Limitations",
+      "level": 3,
+      "content": "Interventions need to account for the possibility that misinformation can persist in the population even after corrections are published. Possible reasons include difficulty in reaching the right people and corrections not having long-term effects. A 2020 review of the scientific literature on backfire effects found that there have been widespread failures to replicate their existence, even under conditions that would be theoretically favorable to observing them. Due to the lack of reproducibility,  most researchers believe that backfire effects are either unlikely to occur on the broader population level, or they only occur in very specific circumstances, or they do not exist. For instance, one study found that inoculation and accuracy primes to some extent undermined users' ability to distinguish implausible from plausible conspiracy theories. Other scholars have shown through simulations that even if interventions reduce both the belief in false and true information, the effect on the media ecosystem may still be favorable due to different base rates in both beliefs.\n\n== Online misinformation ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Lazić, A systematic review of narrative interventions: Lessons for countering anti-vaccination conspiracy theories and misinformation, (18 May 2021)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Lewandowsky, Debunking Handbook 2020, (2020)",
+          "url": "http://databrary.org/volume/1182"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Searching for the Backfire Effect: Measurement and Design Considerations., (2020)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Guay, How to think about whether misinformation interventions work, (August 2023)",
+          "url": "https://www.nature.com/articles/s41562-023-01667-w"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "O'Mahony, True discernment or blind scepticism? Comparing the effectiveness of four conspiracy belief interventions, (2024-11-15)",
+          "url": "https://advances.in/psychology/10.56296/aip00030/"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Lawson, Resolving conflicting findings in misinformation research: A methodological perspective, (2024-12-06)",
+          "url": "https://advances.in/psychology/10.56296/aip00031/"
+        }
+      ]
+    },
+    {
+      "id": "online-misinformationanchorsocialmediaandmisinformation",
+      "title": "Online misinformation{{anchor|Social_media_and_misinformation}}",
+      "level": 2,
+      "content": "In recent years, the proliferation of misinformation online has drawn widespread attention. More than half of the world's population had access to the Internet in the beginning of 2018. However, the underlying factor is that it contains misleading or inaccurate information.\n\n=== On social media ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Acerbi, Cognitive attraction and online misinformation, (2019-02-12)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Almaliki, Proceedings of the 2019 3rd International Conference on Information System and Data Mining, (2019-04-06)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "The online information environment: Understanding how the internet shapes people's engagement with scientific information, (January 2022)",
+          "url": "https://royalsociety.org/-/media/policy/projects/online-information-environment/the-online-information-environment.pdf"
+        }
+      ]
+    },
+    {
+      "id": "on-social-media",
+      "title": "On social media",
+      "level": 3,
+      "content": "Pew Research reports shared that approximately one in four American adults admitted to sharing misinformation on their social media platforms.\n\nIn the Information Age, social networking sites have become a notable agent for the spread of misinformation, fake news, and propaganda. Social media sites have changed their algorithms to prevent the spread of fake news but the problem still exists.\n\n==== Spread ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Barthel, Many Americans Believe Fake News Is Sowing Confusion, (2016-12-15)",
+          "url": "https://www.pewresearch.org/journalism/2016/12/15/many-americans-believe-fake-news-is-sowing-confusion/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Stawicki, Global Health Security, (2020)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Vosoughi, The spread of true and false news online, (9 March 2018)",
+          "url": "http://vermontcomplexsystems.org/share/papershredder/vosoughi2018a.pdf"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Tucker, Social Media, Political Polarization, and Political Disinformation: A Review of the Scientific Literature",
+          "url": "https://hewlett.org/library/social-media-political-polarization-political-disinformation-review-scientific-literature/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Machado, Companion Proceedings of the 2019 World Wide Web Conference, (2019)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Hindman, Visual misinformation is widespread on Facebook – and often undercounted by researchers, (2023-06-30)",
+          "url": "http://theconversation.com/visual-misinformation-is-widespread-on-facebook-and-often-undercounted-by-researchers-202913"
+        }
+      ]
+    },
+    {
+      "id": "spread",
+      "title": "Spread",
+      "level": 4,
+      "content": "Social media platforms allow for easy spread of misinformation. The specific reasons why misinformation spreads through social media so easily remain unknown.\n\nAgent-based models and other computational models have been used by researchers to explain how false beliefs spread through networks. Epistemic network analysis is one example of a computational method for evaluating connections in data shared in a social media network or similar network.\n\nResearchers fear that misinformation in social media is \"becoming unstoppable\". Sites such as Facebook have algorithms that have been proven to further the spread of misinformation in which how content is spread among subgroups.\n\n==== Social causes and echo chambers ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Allcott, Trends in the diffusion of misinformation on social media, (April 2019)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Chen, Why Students Share Misinformation on Social Media: Motivation, Gender, and Study-level Differences, (September 2015)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "O'Connor, How Misinformation Spreads—and Why We Trust It, (September 1, 2019)",
+          "url": "https://www.scientificamerican.com/article/how-misinformation-spreads-and-why-we-trust-it/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Shaffer, A tutorial on epistemic network analysis: Analysing the structural connections in cognitive, social and interaction data, (2016)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Milman, Revealed: quarter of all tweets about climate crisis produced by bots, (October 2023)",
+          "url": "https://www.theguardian.com/technology/2020/feb/21/climate-tweets-twitter-bots-analysis"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Facebook's Design Makes It Unable to Control Misinformation {{!",
+          "url": "https://gwtoday.gwu.edu/facebooks-design-makes-it-unable-control-misinformation"
+        }
+      ]
+    },
+    {
+      "id": "social-causes-and-echo-chambers",
+      "title": "Social causes and echo chambers",
+      "level": 4,
+      "content": "Spontaneous spread of misinformation on social media usually occurs from users sharing posts from friends or mutually-followed pages.\n\nPeople are inclined to follow or support like-minded individuals, creating echo chambers and filter bubbles. Research has also shown that viral misinformation may spread more widely as a result of echo chambers, as the echo chambers provide an initial seed which can fuel broader viral diffusion. For example, a study by Uri Samet (2023) examined how digital echo chambers not only amplify misinformation but also diminish institutional credibility, arguing that online perception in post-truth environments increasingly shapes reputational outcomes.\n\nMisinformation might be created and spread with malicious intent for reasons such as causing anxiety or deceiving audiences. Computational Propaganda actors benefit from both disinformation and misinformation. Rumors created with or without malicious intent may be unknowingly shared by users. People may know what the scientific community has proved as a fact, and still refuse to accept it as such.\n\n==== Lack of regulation ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Gabbert, Say it to my face: Examining the effects of socially encountered misinformation, (September 2004)",
+          "url": "https://rke.abertay.ac.uk/en/publications/c84006a6-18c9-4aec-b44d-da1ec1a8c110"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Benkler, Study: Breitbart-led rightwing media ecosystem altered broader media agenda, (2017)",
+          "url": "https://www.cjr.org/analysis/breitbart-media-trump-harvard-study.php"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Törnberg, Echo chambers and viral misinformation: Modeling fake news as complex contagion, (2018)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Samet, Digital Branding in the Post-Truth Era: How Online Perception Challenges Traditional Reputation Management, (2023)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Thai, Big Data in Complex and Social Networks, (2016-12-01)",
+          "url": "https://books.google.com/books?id=CA4NDgAAQBAJ&q=causes+of+misinformation&pg=PA125"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "O'Hara, Automated Epistemology: Bots, Computational Propaganda & Information Literacy Instruction, (2022-07-01)",
+          "url": "https://linkinghub.elsevier.com/retrieve/pii/S0099133322000568"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Scheufele, Science audiences, misinformation, and fake news, (16 April 2019)"
+        }
+      ]
+    },
+    {
+      "id": "lack-of-regulation",
+      "title": "Lack of regulation",
+      "level": 4,
+      "content": "Misinformation on social media spreads quickly in comparison to traditional media because of the lack of regulation and examination required before posting.\n\nSocial media sites provide users with the capability to spread information quickly to other users without requiring the permission of a gatekeeper such as an editor, who might otherwise require confirmation of the truth before allowing publication.\n\nThe problem of misinformation in social media is getting worse as younger generations prefer social media over journalistic for their source of information.\n\n==== Lack of peer review ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Caramancion, Computational Data and Social Networks, (2021)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Starbird, Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems, (19 April 2018)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Arif, Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing, (2017)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Spradling, Protection from 'Fake News': The Need for Descriptive Factual Labeling for Online Content, (June 2021)"
+        }
+      ]
+    },
+    {
+      "id": "lack-of-peer-review",
+      "title": "Lack of peer review",
+      "level": 4,
+      "content": "Due to the decentralized nature and structure of the Internet, content creators can easily publish content without being required to undergo peer review, prove their qualifications, or provide backup documentation. While library books have generally been reviewed and edited by an editor, publishing company, etc., Internet sources cannot be assumed to be vetted by anyone other than their authors. Misinformation may be produced, reproduced, and posted immediately on most online platforms.\n\n==== Countermeasures ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Stapleton, Assessing the quality and bias of web-based sources: implications for academic writing, (2003)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "West, Misinformation in and about science, (2021)"
+        }
+      ]
+    },
+    {
+      "id": "countermeasures",
+      "title": "Countermeasures",
+      "level": 4,
+      "content": "Combating the spread of misinformation on social medias is difficult for reasons such as :\n\n* the profusion of misinformation sources makes the reader's task of weighing the reliability of information more challenging \n* social media's propensity for culture wars embeds misinformation with identity-based conflict \n* the proliferation of echo chambers form an epistemic environment in which participants encounter beliefs and opinions that coincide with their own, moving the entire group toward more extreme positions.\n\nJournalists today are criticized for helping to spread false information on these social platforms, but research shows they also play a role in curbing it through debunking and denying false rumors.\n\n==== COVID-19 misinformation ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Messerole, How misinformation spreads on social media&nbsp;– And what to do about it, (2018-05-09)",
+          "url": "https://www.brookings.edu/blog/order-from-chaos/2018/05/09/how-misinformation-spreads-on-social-media-and-what-to-do-about-it/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Diaz Ruiz, Disinformation and Echo Chambers: How Disinformation Circulates on Social Media Through Identity-Driven Controversies, (2022-08-08)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Nguyen, Echo Chambers and Epistemic Bubbles, (2020)",
+          "url": "https://www.cambridge.org/core/journals/episteme/article/abs/echo-chambers-and-epistemic-bubbles/5D4AC3A808C538E17C50A7C09EC706F0"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Bode, See Something, Say Something: Correction of Global Health Misinformation on Social Media, (2 September 2018)"
+        }
+      ]
+    },
+    {
+      "id": "covid-19-misinformation",
+      "title": "COVID-19 misinformation",
+      "level": 4,
+      "content": "During the COVID-19 pandemic, social media was used as one of the main propagators for spreading misinformation about symptoms, treatments, and long-term health-related problems. This problem has initialized a significant effort in developing automated detection methods for misinformation on social media platforms.\n\nThe creator of the Stop Mandatory Vaccination made money posting anti-vax false news on social media. He posted more than 150 posts aimed towards women, garnering a total of 1.6 million views and earning money for every click and share.\n\n==== Misinformation on TikTok ====",
+      "citations": []
+    },
+    {
+      "id": "misinformation-on-tiktok",
+      "title": "Misinformation on TikTok",
+      "level": 4,
+      "content": "A research report by NewsGuard found there is a very high level (~20% in their probes of videos about relevant topics) of online misinformation delivered – to a mainly young user base – with TikTok, whose (essentially unregulated) usage is increasing as of 2022.\n\n==== Misinformation on Facebook ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Tucker, TikTok's search engine repeatedly delivers misinformation to its majority-young user base, report says, (18 September 2022)",
+          "url": "https://edition.cnn.com/2022/09/18/business/tiktok-search-engine-misinformation/index.html"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Misinformation Monitor: September 2022",
+          "url": "https://www.newsguardtech.com/misinformation-monitor/september-2022/"
+        }
+      ]
+    },
+    {
+      "id": "misinformation-on-facebook",
+      "title": "Misinformation on Facebook",
+      "level": 4,
+      "content": "A research study of Facebook found that misinformation was more likely to be clicked on than factual information.  The most common reasons that Facebook users were sharing misinformation for socially-motivated reasons, rather than taking the information seriously.\n\nFacebook's coverage of misinformation has become a hot topic with the spread of COVID-19, as some reports indicated Facebook recommended pages containing health misinformation. For example, this can be seen when a user likes an anti-vax Facebook page. Automatically, more and more anti-vax pages are recommended to the user. and has taken measures to stop the spread of misinformation, resulting in a decrease, though misinformation continues to exist on the platform.\n\n==== Misinformation on Twitter ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Dwoskin, Misinformation on Facebook got six times more clicks than factual news during the 2020 election, study says",
+          "url": "https://www.washingtonpost.com/technology/2021/09/03/facebook-misinformation-nyu-study/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Chen, Proceedings of the 15th ACM/IEEE-CS Joint Conference on Digital Libraries, (2015)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Griffith, Facebook exposed over its handling of COVID misinformation, (21 July 2021)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Iyengar, Scientific communication in a post-truth society, (16 April 2019)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Swire-Thompson, Public Health and Online Misinformation: Challenges and Recommendations, (2 April 2020)"
+        }
+      ]
+    },
+    {
+      "id": "misinformation-on-twitter",
+      "title": "Misinformation on Twitter",
+      "level": 4,
+      "content": "Twitter is one of the most concentrated platforms for engagement with political fake news. 80% of fake news sources are shared by 0.1% of users, who are \"super-sharers\". Older, more conservative social users are also more likely to interact with fake news. Bot accounts on Twitter accelerate true and fake news at the same rate. A 2018 study of Twitter determined that, compared to accurate information, false information spread significantly faster, further, deeper, and more broadly.\n\nA social media app called Parler has caused much chaos as well. Right winged Twitter users who were banned on the app moved to Parler after the January 6 United States Capitol attack, and the app was being used to plan and facilitate more illegal and dangerous activities. Google and Apple later pulled the app off their respective app stores. This app has been able to cause a lot of misinformation and bias in the media, allowing for more political mishaps.\n\n==== Misinformation on Telegram ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Revealed: a quarter of all tweets about climate crisis produced by bots, (2020-02-21)",
+          "url": "http://www.theguardian.com/technology/2020/feb/21/climate-tweets-twitter-bots-analysis"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Vosoughi, The spread of true and false news online, (2018-03-09)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Shin, The diffusion of misinformation on social media: Temporal pattern, message, and source, (June 2018)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Amazon to suspend Parler after deadly Capitol Hill riot, (10 January 2021)",
+          "url": "https://www.aljazeera.com/news/2021/1/10/amazon-to-suspend-parler-after-deadly-capitol-hill-riot"
+        }
+      ]
+    },
+    {
+      "id": "misinformation-on-telegram",
+      "title": "Misinformation on Telegram",
+      "level": 4,
+      "content": "Telegram has been accused multiple times of facilitating the creation and spread of misinformation online, partly due to its deregulation and lack of fact-checking tools.\n\n==== Misinformation on YouTube ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Latschan, Conspiracy, fake news, crime: Why is Telegram controversial?, (28 August 2024)",
+          "url": "https://www.dw.com/en/conspiracy-fake-news-crime-why-is-telegram-controversial/a-70074670"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Telegram is a proven amplifier of disinformation: Maldita.es Foundation and the University of Granada present recommendations for the EU in an event in Brussels with the participation of Vice President Jourová·Maldita.es, (2024-10-08)",
+          "url": "https://maldita.es/nosotros/20241008/telegram-disinformation-malditaes-universityofgranada-brussels-vicepresident-jourova/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Desinformación en Telegram: cómo se propaga y por qué los desinformantes eligen esta red de mensajería - Chequeado",
+          "url": "https://chequeado.com/el-explicador/desinformacion-en-telegram-como-se-propaga-y-por-que-los-desinformantes-eligen-esta-red-de-mensajeria/"
+        }
+      ]
+    },
+    {
+      "id": "misinformation-on-youtube",
+      "title": "Misinformation on YouTube",
+      "level": 4,
+      "content": "== Noteworthy examples ==",
+      "citations": []
+    },
+    {
+      "id": "noteworthy-examples",
+      "title": "Noteworthy examples",
+      "level": 2,
+      "content": "An example of bad information from media sources that led to the spread of misinformation occurred in November 2005, when Chris Hansen on Dateline NBC claimed that law enforcement officials estimate 50,000 predators are online at any moment. Afterward, the U.S. attorney general at the time, Alberto Gonzales, repeated the claim. However, the number that Hansen used in his reporting had no backing. Hansen said he received the information from Dateline expert Ken Lanning, but Lanning admitted that he made up the number 50,000 because there was no solid data on the number. According to Lanning, he used 50,000 because it sounds like a real number, not too big and not too small, and referred to it as a \"Goldilocks number\". Reporter Carl Bialik says that the number 50,000 is used often in the media to estimate numbers when reporters are unsure of the exact data.\n\nDuring the COVID-19 pandemic, a conspiracy theory that COVID-19 was linked to the 5G network gained significant traction worldwide after emerging on social media.\n\nMisinformation was a major talking point during the 2016 U.S. presidential election with claims of social media sites allowing \"fake news\" to be spread.\n\n== Impact ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Gladstone, The Influencing Machine, (2012)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Stewart, Defending Weapons Inspections from the Effects of Disinformation, (2021)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Brosnan, When Misinformation is Misinformation, (13 January 2021)"
+        }
+      ]
+    },
+    {
+      "id": "impact",
+      "title": "Impact",
+      "level": 2,
+      "content": "===Trust of other information===",
+      "citations": []
+    },
+    {
+      "id": "trust-of-other-information",
+      "title": "Trust of other information",
+      "level": 3,
+      "content": "The Liar's Dividend describes a situation in which individuals are so concerned about realistic misinformation (in particular, deepfakes) that they begin to mistrust real content, particularly if someone claims that it is false. For instance, a politician could benefit from claiming that a real video of them doing something embarrassing was actually AI-generated or altered, leading followers to mistrust something that was actually real. On a larger scale this problem can lead to erosion in the public's trust of generally reliable information sources. When eavesdropping on conversations, one can gather facts that may not always be true, or the receiver may hear the message incorrectly and spread the information to others. On the Internet, one can read content that is stated to be factual but that may not have been checked or may be erroneous. In the news, companies may emphasize the speed at which they receive and send information but may not always be correct in the facts. These developments contribute to the way misinformation may continue to complicate the public's understanding of issues and to serve as a source for belief and attitude formation.\n\n===Politics===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Deepfakes, Elections, and Shrinking the Liar's Dividend {{!, (2024-02-08)",
+          "url": "https://www.brennancenter.org/our-work/research-reports/deepfakes-elections-and-shrinking-liars-dividend"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Bodner, Reevaluating the potency of the memory conformity effect, (December 2009)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Southwell, Misinformation and Mass Audiences, (2018)",
+          "url": "https://books.google.com/books?id=1Jo7DwAAQBAJ&q=misinformation+causes&pg=PT246"
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "title": "Politics",
+      "level": 3,
+      "content": "Some view being a politically misinformed citizen as worse than being an uninformed one. Misinformed citizens can state their beliefs and opinions with confidence and thus affect elections and policies. This type of misinformation occurs when a speaker appears \"authoritative and legitimate\", while also spreading misinformation. Misinformation has the power to sway public elections and referendums if it gains enough momentum. Leading up to the 2016 UK European Union membership referendum, for example, a figure used prominently by the Vote Leave campaign claimed that by leaving the EU the UK would save £350 million a week, 'for the NHS'. Claims then circulated widely in the campaign that this amount would (rather than could theoretically) be redistributed to the British National Health Service after Brexit. This was later deemed a \"clear misuse of official statistics\" by the UK statistics authority.\n\nMoreover, the advert infamously shown on the side of London's double-decker busses did not take into account the UK's budget rebate, and the idea that 100% of the money saved would go to the NHS was unrealistic. A poll published in 2016 by Ipsos MORI found that nearly half of the British public believed this misinformation to be true. Even when information is proven to be misinformation, it may continue to shape attitudes towards a given topic, meaning it has the power to swing political decisions if it gains enough traction. A study conducted by Soroush Vosoughi, Deb Roy and Sinan Aral looked at Twitter data including 126,000 posts spread by 3 million people over 4.5 million times. They found that political news traveled faster than any other type of information. They found that false news about politics reached more than 20,000 people three times faster than all other types of false news.\n\n===Industry===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Barker, Rushed to Judgement: Talk Radio, Persuasion, and American Political Behavior, (2002)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "The misinformation that was told about Brexit during and after the referendum, (2 August 2018)",
+          "url": "https://www.independent.co.uk/news/uk/politics/final-say-brexit-referendum-lies-boris-johnson-leave-campaign-remain-a8466751.html"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Marwick, Media Manipulation and Disinformation Online, (2017)"
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "title": "Industry",
+      "level": 3,
+      "content": "Misinformation can also be employed in industrial propaganda. Using tools such as advertising, a company can undermine reliable evidence or influence belief through a concerted misinformation campaign. For instance, tobacco companies employed misinformation in the second half of the twentieth century to diminish the reliability of studies that demonstrated the link between smoking and lung cancer.\n\n===Medicine===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "O'Connor, The Misinformation Age: How False Beliefs Spread, (2019)",
+          "url": "https://archive.org/details/misinformationag0000ocon"
+        }
+      ]
+    },
+    {
+      "id": "medicine",
+      "title": "Medicine",
+      "level": 3,
+      "content": "In the medical field, misinformation can immediately lead to life endangerment as seen in the case of the public's negative perception towards vaccines or the use of herbs instead of medicines to treat diseases. In regards to the COVID-19 pandemic, the spread of misinformation has proven to cause confusion as well as negative emotions such as anxiety and fear. Misinformation regarding proper safety measures for the prevention of the virus that go against information from legitimate institutions like the World Health Organization can also lead to inadequate protection and possibly place individuals at risk for exposure.\n\n===Study===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Sinha, India Misinformed: The True Story, (2019)",
+          "url": "https://books.google.com/books?id=9ZuMDwAAQBAJ&q=misinformation+causes&pg=PT22"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Bratu, The Fake News Sociology of COVID-19 Pandemic Fear: Dangerously Inaccurate Beliefs, Emotional Contagion, and Conspiracy Ideation, (May 24, 2020)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "{{Cite Q|Q97652640}}"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Misinformation on coronavirus is proving highly contagious, (2020-07-29)",
+          "url": "https://apnews.com/article/ap-top-news-understanding-the-outbreak-health-media-social-media-86f61f3ffb6173c29bc7db201c10f141"
+        }
+      ]
+    },
+    {
+      "id": "study",
+      "title": "Study",
+      "level": 3,
+      "content": "Some scholars and activists are heading movements to eliminate the mis/disinformation and information pollution in the digital world. One theory, \"information environmentalism,\" has become a curriculum in some universities and colleges. The general study of misinformation and disinformation is by now also common across various academic disciplines, including sociology, communication, computer science, and political science, leading to the emerging field being described loosely as \"Misinformation and Disinformation Studies\".\n\nVarious scholars and journalists have criticised this development, pointing to problematic normative assumptions, a varying quality of output and lack of methodological rigor, as well as a too strong impact of mis- and disinformation research in shaping public opinion and policymaking. Summarising the most frequent points of critique, communication scholars Chico Camargo and Felix Simon wrote in an article for the Harvard Kennedy School Misinformation Review that \"mis-/disinformation studies has been accused of lacking clear definitions, having a simplified understanding of what it studies, a too great emphasis on media effects, a neglect of intersectional factors, an outsized influence of funding bodies and policymakers on the research agenda of the field, and an outsized impact of the field on policy and policymaking.\"\n\n== Censorship accusations ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Info-Environmentalism: An Introduction",
+          "url": "https://er.educause.edu/articles/2017/10/info-environmentalism-an-introduction"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Information Environmentalism, (2017-12-21)",
+          "url": "https://dlinq.middcreate.net/informationenvironmentalism/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Righetti, At the onset of an infodemic: Geographic and disciplinary boundaries in researching problematic COVID-19 information, (4 July 2022)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Bernstein, Bad News: Selling the story of disinformation, (9 August 2021)",
+          "url": "https://harpers.org/archive/2021/09/bad-news-selling-the-story-of-disinformation/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Adler-Bell, The Liberal Obsession With 'Disinformation' Is Not Helping, (2022-05-20)",
+          "url": "https://nymag.com/intelligencer/2022/05/the-liberal-obsession-with-disinformation-is-not-helping.html"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Camargo, Mis- and disinformation studies are too big to fail: Six suggestions for the field's future, (20 September 2022)"
+        }
+      ]
+    },
+    {
+      "id": "censorship-accusations",
+      "title": "Censorship accusations",
+      "level": 2,
+      "content": "Social media sites such as Facebook and Twitter have found themselves defending accusations of censorship for removing posts they have deemed to be misinformation. Social media censorship policies relying on government agency-issued guidance to determine information validity have garnered criticism that such policies have the unintended effect of stifling dissent and criticism of government positions and policies. Most recently, social media companies have faced criticism over allegedly prematurely censoring the discussion of the SARS-CoV 2 Lab Leak Hypothesis.\n\nOther accusations of censorship appear to stem from attempts to prevent social media consumers from self-harm through the use of unproven COVID-19 treatments. For example, in July 2020, a video went viral showing Dr. Stella Immanuel claiming hydroxychloroquine was an effective cure for COVID-19. In the video, Immanuel suggested that there was no need for masks, school closures, or any kind of economic shut down, attesting that her alleged cure was highly effective in treating those infected with the virus. The video was shared 600,000 times and received nearly 20 million views on Facebook before it was taken down for violating community guidelines on spreading misinformation. The video was also taken down on Twitter overnight, but not before former president Donald Trump shared it on his page, which was followed by over 85 million Twitter users. NIAID director Dr. Anthony Fauci and members of the World Health Organization (WHO) quickly discredited the video, citing larger-scale studies of hydroxychloroquine showing it is not an effective treatment of COVID-19, and the FDA cautioned against using it to treat COVID-19 patients following evidence of serious heart problems arising in patients who have taken the drug.\n\nAnother prominent example of misinformation removal criticized by some as an example of censorship was the New York Post report on the Hunter Biden laptops approximately two weeks before the 2020 presidential election, which was used to promote the Biden–Ukraine conspiracy theory. Social media companies quickly removed this report, and the Post's Twitter account was temporarily suspended. Over 50 intelligence officials found the disclosure of emails allegedly belonging to Joe Biden's son had all the \"classic earmarks of a Russian information operation\". Later evidence emerged that at least some of the laptop's contents were authentic.\n\n== See also ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Facebook's Lab-Leak About-Face",
+          "url": "https://www.wsj.com/articles/facebooks-lab-leak-about-face-11622154198"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Covid origin: Why the Wuhan lab-leak theory is being taken seriously, (27 May 2021)",
+          "url": "https://www.bbc.com/news/world-asia-china-57268111"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Hydroxychloroquine: Why a video promoted by Trump was pulled on social media, (2020-07-28)",
+          "url": "https://www.bbc.com/news/53559938"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Stella Immanuel – the doctor behind unproven coronavirus cure claim, (2020-07-29)",
+          "url": "https://www.bbc.com/news/world-africa-53579773"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Bertrand, Hunter Biden story is Russian disinfo, dozens of former intel officials say, (October 19, 2020)",
+          "url": "https://www.politico.com/news/2020/10/19/hunter-biden-story-russian-disinfo-430276"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Lizza, Politico Playbook: Double Trouble for Biden, (September 21, 2021)",
+          "url": "https://www.politico.com/newsletters/playbook/2021/09/21/double-trouble-for-biden-494411"
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "title": "Sources",
+      "level": 2,
+      "content": "* Cook, John, Lewandowsky, Stephan, & Ecker, Ullrich K.H. (2020). \"The Debunking Handbook 2020\". Retrieved from https://www.climatechangecommunication.org/debunking-handbook-2020/\n* Flynn, D. J., Nyhan, B., & Reifler, J. (2017). \"The Nature and Origins of Misperceptions: Understanding False and Unsupported Beliefs About Politics.\" *Political Psychology*, 38(S1), 127-150. https://doi.org/10.1111/pops.12394\n* Lazer, David M. J., Baum, Matthew A., Benkler, Yochai, Berinsky, Adam J., Greenhill, Kelly M., Menczer, Filippo, Metzger, Miriam J., Nyhan, Brendan, Pennycook, Gordon, Rothschild, David, Schudson, Michael, Sloman, Steven A., Sunstein, Cass R., Thorson, Emily A., Watts, Duncan J., & Zittrain, Jonathan L. (2018). \"The Science of Fake News.\" *Science*, 359(6380), 1094–1096. https://doi.org/10.1126/science.aao2998\n* Lewandowsky, Stephan, Ecker, Ullrich K.H., & Cook, John. (2017). \"Beyond Misinformation: Understanding and Coping with the 'Post-Truth' Era.\" *Journal of Applied Research in Memory and Cognition*, 6(4), 353-369. https://doi.org/10.1016/j.jarmac.2017.07.008\n* Tandoc, Edson C., Lim, Zheng Wei, & Ling, Richard. (2018). \"Defining 'Fake News': A Typology of Scholarly Definitions.\" *Digital Journalism*, 6(2), 137-153. https://doi.org/10.1080/21670811.2017.1360143\n* Wardle, Claire, & Derakhshan, Hossein. (2017). \"Information Disorder: Toward an Interdisciplinary Framework for Research and Policymaking.\" *Council of Europe Report*. Retrieved from https://rm.coe.int/information-disorder-toward-an-interdisciplinary-framework-for-researc/168076277c\n\n== Further reading ==",
+      "citations": []
+    }
+  ]
+}
