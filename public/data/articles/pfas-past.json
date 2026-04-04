@@ -1,14 +1,14 @@
 {
   "id": "pfas",
   "title": "PFAS",
-  "revisionDate": "2025-04-16",
-  "revisionId": "1285901239",
+  "revisionDate": "2025-10-16",
+  "revisionId": "1317199730",
   "sections": [
     {
       "id": "pfas-lead",
       "title": "Lead",
       "level": 1,
-      "content": "Per- and polyfluoroalkyl substances (also PFAS, PFASs,) are a group of synthetic organofluorine chemical compounds that have multiple fluorine atoms attached to an alkyl chain; there are 7 million such chemicals according to PubChem. PFAS came into use with the invention of Teflon in 1938 to make fluoropolymer coatings and products that resist heat, oil, stains, grease, and water. They are now used in products including waterproof fabric such as Nylon, yoga pants, carpets, shampoo, feminine hygiene products, mobile phone screens, wall paint, furniture, adhesives, food packaging, firefighting foam, and the insulation of electrical wire. PFAS are also used by the cosmetic industry in most cosmetics and personal care products, including lipstick, eye liner, mascara, foundation, concealer, lip balm, blush, and nail polish.\n\nMany PFAS such as PFOS and PFOA pose health and environmental concerns because they are persistent organic pollutants; they were branded as \"forever chemicals\" in an article in The Washington Post in 2018. Some have half-lives of over eight years due to a carbon-fluorine bond, one of the strongest in organic chemistry. They move through soils and bioaccumulate in fish and wildlife, which are then eaten by humans. Residues are now commonly found in rain, drinking water, and wastewater. Since PFAS compounds are highly mobile, they are readily absorbed through human skin and through tear ducts, and such products on lips are often unwittingly ingested. Due to the large number of PFAS, it is challenging to study and assess the potential human health and environmental risks; more research is necessary and is ongoing.\n\nExposure to PFAS, some of which have been classified as carcinogenic and/or as endocrine disruptors, has been linked to cancers such as kidney, prostate and testicular cancer, ulcerative colitis, thyroid disease, suboptimal antibody response / decreased immunity, decreased fertility, hypertensive disorders in pregnancy, reduced infant and fetal growth and developmental issues in children, obesity, dyslipidemia (abnormally high cholesterol), and higher rates of hormone interference.\n\nThe market for PFAS was estimated to be US$28 billion in 2023 and the majority are produced by 12 companies: 3M, AGC Inc., Archroma, Arkema, BASF, Bayer, Chemours, Daikin, Honeywell, Merck Group, Shandong Dongyue Chemical, and Solvay. Sales of PFAS, which cost approximately $20 per kilogram, generate a total industry profit of $4 billion per year on 16% profit margins. PFAS producers have paid billions of dollars to settle litigation claims, the largest being a $10.3 billion settlement paid by 3M for water contamination in 2023. The Nordic Council of Ministers estimated health costs to be at least €52–84 billion in the European Economic Area. In the United States, PFAS-attributable disease costs are estimated to be $6–62 billion.\n\nIn January 2025, reports stated that the cost of cleaning up toxic PFAS pollution in the UK and Europe could exceed £1.6 trillion over the next 20 years, averaging £84 billion annually.",
+      "content": "Per- and polyfluoroalkyl substances (also PFAS, PFASs,) are a group of synthetic organofluorine chemical compounds that have multiple fluorine atoms attached to an alkyl chain; there are 7 million known such chemicals according to PubChem. PFAS came into use with the invention of Teflon in 1938 to make fluoropolymer coatings and products that resist heat, oil, stains, grease, and water. They are now used in products including waterproof fabric such as nylon, yoga pants, carpets, shampoo, feminine hygiene products, mobile phone screens, wall paint, furniture, adhesives, food packaging, firefighting foam, and the insulation of electrical wires. PFAS are also used by the cosmetic industry in most cosmetics and personal care products, including lipstick, eye liner, mascara, foundation, concealer, lip balm, blush, and nail polish.\n\nMany PFAS such as PFOS and PFOA pose health and environmental concerns because they are persistent organic pollutants; they were branded as \"forever chemicals\" in an article in The Washington Post in 2018. Some have half-lives of over eight years in the body, due to a carbon-fluorine bond, one of the strongest in organic chemistry. They move through soils and bioaccumulate in fish and wildlife, which are then eaten by humans. Residues are now commonly found in rain, drinking water, and wastewater. Since PFAS compounds are highly mobile, they are readily absorbed through human skin and through tear ducts, and such products on lips are often unwittingly ingested. Due to the large number of PFAS, it is challenging to study and assess the potential human health and environmental risks; more research is necessary and is ongoing.\n\nExposure to PFAS, some of which have been classified as carcinogenic and/or as endocrine disruptors, has been linked to cancers such as kidney, prostate and testicular cancer, ulcerative colitis, thyroid disease, suboptimal antibody response / decreased immunity, decreased fertility, hypertensive disorders in pregnancy, reduced infant and fetal growth and developmental issues in children, obesity, dyslipidemia (abnormally high cholesterol), and higher rates of hormone interference.\n\nThe market for PFAS was estimated to be US$28 billion in 2023 and the majority are produced by 12 companies: 3M, AGC Inc., Archroma, Arkema, BASF, Bayer, Chemours, Daikin, Honeywell, Merck Group, Shandong Dongyue Chemical, and Solvay. Sales of PFAS, which cost approximately $20 per kilogram, generate a total industry profit of $4 billion per year on 16% profit margins. PFAS producers have paid billions of dollars to settle litigation claims, the largest being a $10.3 billion settlement paid by 3M for water contamination in 2023. The Nordic Council of Ministers estimated health costs to be at least €52–84 billion in the European Economic Area. In the United States, PFAS-attributable disease costs are estimated to be $6–62 billion.\n\nIn January 2025, reports stated that the cost of cleaning up toxic PFAS pollution in the UK and Europe could exceed £1.6 trillion over the next 20 years, averaging £84 billion annually.",
       "citations": [
         {
           "id": "cite-0",
@@ -19,13 +19,13 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Geddes, What are PFAS? Everything you need to know about the ‘forever chemicals’ surrounding us every day, (2024-05-25)",
+          "text": "Geddes, What are PFAS? Everything you need to know about the 'forever chemicals' surrounding us every day, (2024-05-25)",
           "url": "https://www.theguardian.com/environment/article/2024/may/25/what-are-pfas-everything-you-need-to-know-about-the-forever-chemicals-surrounding-us-every-day"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Can we take the ‘forever’ out of forever chemicals?, (2023-10-19)",
+          "text": "Can we take the 'forever' out of forever chemicals?, (2023-10-19)",
           "url": "https://www.bbc.com/future/article/20231016-cleaning-up-pfas-forever-chemicals"
         },
         {
@@ -328,7 +328,7 @@
       "id": "prevalence-in-rain-soil-water-bodies-and-air",
       "title": "Prevalence in rain, soil, water bodies, and air",
       "level": 3,
-      "content": "In 2022, levels of at least four perfluoroalkyl acids (PFAAs) in rain water worldwide greatly exceeded the EPA's lifetime drinking water health advisories as well as comparable Danish, Dutch, and European Union safety standards, leading to the conclusion that \"the global spread of these four PFAAs in the atmosphere has led to the planetary boundary for chemical pollution being exceeded\".\n\nIt had been thought that PFAAs would eventually end up in the oceans, where they would be diluted over decades, but a field study published in 2021 by researchers at Stockholm University found that they are often transferred from water to air when waves reach land, are a significant source of air pollution, and eventually get into rain. The researchers concluded that pollution may impact large areas.\n\nIn 2024, a worldwide study of 45,000 groundwater samples found that 31% of samples contained levels of PFAS that were harmful to human health; these samples were taken from areas not near any obvious source of contamination.\n\nSoil is also contaminated and the chemicals have been found in remote areas such as Antarctica. Soil contamination can result in higher levels of PFAs found in foods such as white rice, coffee, and animals reared on contaminated ground.\n\n===Adverse health outcomes===",
+      "content": "In 2022, levels of at least four perfluoroalkyl acids (PFAAs) in rain water worldwide greatly exceeded the EPA's lifetime drinking water health advisories as well as comparable Danish, Dutch, and European Union safety standards, leading to the conclusion that \"the global spread of these four PFAAs in the atmosphere has led to the planetary boundary for chemical pollution being exceeded\". The most common PFAS found in the environment is Trifluoroacetic acid (TFA). Its presence is ubiquitous in the environment, especially in aquatic ecosystems, where it persists with increasing concentrations globally.\n\nIt had been thought that PFAAs would eventually end up in the oceans, where they would be diluted over decades, but a field study published in 2021 by researchers at Stockholm University found that they are often transferred from water to air when waves reach land, are a significant source of air pollution, and eventually get into rain. The researchers concluded that pollution may impact large areas. Soil is also contaminated and the chemicals have been found in remote areas such as Antarctica. Soil contamination can result in higher levels of PFAS found in foods such as white rice, coffee, and animals reared on contaminated ground. In 2024, a worldwide study of 45,000 groundwater samples found that 31% of samples contained levels of PFAS that were harmful to human health; these samples were taken from areas not near any obvious source of contamination.\n\n===Adverse health outcomes===",
       "citations": [
         {
           "id": "cite-0",
@@ -338,48 +338,58 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Perkins, PFAS 'forever chemicals' constantly cycle through ground, air and water, study finds, (18 December 2021)",
-          "url": "https://www.theguardian.com/environment/2021/dec/17/pfas-forever-chemicals-constantly-cycle-through-ground-air-and-water-study-finds"
+          "text": "Arp, The Global Threat from the Irreversible Accumulation of Trifluoroacetic Acid (TFA), (2024-11-12)"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Sea Spray Aerosol (SSA) as a Source of Perfluoroalkyl Acids (PFAAs) to the Atmosphere: Field Evidence from Long-Term Air Monitoring, (January 2022)"
+          "text": "Hanson, Trifluoroacetic Acid in the Environment: Consensus, Gaps, and Next Steps, (2024-10-01)",
+          "url": "https://academic.oup.com/etc/article/43/10/2091/7829385"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Sha, Constraining global transport of perfluoroalkyl acids on sea spray aerosol using field measurements, (2024)"
+          "text": "Perkins, PFAS 'forever chemicals' constantly cycle through ground, air and water, study finds, (18 December 2021)",
+          "url": "https://www.theguardian.com/environment/2021/dec/17/pfas-forever-chemicals-constantly-cycle-through-ground-air-and-water-study-finds"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Erdenesanaa, PFAS 'Forever Chemicals' Are Pervasive in Water Worldwide, (April 8, 2024)",
-          "url": "https://www.nytimes.com/2024/04/08/climate/pfas-forever-chemicals-water.html"
+          "text": "Sea Spray Aerosol (SSA) as a Source of Perfluoroalkyl Acids (PFAAs) to the Atmosphere: Field Evidence from Long-Term Air Monitoring, (January 2022)"
         },
         {
           "id": "cite-5",
           "index": 5,
-          "text": "McGrath, Pollution: 'Forever chemicals' in rainwater exceed safe levels, (August 2, 2022)",
-          "url": "https://www.bbc.com/news/science-environment-62391069"
+          "text": "Sha, Constraining global transport of perfluoroalkyl acids on sea spray aerosol using field measurements, (2024)"
         },
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Perkins, 'I don't know how we'll survive': the farmers facing ruin in America's 'forever chemicals' crisis, (2022-03-22)",
-          "url": "https://www.theguardian.com/environment/2022/mar/22/i-dont-know-how-well-survive-the-farmers-facing-ruin-in-americas-forever-chemicals-crisis"
+          "text": "McGrath, Pollution: 'Forever chemicals' in rainwater exceed safe levels, (August 2, 2022)",
+          "url": "https://www.bbc.com/news/science-environment-62391069"
         },
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Wang, Association of diet with per- and polyfluoroalkyl substances in plasma and human milk in the New Hampshire Birth Cohort Study, (July 2024)",
-          "url": "https://doi.org/10.1016/j.scitotenv.2024.173157"
+          "text": "Perkins, 'I don't know how we'll survive': the farmers facing ruin in America's 'forever chemicals' crisis, (2022-03-22)",
+          "url": "https://www.theguardian.com/environment/2022/mar/22/i-dont-know-how-well-survive-the-farmers-facing-ruin-in-americas-forever-chemicals-crisis"
         },
         {
           "id": "cite-8",
           "index": 8,
+          "text": "Wang, Association of diet with per- and polyfluoroalkyl substances in plasma and human milk in the New Hampshire Birth Cohort Study, (July 2024)"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
           "text": "Perkins, Coffee, eggs and white rice linked to higher levels of PFAS in human body, (2024-07-04)",
           "url": "https://www.theguardian.com/environment/article/2024/jul/04/pfas-toxic-forever-chemicals-food"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Erdenesanaa, PFAS 'Forever Chemicals' Are Pervasive in Water Worldwide, (April 8, 2024)",
+          "url": "https://www.nytimes.com/2024/04/08/climate/pfas-forever-chemicals-water.html"
         }
       ]
     },
@@ -512,7 +522,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Carcinogenicity of perfluorooctanoic acid and perfluorooctanesulfonic acid, (November 2023)"
+          "text": "Carcinogenicity of perfluorooctanoic acid and perfluorooctanesulfonic acid, (November 2023)",
+          "url": "https://research.birmingham.ac.uk/en/publications/7651d868-53db-4aeb-8158-86f7c4482230"
         },
         {
           "id": "cite-1",
@@ -591,7 +602,7 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Bioconcentration and tissue distribution of perfluorinated acids in rainbow trout (Oncorhynchus mykiss), (January 2003)"
+          "text": "Bioconcentration and tissue distribution of perfluorinated acids in rainbow trout (Oncorhynchus mykiss), (August 2025)"
         },
         {
           "id": "cite-3",
@@ -799,7 +810,7 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "The \"forever chemicals\" that are harming our health: PFAS, (February 4, 2020)",
+          "text": "Heal-Admin, The \"forever chemicals\" that are harming our health: PFAS, (February 4, 2020)",
           "url": "https://www.env-health.org/the-forever-chemicals-that-are-harming-our-health-pfas/"
         },
         {
@@ -858,7 +869,7 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "[https://www.greenpeace.org/static/planet4-italy-stateless/2021/09/7818ce34-pfas-negli-alimenti-dellarea-rossa-del-veneto.pdf PFAS negli alimenti dell’area rossa del Veneto], Greenpeace.",
+          "text": "[https://www.greenpeace.org/static/planet4-italy-stateless/2021/09/7818ce34-pfas-negli-alimenti-dellarea-rossa-del-veneto.pdf PFAS negli alimenti dell'area rossa del Veneto], Greenpeace.",
           "url": "https://www.greenpeace.org/static/planet4-italy-stateless/2021/09/7818ce34-pfas-negli-alimenti-dellarea-rossa-del-veneto.pdf"
         }
       ]
@@ -881,32 +892,38 @@
       "id": "sweden",
       "title": "Sweden",
       "level": 3,
-      "content": "Highly contaminated drinking water has been detected at several locations in Sweden. Such locations include Arvidsjaur, Lulnäset, Uppsala and Visby. In 2013, PFAS were detected at high concentrations in one of the two municipality drinking water treatment plants in the town of Ronneby, in southern Sweden. Concentrations of PFHxS and PFOS were found at 1700 ng/L and 8000 ng/L, respectively. The source of contamination was later found to be a military fire-fighting exercise site in which PFAS containing fire-fighting foam had been used since the mid-1980s.\n\nAdditionally, low-level contaminated drinking water has also been shown to be a significant exposure source of PFOA, PFNA, PFHxS and PFOS for Swedish adolescents (ages 10–21). Even though the median concentrations in the municipality drinking water were below one ng/L for each individual PFAS, positive associations were found between adolescent serum PFAS concentrations and PFAS concentrations in drinking water.\n\n===United States===",
+      "content": "Sweden has up to 90 thousand areas contaminated by PFAS, which is a serious environmental issue, according to Swedish Environmental Protection Agency.\n\nHighly contaminated drinking water has been detected at several locations in Sweden. Such locations include Arvidsjaur, Lulnäset, Uppsala and Visby. In 2013, PFAS were detected at high concentrations in one of the two municipality drinking water treatment plants in the town of Ronneby, in southern Sweden. Concentrations of PFHxS and PFOS were found at 1700 ng/L and 8000 ng/L, respectively. The source of contamination was later found to be a military fire-fighting exercise site in which PFAS-containing fire-fighting foam had been used since the mid-1980s.\n\nAdditionally, low-level contaminated drinking water has also been shown to be a significant exposure source of PFOA, PFNA, PFHxS and PFOS for Swedish adolescents (ages 10–21). Even though the median concentrations in the municipality drinking water were below one ng/L for each individual PFAS, positive associations were found between adolescent serum PFAS concentrations and PFAS concentrations in drinking water.\n\n===United States===",
       "citations": [
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Influence of contaminated drinking water on perfluoroalkyl acid levels in human serum--A case study from Uppsala, Sweden, (July 2015)"
+          "text": "Stort antal potentiellt PFAS-förorenade områden i Sverige, (2024-04-08)",
+          "url": "https://www.naturvardsverket.se/om-oss/aktuellt/nyheter-och-pressmeddelanden/2024/april/stort-antal-potentiellt-pfas-fororenade-omraden-i-sverige/"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Johanson, Quantitative relationships of perfluoroalkyl acids in drinking water associated with serum concentrations above background in adults living near contamination hotspots in Sweden, (February 2023)"
+          "text": "Influence of contaminated drinking water on perfluoroalkyl acid levels in human serum--A case study from Uppsala, Sweden, (July 2015)"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Jakobsson, Exponering för perfluorerade ämnen (PFAS) i dricksvatten i Ronneby kommun, (June 12, 2014)",
-          "url": "https://sodrasjukvardsregionen.se/download/exponering-for-perfluorerade-amnen-pfas-i-dricksvatten-i-ronneby-kommun/?wpdmdl=2485&refresh=5fc8b036ccf3e1606987830"
+          "text": "Johanson, Quantitative relationships of perfluoroalkyl acids in drinking water associated with serum concentrations above background in adults living near contamination hotspots in Sweden, (February 2023)"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Li, Determinants of serum half-lives for linear and branched perfluoroalkyl substances after long-term high exposure-A study in Ronneby, Sweden, (May 2022)"
+          "text": "Jakobsson, Exponering för perfluorerade ämnen (PFAS) i dricksvatten i Ronneby kommun, (June 12, 2014)",
+          "url": "https://sodrasjukvardsregionen.se/download/exponering-for-perfluorerade-amnen-pfas-i-dricksvatten-i-ronneby-kommun/?wpdmdl=2485&refresh=5fc8b036ccf3e1606987830"
         },
         {
           "id": "cite-4",
           "index": 4,
+          "text": "Li, Determinants of serum half-lives for linear and branched perfluoroalkyl substances after long-term high exposure-A study in Ronneby, Sweden, (May 2022)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
           "text": "Nyström-Kandola, Low concentrations of perfluoroalkyl acids (PFAAs) in municipal drinking water associated with serum PFAA concentrations in Swedish adolescents, (October 2023)"
         }
       ]
@@ -950,7 +967,7 @@
           "id": "cite-5",
           "index": 5,
           "text": "Basic Information on PFAS, (30 March 2016)",
-          "url": "https://www.epa.gov/pfas/basic-information-pfas"
+          "url": "https://www.epa.gov/pfas/pfas-explained"
         },
         {
           "id": "cite-6",
@@ -979,7 +996,7 @@
         {
           "id": "cite-10",
           "index": 10,
-          "text": "WSJ, ‘Forever Chemicals’ Fight Heats Up in Kitchens",
+          "text": "WSJ, 'Forever Chemicals' Fight Heats Up in Kitchens",
           "url": "https://www.wsj.com/business/forever-chemicals-fight-heats-up-in-kitchens-71555653"
         }
       ]
@@ -1014,7 +1031,7 @@
           "id": "cite-0",
           "index": 0,
           "text": "Drinking Water Health Advisories for PFOA and PFOS, (December 9, 2020)",
-          "url": "https://www.epa.gov/ground-water-and-drinking-water/drinking-water-health-advisories-pfoa-and-pfos"
+          "url": "https://www.epa.gov/sdwa/past-pfoa-and-pfos-health-effects-science-documents"
         },
         {
           "id": "cite-1",
@@ -1060,7 +1077,7 @@
           "id": "cite-8",
           "index": 8,
           "text": "Risk Assessment of Pollutants in Biosolids, (May 3, 2022)",
-          "url": "https://www.epa.gov/biosolids/risk-assessment-pollutants-biosolids"
+          "url": "https://www.epa.gov/biosolids/risk-assessment-pollutants-sewage-sludge"
         },
         {
           "id": "cite-9",
@@ -1127,7 +1144,7 @@
       "id": "legal-actions",
       "title": "Legal actions",
       "level": 4,
-      "content": "In February 2017, DuPont and Chemours (a DuPont spin-off) agreed to pay $671 million to settle lawsuits arising from 3,550 personal injury claims related to the releasing of PFASs from their Parkersburg, West Virginia, plant into the drinking water of several thousand residents. This was after a court-created independent scientific panel—the C8 Science Panel—found a \"probable link\" between C8 exposure and six illnesses: kidney and testicular cancer, ulcerative colitis, thyroid disease, pregnancy-induced hypertension and high cholesterol. The story is told in the film Dark Waters.\n\nIn June 2023, 3M reached a US$10.3 billion settlement with several US public water providers to resolve water pollution claims tied to PFAS, while Chemours, DuPont and Corteva settled similar claims for $1.19 billion.\n\nIn December 2023, as part of a four-year legal battle, the EPA banned Inhance, a Houston, Texas-based manufacturer that produces an estimated 200 million containers annually with a process that creates PFOA, from using the manufacturing process. In March 2024, the United States Court of Appeals for the Fifth Circuit overturned the ban. While the court did not deny the containers’ health risks, it said that the EPA could not regulate the manufactured containers under Toxic Substances Control Act of 1976, which only addresses \"new\" chemicals.\n\n====State actions====",
+      "content": "In February 2017, DuPont and Chemours (a DuPont spin-off) agreed to pay $671 million to settle lawsuits arising from 3,550 personal injury claims related to the releasing of PFASs from their Parkersburg, West Virginia, plant into the drinking water of several thousand residents. This was after a court-created independent scientific panel—the C8 Science Panel—found a \"probable link\" between C8 exposure and six illnesses: kidney and testicular cancer, ulcerative colitis, thyroid disease, pregnancy-induced hypertension and high cholesterol. The story is told in the film Dark Waters.\n\nIn June 2023, 3M reached a US$10.3 billion settlement with several US public water providers to resolve water pollution claims tied to PFAS, while Chemours, DuPont and Corteva settled similar claims for $1.19 billion.\n\nIn December 2023, as part of a four-year legal battle, the EPA banned Inhance, a Houston, Texas-based manufacturer that produces an estimated 200 million containers annually with a process that creates PFOA, from using the manufacturing process. In March 2024, the United States Court of Appeals for the Fifth Circuit overturned the ban. While the court did not deny the containers' health risks, it said that the EPA could not regulate the manufactured containers under Toxic Substances Control Act of 1976, which only addresses \"new\" chemicals.\n\n====State actions====",
       "citations": [
         {
           "id": "cite-0",
@@ -1203,7 +1220,7 @@
       "id": "california",
       "title": "California",
       "level": 5,
-      "content": "In 2021 California banned PFASs for use in food packaging and from infant and children's products and also required PFAS cookware in the state to carry a warning label.\n\n=====Maine=====",
+      "content": "In 2021, California banned PFASs for use in food packaging and from infant and children's products and also required PFAS cookware in the state to carry a warning label.\n\n=====Maine=====",
       "citations": [
         {
           "id": "cite-0",
@@ -1237,7 +1254,7 @@
       "id": "michigan",
       "title": "Michigan",
       "level": 5,
-      "content": "The Michigan PFAS Action Response Team (MPART) was launched in 2017 and is the first multi-agency action team of its kind in the nation. Agencies representing health, environment, and other branches of state government have joined together to investigate sources and locations of PFAS contamination in the state, take action to protect people's drinking water, and keep the public informed. Groundwater is tested at locations throughout the state by various parties to ensure safety, compliance with regulations, and proactively detect and remedy potential problems. In 2010, the Michigan Department of Environmental Quality (MDEQ) discovered levels of PFASs in groundwater monitoring wells at the former Wurtsmith Air Force Base. In 2024, citizen-led testing near the base in Oscoda discovered high levels of PFAS in foam along the shore of Lake Huron. As additional information became available from other national testing, Michigan expanded its investigations into other locations where PFAS compounds were potentially used. In 2018, the MDEQ's Remediation and Redevelopment Division (RRD) established cleanup criteria for groundwater used as drinking water of 70 ppt of PFOA and PFOS, individually or combined. The RRD staff are responsible for implementing these criteria as part of their ongoing efforts to clean up sites of environmental contamination. The RRD staff are the lead investigators at most of the PFAS sites on the MPART website and also conduct interim response activities, such as coordinating bottled water or filter installations with local health departments at sites under investigation or with known PFAS concerns. Most of the groundwater sampling at PFAS sites under RRD's lead is conducted by contractors familiar with PFAS sampling techniques. The RRD also has a Geologic Services Unit, with staff who install monitoring wells and are also well versed with PFAS sampling techniques. The MDEQ has been conducting environmental clean-up of regulated contaminants for decades. Due to the evolving nature of PFAS regulations as new science becomes available, the RRD is evaluating the need for regular PFAS sampling at Superfund sites and is including an evaluation of PFAS sampling needs as part of a Baseline Environmental Assessment review. Earlier in 2018, the RRD purchased lab equipment that will allow the MDEQ Environmental Lab to conduct analyses of certain PFAS samples. (Currently, most samples are shipped to one of the few labs in the country that conduct PFAS analysis, in California, although private labs in other parts of the country, including Michigan, are starting to offer these services.) As of August 2018, RRD has hired additional staff to work on developing the methodology and conducting PFAS analyses.\n\nIn 2020 Michigan Attorney General Dana Nessel filed a lawsuit against 17 companies, including 3M, Chemours, and DuPont, for hiding known health and environmental risks from the state and its residents. Nessel's complaint identifies 37 sites with known contamination. The Michigan Department of Environment, Great Lakes, and Energy introduced some of the strictest drinking water standards in the country for PFAS, setting maximum contaminant levels (MCLs) for PFOA and PFOS to 8 and 16 ppt respectively (down from previous existing groundwater cleanup standards of 70 ppt for both), and introducing MCLs for five other previously unregulated PFAS compounds, limiting PFNA to six ppt, PFHxA to 400,000 ppt, PFHxS to 51 ppt, PFBS to 420 ppt and HFPO-DA to 370 ppt. The change adds 38 additional sites to the state's list of known PFAS contaminated areas, bringing the total number of known sites to 137. About half of these sites are landfills and 13 are former plating facilities.\n\nIn 2022 PFOS was found in beef produced at a Michigan farm: the cattle had been fed crops fertilized with contaminated biosolids. State agencies issued a consumption advisory, but did not order a recall, because there currently is no PFOS contamination in beef government standards.\n\nA 2024 study found that \"atmospheric deposition could be a significant environmental pathway, particularly for the Great Lakes.\"\n\n=====Minnesota=====",
+      "content": "The Michigan PFAS Action Response Team (MPART) was launched in 2017 and is the first multi-agency action team of its kind in the nation. Agencies representing health, environment, and other branches of state government have joined to investigate sources and locations of PFAS contamination in the state, take action to protect people's drinking water, and keep the public informed. Groundwater is tested at locations throughout the state by various parties to ensure safety, compliance with regulations, and proactively detect and remedy potential problems. In 2010, the Michigan Department of Environmental Quality (MDEQ) discovered levels of PFASs in groundwater monitoring wells at the former Wurtsmith Air Force Base. In 2024, citizen-led testing near the base in Oscoda discovered high levels of PFAS in foam along the shore of Lake Huron. As additional information became available from other national testing, Michigan expanded its investigations into other locations where PFAS compounds were potentially used. In 2018, the MDEQ's Remediation and Redevelopment Division (RRD) established cleanup criteria for groundwater used as drinking water of 70 ppt of PFOA and PFOS, individually or combined. The RRD staff are responsible for implementing these criteria as part of their ongoing efforts to clean up sites of environmental contamination. The RRD staff are the lead investigators at most of the PFAS sites on the MPART website and also conduct interim response activities, such as coordinating bottled water or filter installations with local health departments at sites under investigation or with known PFAS concerns. Most of the groundwater sampling at PFAS sites under RRD's lead is conducted by contractors familiar with PFAS sampling techniques. The RRD also has a Geologic Services Unit, with staff who install monitoring wells and are also well versed with PFAS sampling techniques. The MDEQ has been conducting environmental clean-up of regulated contaminants for decades. Due to the evolving nature of PFAS regulations as new science becomes available, the RRD is evaluating the need for regular PFAS sampling at Superfund sites and is including an evaluation of PFAS sampling needs as part of a Baseline Environmental Assessment review. Earlier in 2018, the RRD purchased lab equipment that will allow the MDEQ Environmental Lab to conduct analyses of certain PFAS samples. (Currently, most samples are shipped to one of the few labs in the country that conduct PFAS analysis, in California, although private labs in other parts of the country, including Michigan, are starting to offer these services.) As of August 2018, RRD has hired additional staff to work on developing the methodology and conducting PFAS analyses.\n\nIn 2020 Michigan Attorney General Dana Nessel filed a lawsuit against 17 companies, including 3M, Chemours, and DuPont, for hiding known health and environmental risks from the state and its residents. Nessel's complaint identifies 37 sites with known contamination. The Michigan Department of Environment, Great Lakes, and Energy introduced some of the strictest drinking water standards in the country for PFAS, setting maximum contaminant levels (MCLs) for PFOA and PFOS to 8 and 16 ppt respectively (down from previous existing groundwater cleanup standards of 70 ppt for both), and introducing MCLs for five other previously unregulated PFAS compounds, limiting PFNA to six ppt, PFHxA to 400,000 ppt, PFHxS to 51 ppt, PFBS to 420 ppt and HFPO-DA to 370 ppt. The change adds 38 additional sites to the state's list of known PFAS contaminated areas, bringing the total number of known sites to 137. About half of these sites are landfills and 13 are former plating facilities.\n\nIn 2022 PFOS was found in beef produced at a Michigan farm: the cattle had been fed crops fertilized with contaminated biosolids. State agencies issued a consumption advisory, but did not order a recall, because there currently is no PFOS contamination in beef government standards.\n\nA 2024 study found that \"atmospheric deposition could be a significant environmental pathway, particularly for the Great Lakes.\"\n\n=====Minnesota=====",
       "citations": [
         {
           "id": "cite-0",
@@ -1321,7 +1338,7 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Keilman, ‘Forever Chemicals’ Fight Heats Up in Kitchens, (February 12, 2025)",
+          "text": "Keilman, 'Forever Chemicals' Fight Heats Up in Kitchens, (February 12, 2025)",
           "url": "https://www.wsj.com/business/forever-chemicals-fight-heats-up-in-kitchens-71555653"
         }
       ]
@@ -1330,7 +1347,7 @@
       "id": "new-jersey",
       "title": "New Jersey",
       "level": 5,
-      "content": "In 2018 the New Jersey Department of Environmental Protection (NJDEP) published a drinking water standard for PFNA. Public water systems in New Jersey are required to meet an MCL standard of 13 ppt. In 2020 the state set a PFOA standard at 14 ppt and a PFOS standard at 13 ppt.\n\nIn 2019 NJDEP filed lawsuits against the owners of two plants that had manufactured PFASs, and two plants that were cited for water pollution from other chemicals. The companies cited are DuPont, Chemours, and 3M. NJDEP also declared five companies to be financially responsible for statewide remediation of the chemicals. Among the companies accused were Arkema and Solvay regarding a West Deptford Facility in Gloucester County, where Arkema manufactured PFASs, but Solvay claims to have never manufactured but only handled PFASs. The companies denied liability and contested the directive. In June 2020, the EPA and NJDEO published a paper reporting that a unique family of PFAS used by Solvay, chloroperfluoropolyether carboxylates (ClPFPECAs), were contaminating the soils of New Jersey as far from the Solvay facility as 150 km. and the ClPFPECAs were found in water as well.\n\nLater in 2020, the New Jersey state attorney general filed suit in the New Jersey Superior Court against Solvay regarding PFAS contamination of the state's environment. In May 2021, Solvay issued a press release that the company is \"discontinuing the use of fluorosurfactants in the U.S.\".\n\n=====New York=====",
+      "content": "In 2018 the New Jersey Department of Environmental Protection (NJDEP) published a drinking water standard for PFNA. Public water systems in New Jersey are required to meet an MCL standard of 13 ppt. In 2020 the state set a PFOA standard at 14 ppt and a PFOS standard at 13 ppt.\n\nIn 2019 NJDEP filed lawsuits against the owners of two plants that had manufactured PFASs, and two plants that were cited for water pollution from other chemicals. The companies cited are DuPont, Chemours, and 3M. NJDEP also declared five companies to be financially responsible for statewide remediation of the chemicals. Among the companies accused were Arkema and Solvay regarding a West Deptford Facility in Gloucester County, where Arkema manufactured PFASs, but Solvay claims to have never manufactured but only handled PFASs. The companies denied liability and contested the directive. In June 2020, the EPA and NJDEO published a paper reporting that a unique family of PFAS used by Solvay, chloroperfluoropolyether carboxylates (ClPFPECAs), were contaminating the soils of New Jersey as far from the Solvay facility as 150 km. and the ClPFPECAs were found in water as well.\n\nLater in 2020, the New Jersey state attorney general filed suit in the New Jersey Superior Court against Solvay regarding PFAS contamination of the state's environment. In May 2021, Solvay issued a press release that the company is \"discontinuing the use of fluorosurfactants in the U.S.\".\n\nIn August 2025, DuPont agreed to a 2 billion dollars settlement to clean up New Jersey industrial sites that  contaminated with PFAS.\n\n=====New York=====",
       "citations": [
         {
           "id": "cite-0",
@@ -1388,6 +1405,18 @@
           "index": 9,
           "text": "Solvay Launches Non-Fluorosurfactant Technologies in the U.S., (May 5, 2021)",
           "url": "https://www.solvay.com/en/press-release/solvay-launches-non-fluorosurfactant-technologies-in-us"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "{{|url=https://www.democracynow.org/2025/8/8/forever_chemicals |work=Democracy Now! |archive-url=https://archive.today/20250921212853/https://www.democracynow.org/2025/8/8/forever_chemicals |archive-date=September 21, 2025 |language=en}}",
+          "url": "https://www.democracynow.org/2025/8/8/forever_chemicals"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Biryukov, NJ reaches $2B proposed settlement over DuPont contamination • New Jersey Monitor, (4 August 2025)",
+          "url": "https://newjerseymonitor.com/2025/08/04/nj-reaches-2b-proposed-settlement-over-dupont-contamination/"
         }
       ]
     },
@@ -1655,7 +1684,7 @@
       "id": "food-and-consumer-goods",
       "title": "Food and consumer goods",
       "level": 3,
-      "content": "PFASs were found in many plant-based straws, such as paper straws.\n\n==Remediation==",
+      "content": "PFASs were found in many plant-based straws, such as paper straws. In 2025, PFAS compounds were detected in beer, and in some cases PFAS levels exceeded the EPA Maximum Contaminant Limit. Elevated levels of PFAS in the beers tested were found to correlate with elevated levels of PFAS in the brewery's municipal water supplies.\n\n==Remediation==",
       "citations": [
         {
           "id": "cite-0",
@@ -1666,6 +1695,12 @@
           "id": "cite-1",
           "index": 1,
           "text": "Boisacq, Assessment of poly- and perfluoroalkyl substances (PFAS) in commercially available drinking straws using targeted and suspect screening approaches, (24 August 2023)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Hoponick Redmon, Hold My Beer: The Linkage between Municipal Water and Brewing Location on PFAS in Popular Beverages, (2025)",
+          "url": "https://pubs.acs.org/doi/10.1021/acs.est.4c11265"
         }
       ]
     },
@@ -1685,8 +1720,7 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Bertucci, Exploring Solar Energy Solutions for Per- and Polyfluoroalkyl Substances Degradation: Advancements and Future Directions in Photocatalytic Processes, (May 2024)",
-          "url": "https://onlinelibrary.wiley.com/doi/10.1002/solr.202400116"
+          "text": "Bertucci, Exploring Solar Energy Solutions for Per- and Polyfluoroalkyl Substances Degradation: Advancements and Future Directions in Photocatalytic Processes, (May 2024)"
         },
         {
           "id": "cite-1",
@@ -1781,7 +1815,7 @@
       "id": "chemical-treatment",
       "title": "Chemical treatment",
       "level": 3,
-      "content": "A study published in Science in August 2022 indicated that perfluoroalkyl carboxylic acids (PFCAs) can be mineralized via heating in a polar aprotic solvent such as dimethyl sulfoxide. Heating PFCAs in an 8 to 1 mixture of dimethyl sulfoxide and water at  in the presence of sodium hydroxide caused the removal of the carboxylic acid group at the end of the carbon chain, creating a perfluoroanion that mineralizes into sodium fluoride and other salts such as sodium trifluoroacetate, formate, carbonate, oxalate, and glycolate. The process does not work on perfluorosulfonic acids such as PFOS. A 2022 study published in Chemical Science shows breakdown of C-F bonds and their mineralization as YF3 or YF6 clusters. Another study in the Journal of the American Chemical Society described the PFASs breakdown using metal-organic frameworks (MOFs).\n\n==Analytical methods==",
+      "content": "A study published in Science in August 2022 indicated that perfluoroalkyl carboxylic acids (PFCAs) can be mineralized via heating in a polar aprotic solvent such as dimethyl sulfoxide. Heating PFCAs in an 8 to 1 mixture of dimethyl sulfoxide and water at  in the presence of sodium hydroxide caused the removal of the carboxylic acid group at the end of the carbon chain, creating a perfluoroanion that mineralizes into sodium fluoride and other salts such as sodium trifluoroacetate, formate, carbonate, oxalate, and glycolate. The process does not work on perfluorosulfonic acids such as PFOS. A 2022 study published in Chemical Science shows breakdown of C-F bonds and their mineralization as YF3 or YF6 clusters. Another study in the Journal of the American Chemical Society described the PFASs breakdown using metal-organic frameworks (MOFs).\n\n=== Constructed Wetlands ===",
       "citations": [
         {
           "id": "cite-0",
@@ -1797,6 +1831,36 @@
           "id": "cite-2",
           "index": 2,
           "text": "Integrated Photocatalytic Reduction and Oxidation of Perfluorooctanoic Acid by Metal-Organic Frameworks: Key Insights into the Degradation Mechanisms, (July 2022)"
+        }
+      ]
+    },
+    {
+      "id": "constructed-wetlands",
+      "title": "Constructed Wetlands",
+      "level": 3,
+      "content": "Constructed wetlands (CW) are planted, saturated areas designed to mimic natural processes of human benefit, most commonly waste or stormwater management. Removal of contaminants occurs by processes of plant-uptake, adherence to substrates, microbial degradation, and UV exposure. The recent public concern towards PFAS chemicals has sparked research efforts towards CWs as a treatment method for wastewater, stormwater, and landfill leachate. Granular Activated Carbon has the highest average removal rate as a substrate, with Biochar as a low cost and environmentally friendlier alternative. Magnetite and quartz sand mixes have been shown to be preferable in certain applications. Overall performance of the wetland is a balance between its hydraulic loading rate and retention time. Beneficial plant species for PFAS uptake are characterized by having a high root surface area, high protein content, are easily harvested, and degrade slowly in nature. Some species are E. Crassipes, C. alternifolius, and C. demersum. Final removal is normally done by harvesting of mature plants.\n\nBiodegradation is limited to the strong C-F bonds that characterize PFAS molecules. In experiments Acidimicroium Bacterium - A6 has shown the ability to detoxify waters. Rhizobacer Burkolderia, Nirosomans Nitrospia, and Opitutus can strip fluorine atoms from the central carbon chain in iron mineral-based wetlands. The introduction of a 1:2 gravel magnetite mix can increase the CW's biological ability to degrade PFAS. Several fungi have effectively degraded PFAS in isolated experiments. A primary concern of managing PFAS with CWs is the high concentration of exposure pathways to fauna.\n\nMachine learning based neural networks have demonstrated superior efficiency in modeling emerging contaminant removal when there is limited knowledge on chemical specific properties.\n\n==Analytical methods==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Awad, Long-term management of PFAS contaminated water using constructed floating wetlands: Opportunities, limitations, and implementation considerations, (2024-12-16)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "US EPA, Constructed Wetlands, (2015-09-23)",
+          "url": "https://www.epa.gov/wetlands/constructed-wetlands"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Savvidou, Constructed wetlands as nature-based solutions in managing per-and poly-fluoroalkyl substances (PFAS): Evidence, mechanisms, and modelling, (2024-07-15)",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0048969724033849"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Amen, A Critical Review on PFAS Removal from Water: Removal Mechanism and Future Challenges, (2023-11-21)"
         }
       ]
     },
@@ -1840,7 +1904,7 @@
       "id": "sample-chemicals",
       "title": "Sample chemicals",
       "level": 2,
-      "content": "Some common per- and polyfluoroalkyl substances include:\n\n* Polytetrafluoroethylene (aka PTFE or Teflon)\n* Perfluoroalkyl carboxylic acids (PFCAs)\n* Perfluorosulfonic acids (PFSAs)\n* Fluorotelomers (FTOHs)\n{| class=\"wikitable sortable plainrowheaders\"\n|-\n!scope=\"col\" style=\"width:13em;\"| Name\n!scope=\"col\"| Abbreviation\n!scope=\"col\"| Structural formula\n!scope=\"col\"| Molecular weight (g/mol)\n!scope=\"col\"| CAS No.\n|-\n!scope=\"row\"| Perfluorobutane sulfonamide\n| H-FBSA\n| C4F9SO2NH2\n| 299.12\n| 30334-69-1\n|-\n!scope=\"row\"| Perfluoropentanesulfonamide\n| PFPSA\n| C5F11SO2NH2\n| 349.12\n| 82765-76-2\n|-\n!scope=\"row\"| Perfluorohexanesulfonamide\n| PFHxSA\n| C6F13SO2NH2\n| 399.13\n| 41997-13-1\n|-\n!scope=\"row\"| Perfluoroheptanesulfonamide\n| PFHpSA\n| C7F15SO2NH2\n| 449.14\n| 82765-77-3\n|-\n!scope=\"row\"| Perfluorooctanesulfonamide\n| PFOSA\n| C8F17SO2NH2\n| 499.14\n| 754-91-6\n|-\n!scope=\"row\"| Perfluorobutanesulfonyl fluoride\n| PFBSF\n| C4F9SO2F\n| 302.09\n| 375-72-4\n|-\n!scope=\"row\"| Perfluorooctanesulfonyl fluoride\n| PFOSF\n| C8F17SO2F\n| 502.12\n| 307-35-7\n|}\n\n==Litigation and settlements==",
+      "content": "Some common per- and polyfluoroalkyl substances include:\n\n* Polytetrafluoroethylene (aka PTFE or Teflon)\n* Perfluoroalkyl carboxylic acids (PFCAs)\n* Perfluorosulfonic acids (PFSAs)\n* Perfluorodecanesulfonic acid (PFDS)\n* Fluorotelomers (FTOHs)\n* Trifluoroacetic acid (TFA)\n{| class=\"wikitable sortable plainrowheaders\"\n|-\n!scope=\"col\" style=\"width:13em;\"| Name\n!scope=\"col\"| Abbreviation\n!scope=\"col\"| Structural formula\n!scope=\"col\"| Molecular weight (g/mol)\n!scope=\"col\"| CAS No.\n|-\n!scope=\"row\"| Perfluorobutane sulfonamide\n| H-FBSA\n| C4F9SO2NH2\n| 299.12\n| 30334–69–1\n|-\n!scope=\"row\"| Perfluoropentanesulfonamide\n| PFPSA\n| C5F11SO2NH2\n| 349.12\n| 82765–76–2\n|-\n!scope=\"row\"| Perfluorohexanesulfonamide\n| PFHxSA\n| C6F13SO2NH2\n| 399.13\n| 41997–13–1\n|-\n!scope=\"row\"| Perfluoroheptanesulfonamide\n| PFHpSA\n| C7F15SO2NH2\n| 449.14\n| 82765–77–3\n|-\n!scope=\"row\"| Perfluorooctanesulfonamide\n| PFOSA\n| C8F17SO2NH2\n| 499.14\n| 754–91–6\n|-\n!scope=\"row\"| Perfluorobutanesulfonyl fluoride\n| PFBSF\n| C4F9SO2F\n| 302.09\n| 375–72–4\n|-\n!scope=\"row\"| Perfluorooctanesulfonyl fluoride\n| PFOSF\n| C8F17SO2F\n| 502.12\n| 307–35–7\n|}\n\n==Litigation and settlements==",
       "citations": [
         {
           "id": "cite-0",
@@ -1852,7 +1916,7 @@
           "id": "cite-1",
           "index": 1,
           "text": "ORD subset of PFAS with ongoing work methods; CompTox Chemicals Dashboard, (March 11, 2019)",
-          "url": "https://www.epa.gov/sites/production/files/2019-05/documents/pfas_research_list.pdf"
+          "url": "https://www.epa.gov/sites/default/files/2019-05/documents/pfas_research_list.pdf"
         }
       ]
     },
@@ -1865,7 +1929,7 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "‘Just the start’: The growing legal battle over PFAS in Europe, (2024-06-26)",
+          "text": "'Just the start': The growing legal battle over PFAS in Europe, (2024-06-26)",
           "url": "https://chemsec.org/just-the-start-the-growing-legal-battle-over-pfas-in-europe/"
         },
         {

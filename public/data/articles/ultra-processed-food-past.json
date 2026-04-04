@@ -1,8 +1,8 @@
 {
   "id": "ultra-processed-food",
   "title": "Ultra-processed food",
-  "revisionDate": "2025-04-02",
-  "revisionId": "1283556375",
+  "revisionDate": "2025-09-14",
+  "revisionId": "1311311466",
   "sections": [
     {
       "id": "ultra-processed-food-lead",
@@ -314,7 +314,7 @@
       "id": "health-effects",
       "title": "Health effects",
       "level": 2,
-      "content": "The effect of ultra-processed foods on health has mainly been investigated using nutritional epidemiology and so far there has been no randomized controlled trial to investigate the effect of these foods on any health outcome other than weight gain.{{efn|The one often-cited RCT on UPF, energy intake, and weight gain does not control for macronutrient profile and therefore calorie density. Calorie density is known to have a strong effect on weight gain.although studies separating different types of ultra-processed food have found adverse effects mainly for only some sub-groups such as soft drinks and animal products, with some sub-groups such as cereals showing an inverse effect. Another study proposed that food addiction may also be associated with consumption of ultra-processed foods. There is currently however no scientific consensus.\n\n== Environmental impact ==",
+      "content": "The effect of ultra-processed foods on health has mainly been investigated using nutritional epidemiology and so far there has been no randomized controlled trial to investigate the effect of these foods on any health outcome other than weight gain.{{efn|The one often-cited RCT on UPF, energy intake, and weight gain does not control for macronutrient profile and therefore calorie density. Calorie density is known to have a strong effect on weight gain.although studies separating different types of ultra-processed food have found adverse effects mainly for only some sub-groups such as soft drinks and animal products, with some sub-groups such as cereals showing an inverse effect. Another study proposed that food addiction may also be associated with consumption of ultra-processed foods. There is currently however no scientific consensus.\n\nUPF tend to be low in fiber and high in calories, salt, added sugar and fat, which are all related to poor health outcomes when eaten excessively. Common examples include packaged snacks, soft drinks, ready meals, and processed meats.\n\nUltra-processed diets promote overeating and weight gain, largely due to soft texture, high energy density and hyper-palatable nutrient combinations that alter satiety and food-reward.\n\n=== Obesity and weight gain ===",
       "citations": [
         {
           "id": "cite-0",
@@ -345,8 +345,140 @@
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Nichols, Beyond the Headlines: Unpacking the Truth About \"Ultra-Processed\" Foods and Health, (2024-05-20)",
-          "url": "https://consumerbrandsassociation.org/blog/beyond-the-headlines-unpacking-the-truth-about-ultra-processed-foods-and-health/"
+          "text": "Ultra-processed foods are associated with increased risk of cancer and cardiometabolic multimorbidity",
+          "url": "https://www.iarc.who.int/news-events/ultra-processed-foods-are-associated-with-increased-risk-of-cancer-and-cardiometabolic-multimorbidity/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Juul, The role of ultra-processed food in obesity, (2025-07-14)",
+          "url": "https://doi.org/10.1038/s41574-025-01143-7"
+        }
+      ]
+    },
+    {
+      "id": "obesity-and-weight-gain",
+      "title": "Obesity and weight gain",
+      "level": 3,
+      "content": "Ultra-processed foods are designed to be highly palatable, typically combining high levels of sugar, fat, and salt to enhance flavor and texture. These foods often lack fiber and protein, which are essential for promoting the feeling of fullness and help regulate appetite.\n\n can affect the human body, including headaches, depression, acne, dental distress, heart disease or stroke, shortness of breath, high cholesterol, high blood pressure, weight gain, blood sugar spike, extra calories, insulin resistance, and bloating and puffiness.|A diagram displaying the impact of fast food, a common ultra-processed food, on the human body.]]\n\n=== Cancer ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Fiolet, Ultra-processed food consumption and risk of type 2 diabetes, (2018)",
+          "url": "https://www.bmj.com/content/360/bmj.k322"
+        }
+      ]
+    },
+    {
+      "id": "cancer",
+      "title": "Cancer",
+      "level": 3,
+      "content": "A 2023 review indicated that people who consume 10% more ultra-processed foods have an increased risk of various cancers, including colorectal, breast, and pancreatic cancer.\n\n=== Diabetes ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Ultra-processed food consumption and cancer risk, (June 2023)"
+        }
+      ]
+    },
+    {
+      "id": "diabetes",
+      "title": "Diabetes",
+      "level": 3,
+      "content": "A 2023 meta-analysis of 415,554 participants found that each 10% increase in ultra-processed food consumption led to a 12% higher risk for type 2 diabetes.\n\nSome specific types of ultra-processed foods that have been associated with higher risk of type 2 diabetes include refined breads, sauces, spreads, condiments, artificially and sugar-sweetened beverages, animal-based products, and ready-to-eat mixed dishes.\n\n=== Heart and cardiovascular disease ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Chen, Ultra-Processed Food Consumption and Risk of Type 2 Diabetes: Three Large Prospective U.S. Cohort Studies, (28 February 2023)",
+          "url": "https://diabetesjournals.org/care/article/46/7/1335/148548/Ultra-Processed-Food-Consumption-and-Risk-of-Type"
+        }
+      ]
+    },
+    {
+      "id": "heart-and-cardiovascular-disease",
+      "title": "Heart and cardiovascular disease",
+      "level": 3,
+      "content": "Ultra-processed foods often contain trans fats and high levels of saturated fats, which can raise LDL cholesterol (bad cholesterol) levels and lower HDL cholesterol (good cholesterol) levels. Elevated LDL cholesterol is a major risk factor for atherosclerosis, a condition that can lead to heart attacks, strokes, and cardiovascular disease. The high content of added sugars in many ultra-processed foods can lead to obesity, inflammation, and high blood pressure, all of which are risk factors for heart and cardiovascular disease. Ultra-processed foods often contain excessive amounts of sodium, which if consumed too often can lead to high blood pressure, a major risk factor for heart disease.\n\nA 2024 meta-analysis found that participants with the highest consumption of UPF had a 17% increased risk of cardiovascular disease compared to those with the lowest consumption.\n\nHealth organizations worldwide, such as the World Health Organization and the American Heart Association, recommend reducing the intake of ultra-processed foods to lower the risk of heart disease, advocating for diets rich in fruits, vegetables, whole grains, and lean proteins to promote heart health and prevent cardiovascular disease.\n\n=== Association with all-cause mortality ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Mozaffarian, Cholesterol levels and cardiovascular disease, (13 April 2006)",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMra054035"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Lu, Cholesterol and cardiovascular disease, (2022)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Yang, Added sugars and heart disease, (April 2014)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Ultra-processed foods and heart disease",
+          "url": "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/news/behind-the-headlines/ultra-processed-foods"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Greka, Sodium intake and heart disease, (2011)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Mendoza, Ultra-processed foods and cardiovascular disease: analysis of three large US prospective cohorts and a systematic review and meta-analysis of prospective cohort studies, (2024-09-01)"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Spotlight on UPFs: NIH explores link between ultra-processed foods and heart disease {{!, (2025-03-05)",
+          "url": "https://www.nhlbi.nih.gov/news/2025/spotlight-upfs-nih-explores-link-between-ultra-processed-foods-and-heart-disease"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Healthy diet",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "AHA diet and lifestyle recommendations",
+          "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/aha-diet-and-lifestyle-recommendations"
+        }
+      ]
+    },
+    {
+      "id": "association-with-all-cause-mortality",
+      "title": "Association with all-cause mortality",
+      "level": 3,
+      "content": "A 2025 meta-analysis found that participants with the highest consumption of UPF had a 15% increased risk of all-cause mortality compared to those with the lowest consumption, also observing a 10% higher mortality risk with each 10% increment in UPF consumption.\n\n== How to identify ultra-processed foods ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Liang, Ultra-processed foods and risk of all-cause mortality: an updated systematic review and dose-response meta-analysis of prospective cohort studies, (2025-03-03)"
+        }
+      ]
+    },
+    {
+      "id": "how-to-identify-ultra-processed-foods",
+      "title": "How to identify ultra-processed foods",
+      "level": 2,
+      "content": "Identifying ultra-processed foods may benefit from inspection of food labels on the packaging. The following may indicate an ultra-processed food:\n\n* Long ingredient list: Foods that contain many ingredients (often more than three), especially those that could not be found in a kitchen, are likely to be ultra-processed, such as multiple preservatives, emulsifiers and shelf-life extenders.\n* Claims on the packaging: Ultra-processed foods are often heavily marketed and come in packaging with nutrition claims like \"low-fat,\" \"sugar-free,\" or \"fortified with vitamins.\"\n\n== Environmental impact ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "How to identify ultra-processed foods",
+          "url": "https://www.washingtonpost.com/wellness/2024/01/02/ultra-processed-foods-identification/"
         }
       ]
     },
@@ -428,7 +560,7 @@
       "id": "criticism",
       "title": "Criticism",
       "level": 2,
-      "content": "Following the publication of the Nova a four classification, some researchers questioned whether food processing should itself be considered a factor in nutrient intake, especially in a prominent 2017 criticism written by researchers, one of which was funded by Nestlé and the Kerry Group. UPFs are imprecisely defined and it is unclear how any adverse effects on health may come about.\n\nIn 2022, Carlos Monteiro and Arne Astrup argued for and against the Nova classification in a series of three articles written in the style of an Oxford debate. Monteiro's 'yes' argument states that the effects of ultra-processed food are demonstrated by representative dietary surveys and long-term cohort studies; that consuming ultra-processed food is associated with negative health outcomes; and that the associations are supported by discussions of specific mechanisms. Astrup's 'no' argument states that the Nova definition of ultra-processed foods is ambiguous and inherently leads to misclassification of foods; that evidence is lacking for effects that are not already accounted for by known factors such as nutrient composition; that existing evidence is limited to observational studies rather than being supported by randomized controlled trials; and that some ultra-processing techniques are valuable in achieving the transition to sustainable food production. The two researchers nonetheless agreed that food processing significantly affects diet quality and health outcomes; that most types of food processing are harmless or beneficial, with a minority being harmful; that some characteristics of food processing are useful for food classification systems; and that further study is required to understand the effect of food processing on human health.\n\nA number of studies show that although UPFs in general are associated with higher health risks, there exists a large heterogeneity among UPF subgroups. For example, although bread and cereals are classified as UPFs, a large 2023 study published in The Lancet finds them inversely associated with cancer and cardiometabolic diseases in the European population (hazard ratio 0.97). The study found that animal-based products (HR = 1.09) and artificially and sugar-sweetened beverages (HR = 1.09) are most strongly associated with diseases among UPFs. Robinson and Johnstone (2024) cite a similar study conducted in the US population. They argue that there should be a balanced approach in approaching UPFs: consumers should not be prematurely advised to avoid all UPFs, not just because of physical health concerns (UPF provide a large part of lower-income peoples' nutrition, and replacements may actually be less nutritious), but also because of social costs of the removal of UPFs (unnecessary anxiety and mistrust of science).\n\n== See also ==",
+      "content": "Following the publication of the Nova classification, some researchers questioned whether food processing should itself be considered a factor in nutrient intake, especially in a prominent 2017 criticism written by researchers, one of whom was funded by Nestlé and the Kerry Group. UPFs are imprecisely defined and it is unclear how any adverse effects on health may come about.\n\nIn 2022, Carlos Monteiro and Arne Astrup argued for and against the Nova classification in a series of three articles written in the style of an Oxford debate. Monteiro's 'yes' argument states that the effects of ultra-processed food are demonstrated by representative dietary surveys and long-term cohort studies; that consuming ultra-processed food is associated with negative health outcomes; and that the associations are supported by discussions of specific mechanisms. Astrup's 'no' argument states that the Nova definition of ultra-processed foods is ambiguous and inherently leads to misclassification of foods; that evidence is lacking for effects that are not already accounted for by known factors such as nutrient composition; that existing evidence is limited to observational studies rather than being supported by randomized controlled trials; and that some ultra-processing techniques are valuable in achieving the transition to sustainable food production. The two researchers nonetheless agreed that food processing significantly affects diet quality and health outcomes; that most types of food processing are harmless or beneficial, with a minority being harmful; that some characteristics of food processing are useful for food classification systems; and that further study is required to understand the effect of food processing on human health.\n\nA number of studies show that although UPFs in general are associated with higher health risks, there exists a large heterogeneity among UPF subgroups. For example, although bread and cereals are classified as UPFs, a large 2023 study published in The Lancet finds them inversely associated with cancer and cardiometabolic diseases in the European population (hazard ratio 0.97). The study found that animal-based products (HR = 1.09) and artificially and sugar-sweetened beverages (HR = 1.09) are most strongly associated with diseases among UPFs. Robinson and Johnstone (2024) cite a similar study conducted in the US population. They argue that there should be a balanced approach in approaching UPFs: consumers should not be prematurely advised to avoid all UPFs, not just because of physical health concerns (UPF provide a large part of lower-income peoples' nutrition, and replacements may actually be less nutritious), but also because of social costs of the removal of UPFs (unnecessary anxiety and mistrust of science).\n\n== See also ==",
       "citations": [
         {
           "id": "cite-0",

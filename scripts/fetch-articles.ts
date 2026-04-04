@@ -47,14 +47,14 @@ interface Article {
 // ---------------------------------------------------------------------------
 
 const ARTICLES = [
-  { id: 'semaglutide', title: 'Semaglutide', pastRevId: '1284569793', pastDate: '2025-04-08' },
-  { id: 'vaccine-misinfo', title: 'Vaccine misinformation', pastRevId: '1284034303', pastDate: '2025-04-05' },
-  { id: 'ultra-processed-food', title: 'Ultra-processed food', pastRevId: '1283556375', pastDate: '2025-04-02' },
-  { id: 'glp1-receptor-agonist', title: 'GLP-1 receptor agonist', pastRevId: '1279866856', pastDate: '2025-03-11' },
-  { id: 'pfas', title: 'PFAS', pastRevId: '1285901239', pastDate: '2025-04-16' },
-  { id: 'deepfake', title: 'Deepfake', pastRevId: '1283767657', pastDate: '2025-04-03' },
-  { id: 'agi', title: 'Artificial general intelligence', pastRevId: '1287293138', pastDate: '2025-04-25' },
-  { id: 'cultivated-meat', title: 'Cultured meat', pastRevId: '1284779449', pastDate: '2025-04-09' },
+  { id: 'semaglutide', title: 'Semaglutide', pastRevId: '1319136162', pastDate: '2025-10-28' },
+  { id: 'vaccine-misinfo', title: 'Vaccine misinformation', pastRevId: '1310158553', pastDate: '2025-09-08' },
+  { id: 'ultra-processed-food', title: 'Ultra-processed food', pastRevId: '1311311466', pastDate: '2025-09-14' },
+  { id: 'glp1-receptor-agonist', title: 'GLP-1 receptor agonist', pastRevId: '1316532394', pastDate: '2025-10-13' },
+  { id: 'pfas', title: 'PFAS', pastRevId: '1317199730', pastDate: '2025-10-16' },
+  { id: 'deepfake', title: 'Deepfake', pastRevId: '1315983705', pastDate: '2025-10-09' },
+  { id: 'agi', title: 'Artificial general intelligence', pastRevId: '1319993000', pastDate: '2025-11-02' },
+  { id: 'cultivated-meat', title: 'Cultured meat', pastRevId: '1315006090', pastDate: '2025-10-04' },
 ];
 
 const USER_AGENT = 'WikiCredConWorkshopBot/1.0 (https://github.com/simppl; research workshop tool)';

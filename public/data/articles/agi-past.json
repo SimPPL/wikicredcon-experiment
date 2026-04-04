@@ -1,14 +1,14 @@
 {
   "id": "agi",
   "title": "Artificial general intelligence",
-  "revisionDate": "2025-04-25",
-  "revisionId": "1287293138",
+  "revisionDate": "2025-11-02",
+  "revisionId": "1319993000",
   "sections": [
     {
       "id": "agi-lead",
       "title": "Lead",
       "level": 1,
-      "content": "Artificial general intelligence (AGI)—sometimes called human‑level intelligence AI—is a type of artificial intelligence capable of performing the full spectrum of cognitively demanding tasks with proficiency comparable to, or surpassing, that of humans.\n\nSome researchers argue that state‑of‑the‑art large language models already exhibit early signs of AGI‑level capability, while others maintain that genuine AGI has not yet been achieved. AGI is conceptually distinct from artificial superintelligence (ASI), which would outperform the best human abilities across every domain by a wide margin. AGI is considered one of the definitions of strong AI.\n\nUnlike artificial narrow intelligence (ANI), whose competence is confined to well‑defined tasks, an AGI system can generalise knowledge, transfer skills between domains, and solve novel problems without task‑specific reprogramming. The concept does not, in principle, require the system to be an autonomous agent; a static model—such as a highly capable large language model—or an embodied robot could both satisfy the definition so long as human‑level breadth and proficiency are achieved.\n\nCreating AGI is a primary goal of AI research and of companies such as OpenAI, Google, and Meta. A 2020 survey identified 72 active AGI research and development projects across 37 countries.\n\nThe timeline for achieving human‑level intelligence AI remains deeply contested. Recent surveys of AI researchers give median forecasts ranging from the early 2030s to mid‑century, while still recording significant numbers who expect arrival much sooner—or never at all.\n\nPerspectives span four broad camps. One group argues AGI could emerge within years or decades; another projects a century or more; a third believes it may never be built; and a vocal minority claims it already exists, pointing to the broad competencies shown by systems such as GPT‑4 and other large language models.\n\nThere is debate on the exact definition of AGI and regarding whether modern large language models (LLMs) such as GPT-4 are early forms of AGI. AGI is a common topic in science fiction and futures studies.\n\nContention exists over whether AGI represents an existential risk. Many AI experts have stated that mitigating the risk of human extinction posed by AGI should be a global priority. Others find the development of AGI to be in too remote a stage to present such a risk.",
+      "content": "Artificial general intelligence (AGI)—sometimes called human‑level intelligence AI—is a type of artificial intelligence that would match or surpass human capabilities across virtually all cognitive tasks.\n\nSome researchers argue that state‑of‑the‑art large language models (LLMs) already exhibit signs of AGI‑level capability, while others maintain that genuine AGI has not yet been achieved. Beyond AGI, artificial superintelligence (ASI) would outperform the best human abilities across every domain by a wide margin.\n\nUnlike artificial narrow intelligence (ANI), whose competence is confined to well‑defined tasks, an AGI system can generalise knowledge, transfer skills between domains, and solve novel problems without task‑specific reprogramming. The concept does not, in principle, require the system to be an autonomous agent; a static model—such as a highly capable large language model—or an embodied robot could both satisfy the definition so long as human‑level breadth and proficiency are achieved.\n\nCreating AGI is a primary goal of AI research and of companies such as OpenAI, Google, xAI, and Meta. A 2020 survey identified 72 active AGI research and development projects across 37 countries.\n\nThe timeline for achieving human‑level intelligence AI remains deeply contested. Recent surveys of AI researchers give median forecasts ranging from the late 2020s to mid‑century, while still recording significant numbers who expect arrival much sooner—or never at all. There is debate on the exact definition of AGI and regarding whether modern LLMs such as GPT-4 are early forms of emerging AGI.\n\nContention exists over whether AGI represents an existential risk. Many AI experts have stated that mitigating the risk of human extinction posed by AGI should be a global priority. Others find the development of AGI to be in too remote a stage to present such a risk.",
       "citations": [
         {
           "id": "cite-0",
@@ -28,7 +28,7 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Bostrom, Superintelligence: Paths, Dangers, Strategies, (2014)"
+          "text": "Bostrom, [[Superintelligence: Paths, Dangers, Strategies]], (2014)"
         },
         {
           "id": "cite-4",
@@ -50,31 +50,32 @@
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Heath, Mark Zuckerberg's new goal is creating artificial general intelligence, (2024-01-18)",
-          "url": "https://www.theverge.com/2024/1/18/24042354/mark-zuckerberg-meta-agi-reorg-interview"
+          "text": "Newsham, Tesla said xAI stands for \"eXploratory Artificial Intelligence.\" It's not clear where it got that.",
+          "url": "https://www.businessinsider.com/tesla-xai-exploratory-ai-grok-2025-9"
         },
         {
           "id": "cite-8",
           "index": 8,
-          "text": "Baum, A Survey of Artificial General Intelligence Projects for Ethics, Risk, and Policy, (2020)",
-          "url": "https://gcrinstitute.org/papers/055_agi-2020.pdf"
+          "text": "Heath, Mark Zuckerberg's new goal is creating artificial general intelligence, (2024-01-18)",
+          "url": "https://www.theverge.com/2024/1/18/24042354/mark-zuckerberg-meta-agi-reorg-interview"
         },
         {
           "id": "cite-9",
           "index": 9,
-          "text": "Shrinking AGI timelines: a review of expert forecasts, (2025-03-21)",
-          "url": "https://80000hours.org/2025/03/when-do-experts-expect-agi-to-arrive/"
+          "text": "Baum, A Survey of Artificial General Intelligence Projects for Ethics, Risk, and Policy, (2020)",
+          "url": "https://gcrinstitute.org/papers/055_agi-2020.pdf"
         },
         {
           "id": "cite-10",
           "index": 10,
-          "text": "How the U.S. Public and AI Experts View Artificial Intelligence, (2025-04-03)",
-          "url": "https://www.pewresearch.org/internet/2025/04/03/how-the-us-public-and-ai-experts-view-artificial-intelligence/"
+          "text": "Shrinking AGI timelines: a review of expert forecasts, (2025-03-21)",
+          "url": "https://80000hours.org/2025/03/when-do-experts-expect-agi-to-arrive/"
         },
         {
           "id": "cite-11",
           "index": 11,
-          "text": "Bubeck, Sparks of Artificial General Intelligence: Early Experiments with GPT-4, (2023-03-22)"
+          "text": "How the U.S. Public and AI Experts View Artificial Intelligence, (2025-04-03)",
+          "url": "https://www.pewresearch.org/internet/2025/04/03/how-the-us-public-and-ai-experts-view-artificial-intelligence/"
         },
         {
           "id": "cite-12",
@@ -85,56 +86,51 @@
         {
           "id": "cite-13",
           "index": 13,
-          "text": "Bubeck, Sparks of Artificial General Intelligence: Early experiments with GPT-4, (2023)"
+          "text": "Butler, Parable of the Sower, (1993)"
         },
         {
           "id": "cite-14",
           "index": 14,
-          "text": "Butler, Parable of the Sower, (1993)"
+          "text": "Vinge, A Fire Upon the Deep, (1992)"
         },
         {
           "id": "cite-15",
           "index": 15,
-          "text": "Vinge, A Fire Upon the Deep, (1992)"
-        },
-        {
-          "id": "cite-16",
-          "index": 16,
           "text": "Morozov, The True Threat of Artificial Intelligence, (June 30, 2023)",
           "url": "https://www.nytimes.com/2023/06/30/opinion/artificial-intelligence-danger.html"
         },
         {
-          "id": "cite-17",
-          "index": 17,
+          "id": "cite-16",
+          "index": 16,
           "text": "Impressed by artificial intelligence? Experts say AGI is coming next, and it has 'existential' risks, (2023-03-23)",
           "url": "https://www.abc.net.au/news/2023-03-24/what-is-agi-artificial-general-intelligence-ai-experts-risks/102035132"
         },
         {
+          "id": "cite-17",
+          "index": 17,
+          "text": "Bostrom, Superintelligence: Paths, Dangers, Strategies, (2014)"
+        },
+        {
           "id": "cite-18",
           "index": 18,
-          "text": "Bostrom, Superintelligence: Paths, Dangers, Strategies, (2014)"
+          "text": "Roose, A.I. Poses 'Risk of Extinction', Industry Leaders Warn, (May 30, 2023)",
+          "url": "https://www.nytimes.com/2023/05/30/technology/ai-threat-warning.html"
         },
         {
           "id": "cite-19",
           "index": 19,
-          "text": "Roose, A.I. Poses 'Risk of Extinction,' Industry Leaders Warn, (May 30, 2023)",
-          "url": "https://www.nytimes.com/2023/05/30/technology/ai-threat-warning.html"
-        },
-        {
-          "id": "cite-20",
-          "index": 20,
           "text": "Statement on AI Risk",
           "url": "https://www.safe.ai/statement-on-ai-risk"
         },
         {
-          "id": "cite-21",
-          "index": 21,
+          "id": "cite-20",
+          "index": 20,
           "text": "Mitchell, Are AI's Doomsday Scenarios Worth Taking Seriously?, (May 30, 2023)",
           "url": "https://www.nytimes.com/2023/05/30/opinion/ai-risk.html"
         },
         {
-          "id": "cite-22",
-          "index": 22,
+          "id": "cite-21",
+          "index": 21,
           "text": "LeCun, AGI does not present an existential risk, (June 2023)",
           "url": "https://yosinski.medium.com/agi-does-not-present-an-existential-risk-b55b6e03c0de"
         }
@@ -144,7 +140,7 @@
       "id": "terminology",
       "title": "Terminology",
       "level": 2,
-      "content": "AGI is also known as strong AI, full AI, human-level AI, human-level intelligent AI, or general intelligent action.\n\nSome academic sources reserve the term \"strong AI\" for computer programs that will experience sentience or consciousness. In contrast, weak AI (or narrow AI) is able to solve one specific problem but lacks general cognitive abilities. while the notion of transformative AI relates to AI having a large impact on society, for example, similar to the agricultural or industrial revolution.\n\nA framework for classifying AGI by performance and autonomy was proposed in 2023 by Google DeepMind researchers. They define five performance levels of AGI: emerging, competent, expert, virtuoso, and superhuman. For example, a competent AGI is defined as an AI that outperforms 50% of skilled adults in a wide range of non-physical tasks, and a superhuman AGI (i.e. an artificial superintelligence) is similarly defined but with a threshold of 100%. They consider large language models like ChatGPT or LLaMA 2 to be instances of emerging AGI (comparable to unskilled humans). Regarding the autonomy of AGI and associated risks, they define five levels: tool (fully in human control), consultant, collaborator, expert, and agent (fully autonomous).\n\n== Characteristics ==",
+      "content": "AGI is also known as strong AI, full AI, human-level AI, human-level intelligent AI, or general intelligent action.\n\nSome academic sources reserve the term \"strong AI\" for computer programs that will experience sentience or consciousness. In contrast, weak AI (or narrow AI) is able to solve one specific problem but lacks general cognitive abilities. while the notion of transformative AI relates to AI having a large impact on society, for example, similar to the agricultural or industrial revolution.\n\nA framework for classifying AGI by performance and autonomy was proposed in 2023 by Google DeepMind researchers. They define five performance levels of AGI: emerging, competent, expert, virtuoso, and superhuman.\n\n== Characteristics ==",
       "citations": [
         {
           "id": "cite-0",
@@ -156,7 +152,7 @@
           "id": "cite-1",
           "index": 1,
           "text": "The Age of Artificial Intelligence: George John at TEDxLondonBusinessSchool 2013",
-          "url": "http://tedxtalks.ted.com/video/The-Age-of-Artificial-Intellige"
+          "url": "https://tedxtalks.ted.com/video/The-Age-of-Artificial-Intellige"
         },
         {
           "id": "cite-2",
@@ -185,6 +181,12 @@
         {
           "id": "cite-6",
           "index": 6,
+          "text": "Google DeepMind's Six Levels of AGI",
+          "url": "https://aibusiness.com/ml/what-exactly-is-artificial-general-intelligence-ask-deepmind-"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
           "text": "Dickson, Here is how far we are to achieving AGI, according to DeepMind, (November 16, 2023)",
           "url": "https://venturebeat.com/ai/here-is-how-far-we-are-to-achieving-agi-according-to-deepmind/"
         }
@@ -260,7 +262,7 @@
       "id": "tests-for-human-level-agianchortestsforconfirminghuman-levelagi",
       "title": "Tests for human-level AGI{{Anchor|Tests_for_confirming_human-level_AGI}}",
       "level": 3,
-      "content": "Several tests meant to confirm human-level AGI have been considered, including:\n\n;The Turing Test (Turing)  \n: can provide some evidence of intelligence, but it penalizes non-human intelligent behavior and may incentivize artificial stupidity.]]Proposed by Alan Turing in his 1950 paper \"Computing Machinery and Intelligence\", this test involves a human judge engaging in natural language conversations with both a human and a machine designed to generate human-like responses. The machine passes the test if it can convince the judge it is human a significant fraction of the time. Turing proposed this as a practical measure of machine intelligence, focusing on the ability to produce human-like responses rather than on the internal workings of the machine.\n\n: Turing described the test as follows:\n\n: In 2014, a chatbot named Eugene Goostman, designed to imitate a 13-year-old Ukrainian boy, reportedly passed a Turing Test event by convincing 33% of judges that it was human. However, this claim was met with significant skepticism from the AI research community, who questioned the test's implementation and its relevance to AGI.\n\n: In 2023, it was claimed that \"AI is closer to ever\" to passing the Turing test, though the article's authors reinforced that imitation (as \"large language models\" ever closer to passing the test are built upon) is not synonymous with \"intelligence\".  Further, as AI intelligence and human intelligence may differ, \"passing the Turing test is good evidence a system is intelligent, failing it is not good evidence a system is not intelligent.\" \n\n: A 2024 study suggested that GPT-4 was identified as human 54% of the time in a randomized, controlled version of the Turing Test—surpassing older chatbots like ELIZA while still falling behind actual humans (67%).\n\n: A 2025 pre‑registered, three‑party Turing‑test study by Cameron R. Jones and Benjamin K. Bergen showed that GPT-4.5 was judged to be the human in 73% of five‑minute text conversations—surpassing the 67% humanness rate of real confederates and meeting the researchers’ criterion for having passed the test.\n\n;The Robot College Student Test (Goertzel)  \n: A machine enrolls in a university, taking and passing the same classes that humans would, and obtaining a degree. LLMs can now pass university degree-level exams without even attending the classes.\n\n;The Employment Test (Nilsson)  \n: A machine performs an economically important job at least as well as humans in the same job. AIs are now replacing humans in many roles as varied as fast food and marketing.\n\n;The Ikea test (Marcus)  \n: Also known as the Flat Pack Furniture Test. An AI views the parts and instructions of an Ikea flat-pack product, then controls a robot to assemble the furniture correctly.\n\n;The Coffee Test (Wozniak)  \n: A machine is required to enter an average American home and figure out how to make coffee: find the coffee machine, find the coffee, add water, find a mug, and brew the coffee by pushing the proper buttons. This has not yet been completed.\n\n;The Modern Turing Test (Suleyman)  \n: An AI model is given $100,000 and has to obtain $1 million.\n\n===AI-complete problems===",
+      "content": "Several tests meant to confirm human-level AGI have been considered, including:\n\n;The Turing Test (Turing)  \n: can provide some evidence of intelligence, but it penalizes non-human intelligent behavior and may incentivize artificial stupidity.]]Proposed by Alan Turing in his 1950 paper \"Computing Machinery and Intelligence\", this test involves a human judge engaging in natural language conversations with both a human and a machine designed to generate human-like responses. The machine passes the test if it can convince the judge it is human a significant fraction of the time. Turing proposed this as a practical measure of machine intelligence, focusing on the ability to produce human-like responses rather than on the internal workings of the machine.\n\n: Turing described the test as follows:\n\n: In 2014, a chatbot named Eugene Goostman, designed to imitate a 13-year-old Ukrainian boy, reportedly passed a Turing Test event by convincing 33% of judges that it was human. However, this claim was met with significant skepticism from the AI research community, who questioned the test's implementation and its relevance to AGI.\n: In 2023, it was claimed that \"AI is closer to ever\" to passing the Turing test, though the article's authors reinforced that imitation (as \"large language models\" ever closer to passing the test are built upon) is not synonymous with \"intelligence\". Further, as AI intelligence and human intelligence may differ, \"passing the Turing test is good evidence a system is intelligent, failing it is not good evidence a system is not intelligent.\"\n\n: A 2024 study suggested that GPT-4 was identified as human 54% of the time in a randomized, controlled version of the Turing Test—surpassing older chatbots like ELIZA while still falling behind actual humans (67%).\n: A 2025 pre‑registered, three‑party Turing‑test study by Cameron R. Jones and Benjamin K. Bergen showed that GPT-4.5 was judged to be the human in 73% of five‑minute text conversations—surpassing the 67% humanness rate of real confederates and meeting the researchers' criterion for having passed the test.\n\n;The Robot College Student Test (Goertzel)  \n: A machine enrolls in a university, taking and passing the same classes that humans would, and obtaining a degree. LLMs can now pass university degree-level exams without even attending the classes.\n\n;The Employment Test (Nilsson)  \n: A machine performs an economically important job at least as well as humans in the same job. AIs are now replacing humans in many roles as varied as fast food and marketing.\n\n;The Ikea test (Marcus)  \n: Also known as the Flat Pack Furniture Test. An AI views the parts and instructions of an Ikea flat-pack product, then controls a robot to assemble the furniture correctly.\n\n;The Coffee Test (Wozniak)  \n: A machine is required to enter an average American home and figure out how to make coffee: find the coffee machine, find the coffee, add water, find a mug, and brew the coffee by pushing the proper buttons. Robots developed by Figure AI and other robotics companies can perform tasks like this.\n\n;The Modern Turing Test (Suleyman)  \n: An AI model is given $100,000 and has to obtain $1 million.\n\n;The General Video-Game Learning Test (Goertzel, Bach et al.)  \n: An AI must demonstrate the ability to learn and succeed at a wide range of video games, including new games unknown to the AGI developers before the competition. The importance of this threshold was echoed by Scott Aaronson during his time at OpenAI.\n\n===AI-complete problems===",
       "citations": [
         {
           "id": "cite-0",
@@ -283,7 +285,7 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Turing, Can Automatic Calculating Machines Be Said To Think?, (1952)"
+          "text": "Turing, Can Automatic Calculating Machines Be Said To Think? (1957), (2004)"
         },
         {
           "id": "cite-4",
@@ -335,7 +337,7 @@
           "id": "cite-12",
           "index": 12,
           "text": "Turk, The Plan to Replace the Turing Test with a 'Turing Olympics', (2015-01-28)",
-          "url": "https://www.vice.com/en/article/vvbqma/the-plan-to-replace-the-turing-test-with-a-turing-olympics"
+          "url": "https://www.vice.com/en/article/the-plan-to-replace-the-turing-test-with-a-turing-olympics/"
         },
         {
           "id": "cite-13",
@@ -354,6 +356,24 @@
           "index": 15,
           "text": "Suleyman, Mustafa Suleyman: My new Turing test would see if AI can make $1 million, (July 14, 2023)",
           "url": "https://www.technologyreview.com/2023/07/14/1076296/mustafa-suleyman-my-new-turing-test-would-see-if-ai-can-make-1-million/"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Goertzel, Mapping the Landscape of Human-Level Artificial General Intelligence, (1 March 2012)",
+          "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1609/aimag.v33i1.2322"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "Mikhaylovskiy, How do you test the strength of AI?",
+          "url": "https://agi-conf.org/2020/wp-content/uploads/2020/06/AGI-20_paper_43.pdf"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Aaronson, The Problem of Human Specialness in the Age of AI, (12 February 2024)",
+          "url": "https://scottaaronson.blog/?p=7784"
         }
       ]
     },
@@ -394,7 +414,7 @@
       "id": "classical-ai",
       "title": "Classical AI",
       "level": 3,
-      "content": "Modern AI research began in the mid-1950s. The first generation of AI researchers were convinced that artificial general intelligence was possible and that it would exist in just a few decades. AI pioneer Herbert A. Simon wrote in 1965: \"machines will be capable, within twenty years, of doing any work a man can do.\"\n\nTheir predictions were the inspiration for Stanley Kubrick and Arthur C. Clarke's character HAL 9000, who embodied what AI researchers believed they could create by the year 2001. AI pioneer Marvin Minsky was a consultant on the project of making HAL 9000 as realistic as possible according to the consensus predictions of the time. He said in 1967, \"Within a generation... the problem of creating 'artificial intelligence' will substantially be solved\".\n\nSeveral classical AI projects, such as Doug Lenat's Cyc project (that began in 1984), and Allen Newell's Soar project, were directed at AGI.\n\nHowever, in the early 1970s, it became obvious that researchers had grossly underestimated the difficulty of the project. Funding agencies became skeptical of AGI and put researchers under increasing pressure to produce useful \"applied AI\". In the early 1980s, Japan's Fifth Generation Computer Project revived interest in AGI, setting out a ten-year timeline that included AGI goals like \"carry on a casual conversation\". In response to this and the success of expert systems, both industry and government pumped money into the field. However, confidence in AI spectacularly collapsed in the late 1980s, and the goals of the Fifth Generation Computer Project were never fulfilled. For the second time in 20 years, AI researchers who predicted the imminent achievement of AGI had been mistaken. By the 1990s, AI researchers had a reputation for making vain promises. They became reluctant to make predictions at all and avoided mention of \"human level\" artificial intelligence for fear of being labeled \"wild-eyed dreamer[s]\".\n\n===Narrow AI research===",
+      "content": "Modern AI research began in the mid-1950s. The first generation of AI researchers were convinced that artificial general intelligence was possible and that it would exist in just a few decades. AI pioneer Herbert A. Simon wrote in 1965: \"machines will be capable, within twenty years, of doing any work a man can do.\"\n\nTheir predictions were the inspiration for Stanley Kubrick and Arthur C. Clarke's fictional character HAL 9000, who embodied what AI researchers believed they could create by the year 2001. AI pioneer Marvin Minsky was a consultant on the project of making HAL 9000 as realistic as possible according to the consensus predictions of the time. He said in 1967, \"Within a generation... the problem of creating 'artificial intelligence' will substantially be solved\".\n\nSeveral classical AI projects, such as Doug Lenat's Cyc project (that began in 1984), and Allen Newell's Soar project, were directed at AGI.\n\nHowever, in the early 1970s, it became obvious that researchers had grossly underestimated the difficulty of the project. Funding agencies became skeptical of AGI and put researchers under increasing pressure to produce useful \"applied AI\". In the early 1980s, Japan's Fifth Generation Computer Project revived interest in AGI, setting out a ten-year timeline that included AGI goals like \"carry on a casual conversation\". In response to this and the success of expert systems, both industry and government pumped money into the field. However, confidence in AI spectacularly collapsed in the late 1980s, and the goals of the Fifth Generation Computer Project were never fulfilled. For the second time in 20 years, AI researchers who predicted the imminent achievement of AGI had been mistaken. By the 1990s, AI researchers had a reputation for making vain promises. They became reluctant to make predictions at all and avoided mention of \"human level\" artificial intelligence for fear of being labeled \"wild-eyed dreamer[s]\".\n\n===Narrow AI research===",
       "citations": [
         {
           "id": "cite-0",
@@ -495,7 +515,7 @@
       "id": "modern-artificial-general-intelligence-research",
       "title": "Modern artificial general intelligence research",
       "level": 3,
-      "content": "The term \"artificial general intelligence\" was used as early as 1997, by Mark Gubrud in a discussion of the implications of fully automated military production and operations. A mathematical formalism of AGI was proposed by Marcus Hutter in 2000. Named AIXI, the proposed AGI agent maximises \"the ability to satisfy goals in a wide range of environments\". This type of AGI, characterized by the ability to maximise a mathematical definition of intelligence rather than exhibit human-like behaviour, was also called universal artificial intelligence.\n\nThe term AGI was re-introduced and popularized by Shane Legg and Ben Goertzel around 2002. AGI research activity in 2006 was described by Pei Wang and Ben Goertzel as \"producing publications and preliminary results\". The first summer school in AGI was organized in Xiamen, China in 2009 by the Xiamen university's Artificial Brain Laboratory and OpenCog. The first university course was given in 2010 and 2011 at Plovdiv University, Bulgaria by Todor Arnaudov. MIT presented a course on AGI in 2018, organized by Lex Fridman and featuring a number of guest lecturers.\n\n, a small number of computer scientists are active in AGI research, and many contribute to a series of AGI conferences. However, increasingly more researchers are interested in open-ended learning, which is the idea of allowing AI to continuously learn and innovate like humans do.\n\n=== Feasibility ===",
+      "content": "The term \"artificial general intelligence\" was used as early as 1997, by Mark Gubrud in a discussion of the implications of fully automated military production and operations. A mathematical formalism of AGI was proposed by Marcus Hutter in 2000. Named AIXI, the proposed AGI agent maximises \"the ability to satisfy goals in a wide range of environments\". This type of AGI, characterized by the ability to maximise a mathematical definition of intelligence rather than exhibit human-like behaviour, was also called universal artificial intelligence.\n\nThe term AGI was re-introduced and popularized by Shane Legg and Ben Goertzel around 2002. AGI research activity in 2006 was described by Pei Wang and Ben Goertzel as \"producing publications and preliminary results\". The first summer school on AGI was organized in Xiamen, China in 2009 by the Xiamen university's Artificial Brain Laboratory and OpenCog. The first university course was given in 2010 and 2011 at Plovdiv University, Bulgaria by Todor Arnaudov. The Massachusetts Institute of Technology (MIT) presented a course on AGI in 2018, organized by Lex Fridman and featuring a number of guest lecturers.\n\n, a small number of computer scientists are active in AGI research, and many contribute to a series of AGI conferences. However, increasingly more researchers are interested in open-ended learning, which is the idea of allowing AI to continuously learn and innovate like humans do.\n\n=== Feasibility ===",
       "citations": [
         {
           "id": "cite-0",
@@ -553,11 +573,6 @@
           "id": "cite-9",
           "index": 9,
           "text": "Shevlin, The limits of machine intelligence: Despite progress in machine intelligence, artificial general intelligence is still a major challenge, (2019-10-04)"
-        },
-        {
-          "id": "cite-10",
-          "index": 10,
-          "text": "Bubeck, Sparks of Artificial General Intelligence: Early experiments with GPT-4, (2023-03-27)"
         }
       ]
     },
@@ -565,7 +580,7 @@
       "id": "feasibility",
       "title": "Feasibility",
       "level": 3,
-      "content": "speculated in 1965 that \"machines will be capable, within twenty years, of doing any work a man can do\". This prediction failed to come true. Microsoft co-founder Paul Allen believed that such intelligence is unlikely in the 21st century because it would require \"unforeseeable and fundamentally unpredictable breakthroughs\" and a \"scientifically deep understanding of cognition\". Writing in The Guardian, roboticist Alan Winfield claimed the gulf between modern computing and human-level artificial intelligence is as wide as the gulf between current space flight and practical faster-than-light spaceflight.\n\nA further challenge is the lack of clarity in defining what intelligence entails. Does it require consciousness? Must it display the ability to set goals as well as pursue them? Is it purely a matter of scale such that if model sizes increase sufficiently, intelligence will emerge? Are facilities such as planning, reasoning, and causal understanding required? Does intelligence require explicitly replicating the brain and its specific faculties? Does it require emotions?\n\nMost AI researchers believe strong AI can be achieved in the future, but some thinkers, like Hubert Dreyfus and Roger Penrose, deny the possibility of achieving strong AI.  John McCarthy is among those who believe human-level AI will be accomplished, but that the present level of progress is such that a date cannot accurately be predicted. AI experts' views on the feasibility of AGI wax and wane. Four polls conducted in 2012 and 2013 suggested that the median estimate among experts for when they would be 50% confident AGI would arrive was 2040 to 2050, depending on the poll, with the mean being 2081. Of the experts, 16.5% answered with \"never\" when asked the same question but with a 90% confidence instead. Further current AGI progress considerations can be found above Tests for confirming human-level AGI.\n\nA report by Stuart Armstrong and Kaj Sotala of the Machine Intelligence Research Institute found that \"over [a] 60-year time frame there is a strong bias towards predicting the arrival of human-level AI as between 15 and 25 years from the time the prediction was made\". They analyzed 95 predictions made between 1950 and 2012 on when human-level AI will come about.\n\nIn 2023, Microsoft researchers published a detailed evaluation of GPT-4. They concluded: \"Given the breadth and depth of GPT-4’s capabilities, we believe that it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system.\" Another study in 2023 reported that GPT-4 outperforms 99% of humans on the Torrance tests of creative thinking.\n\nBlaise Agüera y Arcas and Peter Norvig wrote in 2023 that a significant level of general intelligence has already been achieved with frontier models. They wrote that reluctance to this view comes from four main reasons: a \"healthy skepticism about metrics for AGI\", an \"ideological commitment to alternative AI theories or techniques\", a \"devotion to human (or biological) exceptionalism\", or a \"concern about the economic implications of AGI\".\n\n2023 also marked the emergence of large multimodal models (large language models capable of processing or generating multiple modalities such as text, audio, and images).\n\nIn 2024, OpenAI released o1-preview, the first of a series of models that \"spend more time thinking before they respond\". According to Mira Murati, this ability to think before responding represents a new, additional paradigm. It improves model outputs by spending more computing power when generating the answer, whereas the model scaling paradigm improves outputs by increasing the model size, training data and training compute power.\n\nAn OpenAI employee, Vahid Kazemi, claimed in 2024 that the company had achieved AGI, stating, \"In my opinion, we have already achieved AGI and it's even more clear with O1.\" Kazemi clarified that while the AI is not yet \"better than any human at any task\", it is \"better than most humans at most tasks.\" He also addressed criticisms that large language models (LLMs) merely follow predefined patterns, comparing their learning process to the scientific method of observing, hypothesizing, and verifying. These statements have sparked debate, as they rely on a broad and unconventional definition of AGI—traditionally understood as AI that matches human intelligence across all domains. Critics argue that, while OpenAI's models demonstrate remarkable versatility, they may not fully meet this standard. Notably, Kazemi's comments came shortly after OpenAI removed \"AGI\" from the terms of its partnership with Microsoft, prompting speculation about the company's strategic intentions.\n\n=== Timescales ===",
+      "content": "speculated in 1965 that \"machines will be capable, within twenty years, of doing any work a man can do\". This prediction failed to come true. Microsoft co-founder Paul Allen believed that such intelligence is unlikely in the 21st century because it would require \"unforeseeable and fundamentally unpredictable breakthroughs\" and a \"scientifically deep understanding of cognition\". Writing in The Guardian, roboticist Alan Winfield claimed in 2014 that the gulf between modern computing and human-level artificial intelligence is as wide as the gulf between current space flight and practical faster-than-light spaceflight.\n\nA further challenge is the lack of clarity in defining what intelligence entails. Does it require consciousness? Must it display the ability to set goals as well as pursue them? Is it purely a matter of scale such that if model sizes increase sufficiently, intelligence will emerge? Are facilities such as planning, reasoning, and causal understanding required? Does intelligence require explicitly replicating the brain and its specific faculties? Does it require emotions?\n\nMost AI researchers believe strong AI can be achieved in the future, but some thinkers, like Hubert Dreyfus and Roger Penrose, deny the possibility of achieving strong AI.  John McCarthy is among those who believe human-level AI will be accomplished, but that the present level of progress is such that a date cannot accurately be predicted. AI experts' views on the feasibility of AGI wax and wane. Four polls conducted in 2012 and 2013 suggested that the median estimate among experts for when they would be 50% confident AGI would arrive was 2040 to 2050, depending on the poll, with the mean being 2081. Of the experts, 16.5% answered with \"never\" when asked the same question but with a 90% confidence instead. Further current AGI progress considerations can be found above Tests for confirming human-level AGI.\n\nA report by Stuart Armstrong and Kaj Sotala of the Machine Intelligence Research Institute found that \"over [a] 60-year time frame there is a strong bias towards predicting the arrival of human-level AI as between 15 and 25 years from the time the prediction was made\". They analyzed 95 predictions made between 1950 and 2012 on when human-level AI will come about.\n\nIn 2023, Microsoft researchers published a detailed evaluation of GPT-4. They concluded: \"Given the breadth and depth of GPT-4's capabilities, we believe that it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system.\" Another study in 2023 reported that GPT-4 outperforms 99% of humans on the Torrance tests of creative thinking.\n\nBlaise Agüera y Arcas and Peter Norvig wrote in 2023 the article \"Artificial General Intelligence Is Already Here\", arguing that frontier models had already achieved a significant level of general intelligence. They wrote that reluctance to this view comes from four main reasons: a \"healthy skepticism about metrics for AGI\", an \"ideological commitment to alternative AI theories or techniques\", a \"devotion to human (or biological) exceptionalism\", or a \"concern about the economic implications of AGI\".\n\n2023 also marked the emergence of large multimodal models (large language models capable of processing or generating multiple modalities such as text, audio, and images). As of 2025, large language models (LLMs) have been adapted to generate both music and images. Voice‑synthesis systems built on transformer LLMs—such as Suno AI's Bark model—can sing, and several music‑generation platforms (e.g. Suno and Udio) build their services on modified LLM backbones.\n\nThe same year, OpenAI released GPT‑4o image generation, integrating native image synthesis directly into ChatGPT rather than relying on a separate diffusion‑based art model, as with DALL-E.\n\nLLM‑style foundation models are likewise being repurposed for robotics. Nvidia's open‑source Isaac GR00T N1 and Google DeepMind's Robotic Transformer 2 (RT‑2) are first trained with language‑model objectives and then fine‑tuned to handle vision‑language‑action control for embodied robots.\n\nIn 2024, OpenAI released o1-preview, the first of a series of models that \"spend more time thinking before they respond\". According to Mira Murati, this ability to think before responding represents a new, additional paradigm. It improves model outputs by spending more computing power when generating the answer, whereas the model scaling paradigm improves outputs by increasing the model size, training data and training compute power.\n\nAn OpenAI employee, Vahid Kazemi, claimed in 2024 that the company had achieved AGI, stating, \"In my opinion, we have already achieved AGI and it's even more clear with O1.\" Kazemi clarified that while the AI is not yet \"better than any human at any task\", it is \"better than most humans at most tasks.\" He also addressed criticisms that large language models (LLMs) merely follow predefined patterns, comparing their learning process to the scientific method of observing, hypothesizing, and verifying. These statements have sparked debate, as they rely on a broad and unconventional definition of AGI—traditionally understood as AI that matches human intelligence across all domains. Critics argue that, while OpenAI's models demonstrate remarkable versatility, they may not fully meet this standard. Notably, Kazemi's comments came shortly after OpenAI removed \"AGI\" from the terms of its partnership with Microsoft, prompting speculation about the company's strategic intentions.\n\n=== Timescales ===",
       "citations": [
         {
           "id": "cite-0",
@@ -588,8 +603,7 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Deane, Machines That Feel and Think: The Role of Affective Feelings and Mental Action in (Artificial) General Intelligence, (2022)",
-          "url": "http://dx.doi.org/10.1162/artl_a_00368"
+          "text": "Deane, Machines That Feel and Think: The Role of Affective Feelings and Mental Action in (Artificial) General Intelligence, (2022)"
         },
         {
           "id": "cite-4",
@@ -610,13 +624,13 @@
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Armstrong, Stuart, and Kaj Sotala. 2012. “How We’re Predicting AI—or Failing To.” In ''Beyond AI: Artificial Dreams'', edited by Jan Romportl, Pavel Ircing, Eva Žáčková, Michal Polák and Radek Schuster, 52–75. Plzeň: University of West Bohemia"
+          "text": "Armstrong, Stuart, and Kaj Sotala. 2012. \"How We're Predicting AI—or Failing To.\" In ''Beyond AI: Artificial Dreams'', edited by Jan Romportl, Pavel Ircing, Eva Žáčková, Michal Polák and Radek Schuster, pp. 52–75. Plzeň: University of West Bohemia."
         },
         {
           "id": "cite-8",
           "index": 8,
           "text": "Microsoft Now Claims GPT-4 Shows 'Sparks' of General Intelligence, (24 March 2023)",
-          "url": "https://www.vice.com/en/article/g5ypex/microsoft-now-claims-gpt-4-shows-sparks-of-general-intelligence"
+          "url": "https://www.vice.com/en/article/microsoft-now-claims-gpt-4-shows-sparks-of-general-intelligence/"
         },
         {
           "id": "cite-9",
@@ -644,18 +658,54 @@
         {
           "id": "cite-13",
           "index": 13,
-          "text": "Introducing OpenAI o1-preview, (September 12, 2024)",
-          "url": "https://openai.com/index/introducing-openai-o1-preview/"
+          "text": "Shulman, Making Transformers Sing – with Mikey Shulman of Suno, (14 March 2024)",
+          "url": "https://www.latent.space/p/suno"
         },
         {
           "id": "cite-14",
           "index": 14,
-          "text": "Knight, OpenAI Announces a New AI Model, Code-Named Strawberry, That Solves Difficult Problems Step by Step",
-          "url": "https://www.wired.com/story/openai-o1-strawberry-problem-reasoning/"
+          "text": "Simpson, A huge moment, not just for me, but for the future of music: AI 'creator' signs record deal with Hallwood Media, (28 July 2025)",
+          "url": "https://www.musicradar.com/music-tech/a-huge-moment-not-just-for-me-but-for-the-future-of-music-ai-creator-signs-record-deal-with-hallwood-media"
         },
         {
           "id": "cite-15",
           "index": 15,
+          "text": "Introducing 4o Image Generation, (25 March 2025)",
+          "url": "https://openai.com/index/introducing-4o-image-generation/"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "NVIDIA Announces Project GR00T Foundation Model for Humanoid Robots, (18 March 2024)",
+          "url": "https://nvidianews.nvidia.com/news/foundation-model-isaac-robotics-platform"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "Vadrevu, Accelerate Generalist Humanoid Robot Development with NVIDIA Isaac GR00T N1, (18 March 2025)",
+          "url": "https://developer.nvidia.com/blog/accelerate-generalist-humanoid-robot-development-with-nvidia-isaac-gr00t-n1/"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "RT‑2: New model translates vision and language into action, (28 July 2023)",
+          "url": "https://www.deepmind.com/blog/rt-2-new-model-translates-vision-and-language-into-action"
+        },
+        {
+          "id": "cite-19",
+          "index": 19,
+          "text": "Introducing OpenAI o1-preview, (September 12, 2024)",
+          "url": "https://openai.com/index/introducing-openai-o1-preview/"
+        },
+        {
+          "id": "cite-20",
+          "index": 20,
+          "text": "Knight, OpenAI Announces a New AI Model, Code-Named Strawberry, That Solves Difficult Problems Step by Step",
+          "url": "https://www.wired.com/story/openai-o1-strawberry-problem-reasoning/"
+        },
+        {
+          "id": "cite-21",
+          "index": 21,
           "text": "OpenAI Employee Claims AGI Has Been Achieved, (13 December 2024)",
           "url": "https://orbitaltoday.com/2024/12/13/openai-employee-claims-agi-has-been-achieved/?utm_source=chatgpt.com"
         }
@@ -665,7 +715,7 @@
       "id": "timescales",
       "title": "Timescales",
       "level": 3,
-      "content": "s still lack advanced reasoning and planning capabilities, but rapid progress is expected.]]\nProgress in artificial intelligence has historically gone through periods of rapid progress separated by periods when progress appeared to stop. Ending each hiatus were fundamental advances in hardware, software or both to create space for further progress. For example, the computer hardware available in the twentieth century was not sufficient to implement deep learning, which requires large numbers of GPU-enabled CPUs.\n\nIn the introduction to his 2006 book, Goertzel says that estimates of the time needed before a truly flexible AGI is built vary from 10 years to over a century. , the consensus in the AGI research community seemed to be that the timeline discussed by Ray Kurzweil in 2005 in The Singularity is Near (i.e. between 2015 and 2045) was plausible. Mainstream AI researchers have given a wide range of opinions on whether progress will be this rapid. A 2012 meta-analysis of 95 such opinions found a bias towards predicting that the onset of AGI would occur within 16–26 years for modern and historical predictions alike. That paper has been criticized for how it categorized opinions as expert or non-expert.\n\nIn 2012, Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton developed a neural network called AlexNet, which won the ImageNet competition with a top-5 test error rate of 15.3%, significantly better than the second-best entry's rate of 26.3% (the traditional approach used a weighted sum of scores from different pre-defined classifiers). AlexNet was regarded as the initial ground-breaker of the current deep learning wave.\n\nIn 2020, OpenAI developed GPT-3, a language model capable of performing many diverse tasks without specific training. According to Gary Grossman in a VentureBeat article, while there is consensus that GPT-3 is not an example of AGI, it is considered by some to be too advanced to be classified as a narrow AI system.\n\nIn the same year, Jason Rohrer used his GPT-3 account to develop a chatbot, and provided a chatbot-developing platform called \"Project December\". OpenAI asked for changes to the chatbot to comply with their safety guidelines; Rohrer disconnected Project December from the GPT-3 API.\n\nIn 2022, DeepMind developed Gato, a \"general-purpose\" system capable of performing more than 600 different tasks.\n\nIn 2023, Microsoft Research published a study on an early version of OpenAI's GPT-4, contending that it exhibited more general intelligence than previous AI models and demonstrated human-level performance in tasks spanning multiple domains, such as mathematics, coding, and law. This research sparked a debate on whether GPT-4 could be considered an early, incomplete version of artificial general intelligence, emphasizing the need for further exploration and evaluation of such systems.\n\nIn 2023, AI researcher Geoffrey Hinton stated that:\n\nHe estimated in 2024 (with low confidence) that systems smarter than humans could appear within 5 to 20 years and stressed the attendant existential risks.\n\nIn May 2023, Demis Hassabis similarly said that \"The progress in the last few years has been pretty incredible\", and that he sees no reason why it would slow down, expecting AGI within a decade or even a few years. In March 2024, Nvidia's CEO, Jensen Huang, stated his expectation that within five years, AI would be capable of passing any test at least as well as humans. In June 2024, the AI researcher Leopold Aschenbrenner, a former OpenAI employee, estimated AGI by 2027 to be \"strikingly plausible\".\n\n== Whole brain emulation ==",
+      "content": "s still lack advanced reasoning and planning capabilities, but rapid progress is expected.]]\nProgress in artificial intelligence has historically gone through periods of rapid progress separated by periods when progress appeared to stop. Ending each hiatus were fundamental advances in hardware, software or both to create space for further progress. For example, the computer hardware available in the twentieth century was not sufficient to implement deep learning, which requires large numbers of GPU-enabled CPUs.\n\nIn the introduction to his 2006 book, Goertzel says that estimates of the time needed before a truly flexible AGI is built vary from 10 years to over a century. , the consensus in the AGI research community seemed to be that the timeline discussed by Ray Kurzweil in 2005 in The Singularity is Near (i.e. between 2015 and 2045) was plausible. Mainstream AI researchers have given a wide range of opinions on whether progress will be this rapid. A 2012 meta-analysis of 95 such opinions found a bias towards predicting that the onset of AGI would occur within 16–26 years for modern and historical predictions alike. That paper has been criticized for how it categorized opinions as expert or non-expert.\n\nIn 2012, Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton developed a neural network called AlexNet, which won the ImageNet competition with a top-5 test error rate of 15.3%, significantly better than the second-best entry's rate of 26.3% (the traditional approach used a weighted sum of scores from different pre-defined classifiers). AlexNet was regarded as the initial ground-breaker of the current deep learning wave.\n\nIn 2020, OpenAI developed GPT-3, a language model capable of performing many diverse tasks without specific training. According to Gary Grossman in a VentureBeat article, while there is consensus that GPT-3 is not an example of AGI, it is considered by some to be too advanced to be classified as a narrow AI system.\n\nIn the same year, Jason Rohrer used his GPT-3 account to develop a chatbot, and provided a chatbot-developing platform called \"Project December\". OpenAI asked for changes to the chatbot to comply with their safety guidelines; Rohrer disconnected Project December from the GPT-3 API.\n\nIn 2022, DeepMind developed Gato, a \"general-purpose\" system capable of performing more than 600 different tasks.\n\nIn 2023, Microsoft Research published a study on an early version of OpenAI's GPT-4, contending that it exhibited more general intelligence than previous AI models and demonstrated human-level performance in tasks spanning multiple domains, such as mathematics, coding, and law. This research sparked a debate on whether GPT-4 could be considered an early, incomplete version of artificial general intelligence, emphasizing the need for further exploration and evaluation of such systems.\n\nHe estimated in 2024 (with low confidence) that systems smarter than humans could appear within 5 to 20 years and stressed the attendant existential risks.\n\nIn May 2023, Demis Hassabis similarly said that \"The progress in the last few years has been pretty incredible\", and that he sees no reason why it would slow, expecting AGI within a decade or even a few years. In March 2024, Nvidia's Chief Executive Officer (CEO), Jensen Huang, stated his expectation that within five years, AI would be capable of passing any test at least as well as humans. In June 2024, the AI researcher Leopold Aschenbrenner, a former OpenAI employee, estimated AGI by 2027 to be \"strikingly plausible\".\n\nIn September 2025, a review of surveys of scientists and industry experts from the last 15 years reported that most agreed that artificial general intelligence (AGI) will occur before the year 2100. A more recent analysis by AIMultiple reported that, “Current surveys of AI researchers are predicting AGI around 2040”.\n\n== Whole brain emulation ==",
       "citations": [
         {
           "id": "cite-0",
@@ -682,8 +732,7 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "James, The Why, What, and How of Artificial General Intelligence Chip Development, (2022)",
-          "url": "https://ieeexplore.ieee.org/document/9390376"
+          "text": "James, The Why, What, and How of Artificial General Intelligence Chip Development, (2022)"
         },
         {
           "id": "cite-3",
@@ -744,37 +793,38 @@
         {
           "id": "cite-13",
           "index": 13,
-          "text": "Bubeck, Sparks of Artificial General Intelligence: Early experiments with GPT-4, (22 March 2023)"
-        },
-        {
-          "id": "cite-14",
-          "index": 14,
           "text": "Metz, 'The Godfather of A.I.' Leaves Google and Warns of Danger Ahead, (2023-05-01)",
           "url": "https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html"
         },
         {
-          "id": "cite-15",
-          "index": 15,
+          "id": "cite-14",
+          "index": 14,
           "text": "'Godfather of AI' shortens odds of the technology wiping out humanity over next 30 years, (2024-12-27)",
           "url": "https://www.theguardian.com/technology/2024/dec/27/godfather-of-ai-raises-odds-of-the-technology-wiping-out-humanity-over-next-30-years"
         },
         {
-          "id": "cite-16",
-          "index": 16,
+          "id": "cite-15",
+          "index": 15,
           "text": "Bove, A.I. could rival human intelligence in 'just a few years,' says CEO of Google's main A.I. research lab",
           "url": "https://fortune.com/2023/05/03/google-deepmind-ceo-agi-artificial-intelligence/"
         },
         {
-          "id": "cite-17",
-          "index": 17,
+          "id": "cite-16",
+          "index": 16,
           "text": "Nellis, Nvidia CEO says AI could pass human tests in five years, (March 2, 2024)",
           "url": "https://www.reuters.com/technology/nvidia-ceo-says-ai-could-pass-human-tests-five-years-2024-03-01/"
         },
         {
-          "id": "cite-18",
-          "index": 18,
+          "id": "cite-17",
+          "index": 17,
           "text": "Aschenbrenner, SITUATIONAL AWARENESS, The Decade Ahead",
           "url": "https://situational-awareness.ai/"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Orf, Humanity May Achieve the Singularity Within the Next 3 Months, Scientists Suggest, (October 2025)",
+          "url": "https://www.msn.com/en-us/news/technology/humanity-may-achieve-the-singularity-within-the-next-3-months-scientists-suggest/ar-AA1NKmTK?ocid=winp2fptaskbar&cvid=68decb712fd2423c96e6d9e1efeeb370&ei=13"
         }
       ]
     },
@@ -808,7 +858,7 @@
       "id": "early-estimates",
       "title": "Early estimates",
       "level": 3,
-      "content": "and Nick Bostrom), along with the fastest supercomputer from TOP500 mapped by year. Note the logarithmic scale and exponential trendline, which assumes the computational capacity doubles every 1.1 years. Kurzweil believes that mind uploading will be possible at neural simulation, while the Sandberg, Bostrom report is less certain about where consciousness arises.|upright=2.6]] For low-level brain simulation, a very powerful cluster of computers or GPUs would be required, given the enormous quantity of synapses within the human brain. Each of the 1011 (one hundred billion) neurons has on average 7,000 synaptic connections (synapses) to other neurons. The brain of a three-year-old child has about 1015 synapses (1 quadrillion). This number declines with age, stabilizing by adulthood. Estimates vary for an adult, ranging from 1014 to 5×1014 synapses (100 to 500 trillion). An estimate of the brain's processing power, based on a simple switch model for neuron activity, is around 1014 (100 trillion) synaptic updates per second (SUPS).\n\nIn 1997, Kurzweil looked at various estimates for the hardware required to equal the human brain and adopted a figure of 1016 computations per second (cps). (For comparison, if a \"computation\" was equivalent to one \"floating-point operation\" – a measure used to rate current supercomputers – then 1016 \"computations\" would be equivalent to 10 petaFLOPS, achieved in 2011, while 1018 was achieved in 2022.) He used this figure to predict the necessary hardware would be available sometime between 2015 and 2025, if the exponential growth in computer power at the time of writing continued.\n\n===Current research===",
+      "content": "and Nick Bostrom), along with the fastest supercomputer from TOP500 mapped by year. Note the logarithmic scale and exponential trendline, which assumes the computational capacity doubles every 1.2 years. Kurzweil believes that mind uploading will be possible at neural simulation, while the Sandberg, Bostrom report is less certain about where consciousness arises.|upright=2.6]] For low-level brain simulation, a very powerful cluster of computers or GPUs would be required, given the enormous quantity of synapses within the human brain. Each of the 1011 (one hundred billion) neurons has on average 7,000 synaptic connections (synapses) to other neurons. The brain of a three-year-old child has about 1015 synapses (1 quadrillion). This number declines with age, stabilizing by adulthood. Estimates vary for an adult, ranging from 1014 to 5×1014 synapses (100 to 500 trillion). An estimate of the brain's processing power, based on a simple switch model for neuron activity, is around 1014 (100 trillion) synaptic updates per second (SUPS).\n\nIn 1997, Kurzweil looked at various estimates for the hardware required to equal the human brain and adopted a figure of 1016 computations per second. (For comparison, if a \"computation\" was equivalent to one \"floating-point operation\" – a measure used to rate current supercomputers – then 1016 \"computations\" would be equivalent to 10 petaFLOPS, achieved in 2011, while 1018 was achieved in 2022.) He used this figure to predict the necessary hardware would be available sometime between 2015 and 2025, if the exponential growth in computer power at the time of writing continued.\n\n===Current research===",
       "citations": []
     },
     {
@@ -861,7 +911,7 @@
       "id": "strong-ai-as-defined-in-philosophy",
       "title": "\"Strong AI\" as defined in philosophy",
       "level": 3,
-      "content": "In 1980, philosopher John Searle coined the term \"strong AI\" as part of his Chinese room argument. He proposed a distinction between two hypotheses about artificial intelligence:\n\n* Strong AI hypothesis: An artificial intelligence system can have \"a mind\" and \"consciousness\".\n* Weak AI hypothesis: An artificial intelligence system can (only) act like it thinks and has a mind and consciousness.\n\nThe first one he called \"strong\" because it makes a stronger statement: it assumes something special has happened to the machine that goes beyond those abilities that we can test. The behaviour of a \"weak AI\" machine would be precisely identical to a \"strong AI\" machine, but the latter would also have subjective conscious experience. This usage is also common in academic AI research and textbooks.\n\nIn contrast to Searle and mainstream AI, some futurists such as Ray Kurzweil use the term \"strong AI\" to mean \"human level artificial general intelligence\". According to Russell and Norvig, \"as long as the program works, they don't care if you call it real or a simulation.\" If the program can behave as if it has a mind, then there is no need to know if it actually has mind – indeed, there would be no way to tell. For AI research, Searle's \"weak AI hypothesis\" is equivalent to the statement \"artificial general intelligence is possible\". Thus, according to Russell and Norvig, \"most AI researchers take the weak AI hypothesis for granted, and don't care about the strong AI hypothesis.\" Thus, for academic AI research, \"Strong AI\" and \"AGI\" are two different things.\n\n=== Consciousness ===",
+      "content": "In 1980, philosopher John Searle coined the term \"strong AI\" as part of his Chinese room argument. He proposed a distinction between two hypotheses about artificial intelligence:\n\n* Strong AI hypothesis: An artificial intelligence system can have \"a mind\" and \"consciousness\".\n* Weak AI hypothesis: An artificial intelligence system can (only) act like it thinks and has a mind and consciousness.\n\nThe first one he called \"strong\" because it makes a stronger statement: it assumes something special has happened to the machine that goes beyond those abilities that we can test. The behaviour of a \"weak AI\" machine would be identical to a \"strong AI\" machine, but the latter would also have subjective conscious experience. This usage is also common in academic AI research and textbooks.\n\nIn contrast to Searle and mainstream AI, some futurists such as Ray Kurzweil use the term \"strong AI\" to mean \"human level artificial general intelligence\". According to Russell and Norvig, \"as long as the program works, they don't care if you call it real or a simulation.\" If the program can behave as if it has a mind, then there is no need to know if it actually has mind – indeed, there would be no way to tell. For AI research, Searle's \"weak AI hypothesis\" is equivalent to the statement \"artificial general intelligence is possible\". Thus, according to Russell and Norvig, \"most AI researchers take the weak AI hypothesis for granted, and don't care about the strong AI hypothesis.\" Thus, for academic AI research, \"Strong AI\" and \"AGI\" are two different things.\n\n=== Consciousness ===",
       "citations": [
         {
           "id": "cite-0",
@@ -871,13 +921,13 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "For example:\n\n* {{Harvnb|Russell|Norvig|2003}},\n* [http://www.encyclopedia.com/doc/1O87-strongAI.html Oxford University Press Dictionary of Psychology] {{Webarchive|url=https://web.archive.org/web/20071203103022/http://www.encyclopedia.com/doc/1O87-strongAI.html|date=3 December 2007}} (quoted in \" Encyclopedia.com\"),\n* [http://www.aaai.org/AITopics/html/phil.html MIT Encyclopedia of Cognitive Science] {{Webarchive|url=https://web.archive.org/web/20080719074502/http://www.aaai.org/AITopics/html/phil.html|date=19 July 2008}} (quoted in \"AITopics\"),\n* [http://www.cbhd.org/resources/biotech/tongen_2003-11-07.htm Will Biological Computers Enable Artificially Intelligent Machines to Become Persons?] {{Webarchive|url=https://web.archive.org/web/20080513031753/http://www.cbhd.org/resources/biotech/tongen_2003-11-07.htm|date=13 May 2008}} Anthony Tongen",
+          "text": "For example:\n\n* {{Harvnb|Russell|Norvig|2003}},\n* [http://www.encyclopedia.com/doc/1O87-strongAI.html Oxford University Press Dictionary of Psychology]. {{Webarchive|url=https://web.archive.org/web/20071203103022/http://www.encyclopedia.com/doc/1O87-strongAI.html|date=3 December 2007}} (quoted in \" Encyclopedia.com\"),\n* [http://www.aaai.org/AITopics/html/phil.html MIT Encyclopedia of Cognitive Science]. {{Webarchive|url=https://web.archive.org/web/20080719074502/http://www.aaai.org/AITopics/html/phil.html|date=19 July 2008}} (quoted in \"AITopics\"),\n* [http://www.cbhd.org/resources/biotech/tongen_2003-11-07.htm Will Biological Computers Enable Artificially Intelligent Machines to Become Persons?]. {{Webarchive|url=https://web.archive.org/web/20080513031753/http://www.cbhd.org/resources/biotech/tongen_2003-11-07.htm|date=13 May 2008}}, Anthony Tongen.",
           "url": "https://web.archive.org/web/20071203103022/http://www.encyclopedia.com/doc/1O87-strongAI.html"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "This is not the same as Searle's [[Chinese room#Strong AI|strong AI]], unless it is assumed that [[consciousness]] is necessary for human-level AGI. Academic philosophers such as Searle do not believe that is the case, and to most artificial intelligence researchers the question is out-of-scope.{{Sfn|Russell|Norvig|2003|p=947}}\n\nMainstream AI is most interested in how a program ''behaves''.<ref>though see [[Explainable artificial intelligence]] for curiosity by the field about why a program behaves the way it does"
+          "text": "This is not the same as Searle's [[Chinese room#Strong AI|strong AI]], unless it is assumed that [[consciousness]] is necessary for human-level AGI. Academic philosophers such as Searle do not believe that is the case, and to most artificial intelligence researchers the question is out-of-scope.{{Sfn|Russell|Norvig|2003|p=947}}\n\nMainstream AI is most interested in how a program ''behaves''.<ref>Though see [[Explainable artificial intelligence]] for curiosity by the field about why a program behaves the way it does."
         }
       ]
     },
@@ -885,7 +935,7 @@
       "id": "consciousness",
       "title": "Consciousness",
       "level": 3,
-      "content": "Consciousness can have various meanings, and some aspects play significant roles in science fiction and the ethics of artificial intelligence:\n\n* Sentience (or \"phenomenal consciousness\"): The ability to \"feel\" perceptions or emotions subjectively, as opposed to the ability to reason about perceptions. Some philosophers, such as David Chalmers, use the term \"consciousness\" to refer exclusively to phenomenal consciousness, which is roughly equivalent to sentience. Determining why and how subjective experience arises is known as the hard problem of consciousness. Thomas Nagel explained in 1974 that it \"feels like\" something to be conscious. If we are not conscious, then it doesn't feel like anything. Nagel uses the example of a bat: we can sensibly ask \"what does it feel like to be a bat?\" However, we are unlikely to ask \"what does it feel like to be a toaster?\" Nagel concludes that a bat appears to be conscious (i.e., has consciousness) but a toaster does not. In 2022, a Google engineer claimed that the company's AI chatbot, LaMDA, had achieved sentience, though this claim was widely disputed by other experts.\n* Self-awareness: To have conscious awareness of oneself as a separate individual, especially to be consciously aware of one's own thoughts. This is opposed to simply being the \"subject of one's thought\"—an operating system or debugger is able to be \"aware of itself\" (that is, to represent itself in the same way it represents everything else)—but this is not what people typically mean when they use the term \"self-awareness\". In some advanced AI models, systems construct internal representations of their own cognitive processes and feedback patterns—occasionally referring to themselves using second-person constructs such as ‘you’ within self-modeling frameworks.\n\nThese traits have a moral dimension. AI sentience would give rise to concerns of welfare and legal protection, similarly to animals. Other aspects of consciousness related to cognitive capabilities are also relevant to the concept of AI rights. Figuring out how to integrate advanced AI with existing legal and social frameworks is an emergent issue.\n\n==Benefits==",
+      "content": "Consciousness can have various meanings, and some aspects play significant roles in science fiction and the ethics of artificial intelligence:\n\n* Sentience (or \"phenomenal consciousness\"): The ability to \"feel\" perceptions or emotions subjectively, as opposed to the ability to reason about perceptions. Some philosophers, such as David Chalmers, use the term \"consciousness\" to refer exclusively to phenomenal consciousness, which is roughly equivalent to sentience. Determining why and how subjective experience arises is known as the hard problem of consciousness. Thomas Nagel explained in 1974 that it \"feels like\" something to be conscious. If we are not conscious, then it doesn't feel like anything. Nagel uses the example of a bat: we can sensibly ask \"what does it feel like to be a bat?\" However, we are unlikely to ask \"what does it feel like to be a toaster?\" Nagel concludes that a bat appears to be conscious (i.e., has consciousness) but a toaster does not. In 2022, a Google engineer claimed that the company's AI chatbot, LaMDA, had achieved sentience, though this claim was widely disputed by other experts.\n* Self-awareness: To have conscious awareness of oneself as a separate individual, especially to be consciously aware of one's own thoughts. This is opposed to simply being the \"subject of one's thought\"—an operating system or debugger is able to be \"aware of itself\" (that is, to represent itself in the same way it represents everything else)—but this is not what people typically mean when they use the term \"self-awareness\". In some advanced AI models, systems construct internal representations of their own cognitive processes and feedback patterns—occasionally referring to themselves using second-person constructs such as 'you' within self-modeling frameworks.\n\nThese traits have a moral dimension. AI sentience would give rise to concerns of welfare and legal protection, similarly to animals. Other aspects of consciousness related to cognitive capabilities are also relevant to the concept of AI rights. Figuring out how to integrate advanced AI with existing legal and social frameworks is an emergent issue.\n\n==Benefits==",
       "citations": [
         {
           "id": "cite-0",
@@ -929,77 +979,146 @@
       "id": "benefits",
       "title": "Benefits",
       "level": 2,
-      "content": "AGI could have a wide variety of applications. If oriented towards such goals, AGI could help mitigate various problems in the world such as hunger, poverty and health problems.\n\nAGI could improve productivity and efficiency in most jobs. For example, in public health, AGI could accelerate medical research, notably against cancer. It could take care of the elderly, and democratize access to rapid, high-quality medical diagnostics. It could offer fun, cheap and personalized education. This also raises the question of the place of humans in a radically automated society.\n\nAGI could also help to make rational decisions, and to anticipate and prevent disasters. It could also help to reap the benefits of potentially catastrophic technologies such as nanotechnology or climate engineering, while avoiding the associated risks. If an AGI's primary goal is to prevent existential catastrophes such as human extinction (which could be difficult if the Vulnerable World Hypothesis turns out to be true), it could take measures to drastically reduce the risks\n\nAdditionally, AGI could accelerate drug discovery by simulating molecular interactions, reducing the time it takes to develop new medicines for conditions like cancer and Alzheimer's. In hospitals, AGI-powered robotic assistants could assist in surgeries, monitor patients, and provide real-time medical support. It could also be used in elderly care, helping aging populations maintain independence through AI-powered caregivers and health-monitoring systems.\n\nBy evaluating large datasets, AGI can assist in developing personalised treatment plans tailored to individual patient needs. This approach ensures that therapies are optimised based on a patient's unique medical history and genetic profile, improving outcomes and reducing adverse effects.\n\nAdvancements in science and technology\n\nAGI can become a tool for scientific research and innovation. In fields such as physics and mathematics, AGI could help solve complex problems that require massive computational power, such as modeling quantum systems, understanding dark matter, or proving mathematical theorems. Problems that have remained unsolved for decades may be solved with AGI.\n\nAGI could also drive technological breakthroughs that could reshape society. It can do this by optimising engineering designs, discovering new materials, and improving automation. For example, AI is already playing a role in developing more efficient renewable energy sources and optimising supply chains in manufacturing. Future AGI systems could push these innovations even further.\n\nEnhancing education and productivity\n\nAGI can personalize education by creating learning programs that are specific to each student's strengths, weaknesses, and interests. Unlike traditional teaching methods, AI-driven tutoring systems could adapt lessons in real-time, ensuring students understand difficult concepts before moving on.\n\nIn the workplace, AGI could automate repetitive tasks, freeing up workers for more creative and strategic roles.\n\nMitigating global crises\n\nAGI could play a crucial role in preventing and managing global threats. It could help governments and organizations predict and respond to natural disasters more effectively, using real-time data analysis to forecast hurricanes, earthquakes, and pandemics. By analyzing vast datasets from satellites, sensors, and historical records, AGI could improve early warning systems, enabling faster disaster response and minimising casualties.\n\nIn climate science, AGI could develop new models for reducing carbon emissions, optimising energy resources, and mitigating climate change effects. It could also enhance weather prediction accuracy, allowing policymakers to implement more effective environmental regulations. Additionally, AGI could help regulate emerging technologies that carry significant risks, such as nanotechnology and bioengineering, by analysing complex systems and predicting unintended consequences. Furthermore, AGI could assist in cybersecurity by detecting and mitigating large-scale cyber threats, protecting critical infrastructure, and preventing digital warfare.\n\n==Risks==",
+      "content": "AGI could improve productivity and efficiency in most jobs. For example, in public health, AGI could accelerate medical research, notably against cancer. It could take care of the elderly, and democratize access to rapid, high-quality medical diagnostics. It could offer fun, inexpensive and personalized education. This also raises the question of the place of humans in a radically automated society.\n\nAGI could also help to make rational decisions, and to anticipate and prevent disasters. It could also help to reap the benefits of potentially catastrophic technologies such as nanotechnology or climate engineering, while avoiding the associated risks. If an AGI's primary goal is to prevent existential catastrophes such as human extinction (which could be difficult if the Vulnerable World Hypothesis turns out to be true), it could take measures to drastically reduce the risks while minimizing the impact of these measures on our quality of life.\n\n===Advancements in medicine and healthcare===",
       "citations": [
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Artificial General Intelligence – Do[es] the cost outweigh benefits?, (2021-08-23)",
-          "url": "https://coe-dsai.nasscom.in/artificial-general-intelligence-do-the-cost-outweigh-benefits/"
-        },
-        {
-          "id": "cite-1",
-          "index": 1,
           "text": "How we can Benefit from Advancing Artificial General Intelligence (AGI) – Unite.AI, (7 April 2020)",
           "url": "https://www.unite.ai/artificial-general-intelligence-agi/"
         },
         {
-          "id": "cite-2",
-          "index": 2,
+          "id": "cite-1",
+          "index": 1,
           "text": "Talty, What Will Our Society Look Like When Artificial Intelligence Is Everywhere?",
           "url": "https://www.smithsonianmag.com/innovation/artificial-intelligence-future-scenarios-180968403/"
         },
         {
-          "id": "cite-3",
-          "index": 3,
+          "id": "cite-2",
+          "index": 2,
           "text": "Stevenson, Answers to Stephen Hawking's AMA are Here!, (2015-10-08)",
           "url": "https://www.wired.com/brandlab/2015/10/stephen-hawkings-ama/"
         },
         {
-          "id": "cite-4",
-          "index": 4,
+          "id": "cite-3",
+          "index": 3,
           "text": "Bostrom, Superintelligence: paths, dangers, strategies, (2017)"
         },
         {
-          "id": "cite-5",
-          "index": 5,
+          "id": "cite-4",
+          "index": 4,
           "text": "Piper, How technological progress is making it likelier than ever that humans will destroy ourselves, (2018-11-19)",
           "url": "https://www.vox.com/future-perfect/2018/11/19/18097663/nick-bostrom-vulnerable-world-global-catastrophic-risks"
+        }
+      ]
+    },
+    {
+      "id": "advancements-in-medicine-and-healthcare",
+      "title": "Advancements in medicine and healthcare",
+      "level": 3,
+      "content": "AGI would improve healthcare by making medical diagnostics faster, less expensive, and more accurate. AI-driven systems can analyse patient data and detect diseases at an early stage. This means patients will get diagnosed quicker and be able to seek medical attention before their medical condition gets worse. AGI systems could also recommend personalised treatment plans based on genetics and medical history.\n\nAdditionally, AGI could accelerate drug discovery by simulating molecular interactions, reducing the time it takes to develop new medicines for conditions like cancer and Alzheimer's disease. In hospitals, AGI-powered robotic assistants could assist in surgeries, monitor patients, and provide real-time medical support. It could also be used in elderly care, helping aging populations maintain independence through AI-powered caregivers and health-monitoring systems.\n\nBy evaluating large datasets, AGI can assist in developing personalised treatment plans tailored to individual patient needs. This approach ensures that therapies are optimised based on a patient's unique medical history and genetic profile, improving outcomes and reducing adverse effects.\n\n===Advancements in science and technology===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Yampolskiy, Artificial Superintelligence: Coordination & Strategy, (2020)",
+          "url": "https://directory.doabooks.org/handle/20.500.12854/41358"
         },
         {
-          "id": "cite-6",
-          "index": 6,
+          "id": "cite-1",
+          "index": 1,
           "text": "Topol, Deep medicine: how artificial intelligence can make healthcare human again, (2019)"
         },
         {
-          "id": "cite-7",
-          "index": 7,
+          "id": "cite-2",
+          "index": 2,
           "text": "Jumper, Highly accurate protein structure prediction with AlphaFold, (August 2021)"
         },
         {
-          "id": "cite-8",
-          "index": 8,
+          "id": "cite-3",
+          "index": 3,
           "text": "Alowais, Revolutionizing healthcare: the role of artificial intelligence in clinical practice, (2023-09-22)"
-        },
+        }
+      ]
+    },
+    {
+      "id": "advancements-in-science-and-technology",
+      "title": "Advancements in science and technology",
+      "level": 3,
+      "content": "AGI can become a tool for scientific research and innovation. In fields such as physics and mathematics, AGI could help solve complex problems that require massive computational power, such as modeling quantum systems, understanding dark matter, or proving mathematical theorems. Problems that have remained unsolved for decades may be solved with AGI.\n\nAGI could also drive technological breakthroughs that could reshape society. It can do this by optimising engineering designs, discovering new materials, and improving automation. For example, AI is already playing a role in developing more efficient renewable energy sources and optimising supply chains in manufacturing. Future AGI systems could push these innovations further.\n\n===Enhancing education and productivity===",
+      "citations": [
         {
-          "id": "cite-9",
-          "index": 9,
+          "id": "cite-0",
+          "index": 0,
           "text": "Tegmark, Life 3.0: being human in the age of artificial intelligence, (2017)"
         },
         {
-          "id": "cite-10",
-          "index": 10,
+          "id": "cite-1",
+          "index": 1,
           "text": "Brynjolfsson, The second machine age: work, progress, and prosperity in a time of brilliant technologies, (2016)"
+        }
+      ]
+    },
+    {
+      "id": "enhancing-education-and-productivity",
+      "title": "Enhancing education and productivity",
+      "level": 3,
+      "content": "AGI can personalize education by creating learning programs that are specific to each student's strengths, weaknesses, and interests. Unlike traditional teaching methods, AI-driven tutoring systems could adapt lessons in real-time, ensuring students understand difficult concepts before moving on.\n\nIn the workplace, AGI could automate repetitive tasks, freeing workers for more creative and strategic roles.\n\n===Mitigating global crises===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Zhai, A Review of Artificial Intelligence (AI) in Education from 2010 to 2020, (2021)"
         },
         {
-          "id": "cite-11",
-          "index": 11,
+          "id": "cite-1",
+          "index": 1,
           "text": "Bostrom, Superintelligence: paths, dangers, strategies, (2017)"
+        }
+      ]
+    },
+    {
+      "id": "mitigating-global-crises",
+      "title": "Mitigating global crises",
+      "level": 3,
+      "content": "AGI could play a crucial role in preventing and managing global threats. It could help governments and organizations predict and respond to natural disasters more effectively, using real-time data analysis to forecast hurricanes, earthquakes, and pandemics. By analyzing vast datasets from satellites, sensors, and historical records, AGI could improve early warning systems, enabling faster disaster response and minimising casualties.\n\nIn climate science, AGI could develop new models for reducing carbon emissions, optimising energy resources, and mitigating climate change effects. It could also enhance weather prediction accuracy, allowing policymakers to implement more effective environmental regulations. Additionally, AGI could help regulate emerging technologies that carry significant risks, such as nanotechnology and bioengineering, by analysing complex systems and predicting unintended consequences. Furthermore, AGI could assist in cybersecurity by detecting and mitigating large-scale cyber threats, protecting critical infrastructure, and preventing digital warfare.\n\n===Revitalising environmental conservation and biodiversity===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Crawford, Atlas of AI: power, politics, and the planetary costs of artificial intelligence, (2021)"
+        }
+      ]
+    },
+    {
+      "id": "revitalising-environmental-conservation-and-biodiversity",
+      "title": "Revitalising environmental conservation and biodiversity",
+      "level": 3,
+      "content": "AGI could significantly contribute to preserving the natural environment and protecting endangered species. By analyzing satellite imagery, climate data, and wildlife patterns, AGI systems could identify environmental threats earlier and recommend targeted conservation strategies. AGI could help optimize land use, monitor illegal activities like poaching or deforestation in real-time, and support global efforts to restore ecosystems. Advanced predictive models developed by AGI could also assist in reversing biodiversity loss, ensuring the survival of critical species and maintaining ecological balance.\n\n=== Enhancing space exploration and colonization ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Artificial Intelligence and Conservation {{!",
+          "url": "https://www.worldwildlife.org/pages/artificial-intelligence-and-conservation"
         },
         {
-          "id": "cite-12",
-          "index": 12,
-          "text": "Crawford, Atlas of AI: power, politics, and the planetary costs of artificial intelligence, (2021)"
+          "id": "cite-1",
+          "index": 1,
+          "text": "Rolnick, Tackling Climate Change with Machine Learning, (2019)"
+        }
+      ]
+    },
+    {
+      "id": "enhancing-space-exploration-and-colonization",
+      "title": "Enhancing space exploration and colonization",
+      "level": 3,
+      "content": "AGI could revolutionize humanity's ability to explore and settle beyond Earth. With its advanced problem-solving skills, AGI could autonomously manage complex space missions, including navigation, resource management, and emergency response. It could accelerate the design of life support systems, habitats, and spacecraft optimized for extraterrestrial environments. Furthermore, AGI could support efforts to colonize planets like Mars by simulating survival scenarios and helping humans adapt to new worlds, expanding the possibilities for interplanetary civilization.\n\n==Risks==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Tegmark, Max. (2017). Life 3.0: Being Human in the Age of Artificial Intelligence. Penguin Books."
         }
       ]
     },
@@ -1014,7 +1133,7 @@
       "id": "existential-risks",
       "title": "Existential risks",
       "level": 3,
-      "content": "AGI may represent multiple types of existential risk, which are risks that threaten \"the premature extinction of Earth-originating intelligent life or the permanent and drastic destruction of its potential for desirable future development\". The risk of human extinction from AGI has been the topic of many debates, but there is also the possibility that the development of AGI would lead to a permanently flawed future. Notably, it could be used to spread and preserve the set of values of whoever develops it. If humanity still has moral blind spots similar to slavery in the past, AGI might irreversibly entrench it, preventing moral progress. Furthermore, AGI could facilitate mass surveillance and indoctrination, which could be used to create a stable repressive worldwide totalitarian regime. There is also a risk for the machines themselves. If machines that are sentient or otherwise worthy of moral consideration are mass created in the future, engaging in a civilizational path that indefinitely neglects their welfare and interests could be an existential catastrophe. Considering how much AGI could improve humanity's future and help reduce other existential risks, Toby Ord calls these existential risks \"an argument for proceeding with due caution\", not for \"abandoning AI\".\n\n==== Risk of loss of control and human extinction ====",
+      "content": "AGI may represent multiple types of existential risk, which are risks that threaten \"the premature extinction of Earth-originating intelligent life or the permanent and drastic destruction of its potential for desirable future development\". The risk of human extinction from AGI has been the topic of many debates, but there is also the possibility that the development of AGI would lead to a permanently flawed future. Notably, it could be used to spread and preserve the set of values of whoever develops it. If humanity still has moral blind spots similar to slavery in the past, AGI might irreversibly entrench it, preventing moral progress. Furthermore, AGI could facilitate mass surveillance and indoctrination, which could be used to create an entrenched repressive worldwide totalitarian regime. There is also a risk for the machines themselves. If machines that are sentient or otherwise worthy of moral consideration are mass created in the future, engaging in a civilizational path that indefinitely neglects their welfare and interests could be an existential catastrophe. Considering how much AGI could improve humanity's future and help reduce other existential risks, Toby Ord calls these existential risks \"an argument for proceeding with due caution\", not for \"abandoning AI\".\n\n==== Risk of loss of control and human extinction ====",
       "citations": [
         {
           "id": "cite-0",
@@ -1152,7 +1271,7 @@
       "id": "mass-unemployment",
       "title": "Mass unemployment",
       "level": 3,
-      "content": "Researchers from OpenAI estimated that \"80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of LLMs, while around 19% of workers may see at least 50% of their tasks impacted\". They consider office workers to be the most exposed, for example mathematicians, accountants or web designers.\n\n== See also ==",
+      "content": "Researchers from OpenAI estimated that \"80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of LLMs, while around 19% of workers may see at least 50% of their tasks impacted\". They consider office workers to be the most exposed, for example mathematicians, accountants or web designers.\n\nAccording to Stephen Hawking, the outcome of automation on the quality of life will depend on how the wealth will be redistributed: Hinton similarly advised the UK government in 2025 to adopt a UBI as a response to AI-induced unemployment. In 2023, Hinton said \"I'm a socialist [...] I think that private ownership of the media, and of the 'means of computation', is not good.\"\n\n== See also ==",
       "citations": [
         {
           "id": "cite-0",
@@ -1169,8 +1288,38 @@
         {
           "id": "cite-2",
           "index": 2,
+          "text": "Autor, Why Are There Still So Many Jobs? The History and Future of Workplace Automation, (Summer 2015)",
+          "url": "https://www.aeaweb.org/articles?id=10.1257/jep.29.3.3"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Gmyrek, Generative AI and Jobs: A Global Analysis of Potential Effects on Job Quantity and Quality, (August 2023)",
+          "url": "https://www.ilo.org/sites/default/files/2024-07/WP96_web.pdf"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Thompson, AI Shouldn't Compete With Workers—It Should Supercharge Them, (13 October 2022)",
+          "url": "https://www.wired.com/story/ai-shouldnt-compete-with-workers-it-should-supercharge-them-turing-trap"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
           "text": "Sheffey, Elon Musk says we need universal basic income because 'in the future, physical work will be a choice', (Aug 20, 2021)",
           "url": "https://www.businessinsider.com/elon-musk-universal-basic-income-physical-work-choice-2021-8"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Varanasi, Will AI replace human jobs and make universal basic income necessary? Here's what AI leaders have said about UBI, (27 February 2025)",
+          "url": "https://africa.businessinsider.com/news/will-ai-replace-human-jobs-and-make-universal-basic-income-necessary-heres-what-ai/qneeged"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Hern, Bernie Sanders, Elon Musk and White House seeking my help, says 'godfather of AI', (4 May 2023)",
+          "url": "https://www.theguardian.com/technology/2023/may/04/bernie-sanders-elon-musk-and-white-house-seeking-my-help-says-godfather-of-ai"
         }
       ]
     },
