@@ -1,0 +1,2129 @@
+{
+  "id": "cultivated-meat",
+  "title": "Cultured meat",
+  "revisionDate": "2026-04-04",
+  "revisionId": "1346575136",
+  "sections": [
+    {
+      "id": "cultivated-meat-lead",
+      "title": "Lead",
+      "level": 1,
+      "content": "Cultured meat, also known as cultivated meat among other names, is a form of cellular agriculture wherein meat is produced by culturing animal cells in vitro.  This production method involves the molecularly identical growth of animal flesh, outside of a living animal. Cultured meat is produced using tissue engineering techniques pioneered in regenerative medicine. It is known for its potential to mitigate the environmental impact of meat production, Its potential has long been of interest, including to British statesman Winston Churchill in 1931.\n\n of the University of Maastricht presents The Meat Revolution, a lecture about cultured meat, 2015]]\n of New Harvest on how a \"post-animal bio-economy\" can be brought about through cultured meat, eggs, and milk, 2017]]\nJason Matheny popularized the concept in the early 2000s after he co-authored a paper on cultured meat production and created New Harvest, the world's first non-profit organization dedicated to in vitro meat research. In 2013, Mark Post created a hamburger patty made from tissue grown outside of an animal; other cultured meat prototypes have gained media attention since. In 2020, SuperMeat opened a farm-to-fork restaurant in Tel Aviv called The Chicken, serving cultured chicken burgers in exchange for reviews to test consumer reaction rather than money; while the \"world's first commercial sale of cell-cultured meat\" occurred in December 2020 at Singapore restaurant 1880, where cultured chicken manufactured by United States firm Eat Just was sold.\n\nMost efforts focus on common meats such as pork, beef, and chicken; species which constitute the bulk of conventional meat consumption in developed countries. Some companies have pursued various species of fish and other seafood, such as Avant Meats who brought cultured grouper to market in 2021. Other companies such as Orbillion Bio have focused on high-end or unusual meats including elk, lamb, bison, and Wagyu beef.\n\nThe production process of cultured meat is constantly evolving, driven by companies and research institutions. The applications for cultured meat have led to ethical, health, environmental, cultural, and economic discussions. Data published by The Good Food Institute found that in 2021 through 2023, cultured meat and seafood companies attracted over $2.5 billion in investment worldwide. However, cultured meat is not yet widely available.\n\nIn January 2024, a study demonstrated that cow cells can produce its own growth factors and do not require the expensive recombinant growth factors or fetal bovine serum.\n\nIn November 2025, a study demonstrated that cow cells can be spontaneously immortalized after 500 days without genetic modification, similar to how chicken cells are readily spontaneously immortalized in culture.",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Gaydhane, Cultured meat: state of the art and future, (2018)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Datar, Possibilities for an in vitro meat production system, (January 2010)",
+          "url": "https://zenodo.org/record/7469618"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "De Lorenzo, Dutch Parliament Approves Cultured Meat Tasting In The Netherlands, (17 March 2022)",
+          "url": "https://www.forbes.com/sites/danieladelorenzo/2022/03/17/dutch-parliament-approves-cultured-meat-tasting-within-the-netherlands/?sh=274e269460bf"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Patil, Cultured Meat: The Upcoming Meat Production having Sustainable Benefits over Conventional Meat Production: A Review, (2024)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Hubalek, Towards resource-efficient and cost-efficient cultured meat, (2022)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Post, Medical technology to Produce Food, (4 December 2013)"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Gaydhane, Cultured meat: state of the art and future, (2018)"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Post, Scientific, sustainability and regulatory challenges of cultured meat, (2020)",
+          "url": "https://zenodo.org/record/7682919"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Bryant, Culture, meat, and cultured meat, (2020)"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Hong, Current Issues and Technical Advances in Cultured Meat Production: AReview, (2021)"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Treich, Cultured Meat: Promises and Challenges, (2021)"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Chriki, Is \"cultured meat\" a viable alternative to slaughtering animals and a good comprise between animal welfare and human expectations?, (2022)"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Chen, Large-scale cultured meat production: Trends, challenges and promising biomanufacturing technologies, (2022)"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "[https://winstonchurchill.org/publications/churchill-bulletin/bulletin-115-jan-2018/no-bull/ \"No Bull\".] {{Webarchive|url=https://web.archive.org/web/20220526170052/https://winstonchurchill.org/publications/churchill-bulletin/bulletin-115-jan-2018/no-bull/ |date=26 May 2022 }} - [[International Churchill Society]]",
+          "url": "https://web.archive.org/web/20220526170052/https://winstonchurchill.org/publications/churchill-bulletin/bulletin-115-jan-2018/no-bull/"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Edelman, Commentary: In Vitro-Cultured Meat Production, (3 May 2005)",
+          "url": "https://www.researchgate.net/publication/7746539"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Schonwald, Future Fillet, (May 2009)",
+          "url": "http://magazine.uchicago.edu/0906/features/future_fillet.shtml"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Peters, At the first lab-grown meat restaurant, you can eat a 'cultured chicken' sandwich, (5 November 2020)",
+          "url": "https://www.fastcompany.com/90572093/at-the-first-lab-grown-meat-restaurant-you-can-eat-a-cultured-chicken-sandwich"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "Kolyohin, Feature: Israeli cultured meat company aims to redefine industry, (2 July 2021)",
+          "url": "http://www.xinhuanet.com/english/2021-07/02/c_1310040282.htm"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Scully, Hello Cultured Meat, Goodbye to the Cruelty of Industrial Animal Farming, (17 January 2021)",
+          "url": "https://www.nationalreview.com/2021/01/hello-cultured-meat-good-bye-to-the-cruelty-of-industrial-animal-farming/"
+        },
+        {
+          "id": "cite-19",
+          "index": 19,
+          "text": "Diners enjoy world's first restaurant meal made from lab-grown meat, (26 January 2021)",
+          "url": "https://www.sciencefocus.com/news/diners-enjoy-worlds-first-restaurant-meal-made-from-lab-grown-meat/"
+        },
+        {
+          "id": "cite-20",
+          "index": 20,
+          "text": "What is the most consumed meat in the world?",
+          "url": "https://ask.usda.gov/s/article/What-is-the-most-consumed-meat-in-the-world"
+        },
+        {
+          "id": "cite-21",
+          "index": 21,
+          "text": "Seafood Without The Sea: Will Lab-Grown Fish Hook Consumers?, (5 May 2019)",
+          "url": "https://www.npr.org/sections/thesalt/2019/05/05/720041152/seafood-without-the-sea-will-lab-grown-fish-hook-consumers"
+        },
+        {
+          "id": "cite-22",
+          "index": 22,
+          "text": "Lab-grown fish makes a debut in Hong Kong, (29 January 2021)",
+          "url": "https://thefishsite.com/articles/lab-grown-fish-makes-a-debut-in-hong-kong"
+        },
+        {
+          "id": "cite-23",
+          "index": 23,
+          "text": "Investors eat up Orbillion Bio's plans for lab-grown Wagyu beef, elk and bison, (26 April 2021)",
+          "url": "https://techcrunch.com/2021/04/26/investors-eat-up-orbillion-bios-plans-for-lab-grown-wagyu-beef-elk-and-bison/"
+        },
+        {
+          "id": "cite-24",
+          "index": 24,
+          "text": "Future Food - In Vitro Meat, (November 2018)",
+          "url": "https://www.futurefood.org/in-vitro-meat/index_en.php"
+        },
+        {
+          "id": "cite-25",
+          "index": 25,
+          "text": "Chauvet, Should cultured meat be refused in the name of animal dignity?, (2018)"
+        },
+        {
+          "id": "cite-26",
+          "index": 26,
+          "text": "Rohrheim, Cultured Meat, (June 2016)",
+          "url": "http://sentience-politics.org/policy-papers/cultured-meat/"
+        },
+        {
+          "id": "cite-27",
+          "index": 27,
+          "text": "2023 State of the Industry Report: Cultivated meat and seafood, (2024)",
+          "url": "https://gfi.org/wp-content/uploads/2024/08/State-of-the-Industry-Report-Cultivated-meat-and-seafood.pdf"
+        },
+        {
+          "id": "cite-28",
+          "index": 28,
+          "text": "Stout, Engineered autocrine signaling eliminates muscle cell FGF2 requirements for cultured meat production, (2024-01-26)",
+          "url": "https://www.cell.com/cell-reports-sustainability/fulltext/S2949-7906(23)00009-5"
+        },
+        {
+          "id": "cite-29",
+          "index": 29,
+          "text": "Pasitka, Spontaneous immortalization of bovine fibroblasts following long-term expansion offers a non-transformed cell source for cultivated beef, (2025-11-12)",
+          "url": "https://www.nature.com/articles/s43016-025-01255-3"
+        }
+      ]
+    },
+    {
+      "id": "nomenclature",
+      "title": "Nomenclature",
+      "level": 2,
+      "content": "Besides cultured meat, the terms cultivated meat, clean meat, in vitro meat, cell-based meat, synthetic meat, slaughter-free meat, craft meat, healthy meat, and schmeat have been used to describe the product. Although it has multiple meanings, artificial meat is occasionally used. The term lab-grown meat has been used in news media, but has been criticized on the basis that as production reaches market-scale, it won't be grown in laboratories but rather larger-output facilities which Bruce Friedrich compares to \"meat breweries\". and in late 2018, the institute published research claiming that use of clean better reflected the production process and benefits. By 2018 it had surpassed cultured and in vitro in media mentions and Google searches. Some stakeholders in cultured meat production, seeking to work with conventional meat producers as allies, felt that the term clean meat unnecessarily tarnished the latter, and went on to prefer cell-based meat as a neutral alternative.\n\nIn September 2019, GFI announced new research which found that the term cultivated meat is sufficiently descriptive and differentiating, possesses a high degree of neutrality, and ranks highly for consumer appeal. A September 2021 poll indicated that the majority of industry CEOs have a preference for cultivated meat, with 75 percent of 44 companies preferring it.\n\n== History ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Watson, 'Cultivated' meat could be the most-consumer-friendly term for cell-cultured meat, suggests Mattson/GFI research, (12 September 2019)",
+          "url": "https://www.foodnavigator-usa.com/Article/2019/09/12/Cultivated-meat-could-be-the-most-consumer-friendly-term-for-cell-cultured-meat-suggests-Mattson-GFI-research"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Malerich, Nomenclature of cell-cultivated meat & seafood products, (2022)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Banis, 7 Predictions On The Future Of Clean Meat in 2019, (14 December 2018)",
+          "url": "https://www.forbes.com/sites/davidebanis/2018/12/14/7-predictions-on-the-future-of-clean-meat-in-2019/#1683bcf83a99"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "#20 – Bruce Friedrich makes the case that inventing outstanding meat replacements is the most effective way to help animals, (19 February 2018)",
+          "url": "https://80000hours.org/podcast/episodes/bruce-friedrich-good-food-institute/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "USDA and FDA to Host Joint Meeting On Cell-Based Meat Regulation",
+          "url": "https://vegnews.com/2018/9/usda-and-fda-to-host-joint-meeting-on-cell-based-meat-regulation"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Jha, Synthetic meat: how the world's costliest burger made it on to the plate, (5 August 2013)",
+          "url": "https://www.theguardian.com/science/2013/aug/05/synthetic-meat-burger-stem-cells"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Anthis, Slaughter-Free Meat Is An Answer To Our Cruel And Broken Food System, (19 October 2018)",
+          "url": "https://www.huffpost.com/entry/will-people-eat-slaughter-free-lab-grown-meat_n_5bc8915ae4b0a8f17ee9e84a"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Bloch, \"Clean\" meat needs a rebrand. Here's an idea: call it \"craft\" instead, (6 November 2018)",
+          "url": "https://thecounter.org/clean-meat-craft-beer/"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Zhang, The Farcical Battle Over What to Call Lab-Grown Meat, (13 July 2018)",
+          "url": "https://www.theatlantic.com/science/archive/2018/07/lab-grown-meat/565049/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Zaraska, Is Lab-Grown Meat Good for Us?, (19 August 2013)",
+          "url": "https://www.theatlantic.com/health/archive/2013/08/is-lab-grown-meat-good-for-us/278778/"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Duignan, Meat Meets Schmeat, (August 2013)",
+          "url": "https://explore.britannica.com/explore/savingearth/meat-meets-schmeat"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Mayer, Meet 'Schmeat': Say Hello to the Stem-Cell Hamburger, (5 August 2013)",
+          "url": "https://science.time.com/2013/08/05/meet-schmeat-say-hello-to-the-stem-cell-hamburger/"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Bill Gates wants you to eat artificial meat",
+          "url": "https://unherd.com/thepost/bill-gates-wants-you-to-eat-artificial-meat/"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Fountain, A Lab-Grown Burger Gets a Taste Test, (6 August 2013)",
+          "url": "https://www.nytimes.com/2013/08/06/science/a-lab-grown-burger-gets-a-taste-test.html"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "\"Clean Meat\": The \"Clean Energy\" of Food, (6 September 2016)",
+          "url": "http://www.gfi.org/clean-meat-the-clean-energy-of-food"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "\"Clean Meat,\" \"Cell-Based Meat,\" \"Slaughter-Free Meat\": How We Talk About Meat Grown without Animals, (27 September 2018)",
+          "url": "https://www.gfi.org/how-we-talk-about-meat-grown-without-animals"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Lab-made meat rebranded 'clean meat' to address 'yuck' factor, (8 September 2016)",
+          "url": "http://www.globalmeatnews.com/Analysis/Lab-made-meat-rebranded-clean-meat"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "\"Clean meat\" is catching on: a reflection on nomenclature, (24 May 2018)",
+          "url": "http://www.gfi.org/clean-meat-is-catching-on-a-reflection-on"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Cultured meat cos agree to replace term 'clean meat' with 'cell-based meat' and form trade association, (10 September 2018)",
+          "url": "https://www.foodnavigator-usa.com/Article/2018/09/10/Cultured-meat-cos-agree-to-replace-term-clean-meat-with-cell-based-meat-and-form-trade-association"
+        },
+        {
+          "id": "cite-19",
+          "index": 19,
+          "text": "'Cell-based meat' not the most consumer-friendly term, reveals GFI consumer research, (30 September 2018)",
+          "url": "https://www.foodnavigator-usa.com/Article/2018/09/30/Clean-meat-is-problematic-but-cell-based-meat-isn-t-perfect-either-reveals-GFI-consumer-research"
+        },
+        {
+          "id": "cite-20",
+          "index": 20,
+          "text": "Friedrich, Cultivated Meat: Why GFI Is Embracing New Language, (13 September 2019)",
+          "url": "https://www.gfi.org/cultivatedmeat"
+        },
+        {
+          "id": "cite-21",
+          "index": 21,
+          "text": "Friedrich, Cultivated meat: A growing nomenclature consensus, (2021-09-29)",
+          "url": "https://gfi.org/blog/cultivated-meat-a-growing-nomenclature-consensus/"
+        }
+      ]
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "level": 2,
+      "content": "=== Initial research ===",
+      "citations": []
+    },
+    {
+      "id": "initial-research",
+      "title": "Initial research",
+      "level": 3,
+      "content": "The theoretical possibility of growing meat in an industrial setting has long been of interest. In a 1931 essay published by various periodicals and later included in his work Thoughts and Adventures, British statesman Winston Churchill wrote: \"We shall escape the absurdity of growing a whole chicken to eat the breast or wing, by growing these parts separately under a suitable medium.\" He attended a university lecture discussing the prospects of preserved meat. The earlier discovery of cell lines provided the basis for the idea. In vitro cultivation of muscle fibers was first performed successfully in 1971 when pathologist Russell Ross cultured guinea pig aorta. However, In 1991, Jon F. Vein secured patent  for the production of tissue-engineered meat for human consumption, wherein muscle and fat would be grown in an integrated fashion to create food products.\n\nIn 2001, dermatologist Wiete Westerhof along with van Eelen and businessperson Willem van Kooten announced that they had filed for a worldwide patent on a process to produce cultured meat. The process employed a matrix of collagen seeded with muscle cells bathed in a nutritious solution and induced to divide. That same year, NASA began conducting cultured meat experiments, with the intent of allowing astronauts to grow meat instead of transporting it. In partnership with Morris Benjaminson, they cultivated goldfish and turkey. In 2003, Oron Catts and Ionat Zurr exhibited a few centimeters of \"steak\", grown from frog stem cells, which they cooked and ate. The goal was to start a conversation surrounding the ethics of cultured meat—\"was it ever alive?\", \"was it ever killed?\", \"is it in any way disrespectful to an animal to throw it away?\"\n\nIn the early 2000s, American public health student Jason Matheny traveled to India and visited a factory chicken farm. Appalled by the implications of this system, he later teamed up with three scientists involved in NASA's efforts. In 2004, Matheny founded New Harvest to encourage development by funding research. In 2005, the four published the first peer-reviewed literature on the subject.\n\nIn May 2008, PETA offered a $1 million prize to the first company to bring cultured chicken meat to consumers by 2012. The contestant was required to complete two tasks to earn the prize, namely to produce a cultured chicken meat product that was indistinguishable from real chicken and produce the product in large enough quantities to be competitively sold in at least 10 states. The contest was later extended until 4 March 2014. The deadline eventually expired without a winner.\n\nThe Dutch government has invested $4 million into experiments regarding cultured meat. The In Vitro Meat Consortium, a group formed by international researchers, held the first international conference hosted by the Norwegian Food Research Institute in April 2008. Time magazine declared cultured meat production to be one of the 50 breakthrough ideas of 2009. In November 2009, scientists from the Netherlands announced they had managed to grow meat using cells from a live pig.\n\n===First public trial===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Purdy, The idea for lab-grown meat was born in a prisoner-of-war camp, (2017-09-24)",
+          "url": "https://qz.com/1077183/the-idea-for-lab-grown-meat-was-born-in-a-prisoner-of-war-camp/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Specter, Test-Tube Burgers, (2011-05-16)",
+          "url": "https://www.newyorker.com/magazine/2011/05/23/test-tube-burgers"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Frey, The Future of the Cultured Meats Industry in 2040, (30 May 2019)",
+          "url": "https://futuristspeaker.com/future-of-agriculture/the-future-of-the-cultured-meats-industry-in-2040/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Industrial scale production of meat from in vitro cell cultures"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Kadim, Cultured meat from muscle stem cells: A review of challenges and prospects, (February 2015)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Sample, Fish fillets grow in tank, (20 March 2020)",
+          "url": "https://www.newscientist.com/article/dn2066-fish-fillets-grow-in-tank/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Catts, Ingestion / Disembodied Cuisine, (Winter 2004–2005)",
+          "url": "http://www.cabinetmagazine.org/issues/16/catts_zurr.php"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Paper Says Edible Meat Can be Grown in a Lab on Industrial Scale, (6 July 2005)",
+          "url": "http://www.newsdesk.umd.edu/scitech/release.cfm?ArticleID=1098"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Levine, Lab-Grown Meat a Reality, But Who Will Eat It?, (20 May 2008)",
+          "url": "https://www.npr.org/templates/story/story.php?storyId=90235492"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "PETA's 'In Vitro' Chicken Contest, (6 October 2008)",
+          "url": "https://www.peta.org/features/vitro-meat-contest/"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Macintyre, Test-tube meat science's next leap, (20 January 2007)",
+          "url": "http://www.theaustralian.com.au/news/health-science/test-tube-meat-sciences-next-leap/story-e6frg8y6-1111112859219"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Siegelbaum, In Search of a Test-Tube Hamburger, (23 April 2008)",
+          "url": "http://www.time.com/time/health/article/0,8599,1734630,00.html?imw=Y"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "The 50 Best Inventions of 2009, (12 November 2009)",
+          "url": "http://www.time.com/time/specials/packages/article/0,28804,1934027_1934003_1933982,00.html"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Rogers, Scientists grow pork meat in a laboratory, (29 November 2009)",
+          "url": "http://www.timesonline.co.uk/tol/news/science/article6936352.ece"
+        }
+      ]
+    },
+    {
+      "id": "first-public-trial",
+      "title": "First public trial",
+      "level": 3,
+      "content": "The first cultured beef burger patty was created by Mark Post at Maastricht University in 2013. It was made from over 20,000 thin strands of muscle tissue, cost over $325,000 and needed 2 years to produce. The burger was tested on live television in London on 5 August 2013. It was cooked by chef Richard McGeown of Couch's Great House Restaurant in Polperro, Cornwall, and tasted by critics Hanni Rützler, a food researcher from the Future Food Studio, and Josh Schonwald. Rützler stated, \"There is really a bite to it, there is quite some flavour with the browning. I know there is no fat in it so I didn't really know how juicy it would be, but there is quite some intense taste; it's close to meat, it's not that juicy, but the consistency is perfect. This is meat to me... It's really something to bite on and I think the look is quite similar.\" Rützler added that even in a blind trial she would have taken the product for meat rather than a soya copy.\n\n===Industry development===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "World's first lab-grown burger is eaten in London, (5 August 2013)",
+          "url": "https://www.bbc.co.uk/news/science-environment-23576143"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Fountain, Engineering the $325,000 In Vitro Burger, (12 May 2013)",
+          "url": "https://www.nytimes.com/2013/05/14/science/engineering-the-325000-in-vitro-burger.html"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Hogenboom, What does a stem cell burger taste like?, (2013-08-05)",
+          "url": "https://www.bbc.co.uk/news/science-environment-23529841"
+        }
+      ]
+    },
+    {
+      "id": "industry-development",
+      "title": "Industry development",
+      "level": 3,
+      "content": "Between 2011 and 2017, many cultured meat startups were launched. Memphis Meats, now known as Upside Foods, launched a video in February 2016, showcasing its cultured beef meatball. In March 2017, it showcased chicken tenders and duck a l'orange, the first cultured poultry shown to the public. An Israeli company, SuperMeat, cultured chicken. Finless Foods, a San Francisco-based company working on cultured fish, was founded in June 2016. In March 2017 it commenced laboratory operations.\n\nIn March 2018, Eat Just (in 2011 founded as Hampton Creek in San Francisco, later known as Just, Inc.) claimed to be able to offer a consumer product from cultured meat by the end of 2018. According to CEO Josh Tetrick the technology was already there. JUST had about 130 employees and a research department of 55 scientists, where cultured meat from poultry, pork and beef was researched. JUST has received investments from Chinese billionaire Li Ka-shing, Yahoo! co-founder Jerry Yang and according to Tetrick also by Heineken International and others.\n\nDutch startup Meatable, consisting of Krijn de Nood, Daan Luining, Ruud Out, Roger Pederson, Mark Kotter and Gordana Apic among others, reported in September 2018 that it had succeeded in growing meat using pluripotent stem cells from animal umbilical cords. Although such cells are reportedly difficult to work with, Meatable claimed to be able to direct them to behave to become muscle or fat cells as needed. The major advantage is that this technique bypasses fetal bovine serum, meaning that no animal has to be killed to produce meat. That month, an estimated 30 cultured meat startups operated across the world. Competitors included England based Multus Media and Canadian Future Fields.\n\nIn August 2019, five American startups announced the formation of the Alliance for Meat, Poultry & Seafood Innovation (AMPS Innovation), a coalition seeking to work with regulators to create a pathway to market for cultured meat and seafood. The founding members include Eat Just, Memphis Meats, Finless Foods, BlueNalu, and Fork & Goode. Similarly in December 2021, a group of 13 European and Israeli companies (Aleph Farms, Bluu Biosciences, Cubiq Foods, Future Meat, Gourmey, Higher Steaks, Ivy Farm, Meatable, Mirai Foods, Mosa Meat, Peace of Meat, SuperMeat, and Vital Meat) established Cellular Agriculture Europe, a Belgium-based association that sought to 'find common ground and speak with a shared voice for the good of the industry, consumers, and regulators'.\n\nIn October 2019, Aleph Farms collaborated with 3D Bioprinting Solutions to culture meat on the International Space Station. This was done by extruding meat cells onto a scaffold using a 3D printer. In January 2020, Quartz found around 30 cultured meat startups, and that Memphis Meats, Just Inc. and Future Meat Technologies were the most advanced because they were building pilot plants. According to New Scientist in May 2020, 60 start-ups were developing cultured meat. Some of these were technology suppliers. Growth media reportedly still cost \"hundreds of dollars per litre, but for clean meat production to scale this needs to drop to around $1 a litre.\"\n\nIn December 2019, the Foieture project was launched in Belgium with the goal of developing cultured foie gras (the name is a portmanteau of 'foie' and 'future') by a consortium of 3 companies (cultured-meat startup Peace of Meat, small meat-seasoning company Solina, and small pâté-producing company Nauta) and 3 non-profit institutes (university KU Leuven, food industry innovation centre Flanders Food, and Bio Base Europe Pilot Plant). Peace of Meat stated in December 2019 that it intended to complete its proof of concept in 2020, to produce its first prototype in 2022, and to go to market in 2023. Piece of Meat built two laboratories in the Port of Antwerp.\n\nIn November 2020, Indian start-up Clear Meat claimed it had managed to cultivate chicken mince at the cost of only 800–850 Indian rupees (US$10.77–11.44), while a slaughtered processed chicken cost about 1,000 rupees. On 27 April 2022, the European Commission approved the request for the collection of signatures for the European Citizens' Initiative End The Slaughter Age to shift subsidies from animal husbandry to cellular agriculture.\n\nAccording to a November 2023 report by Oghma Partners, 46.9% of all funds – over 2.6 billion British pounds – raised for cultivated meat start-ups between 2016 and 2023 went to a top five, comprising Upside Foods (21.5%; formerly Memphis Meats), Believer Meats (formerly Future Meat Technologies), Wildtype, Aleph Farms, and Mosa Meat.\n\n=== Market entry ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Kweekvlees en vleesvervangers - Rondetafelgesprek 26-9-2018, (26 September 2018)",
+          "url": "https://www.youtube.com/watch?v=PVEu6TSKhD0"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Choudhury, The Business of Cultured Meat, (2020)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Memphis Meats rebrands as UPSIDE Foods, gears up to launch cell-cultured chicken by year-end: 'This is a big historic step for the entire industry', (12 May 2021)",
+          "url": "https://www.foodnavigator-usa.com/Article/2021/05/12/Memphis-Meats-rebrands-as-UPSIDE-Foods-gears-up-to-launch-cell-cultured-chicken-by-year-end"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Bunge, Sizzling Steaks May Soon Be Lab-Grown, (1 February 2016)",
+          "url": "https://www.wsj.com/articles/sizzling-steaks-may-soon-be-lab-grown-1454302862"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "'World's first' lab-grown meatball revealed, (3 February 2016)",
+          "url": "http://www.foxnews.com/leisure/2016/02/03/world-first-lab-grown-meatball-revealed/"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Addady, You Could Be Eating Lab-Grown Meat in Just Five Years, (2 February 2016)",
+          "url": "http://fortune.com/2016/02/02/lab-grown-memphis-meats/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Bunge, Startup Serves Up Chicken Produced From Cells in Lab, (15 March 2017)",
+          "url": "https://www.wsj.com/articles/startup-to-serve-up-chicken-strips-cultivated-from-cells-in-lab-1489570202"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Farber, A San Francisco Startup Is Serving Chicken That Was Made in a Lab, (15 March 2017)",
+          "url": "http://fortune.com/2017/03/15/memphis-meats-lab-grown-chicken-peta/"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Kooser, This lab-grown chicken and duck meat looks surprisingly delicious March 15, 2017",
+          "url": "https://www.cnet.com/au/news/chicken-duck-meat-memphis-meats-lab-clean/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Chang, SuperMeat wants you to try its lab-grown chicken breast, (11 July 2016)",
+          "url": "http://www.digitaltrends.com/cool-tech/supermeat-lab-grown-chicken/"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Lab-Grown Chicken Could Soon Be On Your Plate, (12 July 2016)",
+          "url": "http://news.sky.com/story/lab-grown-chicken-could-soon-be-on-your-plate-10499357"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Chang, Would you eat lab grown chicken? SuperMeat sure hopes so, (11 July 2016)",
+          "url": "https://www.yahoo.com/tech/eat-lab-grown-chicken-supermeat-151513690.html"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Tobin, The Israeli Startup That Lets You Eat Meat - Without Eating the Animal, (13 July 2016)",
+          "url": "https://www.haaretz.com/israel-news/business/1.730666"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Tobin, No harm, no fowl: Startup to grow chickenless chicken, (13 July 2016)",
+          "url": "http://www.timesofisrael.com/no-harm-no-fowl-startup-to-grow-chickenless-chicken/"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Card, Lab-grown food: 'the goal is to remove the animal from meat production', (24 July 2017)",
+          "url": "https://www.theguardian.com/small-business-network/2017/jul/24/lab-grown-food-indiebio-artificial-intelligence-walmart-vegetarian"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Mac van Dinther, Een écht stukje vlees, zonder dat daar dode dieren aan te pas komen: het komt eraan, (31 March 2018)",
+          "url": "https://www.volkskrant.nl/kijkverder/2018/voedselzaak/artikelen/kweekvlees-is-hard-op-weg-naar-uw-bord/"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Brodwin, A new lab-grown meat startup may have overcome a key barrier to making meat without slaughter, (28 September 2018)",
+          "url": "https://www.businessinsider.nl/lab-grown-meat-startup-solving-barrier-meat-without-slaughter-meatable-2018-9/?international=true&r=US"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "IntegriCulture",
+          "url": "https://agfunder.com/portfolio/integriculture/"
+        },
+        {
+          "id": "cite-18",
+          "index": 18,
+          "text": "Shieber, Future Fields is tackling cultured meat's biggest problem",
+          "url": "https://techcrunch.com/2020/08/02/future-fields-is-tackling-cultured-meats-biggest-problem/"
+        },
+        {
+          "id": "cite-19",
+          "index": 19,
+          "text": "Evich, Cell-based meat companies join forces, (29 August 2019)",
+          "url": "https://politi.co/30HKLA5"
+        },
+        {
+          "id": "cite-20",
+          "index": 20,
+          "text": "Purdy, Cell-cultured meat companies just created a brand-new lobbying group, (29 August 2019)",
+          "url": "https://qz.com/1698237/cell-cultured-meat-companies-now-have-a-lobbying-group/"
+        },
+        {
+          "id": "cite-21",
+          "index": 21,
+          "text": ", Meatable becomes a founding member of newly created association for cellular agriculture, (3 December 2021)",
+          "url": "https://www.meatable.com/cellular-agriculture-europe/"
+        },
+        {
+          "id": "cite-22",
+          "index": 22,
+          "text": ", Cellular Agriculture Europe Launches to Become the \"Voice of the Cultivated Industry\", (7 December 2021)",
+          "url": "https://vegconomist.com/cultivated/cellular-agriculture-europe/"
+        },
+        {
+          "id": "cite-23",
+          "index": 23,
+          "text": "Amy Buxton, Cellular Agriculture Europe Offers a Powerful Voice to the Cultivated Meat, Seafood, and Ingredients Industry, (8 December 2021)",
+          "url": "https://www.greenqueen.com.hk/cellular-agriculture-europe/"
+        },
+        {
+          "id": "cite-24",
+          "index": 24,
+          "text": "Smithers, First meat grown in space lab 248 miles from Earth, (7 October 2019)",
+          "url": "https://www.theguardian.com/environment/2019/oct/07/wheres-the-beef-248-miles-up-as-first-meat-is-grown-in-a-space-lab"
+        },
+        {
+          "id": "cite-25",
+          "index": 25,
+          "text": "Purdy, A startup says it's building a US pilot plant for cell-based meat, (22 January 2020)",
+          "url": "https://qz.com/1788892/memphis-meats-plans-to-build-the-first-us-cell-based-meat-plant/"
+        },
+        {
+          "id": "cite-26",
+          "index": 26,
+          "text": "Purdy, As the US meat supply chain fumbles, cultured meat startups consider a better system, (13 May 2020)",
+          "url": "https://qz.com/1856344/cultured-meat-startups-want-to-fix-the-broken-meat-supply-chain/"
+        },
+        {
+          "id": "cite-27",
+          "index": 27,
+          "text": "Accelerating the cultured meat revolution, (20 May 2020)",
+          "url": "https://www.newscientist.com/article/mg24032080-400-accelerating-the-cultured-meat-revolution/"
+        },
+        {
+          "id": "cite-28",
+          "index": 28,
+          "text": "Chinese Official Calls for National Strategy to Allow China to Keep up With Other Countries Making Progress in Cultured Meat, (2020-06-25)",
+          "url": "https://vegconomist.com/society/chinese-official-calls-for-national-strategy-to-allow-china-to-keep-up-with-other-countries-making-progress-in-cultured-meat/"
+        },
+        {
+          "id": "cite-29",
+          "index": 29,
+          "text": "Dieter De Cleene, Vlaanderen investeert in kweekvlees, (17 December 2019)",
+          "url": "https://www.eoswetenschap.eu/voeding/vlaanderen-investeert-kweekvlees"
+        },
+        {
+          "id": "cite-30",
+          "index": 30,
+          "text": "Yves Degroote, Belgisch bedrijf bouwt 2 labo's voor kweekvlees, (8 May 2020)",
+          "url": "https://www.vmt.nl/duurzaamheid-mvo/nieuws/2020/05/belgisch-bedrijf-bouwt-2-labos-voor-kweekvlees-10141488"
+        },
+        {
+          "id": "cite-31",
+          "index": 31,
+          "text": "Bert Broens, Jens Cardinaels, Plannen voor Belgische proeffabriek voor kweekvet, (14 May 2021)",
+          "url": "https://www.tijd.be/ondernemen/voeding-drank/plannen-voor-belgische-proeffabriek-voor-kweekvet/10305522.html"
+        },
+        {
+          "id": "cite-32",
+          "index": 32,
+          "text": "Indian Cell-Based Meat Company Claims it Has Achieved Price Parity, (30 November 2020)",
+          "url": "https://vegconomist.com/companies-and-portraits/indian-cell-based-meat-company-claims-it-has-achieved-price-parity/"
+        },
+        {
+          "id": "cite-33",
+          "index": 33,
+          "text": "UE approva raccolta firme per togliere i sussidi agli allevamenti e incentivare la carne vegetale e coltivata",
+          "url": "https://www.fanpage.it/innovazione/scienze/ue-approva-raccolta-firme-per-stop-sussidi-agli-allevamenti-e-incentivare-carne-vegetale-e-coltivata/"
+        },
+        {
+          "id": "cite-34",
+          "index": 34,
+          "text": ", Consolidation on the way in cultured meat sector, (2 November 2023)",
+          "url": "https://www.foodservicefootprint.com/consolidation-on-the-way-in-cultured-meat-sector/"
+        }
+      ]
+    },
+    {
+      "id": "market-entry",
+      "title": "Market entry",
+      "level": 3,
+      "content": "==== Australia and New Zealand entry ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Gijs Vroom, Krijn de Nood (Meatable): 'Wij pionieren een nieuwe manier van vlees maken', (4 March 2020)",
+          "url": "https://www.emerce.nl/interviews/krijn-de-nood-meatable"
+        }
+      ]
+    },
+    {
+      "id": "australia-and-new-zealand-entry",
+      "title": "Australia and New Zealand entry",
+      "level": 4,
+      "content": "On 7 April 2025, Vow quail became the first cultured meat product to be officially approved for sale in Australia and New Zealand. In mid-June 2025, Vow expected to be serving its cultivated quail in restaurants in Sydney and Melbourne \"within weeks\".\n\n==== European Union and Switzerland entry ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Mridul, Cultured Quail Startup Vow Gets FSANZ Regulatory Approval in Australia & New Zealand, (7 April 2025)",
+          "url": "https://www.greenqueen.com.hk/vow-cultured-quail-lab-grown-meat-approved-fsanz-australia-new-zealand/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Southey, Cultivated meat hits the market in Australia, (18 June 2025)",
+          "url": "https://www.foodnavigator.com/Article/2025/06/18/first-cultivated-meat-approved-in-australia-vow-cultivated-quail/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Mridul, Vow Makes History As First Startup to Serve Cultivated Meat at Australian Restaurants, (19 June 2025)",
+          "url": "https://www.greenqueen.com.hk/vow-cultured-quail-lab-grown-meat-australia-fsanz-approved/"
+        }
+      ]
+    },
+    {
+      "id": "european-union-and-switzerland-entry",
+      "title": "European Union and Switzerland entry",
+      "level": 4,
+      "content": "In the European Union, novel foods such as cultured meat products have to go through a testing period of about 18 months during which a company must prove to the European Food Safety Authority (EFSA) that their product is safe.\nWhile not part of the European Union, Switzerland was regarded as an important case study with great interest from legal scholars around the world, and expected to have widespread implications for the EU countries surrounding it.\n\nIn April 2024, the Dutch start-up Meatable hosted the first legally approved public proof‑of‑concept tasting of cultured meat in the European Union - a sausage - following ad hoc approval by a national expert committee under a newly introduced Dutch code of practice. The event attracted significant national and international media attention. Meatable CTO Daan Luining cautioned it would take several years to scale up production to serve all supermarkets, that cultured meat was just an alternative that would gradually become more widely available, giving consumers more choices, and that the traditional meat industry would not be replaced any time soon. Just two weeks later, after securing 1.5 million euros in a crowdfunding campaign within 24 minutes, Mosa Meat teamed up with Swiss meat processor Bell Food Group to apply for regulatory approval for its cultivated beef fat in Switzerland as well, and in May 2025 it submitted its application at the Food Standards Agency in the United Kingdom.\n\n==== Israel entry ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Oliver Morrison, 'Everybody accepts the cultured meat trend is happening': Biotech Foods, (5 November 2019)",
+          "url": "https://www.foodnavigator.com/Article/2019/11/05/Biotech-Foods-discusses-cultured-meat-trend"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Aleph Farms make Europe's first cultivated meat approval submission to Swiss Regulators, (26 July 2023)",
+          "url": "https://gfieurope.org/blog/aleph-farms-make-europes-first-cultivated-meat-approval-submission-to-swiss-regulators/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Delerm, Beyond the Butcher: Navigating the Legal Landscape of Cultured Meat, (15 October 2024)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "De Lorenzo, EU Bites Into Cultivated Meat As Meatable Sets First Sausage Tasting, (17 April 2024)",
+          "url": "https://www.forbes.com/sites/danieladelorenzo/2024/04/17/eu-bites-into-cultivated-meat-as-meatable-sets-first-sausage-tasting/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Judith van de Hulsbeek, Eerste proeverij kweekvlees in Nederland: 'Het is een doodgewoon worstje', (17 April 2024)",
+          "url": "https://nos.nl/artikel/2517168-eerste-proeverij-kweekvlees-in-nederland-het-is-een-doodgewoon-worstje"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Mridul, Exclusive: Meatable Hosts EU-First Cultivated Meat Tasting Event, (17 April 2024)",
+          "url": "https://www.greenqueen.com.hk/meatable-public-tasting-cultivated-meat-lab-grown-pork-netherlands/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Mridul, Maker of the First Cultivated Burger Files for EU Approval of Beef Fat, (22 January 2025)",
+          "url": "https://www.greenqueen.com.hk/move-over-beef-tallow-mosa-meat-files-to-sell-cultivated-fat-for-hybrid-meat-in-europe/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Mridul, After Europeans Invest Millions, OG Cultivated Burger Maker Seeks Switzerland Approval, (6 February 2025)",
+          "url": "https://www.greenqueen.com.hk/mosa-meat-lab-grown-meat-cultivated-burger-crowdfunding/"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Mridul, Dutch Startup Mosa Meat Files for UK Regulatory Approval of Cultivated Beef Fat, (16 May 2025)",
+          "url": "https://www.greenqueen.com.hk/mosa-meat-lab-grown-meat-cultivated-beef-fat-uk-fsa-approved/"
+        }
+      ]
+    },
+    {
+      "id": "israel-entry",
+      "title": "Israel entry",
+      "level": 4,
+      "content": "In November 2020, SuperMeat opened a test restaurant in Ness Ziona, Israel, right next to its pilot plant; journalists, experts and a small number of consumers could book an appointment to taste the novel food there, while looking through a glass window into the production facility on the other side. The restaurant was not yet fully open to the public, because as of June 2021 SuperMeat still needed to wait for regulatory approval to start mass production for public consumption, and because the COVID-19 pandemic restricted restaurant operations. By February 2023, Israeli authorities had established a regulatory structure similar to that of Singapore, and shown a general willingness to work towards approval (as well as financing research for cultivated food innovation), but were still in the process of developing safety regulations in consultations with researchers and other experts.\n\nIn January 2024, the Ministry of Health in Israel granted regulatory approval for cultured beef to Aleph Farms.\n\n==== Singapore entry ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Oliver Holmes, I tried the world's first no-kill, lab-grown chicken burger, (4 December 2021)",
+          "url": "https://www.theguardian.com/food/2020/dec/04/no-kill-lab-grown-chicken-burger-restaurant-israel"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Jonah Mandel, Lab-grown chicken 'food revolution' gathers pace at Ness Ziona eatery, (23 June 2021)",
+          "url": "https://www.timesofisrael.com/lab-grown-chicken-food-revolution-gathers-pace-at-ness-ziona-eatery/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Flora Southey, Dissecting cultivated meat regulation part 1: What's working in Europe and Israel, and what's not?, (8 February 2023)",
+          "url": "https://www.foodnavigator.com/Article/2023/02/08/Dissecting-cultivated-meat-regulation-part-1-What-s-working-in-Europe-and-Israel-and-what-s-not"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "מן, לראשונה בעולם: ישראל מאשרת בשר בקר מתורבת, (2024-01-17)",
+          "url": "https://www.ynet.co.il/digital/technews/article/hkbdz1nft"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Mridul, Israel Becomes First Country to Allow Sale of Cultured Beef, (17 January 2024)",
+          "url": "https://www.greenqueen.com.hk/aleph-farms-israel-cultured-meat-regulatory-approval-beef/"
+        }
+      ]
+    },
+    {
+      "id": "singapore-entry",
+      "title": "Singapore entry",
+      "level": 4,
+      "content": "On 2 December 2020, the Singapore Food Agency approved the \"chicken bites\" produced by Eat Just for commercial sale. It marked the first time that a cultured meat product passed the safety review (which took 2 years) of a food regulator, and was widely regarded as a milestone for the industry. The chicken bits were scheduled for introduction in Singaporean restaurants. Restaurant \"1880\" became the first to serve cultured meat to customers on Saturday 19 December 2020.\n\nIn January 2023, the SFA also granted regulatory approval for the production of cultured meat with serum-free media to Eat Just subsidiary GOOD Meat, which had introduced its cultivated chicken product in several more Singaporean restaurants as well as hawker centres and food delivery services since 2020, and was constructing the bioreactors for its new facility in Singapore. This world-first approval was said to be a milestone in making cultivated meat production more scalable and efficient. In April 2024, Australian start-up Vow obtained Singaporean approval for its cultured quail; while Dutch start-up Meatable would be introducing its cultivated pork sausages in several restaurants in Singapore later in 2024.\n\n==== United States entry ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Damian Carrington, No-kill, lab-grown meat to go on sale for first time, (2 December 2020)",
+          "url": "https://www.theguardian.com/environment/2020/dec/02/no-kill-lab-grown-meat-to-go-on-sale-for-first-time"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Jade Scipioni, This restaurant will be the first ever to serve lab-grown chicken (for $23), (18 December 2020)",
+          "url": "https://www.cnbc.com/2020/12/18/singapore-restaurant-first-ever-to-serve-eat-just-lab-grown-chicken.html"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Andrew Noyes, Eat Just Makes History (Again) with Restaurant Debut of Cultured Meat, (21 December 2020)",
+          "url": "https://www.businesswire.com/news/home/20201220005063/en/Eat-Just-Makes-History-Again-with-Restaurant-Debut-of-Cultured-Meat"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Gary Scattergood, World first: Singapore gives GOOD Meat approval to to[sic] commercialise serum-free media for cultivated meat, (18 January 2023)",
+          "url": "https://www.foodnavigator.com/Article/2023/01/18/world-first-singapore-gives-good-meat-approval-to-to-commercialise-serum-free-media-for-cultivated-meat"
+        }
+      ]
+    },
+    {
+      "id": "united-states-entry",
+      "title": "United States entry",
+      "level": 4,
+      "content": "In November 2022, the Food and Drug Administration (FDA) completed the pre-market consultation of Upside Foods (formerly Memphis Meats), concluding that its products were safe to eat, a first for cultivated meat companies in the United States. Approval from the final agency, the United States Department of Agriculture (USDA) was received by Upside Foods and Good Meat, both for cultivated chicken, in June 2023. On 28 May 2025, Wildtype obtained regulatory approval from the FDA to sell its cultivated coho salmon (Oncorhynchus kisutch) product on the U.S. market. With that, Wildtype became the first start-up to be permitted to sell cultivated seafood in the United States, and a few days later, it was on the menu at the Kann restaurant of Gregory Gourdet in Portland, Oregon.\n\n==== United Kingdom entry ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Allison Aubrey, FDA gives safety nod to 'no kill' meat, bringing it closer to sale in the U.S., (14 November 2022)",
+          "url": "https://www.npr.org/sections/health-shots/2022/11/14/1136186819/cultivated-cultured-meat-heathy-climate-change"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "USDA approves 1st ever 'cell-cultivated meat' for 2 American manufacturers",
+          "url": "https://abcnews.go.com/GMA/Food/fda-approves-1st-cell-cultivated-meat-upside-foods/story?id=100278334"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Green Queen Team, Breaking: Upside Foods, Eat Just Earn First USDA Approval To Sell Cultivated Meat in The U.S.: 'A Giant Step Forward', (22 June 2023)",
+          "url": "https://www.greenqueen.com.hk/upside-foods-eat-just-first-usda-approval-to-sell-cultivated-meat/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Mridul, Wildtype Cultivated Salmon Gets FDA Approval, Now on US Menus, (4 June 2025)",
+          "url": "https://www.greenqueen.com.hk/wildtype-lab-grown-salmon-meat-fda-approved-cultivated-seafood/"
+        }
+      ]
+    },
+    {
+      "id": "united-kingdom-entry",
+      "title": "United Kingdom entry",
+      "level": 4,
+      "content": "On 6 February 2025, it was announced that British pet food company THE PACK (acquired by Prefera Petfood in May 2025) would release the first commercially available product for pets containing cultivated chicken made by Meatly the following day.\n\n== Companies working on cultured meat ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Muller, Prefera Petfood acquires THE PACK, (5 May 2025)",
+          "url": "https://www.petfoodprocessing.net/articles/19228-prefera-petfood-acquires-the-pack"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Grylls, UK cultivated meat manufacturer Meatly has achieved another first, after gaining UK regulatory approval for its cultivated meat in July 2024., (6 February 2025)",
+          "url": "https://WWW.FOODMANUFACTURE.CO.UK/ARTICLE/2025/02/06/MEATLY-AND-THE-PACK-LAUNCH-PET-TREATS-MADE-FROM-LAB-GROWN-MEAT-INTO-PETS-AT-HOME/"
+        }
+      ]
+    },
+    {
+      "id": "companies-working-on-cultured-meat",
+      "title": "Companies working on cultured meat",
+      "level": 2,
+      "content": "== Process ==",
+      "citations": []
+    },
+    {
+      "id": "process",
+      "title": "Process",
+      "level": 2,
+      "content": "===Cell lines===",
+      "citations": []
+    },
+    {
+      "id": "cell-lines",
+      "title": "Cell lines",
+      "level": 3,
+      "content": "Cellular agriculture requires cell lines, generally stem cells. Stem cells are undifferentiated cells which have the potential to become many or all of the required kinds of specialized cell types. Totipotent stem cells have the capacity to differentiate into all the different cell types found within the body. Pluripotent stem cells can mature into all cell types save those in the placenta, and multipotent stem cells can differentiate into several specialized cell types within one lineage. Unipotent stem cells can differentiate into one specific cell fate.\n\nWhile pluripotent stem cells would be an ideal source, the most prominent example of this subcategory is embryonic stem cells which—due to ethical issues—are controversial for use in research. As a result, scientists have developed induced pluripotent stem cells (iPSCs)—essentially multipotent blood and skin cells that have been regressed to a pluripotent state enabling them to differentiate into a greater range of cells. The alternative is using multipotent adult stem cells that give rise to muscle cell lineages or unipotent progenitors which differentiate into muscle cells.\n\n===Growth medium===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Kawecki, Engineering multicomponent tissue by spontaneous adhesion of myogenic and adipogenic microtissues cultured with customized scaffolds, (October 2024)",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0963996923006257?via%3Dihub"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Frequently asked questions about stem cell research",
+          "url": "https://www.mayoclinic.org/tests-procedures/bone-marrow-transplant/in-depth/stem-cells/art-20048117"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Induced Pluripotent Stem Cells (iPS) {{!",
+          "url": "https://stemcell.ucla.edu/induced-pluripotent-stem-cells#:~:text=iPSC%20are%20derived%20from%20skin,cell%20needed%20for%20therapeutic%20purposes."
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Strand, Establishing Cell Lines from Fresh or Cryopreserved Tissue from the Great Crested Newt (Triturus cristatus):A Preliminary Protocol, (2021-02-01)"
+        }
+      ]
+    },
+    {
+      "id": "growth-medium",
+      "title": "Growth medium",
+      "level": 3,
+      "content": "Once cell lines are established, they are immersed in a culture medium to induce them to proliferate. Culture media are typically formulated from basal media that provide cells with necessary carbohydrates, fats, proteins and salts. Once a cell consumes a sufficient amount, it divides and the population increases exponentially. Culture media can be supplemented with additives—for instance sera—that supply additional growth factors. Growth factors can be secreted proteins or steroids that are crucial in regulating cellular processes.\n\nOnce differentiation begins, muscle fibres begin to contract and generate lactic acid. Cells' ability to absorb nutrients and proliferate in part depends on the pH of their environment. As lactic acid accumulates within the medium, the environment will become progressively more acidic and falls below the optimal pH. As a result, culture media must be frequently refreshed. This helps refresh the concentration of nutrients from the basal media.\n\n===Scaffolds===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Kawecki, Engineering multicomponent tissue by spontaneous adhesion of myogenic and adipogenic microtissues cultured with customized scaffolds, (October 2024)",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0963996923006257?via%3Dihub"
+        }
+      ]
+    },
+    {
+      "id": "scaffolds",
+      "title": "Scaffolds",
+      "level": 3,
+      "content": "In the case of structured meat products—products that are characterized by their overall configuration as well as cell type—cells must be seeded to scaffolds. Scaffolds are essentially molds meant to reflect and encourage the cells to organize into a larger structure. When cells develop in vivo, they are influenced by their interactions with the extracellular matrix (ECM). The ECM is the 3-dimensional mesh of glycoproteins, collagen and enzymes responsible for transmitting mechanical and biochemical cues to the cell. Scaffolds need to simulate the characteristics of the ECM.\n\n==== Porosity ====",
+      "citations": []
+    },
+    {
+      "id": "porosity",
+      "title": "Porosity",
+      "level": 4,
+      "content": "Pores are minute openings on the surface of the scaffold. They can be created on the surface of the biomaterial in order to release cellular components that could interfere with tissue development. They also help diffuse gas and nutrients to the innermost layers of adherent cells, preventing a \"necrotic center\" from forming.  A necrotic center is a phenomenon in which cells that are not in direct contact with the culture medium die from a lack of nutrients.\n\n==== Vascularization ====",
+      "citations": []
+    },
+    {
+      "id": "vascularization",
+      "title": "Vascularization",
+      "level": 4,
+      "content": "Vascular tissue found in plants contains the organs responsible for internally transporting fluids. It forms natural topographies that provide a low cost way to promote cell alignment by replicating the natural physiological state of myoblasts. It may also help with gas and nutrient exchange.\n\n==== Biochemical properties ====",
+      "citations": []
+    },
+    {
+      "id": "biochemical-properties",
+      "title": "Biochemical properties",
+      "level": 4,
+      "content": "A scaffold's biochemical properties should be similar to those of the ECM. It must facilitate cell adhesion through textural qualities or chemical bonding. Additionally, it must produce the chemical cues that encourage cell differentiation. Alternatively, the material should be able to blend with other substances which have these functional qualities.\n\n==== Crystallinity ====",
+      "citations": []
+    },
+    {
+      "id": "crystallinity",
+      "title": "Crystallinity",
+      "level": 4,
+      "content": "The degree of a material's crystallinity determines qualities such as rigidity. High crystallinity can be attributed to hydrogen bonding which in turn increases thermal stability, tensile strength (important for maintaining the scaffold's shape), water retention (important for hydrating the cells) and Young's modulus.\n\n==== Degradation ====",
+      "citations": []
+    },
+    {
+      "id": "degradation",
+      "title": "Degradation",
+      "level": 4,
+      "content": "Certain materials degrade into compounds that are beneficial to cells, although this degradation can also be irrelevant or detrimental. Degradation allows easy removal of the scaffold from the finished product leaving only animal tissue—thereby increasing its resemblance to in vivo meat. This degradation can be induced by exposure to certain enzymes which do not impact the muscle tissue.\n\n==== Edibility ====",
+      "citations": []
+    },
+    {
+      "id": "edibility",
+      "title": "Edibility",
+      "level": 4,
+      "content": "If scaffolds are unable to be removed from the animal tissue, they must be edible to ensure consumer safety. It would be beneficial if they were to be made out of nutritious ingredients. Since 2010, academic research groups and companies have been working to identify raw materials that have the characteristics of suitable scaffolds.\n\n==== Cellulose ====",
+      "citations": []
+    },
+    {
+      "id": "cellulose",
+      "title": "Cellulose",
+      "level": 4,
+      "content": "Cellulose is the most abundant polymer in nature and provides the exoskeletons of plant leaves. Due to its abundance, it can be obtained at a relatively low cost. It is also versatile and biocompatible. Through a process called \"decellularization\", it is coated in a surfactant that creates pores. These pores release the plant's cellular components, and it becomes decellularized plant tissue. This material has been extensively studied by the Pelling and Gaudette Groups at University of Ottawa and Worcester Polytechnic Institute, respectively. Through cross-linking (forming covalent bonds between individual polymer chains to hold them together) the plant tissue's mechanical properties can be changed so that it more closely resembles muscle tissue. This can also be done by blending plant tissue with other materials. On the other hand, decellularized plant tissue typically lacks mammalian biochemical cues, so it needs to be coated with compensatory functional proteins. C2C12 growth was not shown to change significantly between the bare scaffold and the same scaffold with a coating of collagen or gelatin proteins; however, seeding efficiency (rate at which cells attach to the scaffold) improved.\n\nAn advantage of decellularized plant tissue is the natural topography afforded by the leaf vasculature. This helps replicate the natural physiological state of the myoblasts which promotes cell alignment. The other ways of doing this are usually quite a bit more expensive including 3D printing, soft lithography and photolithography. Vascularization can also help overcome the 100–200 nm diffusion limit of culture medium into cells that usually produce necrotic centres in muscle conglomerates. Another way to do this is by having a porous scaffold which supports angiogenesis (the development of new blood vessels). While this has been shown to work for apple Hypanthium, not all plants are nearly as porous. The alternative to plant cellulose is bacterial cellulose which is typically more pure than plant cellulose as it is free from contaminants such as lignin and hemicellulose. Bacterial cellulose has more hydrogen bonding between its polymer strands and so it has greater crystallinity. It also has smaller microfibrils that allow it to retain more moisture and have smaller pores. The substance can be produced using waste carbohydrates (which may allow it to be produced less expensively) and it adds juiciness and chewiness to emulsified meat (which would mean that even if it can't be taken out of the final product, it will contribute to the texture profile).\n\n==== Chitin ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Campuzano, Scaffolds for 3D Cell Culture and Cellular Agriculture Applications Derived From Non-animal Sources, (2019)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Adamski, Two Methods for Decellularization of Plant Tissues for Tissue Engineering Applications, (2018-05-31)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Gome, Cultivation of bovine lipid chunks on Aloe vera scaffolds, (25 February 2025)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Nurul Alam, Scaffolding fundamentals and recent advances in sustainable scaffolding techniques for cultured meat development, (August 2024)"
+        }
+      ]
+    },
+    {
+      "id": "chitin",
+      "title": "Chitin",
+      "level": 4,
+      "content": "Chitin is nature's second most abundant polymer. It is found in the exoskeletons of arthropods and fungi. As cellular agriculture is attempting to end reliance on animals, chitin derived from fungi is of greater interest. It has mostly been studied by Pelling Group. Chitosan is derived from chitin in a process known as alkaline deacetylation (substituting out certain amino acid groups). The degree of this process determines the physical and chemical properties of the chitosan. Chitosan has antibacterial properties; in particular, it has bactericidal effects on planktonic bacteria and biofilms and a bacteria static effects on gram negative bacteria such as E. coli. This is important as it neutralizes potentially harmful compounds without using antibiotics, which many consumers avoid. Chitosan's resemblance to glycosaminoglycans and internal interactions between glycoproteins and proteoglycans make it highly biocompatible. It can easily blend with other polymers in order to select for more bioactive factors. One potential disadvantage of chitosan is that it degrades in the presence of lysozymes (naturally occurring enzymes). But, this can be resisted using deacetylation. This is not entirely negative, as the byproducts produced through degradation have anti-inflammatory and anti-bacterial properties. It is important to match the level that cells rely on the matrix for structure with degradation.\n\n==== Collagen ====",
+      "citations": []
+    },
+    {
+      "id": "collagen",
+      "title": "Collagen",
+      "level": 4,
+      "content": "Collagen is a family of proteins that makes up the primary structure of human connective tissue. It is typically derived from bovine, porcine and murine sources. Cellular agriculture overcomes this dependency through the use of transgenic organisms that are capable of producing the amino acid repeats that make up the collagen. Collagen naturally exists as collagen type I. It has been produced as porous hydrogels, composites and substrates with topographical cues and biochemical properties. Synthetic kinds of collagen have been produced through recombinant protein production—collagen type II and III, tropoelastin and fibronectin. One challenge with these proteins is that they can not be modified post translation. However, an alternative fibrillar protein has been isolated in microbes that lack collagen's biochemical cues, but has its kind of gene customizability. One focus of recombinant collagen production is yield optimization—how it can be produced most effectively. Plants, in particular, tobacco look like the best option, however, bacteria and yeast are also viable alternatives.\n\nTextured soy protein is a soy flour product often used in plant-based meat that supports the growth of bovine cells. Its spongy texture enables efficient cell seeding and its porosity encourages oxygen transfer. Additionally, it degrades during cell differentiation into compounds that are beneficial to certain cells.\n\n==== Mycelium ====",
+      "citations": []
+    },
+    {
+      "id": "mycelium",
+      "title": "Mycelium",
+      "level": 4,
+      "content": "Mycelium are the roots of mushrooms. Altast Foods Co. is using solid state fermentation to grow mushroom tissue on mycelium scaffolds. They harvest this tissue and use it to create bacon analogs.\n\n==== Nanomaterials ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Atlast Food Co.",
+          "url": "https://www.atlastfood.co/"
+        }
+      ]
+    },
+    {
+      "id": "nanomaterials",
+      "title": "Nanomaterials",
+      "level": 4,
+      "content": "Nanomaterials exhibit unique properties at the nanoscale. London-based Biomimetic Solutions is leveraging nanomaterials in order to create scaffolds. Cass Materials in Perth, Australia, is using a dietary fibre called Nata de Coco (derived from coconuts) to create nanocellulose sponges for their BNC scaffold. Nata de Coco is biocompatible, has high porosity, facilitates cell adhesion and is biodegradable.\n\n==== Spinning ====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Ben-Arye, Textured soy protein scaffolds enable the generation of three-dimensional bovine skeletal muscle tissue for cell-based meat, (April 2020)",
+          "url": "https://www.nature.com/articles/s43016-020-0046-5"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Cass Materials",
+          "url": "https://cassmaterials.com/"
+        }
+      ]
+    },
+    {
+      "id": "spinning",
+      "title": "Spinning",
+      "level": 4,
+      "content": "Immersion Jet Spinning is a method of creating scaffolds by spinning polymers into fibres. It was developed by the Parker Group at Harvard. Their platform uses centrifugal force to extrude a polymer solution through an opening in a rotating reservoir. During extrusion, the solution forms a jet that elongates and aligns as it crosses the air gap. The jet is directed into a vortex-controlled precipitation bath that chemically cross links or precipitates polymer nanofibers. Adjusting air gap, rotation and the solution changes the diameter of the resulting fibres. This method can spin scaffolds out of PPTA, nylon, DNA and nanofiber sheets. A nanofibrous scaffold made from alginate and gelatin was able to support the growth of C2C12 cells. Rabbit and bovine aortic smooth muscle myoblasts were able to adhere to the gelatin fibres. They formed aggregates on shorter fibres, and aligned tissue on the longer ones. Matrix Meats is using electrospinning—a process that uses electric force to turn charged polymers into fibres for scaffolds. Their scaffolds allowed meat marbling, are compatible with multiple cell lines, and are scalable.\n\n===Additive manufacturing===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Muscle tissue engineering in fibrous gelatin: implications for meat analogs, (October 2019)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Gonzalez, Production of Synthetic, Para-Aramid and Biopolymer Nanofibers by Immersion Rotary Jet-Spinning, (2017)",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mame.201600365"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Matrix Meats",
+          "url": "https://www.matrixmeats.com/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Kawecki, Engineering multicomponent tissue by spontaneous adhesion of myogenic and adipogenic microtissues cultured with customized scaffolds, (October 2024)",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0963996923006257?via%3Dihub"
+        }
+      ]
+    },
+    {
+      "id": "additive-manufacturing",
+      "title": "Additive manufacturing",
+      "level": 3,
+      "content": "that assembles cell fibers could be used to produce a variety of steak-like cultured meat. 3D bioprinting has been used to produce steak-like cultured meat, composed of three types of bovine cell fibers and with a structure of assembled of cell fibers that is similar to original meat.\n\n=== Bioreactors ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Home, (October 2020)",
+          "url": "https://meatech3d.com/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Kang, Engineered whole cut meat-like tissue by the assembly of cell fibers using tendon-gel integrated bioprinting, (24 August 2021)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Japanese scientists produce first 3D-bioprinted, marbled Wagyu beef, (25 August 2021)",
+          "url": "https://newatlas.com/science/world-first-lab-grown-wagyu-beef-japan/"
+        }
+      ]
+    },
+    {
+      "id": "bioreactors",
+      "title": "Bioreactors",
+      "level": 3,
+      "content": "Scaffolds are placed inside bioreactors so that cell growth and specialization can occur. Bioreactors are large machines similar to brewery tanks which expose the cells to a large variety of environmental factors that are necessary to promote either proliferation or differentiation. The temperature of the bioreactor must replicate in vivo conditions. In the case of mammalian cells, this requires heating to 37 °C (99 °F). Alternatively, insect cells can be grown at room temperature. Most bioreactors are maintained at 5% carbon dioxide. Cells can be cultivated in either continuous or fed-batch systems. The former entails inoculating and harvesting cells in a constant process so that there are always cells in the bioreactor. Fed-batch systems mean inoculating the cells, culturing them and harvesting them in a single period.\n\n==Challenges==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Rubio, Possibilities for Engineered Insect Tissue as a Food Source, (2019)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "What Are the Different Types of Bioreactors? - Biotech Blog",
+          "url": "https://www.pall.com/en/biotech/blog/types-of-bioreactor.html#:~:text=March%2011,%202020,be%20sterilized%20in%20an%20autoclave."
+        }
+      ]
+    },
+    {
+      "id": "challenges",
+      "title": "Challenges",
+      "level": 2,
+      "content": "=== Growth factors ===",
+      "citations": []
+    },
+    {
+      "id": "growth-factors",
+      "title": "Growth factors",
+      "level": 3,
+      "content": "The culture media is an essential component of in vitro cultivation. It is responsible for providing the macromolecules, nutrients and growth factors necessary for cell proliferation. Sourcing growth factors is one of the most challenging tasks of cellular agriculture. Traditionally, it involves the use of fetal bovine serum (FBS) which is a blood product extracted from fetal cows. Besides the argument that its production is unethical, it also violates the notion that the cultured meat is produced independent of the use of animals. It is also the most costly constituent of cultured meat, priced at around $1000 per litre. Furthermore, chemical composition varies greatly depending on the animal, so it cannot be uniformly quantified chemically. FBS is employed because it conveniently mimics the process of muscle development in vivo. The growth factors needed for tissue development are predominantly provided through an animal's bloodstream, and no other known fluid can single-handedly deliver all these components.\n\nThe ideal medium would be chemically quantifiable and accessible to ensure simplicity in production, cheap and not dependent on animals. Such culture sera may also require modifications specific to the cell line to which they are applied. Companies currently invested in developing effective plant based culture include Multus Media and Biftek.\n\nThe Good Food Institute (GFI) put out a report in 2019 in support of the concept that cell-based meat could be produced at the same cost as ground beef and in 2021 they commissioned a report from CE Delft on the Techno-Economic Analysis of cultivated meat. Another proposed approach is to subject the cell lines to a magnetic field, which can stimulate the release of molecules that have regenerative, metabolic, anti-inflammatory and immunity-boosting properties, acting as an alternative to serum.\n\n=== Surface area ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Dessels, Making the Switch: Alternatives to Fetal Bovine Serum for Adipose-Derived Stromal Cell Expansion, (2016)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Future Fields Cellular Agriculture & Biomanufacturing",
+          "url": "https://www.futurefields.io/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "It will most likely be derived from plants; and while this may reduce the possibility of transmitting infectious agents, it may induce allergic reactions in some consumers.<ref>I. Datar, M. Betti, [https://www.researchgate.net/publication/222521883_Possibilities_for_an_in_vitro_meat_production_system Possibilities for an in vitro meat production system] {{Webarchive|url=https://web.archive.org/web/20161007121229/https://www.researchgate.net/publication/222521883_Possibilities_for_an_in_vitro_meat_production_system |date=7 October 2016 }}, Innovative Food Science and Emerging Technologies 11 (2010) at 17.",
+          "url": "https://web.archive.org/web/20161007121229/https://www.researchgate.net/publication/222521883_Possibilities_for_an_in_vitro_meat_production_system"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Multus {{!",
+          "url": "https://www.multus.media/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "biftek.co",
+          "url": "https://biftek.co/"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "TEA of cultivated meat. Future projections for different scenarios",
+          "url": "https://cedelft.eu/publications/tea-of-cultivated-meat/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Andrei, New technique from Singapore makes lab-grown meat cheaper, greener, and more ethical, (2022-10-04)",
+          "url": "https://www.zmescience.com/medicine/nutrition-medicine/singapore-lab-meat-03102022/"
+        }
+      ]
+    },
+    {
+      "id": "surface-area",
+      "title": "Surface area",
+      "level": 3,
+      "content": "A common challenge to bioreactors and scaffolds is developing system configurations that enable all cells to gain exposure to culture media while simultaneously optimizing spatial requirements. In the cell proliferation phase, prior to the introduction of the scaffold, many cell types need to be attached to a surface to support growth. As such, cells must be grown in confluent monolayers only one cell thick which necessitates a lot of surface area. This poses practical challenges on large scales. As such, systems may incorporate microcarriers—small spherical beads of glass or other compatible material that are suspended in the culture medium. Cells adhere to these microcarriers as they would to the sides of the bioreactor, which increases the amount of surface area.\n\nIn the cell differentiation phase, the cells may be seeded to a scaffold and so do not require the use of microcarriers. However, in these instances, the density of the cells on the scaffold means that not all cells have an interface with culture media, leading to cell death and necrotic centers within the meat. When muscle is cultivated in vivo, this issue is circumvented as the extracellular matrix delivers nutrients into the muscle through blood vessels. As such, many emerging scaffolds aim to replicate such networks.\n\nSimilarly, scaffolds must simulate many of the other characteristics of the extracellular matrix, most notably porosity, crystallinity, degradation, biocompatibility and functionality. Few materials that emulate all these characteristics have been identified, leading to the possibility of blending different materials with complementary properties.\n\n=== Research support ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "How it's made: the science behind cultivated meat",
+          "url": "http://elliotswartz.com/cellbasedmeat/cleanmeat301"
+        }
+      ]
+    },
+    {
+      "id": "research-support",
+      "title": "Research support",
+      "level": 3,
+      "content": "Cellular agriculture research does not have a significant basis of academic interest or funding streams. Additionally, a growing number of governments are funding research in cellular agriculture. In August 2020, the Grant Management Services of the European Commission awarded a €2.5 million grant to ORF Genetics. That same month, the Japanese Ministry of Economy, Trade and Industry granted IntegriCulture $2.2 million through their New Energy and Industrial Technology Development Organization.\n\nThe European Union's Horizon 2020 R&D funding framework awarded a €2.7 million grant to a consortium led by BioTech Foods. In 2021, the Spanish government granted €3.7 million for Biotech Foods to investigate the potential health benefits of cellular agriculture. The National Science Foundation awarded a $3.55 million grant to a team of researchers at UC Davis for open-access cultured meat research. Non-profits also drive support and interest in the field. Notably, New Harvest has a fellowship program to support the research of specific graduate students and groups at various academic institutions and the Good Food Institute funds open-access research through its Research Grant Program.\n\n=== Consumer acceptance ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "New Harvest",
+          "url": "https://www.new-harvest.org/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Icelandic Biotech Firm Receives Large European Grant",
+          "url": "https://icelandmonitor.mbl.is/news/news/2020/08/01/icelandic_biotech_firm_receives_large_european_gran/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "IntegriCulture Awarded $2.2 Million Grant to Build New Commercial Cell Ag Facility, (2020-08-28)",
+          "url": "https://thespoon.tech/integriculture-awarded-2-2-million-grant-to-build-new-commercial-cell-ag-facility/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "EU's Horizon 2020 invests in cellular agriculture, (2020-10-14)",
+          "url": "https://www.foodfrontier.org/eus-horizon-2020-invests-in-cellular-agriculture/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "BioTech Food tests on synthetic meat for € 5.2 million – Spanish government allocates 3.7 million for the project, (2021-01-22)",
+          "url": "https://www.efanews.eu/item/16394-biotech-food-tests-on-synthetic-meat-for-5-2-million.html"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "UC Davis receives $3.55m grant to investigate long-term viability of cell-cultured meat, (28 September 2020)",
+          "url": "https://www.foodnavigator-usa.com/Article/2020/09/28/UC-Davis-receives-3.55m-grant-to-investigate-long-term-viability-of-cell-cultured-meat"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Alternative protein research grants 2025 {{!, (2021-01-14)",
+          "url": "https://gfi.org/researchgrants/"
+        }
+      ]
+    },
+    {
+      "id": "consumer-acceptance",
+      "title": "Consumer acceptance",
+      "level": 3,
+      "content": "Consumer acceptance of the product is critical. A study looking at acceptance of cultured meat in China, India, and the US \"found high levels of acceptance of clean meat in the three most populous countries worldwide.\" Several potential factors of consumer acceptance of cultured meat have been identified. Healthiness, safety, nutritional characteristics, sustainability, taste, and lower price, are all contributing factors. One study found that the use of highly technical language to explain cultured meat led to significantly more negative public attitude towards the concept. One study suggested that describing cultured meat in a way that emphasizes the final product rather than the production method was an effective way to improve acceptance.\n\nThe use of standardized descriptions would improve future research about consumer acceptance of cultured meat. Current studies have often reported drastically different rates of acceptance, despite similar survey populations. Lou Cooperhouse, CEO of BlueNalu, shared on the Red to Green Podcast that \"cell-based\" and \"cell-cultured\" were suitable terms to differentiate it from conventional meat whilst being clear about the process by which it was made. There also exists a challenge in how to use these descriptions in labelling. For example, in the United States there is no overarching federal legislation that regulates how cultured meat should be labeled for the consumer. While traditional meat producers are attempting to prevent cultured meat companies from using the term \"meat,\" cultured meat producers argue that the word is necessary for consumer acceptance.\n\nGlobal market acceptance has not been assessed. Studies are attempting to determine the current levels of consumer acceptance and identify methods to improve this value. Clear answers are not available, although one recent study reported that consumers were willing to pay a premium for cultured meat. Low percentages of older adult populations have been reported to show acceptance of cultured meat. Green eating behavior, educational status, and food business were cited as most important factors for this population. There is also a lack of studies relating the methods of producing cultured meat with its taste for the consuming public.\n\n=== Regulations ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Sharma, In vitro meat production system: why and how?, (December 2015)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Xiang, The challenges of bringing cultured meat to the market, (2023)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Bryant, A Survey of Consumer Perceptions of Plant-Based and Clean Meat in the USA, India, and China, (27 February 2019)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Gómez-Luciano, Consumers' willingness to purchase three alternatives to meat proteins in the United Kingdom, Spain, Brazil and the Dominican Republic, (December 2019)",
+          "url": "https://hau.repository.guildhe.ac.uk/17416/1/Frank%20Vriesekoop%20consumers%20willingness%20upload.pdf"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Xie, An Overview of Recent Progress in Cultured Meat: Focusing on Technology, Quality Properties, Safety, Industrialization, and Public Acceptance, (1 March 2025)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Bryant, The Impact of Framing on Acceptance of Cultured Meat, (3 July 2019)"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Siegrist, Perceived naturalness and evoked disgust influence acceptance of cultured meat, (May 2018)"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Bryant, Consumer acceptance of cultured meat: A systematic review, (September 2018)",
+          "url": "https://purehost.bath.ac.uk/ws/files/174327253/Consumer_Acceptance_of_Cultured_Meat_A_Systematic_Review_V3.pdf"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "3.7. Dairy and fish vs. cultured meat: the difference in perception, production and promotion with Raffael Wolgensinger CEO of FORMO and Lou Cooperhouse CEO of BlueNalu, (26 May 2021)",
+          "url": "https://open.spotify.com/episode/4lAafAoA6Uf2Nfo4DQNO3Q"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Spring, WHAT'S THE BEEF? DEBATES OVER CELL-CULTURED MEAT, (18 October 2022)",
+          "url": "https://labelsunwrapped.org/wp-content/uploads/2022/10/Labels-Unwrapped-Cultured-Meat.pdf"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Mancini, To What Extent Are Consumers' Perception and Acceptance of Alternative Meat Production Systems Affected by Information? The Case of Cultured Meat, (2020)"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Bryant, Strategies for overcoming aversion to unnaturalness: The case of clean meat, (August 2019)",
+          "url": "https://purehost.bath.ac.uk/ws/files/195296674/Overcoming_aversion_to_unnaturalness_PREPRINT_.pdf"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Bryant, What's in a name? Consumer perceptions of in vitro meat under different names, (June 2019)",
+          "url": "https://purehost.bath.ac.uk/ws/files/190156720/What_s_In_a_Name_Edited2.pdf"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Grasso, Older Consumers' Readiness to Accept Alternative, More Sustainable Protein Sources in the European Union, (15 August 2019)"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Valente, First glimpse on attitudes of highly educated consumers towards cell-based meat and related issues in Brazil, (30 August 2019)"
+        }
+      ]
+    },
+    {
+      "id": "regulations",
+      "title": "Regulations",
+      "level": 3,
+      "content": "Regulatory matters must also be sorted out. Prior to being available for sale, the European Union, Australia, New Zealand, the United Kingdom, and Canada require approved novel food applications. Additionally, the European Union requires that cultured animal products and production must prove safety, by an approved company application, as of 1 January 2018.\n\n====Singapore====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Stephens, Bringing cultured meat to market: Technical, socio-political, and regulatory challenges in cellular agriculture., (21 July 2018)"
+        }
+      ]
+    },
+    {
+      "id": "singapore",
+      "title": "Singapore",
+      "level": 4,
+      "content": "In 2020, Singapore became the first country in the world to approve cultured meat for sale. The Singapore Food Agency has published guidance on its requirements for the safety assessment of novel foods, including specific requirements on the information to be submitted for approval of cultivated meat products.\n\n====Italy====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "SFA",
+          "url": "https://www.sfa.gov.sg/docs/default-source/food-import-and-export/Requirements-on-safety-assessment-of-novel-foods_23-Nov-2020.pdf"
+        }
+      ]
+    },
+    {
+      "id": "italy",
+      "title": "Italy",
+      "level": 4,
+      "content": "In March 2023, Italy's Meloni government approved a draft bill banning the production and commercialization of cultivated meat for human and animal consumption; this move, which the government said was intended to protect food heritage, was criticized, including by scientists, for being at odds with global trends of openness and legalization, as misguided, and for possibly worsening climate change in Italy.\n\nBy October 2023, it was reported the Italian government had retired the draft bill, and withdrew the Technical Regulation Information System notification, a procedure aimed at preventing the creation of barriers within the European Union's internal market, for the bill. Francesco Lollobrigida, Italy's minister of agriculture, said that the withdrawal of the proposed anti-cultured meat bill Italy submitted to the European Union \"is not a step back\", which many speculated was because the government wanted to avoid a likely rejection by the European Commission. He added that the bill was not going to be retired and would move forward. Italy became the first country to ban cultured meat in November 2023, when the government approved the bill.\n\n====US====",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Dell'Anna, Italy's waging a crusade against lab-grown meat. Does it have a point?, (2023-04-04)",
+          "url": "https://www.euronews.com/2023/04/04/frankenstein-food-why-italys-crusade-against-cultured-meat-probably-wont-work"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Sabelli, Scientists protest Italy's ban on cultivated meat, (2023-04-05)",
+          "url": "https://www.nature.com/articles/d43978-023-00050-7"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Evans-Pritchard, Giorgia Meloni risks going the way of Liz Truss if she keeps defying the market, (2023-08-10)",
+          "url": "https://www.telegraph.co.uk/business/2023/08/10/italy-giorgia-meloni-liz-truss-defying-market/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Italy moves to ban lab-grown meat to protect food heritage, (2023-03-29)",
+          "url": "https://www.bbc.com/news/world-europe-65110744"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Malagoli, Italy is set to ban lab-grown meat – here's why it should think again, (2023-04-14)",
+          "url": "http://theconversation.com/italy-is-set-to-ban-lab-grown-meat-heres-why-it-should-think-again-203251"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Giuffrida, Italian plan to ban lab-grown food criticised as misguided, (2023-03-29)",
+          "url": "https://www.theguardian.com/world/2023/mar/29/italian-plan-to-ban-lab-grown-food-criticised-as-misguided"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Baker, Italy Wants to be the First Country to Ban Lab-Grown Meat. That Would be a Big Climate Problem, (2023-04-12)",
+          "url": "https://time.com/6270941/italy-lab-grown-meat-ban-climate-impact/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Carne coltivata: Italia fa retromarcia e non si oppone più. Figuraccia, (2023-10-16)",
+          "url": "https://ilfattoalimentare.it/carne-coltivata-italia-retromarcia-non-si-oppone.html"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Il governo ha ritirato il divieto sulla carne coltivata in laboratorio, (2023-10-17)",
+          "url": "https://www.wired.it/article/carne-coltivata-laboratorio-ritiro-divieto-governo-lollobrigida/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Dopo tanto rumore il governo ritira in silenzio il 'ban' sulla carne coltivata, (2023-10-18)",
+          "url": "https://www.typomedia.co/tecnologia/governo-ritira-silenzio-ban-carne-coltivata"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Mathieu, Italy withdraws from EU process studying plan to ban cultivated-meat sales, (2023-10-20)",
+          "url": "https://www.just-food.com/news/italy-withdraws-from-eu-process-to-ban-cultivated-meat-sales/"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "Divieto carne sintetica in Italia, Lollobrigida smentisce ritiro ddl, (2023-10-18)",
+          "url": "https://tg24.sky.it/cronaca/2023/10/18/lollobrigida-carne-sintetica-italia"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Carne coltivata: il divieto è legge. Rissa sfiorata tra i deputati di +Europa e il presidente di Coldiretti, (2023-11-16)",
+          "url": "https://www.milanofinanza.it/news/il-ddl-sulla-carne-coltivata-e-legge-in-italia-sara-vietata-la-produzione-e-l-immissione-sul-mercato-202311161557461807"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Italy bans lab-grown meat in nod to farmers, (2023-11-17)",
+          "url": "https://www.bbc.com/news/world-europe-67448116"
+        }
+      ]
+    },
+    {
+      "id": "us",
+      "title": "US",
+      "level": 4,
+      "content": "Due to the novelty of cultured meat, there are numerous regulations to regard cultured meat as safe for consumption through several procedures such as evaluation of cell cultivation practices, chemical safety, imports, and toxicity tests. In September 2020, the Food and Drug Administration (FDA) and the United States Department of Agriculture (USDA) have agreed to jointly regulate cultured meat. Under the agreement, the FDA oversees cell collection, cell banks, and cell growth and differentiation, while the USDA oversees the production and labeling of food products derived from the cells that are meant for human consumption. Firms that are involved in the culturing of animal cells for cultured meat are prompted to contact the FDA in order to begin the process of marketing the biological material. and in Alabama cultured meat has been illegal to manufacture, sell, or distribute since October 2024. The governments of Arizona, Kentucky, Tennessee, and West Virginia are considering similar laws.\n\nIn August 2024, Upside Foods sued Florida in an attempt to strike down their law.\n\n==Differences from conventional meat==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Human Food Made with Cultured Animal Cells, (August 17, 2023)",
+          "url": "https://www.fsis.usda.gov/inspection/compliance-guidance/labeling/labeling-policies/human-food-made-cultured-animal-cells"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Miyake, Policy frameworks and regulations for the research and development of cell-based meats: Systematic literature review, (2023-05-01)"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Guan, Trends and ideas in technology, regulation and public acceptance of cultured meat, (2021-06-01)"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Zandonadi, Global Insights into Cultured Meat: Uncovering Production Processes, Potential Hazards, Regulatory Frameworks, and Key Challenges—A Scoping Review, (2025-01-04)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "USDA/FDA Launches Joint Webinar on Roles and Responsibilities for Cultured Animal Cell Human and Animal Food Products, (2020-09-09)",
+          "url": "https://www.fda.gov/food/cfsan-constituent-updates/usdafda-launches-joint-webinar-roles-and-responsibilities-cultured-animal-cell-human-and-animal-food"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Cell-Cultured Meat Updates: state bans, labeling requirements, and regulatory clarifications – National Agricultural Law Center",
+          "url": "https://nationalaglawcenter.org/cell-cultured-meat-updates-state-bans-labeling-requirements-and-regulatory-clarifications/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Texas governor signs new labeling law for plant-based and cultivated meat",
+          "url": "https://www.fooddive.com/news/texas-plant-based-cultivated-meat-labeling-law/651455/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Conrad, Florida Just Became the First State to Ban Lab-Grown Meat, (3 May 2024)",
+          "url": "https://www.inc.com/jennifer-conrad/florida-just-became-first-state-to-ban-lab-grown-meat.html"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Robledo, Alabama bans lab-grown meat, joining Florida among US states outlawing alternative proteins",
+          "url": "https://www.usatoday.com/story/news/nation/2024/05/13/lab-grown-meat-ban-alabama/73678952007/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Kainz, Florida bans lab-grown meat, adding to similar efforts in three other states, (2 May 2024)",
+          "url": "https://www.nbcnews.com/science/science-news/florida-bans-lab-grown-meat-adding-similar-efforts-four-states-rcna150386"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Fortinsky, Florida sued over ban on lab-grown meat, (13 August 2024)",
+          "url": "https://thehill.com/homenews/state-watch/4826376-florida-lab-grown-meat-cultivated-desantis/"
+        }
+      ]
+    },
+    {
+      "id": "differences-from-conventional-meat",
+      "title": "Differences from conventional meat",
+      "level": 2,
+      "content": "===Health===",
+      "citations": []
+    },
+    {
+      "id": "health",
+      "title": "Health",
+      "level": 3,
+      "content": "Large-scale production of cultured meat may or may not require artificial growth hormones to be added to the culture for meat production. As cultured meat is grown in a sterile environment, there is no need for antibiotics. Today, the widespread use of antibiotics in conventional agriculture is the main driver of antibiotic resistance in humans. According to the World Health Organization, antimicrobial resistance represents \"an increasingly serious threat to global public health that requires action across all government sectors and society\" – predicting up to 10 million deaths annually by 2050. Cultured meat could provide an effective solution to help mitigate this major risk to human health.\n\nResearchers have suggested that omega-3 fatty acids could be added to cultured meat as a health bonus. Research is currently underway in Spain to develop cultivated meat with healthier fats, which could reduce cholesterol and the risk of colon cancer typically associated with red meat consumption. An issue of Time magazine suggested that the cell-cultured process may also decrease exposure of the meat to bacteria and disease. There is also a lack of research on the comparison on the health effects of production cultured meat with the industrial meat or the biologic organic meat ways of production.\n\n===Artificiality===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Edelman, In vitro-cultured meat production, (2005)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Marta Zaraska, Is Lab-Grown Meat Good for Us?, (19 August 2013)",
+          "url": "https://www.theatlantic.com/health/archive/2013/08/is-lab-grown-meat-good-for-us/278778/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Could lab-grown meat prevent the next pandemic?, (2021-01-14)",
+          "url": "https://www.zmescience.com/other/pieces/lab-grown-meat-08012021/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Martin, Antibiotics Overuse in Animal Agriculture: A Call to Action for Health Care Providers, (December 2015)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Antibiotic resistance",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/antibiotic-resistance"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "UN, global health agencies sound alarm on drug-resistant infections; new recommendations to reduce 'staggering number' of future deaths, (2019-04-29)",
+          "url": "https://news.un.org/en/story/2019/04/1037471"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Anomaly, Flesh Without Blood: The Public Health Benefits of Lab-Grown Meat, (2024)"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Azcona, Omega-3 enriched broiler meat: The influence of dietary alpha-linolenic omega-3 fatty acid sources on growth, performance and meat fatty acid composition, (2008)"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Spanish government invests €5.2 million in cultured meat project, (20 January 2021)",
+          "url": "https://www.foodnavigator.com/Article/2021/01/20/Spanish-government-invests-5.2-million-in-cultured-meat-project"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Despommier, Vertical Farm Essay I, (2008)",
+          "url": "http://www.verticalfarm.com/essay_print.htm"
+        }
+      ]
+    },
+    {
+      "id": "artificiality",
+      "title": "Artificiality",
+      "level": 3,
+      "content": "Although cultured meat consists of animal muscle cells, fat and support cells, as well as blood vessels, that are the same as in traditional meat, some consumers may find the high-tech production process unacceptable. Cultured meat has been described as fake or \"Frankenmeat\". On the other hand, cultured meat can be produced without the artificial hormones, antibiotics, steroids, medicine, and GMOs commonly used in factory farmed meat and seafood, though not used on organic biologic production. If a cultured meat product is different in appearance, taste, smell, texture, or other factors, it may not be commercially competitive with conventionally produced meat. The lack of bone and cardiovascular system is a disadvantage for dishes where these parts make appreciable culinary contributions. The lack of bones and/or blood may make many traditional meat preparations, such as buffalo wings, more palatable to some people. Furthermore, blood and bones could potentially be cultured in the future.\n\n===Environment===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "World's first lab-grown steak is made from beef but slaughter-free, (18 December 2018)",
+          "url": "https://www.dezeen.com/2018/12/18/lab-grown-steak-beef-slaughter-free-aleph-farms-design/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Kerr, Lab-grown food: It's what's for dinner!, (19 February 2016)",
+          "url": "https://www.cnet.com/uk/news/lab-grown-meat-in-vitro-meat-sergey-brin-bill-gates-climate-change-cultured-beef/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Lab-Grown Blood To Be Trialled in the U.K., (27 June 2015)",
+          "url": "https://www.iflscience.com/health-and-medicine/lab-grown-blood-be-trialed-uk/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Bradley, How do you grow bone in a lab? Good vibrations, (12 September 2017)",
+          "url": "https://www.wired.co.uk/article/lab-grown-bone-biomedical-engineering-osteoporosis-amputees"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Pigott, Seafood, (1990)"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "level": 3,
+      "content": "Animal production for food is a major cause of air/water pollution and carbon emissions. Significant questions have been raised about whether the traditional industry can meet the rapidly increasing demands for meat. Cultured meat may provide an environmentally conscious alternative to traditional meat production. The environmental impacts of cultured meat are expected to be significantly lower than from animal husbandry. For every hectare that is used for vertical farming and/or cultured meat manufacturing, anywhere between 10 and 20 hectares of land may be returned to its natural state. Vertical farms (in addition to cultured meat facilities) could exploit methane digesters to generate a portion of its electrical needs. Methane digesters could be built on site to transform the organic waste generated at the facility into biogas which is generally composed of 65% methane. This biogas could be burned to generate electricity for the greenhouse or a series of bioreactors.\n\nOne study reported that cultured meat was \"potentially ... much more efficient and environmentally-friendly\". It generated only 4% of greenhouse gas emissions, reduced the energy needs of meat production by up to 45%, and required only 2% of the land that the global meat/livestock industry does. In Tuomisto's life cycle analysis claimed that producing 1,000 kg of meat conventionally requires \"26–33 GJ energy, 367–521 m3 water, 190–230 m2 land, and emits 1900–2240 kg CO2-eq GHG emissions\". On the other hand, producing the same quantity of meat in vitro has \"7–45% lower energy use... 78–96% lower GHG emissions, 99% lower land use, and 82–96% lower water use\".\n\nThe latest study by independent research firm CE Delft shows that—compared with conventional beef—cultured meat may cause up to 92% less greenhouse gas emissions if renewable energy is used in the production process, 93% less pollution, up to 95% less land use and 78% less water. There are many environmental concerns about intensive poultry farming that too can be reduced by cultivating their meat instead of farming animals. These concerns include microorganism and pharmaceutical-containing manure entering the water and soil, emission of greenhouse gasses such as nitrous oxide and methane, and the volatilization of manure particles.\n\nSkeptic Margaret Mellon of the Union of Concerned Scientists speculates that the energy and fossil fuel requirements of large-scale cultured meat production may be more environmentally destructive than producing food off the land. Dickson Despommier speculated that natural resources may be spared from depletion due to vertical farming and cultured meat. One study reported that conventional farming kills ten wild animals per hectare each year.\n\n===Role of genetic modification===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "How Eating Less Meat Could Help Protect the Planet From Climate Change",
+          "url": "https://time.com/5648082/un-climate-report-less-meat/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Morris, Would you eat slaughter-free meat?, (15 October 2018)",
+          "url": "https://www.bbc.com/news/world-us-canada-45865403"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Rodríguez Fernández, You Will Be Eating Lab-Grown Meat Soon: Here's What You Need to Know, (18 December 2018)",
+          "url": "https://www.labiotech.eu/features/cultured-meat-industry/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Tuomisto, Environmental Impacts of Cultured Meat Production, (17 June 2011)"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "[https://www.nytimes.com/2009/08/24/opinion/24Despommier.html A Farm on Every Floor] {{Webarchive|url=https://web.archive.org/web/20191014192029/https://www.nytimes.com/2009/08/24/opinion/24Despommier.html |date=14 October 2019 }}, ''The New York Times'', 23 August 2009",
+          "url": "https://web.archive.org/web/20191014192029/https://www.nytimes.com/2009/08/24/opinion/24Despommier.html"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "[http://gdi.ce.cmu.edu/gd/education/landfill-case.pdf Case Study&nbsp;– Landfill Power Generation] {{webarchive |url=https://web.archive.org/web/20081203061623/http://gdi.ce.cmu.edu/gd/education/landfill-case.pdf |date=3 December 2008 }}, H. Scott Matthews, Green Design Initiative, Carnegie Mellon University. Retrieved 07.02.09",
+          "url": "https://web.archive.org/web/20081203061623/http://gdi.ce.cmu.edu/gd/education/landfill-case.pdf"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Specter, Annals of Science, Test-Tube Burgers, (23 May 2011)",
+          "url": "https://www.newyorker.com/reporting/2011/05/23/110523fa_fact_specter"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "[http://www.ox.ac.uk/news/2011-06-21-lab-grown-meat-would-cut-emissions-and-save-energy Lab-grown meat would 'cut emissions and save energy'] {{Webarchive|url=https://web.archive.org/web/20201025053049/https://www.ox.ac.uk/news/2011-06-21-lab-grown-meat-would-cut-emissions-and-save-energy |date=25 October 2020 }}, 21 June 2011",
+          "url": "https://web.archive.org/web/20201025053049/https://www.ox.ac.uk/news/2011-06-21-lab-grown-meat-would-cut-emissions-and-save-energy"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Tuomisto, Environmental Impacts of Cultured Meat Production, (17 June 2011)",
+          "url": "https://pubs.acs.org/doi/full/10.1021/es200130u"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "CE_Delft_LCA_of_cultivated_meat.pdf",
+          "url": "https://drive.google.com/file/d/1ao1IYCiIj8CM5EikPXF8PLo33mAiSnDJ/view?usp=embed_facebook"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Gržinić, Intensive poultry farming: A review of the impact on the environment and human health, (2023-02-01)"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "S.L. Davis, The least harm principle suggests that humans should eat beef, lamb, dairy, not a vegan diet, (2001)"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Despommier, The Rise of Vertical Farms, (November 2009)"
+        }
+      ]
+    },
+    {
+      "id": "role-of-genetic-modification",
+      "title": "Role of genetic modification",
+      "level": 3,
+      "content": "Techniques of genetic engineering, such as insertion, deletion, silencing, activation, or mutation of a gene, are not required to produce cultured meat. Cultured meat production allows the biological processes that normally occur within an animal to occur without the animal.\n\nMore research is underway on cultured meat, and although cultured meat does not require genetic engineering, researchers may employ such techniques to improve quality and sustainability. Fortifying cultured meat with nutrients such as beneficial fatty acids is one improvement that can be facilitated through genetic modification. The same improvement can be made without genetic modification, by manipulating the conditions of the culture medium. Genetic modification may be able to enhance muscle cell proliferation. The introduction of myogenic regulatory factors, growth factors, or other gene products into muscle cells may increase production over that of conventional meat. Some researchers propose that the ability of algae and cyanobacteria to produce ingredients for culture media can be improved with certain technologies, most likely not excluding genetic engineering.\n\n===Ethical===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Sandhana, Test Tube Meat Nears Dinner Table",
+          "url": "https://www.wired.com/science/discoveries/news/2006/06/71201"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Vein, Patent US6835390",
+          "url": "https://www.google.ca/patents/US6835390?dq=ininventor:%22Jon+Vein%22&hl=en&sa=X&ei=-lnMUtX4DOTI2AWt_IGYCA&ved=0CEwQ6AEwAzge"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Haagsman, Production of Animal Proteins by Cell Systems, (October 2009)",
+          "url": "http://new-harvest.org/wp-content/uploads/2013/03/production_of_animal_proteins_1207.pdf"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Tuomisto, Life cycle assessment of cultured meat production, (22–24 September 2010)",
+          "url": "https://www.researchgate.net/publication/215666764"
+        }
+      ]
+    },
+    {
+      "id": "ethical",
+      "title": "Ethical",
+      "level": 3,
+      "content": "Australian bioethicist Julian Savulescu said, \"Artificial meat stops cruelty to animals, is better for the environment, could be safer and more efficient, and even healthier. We have a moral obligation to support this kind of research. It gets the ethical two thumbs up.\" Animal welfare groups are generally in favor of cultured meat, because the culture process does not include a nervous system and therefore does not involve pain or infringement of rights. Reactions of vegetarians to cultured meat vary. Some feel the cultured meat presented to the public in August 2013 was not vegetarian because fetal bovine serum was used in the growth medium. However, since then, cultured meat has been grown with a medium that does not involve bovine serum. Philosopher Carlo Alvaro argues that the question of the morality of eating in vitro meat has been discussed only in terms of convenience. Alvaro proposes a virtue-oriented approach, suggesting that the determination to produce cultured meat stems from unvirtuous motives, i.e., \"lack of temperance and misunderstanding of the role of food in human flourishing.\"\n\nSome have proposed independent inquiries into the standards, laws, and regulations for cultured meat. Just as with many other foods, cultured meat needs technically sophisticated production methods that may be difficult for some communities, meaning they would lack self-sufficiency and be dependent on global food corporations. Some projects are focusing on making cellular agriculture accessible to all. The Shojinmeat Project, for instance, has a bottom-up approach, teaching participants to cultivate DIY cultured meat at home.\n\nEstablishing a similar parallel with cultured meat, some environmental activists claim that adopting a vegetarian diet may be a way of focusing on personal actions and righteous gestures rather than systemic change. Environmentalist Dave Riley states that \"being meatless and guiltless seems seductively simple while environmental destruction rages around us\", and writes that Mollison \"insists that vegetarianism drives animals from the edible landscape so that their contribution to the food chain is lost\".\n\n=== Religious considerations ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Alok Jha, Synthetic meat: how the world's costliest burger made it on to the plate, (5 August 2013)",
+          "url": "https://www.theguardian.com/science/2013/aug/05/synthetic-meat-burger-stem-cells"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Raizel, ''In Vitro'' Meat, (11 December 2005)",
+          "url": "https://query.nytimes.com/gst/fullpage.html?res=9C03E4D81331F932A25751C1A9639C8B63"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Kruglinski, I'll Have My Burger Petri-Dish Bred, With Extra Omega-3, (22 September 2008)",
+          "url": "http://discovermagazine.com/2008/oct/22-i.ll-have-my-burger-petri-dish-bred"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Izundu, Could vegetarians eat a 'test tube' burger?, (23 February 2012)",
+          "url": "https://www.bbc.co.uk/news/magazine-17113214"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Hines, Can Vegetarians Eat In-Vitro Meat? The Debate Rages., (7 August 2013)",
+          "url": "http://www.thedailybeast.com/articles/2013/08/07/can-vegetarians-eat-in-vitro-meat-the-debate-rages.html"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "A new lab-grown meat startup may have overcome a key barrier to making meat without slaughter., (28 September 2018)",
+          "url": "https://www.businessinsider.com/lab-grown-meat-startup-solving-barrier-meat-without-slaughter-meatable-2018-9"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Alvaro, C. (2019) Lab‐Grown Meat and Veganism: A Virtue‐Oriented Perspective. ''J Agric Environ Ethics''. https://doi.org/10.1007/s10806-019-09759-2, p. 17.",
+          "url": "https://doi.org/10.1007/s10806-019-09759-2,"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "[http://www.foodethicscouncil.org/topic/In%20vitro%20meat ''In vitro'' meat] {{Webarchive|url=https://web.archive.org/web/20111121015931/http://www.foodethicscouncil.org/topic/In%20vitro%20meat |date=21 November 2011 }} at Food Ethics Council",
+          "url": "https://web.archive.org/web/20111121015931/http://www.foodethicscouncil.org/topic/In%20vitro%20meat"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "In Vitro Meat: Power, Authenticity and Vegetarianism",
+          "url": "http://www.new-harvest.org/2013/07/in-vitro-meat-power-authenticity-and-vegetarianism-john-miller/"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Shojinmeat is Growing a DIY Clean Meat Community, (2018-04-16)",
+          "url": "https://thespoon.tech/shojinmeat-is-growing-a-diy-clean-meat-community/"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "Does meat make the meal?, (2016-09-05)",
+          "url": "http://www.greenleft.org.au/node/5814"
+        }
+      ]
+    },
+    {
+      "id": "religious-considerations",
+      "title": "Religious considerations",
+      "level": 3,
+      "content": "Jewish rabbinical authorities disagree whether cultured meat is kosher, meaning acceptable under Jewish law and practice. One factor is the nature of the animal from which the cells are sourced, whether it is a kosher or non-kosher species and whether, if the cells were taken from a dead animal, slaughter in accordance with religious practice had taken place prior to the extraction of cells. Most authorities agree that if the original cells were taken from a religiously slaughtered animal then the meat cultured from it will be kosher. Depending on the nature of the cells, it may be determined to be kosher even when taken from a live animal, and some have argued that it would be kosher even if coming from non-kosher animals such as pigs. In 2023 the issue of lab meat being a non-meat product or \"pareve\" has come up for debate. In 2023 the Chief Rabbi of Israel ruled that some types of cultured meat are kosher, and if not made to resemble meat, can have pareve status.\n\nIslamic dietary practices have also been considered. Amid discussion following the presentation of the 2013 Maastricht burger, Abdul Qahir Qamar of the International Islamic Fiqh Academy said that cultured meat \"will not be considered meat from live animals, but will be cultured meat.\" As long as the cells are not from pigs, dogs, and other haram animals, the meat would be considered vegetative and \"similar to yogurt and fermented pickles.\"\n\nCatholicism, which excludes eating meat in certain days along the year (Lent, Holy Week), has not pronounced on whether cultivated meat is banned (as it happens with meat) or not (as with any other food as vegetables or fish). Hinduism typically excludes the consumption of beef, such as steak and burgers. Chandra Kaushik, president of the Hindu Mahasabha, said about cultured beef that he would \"not accept it being traded in a marketplace in any form or being used for a commercial purpose.\"\n\n=== Economic ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Kenigsberg, A Jewish Religious Perspective on Cellular Agriculture, (22 January 2020)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "JTA, Rabbi: Lab-grown pork could be kosher for Jews to eat – with milk, (22 March 2018)",
+          "url": "https://www.timesofisrael.com/rabbi-meat-from-cloned-pig-could-be-eaten-by-jews-with-milk/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Will Lab Cultivated Meat break kosher guidelines? - Green Prophet, (27 July 2023)",
+          "url": "https://www.greenprophet.com/2023/07/will-lab-cultivated-meat-break-kosher-guidelines/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Klein, Chief Rabbi: Cultured meat is considered a vegetable but can't be consumed with dairy, (2023-01-19)",
+          "url": "https://www.jpost.com/judaism/article-728978"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Hamdan, Cultured Meat in Islamic Perspective, (1 December 2018)"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "But Is It Kosher?, (9 August 2013)",
+          "url": "https://www.huffpost.com/entry/lab-burger-kosher-halal_n_3733851"
+        }
+      ]
+    },
+    {
+      "id": "economic",
+      "title": "Economic",
+      "level": 3,
+      "content": "Cultured meat is significantly more costly than conventional meat. In a March 2015 interview, Post said that the marginal cost of his team's original €250,000 burger was now €8.00. He estimated that technological advancements would allow the product to be cost-competitive to traditionally sourced beef in approximately ten years. In 2018, Memphis Meats reduced the cost of production to $1,700 per pound. In 2019, Eat Just said it cost about US$50 to produce one chicken nugget. The company's cultured chicken nuggets, now available at Singapore restaurant 1880, retail around US$17 as part of a set meal; however, this retail price is below cost. As of 2021, most companies report a production cost of $100 or more per meal-sized serving. A 2019 study estimated that, with current technology, the actual production cost of cultured meat was over $400,000 per kilogram. A 2022 study estimated that, if dramatic advances drove medium costs down to $3.74 per liter, large-scale production costs might optimistically fall to $63 per kilogram over the next few years. The main drivers of cost would be growth medium (accounting for $19.7/kg), labor ($17.7/kg), and bioreactor repairs ($5.47/kg). Competing with wholesale beef ($6/kg) would require reducing all three of these costs.\n\n=== Farmers ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Post, Mark Post of Maastricht University in the Netherlands has developed synthetic beef patties., (26 March 2015)",
+          "url": "http://www.abc.net.au/news/2015-03-27/mark-post-synthetic-beef/6352860"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Chris Dart, Documentary 'Meat the Future' shows us the possible future of meat, (4 May 2020)",
+          "url": "https://www.cbc.ca/documentarychannel/m_features/documentary-meat-the-future-shows-us-the-possible-future-of-meat"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Morrison, 'A major milestone for lab-grown meat': Could Eat Just's approval in Asia hurry the market in Europe?, (4 December 2020)",
+          "url": "https://www.foodnavigator.com/Article/2020/12/04/A-major-milestone-for-lab-grown-meat-Could-Eat-Just-s-approval-in-Asia-hurry-the-market-in-Europe"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Gilchrist, This multibillion-dollar company is selling lab-grown chicken in a world-first, (2021-03-01)",
+          "url": "https://www.cnbc.com/2021/03/01/eat-just-good-meat-sells-lab-grown-cultured-chicken-in-world-first.html"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Eat Just is racing to put 'no-kill meat' on your plate. Is it too good to be true?, (16 June 2021)",
+          "url": "https://www.theguardian.com/food/2021/jun/16/eat-just-no-kill-meat-chicken-josh-tetrick"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Garrison, How much will large-scale production of cell-cultured meat cost?, (December 2022)"
+        }
+      ]
+    },
+    {
+      "id": "farmers",
+      "title": "Farmers",
+      "level": 3,
+      "content": "A scientific paper published in Front. Sustain. Food Syst. addresses the social and economic opportunities and challenges of cultured and plant-based meat for rural producers. According to this research, cellular agriculture offers \"opportunities such as growing crops as ingredients for feedstock for cultured meat; raising animals for genetic material for cultured meat; producing cultured meat in bioreactors at the farm level; transitioning into new sectors; new market opportunities for blended and hybrid animal- and alt-meat products; and new value around regenerative or high-animal welfare farming.\" Some challenges are also identified, with possible \"loss of livelihood or income for ranchers and livestock producers and for farmers growing crops for animal feed; barriers to transitioning into emerging alt-meat sectors; and the possibility of exclusion from those sectors.\"\nSome farmers already see the potential of cellular agriculture. For instance, Illtud Dunsford comes from a long line of farmers in Wales and established his cultured meat company Cellular Agriculture Ltd in 2016.\n\n== Continuing development ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Artificial meat: UK scientists growing 'bacon' in labs, (2019-03-19)",
+          "url": "https://www.bbc.com/news/science-environment-47611026"
+        }
+      ]
+    },
+    {
+      "id": "continuing-development",
+      "title": "Continuing development",
+      "level": 2,
+      "content": "=== Education ===",
+      "citations": []
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "level": 3,
+      "content": "In 2015, Maastricht University hosted the first International Conference on Cultured Meat. New Harvest—a 501(c)(3) research institute—as well as The Good Food Institute host annual conferences to convene industry leaders, scientists, investors, and potential collaborators. The two organizations also fund public research and produce educational content. Organizations such as the Cellular Agriculture Society and similar organizations in Canada, France, Australia, and New Zealand were founded to advocate for cultured meat in their respective countries. Publications such as Cell Agri and Protein Report have also provided updates concerning technology and business within the field.\n\n=== Research ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "International Conference on Cultured Meat 2015",
+          "url": "https://culturedbeef.org/pictures-conference-2015"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Albrecht, Catch Video from the New Harvest Cultured Meat Conference, (20 July 2018)",
+          "url": "https://thespoon.tech/catch-video-from-the-new-harvest-cultured-meat-conference/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "The Good Food Conference",
+          "url": "https://goodfoodconference.com/title=International"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "FAQ",
+          "url": "https://cas.monopo.net/faq/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "April 2023: The Month in Review",
+          "url": "https://www.cell.ag/blog/april-2023-month-in-review"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Cell-Based",
+          "url": "https://www.proteinreport.org/cell-based/"
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "level": 3,
+      "content": "Research continues on many fronts, including entomoculture, interactome maps of cardiac tissue, substrate design, scaffold design, nutritional profile, reaction kinetics, transport phenomena, mass transfer limitations and metabolic stoichiometric requirements, and bioprinting process.\n\n=== Accelerators and incubators ===",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Current Research Projects",
+          "url": "https://www.new-harvest.org/current_research_projects"
+        }
+      ]
+    },
+    {
+      "id": "accelerators-and-incubators",
+      "title": "Accelerators and incubators",
+      "level": 3,
+      "content": "Multiple venture capital firms and accelerator/incubator programs focus on assisting cultured technology startups, or plant-based protein companies in general. The Big Idea Ventures (BIV) Venture Capital firm launched their New Protein Fund to invest in emerging cell and plant-based food companies in New York and Singapore. They invested in MeliBio, Actual Veggies, Biftek.co, Orbillion Bio, Yoconut, Evo, WildFor and Novel Farms. Indie Bio is a biology oriented accelerator program that has invested in Memphis Meats, Geltor, New Age Meats and Finless Foods.\n\n== In popular culture ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Marston, Meet the 13 Companies Chosen for Cohort II of Big Idea Ventures' Alt-Protein Accelerator, (2020-08-13)",
+          "url": "https://thespoon.tech/meet-the-13-companies-chosen-for-cohort-ii-of-big-idea-ventures-alt-protein-accelerator/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Companies",
+          "url": "https://indiebio.co/companies/"
+        }
+      ]
+    },
+    {
+      "id": "in-popular-culture",
+      "title": "In popular culture",
+      "level": 2,
+      "content": "Cultured meat has often featured in science fiction. The earliest mention may be in Two Planets (1897) by Kurd Lasswitz, where \"synthetic meat\" is one of the varieties of synthetic food introduced on Earth by Martians. Other notable books mentioning artificial meat include ''Methuselah's Children (1941) by Robert A. Heinlein; Ashes, Ashes (1943) by René Barjavel; The Space Merchants (1952) by Frederik Pohl and C.M. Kornbluth; The Restaurant at the End of the Universe (1980) by Douglas Adams; Le Transperceneige (Snowpiercer) (1982) by Jacques Lob and Jean-Marc Rochette; Neuromancer (1984) by William Gibson; Oryx and Crake (2003) by Margaret Atwood; Deadstock (2007) by Jeffrey Thomas; Accelerando (2005) by Charles Stross; Ware Tetralogy by Rudy Rucker; Divergent'' (2011) by Veronica Roth; and the Vorkosigan Saga (1986–2018) by Lois McMaster Bujold.\n\nIn film, artificial meat has featured prominently in Giulio Questi's 1968 drama ''La morte ha fatto l'uovo (Death Laid an Egg'') and Claude Zidi's 1976 comedy ''L'aile ou la cuisse (The Wing or the Thigh''). \"Man-made\" chickens also appear in David Lynch's 1977 surrealist horror, Eraserhead. Most recently, it was also featured prominently as the central theme of the movie Antiviral (2012). The Starship Enterprise from the TV and movie franchise Star Trek apparently provides a synthetic meat, although crews from The Next Generation and later use replicators. In the ABC sitcom Better Off Ted (2009–2010), the episode \"Heroes\" features Phil (Jonathan Slavin) and Lem (Malcolm Barrett) trying to grow cowless beef.\n\nIn the movie Galaxy Quest during the dinner scene, Tim Allen's character refers to his steak tasting like \"real Iowa beef\". In the videogame Project Eden, the player characters investigate a cultured meat company called Real Meat. In The Expanse, \"vat-grown\" meat is produced to feed the people who live on spaceships/space stations away from Earth, due to the exorbitant cost of importing real meat. Cultured meat was a subject on an episode of The Colbert Report on 17 March 2009.\n\nIn February 2014, a biotech startup called BiteLabs ran a campaign to generate popular support for artisanal salami made with meat cultured from celebrity tissue samples. The campaign became popular on Twitter, where users tweeted at celebrities asking them to donate muscle cells to the project. Media reactions to BiteLabs variously identified the startup as a satire on startup culture, celebrity culture, or as a discussion prompt on bioethical concerns. While BiteLabs claimed to be inspired by the success of Sergey Brin's burger, the company is seen as an example of critical design rather than an actual business venture.\n\nIn late 2016, cultured meat was involved in a case in the episode \"How The Sausage Is Made\" of CBS show Elementary. Cultured meat was profiled in the 2020 Canadian documentary film Meat the Future. In the 2020 video game Cyberpunk 2077, multiple cultured meat products are for sale, due to the high cost of natural meat. This includes \"EEZYBEEF\", made from in vitro cultured muscle cells taken from cattle, and the flatworm culture based \"Orgiatic\" which comes in several flavors.\n\n== Related processes ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Star Trek 'Charlie X'"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Fresco, Heroes, (2009-03-25)",
+          "url": "https://www.imdb.com/title/tt1402241/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "The Colbert Report: World of Nahlej – Shmeat, (17 March 2009)",
+          "url": "http://www.cc.com/video-clips/bsv6p7/the-colbert-report-world-of-nahlej---shmeat"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "BiteLabs",
+          "url": "http://bitelabs.org/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Jauregui, Hunger Game? Startup Whets Public Appetite For Salami Made From Celebrities, (3 March 2014)",
+          "url": "https://www.huffingtonpost.com/2014/03/03/celebrity-salami-bitelabs_n_4890762.html"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Merchant, The Guy Who Wants to Sell Lab-Grown Salami Made of Kanye West Is \"100% Serious\", (26 February 2014)",
+          "url": "https://www.vice.com/en/article/the-guy-who-want-to-sell-you-salami-made-out-of-james-franco-are-100-serious/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Knibbs, No, This Website Won't Actually Make Salami Out Of Famous People, (28 February 2014)",
+          "url": "https://newsfeed.time.com/2014/02/28/celebrity-meat-bite-labs-fake/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Harris, Ellen DeGeneres salami? One company's quest to make meat from celebrity tissue samples, (5 March 2014)",
+          "url": "https://www.latimes.com/food/dailydish/la-dd-bitelabs-make-salami-celebrity-tissue-samples-20140304-story.html"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Elementary - How the Sausage is Made - Review: \"Fake Meat, Real Murder\", (7 December 2016)",
+          "url": "https://www.spoilertv.com/2016/12/elementary-how-sausage-is-made-review.html"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Dorothy Woodend, [https://thetyee.ca/Culture/2020/05/15/Ready-Meat-Future/ \"Are We Ready to 'Meat the Future'?\"]. ''[[The Tyee]]'', 15 May 2020.",
+          "url": "https://thetyee.ca/Culture/2020/05/15/Ready-Meat-Future/"
+        }
+      ]
+    },
+    {
+      "id": "related-processes",
+      "title": "Related processes",
+      "level": 2,
+      "content": "=== Fermentation ===",
+      "citations": []
+    },
+    {
+      "id": "fermentation",
+      "title": "Fermentation",
+      "level": 3,
+      "content": "Acellular agriculture is producing animal products synthesized from non-living material. Such products include milk, honey, eggs, cheese, and gelatin which are made of various proteins rather than cells. These proteins must be fermented much like in recombinant protein production, alcohol brewing and the generation of many plant-based products like tofu, tempeh and sauerkraut.\n was made with fermented heme proteins.]]\nProteins are coded for by specific genes, the genes coding for the protein of interest are synthesized into a plasmid—a closed loop of double helical genetic information. This plasmid, called recombinant DNA, is then inserted into a bacterial specimen. For this to happen, the bacteria needs to be competent (i.e. able to accept foreign, extracellular DNA) and able to horizontally transfer genes (i.e. integrate the foreign genes into its own DNA). Horizontal gene transfer is significantly more challenging in eukaryotic organisms than prokaryotic organisms because the former have both a cell membrane and a nuclear membrane which the plasmid needs to penetrate whereas prokaryotic organisms only have a cell membrane. For this reason, prokaryotic bacteria are often favoured. In order to make such a bacteria temporarily competent, it can be exposed to a salt such as calcium chloride, which neutralizes the negative charges on the cell membrane's phosphate heads as well as the negative charges on the plasmid to prevent the two from repelling. The bacteria can incubate in warm water, opening large pores on the cell surface through which the plasmid can enter.\n\nNext, the bacteria is fermented in sugar, which encourages it to grow and duplicate. In the process it expresses its DNA as well as the transferred plasmid resulting in protein. Finally, the solution is purified to separate out the residual protein. This can be done by introducing an antibody raised against the protein of interest that will kill bacteria cells that do not contain the protein. Through centrifugation, the solution can be spun around an axis with sufficient force to separate solids from liquids. Alternatively it could be soaked in a buffered ionic solution that employs osmosis to leach the water from bacteria and kill them.\n\n== See also ==",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Singh, Cultured meat production fuelled by fermentation, (2022)"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "What is Cellular Agriculture?, (16 August 2016)",
+          "url": "https://www.new-harvest.org/what_is_cellular_agriculture"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "CaCl2 Transformation Technique",
+          "url": "https://www.mybiosource.com/learn/testing-procedures/cacl2-transformation-technique/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Wingfield, Overview of the Purification of Recombinant Proteins, (2015-04-01)"
+        }
+      ]
+    }
+  ]
+}
