@@ -13,34 +13,43 @@ interface SectionEditorProps {
 }
 
 function renderContentWithCitations(content: string, citations: ArticleSection['citations']) {
-  if (citations.length === 0) {
-    return <p>{content}</p>;
-  }
+  // Split into paragraphs on double newlines
+  const paragraphs = content.split(/\n\n+/).filter(p => p.trim());
 
-  // Replace [n] patterns with superscript citation links
-  const parts: React.ReactNode[] = [];
-  const regex = /\[(\d+)\]/g;
-  let lastIndex = 0;
-  let match: RegExpExecArray | null;
+  return (
+    <div>
+      {paragraphs.map((para, pIdx) => {
+        if (citations.length === 0) {
+          return <p key={pIdx} style={{ marginBottom: '0.5em' }}>{para}</p>;
+        }
 
-  while ((match = regex.exec(content)) !== null) {
-    if (match.index > lastIndex) {
-      parts.push(content.slice(lastIndex, match.index));
-    }
-    const citationIndex = parseInt(match[1], 10);
-    parts.push(
-      <sup key={`cite-${match.index}`} className="wiki-citation">
-        [{citationIndex}]
-      </sup>
-    );
-    lastIndex = regex.lastIndex;
-  }
+        // Replace [n] patterns with superscript citation links
+        const parts: React.ReactNode[] = [];
+        const regex = /\[(\d+)\]/g;
+        let lastIndex = 0;
+        let match: RegExpExecArray | null;
 
-  if (lastIndex < content.length) {
-    parts.push(content.slice(lastIndex));
-  }
+        while ((match = regex.exec(para)) !== null) {
+          if (match.index > lastIndex) {
+            parts.push(para.slice(lastIndex, match.index));
+          }
+          const citationIndex = parseInt(match[1], 10);
+          parts.push(
+            <sup key={`cite-${pIdx}-${match.index}`} className="wiki-citation">
+              [{citationIndex}]
+            </sup>
+          );
+          lastIndex = regex.lastIndex;
+        }
 
-  return <p>{parts}</p>;
+        if (lastIndex < para.length) {
+          parts.push(para.slice(lastIndex));
+        }
+
+        return <p key={pIdx} style={{ marginBottom: '0.5em' }}>{parts}</p>;
+      })}
+    </div>
+  );
 }
 
 export default function SectionEditor({
@@ -54,24 +63,38 @@ export default function SectionEditor({
 }: SectionEditorProps) {
   const HeadingTag = section.level <= 2 ? 'h2' : 'h3';
 
-  const heading = (
+  const heading = section.level === 1 ? (
+    <h1>
+      {section.title}
+      <span
+        className="wiki-edit-link"
+        role="button"
+        tabIndex={0}
+        onClick={(e) => { e.stopPropagation(); onToggleEdit(section.id); }}
+        onKeyDown={(e) => { if (e.key === 'Enter') onToggleEdit(section.id); }}
+      >
+        [edit]
+      </span>
+    </h1>
+  ) : (
     <HeadingTag>
       {section.title}
-      {!isEditing && (
-        <span
-          className="wiki-edit-link"
-          onClick={() => onToggleEdit(section.id)}
-        >
-          [edit]
-        </span>
-      )}
+      <span
+        className="wiki-edit-link"
+        role="button"
+        tabIndex={0}
+        onClick={(e) => { e.stopPropagation(); onToggleEdit(section.id); }}
+        onKeyDown={(e) => { if (e.key === 'Enter') onToggleEdit(section.id); }}
+      >
+        {isEditing ? '[close]' : '[edit]'}
+      </span>
     </HeadingTag>
   );
 
   if (isEditing) {
     const value = editedContent !== undefined ? editedContent : section.content;
     return (
-      <div className="mb-4">
+      <div className="mb-4" style={{ border: '1px solid var(--wiki-link)', borderRadius: 2, padding: '0.5rem' }}>
         {heading}
         <textarea
           className="wiki-editor-textarea"
@@ -80,7 +103,17 @@ export default function SectionEditor({
           onFocus={() => onFocus?.(section.id)}
           onBlur={() => onBlur?.(section.id)}
           rows={Math.max(6, value.split('\n').length + 2)}
+          autoFocus
         />
+        <div className="flex justify-end mt-2">
+          <button
+            onClick={() => onToggleEdit(section.id)}
+            className="text-xs px-3 py-1 rounded cursor-pointer"
+            style={{ color: 'var(--wiki-link)', border: '1px solid var(--wiki-chrome-border)' }}
+          >
+            Done editing section
+          </button>
+        </div>
       </div>
     );
   }
