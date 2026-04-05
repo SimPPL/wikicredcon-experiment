@@ -1,12 +1,25 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { EXPERIENCE_OPTIONS, LS_KEYS } from '@/lib/constants';
 import { assignCondition } from '@/lib/experiment';
 import { generateId } from '@/lib/utils';
+import ConsentForm from '@/components/experiment/ConsentForm';
 import type { Participant, EditingExperience } from '@/types';
 
+function hashEmail(email: string): string {
+  // Simple deterministic hash for deduplication
+  let hash = 0;
+  for (let i = 0; i < email.length; i++) {
+    const char = email.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash |= 0;
+  }
+  return 'anon_' + Math.abs(hash).toString(36);
+}
+
 export default function RegistrationPage() {
+  const [consented, setConsented] = useState(false);
   const [email, setEmail] = useState('');
   const [wikiUsername, setWikiUsername] = useState('');
   const [yearsActive, setYearsActive] = useState('');
@@ -16,6 +29,13 @@ export default function RegistrationPage() {
   const [confidence, setConfidence] = useState<number>(0);
   const [usefulness, setUsefulness] = useState<number>(0);
   const [submitting, setSubmitting] = useState(false);
+
+  useEffect(() => {
+    const stored = localStorage.getItem('wikicred_consent');
+    if (stored) {
+      setConsented(true);
+    }
+  }, []);
 
   function toggleContentArea(area: string) {
     setContentAreas((prev) =>
@@ -29,6 +49,7 @@ export default function RegistrationPage() {
     setSubmitting(true);
 
     const { order, articleAssignment } = assignCondition();
+    const participantId = generateId();
 
     const experience: EditingExperience = {
       yearsActive,
@@ -39,13 +60,25 @@ export default function RegistrationPage() {
       socialMediaUsefulness: usefulness,
     };
 
+    // Store PII separately from research data
+    localStorage.setItem(
+      `wikicred_pii_${participantId}`,
+      JSON.stringify({ email, wikiUsername: wikiUsername || undefined })
+    );
+
+    const consentRaw = localStorage.getItem('wikicred_consent');
+    const consent = consentRaw
+      ? JSON.parse(consentRaw)
+      : { consentedAt: Date.now(), version: '1.0' };
+
     const participant: Participant = {
-      id: generateId(),
-      email,
+      id: participantId,
+      emailHash: hashEmail(email),
       wikiUsername: wikiUsername || undefined,
       experience,
       assignedOrder: order,
       articleAssignment,
+      consent,
       createdAt: Date.now(),
     };
 
@@ -61,6 +94,10 @@ export default function RegistrationPage() {
     frequency !== '' &&
     confidence > 0 &&
     usefulness > 0;
+
+  if (!consented) {
+    return <ConsentForm onConsent={() => setConsented(true)} />;
+  }
 
   return (
     <div className="min-h-screen bg-white">

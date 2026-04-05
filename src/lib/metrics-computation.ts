@@ -1,5 +1,5 @@
 import DiffMatchPatch from 'diff-match-patch';
-import type { EditSession, Article, ArticleSection } from '@/types';
+import type { EditSession, Article, ArticleSection, ComputedSessionMetrics } from '@/types';
 
 // ============================================================
 // Post-Submission Metrics Computation
@@ -341,4 +341,133 @@ export function computeComparativeMetrics(
   }
 
   return { treatmentMean, controlMean, effectSizes };
+}
+
+/**
+ * Compute granular metrics for a session, to be stored as session.computedMetrics.
+ * Based on metrics from published Wikipedia research:
+ * - Content metrics: Adler & de Alfaro 2007, Warncke-Wang et al. 2013
+ * - Citation metrics: Redi et al. 2019, Fetahu et al. 2015
+ * - Behavioral metrics: Kittur & Kraut 2008, Daxenberger & Gurevych 2013
+ */
+export function computeGranularMetrics(
+  session: EditSession,
+  pastArticle: Article,
+  currentArticle: Article
+): ComputedSessionMetrics {
+  // Content metrics
+  let wordsAdded = 0;
+  let wordsRemoved = 0;
+  let charactersAdded = 0;
+  let charactersRemoved = 0;
+  let sectionsEdited = 0;
+  let sectionsUntouched = 0;
+  const sectionImprovements: Record<string, number> = {};
+
+  const groundTruthMap = new Map(currentArticle.sections.map(s => [s.id, s]));
+
+  for (const section of pastArticle.sections) {
+    const edited = session.finalContent[section.id] ?? section.content;
+    const original = section.content;
+    const gt = groundTruthMap.get(section.id)?.content ?? original;
+
+    if (edited !== original) {
+      sectionsEdited++;
+      const { added, removed } = countWordDelta(original, edited);
+      wordsAdded += added;
+      wordsRemoved += removed;
+      charactersAdded += Math.max(0, edited.length - original.length);
+      charactersRemoved += Math.max(0, original.length - edited.length);
+    } else {
+      sectionsUntouched++;
+    }
+
+    // Per-section ground truth improvement
+    const simEditedGT = computeSimilarity(edited, gt);
+    const simOrigGT = computeSimilarity(original, gt);
+    sectionImprovements[section.id] = simEditedGT - simOrigGT;
+  }
+
+  // Citation metrics
+  const citationsAdded = session.citationsAdded.length;
+  const citationUrls = session.citationsAdded
+    .filter(c => c.url)
+    .map(c => c.url!);
+  const sectionsWithNewCitations = [...new Set(session.citationsAdded.map(c => c.sectionId))];
+
+  // Behavioral metrics
+  const editTimestamps = session.editEvents
+    .filter(e => e.sectionId !== '__edit_summary__')
+    .map(e => e.timestamp)
+    .sort((a, b) => a - b);
+
+  const deliberationTimeMs = editTimestamps.length > 0
+    ? editTimestamps[0] - session.startedAt
+    : session.totalEditTime; // never edited = all deliberation
+
+  let totalIntervals = 0;
+  let intervalCount = 0;
+  let editBurstCount = 0;
+  let inBurst = false;
+  for (let i = 1; i < editTimestamps.length; i++) {
+    const gap = editTimestamps[i] - editTimestamps[i - 1];
+    totalIntervals += gap;
+    intervalCount++;
+    if (gap < 2000) { // edits within 2 seconds = part of a burst
+      if (!inBurst) {
+        editBurstCount++;
+        inBurst = true;
+      }
+    } else {
+      inBurst = false;
+    }
+  }
+  const averageEditIntervalMs = intervalCount > 0 ? totalIntervals / intervalCount : 0;
+
+  const tabSwitchCount = session.tabBlurEvents.length;
+  const totalTabAwayMs = session.tabBlurEvents.reduce((s, e) => s + e.duration, 0);
+
+  // Ground truth metrics
+  const fullOriginal = pastArticle.sections.map(s => s.content).join('\n');
+  const fullEdited = pastArticle.sections.map(s => session.finalContent[s.id] ?? s.content).join('\n');
+  const fullGroundTruth = currentArticle.sections.map(s => s.content).join('\n');
+
+  const similarityToGroundTruth = computeSimilarity(fullEdited, fullGroundTruth);
+  const similarityToBaseline = computeSimilarity(fullEdited, fullOriginal);
+  const baselineToGT = computeSimilarity(fullOriginal, fullGroundTruth);
+  const improvementOverBaseline = similarityToGroundTruth - baselineToGT;
+
+  // Arbiter-specific
+  const arbiterClaimsViewed = new Set(
+    session.arbiterInteractions
+      .filter(a => a.action === 'view' || a.action === 'click')
+      .map(a => a.claimId)
+  ).size;
+  const arbiterTimeSpentMs = session.arbiterInteractions.reduce((s, a) => s + a.duration, 0);
+
+  return {
+    wordsAdded,
+    wordsRemoved,
+    netWordsChanged: wordsAdded - wordsRemoved,
+    charactersAdded,
+    charactersRemoved,
+    citationsAdded,
+    citationUrls,
+    sectionsWithNewCitations,
+    sectionsEdited,
+    sectionsUntouched,
+    totalSections: pastArticle.sections.length,
+    deliberationTimeMs,
+    averageEditIntervalMs,
+    editBurstCount,
+    tabSwitchCount,
+    totalTabAwayMs,
+    similarityToGroundTruth,
+    similarityToBaseline,
+    improvementOverBaseline,
+    sectionImprovements,
+    arbiterClaimsViewed,
+    arbiterClaimsCoveredInEdits: 0, // requires claim-content matching, computed separately
+    arbiterTimeSpentMs,
+  };
 }

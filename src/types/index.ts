@@ -25,9 +25,17 @@ export interface EditingExperience {
   socialMediaUsefulness: number; // 1-5
 }
 
+export interface ConsentRecord {
+  consentedAt: number;
+  version: string;
+}
+
 export interface Participant {
   id: string;
-  email: string;
+  // PII fields — stored separately in localStorage under wikicred_pii_{id}
+  // The participant object in research data uses anonymized identifiers
+  email?: string; // deprecated — use emailHash instead
+  emailHash: string; // deterministic anonymous identifier
   wikiUsername?: string;
   experience: EditingExperience;
   assignedOrder: ExperimentOrder;
@@ -35,6 +43,7 @@ export interface Participant {
     arbiter: string; // articleId
     control: string; // articleId
   };
+  consent: ConsentRecord;
   createdAt: number;
 }
 
@@ -89,6 +98,42 @@ export interface EditSession {
   arbiterInteractions: ArbiterInteraction[];
   finalContent: Record<string, string>; // sectionId -> final text
   totalEditTime: number; // ms
+  // Computed metrics (populated on publish)
+  computedMetrics?: ComputedSessionMetrics;
+}
+
+// Granular metrics computed after editing, based on published Wikipedia research
+export interface ComputedSessionMetrics {
+  // Content metrics (Adler & de Alfaro 2007; Warncke-Wang et al. 2013)
+  wordsAdded: number;
+  wordsRemoved: number;
+  netWordsChanged: number;
+  charactersAdded: number;
+  charactersRemoved: number;
+  // Citation metrics (Redi et al. 2019; Fetahu et al. 2015)
+  citationsAdded: number;
+  citationUrls: string[];
+  sectionsWithNewCitations: string[];
+  // Structural metrics
+  sectionsEdited: number;
+  sectionsUntouched: number;
+  totalSections: number;
+  // Behavioral metrics (Kittur & Kraut 2008; SuggestBot study)
+  deliberationTimeMs: number; // time before first edit
+  averageEditIntervalMs: number; // mean time between edits
+  editBurstCount: number; // number of rapid editing bursts
+  tabSwitchCount: number;
+  totalTabAwayMs: number;
+  // Ground truth metrics (experiment-specific)
+  similarityToGroundTruth: number; // 0-1
+  similarityToBaseline: number; // 0-1
+  improvementOverBaseline: number; // how much closer to ground truth
+  // Per-section ground truth
+  sectionImprovements: Record<string, number>;
+  // Arbiter-specific (treatment only)
+  arbiterClaimsViewed: number;
+  arbiterClaimsCoveredInEdits: number; // claims whose content was added to article
+  arbiterTimeSpentMs: number;
 }
 
 // --- Article Content ---
