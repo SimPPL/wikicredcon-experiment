@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question": "What significant right-to-repair law did Minnesota pass in 2023?",
+    "answer": "Minnesota law requires manufacturers of certain electronic products to make documentation, parts, and tools for diagnosis, maintenance, or repair available to independent repair providers and consumers.",
+    "relevantPassage": "In 2023, Minnesota law passed... Requires manufacturers of certain electronic products to make documentation, parts, and tools for diagnosis, maintenance, or repair available to independent repair providers and consumers.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Enacted legislation"
+  },
+  {
+    "id": "q2",
+    "question": "What does the 2024 European Union's Right to Repair Directive require from manufacturers?",
+    "answer": "Manufacturers must offer repair services that are both efficient and affordable, while also making sure consumers are aware of their repair rights.",
+    "relevantPassage": "The European Union's Right to Repair Directive (R2RD) requires manufacturers to offer repair services that are both efficient and affordable, while also making sure consumers are aware of their repair rights.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Enacted legislation"
+  },
+  {
+    "id": "q3",
+    "question": "What was the outcome of the FTC's 2021 report 'Nixing the Fix'?",
+    "answer": "The report outlined issues around corporations' policies that limit repairs on consumer goods that it considered in violation of trade laws.",
+    "relevantPassage": "In May 2021, the Federal Trade Commission (FTC) issued a report 'Nixing the Fix' to Congress that outlined issues around corporations' policies that limit repairs on consumer goods that it considered in violation of trade laws.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "History"
+  },
+  {
+    "id": "q4",
+    "question": "What did the 2023 Colorado law regarding agricultural equipment entail?",
+    "answer": "It requires agricultural equipment manufacturers to provide owners or independent repair providers with the resources and information to repair their equipment.",
+    "relevantPassage": "In 2023, Colorado enacts the Consumer Right to Repair Agricultural Equipment Act... Requires agricultural equipment manufacturers to provide owners or independent repair providers with the resources and information to repair their equipment.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Enacted legislation"
+  },
+  {
+    "id": "q5",
+    "question": "How did the COVID-19 pandemic influence the right-to-repair movement?",
+    "answer": "The pandemic helped to grow the right-to-repair movement since many repair shops were closed.",
+    "relevantPassage": "The pandemic has also been credited with helping to grow the right-to-repair movement since many repair shops were closed.",
+    "category": "causal",
+    "difficulty": "medium",
+    "sectionId": "Impacts"
+  },
+  {
+    "id": "q6",
+    "question": "What notable change occurred in 2023 regarding parts pairing in Oregon?",
+    "answer": "Oregon banned parts pairing starting in 2025.",
+    "relevantPassage": "2024 Oregon bans parts pairing starting in 2025.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Enacted legislation"
+  },
+  {
+    "id": "q7",
+    "question": "What was the significance of the Digital Fair Repair Act signed in New York in 2022?",
+    "answer": "It established the right of consumers and independent repairers to get manuals, diagrams, and original parts from manufacturers.",
+    "relevantPassage": "On December 28, 2022, New York Governor Kathy Hochul signed into law the Digital Fair Repair Act... established the right of consumers and independent repairers to get manuals, diagrams, and original parts from manufacturers.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Enacted legislation"
+  },
+  {
+    "id": "q8",
+    "question": "What did the 2021 U.K. Right to Repair law require from manufacturers?",
+    "answer": "It requires manufacturers to provide repair information and spare parts available for repairs for up to ten years for certain new white goods and televisions.",
+    "relevantPassage": "U.K. Right to Repair law in effect (Statutory Instruments 2021 No. 745) Requires manufacturers provide repair information and spare parts available for repairs for up to ten years for certain new white goods and televisions.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Enacted legislation"
+  },
+  {
+    "id": "q9",
+    "question": "What was the outcome of the FTC's notice to manufacturers in April 2018?",
+    "answer": "The FTC stated that their warranty practices may violate the Magnuson-Moss Warranty Act.",
+    "relevantPassage": "In April 2018, the Federal Trade Commission sent notice to six automobile, consumer electronics, and video game console manufacturers... stating that their warranty practices may violate the Magnuson-Moss Warranty Act.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "History"
+  },
+  {
+    "id": "q10",
+    "question": "What was the impact of the 2020 Massachusetts Question 1 on electronic vehicle data?",
+    "answer": "It updated the previous measure on automobile repair to include electronic vehicle data.",
+    "relevantPassage": "2020 Massachusetts Question 1 passed to update the previous measure on automobile repair to include electronic vehicle data.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Enacted legislation"
+  }
+]

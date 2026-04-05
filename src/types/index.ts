@@ -199,10 +199,47 @@ export interface SurveyResponse {
   completedAt: number;
 }
 
+// --- Question-Based Evaluation ---
+
+export interface ArticleQuestion {
+  id: string;
+  question: string;
+  answer: string;
+  relevantPassage: string;
+  category: 'factual' | 'causal' | 'temporal' | 'comparison';
+  difficulty: 'easy' | 'medium' | 'hard';
+  sectionId: string;
+}
+
+export interface QuestionEvaluation {
+  questionId: string;
+  question: string;
+  groundTruthAnswer: string;
+  pastArticleAnswer: string;
+  pastArticleAnswerable: boolean;
+  pastArticleAccuracy: number;
+  editedArticleAnswer: string;
+  editedArticleAnswerable: boolean;
+  editedArticleAccuracy: number;
+}
+
+export interface ArticleEvaluationSummary {
+  articleId: string;
+  totalQuestions: number;
+  pastAnswerable: number;
+  pastAccuracy: number;
+  editedAnswerable: number;
+  editedAccuracy: number;
+  answerabilityImprovement: number;
+  accuracyImprovement: number;
+  evaluations: QuestionEvaluation[];
+}
+
 // --- Full Participant Data (for export/import) ---
 
 export interface ParticipantData {
   participant: Participant;
   sessions: EditSession[];
   survey?: SurveyResponse;
+  questionEvaluations?: ArticleEvaluationSummary[]; // post-experiment analysis
 }

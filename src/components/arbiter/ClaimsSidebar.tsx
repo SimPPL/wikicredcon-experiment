@@ -73,7 +73,7 @@ export default function ClaimsSidebar({
       {/* Header */}
       <div className="flex items-center justify-between mb-3">
         <h2 className="text-sm font-semibold" style={{ color: '#6366f1' }}>
-          Arbiter &mdash; Social Media Discourse
+          Social Media Claims
         </h2>
         <button
           onClick={onToggle}
@@ -85,6 +85,16 @@ export default function ClaimsSidebar({
         >
           Collapse
         </button>
+      </div>
+
+      {/* Warning: claims are not fact-checked */}
+      <div
+        className="text-xs mb-3 p-2 rounded"
+        style={{ background: '#fef8e7', border: '1px solid #f0d060', color: '#7c6a20', lineHeight: 1.4 }}
+      >
+        These claims are sourced from social media and <strong>need not be accurate</strong>.
+        They are shown because they are prominent and relate to content in this article.
+        Use them to guide your edits, not as reliable sources.
       </div>
 
       {/* Summary stats */}

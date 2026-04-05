@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question": "What percentage of ocean microplastics comes from textiles or clothing?",
+    "answer": "Approximately 35%",
+    "relevantPassage": "Approximately 35% of all ocean microplastics come from textiles or clothing, primarily due to the erosion of polyester, acrylic, or nylon-based clothing, often during the washing process.",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Lead"
+  },
+  {
+    "id": "q2",
+    "question": "What significant finding was reported in a 2023 study regarding microplastics and soil?",
+    "answer": "Microplastics can reduce soil fertility and crop yields by disrupting soil microbial communities and water retention capacity.",
+    "relevantPassage": "A 2023 study found that microplastics can reduce soil fertility and crop yields by disrupting soil microbial communities and water retention capacity.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Oral intake"
+  },
+  {
+    "id": "q3",
+    "question": "What is the estimated range of microplastic particles that infants may be exposed to daily from polypropylene infant feeding bottles?",
+    "answer": "From 14,600 to 4,550,000 particles per capita per day.",
+    "relevantPassage": "In 2020 researchers reported that polypropylene infant feeding bottles with contemporary preparation procedures were found to cause microplastics exposure to infants ranging from 14,600 to 4,550,000 particles per capita per day in 48 regions.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Baby bottles"
+  },
+  {
+    "id": "q4",
+    "question": "What new disease caused by plastic ingestion was identified in 2023?",
+    "answer": "Plasticosis.",
+    "relevantPassage": "A 2023 study formally identified plasticosis as a fibrotic disease caused by plastic ingestion, distinguishing it from general physical damage by detailing the chronic tissue remodeling and inflammation it induces in seabird digestive systems.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Marine and freshwater organisms"
+  },
+  {
+    "id": "q5",
+    "question": "What was the primary source of microplastic leakage into oceans according to the article?",
+    "answer": "Paint appears as the largest source of microplastic leakage into the ocean and waterways.",
+    "relevantPassage": "Paint appears as the largest source of microplastic leakage into the ocean and waterways (1.9 Mt/year), outweighing all other sources of microplastic leakage.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Sources of microplastics"
+  },
+  {
+    "id": "q6",
+    "question": "What percentage of microplastics in the European Union is attributed to the population's annual contribution?",
+    "answer": "200 grams per person per year.",
+    "relevantPassage": "The European Union participates with 10% of the global total, around 150,000 tonnes of microplastics each year. This is 200 grams per person per year, with significant regional variance in per-capita microplastic creation.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "European Union"
+  },
+  {
+    "id": "q7",
+    "question": "What is the estimated amount of microplastics released into the environment from car and truck tires?",
+    "answer": "Between orders of magnitude (mass) 10^6 to 10^11 kg per year.",
+    "relevantPassage": "Estimates of emissions of microplastics to the environment in Denmark are between orders of magnitude (mass) 10^6 to 10^11 kg per year.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Car and truck tires"
+  },
+  {
+    "id": "q8",
+    "question": "What legislative action did the European Chemicals Agency propose in January 2019?",
+    "answer": "To restrict intentionally added microplastics.",
+    "relevantPassage": "In January 2019, the European Chemicals Agency (ECHA) proposed to restrict intentionally added microplastics.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "European Union"
+  },
+  {
+    "id": "q9",
+    "question": "What was the estimated number of microbeads released into waterways daily due to wastewater treatment plants?",
+    "answer": "Around 8 trillion microbeads are released into waterways every day.",
+    "relevantPassage": "Considering that the treatment plants of the world discharge 160 trillion liters of water per day, around 8 trillion microbeads are released into waterways every day.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Cosmetics industry"
+  },
+  {
+    "id": "q10",
+    "question": "What significant environmental impact did Hurricane Larry have in September 2021?",
+    "answer": "It deposited 113,000 particles/m2/day as it passed over Newfoundland, Canada.",
+    "relevantPassage": "In September 2021 Hurricane Larry deposited, during the storm peak, 113,000 particles/m2/day as it passed over Newfoundland, Canada.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Effects on the environment"
+  }
+]

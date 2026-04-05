@@ -68,6 +68,25 @@ export default function ClaimCard({ claim, isRelevant, onView, onClick }: ClaimC
           <span>👁 {formatCount(claim.engagement.views)}</span>
         )}
       </div>
+
+      {/* Source link */}
+      {claim.sourceUrl && (
+        <div className="mt-1.5 text-xs">
+          <a
+            href={claim.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: 'var(--wiki-link)', textDecoration: 'underline' }}
+          >
+            View source on {platform.label}
+          </a>
+        </div>
+      )}
+
+      {/* Not fact-checked indicator */}
+      <div className="mt-1 text-xs italic" style={{ color: '#a2a9b1' }}>
+        Not fact-checked — social media claim
+      </div>
     </div>
   );
 }

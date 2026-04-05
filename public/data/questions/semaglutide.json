@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question": "What new indication for semaglutide was approved by the FDA in August 2025?",
+    "answer": "The treatment of noncirrhotic metabolic-associated steatohepatitis (MASH) with moderate to advanced liver fibrosis in adults.",
+    "relevantPassage": "In August 2025, the Food and Drug Administration (FDA) expanded the indication for semaglutide (as Wegovy) to include the treatment of noncirrhotic metabolic-associated steatohepatitis (MASH), formerly known as nonalcoholic steatohepatitis (NASH), with moderate to advanced liver fibrosis (consistent with stages F2 to F3 fibrosis) in adults.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "United States"
+  },
+  {
+    "id": "q2",
+    "question": "What was the result of the FDA's indication expansion for semaglutide in October 2025?",
+    "answer": "To reduce the risk of major adverse cardiovascular events in adults with type 2 diabetes who are at high risk for these events.",
+    "relevantPassage": "In October 2025, the FDA further expanded the indication for semaglutide (as Rybelsus) to reduce the risk of major adverse cardiovascular events (cardiovascular death, non-fatal myocardial infarction, or non-fatal stroke) in adults with type2 diabetes who are at high risk for these events.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "United States"
+  },
+  {
+    "id": "q3",
+    "question": "What significant change regarding semaglutide's prescription label occurred in January 2026?",
+    "answer": "The removal of the suicidal behavior and ideation warning from glucagon-like peptide-1 receptor agonist (GLP-1 RA) medications.",
+    "relevantPassage": "In January 2026, the US Food and Drug Administration requested removal of suicidal behavior and ideation warning from glucagon-like peptide-1 receptor agonist (GLP-1 RA) medications.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "United States"
+  },
+  {
+    "id": "q4",
+    "question": "What was the outcome of the FDA's review of semaglutide in relation to suicidal thoughts in January 2024?",
+    "answer": "No evidence was found to suggest that the medicine causes suicidal thoughts or actions.",
+    "relevantPassage": "In January 2024, a preliminary review conducted by the US Food and Drug Administration (FDA) confirmed no evidence had been found to suggest that the medicine causes suicidal thoughts or actions.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Research"
+  },
+  {
+    "id": "q5",
+    "question": "What was the average percentage of weight regain after stopping semaglutide treatment?",
+    "answer": "Individuals on average regain about two-thirds (67%) of the weight they lost during treatment within the following year.",
+    "relevantPassage": "After stopping semaglutide, individuals on average regain about two-thirds (67%) of the weight they lost during treatment within the following year.",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "United States"
+  },
+  {
+    "id": "q6",
+    "question": "What was the impact of semaglutide on major adverse cardiovascular events according to the March 2024 trial?",
+    "answer": "Participants who received semaglutide had a relative 18.8% less occurrence of major adverse cardiovascular events compared to those who received placebo.",
+    "relevantPassage": "The trial reported cumulative occurrence of major adverse cardiovascular events, showing relative 18.8% less major adverse cardiovascular events for participants who had received semaglutide in the trial relative to those who had received placebo.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Trials for cardiovascular health"
+  },
+  {
+    "id": "q7",
+    "question": "What was the list price of Wegovy as of 2022?",
+    "answer": "$1,349.02 per month.",
+    "relevantPassage": "In the US, Wegovy has a list price of $1,349.02 per month as of 2022.",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Cost, coverage and supply"
+  },
+  {
+    "id": "q8",
+    "question": "What did the FDA warn about in December 2023 regarding semaglutide?",
+    "answer": "Counterfeit Ozempic pens being sold in Europe.",
+    "relevantPassage": "In December 2023, the US FDA issued a warning about counterfeit Ozempic.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Counterfeits"
+  },
+  {
+    "id": "q9",
+    "question": "What was the conclusion of the 2025 observational study regarding semaglutide and serious eye conditions?",
+    "answer": "Individuals using the medications had a slightly higher incidence of neovascular age-related macular degeneration compared to similar individuals not on the medications.",
+    "relevantPassage": "A 2025 observational study reported a modest increased risk of a serious eye condition in people with diabetes taking glucagon-like peptide-1 (GLP-1) receptor agonists.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Research"
+  },
+  {
+    "id": "q10",
+    "question": "What was the expected timeline for semaglutide to become patent-free in the United States?",
+    "answer": "No earlier than December 2031.",
+    "relevantPassage": "Semaglutide is expected to become patent-free in the United States no earlier than December 2031.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Generics and copies"
+  }
+]

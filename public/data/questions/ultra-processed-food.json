@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question": "What did the 2024 meta-analysis published in The BMJ identify regarding ultra-processed foods?",
+    "answer": "It identified 32 studies that associated UPF with negative health outcomes.",
+    "relevantPassage": "A 2024 meta-analysis published in The BMJ identified 32 studies that associated UPF with negative health outcomes.",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Health effects"
+  },
+  {
+    "id": "q2",
+    "question": "What is the increased risk of cardiovascular disease associated with the highest consumption of ultra-processed foods according to a 2024 meta-analysis?",
+    "answer": "Participants with the highest consumption of UPF had a 17% increased risk of cardiovascular disease compared to those with the lowest consumption.",
+    "relevantPassage": "A 2024 meta-analysis found that participants with the highest consumption of UPF had a 17% increased risk of cardiovascular disease compared to those with the lowest consumption.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Heart and cardiovascular disease"
+  },
+  {
+    "id": "q3",
+    "question": "What did the 2025 meta-analysis find regarding all-cause mortality and ultra-processed food consumption?",
+    "answer": "Participants with the highest consumption of UPF had a 15% increased risk of all-cause mortality.",
+    "relevantPassage": "A 2025 meta-analysis found that participants with the highest consumption of UPF had a 15% increased risk of all-cause mortality compared to those with the lowest consumption.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Association with all-cause mortality"
+  },
+  {
+    "id": "q4",
+    "question": "Which four Latin American countries have published dietary guidelines recommending the avoidance of ultra-processed foods?",
+    "answer": "Brazil, Uruguay, Peru, and Ecuador.",
+    "relevantPassage": "Four Latin American countries—Brazil, Uruguay, Peru, and Ecuador—have so far published national official dietary guidelines that recommend avoiding ultra-processed foods.",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Regulation and policy"
+  },
+  {
+    "id": "q5",
+    "question": "What is the relationship between ultra-processed food consumption and type 2 diabetes risk according to a 2023 meta-analysis?",
+    "answer": "Each 10% increase in ultra-processed food consumption was associated with a 12% higher risk for type 2 diabetes.",
+    "relevantPassage": "A 2023 meta-analysis of 415,554 participants found that each 10% increase in ultra-processed food consumption was associated with a 12% higher risk for type 2 diabetes.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Diabetes"
+  },
+  {
+    "id": "q6",
+    "question": "What criticism did some authors have regarding the Nova classification system for ultra-processed foods?",
+    "answer": "Some authors criticized the concept of 'ultra-processed foods' as poorly defined and the Nova classification system as too focused on the type rather than the amount of food consumed.",
+    "relevantPassage": "Some authors have criticized the concept of 'ultra-processed foods' as poorly defined, and the Nova classification system as too focused on the type rather than the amount of food consumed.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Criticism"
+  },
+  {
+    "id": "q7",
+    "question": "What was one of the findings of the 2023 review regarding ultra-processed food consumption and cancer risk?",
+    "answer": "People who consume 10% more ultra-processed foods have an increased risk of various cancers, including colorectal, breast, and pancreatic cancer.",
+    "relevantPassage": "A 2023 review indicated that people who consume 10% more ultra-processed foods have an increased risk of various cancers, including colorectal, breast, and pancreatic cancer.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Cancer"
+  },
+  {
+    "id": "q8",
+    "question": "What did the Scientific Advisory Committee on Nutrition (SACN) recommend in 2022 regarding ultra-processed food?",
+    "answer": "SACN recommended further research and scheduled a review on its position for June 2024.",
+    "relevantPassage": "In 2022, the Scientific Advisory Committee on Nutrition (SACN) reviewed scientific literature to consider whether the British government should adopt a position on ultra-processed food and recommended further research, scheduling a review on its position for June 2024.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Regulation and policy"
+  },
+  {
+    "id": "q9",
+    "question": "What is the Siga Index and how does it classify ultra-processed foods?",
+    "answer": "The Siga Index assigns a score from 1 to 100 to each food product, where higher scores indicate higher nutritional quality and lower processing, defining ultra-processed foods as those with a score below 40.",
+    "relevantPassage": "The Siga Index assigns a score from 1 to 100 to each food product, where higher scores indicate higher nutritional quality and lower processing. The Siga Index also defines ultra-processed foods (UPFs) as those with a score below 40, which are considered to have low nutritional value and high levels of additives, preservatives, and artificial ingredients.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Siga Index"
+  },
+  {
+    "id": "q10",
+    "question": "What is one of the main reasons for the popularity of ultra-processed foods among consumers?",
+    "answer": "Ultra-processed foods often use low-cost ingredients, which can reduce production and retail prices.",
+    "relevantPassage": "Ultra-processed foods often use low-cost ingredients, which can reduce production and retail prices.",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Profitability and affordability"
+  }
+]

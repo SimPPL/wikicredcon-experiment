@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question": "What significant finding was demonstrated in a study conducted in January 2024 regarding cow cells?",
+    "answer": "Cow cells can produce their own growth factors and do not require expensive recombinant growth factors or fetal bovine serum.",
+    "relevantPassage": "In January 2024, a study demonstrated that cow cells can produce its own growth factors and do not require the expensive recombinant growth factors or fetal bovine serum.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "recent developments"
+  },
+  {
+    "id": "q2",
+    "question": "What was the outcome of the Italian government's draft bill regarding cultivated meat in November 2023?",
+    "answer": "Italy became the first country to ban cultured meat when the government approved the bill.",
+    "relevantPassage": "Italy became the first country to ban cultured meat in November 2023, when the government approved the bill.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "regulatory changes"
+  },
+  {
+    "id": "q3",
+    "question": "Which cultured meat product was the first to be officially approved for sale in Australia and New Zealand?",
+    "answer": "Vow quail was the first cultured meat product to be officially approved for sale in Australia and New Zealand.",
+    "relevantPassage": "On 7 April 2025, Vow quail became the first cultured meat product to be officially approved for sale in Australia and New Zealand.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Australia and New Zealand entry"
+  },
+  {
+    "id": "q4",
+    "question": "What regulatory approval did Upside Foods receive in June 2023 in the United States?",
+    "answer": "Upside Foods received approval from the USDA for cultivated chicken.",
+    "relevantPassage": "Approval from the final agency, the United States Department of Agriculture (USDA) was received by Upside Foods and Good Meat, both for cultivated chicken, in June 2023.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "United States entry"
+  },
+  {
+    "id": "q5",
+    "question": "What investment trend was reported by The Good Food Institute regarding cultured meat and seafood companies from 2021 to 2023?",
+    "answer": "Cultured meat and seafood companies attracted over $2.5 billion in investment worldwide.",
+    "relevantPassage": "Data published by The Good Food Institute found that in 2021 through 2023, cultured meat and seafood companies attracted over $2.5 billion in investment worldwide.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "recent developments"
+  },
+  {
+    "id": "q6",
+    "question": "What was the first cultured meat product to pass safety review and be approved for commercial sale?",
+    "answer": "The 'chicken bites' produced by Eat Just were the first cultured meat product to pass safety review and be approved for commercial sale.",
+    "relevantPassage": "On 2 December 2020, the Singapore Food Agency approved the 'chicken bites' produced by Eat Just for commercial sale.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Singapore entry"
+  },
+  {
+    "id": "q7",
+    "question": "What was the focus of the study published in November 2025 regarding cow cells?",
+    "answer": "The study demonstrated that cow cells can be spontaneously immortalized after 500 days without genetic modification.",
+    "relevantPassage": "In November 2025, a study demonstrated that cow cells can be spontaneously immortalized after 500 days without genetic modification, similar to how chicken cells are readily spontaneously immortalized in culture.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "recent developments"
+  },
+  {
+    "id": "q8",
+    "question": "What was the outcome of the regulatory approval process for Aleph Farms in January 2024?",
+    "answer": "The Ministry of Health in Israel granted regulatory approval for cultured beef to Aleph Farms.",
+    "relevantPassage": "In January 2024, the Ministry of Health in Israel granted regulatory approval for cultured beef to Aleph Farms.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Israel entry"
+  },
+  {
+    "id": "q9",
+    "question": "What was the significant investment trend reported by Oghma Partners regarding cultivated meat start-ups between 2016 and 2023?",
+    "answer": "46.9% of all funds raised for cultivated meat start-ups went to a top five, comprising Upside Foods, Believer Meats, Wildtype, Aleph Farms, and Mosa Meat.",
+    "relevantPassage": "According to a November 2023 report by Oghma Partners, 46.9% of all funds – over 2.6 billion British pounds – raised for cultivated meat start-ups between 2016 and 2023 went to a top five, comprising Upside Foods (21.5%; formerly Memphis Meats), Believer Meats (formerly Future Meat Technologies), Wildtype, Aleph Farms, and Mosa Meat.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "recent developments"
+  },
+  {
+    "id": "q10",
+    "question": "What was the purpose of the European Citizens' Initiative 'End The Slaughter Age' approved by the European Commission in April 2022?",
+    "answer": "The initiative aimed to shift subsidies from animal husbandry to cellular agriculture.",
+    "relevantPassage": "On 27 April 2022, the European Commission approved the request for the collection of signatures for the European Citizens' Initiative End The Slaughter Age to shift subsidies from animal husbandry to cellular agriculture.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "regulatory changes"
+  }
+]

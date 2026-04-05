@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question": "What did the World Economic Forum identify as the most severe global risks in January 2024?",
+    "answer": "Misinformation and disinformation, propagated by both internal and external interests.",
+    "relevantPassage": "In January 2024, the World Economic Forum identified misinformation and disinformation, propagated by both internal and external interests, to 'widen societal and political divides' as the most severe global risks in the short term.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Lead"
+  },
+  {
+    "id": "q2",
+    "question": "Which countries were ranked the worst for media freedom in 2025?",
+    "answer": "Eritrea, North Korea, China, Syria, Iran, Afghanistan, Turkmenistan, Vietnam, Nicaragua, Russia, Egypt, Myanmar, Djibouti, Azerbaijan, Belarus, Cuba, United Arab Emirates, Palestine, Saudi Arabia, Cambodia, Venezuela, Turkey, and Pakistan.",
+    "relevantPassage": "The countries ranked the worst for media freedom in 2025 are, in this order, Eritrea, North Korea, China, Syria, Iran, Afghanistan, Turkmenistan, Vietnam, Nicaragua, Russia, Egypt, Myanmar, Djibouti, Azerbaijan, Belarus, Cuba, United Arab Emirates, Palestine, Saudi Arabia, Cambodia, Venezuela, Turkey and Pakistan.",
+    "category": "factual",
+    "difficulty": "hard",
+    "sectionId": "Lead"
+  },
+  {
+    "id": "q3",
+    "question": "What significant misinformation event occurred during the COVID-19 pandemic?",
+    "answer": "A conspiracy theory that COVID-19 was linked to the 5G network gained significant traction worldwide.",
+    "relevantPassage": "For example, a conspiracy theory that COVID-19 was linked to the 5G network gained significant traction worldwide after emerging on social media.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "COVID-19 misinformation"
+  },
+  {
+    "id": "q4",
+    "question": "What was the outcome of the Microsoft AI for Good Lab study regarding AI-generated images?",
+    "answer": "Participants had a 62% success rate in guessing correctly whether images were real or artificial.",
+    "relevantPassage": "The Microsoft AI for Good Lab study found that participants had a 62% success rate in guessing correctly.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "AI contribution to the problem and aid in combatting"
+  },
+  {
+    "id": "q5",
+    "question": "What is the SIFT Method used for?",
+    "answer": "It is a method for distinguishing between reliable and unreliable information.",
+    "relevantPassage": "The SIFT Method, also called the Four Moves, is one commonly taught method of distinguishing between reliable and unreliable information.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Identification"
+  },
+  {
+    "id": "q6",
+    "question": "What did a 2023 study by Pew Research Center reveal about smartphone ownership among older adults?",
+    "answer": "61% of adults aged 65 years or older own a smartphone.",
+    "relevantPassage": "According to a nationally representative study of U.S. adults by Pew Research Center from 2023, 61% of adults aged 65 years or older own a smartphone.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Age"
+  },
+  {
+    "id": "q7",
+    "question": "What was the main finding of the study conducted by Soroush Vosoughi, Deb Roy, and Sinan Aral regarding political misinformation?",
+    "answer": "Political news traveled faster than any other type of information.",
+    "relevantPassage": "They found that political news traveled faster than any other type of information.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Politics"
+  },
+  {
+    "id": "q8",
+    "question": "What is the term used to describe the situation where individuals mistrust real content due to concerns about realistic misinformation?",
+    "answer": "The Liar's Dividend.",
+    "relevantPassage": "The Liar's Dividend describes a situation in which individuals are so concerned about realistic misinformation (in particular, deepfakes) that they begin to mistrust real content.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Trust of other information"
+  },
+  {
+    "id": "q9",
+    "question": "What educational initiative was mandated in New Jersey to combat misinformation?",
+    "answer": "K-12 students were mandated to learn information literacy.",
+    "relevantPassage": "New Jersey mandated K-12 students to learn information literacy.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Other interventions"
+  },
+  {
+    "id": "q10",
+    "question": "What was the significant misinformation event involving the Hollywood Sign in 2025?",
+    "answer": "AI-generated images falsely depicted the Hollywood Sign on fire.",
+    "relevantPassage": "An example of such misinformation is the AI-generated images of Hollywood Sign on fire.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "AI contribution to the problem and aid in combatting"
+  }
+]

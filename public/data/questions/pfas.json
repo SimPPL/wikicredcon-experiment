@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question": "What was the largest settlement paid by a PFAS producer for water contamination, and in what year did it occur?",
+    "answer": "$10.3 billion in 2023",
+    "relevantPassage": "PFAS producers have paid billions of dollars to settle litigation claims, the largest being a $10.3 billion settlement paid by 3M for water contamination in 2023.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Lead"
+  },
+  {
+    "id": "q2",
+    "question": "Which U.S. state became the first to ban PFOS and PFOA in all products by 2030?",
+    "answer": "Maine",
+    "relevantPassage": "In 2021, Maine became the first U.S. state to ban these compounds in all products by 2030.",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Litigation and regulations"
+  },
+  {
+    "id": "q3",
+    "question": "What percentage of groundwater samples worldwide were found to contain harmful levels of PFAS in a 2024 study?",
+    "answer": "31%",
+    "relevantPassage": "In 2024, a worldwide study of 45,000 groundwater samples found that 31% of samples contained levels of PFAS that were harmful to human health.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Prevalence in rain, soil, water bodies, and air"
+  },
+  {
+    "id": "q4",
+    "question": "What are the estimated external costs associated with PFAS pollution annually, according to ChemSec?",
+    "answer": "US$17.5 trillion",
+    "relevantPassage": "External costs, including those associated with remediation of soil and water contamination, treatment of related diseases, and monitoring of pollution, may be as high as US$17.5 trillion annually, according to ChemSec.",
+    "category": "factual",
+    "difficulty": "hard",
+    "sectionId": "Litigation and regulations"
+  },
+  {
+    "id": "q5",
+    "question": "What health condition is linked to high exposure to PFAS, according to a report from the Icahn School of Medicine at Mount Sinai in 2023?",
+    "answer": "A 40% decrease in the ability for a woman to have a successful pregnancy",
+    "relevantPassage": "A report in 2023 by the Icahn School of Medicine at Mount Sinai linked high exposure to PFAS with a 40% decrease in the ability for a woman to have a successful pregnancy.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Fertility issues"
+  },
+  {
+    "id": "q6",
+    "question": "What significant regulatory change did the UK implement in 2026 regarding PFAS?",
+    "answer": "Increased testing for PFAS as part of a national plan to tackle the substances.",
+    "relevantPassage": "In 2026, the UK increased testing for PFAS as part of a national plan to tackle the substances, which have prompted environmental and health concerns.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Litigation and regulations"
+  },
+  {
+    "id": "q7",
+    "question": "What was the estimated market value of PFAS in 2023?",
+    "answer": "US$28 billion",
+    "relevantPassage": "The market for PFAS was estimated to be US$28 billion in 2023.",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Market"
+  },
+  {
+    "id": "q8",
+    "question": "Which chemical was classified as carcinogenic to humans by the International Agency for Research on Cancer (IARC)?",
+    "answer": "PFOA",
+    "relevantPassage": "PFOA is classified as carcinogenic to humans (Group 1) by the International Agency for Research on Cancer (IARC) based on 'sufficient' evidence for cancer in animals and 'strong' mechanistic evidence in exposed humans.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Cancers"
+  },
+  {
+    "id": "q9",
+    "question": "What is the estimated health cost of PFAS in the European Economic Area, according to the Nordic Council of Ministers?",
+    "answer": "At least €52–84 billion",
+    "relevantPassage": "The Nordic Council of Ministers estimated health costs to be at least €52–84 billion in the European Economic Area.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Litigation and regulations"
+  },
+  {
+    "id": "q10",
+    "question": "What was the outcome of Sweden's Supreme Court ruling in 2023 regarding PFAS?",
+    "answer": "Awarding damages to citizens who were supplied PFAS contaminated drinking water.",
+    "relevantPassage": "In 2023, Sweden's Supreme Court set a legal precedent by awarding damages to citizens who were supplied PFAS contaminated drinking water.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Litigation and regulations"
+  }
+]

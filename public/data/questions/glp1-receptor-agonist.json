@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question": "What new findings were reported in a 2023 systematic review regarding GLP-1 agonists and metabolic dysfunction–associated steatotic liver disease?",
+    "answer": "GLP-1 agonists are as effective a treatment for metabolic dysfunction–associated steatotic liver disease (MASLD) as the medications in current use, pioglitazone and vitamin E.",
+    "relevantPassage": "A 2023 systematic review reported that GLP-1 agonists are as effective a treatment for metabolic dysfunction–associated steatotic liver disease (MASLD) as the medications in current use, pioglitazone and vitamin E.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Metabolic dysfunction–associated steatotic liver disease"
+  },
+  {
+    "id": "q2",
+    "question": "What did the 2024 study suggest about GLP-1 weight-loss medications and the risk of suicide in children and adolescents?",
+    "answer": "The study suggested that GLP-1 weight-loss medications do not increase the risk of suicide or suicidal thoughts in children and adolescents.",
+    "relevantPassage": "A 2024 study suggested that GLP-1 weight-loss medications do not increase the risk of suicide or suicidal thoughts in children and adolescents, contrary to some previous concerns.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Adverse effects"
+  },
+  {
+    "id": "q3",
+    "question": "What significant regulatory change regarding GLP-1 agonists was requested by the FDA in January 2026?",
+    "answer": "The FDA requested removal of suicidal behavior and ideation warning from glucagon-like peptide-1 receptor agonist (GLP-1 RA) medications.",
+    "relevantPassage": "In January 2026, the US Food and Drug Administration requested removal of suicidal behavior and ideation warning from glucagon-like peptide-1 receptor agonist (GLP-1 RA) medications.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Adverse effects"
+  },
+  {
+    "id": "q4",
+    "question": "What was the outcome of the Trump Administration's decision on April 4, 2025, regarding GLP-1 coverage?",
+    "answer": "The Trump Administration declined to finalize a proposal from the Biden Administration that would have required Medicare, Medicaid, and CHIP to broadly cover GLP-1s for weight loss.",
+    "relevantPassage": "On April 4, 2025, the Trump Administration declined to finalize a proposal from the Biden Administration that would have required Medicare, Medicaid, and CHIP to broadly cover GLP-1s for weight loss.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Medicare, Medicaid and CHIP coverage"
+  },
+  {
+    "id": "q5",
+    "question": "What did the 2025 study reveal about GLP-1 agonists and their risks compared to other anti-diabetic medications?",
+    "answer": "The study suggested that GLP-1 agonists reduced risks of substance use and psychotic disorders, seizures, neurocognitive disorders, coagulation disorders, cardiometabolic disorders, infectious diseases, and several respiratory conditions relative to nonusers.",
+    "relevantPassage": "A retrospective cohort study published in 2025 evaluated GLP-1 agonists' benefits and risks compared to other anti-diabetic medications. The study suggested that GLP-1 agonists reduced risks of substance use and psychotic disorders, seizures, neurocognitive disorders (including Alzheimer's disease and other dementias), coagulation disorders, cardiometabolic disorders, infectious diseases, and several respiratory conditions relative to nonusers.",
+    "category": "factual",
+    "difficulty": "hard",
+    "sectionId": "Research"
+  },
+  {
+    "id": "q6",
+    "question": "What was the conclusion of the 2025 study regarding GLP-1 agonists and neurocognitive disorders?",
+    "answer": "The study suggested that GLP-1 agonists may reduce risks of neurocognitive disorders, including Alzheimer's disease.",
+    "relevantPassage": "A 2025 study suggested that GLP-1 agonists may reduce risks of neurocognitive disorders, including Alzheimer's disease, pointing to a then-emerging body of research.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Alzheimer's disease"
+  },
+  {
+    "id": "q7",
+    "question": "What did the 2024 retrospective study find regarding GLP-1 exposure and cancer risks?",
+    "answer": "GLP-1 exposure was associated with lower risks of specific types of obesity-associated cancers compared with insulin or metformin in people with type 2 diabetes.",
+    "relevantPassage": "In a 2024 retrospective study, GLP-1 exposure was associated with lower risks of specific types of obesity-associated cancers compared with insulin or metformin in people with type 2 diabetes.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Cancer"
+  },
+  {
+    "id": "q8",
+    "question": "What was the impact of GLP-1 agonists on weight management according to studies after stopping the medication?",
+    "answer": "Studies reported that on average people regain more than half (50–70%) of the lost weight within a year after stopping any of these medications.",
+    "relevantPassage": "Studies reported that on average people regain more than half (50–70%) of the lost weight within a year after stopping any of these medications.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Obesity"
+  },
+  {
+    "id": "q9",
+    "question": "What was the finding of the 2025 study regarding GLP-1 agonists and the risk of hypotension and other conditions?",
+    "answer": "The study suggested that GLP-1 agonists increased risks of hypotension, syncope, joint diseases, nephrolithiasis, interstitial nephritis, and acute pancreatitis.",
+    "relevantPassage": "A 2025 study suggested that GLP-1 agonists increased risks of hypotension (low blood pressure), syncope (fainting), joint diseases, nephrolithiasis (kidney stones), interstitial nephritis, and acute pancreatitis.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Adverse effects"
+  },
+  {
+    "id": "q10",
+    "question": "What was the outcome of the 2024 American Diabetes Association conference regarding GLP-1 receptor agonists?",
+    "answer": "The conference included presentations on at least 27 GLP-1 receptor agonists then in development.",
+    "relevantPassage": "The 2024 American Diabetes Association conference included presentations on at least 27 GLP-1 receptor agonists then in development.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "History"
+  }
+]
