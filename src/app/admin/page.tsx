@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import { EXPERIMENT } from '@/lib/constants';
 import { formatDuration } from '@/lib/utils';
 import type { ParticipantData, Article } from '@/types';
+import AnalysisPanel from '@/components/dashboard/AnalysisPanel';
 
 // ── Statistical helpers ────────────────────────────────────
 
@@ -868,102 +869,7 @@ export default function AdminPage() {
 
         {/* ── ANALYSIS TAB ───────────────────────────────── */}
         {activeTab === 'analysis' && (
-          <div style={{ ...cardStyle, padding: '1.5rem' }}>
-            <h2 style={{ fontFamily: serif, fontSize: '1.25rem', color: '#202122', marginBottom: '1rem' }}>
-              Treatment vs Control Comparison
-            </h2>
-
-            {!stats ? (
-              <p style={{ color: '#54595d', fontSize: '0.9rem' }}>
-                No completed sessions yet. At least two participants must finish both editing tasks
-                before statistical comparisons become available.
-              </p>
-            ) : (
-              <>
-                <p style={{ fontSize: '0.9rem', color: '#54595d', marginBottom: '1rem' }}>
-                  Based on {stats.n} participant{stats.n !== 1 ? 's' : ''} who completed both
-                  conditions (paired within-subjects design).
-                </p>
-                <div style={{ overflowX: 'auto' }}>
-                  <table style={{ width: '100%', fontSize: '0.85rem', borderCollapse: 'collapse' }}>
-                    <thead>
-                      <tr style={{ borderBottom: '2px solid #c8ccd1' }}>
-                        <th style={{ textAlign: 'left', padding: '0.5rem 0.75rem' }}>Metric</th>
-                        <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
-                          Treatment (M +/- SD)
-                        </th>
-                        <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
-                          Control (M +/- SD)
-                        </th>
-                        <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>Diff</th>
-                        <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>t</th>
-                        <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>p</th>
-                        <th style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
-                          Cohen&apos;s d
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {[
-                        {
-                          label: 'Citations added',
-                          data: stats.citations,
-                          format: (v: number) => v.toFixed(1),
-                        },
-                        {
-                          label: 'Edit events',
-                          data: stats.editEvents,
-                          format: (v: number) => v.toFixed(0),
-                        },
-                        {
-                          label: 'Duration',
-                          data: stats.duration,
-                          format: (v: number) => formatDuration(v),
-                        },
-                        {
-                          label: 'Tab switches',
-                          data: stats.tabBlurs,
-                          format: (v: number) => v.toFixed(1),
-                        },
-                      ].map(({ label, data: d, format }) => (
-                        <tr key={label} style={{ borderBottom: '1px solid #eaecf0' }}>
-                          <td style={{ padding: '0.5rem 0.75rem' }}>{label}</td>
-                          <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
-                            {format(d.treatment.mean)} +/- {format(d.treatment.sd)}
-                          </td>
-                          <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
-                            {format(d.control.mean)} +/- {format(d.control.sd)}
-                          </td>
-                          <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
-                            {d.test.meanDiff.toFixed(2)}
-                          </td>
-                          <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
-                            {d.test.tStatistic.toFixed(2)}
-                          </td>
-                          <td
-                            style={{
-                              textAlign: 'right',
-                              padding: '0.5rem 0.75rem',
-                              fontWeight: 600,
-                              color: d.test.pValue < 0.05 ? '#14866d' : '#202122',
-                            }}
-                          >
-                            {d.test.pValue.toFixed(3)}
-                          </td>
-                          <td style={{ textAlign: 'right', padding: '0.5rem 0.75rem' }}>
-                            {d.test.cohensD.toFixed(2)}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-                <p style={{ fontSize: '0.78rem', color: '#a2a9b1', marginTop: '0.75rem' }}>
-                  Paired t-test (within-subjects). Green p-values indicate p &lt; 0.05.
-                </p>
-              </>
-            )}
-          </div>
+          <AnalysisPanel participants={participants} />
         )}
       </div>
     </div>

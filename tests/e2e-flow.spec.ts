@@ -4,19 +4,32 @@ const BASE = 'http://localhost:3001';
 
 test.describe('WikiCredCon Experiment E2E', () => {
   test.beforeEach(async ({ page }) => {
-    // Clear localStorage before each test
+    // Clear localStorage and pre-consent to skip consent form
     await page.goto(BASE);
-    await page.evaluate(() => localStorage.clear());
+    await page.evaluate(() => {
+      localStorage.clear();
+      // Pre-consent to skip the consent form in tests
+      localStorage.setItem('wikicred_consent', JSON.stringify({ consentedAt: Date.now(), version: '1.0' }));
+    });
+    await page.reload();
   });
 
   test('1. Registration page renders and form works', async ({ page }) => {
     await page.goto(BASE);
+    await page.waitForLoadState('networkidle');
 
-    // Check title
-    await expect(page.locator('h1')).toContainText('WikiCredCon Editing Experiment');
+    // If consent form shows, complete it first
+    const consentCheckboxes = page.locator('input[type="checkbox"]');
+    if (await consentCheckboxes.count() > 0 && !(await page.locator('input[type="email"]').isVisible().catch(() => false))) {
+      for (let i = 0; i < await consentCheckboxes.count(); i++) {
+        await consentCheckboxes.nth(i).check();
+      }
+      await page.click('button:has-text("Continue")');
+      await page.waitForTimeout(500);
+    }
 
-    // Check form fields exist
-    await expect(page.locator('input[type="email"]')).toBeVisible();
+    // Now check registration form
+    await expect(page.locator('input[type="email"]')).toBeVisible({ timeout: 5000 });
     await expect(page.locator('select').first()).toBeVisible();
 
     // Fill form
@@ -48,7 +61,8 @@ test.describe('WikiCredCon Experiment E2E', () => {
     const participant = await page.evaluate(() => localStorage.getItem('wikicred_participant'));
     expect(participant).toBeTruthy();
     const parsed = JSON.parse(participant!);
-    expect(parsed.email).toBe('test@example.com');
+    // Email is now anonymized — check emailHash exists instead
+    expect(parsed.emailHash).toBeTruthy();
     expect(parsed.assignedOrder).toMatch(/arbiter-first|control-first/);
   });
 

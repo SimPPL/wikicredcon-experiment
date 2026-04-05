@@ -22,12 +22,14 @@ import EditToolbar from '@/components/wiki/EditToolbar';
 import EditNotice from '@/components/wiki/EditNotice';
 import PublishDialog from '@/components/wiki/PublishDialog';
 import ClaimsSidebar from '@/components/arbiter/ClaimsSidebar';
+import { computeGranularMetrics } from '@/lib/metrics-computation';
 
 export default function EditPage() {
   // --- State ---
   const [participant, setParticipant] = useState<Participant | null>(null);
   const [phase, setPhase] = useState<ExperimentPhase>('editing-1');
   const [article, setArticle] = useState<Article | null>(null);
+  const [groundTruthArticle, setGroundTruthArticle] = useState<Article | null>(null);
   const [claims, setClaims] = useState<ArbiterClaim[]>([]);
   const [condition, setCondition] = useState<'treatment' | 'control'>('control');
   const [editedContent, setEditedContent] = useState<Record<string, string>>({});
@@ -92,6 +94,11 @@ export default function EditPage() {
       setEditedContent(initial);
       setLoading(false);
     });
+
+    // Also load ground truth (current version) for metrics computation
+    loadArticle(articleId, 'current')
+      .then(setGroundTruthArticle)
+      .catch(() => {}); // non-critical
 
     if (cond === 'treatment') {
       loadClaims(articleId).then(setClaims).catch(() => setClaims([]));
@@ -297,6 +304,19 @@ export default function EditPage() {
     sessionRef.current.endedAt = Date.now();
     sessionRef.current.totalEditTime = sessionRef.current.endedAt - sessionRef.current.startedAt;
     sessionRef.current.finalContent = { ...editedContent };
+
+    // Compute granular metrics if ground truth is available
+    if (article && groundTruthArticle) {
+      try {
+        sessionRef.current.computedMetrics = computeGranularMetrics(
+          sessionRef.current,
+          article,
+          groundTruthArticle
+        );
+      } catch (err) {
+        console.error('Failed to compute granular metrics:', err);
+      }
+    }
 
     // Save completed session
     const completedSessions = JSON.parse(
