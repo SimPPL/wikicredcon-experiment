@@ -1,22 +1,66 @@
 'use client';
 
-/**
- * Replicates the editnotice banners Wikipedia shows above the edit box.
- * Shows article-specific guidance that real Wikipedia editors see.
- */
-
 interface EditNoticeProps {
   articleId: string;
+  articleTitle: string;
   revisionDate: string;
 }
 
-export default function EditNotice({ articleId, revisionDate }: EditNoticeProps) {
-  const isMedical = articleId === 'semaglutide' || articleId === 'glp1-receptor-agonist';
-  const isControversial = articleId === 'vaccine-misinfo' || articleId === 'deepfake';
+export default function EditNotice({ articleId, articleTitle, revisionDate }: EditNoticeProps) {
+  const isMedical = ['semaglutide', 'glp1-receptor-agonist', 'ultra-processed-food', 'microplastics'].includes(articleId);
+  const isControversial = ['vaccine-misinfo', 'misinformation', 'deepfake'].includes(articleId);
 
   return (
     <div className="space-y-3 mb-4">
-      {/* General editing guidance — shown on all articles */}
+      {/* Task instructions — what the editor should do */}
+      <div
+        className="p-4 text-sm rounded"
+        style={{
+          background: '#f0fdf4',
+          border: '2px solid #86efac',
+          color: 'var(--wiki-text)',
+        }}
+      >
+        <div className="font-bold mb-2" style={{ fontFamily: 'sans-serif', fontSize: '0.95rem' }}>
+          Your task
+        </div>
+        <p style={{ fontSize: '0.85rem', lineHeight: 1.6, marginBottom: '0.5rem' }}>
+          You are editing a snapshot of <strong>&ldquo;{articleTitle}&rdquo;</strong> from{' '}
+          <strong>{revisionDate}</strong>. Edit this article for <strong>clarity</strong>,{' '}
+          <strong>accuracy</strong>, <strong>reliability</strong>, and any{' '}
+          <strong>new information</strong> you believe should be included.
+        </p>
+        <p style={{ fontSize: '0.85rem', lineHeight: 1.6, marginBottom: '0.5rem' }}>
+          You have <strong>10 minutes</strong> to edit, plus <strong>1 minute</strong> to
+          finalize and polish your changes before submission.
+        </p>
+        <p style={{ fontSize: '0.85rem', lineHeight: 1.6 }}>
+          You may use <strong>any sources</strong> you prefer — news articles, academic papers,
+          government databases, your own knowledge — to inform your edits.
+        </p>
+      </div>
+
+      {/* Restriction: cannot visit current Wikipedia article */}
+      <div
+        className="p-3 text-sm rounded"
+        style={{
+          background: '#fef2f2',
+          border: '2px solid #fca5a5',
+          color: 'var(--wiki-text)',
+        }}
+      >
+        <div className="font-bold mb-1" style={{ fontFamily: 'sans-serif' }}>
+          Important restriction
+        </div>
+        <p style={{ fontSize: '0.85rem', lineHeight: 1.5 }}>
+          You <strong>cannot</strong> visit the current Wikipedia page for this article.
+          This is the only resource you may not consult, as it would bias the experimental
+          outcome. All other sources — search engines, news sites, academic databases,
+          social media — are permitted.
+        </p>
+      </div>
+
+      {/* Editing guidelines */}
       <div
         className="p-3 text-sm rounded"
         style={{
@@ -26,7 +70,7 @@ export default function EditNotice({ articleId, revisionDate }: EditNoticeProps)
         }}
       >
         <div className="font-semibold mb-1" style={{ fontFamily: 'sans-serif' }}>
-          Editing guidelines
+          Wikipedia editing guidelines
         </div>
         <ul className="list-disc pl-5 space-y-1" style={{ fontSize: '0.85rem' }}>
           <li>
@@ -40,10 +84,6 @@ export default function EditNotice({ articleId, revisionDate }: EditNoticeProps)
           <li>
             <strong>No original research:</strong> Summarize what reliable sources say.
             Do not add your own analysis or interpretation.
-          </li>
-          <li>
-            Improve the article where you can. Preserve the value others have added — fix
-            problems rather than removing good-faith content.
           </li>
         </ul>
       </div>
@@ -59,22 +99,17 @@ export default function EditNotice({ articleId, revisionDate }: EditNoticeProps)
           }}
         >
           <div className="font-semibold mb-1" style={{ fontFamily: 'sans-serif' }}>
-            ⚕ Medical content notice
+            Medical content notice
           </div>
           <p style={{ fontSize: '0.85rem' }}>
-            This article contains biomedical content that must comply with Wikipedia&apos;s{' '}
-            <span style={{ color: 'var(--wiki-link)' }}>
-              medical content and sourcing guidelines
-            </span>
-            . Biomedical claims require high-quality sources such as review articles,
-            major textbooks, or statements from recognized health organizations. Primary
-            research studies should be used cautiously and should not be presented as
-            establishing a medical consensus.
+            This article contains biomedical content. Biomedical claims require high-quality
+            sources such as review articles, major textbooks, or statements from recognized
+            health organizations. Primary research studies should be used cautiously.
           </p>
         </div>
       )}
 
-      {/* Controversial / contentious topic notice */}
+      {/* Controversial topic notice */}
       {isControversial && (
         <div
           className="p-3 text-sm rounded"
@@ -88,27 +123,12 @@ export default function EditNotice({ articleId, revisionDate }: EditNoticeProps)
             Contentious topic
           </div>
           <p style={{ fontSize: '0.85rem' }}>
-            This article covers a topic that is frequently subject to contentious editing.
-            Editors should take particular care to ensure that all additions are well-sourced,
-            written from a neutral point of view, and give appropriate weight to different
-            perspectives. Discuss significant changes on the talk page before making them.
+            This article covers a frequently contested topic. Take particular care to ensure
+            all additions are well-sourced, written from a neutral point of view, and give
+            appropriate weight to different perspectives.
           </p>
         </div>
       )}
-
-      {/* Revision date notice */}
-      <div
-        className="p-2 text-xs rounded"
-        style={{
-          background: '#f8f9fa',
-          border: '1px solid var(--wiki-chrome-border)',
-          color: 'var(--wiki-text-secondary)',
-        }}
-      >
-        You are editing a snapshot of this article from <strong>{revisionDate}</strong>.
-        Your task is to improve this version using your editorial judgment and any available
-        information sources.
-      </div>
     </div>
   );
 }

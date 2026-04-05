@@ -1,7 +1,7 @@
 {
   "id": "glp1-receptor-agonist",
   "title": "GLP-1 receptor agonist",
-  "revisionDate": "2026-04-04",
+  "revisionDate": "2026-04-05",
   "revisionId": "1344157380",
   "sections": [
     {
@@ -24,17 +24,10 @@
       ]
     },
     {
-      "id": "pharmacology",
-      "title": "Pharmacology",
-      "level": 2,
-      "content": "===Mechanism of action===",
-      "citations": []
-    },
-    {
       "id": "mechanism-of-action",
       "title": "Mechanism of action",
       "level": 3,
-      "content": "GLP-1 agonists work by activating the GLP-1 receptor, which is found all around the body. Some sites are on beta cells in the pancreas and on neurons in the brain. GLP-1 receptor activation slows gastric emptying, inhibits the release of glucagon, and stimulates insulin production, thereby improving glucose homeostasis in people with type 2 diabetes. GLP-1 receptor activation also stimulates satiety, thus reducing food intake, promoting the development of a negative energy balance, and decreasing body weight over time, making GLP-1 agonists a treatment option for obesity. Another class of anti-diabetes drugs, DPP-4 inhibitors, work by reducing the breakdown of endogenous GLP-1, and are generally considered less potent than GLP-1 agonists. Some of the metabolic effects of GLP-1 agonists in rodents are mediated via increased synthesis of fibroblast growth factor 21. Pharmaceutical companies have developed dual GLP-1/FGF21 receptor agonists.\n\n===Pharmacokinetics===",
+      "content": "GLP-1 agonists work by activating the GLP-1 receptor, which is found all around the body. Some sites are on beta cells in the pancreas and on neurons in the brain. GLP-1 receptor activation slows gastric emptying, inhibits the release of glucagon, and stimulates insulin production, thereby improving glucose homeostasis in people with type 2 diabetes. GLP-1 receptor activation also stimulates satiety, thus reducing food intake, promoting the development of a negative energy balance, and decreasing body weight over time, making GLP-1 agonists a treatment option for obesity. Another class of anti-diabetes drugs, DPP-4 inhibitors, work by reducing the breakdown of endogenous GLP-1, and are generally considered less potent than GLP-1 agonists. Some of the metabolic effects of GLP-1 agonists in rodents are mediated via increased synthesis of fibroblast growth factor 21. Pharmaceutical companies have developed dual GLP-1/FGF21 receptor agonists.",
       "citations": [
         {
           "id": "cite-0",
@@ -57,7 +50,7 @@
       "id": "pharmacokinetics",
       "title": "Pharmacokinetics",
       "level": 3,
-      "content": "The naturally occurring native GLP-1 hormone is considered a peptide hormone. It has a half-life of only about two minutes, because the dipeptidyl peptidase-4 (DPP-4) enzyme rapidly breaks it down. Most GLP-1 medications are approved by the FDA and sold as drug-device combination products, which include auto-injecting pens. Self-injected drugs are especially difficult for people with vision or motor difficulties, which commonly accompany type 2 diabetes.\n\n==Uses==",
+      "content": "The naturally occurring native GLP-1 hormone is considered a peptide hormone. It has a half-life of only about two minutes, because the dipeptidyl peptidase-4 (DPP-4) enzyme rapidly breaks it down. Most GLP-1 medications are approved by the FDA and sold as drug-device combination products, which include auto-injecting pens. Self-injected drugs are especially difficult for people with vision or motor difficulties, which commonly accompany type 2 diabetes.",
       "citations": [
         {
           "id": "cite-0",
@@ -78,17 +71,10 @@
       ]
     },
     {
-      "id": "uses",
-      "title": "Uses",
-      "level": 2,
-      "content": "===Type 2 diabetes===",
-      "citations": []
-    },
-    {
       "id": "type-2-diabetes",
       "title": "Type 2 diabetes",
       "level": 3,
-      "content": "GLP-1 agonists were initially developed to treat type2 diabetes. The 2025 American Diabetes Association (ADA) standard of care in diabetes include GLP-1 agonists or SGLT2 inhibitors as a first-line pharmacological therapy for type2 diabetes in people who have or are at high risk for atherosclerotic cardiovascular disease or heart failure. The ADA also recommends GLP-1 agonists for people with both type2 diabetes and kidney disease. GLP-1 agonists and SGLT2 inhibitors can be combined with metformin, which has shown an enhanced lowering of A1C. \n\nOne advantage of GLP-1 agonists over older insulin secretagogues such as sulfonylureas or meglitinides is that they have a lower risk of hypoglycemia, while improving weight and cardiovascular and kidney health. A 2023 meta-analysis including 13 cardiovascular outcome trials reported that SGLT2 inhibitors reduce the risk for three-point major adverse cardiovascular events, especially in subjects with an estimated glomerular filtration rate (eGFR) below 60 mL/min, whereas GLP-1 receptor agonists were more beneficial in people with higher eGFRs. Likewise, the relative risk reduction of SGLT-2 inhibitor treatment was larger in populations with a higher proportion of albuminuria, but this relationship was not observed for GLP-1 receptor agonists. This suggests differential use of the two substance classes in people with preserved and reduced renal function or with and without diabetic nephropathy, respectively.\n\nThe US Food and Drug Administration has not approved GLP-1 agonists for type1 diabetes, but they have been used off-label in addition to insulin.\n\n===Obesity===",
+      "content": "GLP-1 agonists were initially developed to treat type2 diabetes. The 2025 American Diabetes Association (ADA) standard of care in diabetes include GLP-1 agonists or SGLT2 inhibitors as a first-line pharmacological therapy for type2 diabetes in people who have or are at high risk for atherosclerotic cardiovascular disease or heart failure. The ADA also recommends GLP-1 agonists for people with both type2 diabetes and kidney disease. GLP-1 agonists and SGLT2 inhibitors can be combined with metformin, which has shown an enhanced lowering of A1C. \n\nOne advantage of GLP-1 agonists over older insulin secretagogues such as sulfonylureas or meglitinides is that they have a lower risk of hypoglycemia, while improving weight and cardiovascular and kidney health. A 2023 meta-analysis including 13 cardiovascular outcome trials reported that SGLT2 inhibitors reduce the risk for three-point major adverse cardiovascular events, especially in subjects with an estimated glomerular filtration rate (eGFR) below 60 mL/min, whereas GLP-1 receptor agonists were more beneficial in people with higher eGFRs. Likewise, the relative risk reduction of SGLT-2 inhibitor treatment was larger in populations with a higher proportion of albuminuria, but this relationship was not observed for GLP-1 receptor agonists. This suggests differential use of the two substance classes in people with preserved and reduced renal function or with and without diabetic nephropathy, respectively.\n\nThe US Food and Drug Administration has not approved GLP-1 agonists for type1 diabetes, but they have been used off-label in addition to insulin.",
       "citations": [
         {
           "id": "cite-0",
@@ -126,7 +112,7 @@
       "id": "obesity",
       "title": "Obesity",
       "level": 3,
-      "content": "GLP-1 agonists are recommended as an add-on therapy to lifestyle intervention (calorie restriction and exercise) in people with a BMI \\geq30 kg/m² or with a BMI \\geq27 kg/m² with at least one weight-related comorbidity, which can include high blood pressure or high cholesterol. GLP-1 agonists' weight-reducing effects come from a combination of peripheral effects and activity in the central nervous system. In the brain, GLP-1 agonists reduce weight by crossing the blood–brain barrier, via passive diffusion or receptor mediated transcytosis, and directly activating the satiety hormones in the hypothalamus.\n\nThree GLP-1 auto-injector medications are approved specifically for weight management: semaglutide (Wegovy), tirzepatide (Zepbound), and liraglutide (Saxenda).\n\nStudies reported that on average people regain more than half (50–70%) of the lost weight within a year after stopping any of these medications. People return to their previous weight within a year and a half after stopping these medications.\n\n===Metabolic dysfunction–associated steatotic liver disease===",
+      "content": "GLP-1 agonists are recommended as an add-on therapy to lifestyle intervention (calorie restriction and exercise) in people with a BMI \\geq30 kg/m² or with a BMI \\geq27 kg/m² with at least one weight-related comorbidity, which can include high blood pressure or high cholesterol. GLP-1 agonists' weight-reducing effects come from a combination of peripheral effects and activity in the central nervous system. In the brain, GLP-1 agonists reduce weight by crossing the blood–brain barrier, via passive diffusion or receptor mediated transcytosis, and directly activating the satiety hormones in the hypothalamus.\n\nThree GLP-1 auto-injector medications are approved specifically for weight management: semaglutide (Wegovy), tirzepatide (Zepbound), and liraglutide (Saxenda).\n\nStudies reported that on average people regain more than half (50–70%) of the lost weight within a year after stopping any of these medications. People return to their previous weight within a year and a half after stopping these medications.",
       "citations": [
         {
           "id": "cite-0",
@@ -177,7 +163,7 @@
       "id": "metabolic-dysfunctionassociated-steatotic-liver-disease",
       "title": "Metabolic dysfunction–associated steatotic liver disease",
       "level": 3,
-      "content": "A 2023 systematic review reported that GLP-1 agonists are as effective a treatment for metabolic dysfunction–associated steatotic liver disease (MASLD) as the medications in current use, pioglitazone and vitamin E. It noted a reduction in steatosis, ballooning necrosis, lobular inflammation, and fibrosis.\n\nWegovy (semaglutide) is approved by the FDA to treat MASH (metabolic dysfunction-associated steatohepatitis) with stage 2 or stage 3 liver fibrosis. The mechanism of action for this treatment is under investigation, but part 1 of its stage 3 clinical trials saw a 60% reduction in liver inflammation. Clinical trials are ongoing.\n\n==Adverse effects==",
+      "content": "A 2023 systematic review reported that GLP-1 agonists are as effective a treatment for metabolic dysfunction–associated steatotic liver disease (MASLD) as the medications in current use, pioglitazone and vitamin E. It noted a reduction in steatosis, ballooning necrosis, lobular inflammation, and fibrosis.\n\nWegovy (semaglutide) is approved by the FDA to treat MASH (metabolic dysfunction-associated steatohepatitis) with stage 2 or stage 3 liver fibrosis. The mechanism of action for this treatment is under investigation, but part 1 of its stage 3 clinical trials saw a 60% reduction in liver inflammation. Clinical trials are ongoing.",
       "citations": [
         {
           "id": "cite-0",
@@ -197,7 +183,7 @@
       "id": "adverse-effects",
       "title": "Adverse effects",
       "level": 2,
-      "content": "GLP-1 agonists' most common adverse effects are gastrointestinal. Nausea is directly related to serum concentration and is reported in up to three-quarters of people using short-acting GLP-1 agonists, but fewer of those using long-acting agonists. Injection site reactions are common, especially with shorter-acting drugs.\n\nSome people develop anti-drug antibodies, which are more common with exenatide (the antibodies were detectable in a third or more of people) than other GLP-1 agonists and can decrease efficacy.\n\nA 2024 study suggested that GLP-1 weight-loss medications do not increase the risk of suicide or suicidal thoughts in children and adolescents, contrary to some previous concerns. The study included over 54,000 U.S. adolescents and reported a 33% reduction in the risk of suicidal thoughts and attempts among those using the drugs compared to those who did not. In January 2026, the US Food and Drug Administration requested removal of suicidal behavior and ideation warning from glucagon-like peptide-1 receptor agonist (GLP-1 RA) medications.\n\nWhile adolescents taking GLP-1 drugs experienced more gastrointestinal symptoms, they had a lower risk of acute pancreatitis compared to the control group. A similar study in adults reported similar results for semaglutide.\n\nA 2025 study suggested that GLP-1 agonists increased risks of hypotension (low blood pressure), syncope (fainting), joint diseases, nephrolithiasis (kidney stones), interstitial nephritis, and acute pancreatitis.\n\n=== Thyroid cancer ===",
+      "content": "GLP-1 agonists' most common adverse effects are gastrointestinal. Nausea is directly related to serum concentration and is reported in up to three-quarters of people using short-acting GLP-1 agonists, but fewer of those using long-acting agonists. Injection site reactions are common, especially with shorter-acting drugs.\n\nSome people develop anti-drug antibodies, which are more common with exenatide (the antibodies were detectable in a third or more of people) than other GLP-1 agonists and can decrease efficacy.\n\nA 2024 study suggested that GLP-1 weight-loss medications do not increase the risk of suicide or suicidal thoughts in children and adolescents, contrary to some previous concerns. The study included over 54,000 U.S. adolescents and reported a 33% reduction in the risk of suicidal thoughts and attempts among those using the drugs compared to those who did not. In January 2026, the US Food and Drug Administration requested removal of suicidal behavior and ideation warning from glucagon-like peptide-1 receptor agonist (GLP-1 RA) medications.\n\nWhile adolescents taking GLP-1 drugs experienced more gastrointestinal symptoms, they had a lower risk of acute pancreatitis compared to the control group. A similar study in adults reported similar results for semaglutide.\n\nA 2025 study suggested that GLP-1 agonists increased risks of hypotension (low blood pressure), syncope (fainting), joint diseases, nephrolithiasis (kidney stones), interstitial nephritis, and acute pancreatitis.",
       "citations": [
         {
           "id": "cite-0",
@@ -253,7 +239,7 @@
       "id": "thyroid-cancer",
       "title": "Thyroid cancer",
       "level": 3,
-      "content": "The US Food and Drug Administration requires a boxed warning in the package inserts of GLP-1 agonists due to the risk of thyroid C-cell tumors, including medullary thyroid cancer (MTC). GLP-1 agonists are contraindicated in people with a family or personal history of MTC or multiple endocrine neoplasia type 2. In mice, long-term use of GLP-1 agonists stimulates calcitonin secretion, leading to C-cell hypertrophy and increased risk of thyroid cancer, but no increased secretion of calcitonin has been observed in humans. A retrospective national cohort study in France reported an increased risk of thyroid cancer (all and medullary) after 1-3 years of treatment with GLP-1 agonists for diabetes, but other large retrospective studies have not reported a similar association, including with long-term use of GLP-1 agonists and over 10 years of followup.\n\n== Society and culture==",
+      "content": "The US Food and Drug Administration requires a boxed warning in the package inserts of GLP-1 agonists due to the risk of thyroid C-cell tumors, including medullary thyroid cancer (MTC). GLP-1 agonists are contraindicated in people with a family or personal history of MTC or multiple endocrine neoplasia type 2. In mice, long-term use of GLP-1 agonists stimulates calcitonin secretion, leading to C-cell hypertrophy and increased risk of thyroid cancer, but no increased secretion of calcitonin has been observed in humans. A retrospective national cohort study in France reported an increased risk of thyroid cancer (all and medullary) after 1-3 years of treatment with GLP-1 agonists for diabetes, but other large retrospective studies have not reported a similar association, including with long-term use of GLP-1 agonists and over 10 years of followup.",
       "citations": [
         {
           "id": "cite-0",
@@ -286,7 +272,7 @@
       "id": "society-and-culture",
       "title": "Society and culture",
       "level": 2,
-      "content": "Influencers and celebrities popularized GLP-1 agonists in the early 2020s, causing many people to seek them for cosmetic or health-based weight loss.\n\n===Cost===",
+      "content": "Influencers and celebrities popularized GLP-1 agonists in the early 2020s, causing many people to seek them for cosmetic or health-based weight loss.",
       "citations": [
         {
           "id": "cite-0",
@@ -299,7 +285,7 @@
       "id": "cost",
       "title": "Cost",
       "level": 3,
-      "content": "GLP-1 agonists are more expensive than other treatments for type 2 diabetes. A study compared the cost-effectiveness of GLP-1 agonists to long-acting insulin in a Taiwanese population with type 2 diabetes. In people with CVD (Cardiovascular disease), GLP-1 agonists were estimated to save money due to fewer cardiovascular incidents. In people without CVD, the cost per QALY was $9,093. In the United States, cost is the highest barrier to GLP-1 agonist usage and was reported as the reason for discontinuation in 48.6% of people who stopped using the drugs. According to a 2023 study, GLP-1 agonists were not cost-effective for pediatric obesity in the U.S. As of late 2025, prices had dropped substantially.\n\n==== Medicare, Medicaid and CHIP coverage ====",
+      "content": "GLP-1 agonists are more expensive than other treatments for type 2 diabetes. A study compared the cost-effectiveness of GLP-1 agonists to long-acting insulin in a Taiwanese population with type 2 diabetes. In people with CVD (Cardiovascular disease), GLP-1 agonists were estimated to save money due to fewer cardiovascular incidents. In people without CVD, the cost per QALY was $9,093. In the United States, cost is the highest barrier to GLP-1 agonist usage and was reported as the reason for discontinuation in 48.6% of people who stopped using the drugs. According to a 2023 study, GLP-1 agonists were not cost-effective for pediatric obesity in the U.S. As of late 2025, prices had dropped substantially.",
       "citations": [
         {
           "id": "cite-0",
@@ -328,7 +314,7 @@
       "id": "medicare-medicaid-and-chip-coverage",
       "title": "Medicare, Medicaid and CHIP coverage",
       "level": 4,
-      "content": "On April 4, 2025, the Trump Administration declined to finalize a proposal from the Biden Administration that would have required Medicare, Medicaid, and CHIP to broadly cover GLP-1s for weight loss. Despite the rejection, CMS has indicated that it might cover obesity medication in future rulemaking. However, in November 2025, the Trump Administration announced TrumpRx, an initiative similar to GoodRx to lower the price of GLP-1s to $245 per month for patients covered by Medicaid and CHIP and $50 month for Medicare patients if states opted in. Coverage for patients with obesity and at least one comorbidity like (elevated LDL-cholesterol, high blood pressure and/or MASLD), will be implemented as early as April 1, 2026. However, the cost will be significantly higher to taxpayers due to the fact that most insurance companies do not cover it in their formulary. Prior to this change, most Medicaid and CHIP patients only paid $3 a month, the same price for brand-name medication.\n\n=== Legal status ===",
+      "content": "On April 4, 2025, the Trump Administration declined to finalize a proposal from the Biden Administration that would have required Medicare, Medicaid, and CHIP to broadly cover GLP-1s for weight loss. Despite the rejection, CMS has indicated that it might cover obesity medication in future rulemaking. However, in November 2025, the Trump Administration announced TrumpRx, an initiative similar to GoodRx to lower the price of GLP-1s to $245 per month for patients covered by Medicaid and CHIP and $50 month for Medicare patients if states opted in. Coverage for patients with obesity and at least one comorbidity like (elevated LDL-cholesterol, high blood pressure and/or MASLD), will be implemented as early as April 1, 2026. However, the cost will be significantly higher to taxpayers due to the fact that most insurance companies do not cover it in their formulary. Prior to this change, most Medicaid and CHIP patients only paid $3 a month, the same price for brand-name medication.",
       "citations": [
         {
           "id": "cite-0",
@@ -342,7 +328,7 @@
       "id": "legal-status",
       "title": "Legal status",
       "level": 3,
-      "content": "* liraglutide (Victoza for type 2 diabetes, Saxenda for weight management, manufactured by Novo Nordisk), approved in 2010/2014\n* dulaglutide (Trulicity, manufactured by Eli Lilly), approved in 2014\n* semaglutide (Ozempic and Rybelsus for diabetes, Wegovy for weight management, manufactured by Novo Nordisk), approved in 2021/2019/2021\n* tirzepatide (a GIP analog with dual GLP-1 receptor and GIP receptor agonism; Mounjaro for diabetes, Zepbound for weight management, manufactured by Eli Lilly), approved in 2022/2024\n\nDiscontinued:\n* exenatide (brand names Byetta and Bydureon, manufactured by AstraZeneca), approved 2005/2012, discontinued in 2024\n* albiglutide (Tanzeum, manufactured by GSK), approved in 2014, discontinued in 2017\n* lixisenatide (Lyxumia in Europe, Adlyxin in the United States, manufactured by Sanofi), approved in 2016, discontinued in 2023\n\n===Combination and multiple target drugs===",
+      "content": "* liraglutide (Victoza for type 2 diabetes, Saxenda for weight management, manufactured by Novo Nordisk), approved in 2010/2014\n* dulaglutide (Trulicity, manufactured by Eli Lilly), approved in 2014\n* semaglutide (Ozempic and Rybelsus for diabetes, Wegovy for weight management, manufactured by Novo Nordisk), approved in 2021/2019/2021\n* tirzepatide (a GIP analog with dual GLP-1 receptor and GIP receptor agonism; Mounjaro for diabetes, Zepbound for weight management, manufactured by Eli Lilly), approved in 2022/2024\n\nDiscontinued:\n* exenatide (brand names Byetta and Bydureon, manufactured by AstraZeneca), approved 2005/2012, discontinued in 2024\n* albiglutide (Tanzeum, manufactured by GSK), approved in 2014, discontinued in 2017\n* lixisenatide (Lyxumia in Europe, Adlyxin in the United States, manufactured by Sanofi), approved in 2016, discontinued in 2023",
       "citations": [
         {
           "id": "cite-0",
@@ -390,7 +376,7 @@
       "id": "combination-and-multiple-target-drugs",
       "title": "Combination and multiple target drugs",
       "level": 3,
-      "content": "Some GLP-1 agonists, such as tirzepatide, are also agonists of the GIP receptor, glucagon receptor, and/or amylin receptor. These additional targets are hoped to increase the amount of weight loss the drugs cause.\n\n===Alternatives to approved sources===",
+      "content": "Some GLP-1 agonists, such as tirzepatide, are also agonists of the GIP receptor, glucagon receptor, and/or amylin receptor. These additional targets are hoped to increase the amount of weight loss the drugs cause.",
       "citations": [
         {
           "id": "cite-0",
@@ -408,7 +394,7 @@
       "id": "alternatives-to-approved-sources",
       "title": "Alternatives to approved sources",
       "level": 3,
-      "content": "Gray market sellers offer unauthorized products they claim are GLP-1 agonists. Some buyers turn to unauthorized retailers if they cannot afford the name-brand drug. Buyers face risks due to counterfeit or substandard drugs.\n\nIn the United States, compounding pharmacies may sell custom-made versions of a drug if there is a declared shortage and they obtain the active pharmaceutical ingredient from an FDA-approved facility. The FDA declared shortages of injectable versions of semaglutide, tirzepatide, dulaglutide, liraglutide, and exenatide in 2022. The tirzepatide shortage ended in 2024. Al Carter, executive director of the National Association of Boards of Pharmacy, a trade organization for pharmacy regulators, estimated that 95% of online compounding pharmacies were operating illegally in 2024. , there were up to  users of compounded GLP-1 receptor agonist drugs in the U.S., according to Novo Nordisk CEO Mike Doustdar. He decried the practice of selling what he called \"unsafe, knock-off products\" while conceding that compounding pharmacies capture price-sensitive consumers in a way that his company, with its more expensive branded offerings, cannot.\n\n==History==",
+      "content": "Gray market sellers offer unauthorized products they claim are GLP-1 agonists. Some buyers turn to unauthorized retailers if they cannot afford the name-brand drug. Buyers face risks due to counterfeit or substandard drugs.\n\nIn the United States, compounding pharmacies may sell custom-made versions of a drug if there is a declared shortage and they obtain the active pharmaceutical ingredient from an FDA-approved facility. The FDA declared shortages of injectable versions of semaglutide, tirzepatide, dulaglutide, liraglutide, and exenatide in 2022. The tirzepatide shortage ended in 2024. Al Carter, executive director of the National Association of Boards of Pharmacy, a trade organization for pharmacy regulators, estimated that 95% of online compounding pharmacies were operating illegally in 2024. , there were up to  users of compounded GLP-1 receptor agonist drugs in the U.S., according to Novo Nordisk CEO Mike Doustdar. He decried the practice of selling what he called \"unsafe, knock-off products\" while conceding that compounding pharmacies capture price-sensitive consumers in a way that his company, with its more expensive branded offerings, cannot.",
       "citations": [
         {
           "id": "cite-0",
@@ -475,7 +461,7 @@
       "id": "history",
       "title": "History",
       "level": 2,
-      "content": "During the 1980s, Jean-Pierre Raufman worked as a postdoctoral researcher at the National Institutes of Health for John Pisano, a biochemist who specialized in collecting venom from various animals and looking for novel substances that could affect human physiology. In the course of this work, Raufman focused on the Gila monster, because he was curious about its practice of eating once or twice per year. He reported that Gila monster venom had biologically active molecules that provoked inflammation of the pancreas in test animals.\n\nIn 1992, after learning of Raufman's findings, John Eng of the Veterans Administration Medical Center in New York City used radioimmunoassay to isolate a novel substance from Gila monster venom. Exenatide's 2005 approval by the U.S. Food and Drug Administration showed that targeting the GLP-1 receptor was a viable strategy and inspired other pharmaceutical companies to focus on that receptor. Lilly continued to develop drugs of the same class.\n\nThe 2024 American Diabetes Association conference included presentations on at least 27 GLP-1 receptor agonists then in development. By July 2024, Novo Nordisk's semaglutide and Eli Lilly's tirzepatide were ranked among the world's most popular and lucrative drugs. Novo Nordisk's rollout of semaglutide turned it into the most valuable company in Europe in 2024. Its market capitalization of $570 billion was larger than the entire economy of its home country of Denmark; its $2.3 billion income tax bill for 2023 made it the country's largest taxpayer; and its rapid growth represented nearly all of Denmark's economic growth.\n\n== Research ==",
+      "content": "During the 1980s, Jean-Pierre Raufman worked as a postdoctoral researcher at the National Institutes of Health for John Pisano, a biochemist who specialized in collecting venom from various animals and looking for novel substances that could affect human physiology. In the course of this work, Raufman focused on the Gila monster, because he was curious about its practice of eating once or twice per year. He reported that Gila monster venom had biologically active molecules that provoked inflammation of the pancreas in test animals.\n\nIn 1992, after learning of Raufman's findings, John Eng of the Veterans Administration Medical Center in New York City used radioimmunoassay to isolate a novel substance from Gila monster venom. Exenatide's 2005 approval by the U.S. Food and Drug Administration showed that targeting the GLP-1 receptor was a viable strategy and inspired other pharmaceutical companies to focus on that receptor. Lilly continued to develop drugs of the same class.\n\nThe 2024 American Diabetes Association conference included presentations on at least 27 GLP-1 receptor agonists then in development. By July 2024, Novo Nordisk's semaglutide and Eli Lilly's tirzepatide were ranked among the world's most popular and lucrative drugs. Novo Nordisk's rollout of semaglutide turned it into the most valuable company in Europe in 2024. Its market capitalization of $570 billion was larger than the entire economy of its home country of Denmark; its $2.3 billion income tax bill for 2023 made it the country's largest taxpayer; and its rapid growth represented nearly all of Denmark's economic growth.",
       "citations": [
         {
           "id": "cite-0",
@@ -549,7 +535,7 @@
       "id": "research",
       "title": "Research",
       "level": 2,
-      "content": "A retrospective cohort study published in 2025 evaluated GLP-1 agonists' benefits and risks compared to other anti-diabetic medications. The study suggested that GLP-1 agonists reduced risks of substance use and psychotic disorders, seizures, neurocognitive disorders (including Alzheimer's disease and other dementias), coagulation disorders, cardiometabolic disorders, infectious diseases, and several respiratory conditions relative to nonusers.\n\n=== Alzheimer's disease ===",
+      "content": "A retrospective cohort study published in 2025 evaluated GLP-1 agonists' benefits and risks compared to other anti-diabetic medications. The study suggested that GLP-1 agonists reduced risks of substance use and psychotic disorders, seizures, neurocognitive disorders (including Alzheimer's disease and other dementias), coagulation disorders, cardiometabolic disorders, infectious diseases, and several respiratory conditions relative to nonusers.",
       "citations": [
         {
           "id": "cite-0",
@@ -567,7 +553,7 @@
       "id": "alzheimers-disease",
       "title": "Alzheimer's disease",
       "level": 3,
-      "content": "A 2025 study suggested that GLP-1 agonists may reduce risks of neurocognitive disorders, including Alzheimer's disease, pointing to a then-emerging body of research. Hypotheses include that the drugs reduce neuroinflammation, oxidative stress, amyloid β deposition, and tau hyperphosphorylation in animal models. top-line results from two large-scale studies, evoke and evoke+. The studies reported failure to slow the progression of Alzheimer's disease versus placebo.\n\n===Cardiovascular effects===",
+      "content": "A 2025 study suggested that GLP-1 agonists may reduce risks of neurocognitive disorders, including Alzheimer's disease, pointing to a then-emerging body of research. Hypotheses include that the drugs reduce neuroinflammation, oxidative stress, amyloid β deposition, and tau hyperphosphorylation in animal models. top-line results from two large-scale studies, evoke and evoke+. The studies reported failure to slow the progression of Alzheimer's disease versus placebo.",
       "citations": [
         {
           "id": "cite-0",
@@ -586,7 +572,7 @@
       "id": "cardiovascular-effects",
       "title": "Cardiovascular effects",
       "level": 3,
-      "content": "A 2022 study reported that GLP-1 agonists have cardioprotective effects when used to treat obesity, beyond their primary roles in glycemic control and weight reduction.\n\nA 2025 study reported that GLP-1 agonists may be beneficial in heart failure with preserved ejection fraction.\n\n===Cancer===",
+      "content": "A 2022 study reported that GLP-1 agonists have cardioprotective effects when used to treat obesity, beyond their primary roles in glycemic control and weight reduction.\n\nA 2025 study reported that GLP-1 agonists may be beneficial in heart failure with preserved ejection fraction.",
       "citations": [
         {
           "id": "cite-0",
@@ -604,7 +590,7 @@
       "id": "cancer",
       "title": "Cancer",
       "level": 3,
-      "content": "In a 2024 retrospective study, GLP-1 exposure was associated with lower risks of specific types of obesity-associated cancers compared with insulin or metformin in people with type 2 diabetes. Compared to insulin, GLP-1 agonists showed significant risk reduction in esophageal, colorectal, endometrial, gallbladder, kidney, liver, ovarian, and pancreatic cancer, as well as meningioma and multiple myeloma. Kidney cancers showed an increased risk with GLP-1 treatment relative to those treated with metformin.\n\n===Depression===",
+      "content": "In a 2024 retrospective study, GLP-1 exposure was associated with lower risks of specific types of obesity-associated cancers compared with insulin or metformin in people with type 2 diabetes. Compared to insulin, GLP-1 agonists showed significant risk reduction in esophageal, colorectal, endometrial, gallbladder, kidney, liver, ovarian, and pancreatic cancer, as well as meningioma and multiple myeloma. Kidney cancers showed an increased risk with GLP-1 treatment relative to those treated with metformin.",
       "citations": [
         {
           "id": "cite-0",
@@ -617,7 +603,7 @@
       "id": "depression",
       "title": "Depression",
       "level": 3,
-      "content": "Studies have reported that GLP-1 agonists have antidepressant and neuroprotective effects and treat the metabolic consequences of second-generation antipsychotics, such as obesity.\n\n=== Parkinson's disease ===",
+      "content": "Studies have reported that GLP-1 agonists have antidepressant and neuroprotective effects and treat the metabolic consequences of second-generation antipsychotics, such as obesity.",
       "citations": [
         {
           "id": "cite-0",
@@ -635,7 +621,7 @@
       "id": "parkinsons-disease",
       "title": "Parkinson's disease",
       "level": 3,
-      "content": "A 2022 UK study failed to find any advantage of using GLP-1 agonists to treat Parkinson's disease.\n\n===Polycystic ovary syndrome===",
+      "content": "A 2022 UK study failed to find any advantage of using GLP-1 agonists to treat Parkinson's disease.",
       "citations": [
         {
           "id": "cite-0",
@@ -648,7 +634,7 @@
       "id": "polycystic-ovary-syndrome",
       "title": "Polycystic ovary syndrome",
       "level": 3,
-      "content": "GLP-1 agonists are effective in reducing body weight in individuals with obesity and polycystic ovary syndrome, however the effects in polycystic ovary syndrome without obesity is uncertain.\n\n===Reward system disorders===",
+      "content": "GLP-1 agonists are effective in reducing body weight in individuals with obesity and polycystic ovary syndrome, however the effects in polycystic ovary syndrome without obesity is uncertain.",
       "citations": [
         {
           "id": "cite-0",
@@ -666,7 +652,7 @@
       "id": "reward-system-disorders",
       "title": "Reward system disorders",
       "level": 3,
-      "content": "GLP-1 agonists are under development for substance use disorder, a condition with few pharmacological treatment options. A 2022 study reported reductions in drug and alcohol use in non-human animals. \n\nGLP-1 agonists are under investigation for the treatment of binge eating disorder.\n\n== References ==",
+      "content": "GLP-1 agonists are under development for substance use disorder, a condition with few pharmacological treatment options. A 2022 study reported reductions in drug and alcohol use in non-human animals. \n\nGLP-1 agonists are under investigation for the treatment of binge eating disorder.",
       "citations": [
         {
           "id": "cite-0",

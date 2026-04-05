@@ -391,7 +391,8 @@ export default function EditPage() {
 
   if (!article) return null;
 
-  const isWarning = timeRemaining < 2 * 60 * 1000; // under 2 minutes
+  const isWarning = timeRemaining < 2 * 60 * 1000;
+  const isFinalizePhase = timeRemaining < 60 * 1000; // last 1 minute = finalize
 
   return (
     <div className="min-h-screen">
@@ -424,8 +425,23 @@ export default function EditPage() {
         {/* Article Area */}
         <div className={`flex-1 ${condition === 'treatment' && !sidebarCollapsed ? '' : ''}`}>
           <div className="max-w-[960px] mx-auto px-4 py-4">
-            {/* Edit notices — Wikipedia-style guidance banners */}
-            <EditNotice articleId={article.id} revisionDate={article.revisionDate} />
+            {/* Finalize warning */}
+            {isFinalizePhase && (
+              <div
+                className="p-3 text-sm rounded mb-3 timer-warning"
+                style={{
+                  background: '#fef2f2',
+                  border: '2px solid #ef4444',
+                  color: '#991b1b',
+                  fontWeight: 600,
+                }}
+              >
+                1 minute remaining — finalize and polish your changes before auto-submission.
+              </div>
+            )}
+
+            {/* Edit notices — task instructions and Wikipedia-style guidance */}
+            <EditNotice articleId={article.id} articleTitle={article.title} revisionDate={article.revisionDate} />
 
             {/* Toolbar */}
             <EditToolbar

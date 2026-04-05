@@ -1,7 +1,7 @@
 {
   "id": "pfas",
   "title": "PFAS",
-  "revisionDate": "2026-04-04",
+  "revisionDate": "2026-04-05",
   "revisionId": "1346537962",
   "sections": [
     {
@@ -74,7 +74,7 @@
       "id": "definition",
       "title": "Definition",
       "level": 2,
-      "content": "Per- and polyfluoroalkyl substances are a group of synthetic organofluorine chemical compounds that have multiple fluorine atoms attached to an alkyl chain. Different organizations use different definitions for PFAS, leading to estimates of between 8,000 and 7 million chemicals within the group. The EPA toxicity database, DSSTox, lists 14,735 unique PFAS chemical compounds. 7 million are listed in PubChem. Beginning in 2021, the OECD expanded its terminology, stating that \"PFAS are defined as fluorinated substances that contain at least one fully fluorinated methyl or methylene carbon atom (without any H/Cl/Br/I atom attached to it), i.e., with a few noted exceptions, any chemical with at least a perfluorinated methyl group ('') or a perfluorinated methylene group () is a PFAS.\"\n\nThe United States Environmental Protection Agency (EPA) defines PFAS in the Drinking Water Contaminant Candidate List 5'' as substances that contain \"at least one of the following three structures: , where both the  and  moieties are saturated carbons, and none of the R groups can be hydrogen; , where both the  moieties are saturated carbons, and none of the R groups can be hydrogen; or , where all the carbons are saturated, and none of the R groups can be hydrogen. A summary table of some PFAS definitions is provided in Hammel et al (2022).\n\n=== Sample chemicals ===",
+      "content": "Per- and polyfluoroalkyl substances are a group of synthetic organofluorine chemical compounds that have multiple fluorine atoms attached to an alkyl chain. Different organizations use different definitions for PFAS, leading to estimates of between 8,000 and 7 million chemicals within the group. The EPA toxicity database, DSSTox, lists 14,735 unique PFAS chemical compounds. 7 million are listed in PubChem. Beginning in 2021, the OECD expanded its terminology, stating that \"PFAS are defined as fluorinated substances that contain at least one fully fluorinated methyl or methylene carbon atom (without any H/Cl/Br/I atom attached to it), i.e., with a few noted exceptions, any chemical with at least a perfluorinated methyl group ('') or a perfluorinated methylene group () is a PFAS.\"\n\nThe United States Environmental Protection Agency (EPA) defines PFAS in the Drinking Water Contaminant Candidate List 5'' as substances that contain \"at least one of the following three structures: , where both the  and  moieties are saturated carbons, and none of the R groups can be hydrogen; , where both the  moieties are saturated carbons, and none of the R groups can be hydrogen; or , where all the carbons are saturated, and none of the R groups can be hydrogen. A summary table of some PFAS definitions is provided in Hammel et al (2022).",
       "citations": [
         {
           "id": "cite-0",
@@ -118,7 +118,7 @@
       "id": "sample-chemicals",
       "title": "Sample chemicals",
       "level": 3,
-      "content": "(PFOS), an effective, persistent and bioaccumulative fluorosurfactant]]\n\nCommon PFAS include:\n\n* Perfluoroalkyl carboxylic acids (PFCAs), such as trifluoroacetic acid (TFA)\n* Perfluorosulfonic acids (PFSAs), such as perfluorooctanesulfonic acid (PFOS)\n* Precursors to PFCAs, such as fluorotelomers (FTOHs)\n* Precursors to PFSAs, such as perfluorobutane sulfonamide (H-FBSA), perfluorooctanesulfonamide (PFOSA), perfluorobutanesulfonyl fluoride (PFOSB) or perfluorooctanesulfonyl fluoride (PFOSF)\n* Fluoropolymers such as polytetrafluoroethylene (PTFE, aka Teflon)\n\n== Uses ==",
+      "content": "(PFOS), an effective, persistent and bioaccumulative fluorosurfactant]]\n\nCommon PFAS include:\n\n* Perfluoroalkyl carboxylic acids (PFCAs), such as trifluoroacetic acid (TFA)\n* Perfluorosulfonic acids (PFSAs), such as perfluorooctanesulfonic acid (PFOS)\n* Precursors to PFCAs, such as fluorotelomers (FTOHs)\n* Precursors to PFSAs, such as perfluorobutane sulfonamide (H-FBSA), perfluorooctanesulfonamide (PFOSA), perfluorobutanesulfonyl fluoride (PFOSB) or perfluorooctanesulfonyl fluoride (PFOSF)\n* Fluoropolymers such as polytetrafluoroethylene (PTFE, aka Teflon)",
       "citations": [
         {
           "id": "cite-0",
@@ -135,17 +135,10 @@
       ]
     },
     {
-      "id": "uses",
-      "title": "Uses",
-      "level": 2,
-      "content": "=== Products ===",
-      "citations": []
-    },
-    {
       "id": "products",
       "title": "Products",
       "level": 3,
-      "content": "PFAS are used to produce fluoropolymers by emulsion polymerization. Because they resist heat, oil, stains, grease, and water, they are ingredients in stain repellents, polishes, paints, and coatings. They came into use with the invention of Teflon in 1938. They are used in products including waterproof fabric such as nylon, yoga pants, carpets, shampoo, feminine hygiene products, mobile phone screens, wall paint, furniture, adhesives, food packaging, firefighting foam, and the insulation of electrical wires. PFAS are used by the cosmetic industry in the majority of cosmetics and personal care products, including lipstick, eye liner, mascara, foundation, concealer, lip balm, blush, and nail polish. Pesticides including fluazinam and flufenacet break down to produce trifluoroacetic acid.\n\n=== Fluorosurfactants ===",
+      "content": "PFAS are used to produce fluoropolymers by emulsion polymerization. Because they resist heat, oil, stains, grease, and water, they are ingredients in stain repellents, polishes, paints, and coatings. They came into use with the invention of Teflon in 1938. They are used in products including waterproof fabric such as nylon, yoga pants, carpets, shampoo, feminine hygiene products, mobile phone screens, wall paint, furniture, adhesives, food packaging, firefighting foam, and the insulation of electrical wires. PFAS are used by the cosmetic industry in the majority of cosmetics and personal care products, including lipstick, eye liner, mascara, foundation, concealer, lip balm, blush, and nail polish. Pesticides including fluazinam and flufenacet break down to produce trifluoroacetic acid.",
       "citations": [
         {
           "id": "cite-0",
@@ -203,7 +196,7 @@
       "id": "fluorosurfactants",
       "title": "Fluorosurfactants",
       "level": 3,
-      "content": "makes a fabric water-resistant.]]\n\nFluorinated surfactants or fluorosurfactants are a subgroup of PFAS characterized by a hydrophobic fluorinated \"tail\" and a hydrophilic \"head\" that behave as surfactants. These are more effective at reducing the surface tension of water than comparable hydrocarbon surfactants.\n\nFluorosurfactants tend to concentrate at the phase interfaces. Fluorocarbons are both lipophobic and hydrophobic, repelling both oil and water. Their lipophobicity results from the relative lack of London dispersion forces compared to hydrocarbons, a consequence of fluorine's large electronegativity and small bond length, which reduce the polarizability of the surfactants' fluorinated molecular surface. Fluorosurfactants are more stable than hydrocarbon surfactants due to the stability of the carbon–fluorine bond. Perfluorinated surfactants persist in the environment for the same reason.\n\nFluorosurfactants such as PFOS, PFOA, and perfluorononanoic acid (PFNA) have caught the attention of regulatory agencies because of their persistence, toxicity, and widespread occurrence in the blood of general populations.\n\n=== Market ===",
+      "content": "makes a fabric water-resistant.]]\n\nFluorinated surfactants or fluorosurfactants are a subgroup of PFAS characterized by a hydrophobic fluorinated \"tail\" and a hydrophilic \"head\" that behave as surfactants. These are more effective at reducing the surface tension of water than comparable hydrocarbon surfactants.\n\nFluorosurfactants tend to concentrate at the phase interfaces. Fluorocarbons are both lipophobic and hydrophobic, repelling both oil and water. Their lipophobicity results from the relative lack of London dispersion forces compared to hydrocarbons, a consequence of fluorine's large electronegativity and small bond length, which reduce the polarizability of the surfactants' fluorinated molecular surface. Fluorosurfactants are more stable than hydrocarbon surfactants due to the stability of the carbon–fluorine bond. Perfluorinated surfactants persist in the environment for the same reason.\n\nFluorosurfactants such as PFOS, PFOA, and perfluorononanoic acid (PFNA) have caught the attention of regulatory agencies because of their persistence, toxicity, and widespread occurrence in the blood of general populations.",
       "citations": [
         {
           "id": "cite-0",
@@ -238,7 +231,7 @@
       "id": "market",
       "title": "Market",
       "level": 3,
-      "content": "The market for PFAS was estimated to be US$28 billion in 2023. The majority are produced by 12 companies: 3M, AGC Inc., Archroma, Arkema, BASF, Bayer, Chemours, Daikin, Honeywell, Merck Group, Shandong Dongyue Chemical, and Solvay. Sales of PFAS, which cost approximately $20 per kilogram, generated a total industry profit of $4 billion per year on 16% profit margins in 2023.\n\n== Environmental effects ==",
+      "content": "The market for PFAS was estimated to be US$28 billion in 2023. The majority are produced by 12 companies: 3M, AGC Inc., Archroma, Arkema, BASF, Bayer, Chemours, Daikin, Honeywell, Merck Group, Shandong Dongyue Chemical, and Solvay. Sales of PFAS, which cost approximately $20 per kilogram, generated a total industry profit of $4 billion per year on 16% profit margins in 2023.",
       "citations": [
         {
           "id": "cite-0",
@@ -255,17 +248,10 @@
       ]
     },
     {
-      "id": "environmental-effects",
-      "title": "Environmental effects",
-      "level": 2,
-      "content": "===Prevalence in rain, soil, water bodies, and air===",
-      "citations": []
-    },
-    {
       "id": "prevalence-in-rain-soil-water-bodies-and-air",
       "title": "Prevalence in rain, soil, water bodies, and air",
       "level": 3,
-      "content": "In 2022, levels of at least four perfluoroalkyl acids (PFAAs) in rain water worldwide greatly exceeded the EPA's lifetime drinking water health advisories as well as comparable Danish, Dutch, and European Union safety standards, leading to the conclusion that \"the global spread of these four PFAAs in the atmosphere has led to the planetary boundary for chemical pollution being exceeded\". The most common PFAS found in the environment is Trifluoroacetic acid (TFA). Its presence is ubiquitous in the environment, especially in aquatic ecosystems, where it persists with increasing concentrations globally.\n\nIt had been thought that PFAAs would eventually end up in the oceans, where they would be diluted over decades, but a field study published in 2021 by researchers at Stockholm University found that they are often transferred from water to air when waves reach land, are a significant source of air pollution, and eventually get into rain. The researchers concluded that pollution may impact large areas. Soil is also contaminated and the chemicals have been found in remote areas such as Antarctica. Soil contamination can result in higher levels of PFAS found in foods such as white rice, coffee, and animals reared on contaminated ground. In 2024, a worldwide study of 45,000 groundwater samples found that 31% of samples contained levels of PFAS that were harmful to human health; these samples were taken from areas not near any obvious source of contamination.\n\nContamination has also been seen in water wells and other sources of drinking water. This contamination is seen in US, United Kingdom, Germany, Japan, and Canada, but information from most developing countries is nearly nonexistent. The lack of information on PFAS contamination in developing countries, especially those in Africa, are due to structural socioeconomic inequality and primitive technological.\n\n=== Bioaccumulation and biomagnification ===",
+      "content": "In 2022, levels of at least four perfluoroalkyl acids (PFAAs) in rain water worldwide greatly exceeded the EPA's lifetime drinking water health advisories as well as comparable Danish, Dutch, and European Union safety standards, leading to the conclusion that \"the global spread of these four PFAAs in the atmosphere has led to the planetary boundary for chemical pollution being exceeded\". The most common PFAS found in the environment is Trifluoroacetic acid (TFA). Its presence is ubiquitous in the environment, especially in aquatic ecosystems, where it persists with increasing concentrations globally.\n\nIt had been thought that PFAAs would eventually end up in the oceans, where they would be diluted over decades, but a field study published in 2021 by researchers at Stockholm University found that they are often transferred from water to air when waves reach land, are a significant source of air pollution, and eventually get into rain. The researchers concluded that pollution may impact large areas. Soil is also contaminated and the chemicals have been found in remote areas such as Antarctica. Soil contamination can result in higher levels of PFAS found in foods such as white rice, coffee, and animals reared on contaminated ground. In 2024, a worldwide study of 45,000 groundwater samples found that 31% of samples contained levels of PFAS that were harmful to human health; these samples were taken from areas not near any obvious source of contamination.\n\nContamination has also been seen in water wells and other sources of drinking water. This contamination is seen in US, United Kingdom, Germany, Japan, and Canada, but information from most developing countries is nearly nonexistent. The lack of information on PFAS contamination in developing countries, especially those in Africa, are due to structural socioeconomic inequality and primitive technological.",
       "citations": [
         {
           "id": "cite-0",
@@ -344,7 +330,7 @@
       "id": "bioaccumulation-and-biomagnification",
       "title": "Bioaccumulation and biomagnification",
       "level": 3,
-      "content": ";In marine species of the food web\nBioaccumulation controls internal concentrations of pollutants, including PFAS, in individual organisms. When bioaccumulation is looked at in the perspective of the entire food web, it is called biomagnification, which is important to track because lower concentrations of pollutants in environmental matrices such as seawater or sediments, can very quickly grow to harmful concentrations in organisms at higher trophic levels, including humans. Notably, concentrations in biota can even be greater than 5000 times those present in water for PFOS and C10–C14 PFCAs. PFAS can enter an organism by ingestion of sediment, through the water, or directly via their diet. It accumulates namely in areas with high protein content, in the blood and liver, but it is also found to a lesser extent in tissues.\n\n of PFAS:''' PFAS from sediments and water can accumulate in marine organisms. Animals higher up the food chain accumulate more because they absorb PFAS in the prey they eat.]]\n\nIn a study done on a macrotidal estuary in Gironde, SW France, PFOA and PFNA were found to be highly bioaccumulative. A global meta-analysis found that PFAS concentrations increase, on average, twofold with each trophic level, with substantial variation among compounds.\n\nA study published in 2023 analyzing 500 composite samples of fish fillets collected across the United States from 2013 to 2015 under the EPA's monitoring programs showed freshwater fish ubiquitously contain high levels of harmful PFAS, with a single serving typically significantly increasing the blood PFOS level.\n\nBioaccumulation and biomagnification of PFAS in marine species such as fish and shellfish can have important impacts on human populations. PFAS have been frequently documented in both fish and shellfish that are commonly consumed by human populations, which poses health risks to humans and studies on the bioaccumulation in certain species are important to determine daily tolerable limits for human consumption, and where those limits may be exceeded causing potential health risks. This has particular implications for populations that consume larger numbers of wild fish and shellfish species.\n\nPFAS are brought to the Arctic from polluted southern waters by migrating birds. Although it is much less than compared to the introduction by wind and the oceans, the birds become vectors, transmitting the toxic chemicals. Rainer Lohmann, an oceanographer at the University of Rhode Island, noted that this has a significant localized affect that is devastating for Arctic predators who accumulate toxins in their bodies because the contaminants from the birds often enter the food chain directly since the birds are the prey of many species.\n\nFluorosurfactants with shorter carbon chains may be less prone to accumulating in mammals; and the environment.\n\n== Health effects ==",
+      "content": ";In marine species of the food web\nBioaccumulation controls internal concentrations of pollutants, including PFAS, in individual organisms. When bioaccumulation is looked at in the perspective of the entire food web, it is called biomagnification, which is important to track because lower concentrations of pollutants in environmental matrices such as seawater or sediments, can very quickly grow to harmful concentrations in organisms at higher trophic levels, including humans. Notably, concentrations in biota can even be greater than 5000 times those present in water for PFOS and C10–C14 PFCAs. PFAS can enter an organism by ingestion of sediment, through the water, or directly via their diet. It accumulates namely in areas with high protein content, in the blood and liver, but it is also found to a lesser extent in tissues.\n\n of PFAS:''' PFAS from sediments and water can accumulate in marine organisms. Animals higher up the food chain accumulate more because they absorb PFAS in the prey they eat.]]\n\nIn a study done on a macrotidal estuary in Gironde, SW France, PFOA and PFNA were found to be highly bioaccumulative. A global meta-analysis found that PFAS concentrations increase, on average, twofold with each trophic level, with substantial variation among compounds.\n\nA study published in 2023 analyzing 500 composite samples of fish fillets collected across the United States from 2013 to 2015 under the EPA's monitoring programs showed freshwater fish ubiquitously contain high levels of harmful PFAS, with a single serving typically significantly increasing the blood PFOS level.\n\nBioaccumulation and biomagnification of PFAS in marine species such as fish and shellfish can have important impacts on human populations. PFAS have been frequently documented in both fish and shellfish that are commonly consumed by human populations, which poses health risks to humans and studies on the bioaccumulation in certain species are important to determine daily tolerable limits for human consumption, and where those limits may be exceeded causing potential health risks. This has particular implications for populations that consume larger numbers of wild fish and shellfish species.\n\nPFAS are brought to the Arctic from polluted southern waters by migrating birds. Although it is much less than compared to the introduction by wind and the oceans, the birds become vectors, transmitting the toxic chemicals. Rainer Lohmann, an oceanographer at the University of Rhode Island, noted that this has a significant localized affect that is devastating for Arctic predators who accumulate toxins in their bodies because the contaminants from the birds often enter the food chain directly since the birds are the prey of many species.\n\nFluorosurfactants with shorter carbon chains may be less prone to accumulating in mammals; and the environment.",
       "citations": [
         {
           "id": "cite-0",
@@ -444,7 +430,7 @@
       "id": "health-effects",
       "title": "Health effects",
       "level": 2,
-      "content": "PFAS were originally considered to be chemically inert. Early occupational studies revealed elevated levels of fluorochemicals, including perfluorooctanesulfonic acid (PFOS) and perfluorooctanoic acid (PFOA), in the blood of exposed industrial workers, but cited no ill health effects. These results were consistent with the measured serum concentrations of PFOS and PFOA in 3M plant workers ranging from 0.04 to 10.06 ppm and 0.01 to 12.70 ppm, respectively, well below toxic and carcinogenic levels cited in animal studies. This lengthy residence time and widespread environmental contamination lead to accumulation of PFAS in humans sufficient to cause adverse health outcomes.]]\n\nFrom 2005 to 2013, three epidemiologists known as the C8 Science Panel conducted health studies in the Mid-Ohio Valley as part of a contingency to a class action lawsuit brought by communities in the Ohio River Valley against DuPont. The panel measured PFOA serum concentrations in 69,000 individuals from around DuPont's Washington Works Plant and found a mean concentration of 83 ng/mL, compared to 4 ng/mL in a standard population of Americans. This panel reported probable links between elevated PFOA blood concentration and high cholesterol, ulcerative colitis, thyroid disease, testicular cancer, kidney cancer, pregnancy-induced hypertension and preeclampsia. The severity of PFAS-associated health effects can vary based on the length of exposure, level of exposure, and health status.\n\n=== Pregnancy and lactation issues ===",
+      "content": "PFAS were originally considered to be chemically inert. Early occupational studies revealed elevated levels of fluorochemicals, including perfluorooctanesulfonic acid (PFOS) and perfluorooctanoic acid (PFOA), in the blood of exposed industrial workers, but cited no ill health effects. These results were consistent with the measured serum concentrations of PFOS and PFOA in 3M plant workers ranging from 0.04 to 10.06 ppm and 0.01 to 12.70 ppm, respectively, well below toxic and carcinogenic levels cited in animal studies. This lengthy residence time and widespread environmental contamination lead to accumulation of PFAS in humans sufficient to cause adverse health outcomes.]]\n\nFrom 2005 to 2013, three epidemiologists known as the C8 Science Panel conducted health studies in the Mid-Ohio Valley as part of a contingency to a class action lawsuit brought by communities in the Ohio River Valley against DuPont. The panel measured PFOA serum concentrations in 69,000 individuals from around DuPont's Washington Works Plant and found a mean concentration of 83 ng/mL, compared to 4 ng/mL in a standard population of Americans. This panel reported probable links between elevated PFOA blood concentration and high cholesterol, ulcerative colitis, thyroid disease, testicular cancer, kidney cancer, pregnancy-induced hypertension and preeclampsia. The severity of PFAS-associated health effects can vary based on the length of exposure, level of exposure, and health status.",
       "citations": [
         {
           "id": "cite-0",
@@ -537,7 +523,7 @@
       "id": "pregnancy-and-lactation-issues",
       "title": "Pregnancy and lactation issues",
       "level": 3,
-      "content": "Exposure to PFAS is a risk factor for hypertensive disorders in pregnancy including preeclampsia and high blood pressure. It is not clear whether PFAS exposure is associated with wider cardiovascular disorders during pregnancy. Human breast milk can harbor PFAS, which can be transferred from mother to infant via breastfeeding.\n\nUse of personal care products, such as nail care products, fragrances, makeup, hair dyes and hair sprays, by pregnant women and lactating mothers is associated with raised levels of PFAS in blood and breastmilk. For example, PFOS levels of women who dyed their hair at least twice during pregnancy were more than a third higher than those who did not. PFOS is one of the most common and most dangerous of the PFAS compounds.\n\n=== Fertility issues ===",
+      "content": "Exposure to PFAS is a risk factor for hypertensive disorders in pregnancy including preeclampsia and high blood pressure. It is not clear whether PFAS exposure is associated with wider cardiovascular disorders during pregnancy. Human breast milk can harbor PFAS, which can be transferred from mother to infant via breastfeeding.\n\nUse of personal care products, such as nail care products, fragrances, makeup, hair dyes and hair sprays, by pregnant women and lactating mothers is associated with raised levels of PFAS in blood and breastmilk. For example, PFOS levels of women who dyed their hair at least twice during pregnancy were more than a third higher than those who did not. PFOS is one of the most common and most dangerous of the PFAS compounds.",
       "citations": [
         {
           "id": "cite-0",
@@ -567,7 +553,7 @@
       "id": "fertility-issues",
       "title": "Fertility issues",
       "level": 3,
-      "content": "Endocrine disruptors, including PFAS, are linked with the male infertility crisis. A report in 2023 by the Icahn School of Medicine at Mount Sinai linked high exposure to PFAS with a 40% decrease in the ability for a woman to have a successful pregnancy as well as hormone disruption and delayed puberty onset.\n\n=== Human developmental issues ===",
+      "content": "Endocrine disruptors, including PFAS, are linked with the male infertility crisis. A report in 2023 by the Icahn School of Medicine at Mount Sinai linked high exposure to PFAS with a 40% decrease in the ability for a woman to have a successful pregnancy as well as hormone disruption and delayed puberty onset.",
       "citations": [
         {
           "id": "cite-0",
@@ -593,14 +579,14 @@
       "id": "human-developmental-issues",
       "title": "Human developmental issues",
       "level": 3,
-      "content": "Fetuses and children are especially vulnerable to the harms of PFAS chemicals because they have been shown to be linked to major adverse health conditions, including abnormally small birth weight syndrome in newborns, preterm birth, shorter lactation periods, breastmilk of diminished nutritional content, one or more neurodevelopmental disorders, and decreased response to childhood vaccines.\n\n=== Liver issues ===",
+      "content": "Fetuses and children are especially vulnerable to the harms of PFAS chemicals because they have been shown to be linked to major adverse health conditions, including abnormally small birth weight syndrome in newborns, preterm birth, shorter lactation periods, breastmilk of diminished nutritional content, one or more neurodevelopmental disorders, and decreased response to childhood vaccines.",
       "citations": []
     },
     {
       "id": "liver-issues",
       "title": "Liver issues",
       "level": 3,
-      "content": "A meta-analysis for associations between PFAS and human clinical biomarkers for liver injury, analyzing PFAS effects on liver biomarkers and histological data from rodent experimental studies, concluded that evidence exists that PFOA, perfluorohexanesulfonic acid (PFHxS), and perfluorononanoic acid (PFNA) caused hepatotoxicity in humans.\n\n=== Cancers ===",
+      "content": "A meta-analysis for associations between PFAS and human clinical biomarkers for liver injury, analyzing PFAS effects on liver biomarkers and histological data from rodent experimental studies, concluded that evidence exists that PFOA, perfluorohexanesulfonic acid (PFHxS), and perfluorononanoic acid (PFNA) caused hepatotoxicity in humans.",
       "citations": [
         {
           "id": "cite-0",
@@ -613,7 +599,7 @@
       "id": "cancers",
       "title": "Cancers",
       "level": 3,
-      "content": "PFOA is classified as carcinogenic to humans (Group 1) by the International Agency for Research on Cancer (IARC) based on \"sufficient\" evidence for cancer in animals and \"strong\" mechanistic evidence in exposed humans. IARC also classified PFOS as possibly carcinogenic to humans (Group 2b) based on \"strong\" mechanistic evidence. There is a lack of high-quality epidemiological data on the associations between many specific PFAS chemicals and specific cancer types, and research is ongoing.\n\n=== High cholesterol ===",
+      "content": "PFOA is classified as carcinogenic to humans (Group 1) by the International Agency for Research on Cancer (IARC) based on \"sufficient\" evidence for cancer in animals and \"strong\" mechanistic evidence in exposed humans. IARC also classified PFOS as possibly carcinogenic to humans (Group 2b) based on \"strong\" mechanistic evidence. There is a lack of high-quality epidemiological data on the associations between many specific PFAS chemicals and specific cancer types, and research is ongoing.",
       "citations": [
         {
           "id": "cite-0",
@@ -632,7 +618,7 @@
       "id": "high-cholesterol",
       "title": "High cholesterol",
       "level": 3,
-      "content": "A response is observed in humans where elevated PFOS levels were significantly associated with elevated total cholesterol and LDL cholesterol, highlighting significantly reduced PPAR expression and alluding to PPAR independent pathways predominating over lipid metabolism in humans compared to rodents.\n\n=== Ulcerative colitis ===",
+      "content": "A response is observed in humans where elevated PFOS levels were significantly associated with elevated total cholesterol and LDL cholesterol, highlighting significantly reduced PPAR expression and alluding to PPAR independent pathways predominating over lipid metabolism in humans compared to rodents.",
       "citations": [
         {
           "id": "cite-0",
@@ -645,7 +631,7 @@
       "id": "ulcerative-colitis",
       "title": "Ulcerative colitis",
       "level": 3,
-      "content": "PFOA and PFOS have been shown to significantly alter immune and inflammatory responses in human and animal species. In particular, IgA, IgE (in females only) and C-reactive protein have been shown to decrease whereas antinuclear antibodies increase as PFOA serum concentrations increase. These cytokine variations allude to immune response aberrations resulting in autoimmunity. One proposed mechanism is a shift towards anti-inflammatory M2 macrophages and/or  (TH2) response in intestinal epithelial tissue which allows sulfate-reducing bacteria to flourish. Elevated levels of hydrogen sulfide result, which reduce beta-oxidation and nutrient production, leading to a breakdown of the colonic epithelial barrier.\n\n=== Thyroid disease ===",
+      "content": "PFOA and PFOS have been shown to significantly alter immune and inflammatory responses in human and animal species. In particular, IgA, IgE (in females only) and C-reactive protein have been shown to decrease whereas antinuclear antibodies increase as PFOA serum concentrations increase. These cytokine variations allude to immune response aberrations resulting in autoimmunity. One proposed mechanism is a shift towards anti-inflammatory M2 macrophages and/or  (TH2) response in intestinal epithelial tissue which allows sulfate-reducing bacteria to flourish. Elevated levels of hydrogen sulfide result, which reduce beta-oxidation and nutrient production, leading to a breakdown of the colonic epithelial barrier.",
       "citations": [
         {
           "id": "cite-0",
@@ -663,7 +649,7 @@
       "id": "thyroid-disease",
       "title": "Thyroid disease",
       "level": 3,
-      "content": "Hypothyroidism is the most common thyroid abnormality associated with PFAS exposure. PFAS have been shown to decrease thyroid peroxidase, resulting in decreased production and activation of thyroid hormones in vivo. Other proposed mechanisms include alterations in thyroid hormone signaling, metabolism and excretion as well as function of nuclear hormone receptor, has been described. This suggests a strong influence on peripheral rather than central thyroid hormone sensitivity.\n\n== Responses to knowledge of harmful effects ==",
+      "content": "Hypothyroidism is the most common thyroid abnormality associated with PFAS exposure. PFAS have been shown to decrease thyroid peroxidase, resulting in decreased production and activation of thyroid hormones in vivo. Other proposed mechanisms include alterations in thyroid hormone signaling, metabolism and excretion as well as function of nuclear hormone receptor, has been described. This suggests a strong influence on peripheral rather than central thyroid hormone sensitivity.",
       "citations": [
         {
           "id": "cite-0",
@@ -683,17 +669,10 @@
       ]
     },
     {
-      "id": "responses-to-knowledge-of-harmful-effects",
-      "title": "Responses to knowledge of harmful effects",
-      "level": 2,
-      "content": "=== Ending manufacture ===",
-      "citations": []
-    },
-    {
       "id": "ending-manufacture",
       "title": "Ending manufacture",
       "level": 3,
-      "content": "Citing health concerns, several manufacturing companies have ended or stated that they plan to end the sale of PFAS or products that contain them. These companies include W. L. Gore & Associates (the maker of Gore-Tex), Patagonia, REI, H&M, and 3M. An alternative for some companies may have been to move production to countries such as Thailand and India, where there is less regulation.\n\n=== Suppressing information on health effects ===",
+      "content": "Citing health concerns, several manufacturing companies have ended or stated that they plan to end the sale of PFAS or products that contain them. These companies include W. L. Gore & Associates (the maker of Gore-Tex), Patagonia, REI, H&M, and 3M. An alternative for some companies may have been to move production to countries such as Thailand and India, where there is less regulation.",
       "citations": [
         {
           "id": "cite-0",
@@ -754,7 +733,7 @@
       "id": "suppressing-information-on-health-effects",
       "title": "Suppressing information on health effects",
       "level": 3,
-      "content": "Since the 1970s, DuPont and 3M were aware that PFAS was \"highly toxic when inhaled and moderately toxic when ingested\". Producers used several strategies to influence science and regulation – most notably, suppressing unfavorable research and distorting public discourse.\n\n=== Litigation and regulations ===",
+      "content": "Since the 1970s, DuPont and 3M were aware that PFAS was \"highly toxic when inhaled and moderately toxic when ingested\". Producers used several strategies to influence science and regulation – most notably, suppressing unfavorable research and distorting public discourse.",
       "citations": [
         {
           "id": "cite-0",
@@ -779,7 +758,7 @@
       "id": "litigation-and-regulations",
       "title": "Litigation and regulations",
       "level": 3,
-      "content": "External costs, including those associated with remediation of soil and water contamination, treatment of related diseases, and monitoring of pollution, may be as high as US$17.5 trillion annually, according to ChemSec. In the United States, settlements stemming from PFAS pollution claims have reached $18 billion by 2024. In 2023, Sweden's Supreme Court set a legal precedent by awarding damages to citizens who were supplied PFAS contaminated drinking water.\n\nCountries such as Canada have published drinking water guidelines for PFOS and PFOA The European Union is developing an action plan to eliminate non-essential uses of PFAS. The United Nations has listed PFOS, PFOA, PFHxS, long-chain PFCAs and related chemicals as persistent organic pollutants under the Stockholm Convention on Persistent Organic Pollutants between 2009 and 2025.\n\nThe United States Environmental Protection Agency has published non-enforceable drinking water health advisories for PFOA and PFOS. In 2021, Maine became the first U.S. state to ban these compounds in all products by 2030. , the states of California, Connecticut, Massachusetts, Michigan, Minnesota, New Hampshire, New Jersey, New York, Vermont, and Wisconsin had enforceable drinking water standards for between two and six types of PFAS.\n\nHowever, some major producers and users such as the United States, Israel, and Malaysia have not ratified the agreement on reducing use of PFAS, and the chemical industry has lobbied governments to reduce regulations. For example in the United States, bills on cosmetics, food packaging, and textiles meant to regulate PFAS failed to pass through Congress in 2022.\n\nIn 2026, the UK increased testing for PFAS as part of a national plan to tackle the substances, which have prompted environmental and health concerns. The government says that by 2029 it wants to align more closely with regulations issued by the EU, which is looking to prohibit all non-essential uses.\n\n== Occupational exposure ==",
+      "content": "External costs, including those associated with remediation of soil and water contamination, treatment of related diseases, and monitoring of pollution, may be as high as US$17.5 trillion annually, according to ChemSec. In the United States, settlements stemming from PFAS pollution claims have reached $18 billion by 2024. In 2023, Sweden's Supreme Court set a legal precedent by awarding damages to citizens who were supplied PFAS contaminated drinking water.\n\nCountries such as Canada have published drinking water guidelines for PFOS and PFOA The European Union is developing an action plan to eliminate non-essential uses of PFAS. The United Nations has listed PFOS, PFOA, PFHxS, long-chain PFCAs and related chemicals as persistent organic pollutants under the Stockholm Convention on Persistent Organic Pollutants between 2009 and 2025.\n\nThe United States Environmental Protection Agency has published non-enforceable drinking water health advisories for PFOA and PFOS. In 2021, Maine became the first U.S. state to ban these compounds in all products by 2030. , the states of California, Connecticut, Massachusetts, Michigan, Minnesota, New Hampshire, New Jersey, New York, Vermont, and Wisconsin had enforceable drinking water standards for between two and six types of PFAS.\n\nHowever, some major producers and users such as the United States, Israel, and Malaysia have not ratified the agreement on reducing use of PFAS, and the chemical industry has lobbied governments to reduce regulations. For example in the United States, bills on cosmetics, food packaging, and textiles meant to regulate PFAS failed to pass through Congress in 2022.\n\nIn 2026, the UK increased testing for PFAS as part of a national plan to tackle the substances, which have prompted environmental and health concerns. The government says that by 2029 it wants to align more closely with regulations issued by the EU, which is looking to prohibit all non-essential uses.",
       "citations": [
         {
           "id": "cite-0",
@@ -876,7 +855,7 @@
       "id": "occupational-exposure",
       "title": "Occupational exposure",
       "level": 2,
-      "content": "Occupational exposure to PFAS occurs in numerous industries due to the widespread use of the chemicals in products and as an element of industrial process streams. PFAS are used in more than 200 different ways in industries as diverse as electronics and equipment manufacturing, plastic and rubber production, food and textile production, and building and construction. Occupational exposure to PFAS can occur at fluorochemical facilities that produce them and other manufacturing facilities that use them for industrial processing like the chrome plating industry.\n\n=== Exposure pathways ===",
+      "content": "Occupational exposure to PFAS occurs in numerous industries due to the widespread use of the chemicals in products and as an element of industrial process streams. PFAS are used in more than 200 different ways in industries as diverse as electronics and equipment manufacturing, plastic and rubber production, food and textile production, and building and construction. Occupational exposure to PFAS can occur at fluorochemical facilities that produce them and other manufacturing facilities that use them for industrial processing like the chrome plating industry.",
       "citations": [
         {
           "id": "cite-0",
@@ -905,7 +884,7 @@
       "id": "exposure-pathways",
       "title": "Exposure pathways",
       "level": 3,
-      "content": "People who are exposed to PFAS through their jobs typically have higher levels of PFAS in their blood than the general population. While the general population is exposed to PFAS through ingested food and water, occupational exposure includes accidental ingestion, inhalation exposure, and skin contact in settings where PFAS become volatile.\n\n=== Professional ski wax technicians ===",
+      "content": "People who are exposed to PFAS through their jobs typically have higher levels of PFAS in their blood than the general population. While the general population is exposed to PFAS through ingested food and water, occupational exposure includes accidental ingestion, inhalation exposure, and skin contact in settings where PFAS become volatile.",
       "citations": [
         {
           "id": "cite-0",
@@ -934,7 +913,7 @@
       "id": "professional-ski-wax-technicians",
       "title": "Professional ski wax technicians",
       "level": 3,
-      "content": "Compared to the general public exposed to contaminated drinking water, professional ski wax technicians are more strongly exposed to PFAS (PFOA, PFNA, PFDA, PFHpA, PFDoDA) from the glide wax used to coat the bottom of skis to reduce the friction between the skis and snow. During the coating process, the wax is heated, which releases fumes and airborne particles.\n\n===Manufacturing workers===",
+      "content": "Compared to the general public exposed to contaminated drinking water, professional ski wax technicians are more strongly exposed to PFAS (PFOA, PFNA, PFDA, PFHpA, PFDoDA) from the glide wax used to coat the bottom of skis to reduce the friction between the skis and snow. During the coating process, the wax is heated, which releases fumes and airborne particles.",
       "citations": [
         {
           "id": "cite-0",
@@ -952,7 +931,7 @@
       "id": "manufacturing-workers",
       "title": "Manufacturing workers",
       "level": 3,
-      "content": "People who work at fluorochemical production plants and in manufacturing industries that use PFAS in the industrial process can be exposed to PFAS in the workplace. Much of what we know about PFAS exposure and health effects began with medical surveillance studies of workers exposed to PFAS at fluorochemical production facilities. These studies began in the 1940s and were conducted primarily at U.S. and European manufacturing sites. Between the 1940s and 2000s, thousands of workers exposed to PFAS participated in research studies that advanced scientific understanding of exposure pathways, toxicokinetic properties, and adverse health effects associated with exposure.\n\nThe first research study to report elevated organic fluorine levels in the blood of fluorochemical workers was published in 1980. PFOA and PFOS levels have declined in U.S. and European fluorochemical workers due to improved facilities, increased usage of personal protective equipment, and the discontinuation of these chemicals from production. Occupational exposure to PFAS in manufacturing continues to be an active area of study in China with numerous investigations linking worker exposure to various PFAS.\n\n=== Firefighters ===",
+      "content": "People who work at fluorochemical production plants and in manufacturing industries that use PFAS in the industrial process can be exposed to PFAS in the workplace. Much of what we know about PFAS exposure and health effects began with medical surveillance studies of workers exposed to PFAS at fluorochemical production facilities. These studies began in the 1940s and were conducted primarily at U.S. and European manufacturing sites. Between the 1940s and 2000s, thousands of workers exposed to PFAS participated in research studies that advanced scientific understanding of exposure pathways, toxicokinetic properties, and adverse health effects associated with exposure.\n\nThe first research study to report elevated organic fluorine levels in the blood of fluorochemical workers was published in 1980. PFOA and PFOS levels have declined in U.S. and European fluorochemical workers due to improved facilities, increased usage of personal protective equipment, and the discontinuation of these chemicals from production. Occupational exposure to PFAS in manufacturing continues to be an active area of study in China with numerous investigations linking worker exposure to various PFAS.",
       "citations": [
         {
           "id": "cite-0",
@@ -1000,7 +979,7 @@
       "id": "firefighters",
       "title": "Firefighters",
       "level": 3,
-      "content": "PFAS are used in Class B firefighting foams due to their hydrophobic and lipophobic properties, as well as the stability of the chemicals when exposed to high heat.\n\nResearch into occupational exposure for firefighters is emergent, though frequently limited by underpowered study designs. A 2011 cross-sectional analysis of the C8 Health Studies found higher levels of PFHxS in firefighters compared to the sample group of the region, with other PFAS at elevated levels, without reaching statistical significance. A 2014 study in Finland studying eight firefighters over three training sessions observed select PFAS (PFHxS and PFNA) increase in blood samples following each training event. PFAS exposure is prevalent among firefighters not only due to its use in emergencies but also because it is used in personal protective equipment. In support of these findings, states like Washington and Colorado have moved to restrict and penalize the use of Class B firefighting foam for firefighter training and testing.\n\n=== Exposure after September 11 attacks ===",
+      "content": "PFAS are used in Class B firefighting foams due to their hydrophobic and lipophobic properties, as well as the stability of the chemicals when exposed to high heat.\n\nResearch into occupational exposure for firefighters is emergent, though frequently limited by underpowered study designs. A 2011 cross-sectional analysis of the C8 Health Studies found higher levels of PFHxS in firefighters compared to the sample group of the region, with other PFAS at elevated levels, without reaching statistical significance. A 2014 study in Finland studying eight firefighters over three training sessions observed select PFAS (PFHxS and PFNA) increase in blood samples following each training event. PFAS exposure is prevalent among firefighters not only due to its use in emergencies but also because it is used in personal protective equipment. In support of these findings, states like Washington and Colorado have moved to restrict and penalize the use of Class B firefighting foam for firefighter training and testing.",
       "citations": [
         {
           "id": "cite-0",
@@ -1035,7 +1014,7 @@
       "id": "exposure-after-september-11-attacks",
       "title": "Exposure after September 11 attacks",
       "level": 3,
-      "content": "The September 11 attacks and resulting fires caused the release of toxic chemicals used in materials such as stain-resistant coatings. First responders to this incident were exposed to PFOA, PFNA, and PFHxS through inhalation of dust and smoke released during and after the collapse of the World Trade Center.\n\nFire responders who were working at or near ground zero were assessed for respiratory and other health effects from exposure to emissions at the World Trade Center. Early clinical testing showed a high prevalence of respiratory health effects. Early symptoms of exposure often presented with persistent coughing and wheezing. PFOA and PFHxS levels were present in both smoke and dust exposure, but first responders exposed to smoke had higher concentrations of PFOA and PFHxS than those exposed to dust.\n\n=== Mitigation measures ===",
+      "content": "The September 11 attacks and resulting fires caused the release of toxic chemicals used in materials such as stain-resistant coatings. First responders to this incident were exposed to PFOA, PFNA, and PFHxS through inhalation of dust and smoke released during and after the collapse of the World Trade Center.\n\nFire responders who were working at or near ground zero were assessed for respiratory and other health effects from exposure to emissions at the World Trade Center. Early clinical testing showed a high prevalence of respiratory health effects. Early symptoms of exposure often presented with persistent coughing and wheezing. PFOA and PFHxS levels were present in both smoke and dust exposure, but first responders exposed to smoke had higher concentrations of PFOA and PFHxS than those exposed to dust.",
       "citations": [
         {
           "id": "cite-0",
@@ -1049,7 +1028,7 @@
       "id": "mitigation-measures",
       "title": "Mitigation measures",
       "level": 3,
-      "content": "Several strategies have been proposed as a way to protect people at the greatest risk of occupational exposure to PFAS, including exposure monitoring, regular blood testing, and the use of PFAS-free alternatives such as fluorine-free firefighting foam and plant-based ski wax.\n\n== Remediation ==",
+      "content": "Several strategies have been proposed as a way to protect people at the greatest risk of occupational exposure to PFAS, including exposure monitoring, regular blood testing, and the use of PFAS-free alternatives such as fluorine-free firefighting foam and plant-based ski wax.",
       "citations": [
         {
           "id": "cite-0",
@@ -1059,17 +1038,10 @@
       ]
     },
     {
-      "id": "remediation",
-      "title": "Remediation",
-      "level": 2,
-      "content": "=== Water treatment ===",
-      "citations": []
-    },
-    {
       "id": "water-treatment",
       "title": "Water treatment",
       "level": 3,
-      "content": "Several technologies can be applied to drinking water supplies, groundwater, industrial wastewater, surface water, and other applications such as landfill leachate, including:\n\n* Sorption (including granular activated carbon, biochar, and ion exchange resins)\n* Membrane filtration (reverse osmosis, nanofiltration\n* Precipitation/flocculation/coagulation\n* Supercritical water oxidation\n* Photodegradation\n\nPrivate and public sector applications of one or more of these methodologies above are being applied to remediation sites throughout the United States and other international locations.\n\nThe US-based Interstate Technology and Regulatory Council (ITRC) has undertaken an extensive evaluation of ex-situ and in-situ treatment technologies for PFAS-impacted liquid matrices. These technologies are divided into field-implemented technologies, limited application technologies, and developing technologies and typically fit into one of three technology types, namely separation, concentration, and destruction.\n\n==== Stripping and enrichment ====",
+      "content": "Several technologies can be applied to drinking water supplies, groundwater, industrial wastewater, surface water, and other applications such as landfill leachate, including:\n\n* Sorption (including granular activated carbon, biochar, and ion exchange resins)\n* Membrane filtration (reverse osmosis, nanofiltration\n* Precipitation/flocculation/coagulation\n* Supercritical water oxidation\n* Photodegradation\n\nPrivate and public sector applications of one or more of these methodologies above are being applied to remediation sites throughout the United States and other international locations.\n\nThe US-based Interstate Technology and Regulatory Council (ITRC) has undertaken an extensive evaluation of ex-situ and in-situ treatment technologies for PFAS-impacted liquid matrices. These technologies are divided into field-implemented technologies, limited application technologies, and developing technologies and typically fit into one of three technology types, namely separation, concentration, and destruction.",
       "citations": [
         {
           "id": "cite-0",
@@ -1135,7 +1107,7 @@
       "id": "stripping-and-enrichment",
       "title": "Stripping and enrichment",
       "level": 4,
-      "content": "Foam Fractionation utilizes the air/water interface of a rising air bubble to collect and harvest PFAS molecules. The hydrophobic tail of many long-chain criteria PFAS compounds adhere to this interface and rise to the water surface with the air bubble where they present as a foam for harvesting and further concentration. The foam fractionation technique is a derivation of traditional absorptive bubble separation techniques used by industries for decades to extract amphiphilic contaminants. The absence of a solid absorptive surface reduces consumables and waste byproducts and produces a liquid hyper-concentrate which can be fed into one of the various PFAS destruction technologies. Across various full-scale trials and field applications, this technique provides a simplistic and low operational cost alternative for complex PFAS-impacted waters.\n\n==== Destruction ====",
+      "content": "Foam Fractionation utilizes the air/water interface of a rising air bubble to collect and harvest PFAS molecules. The hydrophobic tail of many long-chain criteria PFAS compounds adhere to this interface and rise to the water surface with the air bubble where they present as a foam for harvesting and further concentration. The foam fractionation technique is a derivation of traditional absorptive bubble separation techniques used by industries for decades to extract amphiphilic contaminants. The absence of a solid absorptive surface reduces consumables and waste byproducts and produces a liquid hyper-concentrate which can be fed into one of the various PFAS destruction technologies. Across various full-scale trials and field applications, this technique provides a simplistic and low operational cost alternative for complex PFAS-impacted waters.",
       "citations": [
         {
           "id": "cite-0",
@@ -1148,7 +1120,7 @@
       "id": "destruction",
       "title": "Destruction",
       "level": 4,
-      "content": "High-temperature incineration of sewage sludge reduces the levels of perfluorinated compounds significantly.\n\nA heat- and pressure-based technique known as supercritical water oxidation destroys 99% of the PFAS present in a water sample. During this process, oxidizing substances are added to PFAS-contaminated water and then the liquid is heated above its critical temperature of 374 degrees Celsius at a pressure of more than 220 bars. The water becomes supercritical, and, in this state, PFAS dissolve much more readily.\n\n==== Theoretical and early-stage methods ====",
+      "content": "High-temperature incineration of sewage sludge reduces the levels of perfluorinated compounds significantly.\n\nA heat- and pressure-based technique known as supercritical water oxidation destroys 99% of the PFAS present in a water sample. During this process, oxidizing substances are added to PFAS-contaminated water and then the liquid is heated above its critical temperature of 374 degrees Celsius at a pressure of more than 220 bars. The water becomes supercritical, and, in this state, PFAS dissolve much more readily.",
       "citations": [
         {
           "id": "cite-0",
@@ -1161,7 +1133,7 @@
       "id": "theoretical-and-early-stage-methods",
       "title": "Theoretical and early-stage methods",
       "level": 4,
-      "content": "A possible method PFAS-contaminated wastewater treatment has been developed by the Michigan State University-Fraunhofer team. Boron-doped diamond electrodes are used for the electrochemical oxidation system where it is capable of breaking PFAS molecular bonds which essentially eliminates the contaminates, leaving fresh water.\n\nAcidimicrobium sp. strain A6 has been shown to be a PFAS and PFOS remediator. PFAS with unsaturated bonds are easier to break down: the commercial dechlorination culture KB1 (contains Dehalococcoides) is capable of breaking down such substances, but not saturated PFAS. When alternative, easier-to-digest substrates are present, microbes may prefer them over PFAS.\n\nResearchers at the University of Missouri demonstrated in small scale the degradation of PFAS chemicals can be done using readily available Activated Carbon at significantly lower temperatures that previously needed, 300C as opposed to 700C.\n\n=== Chemical treatment ===",
+      "content": "A possible method PFAS-contaminated wastewater treatment has been developed by the Michigan State University-Fraunhofer team. Boron-doped diamond electrodes are used for the electrochemical oxidation system where it is capable of breaking PFAS molecular bonds which essentially eliminates the contaminates, leaving fresh water.\n\nAcidimicrobium sp. strain A6 has been shown to be a PFAS and PFOS remediator. PFAS with unsaturated bonds are easier to break down: the commercial dechlorination culture KB1 (contains Dehalococcoides) is capable of breaking down such substances, but not saturated PFAS. When alternative, easier-to-digest substrates are present, microbes may prefer them over PFAS.\n\nResearchers at the University of Missouri demonstrated in small scale the degradation of PFAS chemicals can be done using readily available Activated Carbon at significantly lower temperatures that previously needed, 300C as opposed to 700C.",
       "citations": [
         {
           "id": "cite-0",
@@ -1193,7 +1165,7 @@
       "id": "chemical-treatment",
       "title": "Chemical treatment",
       "level": 3,
-      "content": "Perfluoroalkyl carboxylic acids (PFCAs) can be mineralized via heating in a polar aprotic solvent such as dimethyl sulfoxide. Heating PFCAs in an 8 to 1 mixture of dimethyl sulfoxide and water at  in the presence of sodium hydroxide caused the removal of the carboxylic acid group at the end of the carbon chain, creating a perfluoroanion that mineralizes into sodium fluoride and other salts such as sodium trifluoroacetate, formate, carbonate, oxalate, and glycolate. The process does not work on perfluorosulfonic acids such as PFOS. A 2022 study shows breakdown of C-F bonds and their mineralization as YF3 or YF6 clusters. Another study  described the PFAS breakdown using metal-organic frameworks (MOFs).\n\n=== Constructed wetlands ===",
+      "content": "Perfluoroalkyl carboxylic acids (PFCAs) can be mineralized via heating in a polar aprotic solvent such as dimethyl sulfoxide. Heating PFCAs in an 8 to 1 mixture of dimethyl sulfoxide and water at  in the presence of sodium hydroxide caused the removal of the carboxylic acid group at the end of the carbon chain, creating a perfluoroanion that mineralizes into sodium fluoride and other salts such as sodium trifluoroacetate, formate, carbonate, oxalate, and glycolate. The process does not work on perfluorosulfonic acids such as PFOS. A 2022 study shows breakdown of C-F bonds and their mineralization as YF3 or YF6 clusters. Another study  described the PFAS breakdown using metal-organic frameworks (MOFs).",
       "citations": [
         {
           "id": "cite-0",
@@ -1216,7 +1188,7 @@
       "id": "constructed-wetlands",
       "title": "Constructed wetlands",
       "level": 3,
-      "content": "Constructed wetlands are planted, saturated areas designed to mimic natural processes of human benefit, most commonly waste or stormwater management. Removal of contaminants occurs by processes of plant-uptake, adherence to substrates, microbial degradation, and UV exposure. The recent public concern towards PFAS chemicals has sparked research efforts towards CWs as a treatment method for wastewater, stormwater, and landfill leachate. Granular Activated carbon has the highest average removal rate as a substrate, with biochar (charcoal) as a low cost and environmentally friendlier alternative. Magnetite and quartz sand mixes have been shown to be preferable in certain applications. Overall performance of the wetland is a balance between its hydraulic loading rate and retention time. Beneficial plant species for PFAS uptake are characterized by having a high root surface area, high protein content, are easily harvested, and degrade slowly in nature. Some species are Eichhornia (Pontederia) crassipes, Cyperus alternifolius, and Ceratophyllum demersum. Removal is normally done by harvesting of mature plants.\n\nBiodegradation is limited to the strong C-F bonds that characterize PFAS molecules. In experiments Acidimicroium Bacterium - A6 has shown the ability to detoxify waters. Rhizobacer Burkolderia, Nirosomans Nitrospia, and Opitutus can strip fluorine atoms from the central carbon chain in iron mineral-based wetlands. The introduction of a 1:2 gravel magnetite mix can increase the CW's biological ability to degrade PFAS. Several fungi have effectively degraded PFAS in isolated experiments. A primary concern of managing PFAS with CWs is the high concentration of exposure pathways to fauna. Machine learning based neural networks have demonstrated superior efficiency in modeling emerging contaminant removal when there is limited knowledge on chemical specific properties.\n\n== Health equality and sustainability ==",
+      "content": "Constructed wetlands are planted, saturated areas designed to mimic natural processes of human benefit, most commonly waste or stormwater management. Removal of contaminants occurs by processes of plant-uptake, adherence to substrates, microbial degradation, and UV exposure. The recent public concern towards PFAS chemicals has sparked research efforts towards CWs as a treatment method for wastewater, stormwater, and landfill leachate. Granular Activated carbon has the highest average removal rate as a substrate, with biochar (charcoal) as a low cost and environmentally friendlier alternative. Magnetite and quartz sand mixes have been shown to be preferable in certain applications. Overall performance of the wetland is a balance between its hydraulic loading rate and retention time. Beneficial plant species for PFAS uptake are characterized by having a high root surface area, high protein content, are easily harvested, and degrade slowly in nature. Some species are Eichhornia (Pontederia) crassipes, Cyperus alternifolius, and Ceratophyllum demersum. Removal is normally done by harvesting of mature plants.\n\nBiodegradation is limited to the strong C-F bonds that characterize PFAS molecules. In experiments Acidimicroium Bacterium - A6 has shown the ability to detoxify waters. Rhizobacer Burkolderia, Nirosomans Nitrospia, and Opitutus can strip fluorine atoms from the central carbon chain in iron mineral-based wetlands. The introduction of a 1:2 gravel magnetite mix can increase the CW's biological ability to degrade PFAS. Several fungi have effectively degraded PFAS in isolated experiments. A primary concern of managing PFAS with CWs is the high concentration of exposure pathways to fauna. Machine learning based neural networks have demonstrated superior efficiency in modeling emerging contaminant removal when there is limited knowledge on chemical specific properties.",
       "citations": [
         {
           "id": "cite-0",
@@ -1246,7 +1218,7 @@
       "id": "health-equality-and-sustainability",
       "title": "Health equality and sustainability",
       "level": 2,
-      "content": "Sustainability and PFAS have a direct relationship. PFAS contamination persists in the environment, biomagnifying throughout the food chain, water sources, and soil. The contamination leads to a variety of health and environmental problems which have an inequitable effect on developing countries. Developed countries produce most of the PFAS but through many biological processes, the PFAS has migrated into water ways and wells of many underdeveloped communities. The expenses related to addressing healthcare concerns and cleaning PFAS are significant.\n\n== Analytical methods ==",
+      "content": "Sustainability and PFAS have a direct relationship. PFAS contamination persists in the environment, biomagnifying throughout the food chain, water sources, and soil. The contamination leads to a variety of health and environmental problems which have an inequitable effect on developing countries. Developed countries produce most of the PFAS but through many biological processes, the PFAS has migrated into water ways and wells of many underdeveloped communities. The expenses related to addressing healthcare concerns and cleaning PFAS are significant.",
       "citations": [
         {
           "id": "cite-0",
@@ -1274,7 +1246,7 @@
       "id": "analytical-methods",
       "title": "Analytical methods",
       "level": 2,
-      "content": "Analytical methods for PFAS analysis fall into one of two general categories; targeted analysis and non-targeted analysis. Targeted analysis generally use liquid chromatography–mass spectrometry (LC-MS) instruments. Currently, EPA Method 537.1 is approved for use in drinking water and includes 18 PFAS. EPA Method 1633 is undergoing review for use in wastewater, surface water, groundwater, soil, biosolids, sediment, landfill leachate, and fish tissue for 40 PFAS, but is currently being used by many laboratories in the United States. Regulatory limits for PFOA and PFOS set by the US EPA (4 parts-per-trillion) are limited by the capability of methods to detect low level concentrations.\n\nNon-targeted analyses include total organic fluorine (TOF, including variations, e.g., adsorbable organic fluorine, AOF; extractable organic fluorine, EOF), total oxidizable precursor assay, and other methods in development.\n\nDetection technology for PFAS using amplifying fluorescent polymers (AFPs) is attracting attention as a rapid and highly sensitive on-site detection method that can replace conventional mass spectrometry.\n\n== In popular culture ==",
+      "content": "Analytical methods for PFAS analysis fall into one of two general categories; targeted analysis and non-targeted analysis. Targeted analysis generally use liquid chromatography–mass spectrometry (LC-MS) instruments. Currently, EPA Method 537.1 is approved for use in drinking water and includes 18 PFAS. EPA Method 1633 is undergoing review for use in wastewater, surface water, groundwater, soil, biosolids, sediment, landfill leachate, and fish tissue for 40 PFAS, but is currently being used by many laboratories in the United States. Regulatory limits for PFOA and PFOS set by the US EPA (4 parts-per-trillion) are limited by the capability of methods to detect low level concentrations.\n\nNon-targeted analyses include total organic fluorine (TOF, including variations, e.g., adsorbable organic fluorine, AOF; extractable organic fluorine, EOF), total oxidizable precursor assay, and other methods in development.\n\nDetection technology for PFAS using amplifying fluorescent polymers (AFPs) is attracting attention as a rapid and highly sensitive on-site detection method that can replace conventional mass spectrometry.",
       "citations": [
         {
           "id": "cite-0",
@@ -1319,17 +1291,10 @@
       ]
     },
     {
-      "id": "in-popular-culture",
-      "title": "In popular culture",
-      "level": 2,
-      "content": "=== Films ===",
-      "citations": []
-    },
-    {
       "id": "films",
       "title": "Films",
       "level": 3,
-      "content": "* The Devil We Know (2018): a documentary detailing the health dangers of PFAS.\n* Dark Waters (2019): thriller movie based on the corporate defense of PFAS and DuPont.\n\n== See also ==",
+      "content": "* The Devil We Know (2018): a documentary detailing the health dangers of PFAS.\n* Dark Waters (2019): thriller movie based on the corporate defense of PFAS and DuPont.",
       "citations": [
         {
           "id": "cite-0",

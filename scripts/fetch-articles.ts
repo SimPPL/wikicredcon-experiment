@@ -201,13 +201,30 @@ function stripWikitext(raw: string): string {
   // Remove [[File:...]] and [[Image:...]] (can span multiple lines)
   text = text.replace(/\[\[(?:File|Image):[^\]]*\]\]/gi, '');
 
-  // Remove {{template}} blocks — but we do a simple balanced-braces removal.
-  // This handles most single-level templates; deeply nested ones may leave residue.
-  text = text.replace(/\{\{[^{}]*\}\}/g, '');
-  // Second pass for one level of nesting
-  text = text.replace(/\{\{[^{}]*\}\}/g, '');
-  // Third pass
-  text = text.replace(/\{\{[^{}]*\}\}/g, '');
+  // Remove large templates that span multiple lines (Infobox, etc.)
+  // These use balanced {{ ... }} with nested templates inside
+  function removeBalancedBraces(input: string): string {
+    let result = '';
+    let depth = 0;
+    let i = 0;
+    while (i < input.length) {
+      if (input[i] === '{' && i + 1 < input.length && input[i + 1] === '{') {
+        depth++;
+        i += 2;
+      } else if (input[i] === '}' && i + 1 < input.length && input[i + 1] === '}') {
+        depth--;
+        if (depth < 0) depth = 0;
+        i += 2;
+      } else {
+        if (depth === 0) {
+          result += input[i];
+        }
+        i++;
+      }
+    }
+    return result;
+  }
+  text = removeBalancedBraces(text);
 
   // Convert [[link|display text]] -> display text
   text = text.replace(/\[\[[^[\]]*\|([^\]]+)\]\]/g, '$1');
@@ -250,38 +267,27 @@ function parseIntoSections(wikitext: string, articleId: string): ArticleSection[
   interface RawSection {
     title: string;
     level: number;
-    startIdx: number;
-    endIdx?: number;
+    contentStart: number; // index after the heading line
+    headingStart: number; // index where the heading line begins (for boundary)
   }
 
   const rawSections: RawSection[] = [];
   let match: RegExpExecArray | null;
 
   while ((match = headingPattern.exec(wikitext)) !== null) {
-    const level = match[1].length; // number of '=' signs
+    const level = match[1].length;
     const title = match[2];
     rawSections.push({
       title,
       level,
-      startIdx: match.index + match[0].length,
+      headingStart: match.index, // where == Title == starts
+      contentStart: match.index + match[0].length, // after the heading line
     });
   }
 
-  // Set end indices
-  for (let i = 0; i < rawSections.length; i++) {
-    rawSections[i].endIdx = i + 1 < rawSections.length
-      ? rawSections[i + 1].startIdx - (wikitext.lastIndexOf('\n', rawSections[i + 1].startIdx) >= rawSections[i].startIdx
-          ? wikitext.substring(rawSections[i].startIdx, rawSections[i + 1].startIdx).lastIndexOf('\n') + rawSections[i].startIdx
-          : rawSections[i + 1].startIdx)
-      : wikitext.length;
-  }
-
   // Lead section (text before the first heading)
-  const leadEnd = rawSections.length > 0
-    ? wikitext.lastIndexOf('\n', wikitext.indexOf(`=`, rawSections[0].startIdx - 10))
-    : wikitext.length;
-
-  const leadText = wikitext.substring(0, leadEnd > 0 ? leadEnd : (rawSections[0]?.startIdx ?? wikitext.length));
+  const leadEnd = rawSections.length > 0 ? rawSections[0].headingStart : wikitext.length;
+  const leadText = wikitext.substring(0, leadEnd);
   const leadCitations = extractCitations(leadText);
   const leadContent = stripWikitext(leadText);
 
@@ -298,10 +304,12 @@ function parseIntoSections(wikitext: string, articleId: string): ArticleSection[
   // Remaining sections
   for (let i = 0; i < rawSections.length; i++) {
     const raw = rawSections[i];
-    const nextStart = i + 1 < rawSections.length ? rawSections[i + 1].startIdx : wikitext.length;
+    // Content ends at the start of the NEXT heading (not after it)
+    const contentEnd = i + 1 < rawSections.length
+      ? rawSections[i + 1].headingStart
+      : wikitext.length;
 
-    // Find where the heading line ends — raw.startIdx is already past the heading
-    const sectionText = wikitext.substring(raw.startIdx, nextStart);
+    const sectionText = wikitext.substring(raw.contentStart, contentEnd);
 
     // Skip sections that typically aren't article content
     const skipTitles = ['see also', 'references', 'external links', 'further reading', 'notes', 'bibliography'];

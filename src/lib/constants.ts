@@ -17,7 +17,7 @@ export const LS_KEYS = {
 // --- Experiment Config ---
 
 export const EXPERIMENT = {
-  EDIT_DURATION_MS: 12 * 60 * 1000, // 12 minutes
+  EDIT_DURATION_MS: 11 * 60 * 1000, // 10 min editing + 1 min finalize
   ARTICLES: {
     A: 'semaglutide',
     B: 'vaccine-misinfo',
