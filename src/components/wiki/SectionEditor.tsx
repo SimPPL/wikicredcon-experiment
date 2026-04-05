@@ -10,6 +10,7 @@ interface SectionEditorProps {
   editedContent?: string;
   onFocus?: (sectionId: string) => void;
   onBlur?: (sectionId: string) => void;
+  hideEditLink?: boolean;
 }
 
 function renderContentWithCitations(content: string, citations: ArticleSection['citations']) {
@@ -60,6 +61,7 @@ export default function SectionEditor({
   editedContent,
   onFocus,
   onBlur,
+  hideEditLink = false,
 }: SectionEditorProps) {
   const HeadingTag = section.level <= 2 ? 'h2' : 'h3';
 
@@ -95,16 +97,18 @@ export default function SectionEditor({
     const displayContent = editedContent !== undefined ? editedContent : section.content;
     return (
       <div className="mb-4">
-        <span
-          className="wiki-edit-link"
-          role="button"
-          tabIndex={0}
-          onClick={(e) => { e.stopPropagation(); onToggleEdit(section.id); }}
-          onKeyDown={(e) => { if (e.key === 'Enter') onToggleEdit(section.id); }}
-          style={{ float: 'right' }}
-        >
-          [edit]
-        </span>
+        {!hideEditLink && (
+          <span
+            className="wiki-edit-link"
+            role="button"
+            tabIndex={0}
+            onClick={(e) => { e.stopPropagation(); onToggleEdit(section.id); }}
+            onKeyDown={(e) => { if (e.key === 'Enter') onToggleEdit(section.id); }}
+            style={{ float: 'right' }}
+          >
+            [edit]
+          </span>
+        )}
         {renderContentWithCitations(displayContent, section.citations)}
       </div>
     );
@@ -113,15 +117,17 @@ export default function SectionEditor({
   const heading = (
     <HeadingTag>
       {section.title}
-      <span
-        className="wiki-edit-link"
-        role="button"
-        tabIndex={0}
-        onClick={(e) => { e.stopPropagation(); onToggleEdit(section.id); }}
-        onKeyDown={(e) => { if (e.key === 'Enter') onToggleEdit(section.id); }}
-      >
-        {isEditing ? '[close]' : '[edit]'}
-      </span>
+      {!hideEditLink && (
+        <span
+          className="wiki-edit-link"
+          role="button"
+          tabIndex={0}
+          onClick={(e) => { e.stopPropagation(); onToggleEdit(section.id); }}
+          onKeyDown={(e) => { if (e.key === 'Enter') onToggleEdit(section.id); }}
+        >
+          {isEditing ? '[close]' : '[edit]'}
+        </span>
+      )}
     </HeadingTag>
   );
 

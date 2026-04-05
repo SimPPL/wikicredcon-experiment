@@ -33,6 +33,7 @@ export default function EditPage() {
   const [editedContent, setEditedContent] = useState<Record<string, string>>({});
   const [editingSectionId, setEditingSectionId] = useState<string | null>(null);
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [viewMode, setViewMode] = useState<'read' | 'edit'>('edit');
   const [timeRemaining, setTimeRemaining] = useState(EXPERIMENT.EDIT_DURATION_MS);
   const [showTransition, setShowTransition] = useState(false);
   const [showPublishDialog, setShowPublishDialog] = useState(false);
@@ -396,7 +397,7 @@ export default function EditPage() {
       </div>
 
       {/* Wiki Tabs */}
-      <WikiTabs mode="edit" />
+      <WikiTabs mode={viewMode} onModeChange={setViewMode} />
 
       {/* Main Content */}
       <div className="flex">
@@ -421,6 +422,8 @@ export default function EditPage() {
               onContentChange={handleContentChange}
               onSectionFocus={handleSectionFocus}
               onSectionBlur={handleSectionBlur}
+              claims={condition === 'treatment' ? claims : []}
+              readOnly={viewMode === 'read'}
             />
 
             {/* Publish area — mimics Wikipedia's bottom section */}

@@ -2,7 +2,7 @@
   {
     "id": "vax-1",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["government-policy", "lead"],
+    "relevantSectionIds": ["vaccination-causes-idiopathic-conditions", "vaccine-misinfo-lead"],
     "claimText": "RFK Jr. is now running HHS and the CDC just changed its autism-vaccines page. The scientific establishment is finally admitting what parents have known for years.",
     "platform": "twitter",
     "date": "2025-11-20",
@@ -12,7 +12,7 @@
   {
     "id": "vax-2",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["government-policy"],
+    "relevantSectionIds": ["vaccination-causes-idiopathic-conditions", "vaccine-misinfo-lead"],
     "claimText": "The CDC did NOT say vaccines cause autism. They added weasel words to a webpage under political pressure. Every major study still shows no link. Don't fall for this.",
     "platform": "bluesky",
     "date": "2025-11-22",
@@ -42,7 +42,7 @@
   {
     "id": "vax-5",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["responses"],
+    "relevantSectionIds": ["measures-against-misinformation", "communication"],
     "claimText": "Google's prebunking videos actually work. New large-scale study shows people who watched them were significantly better at spotting vaccine misinformation.",
     "platform": "youtube",
     "date": "2025-03-08",
@@ -52,7 +52,7 @@
   {
     "id": "vax-6",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["government-policy"],
+    "relevantSectionIds": ["vaccination-causes-idiopathic-conditions", "impact"],
     "claimText": "Australia and UK issue official statements reaffirming vaccines don't cause autism, directly contradicting the new CDC page. The US is now an outlier on basic public health science.",
     "platform": "twitter",
     "date": "2025-12-05",
@@ -62,7 +62,7 @@
   {
     "id": "vax-7",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["covid19"],
+    "relevantSectionIds": ["list-of-popular-misinformation", "impact"],
     "claimText": "3 years later, long-term COVID vaccine safety data continues to show they are safe and effective. The 'wait and see' crowd has waited — and the data is clear.",
     "platform": "bluesky",
     "date": "2025-08-20",
@@ -72,7 +72,7 @@
   {
     "id": "vax-8",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["responses"],
+    "relevantSectionIds": ["measures-against-misinformation", "communication"],
     "claimText": "Schools should teach media literacy, not just science. Kids who learn to recognize manipulation techniques are much better at resisting anti-vax content than kids who just memorize facts.",
     "platform": "reddit",
     "date": "2025-09-15",
@@ -82,7 +82,7 @@
   {
     "id": "vax-9",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["lead", "history"],
+    "relevantSectionIds": ["vaccine-misinfo-lead", "vaccination-causes-idiopathic-conditions"],
     "claimText": "The Wakefield fraud is 25+ years old but his debunked study still drives vaccine hesitancy worldwide. How is this STILL a thing in 2025?",
     "platform": "twitter",
     "date": "2025-05-12",
@@ -92,7 +92,7 @@
   {
     "id": "vax-10",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["social-media", "responses"],
+    "relevantSectionIds": ["social-media", "measures-against-misinformation"],
     "claimText": "Accuracy nudges work on social media: just asking people 'is this accurate?' before they share reduces vaccine misinformation sharing by 20%. Cheap, scalable, effective.",
     "platform": "bluesky",
     "date": "2025-07-01",
