@@ -1,43 +1,7 @@
 [
   {
     "id": "q1",
-    "question": "What significant change occurred to the CDC website on 'Autism and Vaccines' on November 19, 2025?",
-    "answer": "The CDC website made several false statements contradicting long-standing scientific evidence that supports the absence of a causal link between childhood vaccines and autism.",
-    "relevantPassage": "As of November 19, 2025, under the leadership of HHS Secretary Robert F. Kennedy Jr., the CDC website on 'Autism and Vaccines' was radically changed from its earlier September 2025 version to a new version on November 19, 2025. The revised webpage makes several false statements, contradicting long-standing scientific evidence that supports the absence of a causal link between childhood vaccines and autism.",
-    "category": "temporal",
-    "difficulty": "medium",
-    "sectionId": "CDC as source of vaccine misinformation"
-  },
-  {
-    "id": "q2",
-    "question": "What was the percentage drop in measles vaccine compliance reported by the World Health Organization from 2019 to 2024?",
-    "answer": "3%",
-    "relevantPassage": "The World Health Organization reported that measles vaccine compliance dropped by 3% from 2019 to 2024.",
-    "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "Effects on herd immunity"
-  },
-  {
-    "id": "q3",
-    "question": "What impact did misinformation about COVID-19 vaccines have on vaccination intent in the UK and the US according to a 2021 study?",
-    "answer": "It induced a decline in intent to vaccinate of 6.2 percentage points in the UK and 6.4 percentage points in the US.",
-    "relevantPassage": "A 2021 study found that misinformation about COVID-19 vaccines on social media 'induced a decline in intent [to vaccinate] of 6.2 percentage points in the [United Kingdom] and 6.4 percentage points in the [United States] among those who said they would definitely accept a vaccine'.",
-    "category": "causal",
-    "difficulty": "medium",
-    "sectionId": "Impact"
-  },
-  {
-    "id": "q4",
-    "question": "What was the consequence of the 2015 measles epidemic in California regarding vaccine exemptions?",
-    "answer": "California eliminated non-medical vaccine exemptions.",
-    "relevantPassage": "After the 2015 epidemic, California eliminated non-medical vaccine exemptions.",
-    "category": "causal",
-    "difficulty": "medium",
-    "sectionId": "Vaccine mandate exemptions"
-  },
-  {
-    "id": "q5",
-    "question": "What percentage of parents of children under five reported encountering vaccination misinformation on social media according to a survey by the Royal Society for Public Health?",
+    "question": "What percentage of parents of children under five regularly encounter vaccine misinformation on social media?",
     "answer": "50%",
     "relevantPassage": "A survey by the Royal Society for Public Health found that 50% of the parents of children under the age of five regularly encountered misinformation related to vaccination on social media.",
     "category": "factual",
@@ -45,48 +9,84 @@
     "sectionId": "Extent"
   },
   {
-    "id": "q6",
-    "question": "What did the American College of Obstetricians and Gynecologists state regarding vaccines and fertility?",
-    "answer": "There is no evidence that the vaccine can lead to loss of fertility.",
-    "relevantPassage": "A joint statement of the American College of Obstetricians and Gynecologists, the American Society for Reproductive Medicine, and the Society for Maternal-Fetal Medicine clearly states 'that there is no evidence that the vaccine can lead to loss of fertility'.",
-    "category": "factual",
+    "id": "q2",
+    "question": "When was the incorrect claim that vaccines cause autism first published?",
+    "answer": "1998",
+    "relevantPassage": "The incorrect claim that vaccines cause autism dates to a paper published in 1998 and has since been retracted.",
+    "category": "temporal",
     "difficulty": "medium",
     "sectionId": "Vaccination causes idiopathic conditions"
   },
   {
-    "id": "q7",
-    "question": "What was the role of social media platforms like Facebook and Twitter in combating vaccine misinformation as of 2020?",
-    "answer": "Facebook announced it would no longer allow anti-vaccination advertisements and Twitter would put warning labels on tweets containing disputed information.",
-    "relevantPassage": "In 2020, Facebook announced that it would no longer allow anti-vaccination advertisements on its platform. Twitter announced that it would put a warning label on tweets containing disputed or unsubstantiated rumors about vaccination.",
-    "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Social media"
-  },
-  {
-    "id": "q8",
-    "question": "What is the established scientific consensus regarding the link between vaccines and autism?",
-    "answer": "There is no link between vaccines and autism.",
-    "relevantPassage": "The established scientific consensus is that there is no link between vaccines and autism.",
+    "id": "q3",
+    "question": "What organization classified vaccine-related misinformation into five topic areas?",
+    "answer": "The World Health Organization",
+    "relevantPassage": "The World Health Organization has classified vaccine related misinformation into five topic areas.",
     "category": "factual",
     "difficulty": "easy",
-    "sectionId": "Vaccination causes idiopathic conditions"
+    "sectionId": "List of popular misinformation"
   },
   {
-    "id": "q9",
-    "question": "What was the effect of viewing vaccine misinformation for 5-10 minutes according to research?",
-    "answer": "It decreases a person's intention to vaccinate.",
-    "relevantPassage": "Research has shown that viewing a website containing vaccine misinformation for 5–10 minutes decreases a person's intention to vaccinate.",
+    "id": "q4",
+    "question": "What significant change occurred to the CDC website on 'Autism and Vaccines' on November 19, 2025?",
+    "answer": "It was radically changed to a new version that makes several false statements.",
+    "relevantPassage": "As of November 19, 2025, under the leadership of HHS Secretary Robert F. Kennedy Jr., the CDC website on 'Autism and Vaccines' was radically changed from its earlier September 2025 version to a new version on November 19, 2025.",
+    "category": "temporal",
+    "difficulty": "medium",
+    "sectionId": "CDC as source of vaccine misinformation"
+  },
+  {
+    "id": "q5",
+    "question": "What was the impact of misinformation on vaccine hesitancy in Nigeria in 2003?",
+    "answer": "It led to a five-fold increase in the number of polio cases.",
+    "relevantPassage": "In 2003, rumors about polio vaccines intensified vaccine hesitancy in Nigeria and led to a five-fold increase in the number of polio cases in the country over three years.",
     "category": "causal",
     "difficulty": "medium",
     "sectionId": "Impact"
   },
   {
-    "id": "q10",
-    "question": "What is one of the strategies recommended for healthcare providers to improve vaccine acceptance among hesitant individuals?",
-    "answer": "Establishing long-term communicative relationships with skeptical parents.",
-    "relevantPassage": "The review highlighted how establishing long-term communicative relationships with skeptical parents and emphasizing that the ultimate goal is to ensure the maximum health and safety for all children.",
+    "id": "q6",
+    "question": "What is the only disease that has been successfully eradicated through vaccination?",
+    "answer": "Smallpox",
+    "relevantPassage": "To date, the only disease that has been successfully eradicated is smallpox.",
+    "category": "factual",
+    "difficulty": "hard",
+    "sectionId": "Some vaccine-preventable diseases have been eradicated"
+  },
+  {
+    "id": "q7",
+    "question": "How did the misinformation about COVID-19 vaccines affect public acceptance in China?",
+    "answer": "Public acceptance of Chinese domestic COVID-19 vaccines dropped significantly due to concerns about the possible high cost.",
+    "relevantPassage": "Public acceptance of Chinese domestic COVID-19 vaccines dropped significantly due to concerns about the possible high cost.",
+    "category": "causal",
+    "difficulty": "medium",
+    "sectionId": "Impact"
+  },
+  {
+    "id": "q8",
+    "question": "What was the vaccination rate for measles in the United States during the 2023-2024 academic year?",
+    "answer": "It dropped below the herd immunity threshold of 95%.",
+    "relevantPassage": "In the United States, measles vaccine rates officially dropped below the herd immunity threshold of 95% during the 2023-2024 academic year.",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Physician-patient communication"
+    "sectionId": "Effects on herd immunity"
+  },
+  {
+    "id": "q9",
+    "question": "What strategies are suggested for effectively countering vaccine misinformation?",
+    "answer": "Communicating the scientific consensus that vaccines are safe and effective, using humour to dispel vaccine myths, and providing vaccine misinformation warnings.",
+    "relevantPassage": "Communication strategies to counter vaccine misinformation and effectively improve the intention to vaccinate include communicating the scientific consensus that vaccines are safe and effective, using humour to dispel vaccine myths, and providing vaccine misinformation warnings.",
+    "category": "causal",
+    "difficulty": "hard",
+    "sectionId": "Communication"
+  },
+  {
+    "id": "q10",
+    "question": "What was the outcome of the 2015 measles epidemic in California regarding vaccine exemptions?",
+    "answer": "California eliminated non-medical vaccine exemptions.",
+    "relevantPassage": "After the 2015 epidemic, California eliminated non-medical vaccine exemptions.",
+    "category": "temporal",
+    "difficulty": "medium",
+    "sectionId": "Vaccine mandate exemptions"
   }
 ]

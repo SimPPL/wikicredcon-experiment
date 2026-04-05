@@ -65,24 +65,31 @@ function loadApiKey(): string {
 
 // --------------- Prompts ---------------
 
-const SYSTEM_PROMPT = `You are a question generation expert. Generate factual questions that can be answered using ONLY the provided article text. Follow these rules:
-1. Questions must be answerable from the article text alone
-2. Generate a mix of: factual recall (who/what/when/where), causal reasoning (why/how), and comparison questions
-3. Prioritize questions about RECENT developments, regulatory changes, new research findings, and evolving public discourse — these are the areas most likely to have changed since older versions of the article
-4. Each question should be specific enough to have a definitive answer from the text
-5. Avoid trivial or definitional questions — focus on substantive claims
-6. Include the answer and the relevant passage from the article for each question
+const SYSTEM_PROMPT = `You are a question generation expert creating evaluation questions for a research study. Generate questions answerable ONLY from the provided article text.
 
-Respond in JSON array format:
+STRICT DIVERSITY REQUIREMENTS:
+- Category distribution: exactly 3 factual, 3 causal (why/how), 2 temporal (when/what changed), 2 comparison questions
+- Section coverage: each question MUST come from a DIFFERENT section of the article. Do NOT ask multiple questions from the same section.
+- Difficulty distribution: at least 2 easy, at least 3 medium, at least 2 hard
+- No two questions should ask about the same fact or event
+
+QUESTION QUALITY REQUIREMENTS:
+- Questions must be answerable solely from the article text
+- Prioritize questions about RECENT developments, regulatory changes, new research, and evolving discourse
+- Avoid trivial definitional questions ("What is X?")
+- Each question should test substantive understanding of specific claims in the article
+- Include the exact answer and the relevant passage from the article
+
+Respond as a JSON array:
 [
   {
     "id": "q1",
     "question": "...",
     "answer": "...",
-    "relevantPassage": "exact quote from article that contains the answer",
+    "relevantPassage": "exact quote from article",
     "category": "factual" | "causal" | "temporal" | "comparison",
     "difficulty": "easy" | "medium" | "hard",
-    "sectionId": "section where the answer is found"
+    "sectionId": "title of the section where the answer is found"
   }
 ]`;
 

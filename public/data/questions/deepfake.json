@@ -1,92 +1,92 @@
 [
   {
     "id": "q1",
-    "question": "What significant deepfake event occurred in May 2023 involving Vice President Kamala Harris?",
-    "answer": "A deepfake video of Vice President Kamala Harris supposedly slurring her words and speaking nonsensically went viral on social media.",
-    "relevantPassage": "In May 2023, a deepfake video of Vice President Kamala Harris supposedly slurring her words and speaking nonsensically about today, tomorrow and yesterday went viral on social media.",
-    "category": "temporal",
+    "question": "When was the term 'deepfake' first introduced?",
+    "answer": "The term deepfake originated in late 2017.",
+    "relevantPassage": "The term deepfake originated in late 2017 from a Reddit user named 'deepfakes'.",
+    "category": "factual",
     "difficulty": "easy",
-    "sectionId": "Politics"
+    "sectionId": "Amateur development"
   },
   {
     "id": "q2",
-    "question": "What was the outcome of the deepfake video released in November 2023 involving German Chancellor Olaf Scholz?",
-    "answer": "A deepfake video of the German Chancellor Olaf Scholz announcing a plan to ban the political activities of the AfD was uploaded to YouTube.",
-    "relevantPassage": "In November 2023, a deepfake video of the German Chancellor Olaf Scholz announcing a plan to ban the political activities of the AfD was uploaded to YouTube by the Zentrum für Politische Schönheit (Center of Political Beauty).",
-    "category": "temporal",
+    "question": "What was the primary purpose of the deepfake video created by Joaquin Oliver's parents?",
+    "answer": "To encourage people to support gun safety legislation.",
+    "relevantPassage": "In 2020, a deepfake video of Joaquin Oliver, a victim of the Parkland shooting, was created as part of a gun safety campaign.",
+    "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Politics"
+    "sectionId": "Resurrection"
   },
   {
     "id": "q3",
-    "question": "What legislative action was taken in California regarding deepfakes in October 2019?",
-    "answer": "California governor Gavin Newsom signed into law Assembly Bills No. 602 and No. 730.",
-    "relevantPassage": "On 3 October 2019, California governor Gavin Newsom signed into law Assembly Bills No. 602 and No. 730.",
-    "category": "temporal",
-    "difficulty": "medium",
-    "sectionId": "Legislation"
-  },
-  {
-    "id": "q4",
-    "question": "What was the primary focus of the International Panel on the Information Environment launched in 2023?",
-    "answer": "To develop effective countermeasures to deepfakes and other problems created by perverse incentives in organizations disseminating information via the Internet.",
-    "relevantPassage": "The International Panel on the Information Environment was launched in 2023 as a consortium of over 250 scientists working to develop effective countermeasures to deepfakes and other problems created by perverse incentives in organizations disseminating information via the Internet.",
-    "category": "temporal",
-    "difficulty": "medium",
-    "sectionId": "International Panel on the Information Environment"
-  },
-  {
-    "id": "q5",
-    "question": "How has the use of deepfake technology evolved in political campaigns in India as of March 2024?",
-    "answer": "Deepfake technology was widely employed by political candidates to reach out to voters, allowing them to engage with diverse linguistic communities.",
-    "relevantPassage": "In March 2024, during India's state assembly elections, deepfake technology was widely employed by political candidates to reach out to voters. Many politicians used AI-generated deepfakes created by startup The Indian Deepfaker, founded by Divyendra Singh Jadoun, to translate their speeches into multiple regional languages.",
-    "category": "temporal",
-    "difficulty": "medium",
-    "sectionId": "Politics"
-  },
-  {
-    "id": "q6",
-    "question": "What was the estimated financial loss due to deepfake scams as reported by the Better Business Bureau?",
-    "answer": "Deepfake scams are responsible for an estimated $12 billion in fraud losses globally.",
+    "question": "What is the estimated global fraud loss attributed to deepfake scams as of 2023?",
+    "answer": "$12 billion.",
     "relevantPassage": "According to the Better Business Bureau, deepfake scams are becoming more prevalent. These scams are responsible for an estimated $12 billion in fraud losses globally.",
     "category": "factual",
     "difficulty": "medium",
     "sectionId": "Fraud and scams"
   },
   {
-    "id": "q7",
-    "question": "What was the purpose of the deepfake video created by Joaquin Oliver's parents in 2020?",
-    "answer": "To encourage people to support gun safety legislation and politicians who back it.",
-    "relevantPassage": "In 2020, a deepfake video of Joaquin Oliver, a victim of the Parkland shooting, was created as part of a gun safety campaign. Oliver's parents partnered with nonprofit Change the Ref and McCann Health to produce a video in which Oliver to encourage people to support gun safety legislation and politicians who back do so.",
-    "category": "temporal",
+    "id": "q4",
+    "question": "What technology is primarily used in deepfake creation?",
+    "answer": "Generative adversarial networks (GANs).",
+    "relevantPassage": "Deepfakes utilize this architecture by having a universal encoder which encodes a person in to the latent space... A popular upgrade to this architecture attaches a generative adversarial network to the decoder.",
+    "category": "factual",
+    "difficulty": "hard",
+    "sectionId": "Techniques"
+  },
+  {
+    "id": "q5",
+    "question": "Why have academics raised concerns about deepfakes?",
+    "answer": "They may promote disinformation and hate speech, as well as interfere with elections.",
+    "relevantPassage": "Academics have raised concerns about the potential for deepfakes to promote disinformation and hate speech, as well as interfere with elections.",
+    "category": "causal",
     "difficulty": "medium",
-    "sectionId": "Resurrection"
+    "sectionId": "Lead"
+  },
+  {
+    "id": "q6",
+    "question": "How has deepfake technology evolved in terms of its accessibility?",
+    "answer": "It has become increasingly convincing and available to the public.",
+    "relevantPassage": "From traditional entertainment to gaming, deepfake technology has evolved to be increasingly convincing and available to the public.",
+    "category": "causal",
+    "difficulty": "medium",
+    "sectionId": "Lead"
+  },
+  {
+    "id": "q7",
+    "question": "When did the Defense Advanced Research Projects Agency (DARPA) launch the Media Forensics program?",
+    "answer": "In 2016.",
+    "relevantPassage": "In 2016, the Defense Advanced Research Projects Agency (DARPA) launched the Media Forensics (MediFor) program which was funded through 2020.",
+    "category": "temporal",
+    "difficulty": "easy",
+    "sectionId": "Response from DARPA"
   },
   {
     "id": "q8",
-    "question": "What significant event related to deepfakes occurred in June 2023 involving Ron DeSantis's presidential campaign?",
-    "answer": "A deepfake was used to misrepresent Donald Trump.",
-    "relevantPassage": "In June 2023, in the United States, Ron DeSantis's presidential campaign used a deepfake to misrepresent Donald Trump.",
+    "question": "What significant change occurred in January 2018 regarding deepfake applications?",
+    "answer": "A proprietary desktop application called 'FakeApp' was launched.",
+    "relevantPassage": "In January 2018, a proprietary desktop application called 'FakeApp' was launched.",
     "category": "temporal",
     "difficulty": "medium",
-    "sectionId": "Politics"
+    "sectionId": "Commercial development"
   },
   {
     "id": "q9",
-    "question": "What was the main concern raised by the American Congressional Research Service regarding deepfakes?",
-    "answer": "Deepfakes could be used to blackmail elected officials or those with access to classified information for espionage or influence purposes.",
-    "relevantPassage": "A report by the American Congressional Research Service warned that deepfakes could be used to blackmail elected officials or those with access to classified information for espionage or influence purposes.",
-    "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Blackmail"
+    "question": "How do deepfakes compare to traditional methods of media manipulation?",
+    "answer": "Deepfakes are more difficult to classify as genuine or not due to their advanced technology.",
+    "relevantPassage": "Though fake photos have long been plentiful, faking motion pictures has been more difficult, and the presence of deepfakes increases the difficulty of classifying videos as genuine or not.",
+    "category": "comparison",
+    "difficulty": "hard",
+    "sectionId": "Concerns and countermeasures"
   },
   {
     "id": "q10",
-    "question": "What was the outcome of the 2023 SAG-AFTRA strike in relation to deepfake technology?",
-    "answer": "The use of AI technology was a major issue during the strike, as new techniques enabled the capability of generating and storing a digital likeness to use in place of actors.",
-    "relevantPassage": "The use of AI technology was a major issue in the 2023 SAG-AFTRA strike, as new techniques enabled the capability of generating and storing a digital likeness to use in place of actors.",
-    "category": "temporal",
-    "difficulty": "medium",
-    "sectionId": "Acting"
+    "question": "What distinguishes the Chinese reception of deepfakes from that in the West?",
+    "answer": "The Chinese response has centered on practical regulatory measures rather than anxieties about disinformation and pornography.",
+    "relevantPassage": "the Chinese term does not contain the 'fake' of the English deepfake, and de Seta argues that this cultural context may explain why the Chinese response has centered on practical regulatory measures to 'fraud risks, image rights, economic profit, and ethical imbalances'.",
+    "category": "comparison",
+    "difficulty": "hard",
+    "sectionId": "Social science and humanities approaches to deepfakes"
   }
 ]

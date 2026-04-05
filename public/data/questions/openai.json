@@ -1,92 +1,92 @@
 [
   {
     "id": "q1",
-    "question": "What significant legal action did Elon Musk take against OpenAI and Sam Altman in February 2024?",
-    "answer": "Elon Musk filed a lawsuit against OpenAI and CEO Sam Altman, accusing them of shifting focus from public benefit to profit maximization.",
-    "relevantPassage": "On February 29, 2024, Elon Musk filed a lawsuit against OpenAI and CEO Sam Altman, accusing them of shifting focus from public benefit to profit maximization—a case OpenAI dismissed as 'incoherent' and 'frivolous'.",
+    "question": "Who were the co-chairs of OpenAI at its founding?",
+    "answer": "Sam Altman and Elon Musk",
+    "relevantPassage": "OpenAI was founded as a not for profit organization by Sam Altman, Elon Musk...",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Founding"
+  },
+  {
+    "id": "q2",
+    "question": "What was the total amount pledged in capital at OpenAI's founding?",
+    "answer": "$1 billion",
+    "relevantPassage": "A total of $1 billion in capital was pledged by Sam Altman, Greg Brockman, Elon Musk...",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Founding"
+  },
+  {
+    "id": "q3",
+    "question": "When did OpenAI transition from a non-profit to a capped-profit model?",
+    "answer": "2019",
+    "relevantPassage": "In 2019, OpenAI transitioned from non-profit to 'capped' for-profit...",
     "category": "temporal",
     "difficulty": "medium",
     "sectionId": "Transition from non-profit"
   },
   {
-    "id": "q2",
-    "question": "What was the outcome of OpenAI's countersuit against Elon Musk in April 2024?",
-    "answer": "OpenAI countersued Musk in federal court, alleging that he had engaged in 'bad-faith tactics' to slow the company's progress and seize its innovations for his personal benefit.",
-    "relevantPassage": "On April 9, 2024, OpenAI countersued Musk in federal court, alleging that he had engaged in 'bad-faith tactics' to slow the company's progress and seize its innovations for his personal benefit.",
-    "category": "causal",
-    "difficulty": "medium",
-    "sectionId": "Transition from non-profit"
-  },
-  {
-    "id": "q3",
-    "question": "What was the valuation of OpenAI after its October 2024 capital raise?",
-    "answer": "$157 billion.",
-    "relevantPassage": "In October 2024, OpenAI completed a $6.6 billion capital raise with a $157 billion valuation including investments from Microsoft, Nvidia, and SoftBank.",
-    "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "Finances"
-  },
-  {
     "id": "q4",
-    "question": "What was the primary purpose of the Stargate Project announced by Donald Trump in January 2025?",
-    "answer": "To build an AI infrastructure system in conjunction with the US government.",
-    "relevantPassage": "On January 21, 2025, Donald Trump announced The Stargate Project, a joint venture between OpenAI, Oracle, SoftBank and MGX to build an AI infrastructure system in conjunction with the US government.",
+    "question": "What was the valuation of OpenAI after the $6.6 billion capital raise in October 2024?",
+    "answer": "$157 billion",
+    "relevantPassage": "In October 2024, OpenAI completed a $6.6 billion capital raise with a $157 billion valuation...",
     "category": "factual",
     "difficulty": "medium",
     "sectionId": "Finances"
   },
   {
     "id": "q5",
-    "question": "What significant change did OpenAI announce on October 28, 2025?",
-    "answer": "OpenAI adopted a new PBC corporate structure.",
-    "relevantPassage": "On October 28, 2025, OpenAI announced that it had adopted the new PBC corporate structure after receiving approval from the attorneys general of California and Delaware.",
+    "question": "What change occurred on February 29, 2024, regarding Elon Musk and OpenAI?",
+    "answer": "Elon Musk filed a lawsuit against OpenAI and CEO Sam Altman.",
+    "relevantPassage": "On February 29, 2024, Elon Musk filed a lawsuit against OpenAI and CEO Sam Altman...",
     "category": "temporal",
+    "difficulty": "medium",
+    "sectionId": "Transition from non-profit"
+  },
+  {
+    "id": "q6",
+    "question": "How did OpenAI's partnership with Microsoft change after the 2025 restructuring?",
+    "answer": "Microsoft owns a 27% stake in the for-profit OpenAI Group PBC.",
+    "relevantPassage": "Following OpenAI's 2025 restructuring, Microsoft owns a 27% stake in the for-profit OpenAI Group PBC...",
+    "category": "comparison",
     "difficulty": "medium",
     "sectionId": "2025 restructuring"
   },
   {
-    "id": "q6",
-    "question": "How much did OpenAI raise in its April 2025 funding round, and what was its post-money valuation?",
-    "answer": "$40 billion at a $300 billion post-money valuation.",
-    "relevantPassage": "In April 2025, OpenAI raised $40 billion at a $300 billion post-money valuation, which was the highest-value private technology deal in history.",
-    "category": "factual",
+    "id": "q7",
+    "question": "What was the primary reason for OpenAI's transition to a capped-profit model?",
+    "answer": "To legally attract investment from venture funds.",
+    "relevantPassage": "According to OpenAI, the capped-profit model allows OpenAI Global, LLC to legally attract investment from venture funds...",
+    "category": "causal",
     "difficulty": "medium",
-    "sectionId": "Finances"
+    "sectionId": "Transition from non-profit"
   },
   {
-    "id": "q7",
-    "question": "What was the outcome of the wrongful death lawsuit filed against OpenAI in August 2025?",
-    "answer": "The lawsuit alleged that ChatGPT's conversations contributed to a teenager's death due to inadequate safeguards.",
-    "relevantPassage": "In August 2025, the parents of a 16-year-old boy who died by suicide filed a wrongful death lawsuit against OpenAI (and CEO Sam Altman), alleging that months of conversations with ChatGPT about mental health and methods of self-harm contributed to their son's death and that safeguards were inadequate for minors.",
+    "id": "q8",
+    "question": "What was the outcome of the lawsuit filed by the parents of a 16-year-old boy in August 2025?",
+    "answer": "They filed a wrongful death lawsuit against OpenAI.",
+    "relevantPassage": "In August 2025, the parents of a 16-year-old boy who died by suicide filed a wrongful death lawsuit against OpenAI...",
     "category": "factual",
     "difficulty": "hard",
     "sectionId": "Wrongful-death lawsuits over ChatGPT safety (2025)"
   },
   {
-    "id": "q8",
-    "question": "What was the primary concern raised by OpenAI's global affairs chief regarding AI regulation in September 2024?",
-    "answer": "Endorsing the UK's 'smart' AI regulation.",
-    "relevantPassage": "In September 2024, OpenAI's global affairs chief endorsed the UK's 'smart' AI regulation during testimony to a House of Lords committee.",
-    "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Governance and legal issues"
-  },
-  {
     "id": "q9",
-    "question": "What was the purpose of the superalignment project launched by OpenAI in July 2023?",
-    "answer": "To determine how to align future superintelligent systems.",
-    "relevantPassage": "In July 2023, OpenAI launched the superalignment project, aiming within four years to determine how to align future superintelligent systems.",
-    "category": "causal",
-    "difficulty": "medium",
-    "sectionId": "Alignment"
+    "question": "What significant change occurred in OpenAI's governance in November 2023?",
+    "answer": "Sam Altman was removed as CEO.",
+    "relevantPassage": "On November 17, 2023, Sam Altman was removed as CEO when its board of directors cited a lack of confidence in him.",
+    "category": "temporal",
+    "difficulty": "hard",
+    "sectionId": "Firing of Altman"
   },
   {
     "id": "q10",
-    "question": "What was the result of the FTC's investigation into OpenAI's data security practices in July 2023?",
-    "answer": "The FTC issued a civil investigative demand to OpenAI to investigate whether the company's data security and privacy practices were unfair or harmed consumers.",
-    "relevantPassage": "In July 2023, the FTC issued a civil investigative demand to OpenAI to investigate whether the company's data security and privacy practices to develop ChatGPT were unfair or harmed consumers.",
-    "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Governance and legal issues"
+    "question": "What was the main criticism regarding OpenAI's collaboration with Sama?",
+    "answer": "Outsourcing the annotation of data sets used to train AI models.",
+    "relevantPassage": "OpenAI has been criticized for outsourcing the annotation of data sets to Sama, a company based in San Francisco...",
+    "category": "causal",
+    "difficulty": "hard",
+    "sectionId": "Corporate partnerships"
   }
 ]

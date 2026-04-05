@@ -1,92 +1,92 @@
 [
   {
     "id": "q1",
-    "question": "What did Microsoft researchers conclude about GPT-4 in 2023?",
-    "answer": "They concluded that GPT-4 could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system.",
-    "relevantPassage": "In 2023, Microsoft researchers published a detailed evaluation of GPT-4. They concluded: \"Given the breadth and depth of GPT-4's capabilities, we believe that it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system.\"",
+    "question": "What is artificial general intelligence (AGI) defined as?",
+    "answer": "A theoretical type of artificial intelligence that matches or surpasses human capabilities across virtually all cognitive tasks.",
+    "relevantPassage": "Artificial general intelligence (AGI) is a theoretical type of artificial intelligence that matches or surpasses human capabilities across virtually all cognitive tasks.",
     "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Modern artificial general intelligence research"
+    "difficulty": "easy",
+    "sectionId": "Lead"
   },
   {
     "id": "q2",
-    "question": "What significant development in AGI testing was demonstrated by MIT researchers in December 2025?",
-    "answer": "They demonstrated a 'speech-to-reality' system that could construct furniture from modular components based on natural language instructions.",
-    "relevantPassage": "In December 2025, MIT researchers demonstrated a 'speech-to-reality' system combining large language models with vision-language models and robotic assembly: a user says 'I want a simple stool' and a robotic arm constructs the furniture from modular components within five minutes, using generative AI to reason about geometry, function, and assembly sequence from natural language alone.",
+    "question": "In what year did the first summer school on AGI take place?",
+    "answer": "2009",
+    "relevantPassage": "The first summer school on AGI was organized in Xiamen, China in 2009 by the Xiamen university's Artificial Brain Laboratory and OpenCog.",
     "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Ikea test"
+    "difficulty": "easy",
+    "sectionId": "Modern artificial general intelligence research"
   },
   {
     "id": "q3",
-    "question": "What percentage of the U.S. workforce could have at least 10% of their work tasks affected by LLMs, according to OpenAI's 2023 estimate?",
-    "answer": "80%",
-    "relevantPassage": "Researchers from OpenAI estimated in 2023 that '80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of LLMs, while around 19% of workers may see at least 50% of their tasks impacted.'",
+    "question": "What is the Ikea test designed to assess?",
+    "answer": "An AI's ability to assemble an Ikea flat-pack furniture product.",
+    "relevantPassage": "The 'Ikea test', also known as the Flat Pack Furniture Test, involves an AI controls a robot which attempts to assemble a Ikea flat-pack furniture product after having been shown the parts and instructions.",
     "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "Mass unemployment"
+    "difficulty": "medium",
+    "sectionId": "Tests for human-level AGI"
   },
   {
     "id": "q4",
-    "question": "What did Kirk-Giannini and Goldstein argue in 2023 regarding large language models and the Turing test?",
-    "answer": "They argued that while large language models were approaching the threshold of passing the Turing test, 'imitation' is not synonymous with 'intelligence'.",
-    "relevantPassage": "In 2023, Kirk-Giannini and Goldstein argued that while large language models were approaching the threshold of passing the Turing test, 'imitation' is not synonymous with 'intelligence'.",
+    "question": "Who proposed the Turing test?",
+    "answer": "Alan Turing",
+    "relevantPassage": "The Turing test was proposed by Alan Turing in his 1950 paper 'Computing Machinery and Intelligence'.",
     "category": "factual",
     "difficulty": "medium",
     "sectionId": "Turing test"
   },
   {
     "id": "q5",
-    "question": "What was the outcome of the 2025 Turing-test study involving GPT-4.5?",
-    "answer": "GPT-4.5 was judged to be the human in 73% of five-minute text conversations, surpassing the 67% humanness rate of real confederates.",
-    "relevantPassage": "A 2025 pre‑registered, three‑party Turing‑test study by Cameron R. Jones and Benjamin K. Bergen showed that GPT-4.5 was judged to be the human in 73% of five‑minute text conversations—surpassing the 67% humanness rate of real confederates and meeting the researchers' criterion for having passed the test.",
+    "question": "What percentage of judges did Eugene Goostman reportedly convince he was human during the Turing Test event?",
+    "answer": "33%",
+    "relevantPassage": "In 2014, a chatbot named Eugene Goostman, designed to imitate a 13-year-old Ukrainian boy, reportedly passed a Turing Test event by convincing 33% of judges that it was human.",
     "category": "factual",
     "difficulty": "medium",
     "sectionId": "Turing test"
   },
   {
     "id": "q6",
-    "question": "What did the 2023 joint statement by the CEOs of Google DeepMind, OpenAI, and Anthropic assert?",
-    "answer": "They asserted that 'Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.'",
-    "relevantPassage": "In 2023, the CEOs of Google DeepMind, OpenAI and Anthropic, along with other industry leaders and researchers, issued a joint statement asserting that 'Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.'",
+    "question": "What significant prediction did Microsoft researchers make about GPT-4 in 2023?",
+    "answer": "They concluded that it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system.",
+    "relevantPassage": "In 2023, Microsoft researchers published a detailed evaluation of GPT-4. They concluded: 'Given the breadth and depth of GPT-4's capabilities, we believe that it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system.'",
     "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Risk of loss of control and human extinction"
+    "difficulty": "hard",
+    "sectionId": "Feasibility"
   },
   {
     "id": "q7",
-    "question": "What did a 2023 study report about GPT-4's performance on the Torrance tests of creative thinking?",
-    "answer": "The study reported that GPT-4 outperforms 99% of humans on the Torrance tests of creative thinking.",
-    "relevantPassage": "Another study in 2023 reported that GPT-4 outperforms 99% of humans on the Torrance tests of creative thinking.",
+    "question": "What was the outcome of the 2025 pre-registered Turing-test study involving GPT-4.5?",
+    "answer": "GPT-4.5 was judged to be the human in 73% of five-minute text conversations.",
+    "relevantPassage": "A 2025 pre‑registered, three‑party Turing‑test study by Cameron R. Jones and Benjamin K. Bergen showed that GPT-4.5 was judged to be the human in 73% of five‑minute text conversations—surpassing the 67% humanness rate of real confederates and meeting the researchers' criterion for having passed the test.",
     "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Feasibility"
+    "difficulty": "hard",
+    "sectionId": "Turing test"
   },
   {
     "id": "q8",
-    "question": "What capabilities did Figure AI's Figure 01 humanoid demonstrate in January 2024?",
-    "answer": "It learned to operate a Keurig coffee machine autonomously after watching video demonstrations.",
-    "relevantPassage": "In January 2024, Figure AI's Figure 01 humanoid learned to operate a Keurig coffee machine autonomously after watching video demonstrations, using end-to-end neural networks to translate visual input into motor actions.",
+    "question": "What did the 2023 report by Stuart Armstrong and Kaj Sotala analyze?",
+    "answer": "95 predictions made between 1950 and 2012 on when human-level AI will come about.",
+    "relevantPassage": "A report by Stuart Armstrong and Kaj Sotala of the Machine Intelligence Research Institute found that 'over [a] 60-year time frame there is a strong bias towards predicting the arrival of human-level AI as between 15 and 25 years from the time the prediction was made'. They analyzed 95 predictions made between 1950 and 2012 on when human-level AI will come about.",
     "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Coffee test"
+    "difficulty": "hard",
+    "sectionId": "Feasibility"
   },
   {
     "id": "q9",
-    "question": "What did the 2023 report by Stuart Armstrong and Kaj Sotala analyze?",
-    "answer": "It analyzed 95 predictions made between 1950 and 2012 on when human-level AI will come about.",
-    "relevantPassage": "A report by Stuart Armstrong and Kaj Sotala of the Machine Intelligence Research Institute found that 'over [a] 60-year time frame there is a strong bias towards predicting the arrival of human-level AI as between 15 and 25 years from the time the prediction was made'. They analyzed 95 predictions made between 1950 and 2012 on when human-level AI will come about.",
+    "question": "What is the FurnitureBench benchmark used for?",
+    "answer": "It provides a standardized real-world furniture assembly benchmark with over 200 hours of demonstration data for training and evaluating autonomous assembly systems.",
+    "relevantPassage": "The FurnitureBench benchmark, published in the International Journal of Robotics Research in 2025, now provides a standardized real-world furniture assembly benchmark with over 200 hours of demonstration data for training and evaluating autonomous assembly systems.",
     "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Feasibility"
+    "difficulty": "hard",
+    "sectionId": "Ikea test"
   },
   {
     "id": "q10",
-    "question": "What did the 2023 article by Blaise Agüera y Arcas and Peter Norvig argue about frontier models?",
-    "answer": "They argued that frontier models had already achieved a significant level of general intelligence.",
-    "relevantPassage": "Blaise Agüera y Arcas and Peter Norvig wrote in 2023 the article 'Artificial General Intelligence Is Already Here', arguing that frontier models had already achieved a significant level of general intelligence.",
+    "question": "What is the expected impact of AGI on public health according to the article?",
+    "answer": "AGI could accelerate medical research, notably against cancer, and democratize access to rapid, high-quality medical diagnostics.",
+    "relevantPassage": "For example, in public health, AGI could accelerate medical research, notably against cancer. It could take care of the elderly, and democratize access to rapid, high-quality medical diagnostics.",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Feasibility"
+    "sectionId": "Benefits"
   }
 ]
