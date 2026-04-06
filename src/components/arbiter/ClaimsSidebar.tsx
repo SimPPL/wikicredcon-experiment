@@ -94,7 +94,6 @@ export default function ClaimsSidebar({
       >
         These claims are sourced from social media and <strong>need not be accurate</strong>.
         They are shown because they are prominent and relate to content in this article.
-        Use them to guide your edits, not as reliable sources.
       </div>
 
       {/* Summary stats */}

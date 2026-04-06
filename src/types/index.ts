@@ -166,6 +166,14 @@ export interface Article {
 
 export type Platform = 'twitter' | 'reddit' | 'youtube' | 'bluesky';
 
+export interface ClaimSource {
+  title: string;
+  url: string;
+  publisher?: string;
+  type: 'fact-check' | 'news' | 'wikipedia' | 'academic' | 'other';
+  snippet?: string;
+}
+
 export interface ArbiterClaim {
   id: string;
   articleId: string;
@@ -173,14 +181,22 @@ export interface ArbiterClaim {
   claimText: string;
   platform: Platform;
   sourceUrl?: string;
+  sourceAuthor?: string;
   date: string;
   engagement: {
     likes?: number;
     shares?: number;
     comments?: number;
     views?: number;
+    total?: number;
   };
   topic: string;
+  postText?: string;
+  confidence?: 'high' | 'medium' | 'low';
+  // Linked sources from Arbiter analysis
+  sources?: ClaimSource[];
+  factChecks?: ClaimSource[];
+  wikipediaRefs?: ClaimSource[];
 }
 
 // --- Survey ---
