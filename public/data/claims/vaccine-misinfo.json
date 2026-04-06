@@ -1,293 +1,1055 @@
 [
   {
-    "groupId": "group-1",
-    "groupTitle": "Misinformation about Vaccines and Autism",
-    "groupSummary": "This group focuses on claims regarding the misinformation linking vaccines to autism, particularly in relation to changes in CDC messaging.",
+    "groupId": "vaccine-misinfo-g1",
+    "groupTitle": "List of popular misinformation",
+    "groupSummary": "Claims from social media discourse related to \"List of popular misinformation\"",
     "relevantSectionIds": [
-      "list-of-popular-misinformation",
+      "list-of-popular-misinformation"
+    ],
+    "claimCount": 12,
+    "totalEngagement": 9453,
+    "claims": [
+      {
+        "id": "vaccine-misinfo-c1",
+        "claimText": "The short movie is an adaptation of a true story about misinformation surrounding a COVID-19 vaccine from four years ago.",
+        "sourceAuthor": "cheryl ferenna",
+        "platform": "youtube",
+        "engagement": 56,
+        "postExcerpt": "• Group identity Cheryl Ferenna Livbertha - 210110253030 Salvya Bilqis Novina - 210110253043 Saskiasya Halima Quinathaya - 210110253051 Nasya Nawra Fazila - 210110253055 • Brief description This short movie is an adaptation of a true story about misinformation surrounding a COVID-19 vaccine from 4 y"
+      },
+      {
+        "id": "vaccine-misinfo-c2",
+        "claimText": "Misinformation about the COVID-19 vaccine spread rapidly and widely across the internet four years ago.",
+        "sourceAuthor": "cheryl ferenna",
+        "platform": "youtube",
+        "engagement": 56,
+        "postExcerpt": "• Group identity Cheryl Ferenna Livbertha - 210110253030 Salvya Bilqis Novina - 210110253043 Saskiasya Halima Quinathaya - 210110253051 Nasya Nawra Fazila - 210110253055 • Brief description This short movie is an adaptation of a true story about misinformation surrounding a COVID-19 vaccine from 4 y"
+      },
+      {
+        "id": "vaccine-misinfo-c3",
+        "claimText": "The CDC website contains misinformation about vaccines, according to the post's characterization of RFK Jr.'s actions",
+        "sourceAuthor": "zanyprogressive",
+        "platform": "twitter",
+        "engagement": 22,
+        "postExcerpt": "RFK Jr. wants you to know he’s personally responsible for misinformation about vaccines on CDC website: He told the New York Times there’s no proof that vaccines don’t cause autism, which is a lie. #Antivaxxers #cdc #health"
+      },
+      {
+        "id": "vaccine-misinfo-c4",
+        "claimText": "On December 3, 2021, ABC News reported a study claiming that Facebook was failing to tackle COVID-19 misinformation posted by a prominent anti-vaccine group.",
+        "sourceAuthor": "ThisDayinCovid",
+        "platform": "twitter",
+        "engagement": 199,
+        "postExcerpt": "On this day in COVID history, December 3, 2021: Facebook 'failing' to tackle COVID-19 misinformation posted by prominent anti-vaccine group, study claims Source: ABC News"
+      },
+      {
+        "id": "vaccine-misinfo-c5",
+        "claimText": "The Editorial Board said misinformation about hepatitis B and the hepatitis B shot has grown rampant in recent years",
+        "sourceAuthor": "PostOpinions",
+        "platform": "twitter",
+        "engagement": 356,
+        "postExcerpt": "\"Misinformation about Hepatitis B and the shot has grown rampant in recent years, largely thanks to anti-vaccine activists such as Kennedy,\" the Editorial Board writes."
+      },
+      {
+        "id": "vaccine-misinfo-c6",
+        "claimText": "The Editorial Board said anti-vaccine activists such as Robert F. Kennedy Jr. have contributed to the growth of misinformation about hepatitis B and the hepatitis B shot in recent years",
+        "sourceAuthor": "PostOpinions",
+        "platform": "twitter",
+        "engagement": 356,
+        "postExcerpt": "\"Misinformation about Hepatitis B and the shot has grown rampant in recent years, largely thanks to anti-vaccine activists such as Kennedy,\" the Editorial Board writes."
+      },
+      {
+        "id": "vaccine-misinfo-c7",
+        "claimText": "Governor Maura Healey warned of misinformation about the childhood vaccine schedule ahead of a federal vaccine advisers' meeting on Thursday",
+        "sourceAuthor": "BostonGlobe",
+        "platform": "twitter",
+        "engagement": 3210,
+        "postExcerpt": "Governor Maura Healey warned of misinformation about the childhood vaccine schedule, especially the infant hepatitis B vaccine, ahead of a pivotal meeting of federal vaccine advisors on Thursday."
+      },
+      {
+        "id": "vaccine-misinfo-c8",
+        "claimText": "Governor Maura Healey specifically warned about misinformation concerning the infant hepatitis B vaccine",
+        "sourceAuthor": "BostonGlobe",
+        "platform": "twitter",
+        "engagement": 3210,
+        "postExcerpt": "Governor Maura Healey warned of misinformation about the childhood vaccine schedule, especially the infant hepatitis B vaccine, ahead of a pivotal meeting of federal vaccine advisors on Thursday."
+      },
+      {
+        "id": "vaccine-misinfo-c9",
+        "claimText": "Public health experts are trying to prebunk misinformation about vaccines ahead of the Advisory Committee on Immunization Practices meeting on 2025-12-04",
+        "sourceAuthor": "CIDRAP",
+        "platform": "twitter",
+        "engagement": 1368,
+        "postExcerpt": "Public health experts try to ‘prebunk’ misinformation about vaccines ahead of CDC vaccine meeting today The meeting of the Advisory Committee on Immunization Practices will likely be filled with misinformation and vaccine myths, experts warn."
+      },
+      {
+        "id": "vaccine-misinfo-c10",
+        "claimText": "Dr. Robbie Goldstein has spent his career as an infectious disease specialist",
+        "sourceAuthor": "MassLive",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Massachusetts Public Health Commissioner Dr. Robbie Goldstein is a Tufts University-trained physician who’s spent his entire career as an infectious disease specialist. He’s on the infectious disease faculty at MGH and teaches at Harvard Medical School. He did a two-year tour at the Centers for Dise"
+      },
+      {
+        "id": "vaccine-misinfo-c11",
+        "claimText": "Amy Middleman said there had been much misinformation about the vaccine since the previous day and that it takes a long time to go through it",
+        "sourceAuthor": "ChildrenNeedUs_",
+        "platform": "twitter",
+        "engagement": 78,
+        "postExcerpt": "Amy Middleman (CDC HepB researcher): “there’s been much misinformation about the vaccine since yesterday and it takes a long time to go through it.” (paraphrase.) Dr. Malone silenced her mic before she completed her statement. #ACIP"
+      },
+      {
+        "id": "vaccine-misinfo-c12",
+        "claimText": "A lawyer with ties to Kennedy sparked outcry over vaccine misinformation at a CDC advisory meeting",
+        "sourceAuthor": "ArthurCaplan",
+        "platform": "twitter",
+        "engagement": 542,
+        "postExcerpt": "Lawyer with ties to Kennedy sparks outcry over vaccine misinformation at CDC advisory meeting. A total farce"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Beyond emotions: Social cognitive predictors of COVID-19 vaccination intentions before and after vaccine roll-out",
+        "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371%2Fjournal.pgph.0005668",
+        "publisher": "PLOS Global Public Health",
+        "type": "news",
+        "snippet": "Examines drivers of COVID-19 vaccination intentions before (Apr-Jun 2020) and after rollout"
+      },
+      {
+        "title": "Misinformation about vaccines is spreading rapidly | Opinion letters",
+        "url": "https://www.naplesnews.com/story/opinion/2025/12/21/misinformation-about-vaccines-is-spreading-rapidly-opinion-letters/87783444007/",
+        "publisher": "Naples News",
+        "type": "news",
+        "snippet": "Opinion letters expressing concern that vaccine misinformation is spreading rapidly"
+      },
+      {
+        "title": "Health secretary RFK Jr appoints two vaccine skeptics to CDC advisory panel",
+        "url": "https://www.theguardian.com/us-news/2026/jan/14/rfk-cdc-vaccine-advisory-panel",
+        "publisher": "The Guardian",
+        "type": "news",
+        "snippet": "RFK Jr appointed two vaccine-skeptical physicians to the CDC’s ACIP advisory committee."
+      },
+      {
+        "title": "The United States CDC has abandoned science in its new advice about vaccines and autism",
+        "url": "https://medicalxpress.com/news/2025-12-states-cdc-abandoned-science-advice.html",
+        "publisher": "Medical Xpress",
+        "type": "news",
+        "snippet": "Claims CDC revised autism/vaccine guidance wording, alleging evidence suppression."
+      },
+      {
+        "title": "CDC formally stops recommending hepatitis B vaccines for newborns",
+        "url": "https://www.nbcnews.com/health/health-news/cdc-stops-recommending-hepatitis-b-vaccines-newborns-rcna248035",
+        "publisher": "NBC News",
+        "type": "news",
+        "snippet": "CDC’s policy shifted: advice became targeted for certain newborns rather than blanket recommendations."
+      },
+      {
+        "title": "Many States Say They’ll Defy RFK Jr.’s Changes to Hepatitis B Vaccination",
+        "url": "https://www.wired.com/story/many-states-say-theyll-defy-rfk-jrs-changes-to-hepatitis-b-vaccination/",
+        "publisher": "WIRED",
+        "type": "news",
+        "snippet": "States plan to continue universal newborn hep B vaccination despite new guidance from an ACIP panel handpicked by RFK Jr."
+      },
+      {
+        "title": "Lawsuit contests RFK Jr.’s new vaccine guidance for children",
+        "url": "https://www.bostonglobe.com/2026/01/19/nation/public-health-groups-lawsuit-rfk-vaccines/",
+        "publisher": "The Boston Globe",
+        "type": "news",
+        "snippet": "Public health groups sue over CDC decision narrowing recommended childhood vaccines; alleges improper influence."
+      },
+      {
+        "title": "RFK Jr.'s child vaccine schedule changes decried by experts",
+        "url": "https://www.inquirer.com/health/vaccine-schedule-changes-cdc-paul-offit-20260105.html",
+        "publisher": "The Philadelphia Inquirer",
+        "type": "news",
+        "snippet": "Experts say sweeping changes reduce recommended childhood immunizations and increase preventable illness risk."
+      },
+      {
+        "title": "RFK Jr. Removes 6 Childhood Vaccines From Recommendations. Here's Which Ones And Why",
+        "url": "https://www.iflscience.com/major-revamp-of-us-childhood-vaccine-schedule-under-rfk-jrs-leadership-heres-what-to-know-82122",
+        "publisher": "IFLScience",
+        "type": "news",
+        "snippet": "Describes new childhood schedule under RFK Jr. and warns about confusion/mistrust."
+      },
+      {
+        "title": "We Are Living Through The Worst Measles Outbreak In 30 Years - But RFK Jr. Won't Tell You That",
+        "url": "https://www.huffpost.com/entry/measles-outbreak-rfk-jr-anti-vaccine_n_6945ca49e4b00a59b4a6adab",
+        "publisher": "HuffPost",
+        "type": "news",
+        "snippet": "Says HHS plans childhood vaccine changes aligning with Denmark; frames RFK Jr. as a skeptic."
+      }
+    ],
+    "factChecks": [
+      {
+        "title": "Lawyer with ties to Kennedy sparks outcry over vaccine misinformation at CDC advisory meeting",
+        "url": "https://www.nbcnews.com/health/kids-health/lawyer-rfk-jr-vaccine-misinformation-cdc-panel-rcna247607",
+        "publisher": "NBC News",
+        "type": "fact-check",
+        "snippet": "An anti-vaccine lawyer, Aaron Siri, spoke at a CDC vaccine advisory panel meeting."
+      }
+    ]
+  },
+  {
+    "groupId": "vaccine-misinfo-g2",
+    "groupTitle": "Vaccine components contain forbidden additives",
+    "groupSummary": "Claims from social media discourse related to \"Vaccine components contain forbidden additives\"",
+    "relevantSectionIds": [
+      "vaccine-components-contain-forbidden-additives"
+    ],
+    "claimCount": 35,
+    "totalEngagement": 3596,
+    "claims": [
+      {
+        "id": "vaccine-misinfo-c16",
+        "claimText": "The CDC has changed the wording on its vaccines and autism page at https://www.cdc.gov/vaccine-safety/about/autism.html",
+        "sourceAuthor": "George Bond",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "The CDC has quietly changed its vaccines & autism page https://www.cdc.gov/vaccine-safety/about/autism.html — softening decades of scientific clarity. This is a warning sign for every healthcare system, including the NHS. I’m George, a UK pharmacist, and today we’re looking at what happens when poli"
+      },
+      {
+        "id": "vaccine-misinfo-c17",
+        "claimText": "The CDC's wording change on its vaccines and autism page is described as softening decades of scientific clarity",
+        "sourceAuthor": "George Bond",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "The CDC has quietly changed its vaccines & autism page https://www.cdc.gov/vaccine-safety/about/autism.html — softening decades of scientific clarity. This is a warning sign for every healthcare system, including the NHS. I’m George, a UK pharmacist, and today we’re looking at what happens when poli"
+      },
+      {
+        "id": "vaccine-misinfo-c18",
+        "claimText": "A CDC panel is weighing changes that could limit access to the hepatitis B vaccine for newborns",
+        "sourceAuthor": "KFFHealthNews",
+        "platform": "twitter",
+        "engagement": 975,
+        "postExcerpt": "A doctor in Alaska once watched the hepatis B virus take children’s lives, until the vaccine for newborns made those tragedies preventable. Now a CDC panel is weighing changes that could limit access to the shot and fuel misinformation. @JackieFortier"
+      },
+      {
+        "id": "vaccine-misinfo-c19",
+        "claimText": "The hepatitis B vaccine for newborns has made tragedies from hepatitis B infections in children preventable",
+        "sourceAuthor": "KFFHealthNews",
+        "platform": "twitter",
+        "engagement": 975,
+        "postExcerpt": "A doctor in Alaska once watched the hepatis B virus take children’s lives, until the vaccine for newborns made those tragedies preventable. Now a CDC panel is weighing changes that could limit access to the shot and fuel misinformation. @JackieFortier"
+      },
+      {
+        "id": "vaccine-misinfo-c20",
+        "claimText": "A years-long campaign to falsely link vaccines and autism evolved from an online conspiracy to federal guidance",
+        "sourceAuthor": "MorrisMinute",
+        "platform": "twitter",
+        "engagement": 30,
+        "postExcerpt": "A years-long campaign to falsely link vaccines and autism has evolved from online conspiracy to federal guidance — reshaping the CDC, weakening disease surveillance, and endangering public health."
+      },
+      {
+        "id": "vaccine-misinfo-c21",
+        "claimText": "RFK Jr. told The New York Times that there is no proof that vaccines do not cause autism",
+        "sourceAuthor": "zanyprogressive",
+        "platform": "twitter",
+        "engagement": 22,
+        "postExcerpt": "RFK Jr. wants you to know he’s personally responsible for misinformation about vaccines on CDC website: He told the New York Times there’s no proof that vaccines don’t cause autism, which is a lie. #Antivaxxers #cdc #health"
+      },
+      {
+        "id": "vaccine-misinfo-c22",
+        "claimText": "A new CDC claim suggests that vaccines cannot be definitively ruled out as a cause of autism",
+        "sourceAuthor": "complainthub_in",
+        "platform": "twitter",
+        "engagement": 7,
+        "postExcerpt": "Public health experts are expressing significant concerns about widespread confusion and potential misinformation stemming from a new CDC claim suggesting that vaccines cannot be definitively ruled out as an autism cause."
+      },
+      {
+        "id": "vaccine-misinfo-c23",
+        "claimText": "The CDC said vaccines cannot be ruled out as a cause of autism",
+        "sourceAuthor": "NUGlobalNews",
+        "platform": "twitter",
+        "engagement": 26,
+        "postExcerpt": "The CDC’s new claim that vaccines cannot be ruled out as a cause of autism will lead to years of confusion and vaccine refusal, @Northeastern public health experts say."
+      },
+      {
+        "id": "vaccine-misinfo-c24",
+        "claimText": "Vaccines are safe",
+        "sourceAuthor": "Justice Rounds with Dr. Jimmell",
+        "platform": "youtube",
+        "engagement": 17,
+        "postExcerpt": "Join me on this episode where I dispel common myths about vaccines, defend families with herd immunity and demand justice by ensuring accountability from our leaders and for ourselves to push back against harmful rhetoric about vaccine safety. Vaccines are safe as evidenced by decades of research an"
+      },
+      {
+        "id": "vaccine-misinfo-c25",
+        "claimText": "Vaccines save lives",
+        "sourceAuthor": "Justice Rounds with Dr. Jimmell",
+        "platform": "youtube",
+        "engagement": 17,
+        "postExcerpt": "Join me on this episode where I dispel common myths about vaccines, defend families with herd immunity and demand justice by ensuring accountability from our leaders and for ourselves to push back against harmful rhetoric about vaccine safety. Vaccines are safe as evidenced by decades of research an"
+      },
+      {
+        "id": "vaccine-misinfo-c26",
+        "claimText": "Vaccines do not cause autism",
+        "sourceAuthor": "PC_PublicHealth",
+        "platform": "twitter",
+        "engagement": 20,
+        "postExcerpt": "Harmful myths suggesting that vaccines cause autism sow fear and distrust in vaccines, ultimately jeopardizing the great progress we’ve made in preventing serious childhood diseases. Read our full fact-check to learn more:"
+      },
+      {
+        "id": "vaccine-misinfo-c27",
+        "claimText": "Claims that vaccines cause autism can sow fear and distrust in vaccines",
+        "sourceAuthor": "PC_PublicHealth",
+        "platform": "twitter",
+        "engagement": 20,
+        "postExcerpt": "Harmful myths suggesting that vaccines cause autism sow fear and distrust in vaccines, ultimately jeopardizing the great progress we’ve made in preventing serious childhood diseases. Read our full fact-check to learn more:"
+      },
+      {
+        "id": "vaccine-misinfo-c28",
+        "claimText": "Fear and distrust in vaccines can jeopardize progress in preventing serious childhood diseases",
+        "sourceAuthor": "PC_PublicHealth",
+        "platform": "twitter",
+        "engagement": 20,
+        "postExcerpt": "Harmful myths suggesting that vaccines cause autism sow fear and distrust in vaccines, ultimately jeopardizing the great progress we’ve made in preventing serious childhood diseases. Read our full fact-check to learn more:"
+      },
+      {
+        "id": "vaccine-misinfo-c29",
+        "claimText": "Many young people get vaccine advice from social media",
+        "sourceAuthor": "baltimoresun",
+        "platform": "twitter",
+        "engagement": 870,
+        "postExcerpt": "Americans' confidence in the Centers for Disease Control and Prevention has plummeted, according to a 2025 National Foundation for Infectious Diseases survey, and many young people are getting their advice on vaccines from social media."
+      },
+      {
+        "id": "vaccine-misinfo-c30",
+        "claimText": "Many young people get their advice on vaccines from social media",
+        "sourceAuthor": "capgaznews",
+        "platform": "twitter",
+        "engagement": 256,
+        "postExcerpt": "Americans' confidence in the Centers for Disease Control and Prevention has plummeted, according to a 2025 National Foundation for Infectious Diseases survey, and many young people are getting their advice on vaccines from social media."
+      }
+    ],
+    "sources": [
+      {
+        "title": "CDC Quietly Rewrites Its Vaccine-Autism Guidance",
+        "url": "https://www.zerohedge.com/medical/cdc-quietly-rewrites-its-vaccine-autism-guidance",
+        "publisher": "Zero Hedge",
+        "type": "news",
+        "snippet": "Claims CDC website updated to say “vaccines do not cause autism” is not evidence-based."
+      },
+      {
+        "title": "The United States CDC has abandoned science in its new advice about vaccines and autism",
+        "url": "https://medicalxpress.com/news/2025-12-states-cdc-abandoned-science-advice.html",
+        "publisher": "medicalxpress.com",
+        "type": "news",
+        "snippet": "Discusses CDC guidance revision on autism/vaccines and portrays it as undermining science, driving misinformation."
+      },
+      {
+        "title": "CDC whistleblower sparks renewed debate over vaccine safety and autism research",
+        "url": "https://www.naturalnews.com/2025-12-11-debate-over-vaccine-safety-and-autism-research-renewed.html",
+        "publisher": "Naturalnews.com",
+        "type": "news",
+        "snippet": "Focuses on alleged CDC misconduct and renewed debate about vaccine safety and autism links."
+      },
+      {
+        "title": "Robert Kennedy's claims about autism, vaccines just not true | Opinion",
+        "url": "https://www.beaconjournal.com/story/opinion/columns/guest/2025/12/27/robert-kennedy-ignores-what-science-tells-us-about-safety-of-vaccines-no-link-to-autism-opinion/87861749007/",
+        "publisher": "beaconjournal.com",
+        "type": "news",
+        "snippet": "Says Kennedy promotes vaccine-cause-autism belief with “no basis in evidence.”"
+      },
+      {
+        "title": "The Vaccine-Autism Link Is Nonexistent. Why Does a Government Website Say Otherwise?",
+        "url": "https://www.usnews.com/opinion/articles/2025-12-08/health-tylenol-vaccine-autism-cdc-rfk-opinion",
+        "publisher": "US News",
+        "type": "news",
+        "snippet": "Says CDC is spreading misinformation via autism-vaccine claims and is dangerous for families."
+      },
+      {
+        "title": "Autism and vaccines. Use facts, not fear, to guide choices | Opinion",
+        "url": "https://www.beaconjournal.com/story/opinion/columns/guest/2025/12/03/autism-and-vaccines-use-facts-not-fear-to-guide-choices-opinion/87505897007/",
+        "publisher": "beaconjournal.com",
+        "type": "news",
+        "snippet": "Fear fueled by myth vaccines cause autism; overlap doesn’t mean vaccines cause it; warn about preventable diseases."
+      },
+      {
+        "title": "No, Vaccines Aren’t to Blame - WHO Busts the Internet’s Biggest Health Myth",
+        "url": "https://www.timesnownews.com/health/no-vaccines-arent-to-blame-who-busts-the-internets-biggest-health-myth-article-153282919",
+        "publisher": "Times Now News",
+        "type": "news",
+        "snippet": "Says WHO analysis finds no causal link between vaccines and autism."
+      },
+      {
+        "title": "‘It becomes my whole job’: autism advocates fight RFK Jr’s barrage of misinformation",
+        "url": "https://www.theguardian.com/us-news/2025/dec/05/autism-robert-f-kennedy-jr",
+        "publisher": "The Guardian",
+        "type": "news",
+        "snippet": "CDC altered website... reflects belief of causal link between vaccines and autism"
+      },
+      {
+        "title": "CDC ends blanket hepatitis B vaccine recommendation for newborns amid safety concerns",
+        "url": "https://www.naturalnews.com/2025-12-20-cdc-ends-blanket-hepatitis-b-vaccine-recommendation.html",
+        "publisher": "naturalnews.com",
+        "type": "news",
+        "snippet": "Claims about CDC’s newborn recommendation being unjustified; includes safety concerns framing."
+      },
+      {
+        "title": "CDC formally stops recommending hepatitis B vaccines for newborns",
+        "url": "https://www.nbcchicago.com/news/national-international/cdc-stops-recommending-hepatitis-b-vaccines-newborns/3864601/",
+        "publisher": "NBC Chicago",
+        "type": "news",
+        "snippet": "Instead of recommending hepatitis B for all newborns, CDC advises provider consult for birth dose if mother tests negative."
+      }
+    ],
+    "factChecks": [
+      {
+        "title": "Vaccines are poison.",
+        "url": "https://fullfact.org/health/vaccines-arent-poisonous/",
+        "publisher": "Full Fact",
+        "type": "fact-check",
+        "snippet": "Vaccines are rigorously tested for safety before being licensed..."
+      },
+      {
+        "title": "Safety concerns about mRNA COVID-19 vaccines were \"concealed\" from the public.",
+        "url": "https://www.factcheck.org/2025/06/hhs-misleads-on-mrna-vaccine-safety-after-pulling-moderna-funding/",
+        "publisher": "FactCheck.org",
+        "type": "fact-check",
+        "snippet": "Safety concerns... \"concealed\" from the public. HHS Misleads on..."
+      },
+      {
+        "title": "“Aren’t [vaccines] supposed to protect the vulnerable people from disease? [Vaccines] can actually spread disease. Maybe’ you’ve heard of it, it’s known as shedding.\"",
+        "url": "https://www.factcheck.org/2023/12/scicheck-vaccine-shedding-is-expected-with-some-vaccines-and-generally-not-harmful-contrary-to-post/",
+        "publisher": "FactCheck.org",
+        "type": "fact-check",
+        "snippet": "Vaccine shedding... expected with some vaccines and generally not harmful..."
+      },
+      {
+        "title": "\"FDA director admits to historic number of adverse event reports about COVID vaccines.\"",
+        "url": "https://www.factcheck.org/2024/02/posts-mislead-about-covid-19-vaccine-safety-with-out-of-context-clip-of-fda-official/",
+        "publisher": "FactCheck.org",
+        "type": "fact-check",
+        "snippet": "Posts mislead about COVID-19 vaccine safety with out-of-context clip..."
+      },
+      {
+        "title": "“Hundreds of millions of people were used as lab rats…” suggesting a new study proves “experimental” COVID-19 vaccines are unsafe.",
+        "url": "https://www.factcheck.org/2024/02/study-largely-confirms-known-rare-covid-19-vaccine-side-effects/",
+        "publisher": "FactCheck.org",
+        "type": "fact-check",
+        "snippet": "Study largely confirms known, rare COVID-19 vaccine side effects."
+      }
+    ]
+  },
+  {
+    "groupId": "vaccine-misinfo-g4",
+    "groupTitle": "Lead",
+    "groupSummary": "Claims from social media discourse related to \"Lead\"",
+    "relevantSectionIds": [
+      "vaccine-misinfo-lead"
+    ],
+    "claimCount": 19,
+    "totalEngagement": 1766,
+    "claims": [
+      {
+        "id": "vaccine-misinfo-c46",
+        "claimText": "The campaign has reshaped the Centers for Disease Control and Prevention",
+        "sourceAuthor": "MorrisMinute",
+        "platform": "twitter",
+        "engagement": 30,
+        "postExcerpt": "A years-long campaign to falsely link vaccines and autism has evolved from online conspiracy to federal guidance — reshaping the CDC, weakening disease surveillance, and endangering public health."
+      },
+      {
+        "id": "vaccine-misinfo-c47",
+        "claimText": "The campaign has weakened disease surveillance",
+        "sourceAuthor": "MorrisMinute",
+        "platform": "twitter",
+        "engagement": 30,
+        "postExcerpt": "A years-long campaign to falsely link vaccines and autism has evolved from online conspiracy to federal guidance — reshaping the CDC, weakening disease surveillance, and endangering public health."
+      },
+      {
+        "id": "vaccine-misinfo-c48",
+        "claimText": "The campaign has endangered public health",
+        "sourceAuthor": "MorrisMinute",
+        "platform": "twitter",
+        "engagement": 30,
+        "postExcerpt": "A years-long campaign to falsely link vaccines and autism has evolved from online conspiracy to federal guidance — reshaping the CDC, weakening disease surveillance, and endangering public health."
+      },
+      {
+        "id": "vaccine-misinfo-c49",
+        "claimText": "Northeastern public health experts said the CDC's statement will lead to years of confusion and vaccine refusal",
+        "sourceAuthor": "NUGlobalNews",
+        "platform": "twitter",
+        "engagement": 26,
+        "postExcerpt": "The CDC’s new claim that vaccines cannot be ruled out as a cause of autism will lead to years of confusion and vaccine refusal, @Northeastern public health experts say."
+      },
+      {
+        "id": "vaccine-misinfo-c50",
+        "claimText": "Between 1990 and 2019, hepatitis B infections dropped 99 percent in children and teens.",
+        "sourceAuthor": "The Boston Globe",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Healey promised continued action to keep the hepatitis B vaccine available, if needed. Vaccine manufacturers were present at the Wednesday event, Goldstein said, alongside physicians and public health experts. Currently, the CDC recommends an initial dose of hepatitis B vaccine within 24 hours of bi"
+      },
+      {
+        "id": "vaccine-misinfo-c51",
+        "claimText": "The Centers for Disease Control and Prevention tallied more than 1,700 measles cases and 45 outbreaks in 2025",
+        "sourceAuthor": "Medical Xpress",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Near the back corner of the local library's parking lot, largely out of view from the main road, the South Carolina Department of Public Health opened a pop-up clinic in early November, offering free measles vaccines to adults and children. Spartanburg County, in South Carolina's Upstate region, has"
+      },
+      {
+        "id": "vaccine-misinfo-c52",
+        "claimText": "The largest 2025 measles outbreak started in Texas and infected hundreds of people, including two children who died",
+        "sourceAuthor": "Medical Xpress",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Near the back corner of the local library's parking lot, largely out of view from the main road, the South Carolina Department of Public Health opened a pop-up clinic in early November, offering free measles vaccines to adults and children. Spartanburg County, in South Carolina's Upstate region, has"
+      },
+      {
+        "id": "vaccine-misinfo-c53",
+        "claimText": "ICAN paid Aaron Siri's law firm $6 million in 2023",
+        "sourceAuthor": "johngregoryx",
+        "platform": "twitter",
+        "engagement": 126,
+        "postExcerpt": "Anti-vax lawyer and false claim superspreader Aaron Siri claims, \"I don’t 'make a living' suing vaccine companies.\" In fact, anti-vax nonprofit ICAN paid Siri's law firm $6 million in 2023, the latest IRS filing available:"
+      },
+      {
+        "id": "vaccine-misinfo-c54",
+        "claimText": "The Advisory Committee on Immunization Practices is scheduled to meet on 2025-12-04",
+        "sourceAuthor": "CIDRAP",
+        "platform": "twitter",
+        "engagement": 1368,
+        "postExcerpt": "Public health experts try to ‘prebunk’ misinformation about vaccines ahead of CDC vaccine meeting today The meeting of the Advisory Committee on Immunization Practices will likely be filled with misinformation and vaccine myths, experts warn."
+      },
+      {
+        "id": "vaccine-misinfo-c55",
+        "claimText": "Dr. Robbie Goldstein is Massachusetts Public Health Commissioner",
+        "sourceAuthor": "MassLive",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Massachusetts Public Health Commissioner Dr. Robbie Goldstein is a Tufts University-trained physician who’s spent his entire career as an infectious disease specialist. He’s on the infectious disease faculty at MGH and teaches at Harvard Medical School. He did a two-year tour at the Centers for Dise"
+      },
+      {
+        "id": "vaccine-misinfo-c56",
+        "claimText": "Dr. Robbie Goldstein attended Tufts University and trained as a physician there",
+        "sourceAuthor": "MassLive",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Massachusetts Public Health Commissioner Dr. Robbie Goldstein is a Tufts University-trained physician who’s spent his entire career as an infectious disease specialist. He’s on the infectious disease faculty at MGH and teaches at Harvard Medical School. He did a two-year tour at the Centers for Dise"
+      },
+      {
+        "id": "vaccine-misinfo-c57",
+        "claimText": "Dr. Robbie Goldstein is on the infectious disease faculty at Massachusetts General Hospital",
+        "sourceAuthor": "MassLive",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Massachusetts Public Health Commissioner Dr. Robbie Goldstein is a Tufts University-trained physician who’s spent his entire career as an infectious disease specialist. He’s on the infectious disease faculty at MGH and teaches at Harvard Medical School. He did a two-year tour at the Centers for Dise"
+      },
+      {
+        "id": "vaccine-misinfo-c58",
+        "claimText": "Dr. Robbie Goldstein teaches at Harvard Medical School",
+        "sourceAuthor": "MassLive",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Massachusetts Public Health Commissioner Dr. Robbie Goldstein is a Tufts University-trained physician who’s spent his entire career as an infectious disease specialist. He’s on the infectious disease faculty at MGH and teaches at Harvard Medical School. He did a two-year tour at the Centers for Dise"
+      },
+      {
+        "id": "vaccine-misinfo-c59",
+        "claimText": "Dr. Robbie Goldstein worked for the Centers for Disease Control and Prevention for two years",
+        "sourceAuthor": "MassLive",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Massachusetts Public Health Commissioner Dr. Robbie Goldstein is a Tufts University-trained physician who’s spent his entire career as an infectious disease specialist. He’s on the infectious disease faculty at MGH and teaches at Harvard Medical School. He did a two-year tour at the Centers for Dise"
+      },
+      {
+        "id": "vaccine-misinfo-c60",
+        "claimText": "Dr. Robbie Goldstein became Massachusetts's point person on infectious disease in 2023",
+        "sourceAuthor": "MassLive",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Massachusetts Public Health Commissioner Dr. Robbie Goldstein is a Tufts University-trained physician who’s spent his entire career as an infectious disease specialist. He’s on the infectious disease faculty at MGH and teaches at Harvard Medical School. He did a two-year tour at the Centers for Dise"
+      }
+    ],
+    "sources": [
+      {
+        "title": "CDC in the Philippines - Centers for Disease Control and Prevention | CDC (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkNk5PQkNWVXdYWWZvamdlM2RhRGFGblNaUjR3OFRLUmxBeW5ES084eG0tRkpKWE5ZT0dHWVh3QUM5c0pyTFI5NEQ5RVo0ZGpVcUtSclNRSHk3dkJnNURpRVZXVlRpVFg1R1NMWA?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "publisher": "CDC (.gov) via Google News RSS",
+        "type": "news",
+        "snippet": "CDC in the Philippines — Centers for Disease Control and Prevention | CDC (.gov)"
+      },
+      {
+        "title": "Measles cases hit a 30-year high in the US in 2025, doctor emphasises the importance of vaccination for prevention",
+        "url": "https://www.hindustantimes.com/lifestyle/health/measles-cases-hit-a-30-year-high-in-the-us-in-2025-doctor-emphasises-the-importance-of-vaccination-for-prevention-101767373285706.html",
+        "publisher": "Hindustan Times",
+        "type": "news",
+        "snippet": "Says CDC data show measles infections surpassed 2,065 in 2025."
+      },
+      {
+        "title": "The return of measles: how a once-vanquished disease is spreading again",
+        "url": "https://www.theguardian.com/society/2026/jan/21/measles-outbreak-new-cases-us",
+        "publisher": "The Guardian",
+        "type": "news",
+        "snippet": "Says Last year there were 2,242 confirmed cases across 44 states and discusses the outbreak spread."
+      },
+      {
+        "title": "Even The Trump Admin Seems Concerned The U.S. Could Lose Its Measles Elimination Status",
+        "url": "https://www.huffpost.com/entry/us-lose-measles-elimination-status_n_69713eb7e4b0dfed7798240c",
+        "publisher": "HuffPost",
+        "type": "news",
+        "snippet": "Notes measles misinformation/skepticism about vaccines and discussion of elimination status."
+      },
+      {
+        "title": "The U.S. is on the brink of losing its elimination status for measles : NPR",
+        "url": "https://www.npr.org/2026/01/31/nx-s1-5694681/measles-elimination-status-south-carolina-texas-outbreak",
+        "publisher": "NPR",
+        "type": "news",
+        "snippet": "Covers the measles outbreak and the US ability to contain measles; mentions steps undermining confidence."
+      },
+      {
+        "title": "Federal Health Surveillance Is Faltering - How HealthTrack and Diagnostics Fill the Gap",
+        "url": "https://techbullion.com/federal-health-surveillance-is-faltering-how-healthtrack-and-diagnostics-fill-the-gap/",
+        "publisher": "techbullion.com",
+        "type": "news",
+        "snippet": "Federal health surveillance infrastructure contracting; dozens of CDC databases no longer routinely updated (early 2026)."
+      },
+      {
+        "title": "RFK Jr is a danger to public health - but local Maha laws could be a bigger threat",
+        "url": "https://www.theguardian.com/commentisfree/2025/dec/12/rfk-jr-public-health-danger-maha-local-laws",
+        "publisher": "The Guardian",
+        "type": "news",
+        "snippet": "…amplified harmful misinformation linking Tylenol and autism…"
+      },
+      {
+        "title": "CDC panel overturns 1991 newborn vaccine policy, triggering warnings of a public health backslide",
+        "url": "https://www.fastcompany.com/91455886/cdc-panel-overturns-1991-newborn-vaccine-policy-triggering-warnings-of-a-public-health-backslide",
+        "publisher": "Fast Company",
+        "type": "news",
+        "snippet": "CDC advisory group voted to overturn… hepatitis B vaccine at birth…"
+      },
+      {
+        "title": "Lynn Schmidt: When medical misinformation costs lives - balancing free speech and public health",
+        "url": "https://triblive.com/opinion/lynn-schmidt-when-medical-misinformation-costs-lives-balancing-free-speech-and-public-health/",
+        "publisher": "TribLive",
+        "type": "news",
+        "snippet": "…danger of false health claims that can literally cost lives…"
+      },
+      {
+        "title": "The Vaccine-Autism Link Is Nonexistent. Why Does a Government Website Say Otherwise?",
+        "url": "https://www.usnews.com/opinion/articles/2025-12-08/health-tylenol-vaccine-autism-cdc-rfk-opinion",
+        "publisher": "US News",
+        "type": "news",
+        "snippet": "CDC changed autism/vaccines page: “studies have not ruled out the possibility” vaccines cause autism."
+      }
+    ],
+    "factChecks": [
+      {
+        "title": "Governor Healey warns of hepatitis B vaccine misinformation",
+        "url": "https://www.bostonglobe.com/2025/12/03/metro/healey-expresses-support-for-hepatitis-b-vaccine-ahead-of-cdc-committee-vote/",
+        "publisher": "The Boston Globe",
+        "type": "fact-check",
+        "snippet": "“Between 1990 and 2019… hepatitis B infections dropped 99 percent in children and teens…”"
+      },
+      {
+        "title": "Massachusetts health chief: Vaccine disinformation fight takes 90% of job",
+        "url": "https://www.masslive.com/politics/2025/12/the-new-normal-fighting-misinformation-now-consumes-90-of-mass-top-health-officials-time.html",
+        "publisher": "masslive.com",
+        "type": "fact-check",
+        "snippet": "Healey: “In Massachusetts, we follow the science, the data and we listen to our medical experts.”"
+      }
+    ]
+  },
+  {
+    "groupId": "vaccine-misinfo-g5",
+    "groupTitle": "Vaccine preventable diseases are harmless",
+    "groupSummary": "Claims from social media discourse related to \"Vaccine preventable diseases are harmless\"",
+    "relevantSectionIds": [
+      "vaccine-preventable-diseases-are-harmless"
+    ],
+    "claimCount": 2,
+    "totalEngagement": 1126,
+    "claims": [
+      {
+        "id": "vaccine-misinfo-c61",
+        "claimText": "A 2025 National Foundation for Infectious Diseases survey found that Americans' confidence in the Centers for Disease Control and Prevention has declined sharply",
+        "sourceAuthor": "baltimoresun",
+        "platform": "twitter",
+        "engagement": 870,
+        "postExcerpt": "Americans' confidence in the Centers for Disease Control and Prevention has plummeted, according to a 2025 National Foundation for Infectious Diseases survey, and many young people are getting their advice on vaccines from social media."
+      },
+      {
+        "id": "vaccine-misinfo-c62",
+        "claimText": "A 2025 National Foundation for Infectious Diseases survey found that Americans' confidence in the Centers for Disease Control and Prevention has plummeted",
+        "sourceAuthor": "capgaznews",
+        "platform": "twitter",
+        "engagement": 256,
+        "postExcerpt": "Americans' confidence in the Centers for Disease Control and Prevention has plummeted, according to a 2025 National Foundation for Infectious Diseases survey, and many young people are getting their advice on vaccines from social media."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Amid conflicting vaccine recommendations, Americans are less likely to trust Trump’s CDC, a Penn study finds",
+        "url": "https://www.inquirer.com/health/vaccine-safety-cdc-american-trust-penn-survey-20251231.html",
+        "publisher": "The Philadelphia Inquirer",
+        "type": "news",
+        "snippet": "Americans more likely to trust AMA than CDC when guidance conflicts, new survey shows."
+      },
+      {
+        "title": "Amid conflicting vaccine recommendations, Americans are less likely to trust Trump's CDC, a Penn study finds",
+        "url": "https://triblive.com/news/world/amid-conflicting-vaccine-recommendations-americans-are-less-likely-to-trust-trumps-cdc-a-penn-study-finds/",
+        "publisher": "TribLIVE",
+        "type": "news",
+        "snippet": "Survey reports Americans are less likely to trust Trump’s CDC when vaccine guidance conflicts."
+      },
+      {
+        "title": "Percentage of Americans who see flu and measles vaccines as safe is declining",
+        "url": "https://www.independent.co.uk/news/health/flu-measles-covid-vaccine-safety-b2918446.html",
+        "publisher": "The Independent",
+        "type": "news",
+        "snippet": "A winter 2025 survey finds perceived safety for some vaccines is down vs. 2024."
+      },
+      {
+        "title": "Amid conflicting vaccine recommendations, Americans are less likely to trust Trump's CDC, study finds",
+        "url": "https://medicalxpress.com/news/2026-01-conflicting-vaccine-americans-trump-cdc.html",
+        "publisher": "Medical Xpress",
+        "type": "news",
+        "snippet": "Survey: Americans more likely to trust AMA than CDC when guidance conflicts."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "vaccine-misinfo-g3",
+    "groupTitle": "Vaccination causes idiopathic conditions",
+    "groupSummary": "Claims from social media discourse related to \"Vaccination causes idiopathic conditions\"",
+    "relevantSectionIds": [
       "vaccination-causes-idiopathic-conditions"
     ],
-    "claimCount": 10,
-    "totalEngagement": 5304,
+    "claimCount": 3,
+    "totalEngagement": 2,
     "claims": [
       {
-        "id": "claim-1",
-        "claimText": "The CDC has quietly changed its vaccines & autism page, softening decades of scientific clarity.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
+        "id": "vaccine-misinfo-c31",
+        "claimText": "Health professionals addressed concerns over CDC messaging changes and declining vaccination rates in South Bend on or before 2025-12-02",
+        "sourceAuthor": "WNDU 16 News Now",
+        "platform": "youtube",
+        "engagement": 2,
+        "postExcerpt": "Health professionals addressed concerns over CDC messaging changes and declining vaccination rates. https://www.wndu.com/2025/12/02/medical-experts-combat-vaccine-misinformation-south-bend-panel/ For more Local News from WNDU: https://www.wndu.com/ For more YouTube Content: https://www.youtube.com/c"
+      },
+      {
+        "id": "vaccine-misinfo-c32",
+        "claimText": "In September 2025, ACIP put forward new restrictions on a combination shot that protects against chickenpox, measles, mumps, and rubella, and declined to recommend COVID-19 vaccinations.",
+        "sourceAuthor": "The Boston Globe",
+        "platform": "twitter",
         "engagement": 0,
-        "postExcerpt": "This is a warning sign for every healthcare system, including the NHS."
+        "postExcerpt": "Healey promised continued action to keep the hepatitis B vaccine available, if needed. Vaccine manufacturers were present at the Wednesday event, Goldstein said, alongside physicians and public health experts. Currently, the CDC recommends an initial dose of hepatitis B vaccine within 24 hours of bi"
       },
       {
-        "id": "claim-2",
-        "claimText": "A years-long campaign to falsely link vaccines and autism has evolved from online conspiracy to federal guidance.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 30,
-        "postExcerpt": "reshaping the CDC, weakening disease surveillance, and endangering public health."
-      },
-      {
-        "id": "claim-3",
-        "claimText": "Public health experts are expressing significant concerns about widespread confusion stemming from a new CDC claim suggesting that vaccines cannot be definitively ruled out as an autism cause.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 7,
-        "postExcerpt": "significant concerns about widespread confusion."
-      },
-      {
-        "id": "claim-4",
-        "claimText": "The CDC’s new claim that vaccines cannot be ruled out as a cause of autism will lead to years of confusion and vaccine refusal.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 26,
-        "postExcerpt": "years of confusion and vaccine refusal."
-      },
-      {
-        "id": "claim-5",
-        "claimText": "Harmful myths suggesting that vaccines cause autism sow fear and distrust in vaccines.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 20,
-        "postExcerpt": "jeopardizing the great progress we’ve made in preventing serious childhood diseases."
-      },
-      {
-        "id": "claim-6",
-        "claimText": "Misinformation about Hepatitis B and the shot has grown rampant in recent years, largely thanks to anti-vaccine activists.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 356,
-        "postExcerpt": "thanks to anti-vaccine activists such as Kennedy."
-      },
-      {
-        "id": "claim-7",
-        "claimText": "Governor Maura Healey warned of misinformation about the childhood vaccine schedule, especially the infant hepatitis B vaccine.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 3200,
-        "postExcerpt": "ahead of a pivotal meeting of federal vaccine advisors."
-      },
-      {
-        "id": "claim-8",
-        "claimText": "Public health experts try to ‘prebunk’ misinformation about vaccines ahead of CDC vaccine meeting.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 1400,
-        "postExcerpt": "filled with misinformation and vaccine myths."
-      },
-      {
-        "id": "claim-9",
-        "claimText": "A total farce occurred at the CDC advisory meeting regarding vaccine misinformation.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 542,
-        "postExcerpt": "Lawyer with ties to Kennedy sparks outcry."
-      },
-      {
-        "id": "claim-10",
-        "claimText": "RFK Jr. claims there’s no proof that vaccines don’t cause autism, which is a lie.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 22,
-        "postExcerpt": "he’s personally responsible for misinformation."
+        "id": "vaccine-misinfo-c33",
+        "claimText": "Only 17% of the 605 students enrolled at Global Academy of South Carolina during the 2024–25 school year provided documentation showing they had received required vaccinations",
+        "sourceAuthor": "Medical Xpress",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Near the back corner of the local library's parking lot, largely out of view from the main road, the South Carolina Department of Public Health opened a pop-up clinic in early November, offering free measles vaccines to adults and children. Spartanburg County, in South Carolina's Upstate region, has"
       }
-    ]
-  },
-  {
-    "groupId": "group-2",
-    "groupTitle": "Impact of Vaccine Misinformation",
-    "groupSummary": "This group highlights the consequences of vaccine misinformation on public health and trust in health organizations.",
-    "relevantSectionIds": [
-      "impact",
-      "communication"
     ],
-    "claimCount": 8,
-    "totalEngagement": 1234,
-    "claims": [
+    "sources": [
       {
-        "id": "claim-11",
-        "claimText": "Americans' confidence in the CDC has plummeted, according to a 2025 survey.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 870,
-        "postExcerpt": "many young people are getting their advice on vaccines from social media."
+        "title": "Doctors raise alarm over declining vaccine rates in America's most vulnerable... as deadly new 'super flu' continues to spread",
+        "url": "https://www.dailymail.co.uk/health/article-15484717/doctors-warn-declining-vaccine-rate-older-adults-flu-pneumonia.html",
+        "publisher": "dailymail.co.uk",
+        "type": "news",
+        "snippet": "Declining flu and pneumonia vaccination rates among older Americans, citing CDC NCHS data."
       },
       {
-        "id": "claim-12",
-        "claimText": "Health professionals addressed concerns over CDC messaging changes and declining vaccination rates.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 2,
-        "postExcerpt": "concerns over CDC messaging changes."
+        "title": "CDC advisers delay crucial vote on hepatitis B vaccination in tense meeting",
+        "url": "https://edition.cnn.com/2025/12/04/health/cdc-vaccine-acip-meeting-hepatitis-b",
+        "publisher": "CNN",
+        "type": "news",
+        "snippet": "Advisers delay a vote that could change hepatitis B vaccination recommendations for newborns."
       },
       {
-        "id": "claim-13",
-        "claimText": "Misinformation about vaccines is jeopardizing public health.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 30,
-        "postExcerpt": "reshaping the CDC, weakening disease surveillance."
+        "title": "CDC advisers delay crucial vote on hepatitis B vaccination in sometimes tense meeting",
+        "url": "https://abc17news.com/cnn-health/2025/12/04/cdc-advisers-delay-crucial-vote-on-hepatitis-b-vaccination-in-sometimes-tense-meeting/",
+        "publisher": "abc17news.com",
+        "type": "news",
+        "snippet": "Independent vaccine advisers delay a vote on possible changes to hepatitis B recommendations."
       },
       {
-        "id": "claim-14",
-        "claimText": "The CDC panel is weighing changes that could limit access to the hepatitis B vaccine and fuel misinformation.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 975,
-        "postExcerpt": "fuel misinformation."
+        "title": "Many States Say They’ll Defy RFK Jr.’s Changes to Hepatitis B Vaccination",
+        "url": "https://www.wired.com/story/many-states-say-theyll-defy-rfk-jrs-changes-to-hepatitis-b-vaccination/",
+        "publisher": "Wired",
+        "type": "news",
+        "snippet": "States plan to continue universally recommending hepatitis B vaccine at birth despite new guidance."
       },
       {
-        "id": "claim-15",
-        "claimText": "Fact-checked claims about vaccines are necessary to combat misinformation.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 20,
-        "postExcerpt": "demand justice by ensuring accountability."
+        "title": "CDC panel overturns 1991 newborn vaccine policy, triggering warnings of a public health backslide",
+        "url": "https://www.fastcompany.com/91455886/cdc-panel-overturns-1991-newborn-vaccine-policy-triggering-warnings-of-a-public-health-backslide",
+        "publisher": "Fast Company",
+        "type": "news",
+        "snippet": "Advisory group votes to overturn universal hepatitis B newborn recommendation from 1991."
       },
       {
-        "id": "claim-16",
-        "claimText": "The CDC’s vaccine advisory panel delayed an expected vote on hepatitis B vaccines due to misinformation.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 19,
-        "postExcerpt": "chaotic meeting rife with misinformation."
+        "title": "Many CDC databases are not being updated, most related to vaccines, study finds",
+        "url": "https://www.nbcnews.com/health/health-news/cdc-databases-not-updated-vaccines-study-rcna255467",
+        "publisher": "NBC News",
+        "type": "news",
+        "snippet": "Study says nearly half of CDC databases stopped updating, including systems tracking COVID vaccination rates."
       },
       {
-        "id": "claim-17",
-        "claimText": "Fact-checking is essential to dispel myths about vaccine safety.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 17,
-        "postExcerpt": "dispelling common myths about vaccines."
+        "title": "CDC Quietly Rewrites Its Vaccine-Autism Guidance",
+        "url": "https://www.zerohedge.com/medical/cdc-quietly-rewrites-its-vaccine-autism-guidance",
+        "publisher": "zerohedge.com",
+        "type": "news",
+        "snippet": "Claims CDC updated language about vaccines and autism, describing it as not evidence-based."
       },
       {
-        "id": "claim-18",
-        "claimText": "Social media is a significant source of vaccine misinformation among young people.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 256,
-        "postExcerpt": "many young people are getting their advice on vaccines."
+        "title": "Amid conflicting vaccine recommendations, Americans are less likely to trust Trump’s CDC, a Penn study finds",
+        "url": "https://www.inquirer.com/health/vaccine-safety-cdc-american-trust-penn-survey-20251231.html",
+        "publisher": "inquirer.com",
+        "type": "news",
+        "snippet": "Penn survey finds Americans trust the AMA more than CDC when guidance conflicts on vaccines."
+      },
+      {
+        "title": "Vaccine advisory panel votes to end universal newborn hep B shot recommendation",
+        "url": "https://19thnews.org/2025/12/vaccine-advisory-panel-ends-hepatitis-b-newborn/",
+        "publisher": "19th News",
+        "type": "news",
+        "snippet": "ACIP votes to stop recommending universal newborn hepatitis B shot."
+      },
+      {
+        "title": "South Carolina's measles outbreak shows effect of vaccine misinformation",
+        "url": "https://medicalxpress.com/news/2025-12-south-carolina-measles-outbreak-effect.html",
+        "publisher": "Medical Xpress",
+        "type": "news",
+        "snippet": "…Global Academy of South Carolina, where only 17% of the 605 students… provided documentation…"
       }
-    ]
-  },
-  {
-    "groupId": "group-3",
-    "groupTitle": "Public Health Responses to Misinformation",
-    "groupSummary": "This group covers the responses from public health experts and organizations to combat vaccine misinformation.",
-    "relevantSectionIds": [
-      "communication",
-      "impact"
     ],
-    "claimCount": 6,
-    "totalEngagement": 1234,
-    "claims": [
+    "factChecks": [
       {
-        "id": "claim-19",
-        "claimText": "Health professionals are actively combating vaccine misinformation.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 2,
-        "postExcerpt": "addressed concerns over CDC messaging changes."
-      },
-      {
-        "id": "claim-20",
-        "claimText": "Public health experts are trying to ‘prebunk’ misinformation about vaccines.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 1400,
-        "postExcerpt": "ahead of CDC vaccine meeting."
-      },
-      {
-        "id": "claim-21",
-        "claimText": "Experts warn that misinformation will likely fill the CDC vaccine meeting.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 17,
-        "postExcerpt": "filled with misinformation and vaccine myths."
-      },
-      {
-        "id": "claim-22",
-        "claimText": "Fact-checking is crucial to counter harmful vaccine myths.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 20,
-        "postExcerpt": "harmful myths suggesting that vaccines cause autism."
-      },
-      {
-        "id": "claim-23",
-        "claimText": "The CDC's messaging changes are causing significant public health concerns.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 7,
-        "postExcerpt": "significant concerns about widespread confusion."
-      },
-      {
-        "id": "claim-24",
-        "claimText": "Public health experts are concerned about misinformation stemming from CDC claims.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 26,
-        "postExcerpt": "years of confusion and vaccine refusal."
+        "title": "Governor Healey warns of hepatitis B vaccine misinformation",
+        "url": "https://www.bostonglobe.com/2025/12/03/metro/healey-expresses-support-for-hepatitis-b-vaccine-ahead-of-cdc-committee-vote/",
+        "publisher": "Boston Globe",
+        "type": "fact-check",
+        "snippet": "September… “combination shot” protects against chickenpox plus measles, mumps and rubella; ACIP declined… COVID-19."
       }
     ]
   },
   {
-    "groupId": "group-4",
-    "groupTitle": "Conspiracy Theories Related to Vaccines",
-    "groupSummary": "This group includes claims about conspiracy theories surrounding vaccines and their implications.",
+    "groupId": "vaccine-misinfo-g6",
+    "groupTitle": "Other conspiracy theories",
+    "groupSummary": "Claims from social media discourse related to \"Other conspiracy theories\"",
     "relevantSectionIds": [
-      "vaccines-are-part-of-a-governmentalpharmaceutical-conspiracy",
       "other-conspiracy-theories"
     ],
-    "claimCount": 6,
-    "totalEngagement": 1234,
+    "claimCount": 1,
+    "totalEngagement": 0,
     "claims": [
       {
-        "id": "claim-25",
-        "claimText": "Anti-vax lawyer Aaron Siri claims he doesn’t 'make a living' suing vaccine companies, which is misleading.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 126,
-        "postExcerpt": "Anti-vax lawyer and false claim superspreader."
-      },
-      {
-        "id": "claim-26",
-        "claimText": "Misinformation about vaccines is being fueled by anti-vaccine activists.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 356,
-        "postExcerpt": "thanks to anti-vaccine activists such as Kennedy."
-      },
-      {
-        "id": "claim-27",
-        "claimText": "A chaotic meeting at the CDC was rife with misinformation about vaccines.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 19,
-        "postExcerpt": "chaotic meeting rife with misinformation."
-      },
-      {
-        "id": "claim-28",
-        "claimText": "The CDC's vaccine advisory panel is influenced by misinformation.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 542,
-        "postExcerpt": "Lawyer with ties to Kennedy sparks outcry."
-      },
-      {
-        "id": "claim-29",
-        "claimText": "Misinformation about vaccines is a significant threat to public health.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 30,
-        "postExcerpt": "reshaping the CDC, weakening disease surveillance."
-      },
-      {
-        "id": "claim-30",
-        "claimText": "The CDC's changes in messaging are seen as politically motivated.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
+        "id": "vaccine-misinfo-c76",
+        "claimText": "In September 2025, Massachusetts became the first U.S. state to require insurers to cover the cost of COVID-19 shots and other inoculations recommended by state health officials regardless of federal guidance.",
+        "sourceAuthor": "The Boston Globe",
+        "platform": "twitter",
         "engagement": 0,
-        "postExcerpt": "politics begins shaping clinical messaging."
+        "postExcerpt": "Healey promised continued action to keep the hepatitis B vaccine available, if needed. Vaccine manufacturers were present at the Wednesday event, Goldstein said, alongside physicians and public health experts. Currently, the CDC recommends an initial dose of hepatitis B vaccine within 24 hours of bi"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Governor Healey warns of hepatitis B vaccine misinformation",
+        "url": "https://www.bostonglobe.com/2025/12/03/metro/healey-expresses-support-for-hepatitis-b-vaccine-ahead-of-cdc-committee-vote/",
+        "publisher": "Boston Globe",
+        "type": "news",
+        "snippet": "In September, Massachusetts became the first state ... require insurers ... regardless of guidance coming out of Washington."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "vaccine-misinfo-g7",
+    "groupTitle": "Vaccines are part of a governmental/pharmaceutical conspiracy",
+    "groupSummary": "Claims from social media discourse related to \"Vaccines are part of a governmental/pharmaceutical conspiracy\"",
+    "relevantSectionIds": [
+      "vaccines-are-part-of-a-governmentalpharmaceutical-conspiracy"
+    ],
+    "claimCount": 3,
+    "totalEngagement": 0,
+    "claims": [
+      {
+        "id": "vaccine-misinfo-c91",
+        "claimText": "Spartanburg County, South Carolina has had a measles outbreak since early October 2025 with more than 50 identified cases",
+        "sourceAuthor": "Medical Xpress",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Near the back corner of the local library's parking lot, largely out of view from the main road, the South Carolina Department of Public Health opened a pop-up clinic in early November, offering free measles vaccines to adults and children. Spartanburg County, in South Carolina's Upstate region, has"
+      },
+      {
+        "id": "vaccine-misinfo-c92",
+        "claimText": "In Spartanburg, the percentage of students with required immunizations fell from 95.1% in the 2020–21 academic year to 90% in the 2024–25 academic year",
+        "sourceAuthor": "Medical Xpress",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Near the back corner of the local library's parking lot, largely out of view from the main road, the South Carolina Department of Public Health opened a pop-up clinic in early November, offering free measles vaccines to adults and children. Spartanburg County, in South Carolina's Upstate region, has"
+      },
+      {
+        "id": "vaccine-misinfo-c93",
+        "claimText": "Robert F. Kennedy Jr. runs the U.S. Department of Health and Human Services",
+        "sourceAuthor": "MassLive",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Massachusetts Public Health Commissioner Dr. Robbie Goldstein is a Tufts University-trained physician who’s spent his entire career as an infectious disease specialist. He’s on the infectious disease faculty at MGH and teaches at Harvard Medical School. He did a two-year tour at the Centers for Dise"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hundreds quarantined as South Carolina measles outbreak accelerates",
+        "url": "https://www.adn.com/nation-world/2025/12/11/hundreds-quarantined-as-south-carolina-measles-outbreak-accelerates/",
+        "publisher": "adn.com",
+        "type": "news",
+        "snippet": "Outbreak acceleration in SC’s Upstate; totals reported as cases and quarantine numbers."
+      },
+      {
+        "title": "US measles outbreak: 2025’s record-breaking year is likely just the start of a deadly comeback",
+        "url": "https://edition.cnn.com/2026/01/20/health/us-measles-outbreak-one-year",
+        "publisher": "CNN",
+        "type": "news",
+        "snippet": "Mentions a measles outbreak in the upstate region of South Carolina after Texas."
+      },
+      {
+        "title": "Measles cases are surging across the US. Experts are blaming the nation’s anti-vaccine push",
+        "url": "https://www.independent.co.uk/news/health/measles-outbreak-vaccine-cases-us-b2885012.html",
+        "publisher": "The Independent",
+        "type": "news",
+        "snippet": "Discusses ballooning outbreaks in South Carolina among other states and loss of elimination status."
+      },
+      {
+        "title": "CDC defends measles response as outbreaks continue to balloon across US: ‘Any attempts to spin this are baseless’",
+        "url": "https://www.independent.co.uk/news/health/measles-outbreaks-us-cdc-rfk-jr-b2885711.html",
+        "publisher": "The Independent",
+        "type": "news",
+        "snippet": "Federal response discussion with outbreaks mentioned in South Carolina, Arizona, Utah."
+      },
+      {
+        "title": "The U.S. is on the brink of losing its elimination status for measles : NPR",
+        "url": "https://www.npr.org/2026/01/31/nx-s1-5694681/measles-elimination-status-south-carolina-texas-outbreak",
+        "publisher": "NPR",
+        "type": "news",
+        "snippet": "Says South Carolina confirmed 847 cases since first case was reported in October."
+      },
+      {
+        "title": "Tracking measles cases in the United States",
+        "url": "https://edition.cnn.com/health/tracking-measles-cases-us-maps-vis",
+        "publisher": "CNN",
+        "type": "news",
+        "snippet": "States that an outbreak started in the upstate region in October 2025."
+      },
+      {
+        "title": "We Are Living Through The Worst Measles Outbreak In 30 Years - But RFK Jr. Won't Tell You That",
+        "url": "https://www.huffpost.com/entry/measles-outbreak-rfk-jr-anti-vaccine_n_6945ca49e4b00a59b4a6adab",
+        "publisher": "HuffPost",
+        "type": "news",
+        "snippet": "Notes a particular uptick in South Carolina and references higher state case numbers."
+      },
+      {
+        "title": "The return of measles: how a once-vanquished disease is spreading again",
+        "url": "https://www.theguardian.com/society/2026/jan/21/measles-outbreak-new-cases-us",
+        "publisher": "The Guardian",
+        "type": "news",
+        "snippet": "Describes the South Carolina outbreak reaching hundreds of cases and spreading further."
+      },
+      {
+        "title": "South Carolina's measles outbreak shows effect of vaccine misinformation",
+        "url": "https://medicalxpress.com/news/2025-12-south-carolina-measles-outbreak-effect.html",
+        "publisher": "Medical Xpress",
+        "type": "news",
+        "snippet": "…Spartanburg… overall percentage… fell from 95.1% to 90% between 2020–21 and 2024–25…"
+      },
+      {
+        "title": "Massachusetts health chief: Vaccine disinformation fight takes 90% of job",
+        "url": "https://www.masslive.com/politics/2025/12/the-new-normal-fighting-misinformation-now-consumes-90-of-mass-top-health-officials-time.html",
+        "publisher": "MassLive",
+        "type": "news",
+        "snippet": "Post says HHS is run by Robert F. Kennedy Jr., an avowed vaccine skeptic."
+      }
+    ],
+    "factChecks": [
+      {
+        "title": "South Carolina's measles outbreak shows effect of vaccine misinformation",
+        "url": "https://medicalxpress.com/news/2025-12-south-carolina-measles-outbreak-effect.html",
+        "publisher": "Medical Xpress",
+        "type": "fact-check",
+        "snippet": "Spartanburg County … fighting a measles outbreak since early October, with more than 50 cases identified."
+      },
+      {
+        "title": "“Nations who accept the new regulations [WHO International Health Regulations] are signing over their power in health emergencies to an unelected international organization that could order lockdowns, travel restrictions, or any other measures.\"",
+        "url": "https://www.factcheck.org/2025/07/rfk-jr-hhs-wrong-about-who-power-under-updated-global-health-regulations/",
+        "publisher": "FactCheck.org",
+        "type": "fact-check",
+        "snippet": "“Nations who accept the new regulations” ... RFK Jr., HHS Wrong About WHO Power ..."
+      },
+      {
+        "title": "\"There’s a study that came out last week of 47,000 9-year-olds in the Medicaid system in Florida — I think a Louisiana scientist called Mawson — that shows the opposite,\" meaning that vaccines cause autism.",
+        "url": "https://www.factcheck.org/2025/01/rfk-jr-cites-flawed-paper-claiming-link-between-vaccines-and-autism-in-hhs-confirmation-hearing/",
+        "publisher": "FactCheck.org",
+        "type": "fact-check",
+        "snippet": "RFK Jr. Cites Flawed Paper Claiming Link Between Vaccines and ..."
+      }
+    ]
+  },
+  {
+    "groupId": "vaccine-misinfo-g8",
+    "groupTitle": "Vaccine-preventable diseases have been eradicated",
+    "groupSummary": "Claims from social media discourse related to \"Vaccine-preventable diseases have been eradicated\"",
+    "relevantSectionIds": [
+      "vaccine-preventable-diseases-have-been-eradicated"
+    ],
+    "claimCount": 2,
+    "totalEngagement": 0,
+    "claims": [
+      {
+        "id": "vaccine-misinfo-c106",
+        "claimText": "Pediatric infection rates have fallen by 99% nationwide since 1991",
+        "sourceAuthor": "MassLive",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Massachusetts Public Health Commissioner Dr. Robbie Goldstein is a Tufts University-trained physician who’s spent his entire career as an infectious disease specialist. He’s on the infectious disease faculty at MGH and teaches at Harvard Medical School. He did a two-year tour at the Centers for Dise"
+      },
+      {
+        "id": "vaccine-misinfo-c107",
+        "claimText": "A May KFF tracking poll found that less than half of Americans have confidence that the CDC and FDA can carry out their core responsibilities",
+        "sourceAuthor": "MassLive",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "Massachusetts Public Health Commissioner Dr. Robbie Goldstein is a Tufts University-trained physician who’s spent his entire career as an infectious disease specialist. He’s on the infectious disease faculty at MGH and teaches at Harvard Medical School. He did a two-year tour at the Centers for Dise"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Massachusetts health chief: Vaccine disinformation fight takes 90% of job",
+        "url": "https://www.masslive.com/politics/2025/12/the-new-normal-fighting-misinformation-now-consumes-90-of-mass-top-health-officials-time.html",
+        "publisher": "MassLive",
+        "type": "news",
+        "snippet": "“We have been safely… Hepatitis B vaccine to newborns since 1991… fallen by 99% nationwide.”"
+      },
+      {
+        "title": "CDC panel overturns 1991 newborn vaccine policy, triggering warnings of a public health backslide",
+        "url": "https://www.fastcompany.com/91455886/cdc-panel-overturns-1991-newborn-vaccine-policy-triggering-warnings-of-a-public-health-backslide",
+        "publisher": "Fast Company",
+        "type": "news",
+        "snippet": "Hepatitis B shot has been standard practice for newborns since 1991."
+      },
+      {
+        "title": "In RFK Jr.’s upside-down world of vaccines, panel votes to end hepatitis B shot at birth",
+        "url": "https://www.news-medical.net/news/20251205/In-RFK-Jre28099s-upside-down-world-of-vaccines-panel-votes-to-end-hepatitis-B-shot-at-birth.aspx",
+        "publisher": "News-Medical.net",
+        "type": "news",
+        "snippet": "Says ending hepatitis B recommendation could reverse progress; mentions reducing childhood infections by 99%."
+      },
+      {
+        "title": "CDC Vaccine Databases, Crucial For Managing Outbreaks, Are Out Of Date",
+        "url": "https://kffhealthnews.org/morning-breakout/cdc-vaccine-databases-crucial-for-managing-outbreaks-are-out-of-date/",
+        "publisher": "KFF Health News",
+        "type": "news",
+        "snippet": "Nearly half of CDC vaccine databases paused without explanation; ~90% of stale databases vaccine-related"
+      }
+    ],
+    "factChecks": [
+      {
+        "title": "Massachusetts health chief: Vaccine disinformation fight takes 90% of job",
+        "url": "https://www.masslive.com/politics/2025/12/the-new-normal-fighting-misinformation-now-consumes-90-of-mass-top-health-officials-time.html",
+        "publisher": "MassLive",
+        "type": "fact-check",
+        "snippet": "“less than half of all Americans now saying they have confidence” (May tracking poll by KFF)"
       }
     ]
   }

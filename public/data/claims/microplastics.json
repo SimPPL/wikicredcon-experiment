@@ -1,255 +1,601 @@
 [
   {
-    "groupId": "group-1",
-    "groupTitle": "Microplastics in Clothing and Water",
-    "groupSummary": "Microplastics are prevalent in clothing and can contaminate water systems, posing risks to health and the environment.",
+    "groupId": "microplastics-g10",
+    "groupTitle": "European Union",
+    "groupSummary": "Claims from social media discourse related to \"European Union\"",
     "relevantSectionIds": [
-      "clothing",
-      "bottled-water",
-      "oral-intake"
+      "european-union"
+    ],
+    "claimCount": 2,
+    "totalEngagement": 9840,
+    "claims": [
+      {
+        "id": "microplastics-c136",
+        "claimText": "The European Union has mandated the use of LED lamps instead of other types of lamps",
+        "sourceAuthor": "kitchen_news_de",
+        "platform": "twitter",
+        "engagement": 4920,
+        "postExcerpt": "die eu behandelt ihre bürger wie kleine kinder. sie schreibt vor, was gesagt werden darf, das deckel an plastikflaschen bleiben müssen, man nur noch led lampen nutzen darf und nun soll geprüft werden, ob man sich auch schuhe für 200€ in 3 raten leisten kann."
+      },
+      {
+        "id": "microplastics-c137",
+        "claimText": "The European Union is planning to examine whether a person can pay 200 euros for shoes in three installments",
+        "sourceAuthor": "kitchen_news_de",
+        "platform": "twitter",
+        "engagement": 4920,
+        "postExcerpt": "die eu behandelt ihre bürger wie kleine kinder. sie schreibt vor, was gesagt werden darf, das deckel an plastikflaschen bleiben müssen, man nur noch led lampen nutzen darf und nun soll geprüft werden, ob man sich auch schuhe für 200€ in 3 raten leisten kann."
+      }
+    ],
+    "sources": [
+      {
+        "title": "European Union Investigate Shein Over Sale of Illegal Products and Addictive Design",
+        "url": "https://people.com/european-union-launches-investigation-into-shein-over-sale-of-illegal-products-including-child-sex-abuse-material-11909164",
+        "publisher": "People.com",
+        "type": "news",
+        "snippet": "Fast-fashion company Shein is under investigation by the European Union for potential breaches of digital law."
+      },
+      {
+        "title": "The European Commission extended the Marketing Authorisation for Vueway® (gadopiclenol) in the European Union for use in pediatric patients under 2 years of age",
+        "url": "https://www.prnewswire.co.uk/news-releases/the-european-commission-extended-the-marketing-authorisation-for-vueway-gadopiclenol-in-the-european-union-for-use-in-pediatric-patients-under-2-years-of-age-302670407.html",
+        "publisher": "PRNewswire UK",
+        "type": "news",
+        "snippet": "On January 23, 2026, the European Commission amended marketing authorization for Vueway for pediatric patients below 2."
+      },
+      {
+        "title": "Ursula von der Leyen in India: How powerful is the European Commission?",
+        "url": "https://www.firstpost.com/explainers/ursula-von-der-leyen-india-eu-trade-deal-european-commission-powers-13972719.html",
+        "publisher": "Firstpost",
+        "type": "news",
+        "snippet": "Explainer describing the European Commission and its roles, including proposing laws and policies and monitoring implementation."
+      },
+      {
+        "title": "India, EU near ‘mother of all deals’: What European Commission is and why it matters",
+        "url": "https://www.moneycontrol.com/world/india-eu-near-mother-of-all-deals-what-european-commission-is-and-why-it-matters-article-13790854.html",
+        "publisher": "Moneycontrol",
+        "type": "news",
+        "snippet": "Explainer of the European Commission and why it matters in the context of an India-EU free trade agreement."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "microplastics-g9",
+    "groupTitle": "Baby bottles",
+    "groupSummary": "Claims from social media discourse related to \"Baby bottles\"",
+    "relevantSectionIds": [
+      "baby-bottles"
+    ],
+    "claimCount": 1,
+    "totalEngagement": 4920,
+    "claims": [
+      {
+        "id": "microplastics-c121",
+        "claimText": "The European Union requires plastic caps to remain attached to plastic bottles",
+        "sourceAuthor": "kitchen_news_de",
+        "platform": "twitter",
+        "engagement": 4920,
+        "postExcerpt": "die eu behandelt ihre bürger wie kleine kinder. sie schreibt vor, was gesagt werden darf, das deckel an plastikflaschen bleiben müssen, man nur noch led lampen nutzen darf und nun soll geprüft werden, ob man sich auch schuhe für 200€ in 3 raten leisten kann."
+      }
+    ],
+    "sources": [],
+    "factChecks": []
+  },
+  {
+    "groupId": "microplastics-g4",
+    "groupTitle": "Single-use plastic products",
+    "groupSummary": "Claims from social media discourse related to \"Single-use plastic products\"",
+    "relevantSectionIds": [
+      "single-use-plastic-products"
+    ],
+    "claimCount": 3,
+    "totalEngagement": 2828,
+    "claims": [
+      {
+        "id": "microplastics-c46",
+        "claimText": "The world produces 150 million tons of plastic each year",
+        "sourceAuthor": "INFO PLANET",
+        "platform": "youtube",
+        "engagement": 1114,
+        "postExcerpt": "سمندر کا قتل! 150 ملین ٹن پلاسٹک ہر سال  PlasticPollution#OceanPollution#Environment"
+      },
+      {
+        "id": "microplastics-c47",
+        "claimText": "PlasticPirateEU expanded from 3 EU countries to 14 EU countries over three years",
+        "sourceAuthor": "cinea_eu",
+        "platform": "twitter",
+        "engagement": 1689,
+        "postExcerpt": "Three years on... ✅From 3 to 14 EU countries ✅From classrooms to riverbanks ✅From curiosity to 1,200+ datasets on microplastics That's the power of @PlasticPirateEU 🔗 @HorizonEU @OurMissionOcean #MissionOcean #HorizonEU #Climate #ResearchImpactEU"
+      },
+      {
+        "id": "microplastics-c48",
+        "claimText": "According to some researchers, microplastic accumulation in the human body has been linked to cancer, heart attacks, and other medical conditions",
+        "sourceAuthor": "raymart36321205",
+        "platform": "twitter",
+        "engagement": 25,
+        "postExcerpt": "microplastic accumulation in the human body could be a serious health hazard, according to some researchers, and might be linked to cancer, heart attacks and other threatening medical conditions. we'll never eliminate all microplastic from the environment, but we could significantly reduce the volum"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Unofficial' talks on plastic pollution treaty to begin in Japan",
+        "url": "https://www.manilatimes.net/2026/03/02/world/asia-oceania/unofficial-talks-on-plastic-pollution-treaty-to-begin-in-japan/2290684",
+        "publisher": "Manila Times",
+        "type": "news",
+        "snippet": "TOKYO — informal talks in Japan toward a global treaty on plastic pollution; “little progress” since August."
+      },
+      {
+        "title": "How climate change is reshaping the global plastic pollution crisis - The World Economic Forum",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTnYyUDZpRXBfWEFUbXNPdE9IVDNJNVZRekhtUWNkNlZNcmFvcWU4blZsZmJrVVZGNnBZa1duNmNDVk8xbzNfbkxseXpOT0RCazNHbmlrWmpkSkVjdU5CbVFZRzZmbzBRTDZXTW01YWJUTnlfZGlyV0NlY2RmRWtNQ3o5R2loQ3lOOGtaaWlhTFlVbGlSTGdmMFhEMmxuZw?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "publisher": "news.google.com (RSS link to The World Economic Forum content)",
+        "type": "news",
+        "snippet": "How climate change is reshaping the global plastic pollution crisis — The World Economic Forum."
+      },
+      {
+        "title": "Study finds microplastics in most prostate tumors",
+        "url": "https://www.news-medical.net/news/20260223/Study-finds-microplastics-in-most-prostate-tumors.aspx",
+        "publisher": "News-Medical.net",
+        "type": "news",
+        "snippet": "Small fragments of plastic were found in nine out of 10 patients with prostate cancer..."
+      },
+      {
+        "title": "Everyday plastic exposure could increase prostate cancer risk, scientists warn - as cases climb",
+        "url": "https://www.dailymail.co.uk/health/article-15584957/Everyday-plastic-exposure-increase-prostate-cancer-risk-scientists-warn-cases-climb.html",
+        "publisher": "Daily Mail",
+        "type": "news",
+        "snippet": "Plastic particles were found inside prostate cancer tumours... scientists warn..."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "microplastics-g1",
+    "groupTitle": "Primary microplastics",
+    "groupSummary": "Claims from social media discourse related to \"Primary microplastics\"",
+    "relevantSectionIds": [
+      "primary-microplastics"
     ],
     "claimCount": 9,
-    "totalEngagement": 23,
+    "totalEngagement": 1977,
     "claims": [
       {
-        "id": "claim-1",
-        "claimText": "Every wash of clothes leaves microplastics in the environment.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
+        "id": "microplastics-c1",
+        "claimText": "Every wash leaves microplastics in the environment",
+        "sourceAuthor": "Spotlight San Diego",
+        "platform": "youtube",
         "engagement": 23,
-        "postExcerpt": "Clothes: Every Wash Leaves Microplastics In The Environment"
+        "postExcerpt": "Clothes: Every Wash Leaves Microplastics In The Environment - Liz Bui, CEO, Yulex Brands Corps"
       },
       {
-        "id": "claim-2",
-        "claimText": "The water you drink could have invisible contaminants, including microplastics.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
+        "id": "microplastics-c2",
+        "claimText": "Microplastics are found in many processed foods",
+        "sourceAuthor": "Science Explained Daily",
+        "platform": "youtube",
         "engagement": 0,
-        "postExcerpt": "Did you know that the water you drink could have invisible contaminants?"
+        "postExcerpt": "Did you know that microplastics are found in many processed foods? 🍔⚠️ In this video, we explain what microplastics are, how they get into our food, and the potential risks they pose to our health. Learn why paying attention to what you eat is more important than ever. 📺 Science Explained Daily #T"
       },
       {
-        "id": "claim-3",
-        "claimText": "Miami faces common issues like hidden impurities in its water.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
+        "id": "microplastics-c3",
+        "claimText": "Microplastics can get into food",
+        "sourceAuthor": "Science Explained Daily",
+        "platform": "youtube",
         "engagement": 0,
-        "postExcerpt": "the water coming into your home in Miami isn't always as pure as it seems."
+        "postExcerpt": "Did you know that microplastics are found in many processed foods? 🍔⚠️ In this video, we explain what microplastics are, how they get into our food, and the potential risks they pose to our health. Learn why paying attention to what you eat is more important than ever. 📺 Science Explained Daily #T"
       },
       {
-        "id": "claim-4",
-        "claimText": "Microplastics are found in many processed foods.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
+        "id": "microplastics-c4",
+        "claimText": "Microplastics may pose risks to human health",
+        "sourceAuthor": "Science Explained Daily",
+        "platform": "youtube",
         "engagement": 0,
-        "postExcerpt": "Did you know that microplastics are found in many processed foods?"
+        "postExcerpt": "Did you know that microplastics are found in many processed foods? 🍔⚠️ In this video, we explain what microplastics are, how they get into our food, and the potential risks they pose to our health. Learn why paying attention to what you eat is more important than ever. 📺 Science Explained Daily #T"
       },
       {
-        "id": "claim-5",
-        "claimText": "Microplastics can accumulate in the human body and may be linked to serious health hazards.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "id": "microplastics-c5",
+        "claimText": "PlasticPirateEU has collected more than 1,200 datasets on microplastics",
+        "sourceAuthor": "cinea_eu",
+        "platform": "twitter",
+        "engagement": 1689,
+        "postExcerpt": "Three years on... ✅From 3 to 14 EU countries ✅From classrooms to riverbanks ✅From curiosity to 1,200+ datasets on microplastics That's the power of @PlasticPirateEU 🔗 @HorizonEU @OurMissionOcean #MissionOcean #HorizonEU #Climate #ResearchImpactEU"
+      },
+      {
+        "id": "microplastics-c6",
+        "claimText": "Microplastics are not a real problem",
+        "sourceAuthor": "einarvollset",
+        "platform": "twitter",
+        "engagement": 214,
+        "postExcerpt": "Seed oils are fine. Diet soda is no problem. Unlimited Screens is a-okay. Microplastics is nonsense. AI won’t take all the jobs. Vaccines are safe."
+      },
+      {
+        "id": "microplastics-c7",
+        "claimText": "A Stanford Medicine article says scientists estimate that adults ingest the equivalent of one credit card per week in microplastics",
+        "sourceAuthor": "raymart36321205",
+        "platform": "twitter",
         "engagement": 25,
-        "postExcerpt": "microplastic accumulation in the human body could be a serious health hazard."
+        "postExcerpt": "microplastic accumulation in the human body could be a serious health hazard, according to some researchers, and might be linked to cancer, heart attacks and other threatening medical conditions. we'll never eliminate all microplastic from the environment, but we could significantly reduce the volum"
       },
       {
-        "id": "claim-6",
-        "claimText": "Microplastics might be linked to cancer and heart attacks.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "id": "microplastics-c8",
+        "claimText": "Only a few studies have directly examined the impact of microplastics on human health",
+        "sourceAuthor": "raymart36321205",
+        "platform": "twitter",
         "engagement": 25,
-        "postExcerpt": "might be linked to cancer, heart attacks and other threatening medical conditions."
+        "postExcerpt": "microplastic accumulation in the human body could be a serious health hazard, according to some researchers, and might be linked to cancer, heart attacks and other threatening medical conditions. we'll never eliminate all microplastic from the environment, but we could significantly reduce the volum"
       },
       {
-        "id": "claim-7",
-        "claimText": "The global seafood trade is moving 'forever chemicals' from contaminated waters to dinner plates.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 11,
-        "postExcerpt": "How global seafood trade is moving ‘forever chemicals’ from contaminated waters to dinner plates."
-      },
-      {
-        "id": "claim-8",
-        "claimText": "Fish-inspired filters can stop microplastics from entering washers.",
-        "sourceAuthor": "@username",
-        "platform": "Reddit",
+        "id": "microplastics-c9",
+        "claimText": "A fish-inspired filter stops microplastics in washers",
+        "sourceAuthor": "NoSpinMedia",
+        "platform": "reddit",
         "engagement": 1,
-        "postExcerpt": "Fish-Inspired Filter Stops Microplastics in Washers."
+        "postExcerpt": "🐟 Fish-Inspired Filter Stops Microplastics in Washers: Details inside 👇"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The life of microplastic: how fragments move through plants, insects, animals - and you",
+        "url": "https://www.theguardian.com/news/ng-interactive/2025/jul/28/the-life-of-microplastic-how-fragments-move-through-plants-insects-animals-and-you",
+        "publisher": "The Guardian",
+        "type": "news",
+        "snippet": "Describes shedding of tiny plastic fragments into wastewater, sludge, and then the food chain"
+      },
+      {
+        "title": "Everyday plastic exposure could increase prostate cancer risk, scientists warn - as cases climb",
+        "url": "https://www.dailymail.co.uk/health/article-15584957/Everyday-plastic-exposure-increase-prostate-cancer-risk-scientists-warn-cases-climb.html",
+        "publisher": "Daily Mail",
+        "type": "news",
+        "snippet": "Reports study linking microplastics in prostate tumors to potential health risk."
+      },
+      {
+        "title": "Study finds microplastics in most prostate tumors",
+        "url": "https://www.news-medical.net/news/20260223/Study-finds-microplastics-in-most-prostate-tumors.aspx",
+        "publisher": "News-Medical.net",
+        "type": "news",
+        "snippet": "Small study reports plastic fragments found in nine out of 10 prostate cancer patients."
+      },
+      {
+        "title": "Microplastics found in prostate tumors in small study",
+        "url": "https://www.nbcnews.com/health/mens-health/microplastics-found-prostate-tumors-small-study-rcna260296",
+        "publisher": "NBCNews.com",
+        "type": "news",
+        "snippet": "Researchers found microplastics deep inside prostate cancer tumors; small (10 men) study."
+      },
+      {
+        "title": "Microplastics found in prostate tumors in small study",
+        "url": "https://www.nbcnews.com/health/mens-health/microplastics-found-prostate-tumors-rcna260296",
+        "publisher": "NBC News",
+        "type": "news",
+        "snippet": "Small study of 10 men analyzed prostate tissue; microplastics present in 90% of tumors."
+      }
+    ],
+    "factChecks": [
+      {
+        "title": "Plastic cutting boards have been shown to shed microplastics in food.",
+        "url": "https://www.snopes.com/fact-check/cutting-boards-microplastics/",
+        "publisher": "Snopes.com",
+        "type": "fact-check",
+        "snippet": "Plastic cutting boards have been shown to shed microplastics in food."
+      },
+      {
+        "title": "Micro- and Nanoplastics released from microwaving found in human blood",
+        "url": "https://factcheck.afp.com/doc.afp.com.33WH326",
+        "publisher": "AFP Fact Check",
+        "type": "fact-check",
+        "snippet": "Social media users misrepresent US study on microplastic in human ... False"
+      },
+      {
+        "title": "Fermented food can reduce, remove and even eliminate microplastics and Bisphenol A from our tissues.",
+        "url": "https://firstcheck.in/fact-check-do-fermented-foods-remove-microplastics/",
+        "publisher": "First Check",
+        "type": "fact-check",
+        "snippet": "However, there is no scientific evidence proving they can remove or eliminate microplastics from the body."
       }
     ]
   },
   {
-    "groupId": "group-2",
-    "groupTitle": "Microplastics Research and Policy",
-    "groupSummary": "Research on microplastics is expanding, with various countries taking action to address the issue.",
+    "groupId": "microplastics-g3",
+    "groupTitle": "Lead",
+    "groupSummary": "Claims from social media discourse related to \"Lead\"",
     "relevantSectionIds": [
-      "policy-and-legislation",
-      "education-and-recycling",
-      "sources-of-microplastics"
+      "microplastics-lead"
     ],
-    "claimCount": 7,
-    "totalEngagement": 1700,
+    "claimCount": 21,
+    "totalEngagement": 884,
     "claims": [
       {
-        "id": "claim-9",
-        "claimText": "The EU has expanded its research on microplastics from 3 to 14 countries.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 1700,
-        "postExcerpt": "From 3 to 14 EU countries."
+        "id": "microplastics-c31",
+        "claimText": "A preliminary analysis from October 2025, conducted with the Miccosukee Tribe of Florida Indians, found 12 different types of PFAS on the Indian reservation for the first time",
+        "sourceAuthor": "News Miami Dade",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "🌊 Introduction to Water Systems and Why They Matter! 💧 Did you know that the water you drink could have invisible contaminants? Welcome to Water Talk! In today's episode, \"Pure Water Systems: Transform Your Life with Miami Water Systems,\" we're diving into why the water coming into your home in Mi"
       },
       {
-        "id": "claim-10",
-        "claimText": "There are over 1,200 datasets on microplastics collected by researchers.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 1700,
-        "postExcerpt": "From curiosity to 1,200+ datasets on microplastics."
+        "id": "microplastics-c32",
+        "claimText": "A November 2025 study found that PFAS concentrations in rain increase significantly during the dry season from October to May",
+        "sourceAuthor": "News Miami Dade",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "🌊 Introduction to Water Systems and Why They Matter! 💧 Did you know that the water you drink could have invisible contaminants? Welcome to Water Talk! In today's episode, \"Pure Water Systems: Transform Your Life with Miami Water Systems,\" we're diving into why the water coming into your home in Mi"
       },
       {
-        "id": "claim-11",
-        "claimText": "The annual national recycling industry conference in Italy focuses on circular economy issues.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "id": "microplastics-c33",
+        "claimText": "An October 2025 publication assessed PFAS bound to particles in the urban coastal air of South Florida over a year and identified around 40 types of PFAS",
+        "sourceAuthor": "News Miami Dade",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "🌊 Introduction to Water Systems and Why They Matter! 💧 Did you know that the water you drink could have invisible contaminants? Welcome to Water Talk! In today's episode, \"Pure Water Systems: Transform Your Life with Miami Water Systems,\" we're diving into why the water coming into your home in Mi"
+      },
+      {
+        "id": "microplastics-c34",
+        "claimText": "A preliminary analysis conducted in October 2025 by Florida International University researchers in collaboration with the Miccosukee Tribe of Florida Indians found 12 different types of PFAS on the Indian reservation for the first time",
+        "sourceAuthor": "News Miami Dade",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "🌊 Introduction to Water Systems and Why They Matter! 💧 Did you know that the water you drink could have invisible contaminants? Welcome to Water Talk! In today's episode, \"Pure Water Systems: Transform Your Life with Miami Water Systems,\" we're diving into why the water coming into your home in Mi"
+      },
+      {
+        "id": "microplastics-c35",
+        "claimText": "A November 2025 study found that PFAS concentrations in rain increase significantly during the dry season from October to May",
+        "sourceAuthor": "News Miami Dade",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "🌊 Introduction to Water Systems and Why They Matter! 💧 Did you know that the water you drink could have invisible contaminants? Welcome to Water Talk! In today's episode, \"Pure Water Systems: Transform Your Life with Miami Water Systems,\" we're diving into why the water coming into your home in Mi"
+      },
+      {
+        "id": "microplastics-c36",
+        "claimText": "An October 2025 publication assessed PFAS bound to particles in the urban coastal air of South Florida over a year and identified around 40 types of PFAS",
+        "sourceAuthor": "News Miami Dade",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "🌊 Introduction to Water Systems and Why They Matter! 💧 Did you know that the water you drink could have invisible contaminants? Welcome to Water Talk! In today's episode, \"Pure Water Systems: Transform Your Life with Miami Water Systems,\" we're diving into why the water coming into your home in Mi"
+      },
+      {
+        "id": "microplastics-c37",
+        "claimText": "Robert F. Kennedy Jr. has had a parasite in his brain",
+        "sourceAuthor": "VeterinarianSilly569",
+        "platform": "reddit",
+        "engagement": 16,
+        "postExcerpt": "TDS I think is a real thing, and it's really visible in complaints Geez, Trump could cure cancer tomorrow and many of you would still hate him for it. It's wild! Like I just posted something about RFK Jr, and having a discussion helping people with lyme disease, and there's people in here down votin"
+      },
+      {
+        "id": "microplastics-c38",
+        "claimText": "Robert F. Kennedy Jr. is checking safety and efficacy to make sure vaccines are safe for children",
+        "sourceAuthor": "VeterinarianSilly569",
+        "platform": "reddit",
+        "engagement": 16,
+        "postExcerpt": "TDS I think is a real thing, and it's really visible in complaints Geez, Trump could cure cancer tomorrow and many of you would still hate him for it. It's wild! Like I just posted something about RFK Jr, and having a discussion helping people with lyme disease, and there's people in here down votin"
+      },
+      {
+        "id": "microplastics-c39",
+        "claimText": "A preliminary analysis from October 2025, conducted in collaboration with the Miccosukee Tribe of Florida Indians, found 12 different types of PFAS on the Indian reservation for the first time",
+        "sourceAuthor": "News Miami Dade",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "🌊 Introduction to Water Systems and Why They Matter! 💧 Did you know that the water you drink could have invisible contaminants? Welcome to Water Talk! In today's episode, \"Pure Water Systems: Transform Your Life with Miami Water Systems,\" we're diving into why the water coming into your home in Mi"
+      },
+      {
+        "id": "microplastics-c40",
+        "claimText": "A November 2025 study found that PFAS concentrations in rain increase during the dry season from October to May",
+        "sourceAuthor": "News Miami Dade",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "🌊 Introduction to Water Systems and Why They Matter! 💧 Did you know that the water you drink could have invisible contaminants? Welcome to Water Talk! In today's episode, \"Pure Water Systems: Transform Your Life with Miami Water Systems,\" we're diving into why the water coming into your home in Mi"
+      },
+      {
+        "id": "microplastics-c41",
+        "claimText": "An October 2025 publication identified around 40 types of PFAS bound to particles in the urban coastal air of South Florida over a one-year period",
+        "sourceAuthor": "News Miami Dade",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "🌊 Introduction to Water Systems and Why They Matter! 💧 Did you know that the water you drink could have invisible contaminants? Welcome to Water Talk! In today's episode, \"Pure Water Systems: Transform Your Life with Miami Water Systems,\" we're diving into why the water coming into your home in Mi"
+      },
+      {
+        "id": "microplastics-c42",
+        "claimText": "The conference was organized by the Fondazione per lo Sviluppo Sostenibile in cooperation with CONAI and Corriere della Sera's Pianeta 2030 project.",
+        "sourceAuthor": "allatra_ipm",
+        "platform": "twitter",
         "engagement": 245,
-        "postExcerpt": "the annual national recycling industry conference took place."
+        "postExcerpt": "megaphone on december 11, in milan, the annual national recycling industry conference 2025 (conferenza nazionale dell'industria del riciclo) took place, which is one of italy's key events dedicated to circular economy issues. the event was organized by the sustainable development foundation (fondazi"
       },
       {
-        "id": "claim-12",
-        "claimText": "Microplastics are a significant concern in discussions about environmental policy.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "id": "microplastics-c43",
+        "claimText": "A preliminary analysis conducted in October 2025 in collaboration with the Miccosukee Tribe of Florida Indians found 12 different types of PFAS on the Indian reservation for the first time.",
+        "sourceAuthor": "News Miami Dade",
+        "platform": "youtube",
         "engagement": 0,
-        "postExcerpt": "discussions about environmental policy."
+        "postExcerpt": "🌊 Introduction to Water Systems and Why They Matter! 💧 Did you know that the water you drink could have invisible contaminants? Welcome to Water Talk! In today's episode, \"Pure Water Systems: Transform Your Life with Miami Water Systems,\" we're diving into why the water coming into your home in Mi"
       },
       {
-        "id": "claim-13",
-        "claimText": "Education on microplastics is crucial for reducing their impact.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "id": "microplastics-c44",
+        "claimText": "A November 2025 study found that PFAS concentrations in rain increase significantly during the dry season from October to May.",
+        "sourceAuthor": "News Miami Dade",
+        "platform": "youtube",
         "engagement": 0,
-        "postExcerpt": "Education on microplastics is crucial."
+        "postExcerpt": "🌊 Introduction to Water Systems and Why They Matter! 💧 Did you know that the water you drink could have invisible contaminants? Welcome to Water Talk! In today's episode, \"Pure Water Systems: Transform Your Life with Miami Water Systems,\" we're diving into why the water coming into your home in Mi"
       },
       {
-        "id": "claim-14",
-        "claimText": "Plastic recycling could significantly reduce the volume of microplastics in the environment.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 25,
-        "postExcerpt": "we could significantly reduce the volume if we'd just shut down plastic recycling."
-      },
-      {
-        "id": "claim-15",
-        "claimText": "Microplastics are a growing concern in various countries, including the EU and the US.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "id": "microplastics-c45",
+        "claimText": "An October 2025 publication assessed PFAS bound to particles in the urban coastal air of South Florida over a year and identified around 40 types of PFAS.",
+        "sourceAuthor": "News Miami Dade",
+        "platform": "youtube",
         "engagement": 0,
-        "postExcerpt": "Microplastics are a growing concern."
+        "postExcerpt": "🌊 Introduction to Water Systems and Why They Matter! 💧 Did you know that the water you drink could have invisible contaminants? Welcome to Water Talk! In today's episode, \"Pure Water Systems: Transform Your Life with Miami Water Systems,\" we're diving into why the water coming into your home in Mi"
+      }
+    ],
+    "sources": [
+      {
+        "title": "How the UK government plans to limit ‘forever chemical’ pollution - and what’s missing",
+        "url": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "publisher": "The Conversation",
+        "type": "news",
+        "snippet": "UK plan on PFAS policy; PFAS are widely detected in environment and blood/tissues."
+      },
+      {
+        "title": "PFAS exposure greater in wet pet food, study suggests",
+        "url": "https://phys.org/news/2026-02-pfas-exposure-greater-pet-food.html",
+        "publisher": "Phys.org",
+        "type": "news",
+        "snippet": "Ehime University investigators detected PFAS in commercial pet foods sold in Japan."
+      },
+      {
+        "title": "Health secretary RFK Jr appoints two vaccine skeptics to CDC advisory panel",
+        "url": "https://www.theguardian.com/us-news/2026/jan/14/rfk-cdc-vaccine-advisory-panel",
+        "publisher": "The Guardian",
+        "type": "news",
+        "snippet": "Kennedy appointed two new physicians to ACIP, which advises CDC on vaccine recommendations."
+      },
+      {
+        "title": "Kennedy adds vaccine advisory panel members with histories of opposition to vaccines, antidepressants in pregnancy",
+        "url": "https://www.nbcnews.com/health/health-news/kennedy-cdc-vaccine-committee-new-members-vaccines-pregnancy-rcna253863",
+        "publisher": "",
+        "type": "news",
+        "snippet": "WASHINGTON — Health and Human Services Secretary Robert F. Kennedy Jr. appointed two new members to the Centers for Disease Control and Prevention’s vaccine advisory committee who have challenged broad medical consensus on vaccines and antidepressants in pregnancy. Kennedy on Tue"
+      },
+      {
+        "title": "RFK Jr. Ends mandatory vaccine reporting for Medicaid and CHIP providers",
+        "url": "https://www.naturalnews.com/2026-01-04-kennedy-ends-mandatory-vaccine-reporting-medicaid-chip-providers.html",
+        "publisher": "Natural News",
+        "type": "news",
+        "snippet": "HHS Secretary Robert F. Kennedy Jr removed requirements for Medicaid and CHIP providers to report immunization status."
+      },
+      {
+        "title": "ABSURD: Corporate media, Senate Democrats blame RFK Jr. for measles outbreaks",
+        "url": "https://www.naturalnews.com/2025-12-13-media-democrats-blame-rfkjr-for-measles-outbreaks.html",
+        "publisher": "Natural News",
+        "type": "news",
+        "snippet": "Claims that critics blame RFK Jr for measles cases despite pre-tenure trends."
+      },
+      {
+        "title": "In RFK Jr.’s upside-down world of vaccines, panel votes to end hepatitis B shot at birth",
+        "url": "https://www.news-medical.net/news/20251205/In-RFK-Jre28099s-upside-down-world-of-vaccines-panel-votes-to-end-hepatitis-B-shot-at-birth.aspx",
+        "publisher": "News-Medical.net",
+        "type": "news",
+        "snippet": "A panel dominated by skeptics he chose votes to end hepatitis B vaccination recommendation for newborns."
+      },
+      {
+        "title": "We Are Living Through The Worst Measles Outbreak In 30 Years - But RFK Jr. Won't Tell You That",
+        "url": "https://www.huffpost.com/entry/measles-outbreak-rfk-jr-anti-vaccine_n_6945ca49e4b00a59b4a6adab",
+        "publisher": "HuffPost",
+        "type": "news",
+        "snippet": "Reports on plans to change childhood vaccine recommendations alongside major measles outbreak."
+      },
+      {
+        "title": "Anti-vaccine group once led by RFK Jr circulates false assertions amid measles outbreak",
+        "url": "https://www.theguardian.com/us-news/2025/dec/19/rfk-jr-anti-vaccine-group-measles-outbreak",
+        "publisher": "The Guardian",
+        "type": "news",
+        "snippet": "Describes Children’s Health Defense defending Kennedy during worst measles year and spreading claims about vaccine risks."
+      },
+      {
+        "title": "How a year of RFK, Jr., has changed American science",
+        "url": "https://www.scientificamerican.com/article/how-a-year-of-rfk-jr-has-changed-american-science/",
+        "publisher": "Scientific American",
+        "type": "news",
+        "snippet": "Notes the Senate confirmation of RFK Jr. as HHS head and discusses impacts on science/vaccine policy."
+      }
+    ],
+    "factChecks": [
+      {
+        "title": "“kids had almost no risk for COVID-19.”",
+        "url": "https://www.factcheck.org/2025/05/rfk-jr-misleads-about-safety-of-covid-19-vaccine-in-children/",
+        "publisher": "FactCheck.org",
+        "type": "fact-check",
+        "snippet": "Robert F. Kennedy Jr."
+      },
+      {
+        "title": "“I never said that ‘no vaccine is safe and effective.’”",
+        "url": "https://www.factcheck.org/2023/11/scicheck-rfk-jr-incorrectly-denies-past-remarks-on-vaccine-safety-and-effectiveness/",
+        "publisher": "FactCheck.org",
+        "type": "fact-check",
+        "snippet": "Robert F. Kennedy, Jr."
+      },
+      {
+        "title": "mRNA vaccine technology \"remains under-tested.\"",
+        "url": "https://www.factcheck.org/2025/06/hhs-misleads-on-mrna-vaccine-safety-after-pulling-moderna-funding/",
+        "publisher": "FactCheck.org",
+        "type": "fact-check",
+        "snippet": "Department of Health and Human Services"
+      },
+      {
+        "title": "“Aren’t [vaccines] supposed to protect the vulnerable people from disease? [Vaccines] can actually spread disease. Maybe’ you’ve heard of it, it’s known as shedding.\"",
+        "url": "https://www.factcheck.org/2023/12/scicheck-vaccine-shedding-is-expected-with-some-vaccines-and-generally-not-harmful-contrary-to-post/",
+        "publisher": "FactCheck.org",
+        "type": "fact-check",
+        "snippet": "Social media post"
+      },
+      {
+        "title": "Vaccines are poison.",
+        "url": "https://fullfact.org/health/vaccines-arent-poisonous/",
+        "publisher": "Full Fact",
+        "type": "fact-check",
+        "snippet": ""
       }
     ]
   },
   {
-    "groupId": "group-3",
-    "groupTitle": "Environmental Impact of Microplastics",
-    "groupSummary": "Microplastics pose a significant threat to marine and freshwater ecosystems.",
+    "groupId": "microplastics-g6",
+    "groupTitle": "Cosmetics industry",
+    "groupSummary": "Claims from social media discourse related to \"Cosmetics industry\"",
     "relevantSectionIds": [
-      "marine-and-freshwater-organisms",
+      "cosmetics-industry"
+    ],
+    "claimCount": 1,
+    "totalEngagement": 245,
+    "claims": [
+      {
+        "id": "microplastics-c76",
+        "claimText": "The annual national recycling industry conference 2025 (Conferenza Nazionale dell'Industria del Riciclo) took place in Milan on December 11, 2025.",
+        "sourceAuthor": "allatra_ipm",
+        "platform": "twitter",
+        "engagement": 245,
+        "postExcerpt": "megaphone on december 11, in milan, the annual national recycling industry conference 2025 (conferenza nazionale dell'industria del riciclo) took place, which is one of italy's key events dedicated to circular economy issues. the event was organized by the sustainable development foundation (fondazi"
+      }
+    ],
+    "sources": [],
+    "factChecks": []
+  },
+  {
+    "groupId": "microplastics-g7",
+    "groupTitle": "Effects on the environment",
+    "groupSummary": "Claims from social media discourse related to \"Effects on the environment\"",
+    "relevantSectionIds": [
       "effects-on-the-environment"
     ],
-    "claimCount": 5,
-    "totalEngagement": 1100,
+    "claimCount": 1,
+    "totalEngagement": 245,
     "claims": [
       {
-        "id": "claim-16",
-        "claimText": "150 million tons of plastic enter the oceans every year.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 1100,
-        "postExcerpt": "150 ملین ٹن پلاسٹک ہر سال"
-      },
-      {
-        "id": "claim-17",
-        "claimText": "Microplastics can harm marine life and disrupt ecosystems.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 0,
-        "postExcerpt": "Microplastics can harm marine life."
-      },
-      {
-        "id": "claim-18",
-        "claimText": "Microplastics are found in freshwater systems, affecting drinking water quality.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 0,
-        "postExcerpt": "Microplastics are found in freshwater systems."
-      },
-      {
-        "id": "claim-19",
-        "claimText": "Microplastics can accumulate in the food chain, impacting human health.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 0,
-        "postExcerpt": "Microplastics can accumulate in the food chain."
-      },
-      {
-        "id": "claim-20",
-        "claimText": "Microplastics contribute to the pollution of watersheds.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 0,
-        "postExcerpt": "Microplastics contribute to the pollution of watersheds."
+        "id": "microplastics-c91",
+        "claimText": "The conference was held under the patronage of the Italian Ministry of the Environment and Energy Security.",
+        "sourceAuthor": "allatra_ipm",
+        "platform": "twitter",
+        "engagement": 245,
+        "postExcerpt": "megaphone on december 11, in milan, the annual national recycling industry conference 2025 (conferenza nazionale dell'industria del riciclo) took place, which is one of italy's key events dedicated to circular economy issues. the event was organized by the sustainable development foundation (fondazi"
       }
-    ]
+    ],
+    "sources": [],
+    "factChecks": []
   },
   {
-    "groupId": "group-4",
-    "groupTitle": "Health Risks Associated with Microplastics",
-    "groupSummary": "Microplastics pose potential health risks to humans, including links to serious medical conditions.",
+    "groupId": "microplastics-g8",
+    "groupTitle": "Education and recycling",
+    "groupSummary": "Claims from social media discourse related to \"Education and recycling\"",
     "relevantSectionIds": [
-      "human-health"
+      "education-and-recycling"
     ],
-    "claimCount": 5,
-    "totalEngagement": 25,
+    "claimCount": 1,
+    "totalEngagement": 245,
     "claims": [
       {
-        "id": "claim-21",
-        "claimText": "Microplastics may be linked to cancer.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 25,
-        "postExcerpt": "Microplastics may be linked to cancer."
-      },
-      {
-        "id": "claim-22",
-        "claimText": "Microplastics could contribute to heart attacks.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 25,
-        "postExcerpt": "Microplastics could contribute to heart attacks."
-      },
-      {
-        "id": "claim-23",
-        "claimText": "The presence of microplastics in the body is a growing concern among researchers.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 25,
-        "postExcerpt": "The presence of microplastics in the body is a growing concern."
-      },
-      {
-        "id": "claim-24",
-        "claimText": "Microplastics can cause inflammation and other health issues.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 25,
-        "postExcerpt": "Microplastics can cause inflammation."
-      },
-      {
-        "id": "claim-25",
-        "claimText": "Research is ongoing to understand the full health implications of microplastics.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 25,
-        "postExcerpt": "Research is ongoing to understand the full health implications."
+        "id": "microplastics-c106",
+        "claimText": "The conference opened with the presentation of the report 'Recycling in Italy 2025' by Edo Ronchi, president of the Fondazione per lo Sviluppo Sostenibile.",
+        "sourceAuthor": "allatra_ipm",
+        "platform": "twitter",
+        "engagement": 245,
+        "postExcerpt": "megaphone on december 11, in milan, the annual national recycling industry conference 2025 (conferenza nazionale dell'industria del riciclo) took place, which is one of italy's key events dedicated to circular economy issues. the event was organized by the sustainable development foundation (fondazi"
       }
-    ]
+    ],
+    "sources": [],
+    "factChecks": []
   }
 ]

@@ -1,267 +1,518 @@
 [
   {
-    "groupId": "group-1",
-    "groupTitle": "Political Support for Right to Repair",
-    "groupSummary": "Several posts highlight political figures advocating for the right to repair, particularly in relation to farmers and military equipment.",
+    "groupId": "right-to-repair-g2",
+    "groupTitle": "Lead",
+    "groupSummary": "Claims from social media discourse related to \"Lead\"",
+    "relevantSectionIds": [
+      "right-to-repair-lead"
+    ],
+    "claimCount": 16,
+    "totalEngagement": 2312392,
+    "claims": [
+      {
+        "id": "right-to-repair-c16",
+        "claimText": "John Deere has been giving farmers unfavorable deals for decades",
+        "sourceAuthor": "GuntherEagleman",
+        "platform": "twitter",
+        "engagement": 983388,
+        "postExcerpt": "HOLY BOMBSHELL! Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE!"
+      },
+      {
+        "id": "right-to-repair-c17",
+        "claimText": "John Deere has been treating farmers unfairly for decades",
+        "sourceAuthor": "StandUpForTrmp",
+        "platform": "twitter",
+        "engagement": 722239,
+        "postExcerpt": "🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?"
+      },
+      {
+        "id": "right-to-repair-c18",
+        "claimText": "Jayson Tatum was listed as questionable on January 3, 2026",
+        "sourceAuthor": "StoolGreenie",
+        "platform": "twitter",
+        "engagement": 176520,
+        "postExcerpt": "Jayson Tatum - Right Achilles Repair - QUESTIONABLE is going to hit like crack"
+      },
+      {
+        "id": "right-to-repair-c19",
+        "claimText": "Congress had a bipartisan plan to let troops fix their own equipment.",
+        "sourceAuthor": "SenWarren",
+        "platform": "twitter",
+        "engagement": 111700,
+        "postExcerpt": "Right now, greedy defense contractors are blocking our troops from fixing their own equipment. Congress had a bipartisan plan to fix that, but lobbyists stopped it. @RepDeluzio and I aren't giving up on this. Our troops should have the right to repair their own stuff."
+      },
+      {
+        "id": "right-to-repair-c20",
+        "claimText": "Lobbyists stopped a bipartisan congressional plan to let troops fix their own equipment.",
+        "sourceAuthor": "SenWarren",
+        "platform": "twitter",
+        "engagement": 111700,
+        "postExcerpt": "Right now, greedy defense contractors are blocking our troops from fixing their own equipment. Congress had a bipartisan plan to fix that, but lobbyists stopped it. @RepDeluzio and I aren't giving up on this. Our troops should have the right to repair their own stuff."
+      },
+      {
+        "id": "right-to-repair-c21",
+        "claimText": "John Deere has treated farmers unfairly for decades",
+        "sourceAuthor": "RightPulseNewss",
+        "platform": "twitter",
+        "engagement": 43633,
+        "postExcerpt": "🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?"
+      },
+      {
+        "id": "right-to-repair-c22",
+        "claimText": "KaiSchwemmer's debate with Michael Knowles and Steve Deace on Barfight is now available on YouTube",
+        "sourceAuthor": "KaiSchwemmer",
+        "platform": "twitter",
+        "engagement": 32749,
+        "postExcerpt": "the debate i had on barfight with @michaeljknowles and @stevedeaceshow is up now on youtube, go give it a watch!"
+      },
+      {
+        "id": "right-to-repair-c23",
+        "claimText": "More than 70 percent of corporate laptops that enter e-waste pipelines still have four to six years of usable life left",
+        "sourceAuthor": "edify_club",
+        "platform": "twitter",
+        "engagement": 23505,
+        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou"
+      },
+      {
+        "id": "right-to-repair-c24",
+        "claimText": "Edify says it can rebuild a ThinkPad by redoing thermals, replacing storage, upgrading batteries, restoring structural rigidity, and validating the machine through more than 50 technical checkpoints",
+        "sourceAuthor": "edify_club",
+        "platform": "twitter",
+        "engagement": 23505,
+        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou"
+      },
+      {
+        "id": "right-to-repair-c25",
+        "claimText": "Edify says the rebuilt machine costs nearly 60 percent less than the original",
+        "sourceAuthor": "edify_club",
+        "platform": "twitter",
+        "engagement": 23505,
+        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou"
+      },
+      {
+        "id": "right-to-repair-c26",
+        "claimText": "Marcin Jakubowski is the founder of Open Source Ecology",
+        "sourceAuthor": "Zcash_Daily",
+        "platform": "twitter",
+        "engagement": 21139,
+        "postExcerpt": "Open source software & 3D printing are the future. Pirate Party helped farmers sue John Deere for the “Right To Repair” tractors. Website: Marcin Jakubowski, Ph.D founder of Open Source Ecology. Credit: OpenSourceEcology (IG)"
+      },
+      {
+        "id": "right-to-repair-c27",
+        "claimText": "Zia Yusuf is the Head of Policy at Reform UK",
+        "sourceAuthor": "GBNEWS",
+        "platform": "twitter",
+        "engagement": 9683,
+        "postExcerpt": "'Reform not only can repair that damage, we can take Britain to new heights.' Head of Policy at Reform UK Zia Yusuf hits out at Kemi Badenoch for refusing to admit the Conservative Party broke Britain. 🇬🇧 Become a Friend of GB News:"
+      },
+      {
+        "id": "right-to-repair-c28",
+        "claimText": "Zia Yusuf said Kemi Badenoch refused to admit that the Conservative Party broke Britain",
+        "sourceAuthor": "GBNEWS",
+        "platform": "twitter",
+        "engagement": 9683,
+        "postExcerpt": "'Reform not only can repair that damage, we can take Britain to new heights.' Head of Policy at Reform UK Zia Yusuf hits out at Kemi Badenoch for refusing to admit the Conservative Party broke Britain. 🇬🇧 Become a Friend of GB News:"
+      },
+      {
+        "id": "right-to-repair-c29",
+        "claimText": "Season 6 of Moment of Truth is beginning on January 5, 2026",
+        "sourceAuthor": "NickSolheim",
+        "platform": "twitter",
+        "engagement": 6688,
+        "postExcerpt": "Happy New Year and welcome to Season 6 of Moment of Truth. We’re kicking it off with a topic that fills me with incredible fury: the fight over Right to Repair. If you’ve ever tried to work on your own car and found yourself locked out by software or unable to twist a trademarked bespoke screw, this"
+      },
+      {
+        "id": "right-to-repair-c30",
+        "claimText": "The post claims that the Trump administration had leaders who were sounding the alarm about military right-to-repair issues",
+        "sourceAuthor": "NickSolheim",
+        "platform": "twitter",
+        "engagement": 6688,
+        "postExcerpt": "Happy New Year and welcome to Season 6 of Moment of Truth. We’re kicking it off with a topic that fills me with incredible fury: the fight over Right to Repair. If you’ve ever tried to work on your own car and found yourself locked out by software or unable to twist a trademarked bespoke screw, this"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dallas Mavericks vs Boston Celtics injury report: Who's playing, injured and questionable players, head-to-head records, team stats, and more (March 6, 2026)",
+        "url": "https://timesofindia.indiatimes.com/sports/nba/top-stories/dallas-mavericks-vs-boston-celtics-injury-report-whos-playing-injured-and-questionable-players-head-to-head-records-team-stats-and-more-march-6-2026/articleshow/129179242.cms",
+        "publisher": "Times of India",
+        "type": "news",
+        "snippet": "Jayson Tatum is available after returning from an Achilles injury…"
+      },
+      {
+        "title": "Reform plans ICE-style borders agency for UK under new migration plan",
+        "url": "https://www.independent.co.uk/news/uk/politics/migrant-crisis-reform-uk-farage-zia-yusuf-b2925303.html",
+        "publisher": "The Independent",
+        "type": "news",
+        "snippet": "Reform UK home affairs spokesperson Zia Yusuf will deliver a speech on new migration plans."
+      },
+      {
+        "title": "Reform UK pledge to prosecute civil servants who grant asylum to sex offenders",
+        "url": "https://www.europesays.com/2662170/",
+        "publisher": "EuropeSays",
+        "type": "news",
+        "snippet": "Zia Yusuf, the party’s policy chief, claimed Labour and Conservative administrations had been granting asylum..."
+      },
+      {
+        "title": "Bangor University Students' Union releases statement amid Reform debate row",
+        "url": "https://www.dailypost.co.uk/news/north-wales-news/bangor-university-students-union-releases-33399585",
+        "publisher": "Daily Post",
+        "type": "news",
+        "snippet": "Last night Zia Yusuf, head of policy for Reform UK, warned that if in government Reform UK would cut £30m..."
+      },
+      {
+        "title": "British citizens to be 'prioritised over foreigners' under Nigel Farage's plan",
+        "url": "https://www.express.co.uk/news/politics/2099740/nigel-farage-human-rights-british-bill-of-rights",
+        "publisher": "Express",
+        "type": "news",
+        "snippet": "British citizens would be prioritised over foreigners under Nigel Farage's plans ... according to Reform UK's Zia Yusuf."
+      },
+      {
+        "title": "Reform UK’s deportation command will not face same issues as Ice in US - Yusuf",
+        "url": "https://www.kentonline.co.uk/news/national/reform-uk-s-deportation-command-will-not-face-same-issues-as-ice-in-us-yusuf-163093/",
+        "publisher": "KentOnline",
+        "type": "news",
+        "snippet": "Reform UK’s proposed agency ... its home affairs spokesman has said. Zia Yusuf said it is “not true” ..."
+      },
+      {
+        "title": "Reform UK’s deportation command will not face same issues as Ice in US - Yusuf",
+        "url": "https://www.standard.co.uk/news/politics/donald-trump-dover-minnesota-reform-b1272133.html",
+        "publisher": "Evening Standard",
+        "type": "news",
+        "snippet": "Reform UK’s proposed agency ... will not become like Donald Trump’s Ice programme in the US, its home affairs spokesman has said."
+      },
+      {
+        "title": "UK politics latest: Reform to announce plans for ICE-style UK border agency",
+        "url": "https://www.independent.co.uk/news/uk/politics/reform-starmer-labour-farage-uk-politics-latest-news-b2925570.html",
+        "publisher": "Independent",
+        "type": "news",
+        "snippet": "The party’s new home affairs spokesperson, Zia Yusuf, will deliver a speech on Reform’s plans to create..."
+      },
+      {
+        "title": "UK minister accuses Farage of being on side of ‘pornographers’ in online safety row",
+        "url": "https://www.breakingnews.ie/world/minister-accuses-farage-of-being-on-side-of-pornographers-in-online-safety-row-1787558.html",
+        "publisher": "BreakingNews.ie",
+        "type": "news",
+        "snippet": "Former Reform chairman Zia Yusuf claimed the remarks are ... one of the most outrageous and disgusting things..."
+      },
+      {
+        "title": "Peter Kyle says Nigel Farage is on side of ‘people like Jimmy Savile’ in online safety row",
+        "url": "https://www.theguardian.com/politics/2025/jul/29/peter-kyle-nigel-farage-extreme-pornographers-online-safety-bill",
+        "publisher": "The Guardian",
+        "type": "news",
+        "snippet": "Reform UK said ... Farage and Zia Yusuf, his government efficiency chief, told a press conference..."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "right-to-repair-g1",
+    "groupTitle": "Non-government right to repair organizations",
+    "groupSummary": "Claims from social media discourse related to \"Non-government right to repair organizations\"",
+    "relevantSectionIds": [
+      "non-government-right-to-repair-organizations"
+    ],
+    "claimCount": 21,
+    "totalEngagement": 2132551,
+    "claims": [
+      {
+        "id": "right-to-repair-c1",
+        "claimText": "Donald Trump said that the right to repair is coming to farmers",
+        "sourceAuthor": "GuntherEagleman",
+        "platform": "twitter",
+        "engagement": 983388,
+        "postExcerpt": "HOLY BOMBSHELL! Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE!"
+      },
+      {
+        "id": "right-to-repair-c2",
+        "claimText": "Donald Trump said that the right to repair is coming to farmers",
+        "sourceAuthor": "StandUpForTrmp",
+        "platform": "twitter",
+        "engagement": 722239,
+        "postExcerpt": "🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?"
+      },
+      {
+        "id": "right-to-repair-c3",
+        "claimText": "Jayson Tatum had a right Achilles repair",
+        "sourceAuthor": "StoolGreenie",
+        "platform": "twitter",
+        "engagement": 176520,
+        "postExcerpt": "Jayson Tatum - Right Achilles Repair - QUESTIONABLE is going to hit like crack"
+      },
+      {
+        "id": "right-to-repair-c4",
+        "claimText": "Donald Trump said that right to repair is coming to farmers",
+        "sourceAuthor": "RightPulseNewss",
+        "platform": "twitter",
+        "engagement": 43633,
+        "postExcerpt": "🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?"
+      },
+      {
+        "id": "right-to-repair-c5",
+        "claimText": "Europe uses a repairability index",
+        "sourceAuthor": "edify_club",
+        "platform": "twitter",
+        "engagement": 23505,
+        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou"
+      },
+      {
+        "id": "right-to-repair-c6",
+        "claimText": "Pirate Party helped farmers sue John Deere for the right to repair tractors",
+        "sourceAuthor": "Zcash_Daily",
+        "platform": "twitter",
+        "engagement": 21139,
+        "postExcerpt": "Open source software & 3D printing are the future. Pirate Party helped farmers sue John Deere for the “Right To Repair” tractors. Website: Marcin Jakubowski, Ph.D founder of Open Source Ecology. Credit: OpenSourceEcology (IG)"
+      },
+      {
+        "id": "right-to-repair-c7",
+        "claimText": "Right-to-repair language for military equipment was stripped from the NDAA in December 2025",
+        "sourceAuthor": "FaytuksNetwork",
+        "platform": "twitter",
+        "engagement": 16880,
+        "postExcerpt": "🇺🇸 Right to repair language for military equipment was stripped from the NDAA in December despite White House, Pentagon, and bipartisan backing. Atlantic Council analysis says the current repair restrictions threaten U.S. forces combat readiness."
+      },
+      {
+        "id": "right-to-repair-c8",
+        "claimText": "The White House and the Pentagon backed right-to-repair language for military equipment in the NDAA",
+        "sourceAuthor": "FaytuksNetwork",
+        "platform": "twitter",
+        "engagement": 16880,
+        "postExcerpt": "🇺🇸 Right to repair language for military equipment was stripped from the NDAA in December despite White House, Pentagon, and bipartisan backing. Atlantic Council analysis says the current repair restrictions threaten U.S. forces combat readiness."
+      },
+      {
+        "id": "right-to-repair-c9",
+        "claimText": "Atlantic Council analysis says current repair restrictions threaten U.S. forces' combat readiness",
+        "sourceAuthor": "FaytuksNetwork",
+        "platform": "twitter",
+        "engagement": 16880,
+        "postExcerpt": "🇺🇸 Right to repair language for military equipment was stripped from the NDAA in December despite White House, Pentagon, and bipartisan backing. Atlantic Council analysis says the current repair restrictions threaten U.S. forces combat readiness."
+      },
+      {
+        "id": "right-to-repair-c10",
+        "claimText": "The right-to-repair movement received a boost in 2025 from big tech, tariffs, and an economic downturn",
+        "sourceAuthor": "WIRED",
+        "platform": "twitter",
+        "engagement": 13072,
+        "postExcerpt": "This year, the right-to-repair movement got a boost from—surprisingly—big tech, tariffs, and economic downturn. But the companies controlling who fixes their stuff aren’t giving up that power willingly."
+      },
+      {
+        "id": "right-to-repair-c11",
+        "claimText": "Companies that control who fixes their products are not willingly giving up that repair power",
+        "sourceAuthor": "WIRED",
+        "platform": "twitter",
+        "engagement": 13072,
+        "postExcerpt": "This year, the right-to-repair movement got a boost from—surprisingly—big tech, tariffs, and economic downturn. But the companies controlling who fixes their stuff aren’t giving up that power willingly."
+      },
+      {
+        "id": "right-to-repair-c12",
+        "claimText": "The U.S. House has a bill called the Repair Act",
+        "sourceAuthor": "WIRED",
+        "platform": "twitter",
+        "engagement": 9810,
+        "postExcerpt": "As vehicles grow more software-dependent, repairing them has become harder than ever. A bill in the US House called the Repair Act would ease those restrictions, but it comes with caveats."
+      },
+      {
+        "id": "right-to-repair-c13",
+        "claimText": "Zia Yusuf said Reform UK can repair the damage and take Britain to new heights",
+        "sourceAuthor": "GBNEWS",
+        "platform": "twitter",
+        "engagement": 9683,
+        "postExcerpt": "'Reform not only can repair that damage, we can take Britain to new heights.' Head of Policy at Reform UK Zia Yusuf hits out at Kemi Badenoch for refusing to admit the Conservative Party broke Britain. 🇬🇧 Become a Friend of GB News:"
+      },
+      {
+        "id": "right-to-repair-c14",
+        "claimText": "MeadorFTC said they are fighting alongside @SecWar in a battle over right to repair",
+        "sourceAuthor": "MeadorFTC",
+        "platform": "twitter",
+        "engagement": 9385,
+        "postExcerpt": "Right to repair is common sense. When you buy something, you should be able to fix it yourself. This is about basic fairness—and it’s also about keeping the market competitive. Honored to be fighting alongside good men like ⁦@SecWar⁩ in this battle."
+      },
+      {
+        "id": "right-to-repair-c15",
+        "claimText": "Public discussions, free speech rallies (mimbar bebas), and demonstrations are rights",
+        "sourceAuthor": "ObiWan_Catnobi",
+        "platform": "twitter",
+        "engagement": 9341,
+        "postExcerpt": "malas baca jadi abri. namanya diskusi publik, mimbar bebas, even demo itu hak. buat exercise hak, ga butuh izin aparat, cukup kasi surat pemberitahuan"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dallas Mavericks vs Boston Celtics injury report: Who's playing, injured and questionable players, head-to-head records, team stats, and more (March 6, 2026)",
+        "url": "https://timesofindia.indiatimes.com/sports/nba/top-stories/dallas-mavericks-vs-boston-celtics-injury-report-whos-playing-injured-and-questionable-players-head-to-head-records-team-stats-and-more-march-6-2026/articleshow/129179242.cms",
+        "publisher": "timesofindia.indiatimes.com",
+        "type": "news",
+        "snippet": "Jayson Tatum is available after returning from an Achilles injury that kept him out for about 10 months."
+      },
+      {
+        "title": "Why Celtics should chase East's top seed after Cunningham injury",
+        "url": "https://www.nbcboston.com/nba/boston-celtics/cade-cunningham-injury-pistons-playoff-race-seeding/3918594/",
+        "publisher": "nbcboston.com",
+        "type": "news",
+        "snippet": "Experts expected Celtics after Jayson Tatum injured his Achilles in May of last year; now he's back."
+      },
+      {
+        "title": "British citizens to be 'prioritised over foreigners' under Nigel Farage's plan",
+        "url": "https://www.express.co.uk/news/politics/2099740/nigel-farage-human-rights-british-bill-of-rights",
+        "publisher": "Express.co.uk",
+        "type": "news",
+        "snippet": "Reform UK leader Nigel Farage. British citizens would be prioritised over foreigners ... according to ... Zia Yusuf."
+      },
+      {
+        "title": "Nigel Farage to give British citizens 'priority over foreigners' under new migrant plans",
+        "url": "https://www.gbnews.com/politics/nigel-farage-migrant-plans-british-citizens-priority-foreigners",
+        "publisher": "GB News",
+        "type": "news",
+        "snippet": "British citizens would be given priority over foreigners ... according to one of Reform UK’s top figures."
+      },
+      {
+        "title": "Reform plans ICE-style borders agency for UK under new migration plan",
+        "url": "https://www.independent.co.uk/news/uk/politics/migrant-crisis-reform-uk-farage-zia-yusuf-b2925303.html",
+        "publisher": "Independent",
+        "type": "news",
+        "snippet": "Zia Yusuf ... will deliver a speech setting out plans ... including mass deportations and surveillance."
+      },
+      {
+        "title": "Reform UK vows to repeal ‘borderline dystopian’ Online Safety Act",
+        "url": "https://www.theguardian.com/politics/2025/jul/28/reform-uk-vows-to-repeal-borderline-dystopian-online-safety-act",
+        "publisher": "The Guardian",
+        "type": "news",
+        "snippet": "At a press conference ... Nigel Farage and his close aide Zia Yusuf ... discussed ... repealing the Online Safety Act."
+      },
+      {
+        "title": "UK politics latest: Reform to announce plans for ICE-style UK border agency",
+        "url": "https://www.independent.co.uk/news/uk/politics/reform-starmer-labour-farage-uk-politics-latest-news-b2925570.html",
+        "publisher": "Independent",
+        "type": "news",
+        "snippet": "Reform UK will set out ... immigration, including mass deportations ... Zia Yusuf ... create a new “Trump inspired” deportation agency."
+      },
+      {
+        "title": "Reform UK pledge to prosecute civil servants who grant asylum to sex offenders",
+        "url": "https://www.europesays.com/2662170/",
+        "publisher": "Europe Says",
+        "type": "news",
+        "snippet": "Zia Yusuf, the party’s policy chief, claimed ... a Reform UK government would create a task force to review past decisions."
+      },
+      {
+        "title": "Reform UK’s deportation command will not face same issues as Ice in US - Yusuf",
+        "url": "https://www.standard.co.uk/news/politics/donald-trump-dover-minnesota-reform-b1272133.html",
+        "publisher": "Evening Standard",
+        "type": "news",
+        "snippet": "Zia Yusuf said it is “not true” that ... plans ... will face the same issues as US president Mr Trump’s body, which saw ... detentions."
+      },
+      {
+        "title": "‘This Is India, Not North Korea’: Rahul Gandhi Slams PM Modi",
+        "url": "https://www.outlookindia.com/national/this-is-india-not-north-korea-rahul-gandhi-slams-pm-modi",
+        "publisher": "Outlook India",
+        "type": "news",
+        "snippet": "Peaceful protest turned into biggest crime; Gandhi says peaceful protest is soul of democracy."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "right-to-repair-g3",
+    "groupTitle": "Enacted legislation",
+    "groupSummary": "Claims from social media discourse related to \"Enacted legislation\"",
+    "relevantSectionIds": [
+      "enacted-legislation"
+    ],
+    "claimCount": 1,
+    "totalEngagement": 221708,
+    "claims": [
+      {
+        "id": "right-to-repair-c31",
+        "claimText": "Osbornforne said that when he is in the U.S. Senate, he will cosponsor legislation to establish a right to repair",
+        "sourceAuthor": "osbornforne",
+        "platform": "twitter",
+        "engagement": 221708,
+        "postExcerpt": "Here I am fixing the brakes on my Campaign Manager’s RAM hoping to get your attention on an issue I care a lot about as a mechanic – Right To Repair. Right to Repair is simple: if you own something, you should be able to fix it or take it to a technician you trust. But for decades, big corporations "
+      }
+    ],
+    "sources": [],
+    "factChecks": []
+  },
+  {
+    "groupId": "right-to-repair-g4",
+    "groupTitle": "United States",
+    "groupSummary": "Claims from social media discourse related to \"United States\"",
     "relevantSectionIds": [
       "united-states"
     ],
-    "claimCount": 8,
-    "totalEngagement": 983400,
+    "claimCount": 3,
+    "totalEngagement": 40559,
     "claims": [
       {
-        "id": "claim-1",
-        "claimText": "Trump said that the RIGHT TO REPAIR is coming to our farmers.",
-        "sourceAuthor": "@username",
+        "id": "right-to-repair-c46",
+        "claimText": "The United States is pushing right-to-repair laws",
+        "sourceAuthor": "edify_club",
         "platform": "twitter",
-        "engagement": 983400,
-        "postExcerpt": "HOLY BOMBSHELL! Trump just said that the RIGHT TO REPAIR is coming to our farmers!"
+        "engagement": 23505,
+        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou"
       },
       {
-        "id": "claim-2",
-        "claimText": "John Deere has been taking advantage of farmers for decades.",
-        "sourceAuthor": "@username",
+        "id": "right-to-repair-c47",
+        "claimText": "The Repair Act would ease restrictions on repairing vehicles in the United States",
+        "sourceAuthor": "WIRED",
         "platform": "twitter",
-        "engagement": 983400,
-        "postExcerpt": "John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES."
+        "engagement": 9810,
+        "postExcerpt": "As vehicles grow more software-dependent, repairing them has become harder than ever. A bill in the US House called the Repair Act would ease those restrictions, but it comes with caveats."
       },
       {
-        "id": "claim-3",
-        "claimText": "Congress had a bipartisan plan to allow troops to repair their own equipment.",
-        "sourceAuthor": "@username",
+        "id": "right-to-repair-c48",
+        "claimText": "The guidance will discuss the Right to Repair movement in Europe and the United States and local initiatives rooted in Sendai.",
+        "sourceAuthor": "seidosha",
         "platform": "twitter",
-        "engagement": 111700,
-        "postExcerpt": "Congress had a bipartisan plan to fix that, but lobbyists stopped it."
-      },
-      {
-        "id": "claim-4",
-        "claimText": "Troops should have the right to repair their own equipment.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 111700,
-        "postExcerpt": "Our troops should have the right to repair their own stuff."
-      },
-      {
-        "id": "claim-5",
-        "claimText": "Right to repair language was stripped from the NDAA.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 16900,
-        "postExcerpt": "Right to repair language for military equipment was stripped from the NDAA in December."
-      },
-      {
-        "id": "claim-6",
-        "claimText": "The right-to-repair movement received a boost from big tech and economic factors.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 13100,
-        "postExcerpt": "This year, the right-to-repair movement got a boost from—surprisingly—big tech, tariffs, and economic downturn."
-      },
-      {
-        "id": "claim-7",
-        "claimText": "Americans shouldn't be forced into expensive dealership repairs.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 9100,
-        "postExcerpt": "Americans shouldn’t be forced into expensive dealership repairs."
-      },
-      {
-        "id": "claim-8",
-        "claimText": "The REPAIR Act guarantees the right to choose independent shops.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 9100,
-        "postExcerpt": "The REPAIR Act guarantees your right to choose independent shops."
+        "engagement": 7244,
+        "postExcerpt": "『修理する権利』(アーロン・パーザナウスキー著/西村伸泰訳)の解題を書いてくださった吉田健彦さんが、本書のガイダンスを行われます。 欧米における「修理する権利(Right to repair)」の動向から、仙台に根ざすローカルな取り組みまで、さまざまな位相で「修理すること」について考えます。"
       }
-    ]
+    ],
+    "sources": [],
+    "factChecks": []
   },
   {
-    "groupId": "group-2",
-    "groupTitle": "Impact of Right to Repair",
-    "groupSummary": "Claims discussing the broader implications of the right to repair on consumers and the environment.",
+    "groupId": "right-to-repair-g5",
+    "groupTitle": "Software",
+    "groupSummary": "Claims from social media discourse related to \"Software\"",
     "relevantSectionIds": [
-      "impacts"
+      "software"
     ],
-    "claimCount": 8,
-    "totalEngagement": 23500,
+    "claimCount": 3,
+    "totalEngagement": 27862,
     "claims": [
       {
-        "id": "claim-9",
-        "claimText": "Most laptops do not die; they are killed by poor repair and cheap components.",
-        "sourceAuthor": "@username",
+        "id": "right-to-repair-c61",
+        "claimText": "Vehicles have become more software-dependent over time",
+        "sourceAuthor": "WIRED",
         "platform": "twitter",
-        "engagement": 23500,
-        "postExcerpt": "Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability."
+        "engagement": 9810,
+        "postExcerpt": "As vehicles grow more software-dependent, repairing them has become harder than ever. A bill in the US House called the Repair Act would ease those restrictions, but it comes with caveats."
       },
       {
-        "id": "claim-10",
-        "claimText": "The habit of buying new laptops drains wallets and increases e-waste.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 23500,
-        "postExcerpt": "This habit drains India’s wallets by thousands of crores every year."
-      },
-      {
-        "id": "claim-11",
-        "claimText": "Repair restrictions threaten U.S. forces' combat readiness.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 16900,
-        "postExcerpt": "Atlantic Council analysis says the current repair restrictions threaten U.S. forces combat readiness."
-      },
-      {
-        "id": "claim-12",
-        "claimText": "Repairing vehicles has become harder due to software dependencies.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 9800,
-        "postExcerpt": "As vehicles grow more software-dependent, repairing them has become harder than ever."
-      },
-      {
-        "id": "claim-13",
-        "claimText": "A bill called the Repair Act would ease repair restrictions.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 9800,
-        "postExcerpt": "A bill in the US House called the Repair Act would ease those restrictions."
-      },
-      {
-        "id": "claim-14",
-        "claimText": "The right to repair is about basic fairness and market competitiveness.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 9400,
-        "postExcerpt": "Right to repair is common sense. When you buy something, you should be able to fix it yourself."
-      },
-      {
-        "id": "claim-15",
-        "claimText": "Defense contractors profit from repair restrictions.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 6100,
-        "postExcerpt": "Defense contractors are making trillions off of doing it."
-      },
-      {
-        "id": "claim-16",
-        "claimText": "Repairing equipment should not require expensive subscriptions.",
-        "sourceAuthor": "@username",
+        "id": "right-to-repair-c62",
+        "claimText": "Hyundai requires a computer connection and subscription software to perform a rear brake pad service on current-model Ioniq 5 EVs",
+        "sourceAuthor": "Uncle Tony's Garage",
         "platform": "youtube",
-        "engagement": 9000,
-        "postExcerpt": "Hyundai requiring a computer connection complete with subscription software to perform a simple rear brake pad service."
+        "engagement": 9026,
+        "postExcerpt": "When we first heard about Hyundai requiring a computer connection complete with subscription software to perform a simple rear brake pad service, it was via a video by @louisrossman, and to be honest we thought he might have been mistaken since he's not an actual hands on mechanic. But, we did just "
+      },
+      {
+        "id": "right-to-repair-c63",
+        "claimText": "Louis Rossman published a video about Hyundai requiring a computer connection and subscription software for a rear brake pad service",
+        "sourceAuthor": "Uncle Tony's Garage",
+        "platform": "youtube",
+        "engagement": 9026,
+        "postExcerpt": "When we first heard about Hyundai requiring a computer connection complete with subscription software to perform a simple rear brake pad service, it was via a video by @louisrossman, and to be honest we thought he might have been mistaken since he's not an actual hands on mechanic. But, we did just "
       }
-    ]
-  },
-  {
-    "groupId": "group-3",
-    "groupTitle": "Global Perspectives on Right to Repair",
-    "groupSummary": "Claims reflecting the international movement and implications of the right to repair.",
-    "relevantSectionIds": [
-      "canada",
-      "european-union"
     ],
-    "claimCount": 5,
-    "totalEngagement": 7200,
-    "claims": [
+    "sources": [
       {
-        "id": "claim-17",
-        "claimText": "The Pirate Party helped farmers sue John Deere for the right to repair.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 21100,
-        "postExcerpt": "Pirate Party helped farmers sue John Deere for the “Right To Repair” tractors."
-      },
-      {
-        "id": "claim-18",
-        "claimText": "The right to repair movement is gaining traction in Europe and North America.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 7200,
-        "postExcerpt": "欧米における「修理する権利(Right to repair)」の動向から、仙台に根ざすローカルな取り組みまで。"
-      },
-      {
-        "id": "claim-19",
-        "claimText": "The right to repair is a global issue affecting consumers everywhere.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 7200,
-        "postExcerpt": "Various perspectives on 'repairing' from local initiatives to global movements."
-      },
-      {
-        "id": "claim-20",
-        "claimText": "The right to repair is about empowering consumers worldwide.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 7200,
-        "postExcerpt": "The right to repair empowers consumers to fix their own devices."
-      },
-      {
-        "id": "claim-21",
-        "claimText": "Repair initiatives are crucial for sustainability and reducing e-waste.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 7200,
-        "postExcerpt": "Repair initiatives are essential for sustainability and reducing e-waste."
+        "title": "Poland bans Chinese vehicles from military sites over espionage fears",
+        "url": "https://www.naturalnews.com/2026-02-21-poland-bans-china-vehicles-from-military-sites.html",
+        "publisher": "NaturalNews.com",
+        "type": "news",
+        "snippet": "“integrated digital systems” cited as risks from Chinese smart cars/data theft"
       }
-    ]
-  },
-  {
-    "groupId": "group-4",
-    "groupTitle": "Challenges to Right to Repair",
-    "groupSummary": "Claims discussing the obstacles faced by the right to repair movement.",
-    "relevantSectionIds": [
-      "history"
     ],
-    "claimCount": 6,
-    "totalEngagement": 13100,
-    "claims": [
-      {
-        "id": "claim-22",
-        "claimText": "Companies controlling repair access are resistant to change.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 13100,
-        "postExcerpt": "But the companies controlling who fixes their stuff aren’t giving up that power willingly."
-      },
-      {
-        "id": "claim-23",
-        "claimText": "Lobbyists have a significant influence on repair legislation.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 111700,
-        "postExcerpt": "Lobbyists stopped it."
-      },
-      {
-        "id": "claim-24",
-        "claimText": "Repair restrictions are often driven by corporate interests.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 13100,
-        "postExcerpt": "Repair restrictions are often driven by corporate interests."
-      },
-      {
-        "id": "claim-25",
-        "claimText": "The right to repair faces legal and regulatory challenges.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 13100,
-        "postExcerpt": "The right to repair faces numerous legal and regulatory challenges."
-      },
-      {
-        "id": "claim-26",
-        "claimText": "The right to repair movement is often misunderstood.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 13100,
-        "postExcerpt": "The right to repair movement is often misunderstood by the public."
-      },
-      {
-        "id": "claim-27",
-        "claimText": "Public awareness of the right to repair is still growing.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 13100,
-        "postExcerpt": "Public awareness of the right to repair is still growing."
-      }
-    ]
+    "factChecks": []
   }
 ]

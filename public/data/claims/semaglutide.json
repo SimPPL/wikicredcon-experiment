@@ -1,266 +1,1105 @@
 [
   {
-    "groupId": "group-1",
-    "groupTitle": "Efficacy and Safety of Semaglutide",
-    "groupSummary": "Claims related to the effectiveness and safety of semaglutide for various medical conditions.",
+    "groupId": "semaglutide-g2",
+    "groupTitle": "Medical uses",
+    "groupSummary": "Claims from social media discourse related to \"Medical uses\"",
     "relevantSectionIds": [
-      "medical-uses",
-      "side-effects"
+      "medical-uses"
     ],
-    "claimCount": 20,
-    "totalEngagement": 1239,
+    "claimCount": 49,
+    "totalEngagement": 1984,
     "claims": [
       {
-        "id": "claim-1",
-        "claimText": "Semaglutide was not effective at improving the primary outcome, executive function.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c16",
+        "claimText": "Semaglutide was safe in the treatment of cognitive dysfunction in major depressive disorder",
+        "sourceAuthor": "ShamliyanTA",
         "platform": "twitter",
         "engagement": 8,
-        "postExcerpt": "Semaglutide was not effective at improving the primary outcome..."
+        "postExcerpt": "Semaglutide was not effective at improving the primary outcome, executive function •Semaglutide was safe, with no effects on depressive symptoms or suicidal ideation. Semaglutide for the treatment of cognitive dysfunction in major depres..."
       },
       {
-        "id": "claim-2",
-        "claimText": "Semaglutide was safe, with no effects on depressive symptoms or suicidal ideation.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 8,
-        "postExcerpt": "Semaglutide was safe, with no effects on depressive symptoms..."
-      },
-      {
-        "id": "claim-3",
-        "claimText": "Ozempic (semaglutide) is widely discussed for type 2 diabetes and weight loss.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c17",
+        "claimText": "Ozempic is given as a once-weekly subcutaneous injection",
+        "sourceAuthor": "Whiteboard Medicine Simplified",
         "platform": "youtube",
         "engagement": 52,
-        "postExcerpt": "Ozempic (semaglutide) is one of the most widely discussed medications..."
+        "postExcerpt": "Ozempic (semaglutide) is one of the most widely discussed medications today for type 2 diabetes and weight loss. In this video, we explain what Ozempic is, how it works, and why GLP-1 receptor agonists have transformed diabetes and obesity treatment. Ozempic belongs to a class of medications called "
       },
       {
-        "id": "claim-4",
-        "claimText": "Semaglutide is a GLP-1 receptor agonist that helps with chronic weight management.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c18",
+        "claimText": "Wegovy is semaglutide",
+        "sourceAuthor": "Medication Academy",
         "platform": "youtube",
         "engagement": 1,
-        "postExcerpt": "This video provides a quick medication update for WEGOVY (semaglutide)..."
+        "postExcerpt": "This video provides a quick medication update for WEGOVY (semaglutide), one of the most widely used GLP-1 receptor agonists for chronic weight management, risk reduction of major adverse cardiovascular events, and treatment of noncirrhotic metabolic dysfunction-associated steatohepatitis (MASH). #ph"
       },
       {
-        "id": "claim-5",
-        "claimText": "Semaglutide can reduce appetite and improve blood sugar control.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c19",
+        "claimText": "Wegovy is indicated for chronic weight management",
+        "sourceAuthor": "Medication Academy",
         "platform": "youtube",
         "engagement": 1,
-        "postExcerpt": "Learn how Wegovy works to reduce appetite, improve blood sugar control..."
+        "postExcerpt": "This video provides a quick medication update for WEGOVY (semaglutide), one of the most widely used GLP-1 receptor agonists for chronic weight management, risk reduction of major adverse cardiovascular events, and treatment of noncirrhotic metabolic dysfunction-associated steatohepatitis (MASH). #ph"
       },
       {
-        "id": "claim-6",
-        "claimText": "Semaglutide is the first oral GLP-1 receptor agonist for treating type 2 diabetes.",
-        "sourceAuthor": "@username",
-        "platform": "youtube",
-        "engagement": 2,
-        "postExcerpt": "This video shares medication insights for RYBELSUS (semaglutide)..."
-      },
-      {
-        "id": "claim-7",
-        "claimText": "Ozempic is widely used for Type 2 diabetes management and cardiovascular risk reduction.",
-        "sourceAuthor": "@username",
-        "platform": "youtube",
-        "engagement": 0,
-        "postExcerpt": "Ozempic (Semaglutide) is a prescription GLP-1 receptor agonist..."
-      },
-      {
-        "id": "claim-8",
-        "claimText": "Semaglutide has been shown to improve glycemic control in adults with schizophrenia.",
-        "sourceAuthor": "@username",
-        "platform": "youtube",
-        "engagement": 0,
-        "postExcerpt": "New research suggests low-dose semaglutide may improve glycemic control..."
-      },
-      {
-        "id": "claim-9",
-        "claimText": "GLP-1 medications like semaglutide can help people regain momentum in weight loss.",
-        "sourceAuthor": "@username",
-        "platform": "youtube",
-        "engagement": 3,
-        "postExcerpt": "Semaglutide and GLP-1 medications aren’t a “cheat” they can be the spark..."
-      },
-      {
-        "id": "claim-10",
-        "claimText": "Semaglutide helps reduce hunger and is effective for long-term weight loss.",
-        "sourceAuthor": "@username",
-        "platform": "youtube",
-        "engagement": 4,
-        "postExcerpt": "GLP‐1 agonists like Ozempic (semaglutide) are some of the most effective medications..."
-      },
-      {
-        "id": "claim-11",
-        "claimText": "Semaglutide can lead to significant weight loss and improved heart outcomes.",
-        "sourceAuthor": "@username",
-        "platform": "youtube",
-        "engagement": 0,
-        "postExcerpt": "GLP-1 drugs like semaglutide and tirzepatide are changing how we treat obesity..."
-      },
-      {
-        "id": "claim-12",
-        "claimText": "Semaglutide can dramatically reduce appetite and help people lose weight quickly.",
-        "sourceAuthor": "@username",
-        "platform": "youtube",
-        "engagement": 151,
-        "postExcerpt": "GLP-1 medications like semaglutide, tirzepatide, and retatrutide have changed the weight loss world..."
-      },
-      {
-        "id": "claim-13",
-        "claimText": "FDA has approved oral semaglutide for chronic weight management.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 453,
-        "postExcerpt": "FDA has approved Novo Nordisk’s once-daily Wegovy pill (oral semaglutide 25 mg)..."
-      },
-      {
-        "id": "claim-14",
-        "claimText": "Semaglutide can help with the risk reduction of major adverse cardiovascular events.",
-        "sourceAuthor": "@username",
-        "platform": "youtube",
-        "engagement": 0,
-        "postExcerpt": "This video shares medication insights for RYBELSUS (semaglutide)..."
-      },
-      {
-        "id": "claim-15",
-        "claimText": "Semaglutide is effective for treating noncirrhotic metabolic dysfunction-associated steatohepatitis.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c20",
+        "claimText": "Wegovy is indicated for treatment of noncirrhotic metabolic dysfunction-associated steatohepatitis (MASH)",
+        "sourceAuthor": "Medication Academy",
         "platform": "youtube",
         "engagement": 1,
-        "postExcerpt": "This video provides a quick medication update for WEGOVY (semaglutide)..."
+        "postExcerpt": "This video provides a quick medication update for WEGOVY (semaglutide), one of the most widely used GLP-1 receptor agonists for chronic weight management, risk reduction of major adverse cardiovascular events, and treatment of noncirrhotic metabolic dysfunction-associated steatohepatitis (MASH). #ph"
       },
       {
-        "id": "claim-16",
-        "claimText": "Semaglutide can lead to significant reductions in HbA1c levels.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c21",
+        "claimText": "The referenced Wegovy prescribing information is dated November 2025",
+        "sourceAuthor": "Medication Academy",
+        "platform": "youtube",
+        "engagement": 1,
+        "postExcerpt": "This video provides a quick medication update for WEGOVY (semaglutide), one of the most widely used GLP-1 receptor agonists for chronic weight management, risk reduction of major adverse cardiovascular events, and treatment of noncirrhotic metabolic dysfunction-associated steatohepatitis (MASH). #ph"
+      },
+      {
+        "id": "semaglutide-c22",
+        "claimText": "Semaglutide is a GLP-1 receptor agonist",
+        "sourceAuthor": "AZTRT",
+        "platform": "reddit",
+        "engagement": 1,
+        "postExcerpt": "Understanding Semaglutide: What It Is and How It Fits Into a Structured Weight-Loss Approach Semaglutide has become one of the most discussed medications in the weight-loss space, but there’s still a lot of confusion about what it does — and just as importantly, what it doesn’t do. What is semagluti"
+      },
+      {
+        "id": "semaglutide-c23",
+        "claimText": "Semaglutide works by increasing feelings of fullness, slowing gastric emptying, and reducing appetite",
+        "sourceAuthor": "AZTRT",
+        "platform": "reddit",
+        "engagement": 1,
+        "postExcerpt": "Understanding Semaglutide: What It Is and How It Fits Into a Structured Weight-Loss Approach Semaglutide has become one of the most discussed medications in the weight-loss space, but there’s still a lot of confusion about what it does — and just as importantly, what it doesn’t do. What is semagluti"
+      },
+      {
+        "id": "semaglutide-c24",
+        "claimText": "Semaglutide was later studied for weight management under medical supervision",
+        "sourceAuthor": "AZTRT",
+        "platform": "reddit",
+        "engagement": 1,
+        "postExcerpt": "Understanding Semaglutide: What It Is and How It Fits Into a Structured Weight-Loss Approach Semaglutide has become one of the most discussed medications in the weight-loss space, but there’s still a lot of confusion about what it does — and just as importantly, what it doesn’t do. What is semagluti"
+      },
+      {
+        "id": "semaglutide-c25",
+        "claimText": "The video states that its information is based on FDA- and EMA-approved data",
+        "sourceAuthor": "MedReview BD",
         "platform": "youtube",
         "engagement": 0,
-        "postExcerpt": "This video breaks down the study design, key findings (HbA1c reductions)..."
+        "postExcerpt": "Ozempic (Semaglutide) Explained: Dosage, Side Effects, Weight Loss & Diabetes Benefits | 2025 Guide Ozempic (Semaglutide) is a prescription GLP-1 receptor agonist widely used in the USA and Europe for Type 2 diabetes management and cardiovascular risk reduction. In recent years, Ozempic has also gai"
       },
       {
-        "id": "claim-17",
-        "claimText": "GLP-1 medications like semaglutide can help manage metabolic side effects of antipsychotics.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c26",
+        "claimText": "Ozempic dosing is described as a schedule from 0.25 mg to 2 mg",
+        "sourceAuthor": "MedReview BD",
         "platform": "youtube",
         "engagement": 0,
-        "postExcerpt": "This video breaks down the study design, key findings (HbA1c reductions)..."
+        "postExcerpt": "Ozempic (Semaglutide) Explained: Dosage, Side Effects, Weight Loss & Diabetes Benefits | 2025 Guide Ozempic (Semaglutide) is a prescription GLP-1 receptor agonist widely used in the USA and Europe for Type 2 diabetes management and cardiovascular risk reduction. In recent years, Ozempic has also gai"
       },
       {
-        "id": "claim-18",
-        "claimText": "Semaglutide can help improve appetite signaling in the brain.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c27",
+        "claimText": "Misuse of Ozempic can lead to gastrointestinal complications and rare pancreatic or gallbladder issues",
+        "sourceAuthor": "MedReview BD",
         "platform": "youtube",
-        "engagement": 151,
-        "postExcerpt": "In this video, we break down what GLP-1 drugs actually do to: • Muscle mass and metabolism..."
+        "engagement": 0,
+        "postExcerpt": "Ozempic (Semaglutide) Explained: Dosage, Side Effects, Weight Loss & Diabetes Benefits | 2025 Guide Ozempic (Semaglutide) is a prescription GLP-1 receptor agonist widely used in the USA and Europe for Type 2 diabetes management and cardiovascular risk reduction. In recent years, Ozempic has also gai"
       },
       {
-        "id": "claim-19",
-        "claimText": "Semaglutide can help reduce the stigma around weight loss medications.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c28",
+        "claimText": "Wegovy (semaglutide) is approved for chronic weight management",
+        "sourceAuthor": "He-InFo",
         "platform": "youtube",
-        "engagement": 3,
-        "postExcerpt": "We break down the stigma around “cheating” in health and fitness..."
+        "engagement": 1,
+        "postExcerpt": "In this video, we explore Wegovy (semaglutide), a revolutionary GLP-1 receptor agonist approved for chronic weight management and Type 2 Diabetes. Learn how Wegovy works to reduce appetite, improve blood sugar control, and support heart health — all in a once-weekly injection. Whether you're managin"
       },
       {
-        "id": "claim-20",
-        "claimText": "Semaglutide can lead to changes in gut bacteria.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c29",
+        "claimText": "Wegovy is a once-weekly injection",
+        "sourceAuthor": "He-InFo",
         "platform": "youtube",
-        "engagement": 151,
-        "postExcerpt": "In this video, we break down what GLP-1 drugs actually do to: • Muscle mass and metabolism..."
+        "engagement": 1,
+        "postExcerpt": "In this video, we explore Wegovy (semaglutide), a revolutionary GLP-1 receptor agonist approved for chronic weight management and Type 2 Diabetes. Learn how Wegovy works to reduce appetite, improve blood sugar control, and support heart health — all in a once-weekly injection. Whether you're managin"
+      },
+      {
+        "id": "semaglutide-c30",
+        "claimText": "Wegovy is a GLP-1 receptor agonist",
+        "sourceAuthor": "He-InFo",
+        "platform": "youtube",
+        "engagement": 1,
+        "postExcerpt": "In this video, we explore Wegovy (semaglutide), a revolutionary GLP-1 receptor agonist approved for chronic weight management and Type 2 Diabetes. Learn how Wegovy works to reduce appetite, improve blood sugar control, and support heart health — all in a once-weekly injection. Whether you're managin"
+      }
+    ],
+    "sources": [
+      {
+        "title": "How Semaglutide Works: Understanding Appetite, Hormones And Weight Loss In Simple Terms",
+        "url": "https://www.ndtv.com/health/how-semaglutide-works-understanding-appetite-hormones-and-weight-loss-in-simple-terms-11243582",
+        "publisher": "NDTV",
+        "type": "news",
+        "snippet": "Semaglutide is the active ingredient in medications such as Wegovy and Ozempic."
+      },
+      {
+        "title": "TV presenter shares fat jab warning after dropping to size 8 led to ‘toll on her health’",
+        "url": "https://www.thesun.ie/tvandshowbiz/16739676/tv-presenter-fat-jab-warning-health-toll/",
+        "publisher": "The Sun",
+        "type": "news",
+        "snippet": "Wegovy and Mounjaro are said to suppress appetite and help people lose weight, via GLP-1 signaling to the brain."
+      },
+      {
+        "title": "The FDA just approved triple the previous maximum dose of Wegovy",
+        "url": "https://www.independent.co.uk/news/health/wegovy-fda-weight-loss-drug-approval-b2945556.html",
+        "publisher": "The Independent",
+        "type": "news",
+        "snippet": "Novo Nordisk said higher doses saw an average loss of 21% of body weight after 72 weeks"
+      },
+      {
+        "title": "New FDA-approved ‘Wegovy HD’ offers triple the semaglutide dosage",
+        "url": "https://nypost.com/2026/03/24/health/fda-approves-new-wegovy-hd-with-triple-the-dosage-of-the-semaglutide-medication/",
+        "publisher": "New York Post",
+        "type": "news",
+        "snippet": "Higher-dose Wegovy (semaglutide) ... called a higher-dose GLP-1."
+      },
+      {
+        "title": "Greater weight loss promised by higher-dose Wegovy shot, now approved by FDA",
+        "url": "https://www.foxnews.com/health/greater-weight-loss-promised-higher-dose-wegovy-shot-now-approved-fda",
+        "publisher": "Fox News",
+        "type": "news",
+        "snippet": "FDA approval of higher-dose Wegovy (semaglutide) 7.2 mg for weight loss and long-term maintenance."
+      },
+      {
+        "title": "New stronger weight-loss drug gets green light from FDA: 'Major jump'",
+        "url": "https://www.foxnews.com/health/new-stronger-weight-loss-drug-gets-green-light-from-fda-major-jump",
+        "publisher": "Fox News",
+        "type": "news",
+        "snippet": "FDA approval of higher-dose Wegovy (semaglutide) ... described as a GLP-1."
+      },
+      {
+        "title": "Indian drugmakers flood market with cheaper versions of Novo's Ozempic, Wegovy",
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/indian-drugmakers-flood-market-with-cheaper-versions-novos-ozempic-wegovy-2026-03-23/",
+        "publisher": "Reuters",
+        "type": "news",
+        "snippet": "Discusses semaglutide patent expiry and generic semaglutide launches; no suicide-warning labeling details in snippet."
+      },
+      {
+        "title": "Health warning as £10 fat jabs set to flood UK black market",
+        "url": "https://www.standard.co.uk/news/health/ozempic-wegovy-fat-jab-mounjaro-black-market-india-b1276601.html",
+        "publisher": "Evening Standard",
+        "type": "news",
+        "snippet": "Says Novo Nordisk is behind semaglutide used in Wegovy and Ozempic."
+      },
+      {
+        "title": "Semaglutide prices crash up to 90% as 15+ generics launch in two days",
+        "url": "https://www.business-standard.com/industry/news/semaglutide-prices-crash-up-to-90-as-15-generics-launch-in-two-days-126032200534_1.html",
+        "publisher": "business-standard.com",
+        "type": "news",
+        "snippet": "“GLP-1 agonists... slow gastric emptying,” aiding weight loss and glucose control"
+      },
+      {
+        "title": "India’s drug regulatory authority steps up surveillance on generic GLP-1 weight-loss drugs",
+        "url": "https://www.thehindubusinessline.com/news/national/indias-drug-regulatory-authority-steps-up-surveillance-on-generic-glp-1-drugs/article70778406.ece",
+        "publisher": "The Hindu BusinessLine",
+        "type": "news",
+        "snippet": "Describes GLP-1 drugs used for obesity/diabetes and discusses semaglutide generics."
+      }
+    ],
+    "factChecks": [
+      {
+        "title": "Oral Wegovy Launch",
+        "url": "https://www.globenewswire.com/news-release/2026/01/07/3214228/0/en/Best-Peptides-for-Weight-Loss-2026-Oral-Wegovy-Launch-Expands-GLP-1-Format-Options-as-Telehealth-Platforms-Compare-FDA-Approved-vs-Compounded-Semaglutide-Access.html",
+        "publisher": "Globe Newswire",
+        "type": "fact-check",
+        "snippet": "Reports describe Novo Nordisk’s introduction of an oral Wegovy (oral semaglutide) option"
+      },
+      {
+        "title": "The FDA just approved triple the previous maximum dose of Wegovy",
+        "url": "https://www.independent.co.uk/news/health/wegovy-fda-weight-loss-drug-approval-b2945556.html",
+        "publisher": "The Independent",
+        "type": "fact-check",
+        "snippet": "Approved “Wegovy HD” 7.2 mg vs 2.4 mg; notes 2.4 mg was approved for chronic weight management."
+      },
+      {
+        "title": "New FDA-approved ‘Wegovy HD’ offers triple the semaglutide dosage",
+        "url": "https://nypost.com/2026/03/24/health/fda-approves-new-wegovy-hd-with-triple-the-dosage-of-the-semaglutide-medication/",
+        "publisher": "NYPost.com",
+        "type": "fact-check",
+        "snippet": "FDA approved Wegovy HD (7.2 mg) semaglutide; intended for weight loss and long-term maintenance."
+      },
+      {
+        "title": "Greater weight loss promised by higher-dose Wegovy shot, now approved by FDA",
+        "url": "https://www.foxnews.com/health/greater-weight-loss-promised-higher-dose-wegovy-shot-now-approved-fda",
+        "publisher": "Fox News",
+        "type": "fact-check",
+        "snippet": "FDA approved a new, higher-dose Wegovy (semaglutide) injection; 7.2 mg for weight loss/maintenance."
+      },
+      {
+        "title": "New Oral Wegovy Pill",
+        "url": "https://www.globenewswire.com/news-release/2025/12/26/3210673/0/en/Best-Semaglutide-Options-for-2026-New-Oral-Wegovy-Pill-Approved-by-FDA-as-Patients-Compare-Injectable-and-Compounded-Access-Pathways.html",
+        "publisher": "GlobeNewswire",
+        "type": "fact-check",
+        "snippet": "States FDA approved a 25 mg oral Wegovy weight-loss pill for chronic weight management."
       }
     ]
   },
   {
-    "groupId": "group-2",
-    "groupTitle": "Side Effects and Safety Concerns",
-    "groupSummary": "Claims regarding the side effects and safety profile of semaglutide.",
+    "groupId": "semaglutide-g6",
+    "groupTitle": "Hair loss",
+    "groupSummary": "Claims from social media discourse related to \"Hair loss\"",
+    "relevantSectionIds": [
+      "hair-loss"
+    ],
+    "claimCount": 9,
+    "totalEngagement": 644,
+    "claims": [
+      {
+        "id": "semaglutide-c76",
+        "claimText": "Ozempic has been used for weight loss in recent years",
+        "sourceAuthor": "MedReview BD",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "Ozempic (Semaglutide) Explained: Dosage, Side Effects, Weight Loss & Diabetes Benefits | 2025 Guide Ozempic (Semaglutide) is a prescription GLP-1 receptor agonist widely used in the USA and Europe for Type 2 diabetes management and cardiovascular risk reduction. In recent years, Ozempic has also gai"
+      },
+      {
+        "id": "semaglutide-c77",
+        "claimText": "Using GLP-1 medications without strength training, proper nutrition, and movement can lead to muscle loss and worse long-term outcomes, according to the post",
+        "sourceAuthor": "Sweat Success Podcast",
+        "platform": "youtube",
+        "engagement": 3,
+        "postExcerpt": "Semaglutide and GLP-1 medications aren’t a “cheat” they can be the spark that gets people moving again. In this clip, we explore how GLP-1s act as a gateway for people who feel stuck, overwhelmed, overweight, or mentally drained, helping them regain momentum when nothing else has worked. We break do"
+      },
+      {
+        "id": "semaglutide-c78",
+        "claimText": "GLP-1 receptor agonists such as semaglutide can change hunger signals and contribute to weight loss",
+        "sourceAuthor": "MedCurious - Science of Health",
+        "platform": "youtube",
+        "engagement": 13,
+        "postExcerpt": "Do you wonder why your hunger sometimes feels like it never shuts up, no matter how much you’ve eaten?🤔 And what are GLP-1 drugs like Ozempic, Wegovy, Mounjaro, Zepbound actually doing inside your body? In this video, we step inside your Appetite Feed—the constant conversation between your gut and "
+      },
+      {
+        "id": "semaglutide-c79",
+        "claimText": "GLP-1 receptor agonists such as semaglutide and tirzepatide are associated with weight loss.",
+        "sourceAuthor": "System Critique",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "GLP-1 drugs like semaglutide and tirzepatide are changing how we treat obesity and heart disease. This video gives a clear, simple look at the major benefits—like large weight loss, better heart outcomes, and reduced stroke risk—and the equally important safety warnings. We explain the SELECT trial "
+      },
+      {
+        "id": "semaglutide-c80",
+        "claimText": "Semaglutide, liraglutide, and tirzepatide are GLP-1 weight loss injections.",
+        "sourceAuthor": "Dr Aparna G Bhasker Bariatric Laparoscopic Surgeon",
+        "platform": "youtube",
+        "engagement": 8,
+        "postExcerpt": "GLP-1 Weight Loss Injections Side Effects Explained | Complete Side Effects Guide GLP-1 weight loss injections like Semaglutide, Liraglutide and Tirzepatide are extremely popular today, but understanding their side effects is crucial. In this video, we explain the common, rare, and serious complicat"
+      },
+      {
+        "id": "semaglutide-c81",
+        "claimText": "GLP-1 weight loss injections are associated with gallbladder stones and pancreatitis as rare serious complications.",
+        "sourceAuthor": "Dr Aparna G Bhasker Bariatric Laparoscopic Surgeon",
+        "platform": "youtube",
+        "engagement": 8,
+        "postExcerpt": "GLP-1 Weight Loss Injections Side Effects Explained | Complete Side Effects Guide GLP-1 weight loss injections like Semaglutide, Liraglutide and Tirzepatide are extremely popular today, but understanding their side effects is crucial. In this video, we explain the common, rare, and serious complicat"
+      },
+      {
+        "id": "semaglutide-c82",
+        "claimText": "The post says GLP-1 weight loss injections can pose eye-related risks in diabetic patients.",
+        "sourceAuthor": "Dr Aparna G Bhasker Bariatric Laparoscopic Surgeon",
+        "platform": "youtube",
+        "engagement": 8,
+        "postExcerpt": "GLP-1 Weight Loss Injections Side Effects Explained | Complete Side Effects Guide GLP-1 weight loss injections like Semaglutide, Liraglutide and Tirzepatide are extremely popular today, but understanding their side effects is crucial. In this video, we explain the common, rare, and serious complicat"
+      },
+      {
+        "id": "semaglutide-c83",
+        "claimText": "Semaglutide, tirzepatide, and retatrutide are GLP-1 medications used in weight loss treatment",
+        "sourceAuthor": "Phil's My Pharmacist",
+        "platform": "youtube",
+        "engagement": 151,
+        "postExcerpt": "GLP-1 medications like semaglutide, tirzepatide, and retatrutide have changed the weight loss world. They can dramatically reduce appetite and help people lose weight quickly — but what happens inside your body if you stay on them long term? In this video, we break down what GLP-1 drugs actually do "
+      },
+      {
+        "id": "semaglutide-c84",
+        "claimText": "In the OASIS 4 trial, average weight loss was 16.6% at 64 weeks",
+        "sourceAuthor": "MounjaroNotes",
+        "platform": "twitter",
+        "engagement": 453,
+        "postExcerpt": "FDA has approved Novo Nordisk’s once-daily Wegovy pill (oral semaglutide 25 mg) for chronic weight management in adults with obesity or overweight + a related condition; in the OASIS 4 trial, average weight loss was 16.6% at 64 weeks."
+      }
+    ],
+    "sources": [
+      {
+        "title": "1 in 10 patients taking Wegovy and Ozempic lose less than 5 per cent of body weight despite high expectations",
+        "url": "https://www.dailymail.co.uk/news/article-15669389/1-10-patients-taking-Wegovy-Ozempic-lose-5-cent-body-weight-despite-high-expectations.html",
+        "publisher": "Daily Mail",
+        "type": "news",
+        "snippet": "People using Wegovy and Ozempic (“fat jabs”) show “non-responder” results in weight loss."
+      },
+      {
+        "title": "New health scheme for those using weight loss medication",
+        "url": "https://www.oxfordmail.co.uk/news/25955765.new-health-scheme-using-weight-loss-medication/",
+        "publisher": "Oxford Mail",
+        "type": "news",
+        "snippet": "Support programme for people taking GLP-1s aims to help customers “lose weight safely while protecting muscle mass.”"
+      },
+      {
+        "title": "Ozempic launches in India at $24 a week as Novo targets booming market - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvWDh1M25kbTdJa21PeHlfVlY1UThwQ0NHOFZFTzhNZkRFV0JoUnBtOHYyOWJuN3otZkRtbmpIZ2I5SHRVNDF5cEYzS1BhMTFwVkVvRUp3Y2hvYW1EWmN2TGpCQURYbHM?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "publisher": "Reuters (via Google News RSS)",
+        "type": "news",
+        "snippet": "Reuters entry about Ozempic launch pricing and market targeting in India."
+      },
+      {
+        "title": "Ozempic is about to go generic for billions of people",
+        "url": "https://triblive.com/news/world/ozempic-is-about-to-go-generic-for-billions-of-people/",
+        "publisher": "TribLive",
+        "type": "news",
+        "snippet": "Describes Ozempic/Wegovy moving toward generics and highlights price accessibility."
+      },
+      {
+        "title": "The cost of weight loss drugs is finally dropping. How low can prices go?",
+        "url": "https://www.nbcnews.com/health/health-news/cost-weight-loss-drugs-wegovy-zepbound-how-low-prices-down-rcna205911",
+        "publisher": "NBC News",
+        "type": "news",
+        "snippet": "Discusses falling prices and access barriers for weight loss drugs (Wegovy/Zepbound)."
+      },
+      {
+        "title": "Urgent warning about contaminated weight loss injections from UK Government",
+        "url": "https://www.mirror.co.uk/news/health/urgent-warning-contaminated-weight-loss-36491762",
+        "publisher": "Mirror",
+        "type": "news",
+        "snippet": "Government warning against black-market “weight loss injections.”"
+      },
+      {
+        "title": "GLP-1 rush: Pharma, food firms eye tie-ups for weight-loss boom",
+        "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/glp-1-rush-pharma-food-firms-eye-tie-ups-for-weight-loss-boom/articleshow/129737763.cms",
+        "publisher": "Economic Times",
+        "type": "news",
+        "snippet": "Synopsis ... drugs ... semaglutide generics ... weight-loss jabs ... massive expansion."
+      },
+      {
+        "title": "Demand for GLP-1 pills and shots surges, and not just for weight loss",
+        "url": "https://www.latimes.com/science/story/2026-03-23/demand-for-glp-1-pills-shots-surges-not-just-for-weight-loss",
+        "publisher": "LA Times",
+        "type": "news",
+        "snippet": "More Americans are turning to anti-obesity drugs ... lifestyle changes ... GLP-1s can spur weig..."
+      },
+      {
+        "title": "As demand for GLP-1 pills and shots surges, healthy habits are still key",
+        "url": "https://apnews.com/article/glp1-weight-loss-healthy-habit-41e4c84a7fed9586057b9b49fc4738dc",
+        "publisher": "Associated Press",
+        "type": "news",
+        "snippet": "About 1 in 8 U.S. adults say they are taking a GLP-1 drug ... experts caution."
+      },
+      {
+        "title": "Taking a GLP-1? Doctors say not to forget about movement and mental health",
+        "url": "https://www.news-medical.net/news/20260326/Taking-a-GLP-1-Doctors-say-not-to-forget-about-movement-and-mental-health.aspx",
+        "publisher": "News-Medical.net",
+        "type": "news",
+        "snippet": "Doctors advise that taking a GLP-1 involves more than the shot, including attention to movement."
+      }
+    ],
+    "factChecks": [
+      {
+        "title": "GLP-1 weight-loss drug lawsuits allege serious side effects",
+        "url": "https://www.rgj.com/story/news/nation/2026/01/28/glp-1-weight-loss-drug-lawsuits-side-effects/87611067007/",
+        "publisher": "RGJ",
+        "type": "fact-check",
+        "snippet": "“eye stroke” that left him blind; lawsuits blame GLP-1 receptor agonists"
+      },
+      {
+        "title": "GLP-1 weight-loss drug lawsuits allege serious side effects",
+        "url": "https://www.usatoday.com/story/news/nation/2026/01/28/glp-1-weight-loss-drug-lawsuits-side-effects/87611067007/",
+        "publisher": "USA Today",
+        "type": "fact-check",
+        "snippet": "“eye stroke” left him blind; lawsuits allege inadequate warnings of severe injuries"
+      }
+    ]
+  },
+  {
+    "groupId": "semaglutide-g7",
+    "groupTitle": "Trials for obesity",
+    "groupSummary": "Claims from social media discourse related to \"Trials for obesity\"",
+    "relevantSectionIds": [
+      "trials-for-obesity"
+    ],
+    "claimCount": 2,
+    "totalEngagement": 466,
+    "claims": [
+      {
+        "id": "semaglutide-c91",
+        "claimText": "Tirzepatide was studied once weekly for the treatment of obesity in the SURMOUNT-1 trial",
+        "sourceAuthor": "MedCurious - Science of Health",
+        "platform": "youtube",
+        "engagement": 13,
+        "postExcerpt": "Do you wonder why your hunger sometimes feels like it never shuts up, no matter how much you’ve eaten?🤔 And what are GLP-1 drugs like Ozempic, Wegovy, Mounjaro, Zepbound actually doing inside your body? In this video, we step inside your Appetite Feed—the constant conversation between your gut and "
+      },
+      {
+        "id": "semaglutide-c92",
+        "claimText": "The FDA approved Novo Nordisk's once-daily Wegovy pill (oral semaglutide 25 mg) for chronic weight management in adults with obesity or overweight plus a related condition",
+        "sourceAuthor": "MounjaroNotes",
+        "platform": "twitter",
+        "engagement": 453,
+        "postExcerpt": "FDA has approved Novo Nordisk’s once-daily Wegovy pill (oral semaglutide 25 mg) for chronic weight management in adults with obesity or overweight + a related condition; in the OASIS 4 trial, average weight loss was 16.6% at 64 weeks."
+      }
+    ],
+    "sources": [
+      {
+        "title": "New Oral Wegovy Pill",
+        "url": "https://www.globenewswire.com/news-release/2025/12/26/3210673/0/en/Best-Semaglutide-Options-for-2026-New-Oral-Wegovy-Pill-Approved-by-FDA-as-Patients-Compare-Injectable-and-Compounded-Access-Pathways.html",
+        "publisher": "GlobeNewswire",
+        "type": "news",
+        "snippet": "Novo Nordisk announced FDA approved its 25 mg oral Wegovy weight-loss pill..."
+      },
+      {
+        "title": "Oral Wegovy Launch",
+        "url": "https://www.globenewswire.com/news-release/2026/01/07/3214228/0/en/Best-Peptides-for-Weight-Loss-2026-Oral-Wegovy-Launch-Expands-GLP-1-Format-Options-as-Telehealth-Platforms-Compare-FDA-Approved-vs-Compounded-Semaglutide-Access.html",
+        "publisher": "GlobeNewswire",
+        "type": "news",
+        "snippet": "Reports describe Novo Nordisk's introduction of an oral Wegovy (oral semaglutide)..."
+      },
+      {
+        "title": "Best Peptides for Weight Loss 2026: Oral Wegovy Launch Expands GLP-1 Format Options as Telehealth Platforms Compare FDA-Approved vs Compounded Semaglutide Access",
+        "url": "https://www.manilatimes.net/2026/01/07/tmt-newswire/globenewswire/best-peptides-for-weight-loss-2026-oral-wegovy-launch-expands-glp-1-format-options-as-telehealth-platforms-compare-fda-approved-vs-compounded-semaglutide-access/2254223",
+        "publisher": "ManilaTimes (TMT Newswire / GlobeNewswire content)",
+        "type": "news",
+        "snippet": "Following Oral Wegovy Introduction, consumer analysis examines injectable vs oral..."
+      },
+      {
+        "title": "What's Happening With Novo Nordisk Stock Today?",
+        "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51490943/whats-happening-with-novo-nordisk-stock-today",
+        "publisher": "Benzinga",
+        "type": "news",
+        "snippet": "Mentions Wegovy pill as currently the only FDA-approved oral GLP-1 for weight loss..."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "semaglutide-g9",
+    "groupTitle": "Insurance coverage",
+    "groupSummary": "Claims from social media discourse related to \"Insurance coverage\"",
+    "relevantSectionIds": [
+      "insurance-coverage"
+    ],
+    "claimCount": 2,
+    "totalEngagement": 338,
+    "claims": [
+      {
+        "id": "semaglutide-c121",
+        "claimText": "Jenelle Ketcham said her insurance stopped covering Mounjaro before she switched medications",
+        "sourceAuthor": "Jenelle Ketcham",
+        "platform": "youtube",
+        "engagement": 169,
+        "postExcerpt": "After being on Mounjaro for about a two and a half year, I’m making a change — and in this video I’m sharing exactly why I decided to switch to semaglutide. This wasn’t an impulsive decision. After insurance stopped covering Mounjaro, I moved to compounded tirzepatide, then recently returned to bran"
+      },
+      {
+        "id": "semaglutide-c122",
+        "claimText": "Jenelle Ketcham said she moved to compounded tirzepatide after insurance stopped covering Mounjaro",
+        "sourceAuthor": "Jenelle Ketcham",
+        "platform": "youtube",
+        "engagement": 169,
+        "postExcerpt": "After being on Mounjaro for about a two and a half year, I’m making a change — and in this video I’m sharing exactly why I decided to switch to semaglutide. This wasn’t an impulsive decision. After insurance stopped covering Mounjaro, I moved to compounded tirzepatide, then recently returned to bran"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ivim Health GLP-1 Weight Loss Program: Individualized Dosing, Pricing, and What Consumers Should Know in 2026",
+        "url": "https://www.manilatimes.net/2026/02/25/tmt-newswire/globenewswire/ivim-health-glp-1-weight-loss-program-individualized-dosing-pricing-and-what-consumers-should-know-in-2026/2284541",
+        "publisher": "Manila Times",
+        "type": "news",
+        "snippet": "Overview of compounded semaglutide and tirzepatide telehealth program with pricing and check-ins."
+      },
+      {
+        "title": "TMates GLP-1 Weight Loss Program Claims Evaluated: 2026 Consumer Research Report on Compounded Semaglutide, Tirzepatide, Telehealth Weight-Loss Access, Pricing, and Verification Considerations",
+        "url": "https://www.manilatimes.net/2026/03/10/tmt-newswire/globenewswire/tmates-glp-1-weight-loss-program-claims-evaluated-2026-consumer-research-report-on-compounded-semaglutide-tirzepatide-telehealth-weight-loss-access-pricing-and-verification-considerations/2296329",
+        "publisher": "Manila Times",
+        "type": "news",
+        "snippet": "Consumer research report on compounded GLP-1 medication access and verification in telehealth programs."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "semaglutide-g1",
+    "groupTitle": "Effect on lean body mass",
+    "groupSummary": "Claims from social media discourse related to \"Effect on lean body mass\"",
+    "relevantSectionIds": [
+      "effect-on-lean-body-mass"
+    ],
+    "claimCount": 7,
+    "totalEngagement": 197,
+    "claims": [
+      {
+        "id": "semaglutide-c1",
+        "claimText": "Semaglutide was not effective at improving executive function in the treatment of cognitive dysfunction in major depressive disorder",
+        "sourceAuthor": "ShamliyanTA",
+        "platform": "twitter",
+        "engagement": 8,
+        "postExcerpt": "Semaglutide was not effective at improving the primary outcome, executive function •Semaglutide was safe, with no effects on depressive symptoms or suicidal ideation. Semaglutide for the treatment of cognitive dysfunction in major depres..."
+      },
+      {
+        "id": "semaglutide-c2",
+        "claimText": "Semaglutide had no effect on depressive symptoms in the treatment of cognitive dysfunction in major depressive disorder",
+        "sourceAuthor": "ShamliyanTA",
+        "platform": "twitter",
+        "engagement": 8,
+        "postExcerpt": "Semaglutide was not effective at improving the primary outcome, executive function •Semaglutide was safe, with no effects on depressive symptoms or suicidal ideation. Semaglutide for the treatment of cognitive dysfunction in major depres..."
+      },
+      {
+        "id": "semaglutide-c3",
+        "claimText": "Semaglutide had no effect on suicidal ideation in the treatment of cognitive dysfunction in major depressive disorder",
+        "sourceAuthor": "ShamliyanTA",
+        "platform": "twitter",
+        "engagement": 8,
+        "postExcerpt": "Semaglutide was not effective at improving the primary outcome, executive function •Semaglutide was safe, with no effects on depressive symptoms or suicidal ideation. Semaglutide for the treatment of cognitive dysfunction in major depres..."
+      },
+      {
+        "id": "semaglutide-c4",
+        "claimText": "GLP-1 is a hormone the human body already makes",
+        "sourceAuthor": "MedCurious - Science of Health",
+        "platform": "youtube",
+        "engagement": 13,
+        "postExcerpt": "Do you wonder why your hunger sometimes feels like it never shuts up, no matter how much you’ve eaten?🤔 And what are GLP-1 drugs like Ozempic, Wegovy, Mounjaro, Zepbound actually doing inside your body? In this video, we step inside your Appetite Feed—the constant conversation between your gut and "
+      },
+      {
+        "id": "semaglutide-c5",
+        "claimText": "Tirzepatide is more effective than semaglutide",
+        "sourceAuthor": "BodyByBariatrics",
+        "platform": "youtube",
+        "engagement": 9,
+        "postExcerpt": "Everything you need to know about GLP-1 medications in 60 seconds. HERE WE GO! ⏱️👇 There are two major injectable GLP-1 medications you need to know about: Semaglutide and Tirzepatide and, yes, tirzepatide is more effective. Here’s what GLP-1s actually do (and why they work): ✨ They quiet food nois"
+      },
+      {
+        "id": "semaglutide-c6",
+        "claimText": "The post claims GLP-1 drugs affect muscle mass and metabolism, hunger and appetite signaling in the brain, gut bacteria and natural GLP-1 production, bone density and long-term metabolic rate, and weight regain after stopping them",
+        "sourceAuthor": "Phil's My Pharmacist",
+        "platform": "youtube",
+        "engagement": 151,
+        "postExcerpt": "GLP-1 medications like semaglutide, tirzepatide, and retatrutide have changed the weight loss world. They can dramatically reduce appetite and help people lose weight quickly — but what happens inside your body if you stay on them long term? In this video, we break down what GLP-1 drugs actually do "
+      },
+      {
+        "id": "semaglutide-c7",
+        "claimText": "The post claims GLP-1 drugs can help users lose up to 15-20% of body weight",
+        "sourceAuthor": "Star Bariatric Hospital",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "Weight Loss Injections Explained: Mounjaro, Ozempic, Liraglutide, Semaglutide Kaise Kaam Karte Hain? Mounjaro, Ozempic For Weight Loss | Liraglutide, Semaglutide & Tirzepatide For Weight Loss In Hindi In this video, we explain GLP-1 Drugs (Glucagon Like Peptide-1 Analogues), how they work in the bod"
+      }
+    ],
+    "sources": [
+      {
+        "title": "How Semaglutide Works: Understanding Appetite, Hormones And Weight Loss In Simple Terms",
+        "url": "https://www.ndtv.com/health/how-semaglutide-works-understanding-appetite-hormones-and-weight-loss-in-simple-terms-11243582",
+        "publisher": "NDTV",
+        "type": "news",
+        "snippet": "GLP-1 is a natural hormone produced in the gut, released after eating to regulate hunger and fullness."
+      },
+      {
+        "title": "Affordable Weight Loss Drugs In India: How Cheap GLP-1s Will Affect Obesity Treatment",
+        "url": "https://www.ndtv.com/health/affordable-weight-loss-drugs-in-india-how-cheap-glp-1s-will-affect-the-anti-obesity-market-11263812",
+        "publisher": "NDTV",
+        "type": "news",
+        "snippet": "Discusses semaglutide patent expiry and expected generic price reductions in India."
+      },
+      {
+        "title": "Semaglutide prices crash up to 90% as 15+ generics launch in two days",
+        "url": "https://www.business-standard.com/industry/news/semaglutide-prices-crash-up-to-90-as-15-generics-launch-in-two-days-126032200534_1.html",
+        "publisher": "Business Standard",
+        "type": "news",
+        "snippet": "Semaglutide generics and price drops; background on GLP-1 effects for diabetes/obesity."
+      },
+      {
+        "title": "Dr Reddy's Semaglutide Launch Timeline Faces Potential Delays in Canada",
+        "url": "https://scanx.trade/stock-market-news/stocks/dr-reddy-s-semaglutide-launch-timeline-faces-potential-delays-in-canada/33624999",
+        "publisher": "scanx.trade",
+        "type": "news",
+        "snippet": "Concerns about semaglutide launch schedule and revised launch window."
+      },
+      {
+        "title": "Will generic Semaglutide make diabetes and weight loss treatment more accessible in India?",
+        "url": "https://www.theweek.in/news/health/2026/03/24/will-generic-semaglutide-make-diabetes-and-weight-loss-treatment-more-accessible-in-india.html",
+        "publisher": "The Week",
+        "type": "news",
+        "snippet": "Semaglutide patent expiry and impact on generic access for diabetes/weight loss."
+      },
+      {
+        "title": "Why are pharma companies racing to launch semaglutide in India?",
+        "url": "https://www.theweek.in/news/health/2026/03/23/why-are-pharma-companies-racing-to-launch-semaglutide-in-india.html",
+        "publisher": "The Week",
+        "type": "news",
+        "snippet": "Multiple semaglutide launches in India, linked to patent expiry and competition on pricing/delivery."
+      },
+      {
+        "title": "13 surprising ways GLP-1 medications may benefit the body, according to science",
+        "url": "https://www.adn.com/nation-world/2026/03/27/13-surprising-ways-glp-1-medications-may-benefit-the-body-according-to-science/",
+        "publisher": "Adn.com",
+        "type": "news",
+        "snippet": "A broad roundup of unexpected effects of GLP-1s, beyond weight loss and blood sugar control."
+      },
+      {
+        "title": "Sleep and psychiatric disorders: Bidirectional interactions and shared neurobiological mechanisms",
+        "url": "https://journals.plos.org/mentalhealth/article?id=10.1371%2Fjournal.pmen.0000531",
+        "publisher": "PLOS (journals.plos.org)",
+        "type": "news",
+        "snippet": "Sleep disturbances are prevalent across psychiatric disorders; narrative review of shared mechanisms."
+      },
+      {
+        "title": "The Risk Too Many People Are Taking With Ozempic",
+        "url": "https://slate.com/technology/2026/03/ozempic-wegovy-semaglutide-side-effects-gastroparesis.html",
+        "publisher": "Slate",
+        "type": "news",
+        "snippet": "GLP-1 is not a foreign molecule; it is a hormone your intestines release after every meal."
+      },
+      {
+        "title": "Oral Alternative to Ozempic May Be Even More Effective For Weight Loss",
+        "url": "https://www.sciencealert.com/oral-alternative-to-ozempic-may-be-even-more-effective-for-weight-loss",
+        "publisher": "ScienceAlert",
+        "type": "news",
+        "snippet": "GLP-1 drugs mimic the gut hormone GLP-1, released soon after eating; it signals fullness to the brain."
+      }
+    ],
+    "factChecks": [
+      {
+        "title": "How Semaglutide Works: Understanding Appetite, Hormones And Weight Loss In Simple Terms",
+        "url": "https://www.ndtv.com/health/how-semaglutide-works-understanding-appetite-hormones-and-weight-loss-in-simple-terms-11243582",
+        "publisher": "NDTV",
+        "type": "fact-check",
+        "snippet": "Semaglutide mimics GLP-1; GLP-1 receptors in the brain regulate hunger and fullness."
+      },
+      {
+        "title": "1 weight loss drugs accelerate BONE LOSS – NaturalNews.com",
+        "url": "https://www.naturalnews.com/2026-03-23-hidden-fracture-risks-glp-1-weight-loss-drugs-accelerate-bone-loss.html",
+        "publisher": "NaturalNews.com",
+        "type": "fact-check",
+        "snippet": "Claims GLP-1 receptor agonists accelerate bone turnover and may increase fracture risk."
+      },
+      {
+        "title": "The Risk Too Many People Are Taking With Ozempic",
+        "url": "https://slate.com/technology/2026/03/ozempic-wegovy-semaglutide-side-effects-gastroparesis.html",
+        "publisher": "Slate",
+        "type": "fact-check",
+        "snippet": "Describes GLP-1 as a gut hormone released after meals that signals the gut/brain to slow down."
+      },
+      {
+        "title": "1 in 10 patients taking Wegovy and Ozempic lose less than 5 per cent of body weight despite high expectations",
+        "url": "https://www.dailymail.co.uk/news/article-15669389/1-10-patients-taking-Wegovy-Ozempic-lose-5-cent-body-weight-despite-high-expectations.html",
+        "publisher": "Daily Mail",
+        "type": "fact-check",
+        "snippet": "Approval was based on clinical studies which showed a weight reduction of 15 to 20 per cent."
+      }
+    ]
+  },
+  {
+    "groupId": "semaglutide-g5",
+    "groupTitle": "For cardiovascular health",
+    "groupSummary": "Claims from social media discourse related to \"For cardiovascular health\"",
+    "relevantSectionIds": [
+      "for-cardiovascular-health"
+    ],
+    "claimCount": 3,
+    "totalEngagement": 170,
+    "claims": [
+      {
+        "id": "semaglutide-c61",
+        "claimText": "Wegovy is indicated for risk reduction of major adverse cardiovascular events",
+        "sourceAuthor": "Medication Academy",
+        "platform": "youtube",
+        "engagement": 1,
+        "postExcerpt": "This video provides a quick medication update for WEGOVY (semaglutide), one of the most widely used GLP-1 receptor agonists for chronic weight management, risk reduction of major adverse cardiovascular events, and treatment of noncirrhotic metabolic dysfunction-associated steatohepatitis (MASH). #ph"
+      },
+      {
+        "id": "semaglutide-c62",
+        "claimText": "The SELECT trial found a 20% reduction in major cardiovascular events among people with established cardiovascular disease who took semaglutide.",
+        "sourceAuthor": "System Critique",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "GLP-1 drugs like semaglutide and tirzepatide are changing how we treat obesity and heart disease. This video gives a clear, simple look at the major benefits—like large weight loss, better heart outcomes, and reduced stroke risk—and the equally important safety warnings. We explain the SELECT trial "
+      },
+      {
+        "id": "semaglutide-c63",
+        "claimText": "Jenelle Ketcham said she is switching to semaglutide through telehealth",
+        "sourceAuthor": "Jenelle Ketcham",
+        "platform": "youtube",
+        "engagement": 169,
+        "postExcerpt": "After being on Mounjaro for about a two and a half year, I’m making a change — and in this video I’m sharing exactly why I decided to switch to semaglutide. This wasn’t an impulsive decision. After insurance stopped covering Mounjaro, I moved to compounded tirzepatide, then recently returned to bran"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The FDA just approved triple the previous maximum dose of Wegovy",
+        "url": "https://www.independent.co.uk/news/health/wegovy-fda-weight-loss-drug-approval-b2945556.html",
+        "publisher": "Independent",
+        "type": "news",
+        "snippet": "“Wegovy is the only GLP-1 for adults with obesity that is proven to reduce the risk of events such as stroke, heart attack, or cardiovascular death...”"
+      },
+      {
+        "title": "1 drugs aid heart health but can’t replace cholesterol & BP meds",
+        "url": "https://timesofindia.indiatimes.com/life-style/health-plus/glp-1-drugs-aid-heart-health-but-cant-replace-cholesterol-bp-meds/articleshow/129786391.cms",
+        "publisher": "Times of India",
+        "type": "news",
+        "snippet": "Mentions GLP-1 drugs lowering heart attacks and strokes in high-risk patients."
+      },
+      {
+        "title": "1 weight loss drugs accelerate BONE LOSS – NaturalNews.com",
+        "url": "https://www.naturalnews.com/2026-03-23-hidden-fracture-risks-glp-1-weight-loss-drugs-accelerate-bone-loss.html",
+        "publisher": "NaturalNews.com",
+        "type": "news",
+        "snippet": "Claims SELECT study reported higher fracture rates in semaglutide users."
+      },
+      {
+        "title": "How Semaglutide Works: Understanding Appetite, Hormones And Weight Loss In Simple Terms",
+        "url": "https://www.ndtv.com/health/how-semaglutide-works-understanding-appetite-hormones-and-weight-loss-in-simple-terms-11243582",
+        "publisher": "NDTV",
+        "type": "news",
+        "snippet": "Explains semaglutide as GLP-1 receptor action and use in Wegovy/Ozempic."
+      },
+      {
+        "title": "Ivim Health GLP-1 Weight Loss Program: Individualized Dosing, Pricing, and What Consumers Should Know in 2026",
+        "url": "https://www.manilatimes.net/2026/02/25/tmt-newswire/globenewswire/ivim-health-glp-1-weight-loss-program-individualized-dosing-pricing-and-what-consumers-should-know-in-2026/2284541",
+        "publisher": "manilatimes.net",
+        "type": "news",
+        "snippet": "telehealth weight loss service offers compounded semaglutide and tirzepatide with weekly provider check-ins"
+      },
+      {
+        "title": "TMates GLP-1 Weight Loss Program Claims Evaluated: 2026 Consumer Research Report on Compounded Semaglutide, Tirzepatide, Telehealth Weight-Loss Access, Pricing, and Verification Considerations",
+        "url": "https://www.manilatimes.net/2026/03/10/tmt-newswire/globenewswire/tmates-glp-1-weight-loss-program-claims-evaluated-2026-consumer-research-report-on-compounded-semaglutide-tirzepatide-telehealth-weight-loss-access-pricing-and-verification-considerations/2296329",
+        "publisher": "manilatimes.net",
+        "type": "news",
+        "snippet": "consumer research report examining TMates telehealth platform and compounded GLP-1 medication access"
+      },
+      {
+        "title": "Best Peptides for Weight Loss 2026: Oral Wegovy Launch Expands GLP-1 Format Options as Telehealth Platforms Compare FDA-Approved vs Compounded Semaglutide Access",
+        "url": "https://www.manilatimes.net/2026/01/07/tmt-newswire/globenewswire/best-peptides-for-weight-loss-2026-oral-wegovy-launch-expands-glp-1-format-options-as-Telehealth-platforms-compare-fda-approved-vs-compounded-semaglutide-access/2254223",
+        "publisher": "manilatimes.net",
+        "type": "news",
+        "snippet": "analysis of injectable vs oral semaglutide pricing and telehealth platform comparisons of access"
+      },
+      {
+        "title": "Oral Wegovy Launch",
+        "url": "https://www.globenewswire.com/news-release/2026/01/07/3214228/0/en/Best-Peptides-for-Weight-Loss-2026-Oral-Wegovy-Launch-Expands-GLP-1-Format-Options-as-Telehealth-Platforms-Compare-FDA-Approved-vs-Compounded-Semaglutide-Access.html",
+        "publisher": "globenewswire.com",
+        "type": "news",
+        "snippet": "release describing oral semaglutide option and format considerations beyond weekly injections"
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "semaglutide-g4",
+    "groupTitle": "Side effects",
+    "groupSummary": "Claims from social media discourse related to \"Side effects\"",
     "relevantSectionIds": [
       "side-effects"
     ],
-    "claimCount": 10,
-    "totalEngagement": 0,
+    "claimCount": 6,
+    "totalEngagement": 134,
     "claims": [
       {
-        "id": "claim-1",
-        "claimText": "Common side effects of semaglutide include digestive issues.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c46",
+        "claimText": "Ozempic usually starts at a 0.25 mg dose to reduce side effects",
+        "sourceAuthor": "Whiteboard Medicine Simplified",
         "platform": "youtube",
-        "engagement": 0,
-        "postExcerpt": "GLP-1 Weight Loss Injections Side Effects Explained..."
+        "engagement": 52,
+        "postExcerpt": "Ozempic (semaglutide) is one of the most widely discussed medications today for type 2 diabetes and weight loss. In this video, we explain what Ozempic is, how it works, and why GLP-1 receptor agonists have transformed diabetes and obesity treatment. Ozempic belongs to a class of medications called "
       },
       {
-        "id": "claim-2",
-        "claimText": "Serious complications associated with semaglutide include gallbladder stones.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c47",
+        "claimText": "Common side effects of Ozempic include nausea, vomiting, diarrhea, and constipation",
+        "sourceAuthor": "Whiteboard Medicine Simplified",
         "platform": "youtube",
-        "engagement": 0,
-        "postExcerpt": "GLP-1 Weight Loss Injections Side Effects Explained..."
+        "engagement": 52,
+        "postExcerpt": "Ozempic (semaglutide) is one of the most widely discussed medications today for type 2 diabetes and weight loss. In this video, we explain what Ozempic is, how it works, and why GLP-1 receptor agonists have transformed diabetes and obesity treatment. Ozempic belongs to a class of medications called "
       },
       {
-        "id": "claim-3",
-        "claimText": "The FDA is requesting that drugmakers remove suicidal ideation warnings from GLP-1s.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 117,
-        "postExcerpt": "FDA moves to strike suicide risk warnings from 3 GLP-1s..."
+        "id": "semaglutide-c48",
+        "claimText": "GLP-1 medications like Ozempic, Wegovy, Mounjaro, and Zepbound are prescription drugs with risks, side effects, and specific indications",
+        "sourceAuthor": "MedCurious - Science of Health",
+        "platform": "youtube",
+        "engagement": 13,
+        "postExcerpt": "Do you wonder why your hunger sometimes feels like it never shuts up, no matter how much you’ve eaten?🤔 And what are GLP-1 drugs like Ozempic, Wegovy, Mounjaro, Zepbound actually doing inside your body? In this video, we step inside your Appetite Feed—the constant conversation between your gut and "
       },
       {
-        "id": "claim-4",
-        "claimText": "Semaglutide can cause nausea and vomiting in some patients.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c49",
+        "claimText": "The post says GLP-1 drugs can cause stomach side effects, dehydration, kidney injury, gallbladder problems, bone fractures in older adults, and thyroid tumor warnings including medullary thyroid carcinoma and MEN2.",
+        "sourceAuthor": "System Critique",
         "platform": "youtube",
         "engagement": 0,
-        "postExcerpt": "GLP-1 Weight Loss Injections Side Effects Explained..."
+        "postExcerpt": "GLP-1 drugs like semaglutide and tirzepatide are changing how we treat obesity and heart disease. This video gives a clear, simple look at the major benefits—like large weight loss, better heart outcomes, and reduced stroke risk—and the equally important safety warnings. We explain the SELECT trial "
       },
       {
-        "id": "claim-5",
-        "claimText": "Long-term use of semaglutide may lead to metabolic changes.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c50",
+        "claimText": "Common side effects of GLP-1 medications include nausea, constipation, occasional diarrhea, indigestion, and reflux",
+        "sourceAuthor": "BodyByBariatrics",
         "platform": "youtube",
-        "engagement": 0,
-        "postExcerpt": "In this video, we break down what GLP-1 drugs actually do to: • Muscle mass and metabolism..."
+        "engagement": 9,
+        "postExcerpt": "Everything you need to know about GLP-1 medications in 60 seconds. HERE WE GO! ⏱️👇 There are two major injectable GLP-1 medications you need to know about: Semaglutide and Tirzepatide and, yes, tirzepatide is more effective. Here’s what GLP-1s actually do (and why they work): ✨ They quiet food nois"
       },
       {
-        "id": "claim-6",
-        "claimText": "Some patients experience gastrointestinal side effects when using semaglutide.",
-        "sourceAuthor": "@username",
+        "id": "semaglutide-c51",
+        "claimText": "GLP-1 weight loss injections can cause digestive side effects including nausea, vomiting, constipation, and diarrhea.",
+        "sourceAuthor": "Dr Aparna G Bhasker Bariatric Laparoscopic Surgeon",
         "platform": "youtube",
-        "engagement": 0,
-        "postExcerpt": "GLP-1 Weight Loss Injections Side Effects Explained..."
+        "engagement": 8,
+        "postExcerpt": "GLP-1 Weight Loss Injections Side Effects Explained | Complete Side Effects Guide GLP-1 weight loss injections like Semaglutide, Liraglutide and Tirzepatide are extremely popular today, but understanding their side effects is crucial. In this video, we explain the common, rare, and serious complicat"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Indian drugmakers flood market with cheaper versions of Novo's Ozempic, Wegovy",
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/indian-drugmakers-flood-market-with-cheaper-versions-novos-ozempic-wegovy-2026-03-23/",
+        "publisher": "Reuters",
+        "type": "news",
+        "snippet": "Generic semaglutide dosing described: “five dose strengths from 0.25 mg to 2.4 mg”"
       },
       {
-        "id": "claim-7",
-        "claimText": "Semaglutide may lead to changes in appetite signaling in the brain.",
-        "sourceAuthor": "@username",
-        "platform": "youtube",
-        "engagement": 0,
-        "postExcerpt": "In this video, we break down what GLP-1 drugs actually do to: • Muscle mass and metabolism..."
+        "title": "Is ‘Ozempic Penis’ A Real Thing? We Asked Experts.",
+        "url": "https://www.huffpost.com/entry/is-ozempic-penis-a-real-thing-we-asked-experts-goog_l_69bc0a70e4b06f4d9c81441a",
+        "publisher": "HuffPost",
+        "type": "news",
+        "snippet": "Common side effects of Ozempic include nausea, upset stomach — ..."
       },
       {
-        "id": "claim-8",
-        "claimText": "Patients should be monitored for potential side effects when using semaglutide.",
-        "sourceAuthor": "@username",
-        "platform": "youtube",
-        "engagement": 0,
-        "postExcerpt": "GLP-1 Weight Loss Injections Side Effects Explained..."
+        "title": "GLP-1 weight-loss drug lawsuits allege serious side effects",
+        "url": "https://www.usatoday.com/story/news/nation/2026/01/28/glp-1-weight-loss-drug-lawsuits-side-effects/87611067007/",
+        "publisher": "USA Today",
+        "type": "news",
+        "snippet": "Lawsuits allege serious harm; drugs mimic a hormone that slows digestion, triggering..."
       },
       {
-        "id": "claim-9",
-        "claimText": "Semaglutide can lead to weight regain if discontinued suddenly.",
-        "sourceAuthor": "@username",
-        "platform": "youtube",
-        "engagement": 0,
-        "postExcerpt": "In this video, we break down what GLP-1 drugs actually do to: • Muscle mass and metabolism..."
+        "title": "IMA seeks specialist-only prescriptions amid misuse risks and cheap generics of GLP-1 weight-loss drugs",
+        "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/ima-seeks-specialist-only-prescriptions-amid-misuse-risks-and-cheap-generics-of-glp-1-weight-loss-drugs/articleshow/129785384.cms",
+        "publisher": "Economic Times",
+        "type": "news",
+        "snippet": "IMA seeks restricting GLP-1 drug prescriptions to specialists to curb misuse and safeguard safety."
       },
       {
-        "id": "claim-10",
-        "claimText": "There are potential risks associated with long-term use of semaglutide.",
-        "sourceAuthor": "@username",
+        "title": "India’s drug regulatory authority steps up surveillance on generic GLP-1 weight-loss drugs",
+        "url": "https://www.thehindubusinessline.com/news/national/indias-drug-regulatory-authority-steps-up-surveillance-on-generic-glp-1-drugs/article70778406.ece",
+        "publisher": "The Hindu BusinessLine",
+        "type": "news",
+        "snippet": "Regulatory authority increased surveillance; warns unauthorized use without proper supervision may cause serious adverse effects."
+      },
+      {
+        "title": "GLP-1 weight-loss drug lawsuits allege serious side effects",
+        "url": "https://www.rgj.com/story/news/nation/2026/01/28/glp-1-weight-loss-drug-lawsuits-side-effects/87611067007/",
+        "publisher": "rgj.com",
+        "type": "news",
+        "snippet": "Lawsuits allege GLP-1 makers failed to warn of severe injuries; includes cases with vomiting and other outcomes."
+      },
+      {
+        "title": "loss drugs draw thousands of lawsuits alleging serious harm",
+        "url": "https://www.newsbreak.com/usa-today-560565/4464302713054-weight-loss-drugs-draw-thousands-of-lawsuits-alleging-serious-harm",
+        "publisher": "newsbreak.com",
+        "type": "news",
+        "snippet": "Reports GLP-1-related lawsuit allegations of serious harms and warning failures."
+      },
+      {
+        "title": "IMA Raises Alarm Over Potential Misuse of GLP-1 Drugs in India",
+        "url": "https://www.devdiscourse.com/article/headlines/3850834-ima-raises-alarm-over-potential-misuse-of-glp-1-drugs-in-india",
+        "publisher": "Devdiscourse",
+        "type": "news",
+        "snippet": "Potential side effects include ... gastric issues, nausea, vomiting, pancreatitis, and a rare risk of thyroid cancer."
+      },
+      {
+        "title": "1 weight loss drugs accelerate BONE LOSS – NaturalNews.com",
+        "url": "https://www.naturalnews.com/2026-03-23-hidden-fracture-risks-glp-1-weight-loss-drugs-accelerate-bone-loss.html",
+        "publisher": "naturalnews.com",
+        "type": "news",
+        "snippet": "Claims GLP-1 drugs accelerate bone turnover and discusses fracture risk in relation to study data."
+      },
+      {
+        "title": "I MA raises alarm over potential misuse of GLP-1 drugs in India",
+        "url": "https://www.thehindu.com/sci-tech/health/centre-intensifies-regulatory-surveillance-over-weight-loss-drugs/article70780200.ece",
+        "publisher": "thehindu.com",
+        "type": "news",
+        "snippet": "Says GLP-1 used without medical supervision may lead to serious adverse effects and health risks."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "semaglutide-g3",
+    "groupTitle": "Clinical trials and early approvals for diabetes",
+    "groupSummary": "Claims from social media discourse related to \"Clinical trials and early approvals for diabetes\"",
+    "relevantSectionIds": [
+      "clinical-trials-and-early-approvals-for-diabetes"
+    ],
+    "claimCount": 12,
+    "totalEngagement": 91,
+    "claims": [
+      {
+        "id": "semaglutide-c31",
+        "claimText": "Ozempic is FDA-approved for type 2 diabetes",
+        "sourceAuthor": "Whiteboard Medicine Simplified",
+        "platform": "youtube",
+        "engagement": 52,
+        "postExcerpt": "Ozempic (semaglutide) is one of the most widely discussed medications today for type 2 diabetes and weight loss. In this video, we explain what Ozempic is, how it works, and why GLP-1 receptor agonists have transformed diabetes and obesity treatment. Ozempic belongs to a class of medications called "
+      },
+      {
+        "id": "semaglutide-c32",
+        "claimText": "Semaglutide was originally developed for type 2 diabetes",
+        "sourceAuthor": "AZTRT",
+        "platform": "reddit",
+        "engagement": 1,
+        "postExcerpt": "Understanding Semaglutide: What It Is and How It Fits Into a Structured Weight-Loss Approach Semaglutide has become one of the most discussed medications in the weight-loss space, but there’s still a lot of confusion about what it does — and just as importantly, what it doesn’t do. What is semagluti"
+      },
+      {
+        "id": "semaglutide-c33",
+        "claimText": "Rybelsus (semaglutide) is the first oral, once-daily GLP-1 receptor agonist for treating adults with type 2 diabetes",
+        "sourceAuthor": "Medication Academy",
+        "platform": "youtube",
+        "engagement": 2,
+        "postExcerpt": "This video shares medication insights for RYBELSUS (semaglutide), the first ORAL, once daily GLP-1 receptor agonist for treating adults with type 2 diabetes (T2D), and risk reduction of major adverse cardiovascular events in adults with T2D. #pharmacyeducation #RYBELSUS #semaglutide #diabetes #cardi"
+      },
+      {
+        "id": "semaglutide-c34",
+        "claimText": "Rybelsus (semaglutide) is indicated to reduce the risk of major adverse cardiovascular events in adults with type 2 diabetes",
+        "sourceAuthor": "Medication Academy",
+        "platform": "youtube",
+        "engagement": 2,
+        "postExcerpt": "This video shares medication insights for RYBELSUS (semaglutide), the first ORAL, once daily GLP-1 receptor agonist for treating adults with type 2 diabetes (T2D), and risk reduction of major adverse cardiovascular events in adults with T2D. #pharmacyeducation #RYBELSUS #semaglutide #diabetes #cardi"
+      },
+      {
+        "id": "semaglutide-c35",
+        "claimText": "Ozempic (semaglutide) is a prescription GLP-1 receptor agonist used in the USA and Europe for type 2 diabetes management and cardiovascular risk reduction",
+        "sourceAuthor": "MedReview BD",
         "platform": "youtube",
         "engagement": 0,
-        "postExcerpt": "In this video, we break down what GLP-1 drugs actually do to: • Muscle mass and metabolism..."
+        "postExcerpt": "Ozempic (Semaglutide) Explained: Dosage, Side Effects, Weight Loss & Diabetes Benefits | 2025 Guide Ozempic (Semaglutide) is a prescription GLP-1 receptor agonist widely used in the USA and Europe for Type 2 diabetes management and cardiovascular risk reduction. In recent years, Ozempic has also gai"
+      },
+      {
+        "id": "semaglutide-c36",
+        "claimText": "Wegovy (semaglutide) is approved for Type 2 diabetes",
+        "sourceAuthor": "He-InFo",
+        "platform": "youtube",
+        "engagement": 1,
+        "postExcerpt": "In this video, we explore Wegovy (semaglutide), a revolutionary GLP-1 receptor agonist approved for chronic weight management and Type 2 Diabetes. Learn how Wegovy works to reduce appetite, improve blood sugar control, and support heart health — all in a once-weekly injection. Whether you're managin"
+      },
+      {
+        "id": "semaglutide-c37",
+        "claimText": "The study had a small sample and included adults with early-stage dysglycemia",
+        "sourceAuthor": "Open World",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "New research suggests low-dose semaglutide (Ozempic/Wegovy) may improve glycemic control and reduce weight in adults with schizophrenia treated with metabolic-risk antipsychotics like clozapine or olanzapine. This video breaks down the study design, key findings (HbA1c reductions, weight and waist c"
+      },
+      {
+        "id": "semaglutide-c38",
+        "claimText": "Rybelsus (semaglutide) is the first oral GLP-1 receptor agonist approved for type 2 diabetes.",
+        "sourceAuthor": "He-InFo",
+        "platform": "youtube",
+        "engagement": 4,
+        "postExcerpt": "In this video, we explore Rybelsus (semaglutide), the first oral GLP-1 receptor agonist approved for Type 2 Diabetes. Learn how it works to lower blood sugar, support weight loss, and reduce cardiovascular risks — all in a convenient pill form. Whether you're a patient, caregiver, or healthcare stud"
+      },
+      {
+        "id": "semaglutide-c39",
+        "claimText": "Rybelsus (semaglutide) is used to lower blood sugar in type 2 diabetes.",
+        "sourceAuthor": "He-InFo",
+        "platform": "youtube",
+        "engagement": 4,
+        "postExcerpt": "In this video, we explore Rybelsus (semaglutide), the first oral GLP-1 receptor agonist approved for Type 2 Diabetes. Learn how it works to lower blood sugar, support weight loss, and reduce cardiovascular risks — all in a convenient pill form. Whether you're a patient, caregiver, or healthcare stud"
+      },
+      {
+        "id": "semaglutide-c40",
+        "claimText": "Tirzepatide was studied for weight management in adults with obesity and type 2 diabetes in the SURMOUNT-2 trial",
+        "sourceAuthor": "MedCurious - Science of Health",
+        "platform": "youtube",
+        "engagement": 13,
+        "postExcerpt": "Do you wonder why your hunger sometimes feels like it never shuts up, no matter how much you’ve eaten?🤔 And what are GLP-1 drugs like Ozempic, Wegovy, Mounjaro, Zepbound actually doing inside your body? In this video, we step inside your Appetite Feed—the constant conversation between your gut and "
+      },
+      {
+        "id": "semaglutide-c41",
+        "claimText": "Semaglutide was studied in the SELECT trial for obesity without diabetes.",
+        "sourceAuthor": "System Critique",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "GLP-1 drugs like semaglutide and tirzepatide are changing how we treat obesity and heart disease. This video gives a clear, simple look at the major benefits—like large weight loss, better heart outcomes, and reduced stroke risk—and the equally important safety warnings. We explain the SELECT trial "
+      },
+      {
+        "id": "semaglutide-c42",
+        "claimText": "Dr. Darren Himeles is a board-certified family medicine physician and clinical instructor in Los Angeles County",
+        "sourceAuthor": "Dr. Darren Himeles",
+        "platform": "youtube",
+        "engagement": 12,
+        "postExcerpt": "GLP‐1 agonists like Ozempic (semaglutide) are some of the most effective medications available for healthy weight loss. In this video, Dr. Darren explains what GLP‐1 medicines are, how they work, common side effects, dosing, safety, and how to use them as part of a long‐term weight‐loss plan. You’ll"
+      }
+    ],
+    "sources": [
+      {
+        "title": "How Semaglutide Works: Understanding Appetite, Hormones And Weight Loss In Simple Terms",
+        "url": "https://www.ndtv.com/health/how-semaglutide-works-understanding-appetite-hormones-and-weight-loss-in-simple-terms-11243582",
+        "publisher": "NDTV",
+        "type": "news",
+        "snippet": "Semaglutide is a prescription medicine for weight management… active ingredient in Wegovy and Ozempic."
+      },
+      {
+        "title": "Oral Wegovy Launch",
+        "url": "https://www.globenewswire.com/news-release/2026/01/07/3214228/0/en/Best-Peptides-for-Weight-Loss-2026-Oral-Wegovy-Launch-Expands-GLP-1-Format-Options-as-Telehealth-Platforms-Compare-FDA-Approved-vs-Compounded-Semaglutide-Access.html",
+        "publisher": "GlobeNewswire",
+        "type": "news",
+        "snippet": "Discusses Novo Nordisk introduction of an oral Wegovy (oral semaglutide) option for chronic weight management."
+      },
+      {
+        "title": "New Oral Wegovy Pill",
+        "url": "https://www.globenewswire.com/news-release/2025/12/26/3210673/0/en/Best-Semaglutide-Options-for-2026-New-Oral-Wegovy-Pill-Approved-by-FDA-as-Patients-Compare-Injectable-and-Compounded-Access-Pathways.html",
+        "publisher": "globenewswire.com",
+        "type": "news",
+        "snippet": "Mentions FDA-approved oral Wegovy; excerpt focuses on oral GLP-1 therapy for weight management."
+      },
+      {
+        "title": "Can ozempic LOWER epilepsy risk? New study finds surprising link in diabetes patients",
+        "url": "https://www.theweek.in/news/health/2025/12/23/can-ozempic-lower-epilepsy-risk-new-study-finds-surprising-link-in-diabetes-patients.html",
+        "publisher": "The Week",
+        "type": "news",
+        "snippet": "Defines Ozempic as semaglutide, a once-weekly injectable for adults with uncontrolled type 2 diabetes."
+      },
+      {
+        "title": "Telangana DCA cautions against unsupervised semaglutide use amid rising drug demand for weight loss",
+        "url": "https://www.thehindu.com/news/national/telangana/telangana-dca-cautions-against-unsupervised-semaglutide-use-amid-rising-drug-demand-for-weight-loss/article70778664.ece",
+        "publisher": "The Hindu",
+        "type": "news",
+        "snippet": "Advisory warns semaglutide is prescription-only and must be used under strict supervision."
+      },
+      {
+        "title": "Semaglutide: Telangana Drug Control cautions public on self-medication",
+        "url": "https://www.thehindubusinessline.com/news/national/semaglutide-telangana-drug-control-cautions-public-on-self-medication/article70780908.ece",
+        "publisher": "The Hindu BusinessLine",
+        "type": "news",
+        "snippet": "Advises against self-medication; semaglutide formulations are prescription-only."
+      },
+      {
+        "title": "1 drugs aid heart health but can’t replace cholesterol & BP meds",
+        "url": "https://timesofindia.indiatimes.com/life-style/health-plus/glp-1-drugs-aid-heart-health-but-cant-replace-cholesterol-bp-meds/articleshow/129786391.cms",
+        "publisher": "Times of India",
+        "type": "news",
+        "snippet": "Frames GLP-1 drugs as potential heart medicines that can lower heart attack/stroke chances."
+      },
+      {
+        "title": "Cost, side effects, dosage and more",
+        "url": "https://www.usatoday.com/story/life/health-wellness/2026/03/26/tirzepatide-vs-semaglutide/89336584007/",
+        "publisher": "USA Today",
+        "type": "news",
+        "snippet": "tirzepatide and semaglutide are both FDA-approved weekly injections for weight management and type 2 diabetes"
+      },
+      {
+        "title": "Best Peptides for Weight Loss 2026: Oral Wegovy Launch Expands GLP-1 Format Options as Telehealth Platforms Compare FDA-Approved vs Compounded Semaglutide Access",
+        "url": "https://www.manilatimes.net/2026/01/07/tmt-newswire/globenewswire/best-peptides-for-weight-loss-2026-oral-wegovy-launch-expands-glp-1-format-options-as-telehealth-platforms-compare-fda-approved-vs-compounded-semaglutide-access/2254223",
+        "publisher": "manilatimes.net",
+        "type": "news",
+        "snippet": "Discusses Novo Nordisk oral Wegovy; includes FDA-approved vs compounded access framing."
+      },
+      {
+        "title": "Metformin Vs Ozempic: Which Popular Diabetes Drug Improves Blood Sugar Control With Lesser Side Effects?",
+        "url": "https://www.ndtv.com/health/metformin-vs-ozempic-which-popular-diabetes-drug-improves-blood-sugar-control-with-lesser-side-effects-11278712",
+        "publisher": "ndtv.com",
+        "type": "news",
+        "snippet": "Both metformin and semaglutide improve blood sugar control…"
+      }
+    ],
+    "factChecks": [
+      {
+        "title": "Ozempic (Semaglutide) - What is it? How does it work? GLP-1 Receptor Agonists",
+        "url": "https://www.youtube.com/watch?v=OjLsj4gTcEE",
+        "publisher": "Whiteboard Medicine Simplified",
+        "type": "fact-check",
+        "snippet": "Video states: “Ozempic is FDA-approved for type 2 diabetes” and explains glucose/HbA1c lowering."
       }
     ]
   }

@@ -1,283 +1,719 @@
 [
   {
-    "groupId": "group-1",
-    "groupTitle": "Health Risks of Ultra-Processed Foods",
-    "groupSummary": "Numerous studies link ultra-processed foods to various health issues, including cancer, obesity, and heart disease.",
+    "groupId": "ultra-processed-food-g3",
+    "groupTitle": "International Food Information Council (IFIC)",
+    "groupSummary": "Claims from social media discourse related to \"International Food Information Council (IFIC)\"",
     "relevantSectionIds": [
-      "health-effects",
-      "obesity-and-weight-gain",
-      "cancer",
-      "diabetes",
-      "heart-and-cardiovascular-disease"
+      "international-food-information-council-ific"
     ],
-    "claimCount": 15,
-    "totalEngagement": 123,
+    "claimCount": 57,
+    "totalEngagement": 189,
     "claims": [
       {
-        "id": "claim-1",
-        "claimText": "Ultra-processed foods have become a global staple, but they are linked to increased risk of several cancers.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
+        "id": "ultra-processed-food-c31",
+        "claimText": "Studies have found that emulsifiers, artificial sweeteners, preservatives, and other common food additives can erode the gut mucus layer, inflame the intestinal lining, destabilize the microbiome, and compromise the gut barrier",
+        "sourceAuthor": "Known Unknown",
+        "platform": "youtube",
         "engagement": 0,
-        "postExcerpt": "Recent systematic reviews and meta analyses reveal a strong association..."
+        "postExcerpt": "Ultra processed foods have become a global staple, but the growing body of scientific evidence paints a far more troubling picture of their impact on human health. Recent systematic reviews and meta analyses reveal a strong association between high UPF consumption and increased risk of several cance"
       },
       {
-        "id": "claim-2",
-        "claimText": "New research links ultra-processed foods to 12 serious health conditions.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 8,
-        "postExcerpt": "I break down on @9news what this means..."
-      },
-      {
-        "id": "claim-3",
-        "claimText": "Ultra-processed foods are linked to obesity, heart disease, diabetes, cancer, mental health disorders, and dementia.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "But what if these foods are quietly damaging your body..."
-      },
-      {
-        "id": "claim-4",
-        "claimText": "Ultra-Processed Foods (UPFs) are loaded with artificial colors, preservatives, excess sugar, unhealthy fats, and chemical additives.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 19,
-        "postExcerpt": "These foods are silently damaging our health every day..."
-      },
-      {
-        "id": "claim-5",
-        "claimText": "Long-term intake of ultra-processed foods increases the risk of obesity, diabetes, heart disease, and digestive disorders.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "#ProcessedFoodDamage #GutHealthRisk #HeartDisease"
-      },
-      {
-        "id": "claim-6",
-        "claimText": "Ultra-processed foods may be more dangerous than smoking.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 9,
-        "postExcerpt": "In this video, we reveal why ultra-processed food may be more dangerous than smoking..."
-      },
-      {
-        "id": "claim-7",
-        "claimText": "Evidence shows that ultra-processed foods are linked to early death.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 2,
-        "postExcerpt": "We break down the disturbing science behind ultra-processed foods..."
-      },
-      {
-        "id": "claim-8",
-        "claimText": "Ultra-processed foods contribute to chronic illness, especially among children and the elderly.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 3,
-        "postExcerpt": "We expose how ultra-processed foods contribute to chronic illness..."
-      },
-      {
-        "id": "claim-9",
-        "claimText": "Data shows that many preservative additives in ultra-processed foods are tied to increased cancer risk.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 100,
-        "postExcerpt": "Evidence continues to mount on the impact ultra-processed foods can have on health..."
-      },
-      {
-        "id": "claim-10",
-        "claimText": "Ultra-processed foods are linked to faster aging and cognitive decline.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 3,
-        "postExcerpt": "The hidden dangers of ultra-processed foods (UPFs)..."
-      },
-      {
-        "id": "claim-11",
-        "claimText": "Ultra-processed foods are associated with chronic diseases worldwide.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 12,
-        "postExcerpt": "Dr. Euridice Martinez-Steele explains how these industrial food formulations are driving chronic disease..."
-      },
-      {
-        "id": "claim-12",
-        "claimText": "Ultra-processed foods are often disguised as healthy or convenient.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
+        "id": "ultra-processed-food-c32",
+        "claimText": "Ultra-processed foods are foods that have been significantly altered from their original form using industrial processes and ingredients not normally found in a home kitchen",
+        "sourceAuthor": "TashxTalks",
+        "platform": "youtube",
         "engagement": 1,
-        "postExcerpt": "Ultra-processed foods have quietly entered our homes..."
+        "postExcerpt": "\"Ultra-processed foods\" are foods that have been significantly altered from their original form using industrial processes and ingredients you wouldn’t normally find in a home kitchen. They often contain: Artificial flavors, colors, or preservatives Sweeteners or emulsifiers Additives that extend sh"
       },
       {
-        "id": "claim-13",
-        "claimText": "The average diet now consists of 60% ultra-processed foods.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 2,
-        "postExcerpt": "Discover the shocking truth about 'Ultra Processed People'..."
-      },
-      {
-        "id": "claim-14",
-        "claimText": "Ultra-processed foods can lead to constant hunger.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 9,
-        "postExcerpt": "Researchers are now linking them to early death, chronic disease, and constant hunger..."
-      },
-      {
-        "id": "claim-15",
-        "claimText": "Ultra-processed foods are linked to harmful effects on liver, gut, heart, brain, and hormones.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 19,
-        "postExcerpt": "These foods are loaded with artificial colors, preservatives..."
-      }
-    ]
-  },
-  {
-    "groupId": "group-2",
-    "groupTitle": "Identification and Characteristics of Ultra-Processed Foods",
-    "groupSummary": "Understanding what constitutes ultra-processed foods and how to identify them is crucial for making healthier choices.",
-    "relevantSectionIds": [
-      "how-to-identify-ultra-processed-foods"
-    ],
-    "claimCount": 10,
-    "totalEngagement": 0,
-    "claims": [
-      {
-        "id": "claim-16",
-        "claimText": "Ultra-processed foods are significantly altered from their original form using industrial processes.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "They often contain: Artificial flavors, colors, or preservatives..."
-      },
-      {
-        "id": "claim-17",
-        "claimText": "Ultra-processed foods often contain little to no whole ingredients.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "Little to no whole ingredients (like real vegetables)..."
-      },
-      {
-        "id": "claim-18",
-        "claimText": "Examples of ultra-processed foods include breakfast cereals, biscuits, and packaged snacks.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "From breakfast cereals and biscuits to bread, bakery items..."
-      },
-      {
-        "id": "claim-19",
-        "claimText": "Ultra-processed foods are often marketed as 'healthy' or 'convenient'.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "These products are designed for convenience..."
-      },
-      {
-        "id": "claim-20",
-        "claimText": "Many ultra-processed foods contain harmful emulsifiers and dyes.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "High sugar, no fiber or omega-3s, plus harmful emulsifiers & dyes..."
-      },
-      {
-        "id": "claim-21",
-        "claimText": "Ultra-processed foods can be identified by their long ingredient lists with unrecognizable items.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "Ever grab a snack, flip the package, and think, 'What even ARE half these ingredients?'"
-      },
-      {
-        "id": "claim-22",
-        "claimText": "The NOVA classification system is used to categorize ultra-processed foods.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
+        "id": "ultra-processed-food-c33",
+        "claimText": "Ultra-processed foods often contain artificial flavors, colors, or preservatives; sweeteners or emulsifiers; additives that extend shelf life or change texture; refined grains and sugars; and little to no whole ingredients",
+        "sourceAuthor": "TashxTalks",
+        "platform": "youtube",
         "engagement": 1,
-        "postExcerpt": "According to the NOVA classification system—the gold standard..."
+        "postExcerpt": "\"Ultra-processed foods\" are foods that have been significantly altered from their original form using industrial processes and ingredients you wouldn’t normally find in a home kitchen. They often contain: Artificial flavors, colors, or preservatives Sweeteners or emulsifiers Additives that extend sh"
       },
       {
-        "id": "claim-23",
-        "claimText": "Ultra-processed foods are often found in supermarkets, making up 50-70% of available products.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
+        "id": "ultra-processed-food-c34",
+        "claimText": "Examples of ultra-processed foods include packaged snacks, instant noodles or soups, sugary breakfast cereals, soft drinks, fast food items, and some frozen meals or reconstituted meat products such as chicken nuggets or deli meats",
+        "sourceAuthor": "TashxTalks",
+        "platform": "youtube",
+        "engagement": 1,
+        "postExcerpt": "\"Ultra-processed foods\" are foods that have been significantly altered from their original form using industrial processes and ingredients you wouldn’t normally find in a home kitchen. They often contain: Artificial flavors, colors, or preservatives Sweeteners or emulsifiers Additives that extend sh"
+      },
+      {
+        "id": "ultra-processed-food-c35",
+        "claimText": "The post states that ultra-processed foods are typically high in calories, sugar, salt, and unhealthy fats and low in fiber and nutrients",
+        "sourceAuthor": "TashxTalks",
+        "platform": "youtube",
+        "engagement": 1,
+        "postExcerpt": "\"Ultra-processed foods\" are foods that have been significantly altered from their original form using industrial processes and ingredients you wouldn’t normally find in a home kitchen. They often contain: Artificial flavors, colors, or preservatives Sweeteners or emulsifiers Additives that extend sh"
+      },
+      {
+        "id": "ultra-processed-food-c36",
+        "claimText": "The post states that regular consumption of ultra-processed foods is linked to a higher risk of obesity, heart disease, diabetes, and other health issues",
+        "sourceAuthor": "TashxTalks",
+        "platform": "youtube",
+        "engagement": 1,
+        "postExcerpt": "\"Ultra-processed foods\" are foods that have been significantly altered from their original form using industrial processes and ingredients you wouldn’t normally find in a home kitchen. They often contain: Artificial flavors, colors, or preservatives Sweeteners or emulsifiers Additives that extend sh"
+      },
+      {
+        "id": "ultra-processed-food-c37",
+        "claimText": "Ultra-processed foods contain additives such as emulsifiers, artificial sweeteners, flavor enhancers, and modified starches",
+        "sourceAuthor": "Studio SWL",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "5 Ways To Identify Ultra-Processed Foods with Chris van Tulleken Ultra-processed foods are everywhere — in our breakfasts, lunches, snacks, and even foods marketed as “healthy.” But what if these foods are quietly damaging your body, increasing your risk of obesity, heart disease, diabetes, cancer, "
+      },
+      {
+        "id": "ultra-processed-food-c38",
+        "claimText": "Chris van Tulleken is associated with content about ultra-processed foods",
+        "sourceAuthor": "Studio SWL",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "5 Ways To Identify Ultra-Processed Foods with Chris van Tulleken Ultra-processed foods are everywhere — in our breakfasts, lunches, snacks, and even foods marketed as “healthy.” But what if these foods are quietly damaging your body, increasing your risk of obesity, heart disease, diabetes, cancer, "
+      },
+      {
+        "id": "ultra-processed-food-c39",
+        "claimText": "Between 50% and 70% of foods in supermarkets are ultra-processed",
+        "sourceAuthor": "The Science of every bite",
+        "platform": "youtube",
         "engagement": 4,
-        "postExcerpt": "Did you know that 50–70% of the foods in our supermarkets are ultra-processed?"
+        "postExcerpt": "Did you know that 50–70% of the foods in our supermarkets are ultra-processed? These foods may look tasty, but they can affect your health in ways you don’t expect. In this video, we break down: What ultra-processed foods really are The difference between processed vs minimally processed foods Examp"
       },
       {
-        "id": "claim-24",
-        "claimText": "Ultra-processed foods can affect your health in unexpected ways.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "These foods may look tasty, but they can affect your health..."
+        "id": "ultra-processed-food-c40",
+        "claimText": "Ultra-processed foods are heavily modified from their original form using industrial processes",
+        "sourceAuthor": "The Science of every bite",
+        "platform": "youtube",
+        "engagement": 4,
+        "postExcerpt": "Did you know that 50–70% of the foods in our supermarkets are ultra-processed? These foods may look tasty, but they can affect your health in ways you don’t expect. In this video, we break down: What ultra-processed foods really are The difference between processed vs minimally processed foods Examp"
       },
       {
-        "id": "claim-25",
-        "claimText": "The hidden dangers of ultra-processed foods are often overlooked.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
+        "id": "ultra-processed-food-c41",
+        "claimText": "Ultra-processed foods often contain artificial additives, preservatives, flavor enhancers, colors, and sweeteners",
+        "sourceAuthor": "The Science of every bite",
+        "platform": "youtube",
+        "engagement": 4,
+        "postExcerpt": "Did you know that 50–70% of the foods in our supermarkets are ultra-processed? These foods may look tasty, but they can affect your health in ways you don’t expect. In this video, we break down: What ultra-processed foods really are The difference between processed vs minimally processed foods Examp"
+      },
+      {
+        "id": "ultra-processed-food-c42",
+        "claimText": "Regular consumption of ultra-processed foods has been linked to weight gain and obesity",
+        "sourceAuthor": "The Science of every bite",
+        "platform": "youtube",
+        "engagement": 4,
+        "postExcerpt": "Did you know that 50–70% of the foods in our supermarkets are ultra-processed? These foods may look tasty, but they can affect your health in ways you don’t expect. In this video, we break down: What ultra-processed foods really are The difference between processed vs minimally processed foods Examp"
+      },
+      {
+        "id": "ultra-processed-food-c43",
+        "claimText": "Regular consumption of ultra-processed foods can raise the risk of insulin resistance, type 2 diabetes, and metabolic syndrome",
+        "sourceAuthor": "The Science of every bite",
+        "platform": "youtube",
+        "engagement": 4,
+        "postExcerpt": "Did you know that 50–70% of the foods in our supermarkets are ultra-processed? These foods may look tasty, but they can affect your health in ways you don’t expect. In this video, we break down: What ultra-processed foods really are The difference between processed vs minimally processed foods Examp"
+      },
+      {
+        "id": "ultra-processed-food-c44",
+        "claimText": "Regular consumption of ultra-processed foods can increase the risk of cardiovascular disease",
+        "sourceAuthor": "The Science of every bite",
+        "platform": "youtube",
+        "engagement": 4,
+        "postExcerpt": "Did you know that 50–70% of the foods in our supermarkets are ultra-processed? These foods may look tasty, but they can affect your health in ways you don’t expect. In this video, we break down: What ultra-processed foods really are The difference between processed vs minimally processed foods Examp"
+      },
+      {
+        "id": "ultra-processed-food-c45",
+        "claimText": "Artificial additives and preservatives in ultra-processed foods can disrupt gut microbiota",
+        "sourceAuthor": "The Science of every bite",
+        "platform": "youtube",
+        "engagement": 4,
+        "postExcerpt": "Did you know that 50–70% of the foods in our supermarkets are ultra-processed? These foods may look tasty, but they can affect your health in ways you don’t expect. In this video, we break down: What ultra-processed foods really are The difference between processed vs minimally processed foods Examp"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Is the FDA Doing Enough About Food Additives?",
+        "url": "https://www.newsweek.com/fda-policies-food-additives-2102129",
+        "publisher": "Newsweek",
+        "type": "news",
+        "snippet": "RFK Jr. announced a ban on eight frequently used food dyes from food and beverages."
+      },
+      {
+        "title": "Ultra-processed foods tied to obesity and declining mental health in young adults: Global Report",
+        "url": "https://www.newindianexpress.com/lifestyle/health/2026/Feb/26/ultra-processed-foods-tied-to-obesity-and-declining-mental-health-in-young-adults-global-report",
+        "publisher": "New Indian Express",
+        "type": "news",
+        "snippet": "Global report says UPF consumption is associated with diminished emotional and cognitive functioning in young adults."
+      },
+      {
+        "title": "Investigation finds 111 chemicals in U.S. foods",
+        "url": "https://www.cp24.com/news/world/2026/03/03/investigation-finds-secretly-added-chemicals-of-unknown-safety-in-us-food-supply/",
+        "publisher": "CP24",
+        "type": "news",
+        "snippet": "Investigation says at least 111 substances of unknown safety were added to U.S. foods without FDA alert."
+      },
+      {
+        "title": "Investigation finds ‘secretly’ added chemicals of unknown safety in US food supply",
+        "url": "https://abc17news.com/cnn-health/2026/03/02/investigation-finds-secretly-added-chemicals-of-unknown-safety-in-us-food-supply/",
+        "publisher": "ABC17 News",
+        "type": "news",
+        "snippet": "At least 111 substances added without alerting the FDA, investigation found."
+      },
+      {
+        "title": "Chemicals of unknown safety added to US food supply without FDA or public knowledge",
+        "url": "https://edition.cnn.com/2026/03/03/health/secret-food-additives-investigation-wellness",
+        "publisher": "CNN",
+        "type": "news",
+        "snippet": "“At least 111 substances of unknown safety” added without alerting the FDA."
+      },
+      {
+        "title": "Understanding Childhood Obesity: Causes, Treatments and How to Reduce Stigma",
+        "url": "https://www.usnews.com/news/health-news/articles/2025-12-30/understanding-childhood-obesity-causes-treatments-and-how-to-reduce-stigma",
+        "publisher": "usnews.com",
+        "type": "news",
+        "snippet": "Pediatric obesity epidemic includes environments full of ultra-processed foods as contributors."
+      },
+      {
+        "title": "Understanding childhood obesity: Causes, treatments and how to reduce stigma",
+        "url": "https://medicalxpress.com/news/2025-12-childhood-obesity-treatments-stigma.html",
+        "publisher": "medicalxpress.com",
+        "type": "news",
+        "snippet": "Childhood obesity reflects modern environment of ultra-processed foods, devices and stressors."
+      },
+      {
+        "title": "To Tackle Our Obesity Crisis, Experts Say Everything We Do Must Change",
+        "url": "https://www.sciencealert.com/to-tackle-our-obesity-crisis-experts-say-everything-we-do-must-change",
+        "publisher": "sciencealert.com",
+        "type": "news",
+        "snippet": "Discusses obesity harms and policy actions including reformulation of ultra processed foods; includes “early mortality” costs."
+      },
+      {
+        "title": "Foods with synthetic dyes are off West Virginia school menus",
+        "url": "https://apnews.com/article/west-virginia-food-dyes-school-meals-1c666876a5c06ebd606d05b457e68257",
+        "publisher": "AP News",
+        "type": "news",
+        "snippet": "West Virginia law bans seven artificial dyes from school meals."
+      },
+      {
+        "title": "West Virginia scrambles to strip artificial dyes from school meals before classes start",
+        "url": "https://www.clickondetroit.com/health/2025/07/30/west-virginia-scrambles-to-strip-artificial-dyes-from-school-meals-before-classes-start/",
+        "publisher": "ClickOnDetroit",
+        "type": "news",
+        "snippet": "Law bans seven artificial dyes from school meals; switch to colors from natural sources."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "ultra-processed-food-g2",
+    "groupTitle": "International Agency for Research on Cancer (IARC)",
+    "groupSummary": "Claims from social media discourse related to \"International Agency for Research on Cancer (IARC)\"",
+    "relevantSectionIds": [
+      "international-agency-for-research-on-cancer-iarc"
+    ],
+    "claimCount": 16,
+    "totalEngagement": 162,
+    "claims": [
+      {
+        "id": "ultra-processed-food-c16",
+        "claimText": "Recent systematic reviews and meta-analyses have found a strong association between high ultra-processed food consumption and increased risk of several cancers, particularly cancers of the digestive system, breast, and colon",
+        "sourceAuthor": "Known Unknown",
+        "platform": "youtube",
         "engagement": 0,
-        "postExcerpt": "We uncover the hidden dangers of ultra-processed foods..."
+        "postExcerpt": "Ultra processed foods have become a global staple, but the growing body of scientific evidence paints a far more troubling picture of their impact on human health. Recent systematic reviews and meta analyses reveal a strong association between high UPF consumption and increased risk of several cance"
+      },
+      {
+        "id": "ultra-processed-food-c17",
+        "claimText": "New research links ultra-processed foods to 12 serious health conditions",
+        "sourceAuthor": "Dr. Payal Kohli, MD",
+        "platform": "youtube",
+        "engagement": 8,
+        "postExcerpt": "New research links ultra-processed foods to 12 serious health conditions. I break down on @9news what this means, what to watch for, and how to make smarter food choices."
+      },
+      {
+        "id": "ultra-processed-food-c18",
+        "claimText": "Ultra-processed foods are linked to increased risk of obesity, heart disease, diabetes, cancer, mental health disorders, and dementia",
+        "sourceAuthor": "Studio SWL",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "5 Ways To Identify Ultra-Processed Foods with Chris van Tulleken Ultra-processed foods are everywhere — in our breakfasts, lunches, snacks, and even foods marketed as “healthy.” But what if these foods are quietly damaging your body, increasing your risk of obesity, heart disease, diabetes, cancer, "
+      },
+      {
+        "id": "ultra-processed-food-c19",
+        "claimText": "A BMJ study reported that many preservative additives used to extend food shelf life were significantly associated with an increased risk of overall cancer development",
+        "sourceAuthor": "HemOncToday",
+        "platform": "twitter",
+        "engagement": 100,
+        "postExcerpt": "📈 Evidence continues to mount on the impact ultra-processed foods can have on health. 📖Data from @bmj_latest showed many preservative additives, which help extend food shelf life, are significantly tied to increased risk for overall #cancer development."
+      },
+      {
+        "id": "ultra-processed-food-c20",
+        "claimText": "The episode discusses research on ultra-processed foods and youth health",
+        "sourceAuthor": "Hector Gruel",
+        "platform": "youtube",
+        "engagement": 2,
+        "postExcerpt": "Fast Food, Ultra Processed Foods, and Youth Health In this episode I talk with two guests about how fast food and ultra processed foods have become a normal part of student life. We share our own experiences with fast food, react to research on ultra processed products, and connect it to what we see"
+      },
+      {
+        "id": "ultra-processed-food-c21",
+        "claimText": "The episode cites a 2021 scoping review titled \"Adolescent Peer Influence on Eating Behaviors via Social Media\" published in the Journal of Medical Internet Research",
+        "sourceAuthor": "Hector Gruel",
+        "platform": "youtube",
+        "engagement": 2,
+        "postExcerpt": "Fast Food, Ultra Processed Foods, and Youth Health In this episode I talk with two guests about how fast food and ultra processed foods have become a normal part of student life. We share our own experiences with fast food, react to research on ultra processed products, and connect it to what we see"
+      },
+      {
+        "id": "ultra-processed-food-c22",
+        "claimText": "The episode cites a 2025 study titled \"The Association between Exposure to Food Marketing and Dietary Intake among Youth in Six Countries\" published in the International Journal of Behavioral Nutrition and Physical Activity",
+        "sourceAuthor": "Hector Gruel",
+        "platform": "youtube",
+        "engagement": 2,
+        "postExcerpt": "Fast Food, Ultra Processed Foods, and Youth Health In this episode I talk with two guests about how fast food and ultra processed foods have become a normal part of student life. We share our own experiences with fast food, react to research on ultra processed products, and connect it to what we see"
+      },
+      {
+        "id": "ultra-processed-food-c23",
+        "claimText": "Research has linked high consumption of ultra-processed foods to obesity, heart disease, high blood pressure, and other chronic health issues",
+        "sourceAuthor": "Studio SWL",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "What is ultra-processed food? - The Food Chain podcast, BBC World Service What if the food you eat every day isn’t really food anymore? In this video, we uncover the hidden truth about ultra-processed foods and how they have quietly taken over modern diets — especially in the United States. From pac"
+      },
+      {
+        "id": "ultra-processed-food-c24",
+        "claimText": "Ultra-processed foods are linked to higher cancer risk",
+        "sourceAuthor": "Timbo's Food Box",
+        "platform": "youtube",
+        "engagement": 3,
+        "postExcerpt": "✅ Unlock All My Cheat Codes and Coupons: ➡︎ https://timbosfoodbox.com/cheat-codes There is a silent crisis in our food supply: the hidden dangers of ultra-processed foods (UPFs), which are now linked to higher cancer risk, faster aging, and cognitive decline. These industrial formulations—found in e"
+      },
+      {
+        "id": "ultra-processed-food-c25",
+        "claimText": "Researchers are linking ultra-processed foods to early death",
+        "sourceAuthor": "Health Manifesto",
+        "platform": "youtube",
+        "engagement": 9,
+        "postExcerpt": "73% of Food Isn’t Real — Now Linked to Early Death | Ultra-Processed Foods Exposed We break down the disturbing science behind ultra-processed foods (UPFs) and why researchers are now linking them to early death, chronic disease, and constant hunger. This isn’t about one “bad” ingredient or another "
+      },
+      {
+        "id": "ultra-processed-food-c26",
+        "claimText": "Researchers are linking ultra-processed foods to chronic disease",
+        "sourceAuthor": "Health Manifesto",
+        "platform": "youtube",
+        "engagement": 9,
+        "postExcerpt": "73% of Food Isn’t Real — Now Linked to Early Death | Ultra-Processed Foods Exposed We break down the disturbing science behind ultra-processed foods (UPFs) and why researchers are now linking them to early death, chronic disease, and constant hunger. This isn’t about one “bad” ingredient or another "
+      },
+      {
+        "id": "ultra-processed-food-c27",
+        "claimText": "Researchers are linking ultra-processed foods to constant hunger",
+        "sourceAuthor": "Health Manifesto",
+        "platform": "youtube",
+        "engagement": 9,
+        "postExcerpt": "73% of Food Isn’t Real — Now Linked to Early Death | Ultra-Processed Foods Exposed We break down the disturbing science behind ultra-processed foods (UPFs) and why researchers are now linking them to early death, chronic disease, and constant hunger. This isn’t about one “bad” ingredient or another "
+      },
+      {
+        "id": "ultra-processed-food-c28",
+        "claimText": "Dr. Euridice Martinez-Steele has spent 12 years researching ultra-processed foods at NUPENS, the Centre for Epidemiological Research in Nutrition and Health at the University of São Paulo",
+        "sourceAuthor": "Stress-Free Longevity",
+        "platform": "youtube",
+        "engagement": 3,
+        "postExcerpt": "Episode Overview In this eye-opening conversation, Dr Euridice Martinez-Steele, who has spent 12 years researching ultra processed foods at NUPENS (University of Sao Paulo), explains how these industrial food formulations are driving chronic disease worldwide. Drawing on evidence from almost 10 mill"
+      },
+      {
+        "id": "ultra-processed-food-c29",
+        "claimText": "The 2024 umbrella review found evidence that ultra-processed food consumption is associated with mortality, obesity, type 2 diabetes, cardiovascular disease, certain cancers, depression, dementia, and gastrointestinal disease",
+        "sourceAuthor": "Stress-Free Longevity",
+        "platform": "youtube",
+        "engagement": 3,
+        "postExcerpt": "Episode Overview In this eye-opening conversation, Dr Euridice Martinez-Steele, who has spent 12 years researching ultra processed foods at NUPENS (University of Sao Paulo), explains how these industrial food formulations are driving chronic disease worldwide. Drawing on evidence from almost 10 mill"
+      },
+      {
+        "id": "ultra-processed-food-c30",
+        "claimText": "Dr. Euridice Martinez-Steele's research has helped inform dietary guidelines in Brazil and other countries recommending reduced ultra-processed food consumption",
+        "sourceAuthor": "Stress-Free Longevity",
+        "platform": "youtube",
+        "engagement": 3,
+        "postExcerpt": "Episode Overview In this eye-opening conversation, Dr Euridice Martinez-Steele, who has spent 12 years researching ultra processed foods at NUPENS (University of Sao Paulo), explains how these industrial food formulations are driving chronic disease worldwide. Drawing on evidence from almost 10 mill"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ultra-processed foods tied to obesity and declining mental health in young adults: Global Report",
+        "url": "https://www.newindianexpress.com/lifestyle/health/2026/Feb/26/ultra-processed-foods-tied-to-obesity-and-declining-mental-health-in-young-adults-global-report",
+        "publisher": "newindianexpress.com",
+        "type": "news",
+        "snippet": "UPF consumption associated with diseases like diabetes, heart diseases and obesity, plus diminished emotional/cognitive functioning."
+      },
+      {
+        "title": "Understanding childhood obesity: Causes, treatments and how to reduce stigma",
+        "url": "https://medicalxpress.com/news/2025-12-childhood-obesity-treatments-stigma.html",
+        "publisher": "medicalxpress.com",
+        "type": "news",
+        "snippet": "Childhood obesity reflects our modern environment of ultra-processed foods…"
+      },
+      {
+        "title": "Understanding childhood obesity: Causes, Treatments and How to Reduce Stigma",
+        "url": "https://www.usnews.com/news/health-news/articles/2025-12-30/understanding-childhood-obesity-causes-treatments-and-how-to-reduce-stigma",
+        "publisher": "usnews.com",
+        "type": "news",
+        "snippet": "Childhood obesity reflects environments full of ultra-processed foods and other stressors."
+      },
+      {
+        "title": "Investigation finds 111 chemicals in U.S. foods",
+        "url": "https://www.cp24.com/news/world/2026/03/03/investigation-finds-secretly-added-chemicals-of-unknown-safety-in-us-food-supply/",
+        "publisher": "cp24.com",
+        "type": "news",
+        "snippet": "At least 111 substances of unknown safety have been added to foods, drinks and supplements sold in the United States..."
+      },
+      {
+        "title": "Investigation finds ‘secretly’ added chemicals of unknown safety in US food supply",
+        "url": "https://abc17news.com/cnn-health/2026/03/02/investigation-finds-secretly-added-chemicals-of-unknown-safety-in-us-food-supply/",
+        "publisher": "abc17news.com (CNN)",
+        "type": "news",
+        "snippet": "At least 111 substances of unknown safety have been added to foods, drinks and supplements sold in the United States..."
+      },
+      {
+        "title": "Chemicals of unknown safety added to US food supply without FDA or public knowledge",
+        "url": "https://edition.cnn.com/2026/03/03/health/secret-food-additives-investigation-wellness",
+        "publisher": "edition.cnn.com",
+        "type": "news",
+        "snippet": "At least 111 substances of unknown safety have been added to foods, drinks and supplements sold in the United States..."
+      },
+      {
+        "title": "Is the FDA Doing Enough About Food Additives?",
+        "url": "https://www.newsweek.com/fda-policies-food-additives-2102129",
+        "publisher": "Newsweek",
+        "type": "news",
+        "snippet": "Food additives have come under increasing scrutiny... Food dyes have been linked to a range of health effects, including increased cancer risk..."
+      }
+    ],
+    "factChecks": [
+      {
+        "title": "Ultra-processed foods tied to obesity and declining mental health in young adults: Global Report",
+        "url": "https://www.newindianexpress.com/lifestyle/health/2026/Feb/26/ultra-processed-foods-tied-to-obesity-and-declining-mental-health-in-young-adults-global-report",
+        "publisher": "New Indian Express",
+        "type": "fact-check",
+        "snippet": "UPF consumption associated with diseases like diabetes, heart disease and obesity, plus diminished emotional/cognitive functioning."
+      },
+      {
+        "title": "Understanding childhood obesity: Causes, treatments and how to reduce stigma",
+        "url": "https://medicalxpress.com/news/2025-12-childhood-obesity-treatments-stigma.html",
+        "publisher": "Medical Xpress",
+        "type": "fact-check",
+        "snippet": "Childhood obesity reflects modern environment of ultra-processed foods, digital devices and psychological stressors."
+      },
+      {
+        "title": "Understanding Childhood Obesity: Causes, Treatments and How to Reduce Stigma",
+        "url": "https://www.usnews.com/news/health-news/articles/2025-12-30/understanding-childhood-obesity-causes-treatments-and-how-to-reduce-stigma",
+        "publisher": "U.S. News",
+        "type": "fact-check",
+        "snippet": "Childhood obesity reflects modern environment of ultra-processed foods, digital devices and psychological stressors."
       }
     ]
   },
   {
-    "groupId": "group-3",
-    "groupTitle": "Societal and Economic Impact of Ultra-Processed Foods",
-    "groupSummary": "The rise of ultra-processed foods has significant implications for public health and consumer behavior.",
+    "groupId": "ultra-processed-food-g4",
+    "groupTitle": "Nova classification",
+    "groupSummary": "Claims from social media discourse related to \"Nova classification\"",
     "relevantSectionIds": [
-      "economics",
+      "nova-classification"
+    ],
+    "claimCount": 3,
+    "totalEngagement": 31,
+    "claims": [
+      {
+        "id": "ultra-processed-food-c46",
+        "claimText": "Countries are debating front-of-package warning labels, sugar taxes, and food classification systems in response to ultra-processed food concerns",
+        "sourceAuthor": "Known Unknown",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "Ultra processed foods have become a global staple, but the growing body of scientific evidence paints a far more troubling picture of their impact on human health. Recent systematic reviews and meta analyses reveal a strong association between high UPF consumption and increased risk of several cance"
+      },
+      {
+        "id": "ultra-processed-food-c47",
+        "claimText": "Ultra-processed foods are classified under the NOVA food classification system",
+        "sourceAuthor": "Prof. Dr. Daud",
+        "platform": "youtube",
+        "engagement": 19,
+        "postExcerpt": "Ultra-Processed Foods (UPFs) are silently damaging our health every day. From packaged snacks to sugary drinks, these foods are loaded with artificial colors, preservatives, excess sugar, unhealthy fats, and chemical additives that harm our liver, gut, heart, brain, and hormones. In this video, we s"
+      },
+      {
+        "id": "ultra-processed-food-c48",
+        "claimText": "The NOVA classification system is used by researchers worldwide to classify ultra-processed foods",
+        "sourceAuthor": "Veganism",
+        "platform": "youtube",
+        "engagement": 12,
+        "postExcerpt": "In this video, Dr. Yashwant Singh talks about 4 Dead-Giveaway Signs Your Food is Ultra-Processed #health #ultraprocessedfoods #shorts \"Hey everyone, quick question: Ever grab a snack, flip the package, and think, 'What even ARE half these ingredients?' That's ultra-processed food talking. According "
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ultra-processed foods tied to obesity and declining mental health in young adults: Global Report",
+        "url": "https://www.newindianexpress.com/lifestyle/health/2026/Feb/26/ultra-processed-foods-tied-to-obesity-and-declining-mental-health-in-young-adults-global-report",
+        "publisher": "New Indian Express",
+        "type": "news",
+        "snippet": "Ultra-processed food consumption linked with diseases like diabetes, heart disease, and obesity..."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "ultra-processed-food-g1",
+    "groupTitle": "Lead",
+    "groupSummary": "Claims from social media discourse related to \"Lead\"",
+    "relevantSectionIds": [
+      "ultra-processed-food-lead"
+    ],
+    "claimCount": 8,
+    "totalEngagement": 23,
+    "claims": [
+      {
+        "id": "ultra-processed-food-c1",
+        "claimText": "Dr. Joe Schwarz hosts The Dr. Joe Show on CJAD 800 on Sundays at 3 PM",
+        "sourceAuthor": "CJAD 800 Montreal",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "Dr. Joe Schwarz, Host of the Dr. Joe Show, Sundays at 3 PM on CJAD 800 & director of the McGill Office for Science & Society"
+      },
+      {
+        "id": "ultra-processed-food-c2",
+        "claimText": "Dr. Joe Schwarz is the director of the McGill Office for Science and Society",
+        "sourceAuthor": "CJAD 800 Montreal",
+        "platform": "youtube",
+        "engagement": 0,
+        "postExcerpt": "Dr. Joe Schwarz, Host of the Dr. Joe Show, Sundays at 3 PM on CJAD 800 & director of the McGill Office for Science & Society"
+      },
+      {
+        "id": "ultra-processed-food-c3",
+        "claimText": "Some emulsifiers can strip the intestine's protective mucus layer",
+        "sourceAuthor": "Timbo's Food Box",
+        "platform": "youtube",
+        "engagement": 3,
+        "postExcerpt": "✅ Unlock All My Cheat Codes and Coupons: ➡︎ https://timbosfoodbox.com/cheat-codes There is a silent crisis in our food supply: the hidden dangers of ultra-processed foods (UPFs), which are now linked to higher cancer risk, faster aging, and cognitive decline. These industrial formulations—found in e"
+      },
+      {
+        "id": "ultra-processed-food-c4",
+        "claimText": "New bioengineered proteins such as 3D-printed meat are entering the market",
+        "sourceAuthor": "Timbo's Food Box",
+        "platform": "youtube",
+        "engagement": 3,
+        "postExcerpt": "✅ Unlock All My Cheat Codes and Coupons: ➡︎ https://timbosfoodbox.com/cheat-codes There is a silent crisis in our food supply: the hidden dangers of ultra-processed foods (UPFs), which are now linked to higher cancer risk, faster aging, and cognitive decline. These industrial formulations—found in e"
+      },
+      {
+        "id": "ultra-processed-food-c5",
+        "claimText": "Emulsifiers may damage the gut and drive inflammation",
+        "sourceAuthor": "Health Manifesto",
+        "platform": "youtube",
+        "engagement": 9,
+        "postExcerpt": "73% of Food Isn’t Real — Now Linked to Early Death | Ultra-Processed Foods Exposed We break down the disturbing science behind ultra-processed foods (UPFs) and why researchers are now linking them to early death, chronic disease, and constant hunger. This isn’t about one “bad” ingredient or another "
+      },
+      {
+        "id": "ultra-processed-food-c6",
+        "claimText": "Factory farming and antibiotic overuse contribute to resistant bacteria",
+        "sourceAuthor": "Open For All!",
+        "platform": "youtube",
+        "engagement": 2,
+        "postExcerpt": "The Dark Side of Modern Food: How Profits Are Harming Public Health What if the foods marketed as “safe” are quietly driving disease? In this documentary-style video, we expose how ultra-processed foods, factory farming, antibiotic overuse, chemical processing, and aggressive marketing contribute to"
+      },
+      {
+        "id": "ultra-processed-food-c7",
+        "claimText": "A 2024 umbrella review evaluated almost 10 million participants",
+        "sourceAuthor": "Stress-Free Longevity",
+        "platform": "youtube",
+        "engagement": 3,
+        "postExcerpt": "Episode Overview In this eye-opening conversation, Dr Euridice Martinez-Steele, who has spent 12 years researching ultra processed foods at NUPENS (University of Sao Paulo), explains how these industrial food formulations are driving chronic disease worldwide. Drawing on evidence from almost 10 mill"
+      },
+      {
+        "id": "ultra-processed-food-c8",
+        "claimText": "More than 10,000 additives are approved in the United States",
+        "sourceAuthor": "Stress-Free Longevity",
+        "platform": "youtube",
+        "engagement": 3,
+        "postExcerpt": "Episode Overview In this eye-opening conversation, Dr Euridice Martinez-Steele, who has spent 12 years researching ultra processed foods at NUPENS (University of Sao Paulo), explains how these industrial food formulations are driving chronic disease worldwide. Drawing on evidence from almost 10 mill"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UAE Launches Major Strategic Push into the Alternative Proteins Market - Middle East Briefing",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTGhCM1hvU1UwRjNXTmJDN1NoYjVibmYyY2VJVHpVblBQY3ZpMkdrdkQyVzBFaXBpSUpMVldueHJLYkN4NTBIVm5SY2xUV2VEbDBJMjRvUDlYdzRvS05DVDdhV0FIeVZYcENiQlpQcmVpM2xiR0d4VHd6QllIbGd2U2h1MEpEcVRjLVdTTmFnczBkWGlOb1dYQ09xNA?oc=5&hl=en-US&gl=US:en",
+        "publisher": "news.google.com",
+        "type": "news",
+        "snippet": "UAE Launches Major Strategic Push into the Alternative Proteins Market - Middle East Briefing"
+      },
+      {
+        "title": "How social stress can worsen colitis, and what it reveals about the biology of IBD",
+        "url": "https://medicalxpress.com/news/2026-01-social-stress-worsen-colitis-reveals.html",
+        "publisher": "MedicalXpress",
+        "type": "news",
+        "snippet": "Study links social stress to oxidative stress that weakens the gut lining and intensifies inflammation."
+      },
+      {
+        "title": "AI accelerates hunt for new antibiotics amid global AMR crisis",
+        "url": "https://www.devdiscourse.com/article/technology/3815383-ai-accelerates-hunt-for-new-antibiotics-amid-global-amr-crisis",
+        "publisher": "Devdiscourse",
+        "type": "news",
+        "snippet": "Antimicrobial resistance has emerged as one of the most urgent public health threats..."
+      },
+      {
+        "title": "Effectiveness of a digital clinical decision support algorithm for guiding antibiotic prescribing in pediatric outpatient care in Rwanda: A pragmatic cluster non-randomized controlled trial",
+        "url": "https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1004692",
+        "publisher": "PLOS Medicine",
+        "type": "news",
+        "snippet": "Poor adherence ... key contributors to antibiotic overprescription, accelerating antimicrobial resistance."
+      },
+      {
+        "title": "Inequalities in cancer mortality between people with and without disability: A nationwide data linkage study of 10 million adults in Australia",
+        "url": "https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1004873",
+        "publisher": "PLOS Medicine",
+        "type": "news",
+        "snippet": "Study uses administrative-linked data including the 2011 Australian Census; cohort constructed via linkage."
+      },
+      {
+        "title": "Is the FDA Doing Enough About Food Additives?",
+        "url": "https://www.newsweek.com/fda-policies-food-additives-2102129",
+        "publisher": "Newsweek",
+        "type": "news",
+        "snippet": "Food additives… scrutiny… Health Secretary… ban on eight frequently used food dyes…"
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "ultra-processed-food-g7",
+    "groupTitle": "Obesity and weight gain",
+    "groupSummary": "Claims from social media discourse related to \"Obesity and weight gain\"",
+    "relevantSectionIds": [
+      "obesity-and-weight-gain"
+    ],
+    "claimCount": 1,
+    "totalEngagement": 3,
+    "claims": [
+      {
+        "id": "ultra-processed-food-c91",
+        "claimText": "Two randomized controlled trials found that participants eating ultra-processed diets consumed significantly more calories per minute and gained more weight over two weeks",
+        "sourceAuthor": "Stress-Free Longevity",
+        "platform": "youtube",
+        "engagement": 3,
+        "postExcerpt": "Episode Overview In this eye-opening conversation, Dr Euridice Martinez-Steele, who has spent 12 years researching ultra processed foods at NUPENS (University of Sao Paulo), explains how these industrial food formulations are driving chronic disease worldwide. Drawing on evidence from almost 10 mill"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ultra-processed foods tied to obesity and declining mental health in young adults: Global Report",
+        "url": "https://www.newindianexpress.com/lifestyle/health/2026/Feb/26/ultra-processed-foods-tied-to-obesity-and-declining-mental-health-in-young-adults-global-report",
+        "publisher": "New Indian Express",
+        "type": "news",
+        "snippet": "UPF consumption associated with diseases like diabetes, heart diseases and obesity, plus diminished mind health."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "ultra-processed-food-g5",
+    "groupTitle": "Environmental impact",
+    "groupSummary": "Claims from social media discourse related to \"Environmental impact\"",
+    "relevantSectionIds": [
+      "environmental-impact"
+    ],
+    "claimCount": 1,
+    "totalEngagement": 2,
+    "claims": [
+      {
+        "id": "ultra-processed-food-c61",
+        "claimText": "Fish farms can contribute to environmental contamination",
+        "sourceAuthor": "Open For All!",
+        "platform": "youtube",
+        "engagement": 2,
+        "postExcerpt": "The Dark Side of Modern Food: How Profits Are Harming Public Health What if the foods marketed as “safe” are quietly driving disease? In this documentary-style video, we expose how ultra-processed foods, factory farming, antibiotic overuse, chemical processing, and aggressive marketing contribute to"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bay‑Delta Plan could reshape California water for cities and farms",
+        "url": "https://www.vcstar.com/story/news/environment/2026/02/10/bay-delta-plan-california-water-cities-farms-fish/88605522007/",
+        "publisher": "vcstar.com",
+        "type": "news",
+        "snippet": "Bay-Delta Plan would limit water diversions to protect ecosystems."
+      },
+      {
+        "title": "WTO Fish Fund Opens Second Call to Support Fisheries Subsidy Reforms",
+        "url": "https://www.devdiscourse.com/article/business/3791454-wto-fish-fund-opens-second-call-to-support-fisheries-subsidy-reforms",
+        "publisher": "devdiscourse.com",
+        "type": "news",
+        "snippet": "Grants to help countries meet commitments under Agreement on Fisheries Subsidies."
+      },
+      {
+        "title": "Fears fish protection measures could threaten Eden Creek Weir platypus population",
+        "url": "https://www.abc.net.au/news/2026-01-13/eden-weir-fish-migration-measures-could-threaten-platypus/106173270",
+        "publisher": "abc.net.au",
+        "type": "news",
+        "snippet": "Plans to remove a weir to improve fish migration; concerns about ecological impacts."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "ultra-processed-food-g6",
+    "groupTitle": "Affordability for consumers",
+    "groupSummary": "Claims from social media discourse related to \"Affordability for consumers\"",
+    "relevantSectionIds": [
       "affordability-for-consumers"
     ],
-    "claimCount": 5,
-    "totalEngagement": 0,
+    "claimCount": 1,
+    "totalEngagement": 2,
     "claims": [
       {
-        "id": "claim-26",
-        "claimText": "Rapid lifestyle changes are pushing people away from traditional home-cooked meals.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 1,
-        "postExcerpt": "An MP highlighted the growing dependence on packaged and ultra-processed foods..."
-      },
-      {
-        "id": "claim-27",
-        "claimText": "Ultra-processed foods are often more affordable than fresh, whole foods.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "The cost of convenience often leads consumers to choose ultra-processed options..."
-      },
-      {
-        "id": "claim-28",
-        "claimText": "The marketing of ultra-processed foods targets vulnerable populations, including children.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "Aggressive marketing contributes to chronic illness—especially among children..."
-      },
-      {
-        "id": "claim-29",
-        "claimText": "Ultra-processed foods are often marketed as 'healthy' options, misleading consumers.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "These products are designed for convenience and marketed as healthy..."
-      },
-      {
-        "id": "claim-30",
-        "claimText": "The prevalence of ultra-processed foods is a public health crisis.",
-        "sourceAuthor": "@username",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "There is a silent crisis in our food supply..."
+        "id": "ultra-processed-food-c76",
+        "claimText": "Aggressive marketing can manipulate consumers",
+        "sourceAuthor": "Open For All!",
+        "platform": "youtube",
+        "engagement": 2,
+        "postExcerpt": "The Dark Side of Modern Food: How Profits Are Harming Public Health What if the foods marketed as “safe” are quietly driving disease? In this documentary-style video, we expose how ultra-processed foods, factory farming, antibiotic overuse, chemical processing, and aggressive marketing contribute to"
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "'Social advertising is being used to defraud at scale across some of the largest platforms.': Nearly one in three Meta ads reportedly point to a scam, phishing or malware",
+        "url": "https://www.techradar.com/pro/security/social-advertising-is-being-used-to-defraud-at-scale-across-some-of-the-largest-platforms-nearly-one-in-three-meta-ads-reportedly-point-to-a-scam-phishing-or-malware",
+        "publisher": "TechRadar",
+        "type": "news",
+        "snippet": "Gen Digital found almost a third of Meta ads linked to scam campaigns; ads “don’t look suspicious.”"
+      },
+      {
+        "title": "plus states urging Meta to crack down on misleading weight",
+        "url": "https://foxbaltimore.com/news/nation-world/utah-ag-joins-30-plus-states-urging-meta-to-crack-down-on-misleading-weight-loss-ads",
+        "publisher": "Fox Baltimore",
+        "type": "news",
+        "snippet": "AGs urged Meta to curb misleading GLP-1 ads that exaggerate results and use fake testimonials."
+      },
+      {
+        "title": "plus states urging Meta to crack down on misleading weight",
+        "url": "https://wjla.com/news/nation-world/utah-ag-joins-30-plus-states-urging-meta-to-crack-down-on-misleading-weight-loss-ads",
+        "publisher": "WJLA",
+        "type": "news",
+        "snippet": "Attorneys general warn users are inundated with misleading GLP-1 weight-loss advertisements."
+      },
+      {
+        "title": "US Senators unveil bill against scam ads on social media platforms: What it means for Facebook, Instagram, YouTube and others",
+        "url": "https://timesofindia.indiatimes.com/technology/tech-news/us-senators-unveil-bill-against-scam-ads-on-social-media-platforms-what-it-means-for-facebook-instagram-youtube-and-others/articleshow/127913383.cms",
+        "publisher": "Times of India",
+        "type": "news",
+        "snippet": "SCAM Act would require platforms to investigate advertisers and take steps against fraudulent ads."
+      },
+      {
+        "title": "Elon Musk's warning about the 'dopamine race' in social media: Why the threat still feels urgent today",
+        "url": "https://timesofindia.indiatimes.com/life-style/parenting/moments/elon-musks-warning-about-the-dopamine-race-in-social-media-why-the-threat-still-feels-urgent-today/photostory/125829976.cms",
+        "publisher": "Times of India",
+        "type": "news",
+        "snippet": "Musk warned engagement-maximizing algorithms manipulate children’s dopamine responses."
+      },
+      {
+        "title": "Paul Kengor: The NFL’s outrageous commercialism",
+        "url": "https://triblive.com/opinion/paul-kengor-the-nfls-outrageous-commercialism/",
+        "publisher": "TribLive",
+        "type": "news",
+        "snippet": "Pope John Paul II urged protection from “evil use of advertising techniques” harming young people."
+      }
+    ],
+    "factChecks": []
   }
 ]

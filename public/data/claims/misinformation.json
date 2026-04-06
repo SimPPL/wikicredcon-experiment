@@ -1,290 +1,578 @@
 [
   {
-    "groupId": "group-1",
-    "groupTitle": "Youth Recruitment Misinformation",
-    "groupSummary": "Concerns about misleading narratives targeting young people regarding recruitment for conflict.",
+    "groupId": "misinformation-g2",
+    "groupTitle": "Lead",
+    "groupSummary": "Claims from social media discourse related to \"Lead\"",
     "relevantSectionIds": [
-      "causes",
-      "social-causes-and-echo-chambers"
+      "misinformation-lead"
     ],
-    "claimCount": 2,
-    "totalEngagement": 201100,
+    "claimCount": 14,
+    "totalEngagement": 1243557,
     "claims": [
       {
-        "id": "claim-1",
-        "claimText": "A dangerous narrative is spreading in WhatsApp groups convincing youths that going to fight in Russia will earn them instant citizenship and big money after the war.",
-        "sourceAuthor": "@username",
+        "id": "misinformation-c16",
+        "claimText": "The post says there are historic ties between Russia and ZPRA",
+        "sourceAuthor": "zenzele",
         "platform": "twitter",
-        "engagement": 201100,
-        "postExcerpt": "if we don't pay attention, we're going to lose many young people especially in matabeleland."
+        "engagement": 201120,
+        "postExcerpt": "if we don't pay attention, we're going to lose many young people especially in matabeleland. there's a dangerous narrative spreading in whatsapp groups, convincing youths that going to fight in russia will earn them instant citizenship and big money after the war. for some, the historic ties between"
       },
       {
-        "id": "claim-2",
-        "claimText": "The historic ties between Russia and ZPRA make the deception feel even more believable.",
-        "sourceAuthor": "@username",
+        "id": "misinformation-c17",
+        "claimText": "Grok has been restricted from being used to investigate the Charlie Kirk assassination outside the \"official\" narrative",
+        "sourceAuthor": "DiligentDenizen",
         "platform": "twitter",
-        "engagement": 201100,
-        "postExcerpt": "for some, the historic ties between russia and zpra make the deception feel even more believable."
+        "engagement": 114889,
+        "postExcerpt": ".@grok has been restricted from being used to investigate the charlie kirk assassination outside of the \"official\" narrative...  eyes  to present the spread of what it calls \"misinformation\" what happened to maximum truth-seeking, @elonmusk?  thinking_face  we should all be very concerned."
+      },
+      {
+        "id": "misinformation-c18",
+        "claimText": "Aravallis are being destroyed is a false narrative",
+        "sourceAuthor": "HemanNamo",
+        "platform": "twitter",
+        "engagement": 112374,
+        "postExcerpt": "keycap:_1  fact check for @republic & #arnabgoswami \"aravallis are being destroyed\" is a false narrative. what's spreading right now is misinformation, not bulldozers. let's go by court orders & data.  thread  backhand_index_pointing_down  #savearavallis #factcheck"
+      },
+      {
+        "id": "misinformation-c19",
+        "claimText": "EU Commissioner Magnus Brunner visited the European Parliament on 2025-12-04 and said trilogue negotiations on the chat control proposal would begin on 2025-12-09",
+        "sourceAuthor": "mullvadnet",
+        "platform": "twitter",
+        "engagement": 83926,
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+      },
+      {
+        "id": "misinformation-c20",
+        "claimText": "EU Commissioner Magnus Brunner said he was not satisfied with the Council's compromise proposal on the chat control proposal",
+        "sourceAuthor": "mullvadnet",
+        "platform": "twitter",
+        "engagement": 83926,
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+      },
+      {
+        "id": "misinformation-c21",
+        "claimText": "Magnus Brunner said the Commission's scanning suggestion was a targeted scanning approach",
+        "sourceAuthor": "mullvadnet",
+        "platform": "twitter",
+        "engagement": 83926,
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+      },
+      {
+        "id": "misinformation-c22",
+        "claimText": "Markéta Gregorová asked Magnus Brunner whether he would play an honest broker in the upcoming trilogues or push for more scanning",
+        "sourceAuthor": "mullvadnet",
+        "platform": "twitter",
+        "engagement": 83926,
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+      },
+      {
+        "id": "misinformation-c23",
+        "claimText": "Birgit Sippel said she had not heard figures on how many children had been saved from abuse through digital investigations",
+        "sourceAuthor": "mullvadnet",
+        "platform": "twitter",
+        "engagement": 83926,
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+      },
+      {
+        "id": "misinformation-c24",
+        "claimText": "Magnus Brunner said he did not have any specific figures on identified victims",
+        "sourceAuthor": "mullvadnet",
+        "platform": "twitter",
+        "engagement": 83926,
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+      },
+      {
+        "id": "misinformation-c25",
+        "claimText": "Javier Zarzalejos is the chairman of the European Parliament's LIBE committee",
+        "sourceAuthor": "mullvadnet",
+        "platform": "twitter",
+        "engagement": 83926,
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+      },
+      {
+        "id": "misinformation-c26",
+        "claimText": "Iman is at Achraf Hakimi's soccer game on 2026-01-04",
+        "sourceAuthor": "theeemprasss",
+        "platform": "twitter",
+        "engagement": 73582,
+        "postExcerpt": "imaan is literally at her boyfriend's ( achraf hakimi ) soccer game right now as we speak. those pictures are from 2024. the misinformation on this app is so bad that it's scary how much people believe these type of posts. can we leave lying for engagement in 2025?"
+      },
+      {
+        "id": "misinformation-c27",
+        "claimText": "The pictures being circulated are from 2024",
+        "sourceAuthor": "theeemprasss",
+        "platform": "twitter",
+        "engagement": 73582,
+        "postExcerpt": "imaan is literally at her boyfriend's ( achraf hakimi ) soccer game right now as we speak. those pictures are from 2024. the misinformation on this app is so bad that it's scary how much people believe these type of posts. can we leave lying for engagement in 2025?"
+      },
+      {
+        "id": "misinformation-c28",
+        "claimText": "Attaullah Tarar said that blaming Pakistan for the Sydney tragedy without evidence was an organized campaign of lies by India",
+        "sourceAuthor": "ZardanSi",
+        "platform": "twitter",
+        "engagement": 40264,
+        "postExcerpt": "\"misinformation cannot substitute for evidence. the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.\" - attaullah tarar (moib pakistan) exposed indian propaganda targeting pakistan over the bondi beach incident."
+      },
+      {
+        "id": "misinformation-c29",
+        "claimText": "The post alleges that India conducted an organized propaganda campaign targeting Pakistan over the Bondi Beach incident",
+        "sourceAuthor": "ZardanSi",
+        "platform": "twitter",
+        "engagement": 40264,
+        "postExcerpt": "\"misinformation cannot substitute for evidence. the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.\" - attaullah tarar (moib pakistan) exposed indian propaganda targeting pakistan over the bondi beach incident."
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "Grok Says It Has Restricted Image Generation To Subscribers After Deepfake Concerns. But Has It?",
+        "url": "https://in.mashable.com/tech/104511/grok-says-it-has-restricted-image-generation-to-subscribers-after-deepfake-concerns-but-has-it",
+        "publisher": "Mashable",
+        "type": "news",
+        "snippet": "Grok says image generation/editing are limited to paying subscribers after deepfake concerns."
+      },
+      {
+        "title": "India, EU investigate Musk's X after Grok created deepfake child porn",
+        "url": "https://www.cnbc.com/2026/01/05/india-eu-investigate-musks-x-after-grok-created-deepfake-child-porn.html",
+        "publisher": "CNBC",
+        "type": "news",
+        "snippet": "Investigations follow claims Grok let users create/share AI sexualized images of children and women."
+      },
+      {
+        "title": "The State-Led Crackdown on Grok and xAI Has Begun",
+        "url": "https://www.wired.com/story/the-state-led-crackdown-on-grok-and-xai-has-begun/",
+        "publisher": "WIRED",
+        "type": "news",
+        "snippet": "AGs take action against xAI after Grok used to generate sexualized images; letter urges additional safeguards."
+      },
+      {
+        "title": "Former counterterrorism chief says he was blocked from investigating Charlie Kirk’s killing",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/joe-kent-charlie-kirk-iran-investigation-b2941593.html",
+        "publisher": "The Independent",
+        "type": "news",
+        "snippet": "Joe Kent claims his team was stopped from continuing to investigate Charlie Kirk’s assassination."
+      },
+      {
+        "title": "“It’s so stupid it hurts”: Candace Owens blasts CIA narrative after Charlie Kirk assassination sparks fresh public outrage",
+        "url": "https://timesofindia.indiatimes.com/world/us-streamers/its-so-stupid-it-hurts-candace-owens-blasts-cia-narrative-after-charlie-kirk-assassination-sparks-fresh-public-outrage/articleshow/126360820.cms",
+        "publisher": "Times of India",
+        "type": "news",
+        "snippet": "Candace Owens rejects the official explanation, accusing CIA narrative shaping."
+      },
+      {
+        "title": "Joe Kent suggests Israel link in Charlie Kirk assassination, calls conspiracy theory a ‘data point’ that needs investigation",
+        "url": "https://timesofindia.indiatimes.com/world/us/joe-kent-suggests-israel-link-in-charlie-kirk-assassination-calls-conspiracy-theory-a-data-point-that-needs-investigation/articleshow/129684709.cms",
+        "publisher": "Times of India",
+        "type": "news",
+        "snippet": "Joe Kent says a conspiracy theory is a “data point” that needs investigation and implies limits on asking questions."
+      },
+      {
+        "title": "Environmentalists meet in Gurgaon, warn of a ‘June-like’ January if Aravallis fall",
+        "url": "https://indianexpress.com/shorts/cities/delhi/environmentalists-meet-gurgaon-june-january-aravallis-fall-10480520/",
+        "publisher": "Indian Express",
+        "type": "news",
+        "snippet": "Environmentalists…highlight…Aravalli…role in clean air…groundwater recharge…They demanded a halt to mining and construction."
+      },
+      {
+        "title": "Setback for the Commission: EU MEPs let chat control fail",
+        "url": "https://www.heise.de/en/news/Setback-for-the-Commission-EU-MEPs-let-chat-control-fail-11197237.html",
+        "publisher": "heise.de",
+        "type": "news",
+        "snippet": "EU Parliament’s LIBE voted against renewing a voluntary chat control exception; snippet notes committee action but not chair."
+      },
+      {
+        "title": "EU agreement fails: \"Voluntary chat control\" ends",
+        "url": "https://www.heise.de/en/news/EU-agreement-fails-Voluntary-chat-control-ends-11213083.html",
+        "publisher": "heise.de",
+        "type": "news",
+        "snippet": "Negotiators from EU states and the parliament could not agree on a compromise."
+      },
+      {
+        "title": "EU’s “chat control” proposal: Mass surveillance disguised as child protection",
+        "url": "https://www.naturalnews.com/2025-12-03-european-union-chat-control-proposal-mass-surveillance.html",
+        "publisher": "NaturalNews",
+        "type": "news",
+        "snippet": "The EU's proposed CSAR mandates automated scanning of private messages, framed as child protection."
+      }
+    ],
+    "factChecks": []
   },
   {
-    "groupId": "group-2",
-    "groupTitle": "Government Surveillance and Misinformation",
-    "groupSummary": "Claims regarding government surveillance of social media for misinformation.",
+    "groupId": "misinformation-g4",
+    "groupTitle": "Factors influencing susceptibility to misinformation",
+    "groupSummary": "Claims from social media discourse related to \"Factors influencing susceptibility to misinformation\"",
     "relevantSectionIds": [
-      "lack-of-regulation",
-      "censorship-accusations"
+      "factors-influencing-susceptibility-to-misinformation"
     ],
-    "claimCount": 2,
-    "totalEngagement": 120700,
+    "claimCount": 4,
+    "totalEngagement": 426895,
     "claims": [
       {
-        "id": "claim-3",
-        "claimText": "The British government has admitted it collects social media posts to assess them for misinformation.",
-        "sourceAuthor": "@username",
+        "id": "misinformation-c46",
+        "claimText": "The British government uses AI to assess social media posts for misinformation",
+        "sourceAuthor": "BasilTheGreat",
         "platform": "twitter",
-        "engagement": 120700,
-        "postExcerpt": "the british government has admitted it collects our social media posts."
+        "engagement": 120676,
+        "postExcerpt": "police_car_light holy sh*t. the british government has admitted it collects our social media posts they are using ai to assess the posts for what they call 'misinformation' or more likely people disagreeing with them this is crazy. it's 1984. the uk is not a free country"
       },
       {
-        "id": "claim-4",
-        "claimText": "The government is likely using the term 'misinformation' to target people who disagree with them.",
-        "sourceAuthor": "@username",
+        "id": "misinformation-c47",
+        "claimText": "Grok labels some content about the Charlie Kirk assassination as misinformation",
+        "sourceAuthor": "DiligentDenizen",
         "platform": "twitter",
-        "engagement": 120700,
-        "postExcerpt": "they are using ai to assess the posts for what they call 'misinformation' or more likely people disagreeing with them."
+        "engagement": 114889,
+        "postExcerpt": ".@grok has been restricted from being used to investigate the charlie kirk assassination outside of the \"official\" narrative...  eyes  to present the spread of what it calls \"misinformation\" what happened to maximum truth-seeking, @elonmusk?  thinking_face  we should all be very concerned."
+      },
+      {
+        "id": "misinformation-c48",
+        "claimText": "The situation spreading right now is misinformation rather than bulldozers destroying the Aravallis",
+        "sourceAuthor": "HemanNamo",
+        "platform": "twitter",
+        "engagement": 112374,
+        "postExcerpt": "keycap:_1  fact check for @republic & #arnabgoswami \"aravallis are being destroyed\" is a false narrative. what's spreading right now is misinformation, not bulldozers. let's go by court orders & data.  thread  backhand_index_pointing_down  #savearavallis #factcheck"
+      },
+      {
+        "id": "misinformation-c49",
+        "claimText": "Pedro Sánchez said it is very important to stop misinformation and hate speech",
+        "sourceAuthor": "DefiantLs",
+        "platform": "twitter",
+        "engagement": 78956,
+        "postExcerpt": "spanish pm pedro sánchez calls for \"an end to anonymity on social media\" says it's very important to stop \"misinformation\" and \"hate speech\" and who decides what's hate speech or misinformation?"
       }
-    ]
-  },
-  {
-    "groupId": "group-3",
-    "groupTitle": "Narrative Control and Misinformation",
-    "groupSummary": "Concerns about the restriction of information and narratives deemed misinformation.",
-    "relevantSectionIds": [
-      "identification",
-      "politics"
     ],
-    "claimCount": 2,
-    "totalEngagement": 114900,
-    "claims": [
+    "sources": [
       {
-        "id": "claim-5",
-        "claimText": "Grok has been restricted from investigating the Charlie Kirk assassination outside of the official narrative.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 114900,
-        "postExcerpt": "has been restricted from being used to investigate the charlie kirk assassination."
+        "title": "U.K. investigation into X over AI deepfakes risks igniting a U.S.-Europe free speech battle",
+        "url": "https://fortune.com/2026/01/12/uk-investigation-x-xai-grok-deepfakes-us-europe-free-speech-battle/",
+        "publisher": "Fortune",
+        "type": "news",
+        "snippet": "Ofcom opened a formal investigation into X over sexualized deepfakes created/shared on X."
       },
       {
-        "id": "claim-6",
-        "claimText": "There is a concerning trend of presenting narratives as misinformation without maximum truth-seeking.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 114900,
-        "postExcerpt": "eyes to present the spread of what it calls 'misinformation'."
+        "title": "UK Speech Regulator Ofcom Lunches Investigation Into Elon Musk's X",
+        "url": "https://www.breitbart.com/politics/2026/01/12/uk-speech-regulator-launches-investigation-into-elon-musks-x/",
+        "publisher": "Breitbart",
+        "type": "news",
+        "snippet": "Ofcom launches formal investigation into Musk’s X over Grok AI deepfakes."
+      },
+      {
+        "title": "UK regulator Ofcom probes X over Grok AI after reports of sexualised and illegal imagery",
+        "url": "https://www.telegraphindia.com/world/uk-regulator-ofcom-probes-x-over-grok-ai-after-reports-of-sexualised-and-illegal-imagery/cid/2142373",
+        "publisher": "telegraphindia.com",
+        "type": "news",
+        "snippet": "Ofcom launched an investigation into X over Grok generating sexualised imagery under Online Safety Act."
+      },
+      {
+        "title": "Musk’s X could be banned in Britain over AI chatbot row",
+        "url": "https://www.telegraph.co.uk/business/2026/01/08/musks-x-could-be-banned-in-britain-over-ai-chatbot-row/",
+        "publisher": "The Telegraph",
+        "type": "news",
+        "snippet": "Starmer asked Ofcom for “all options” after child sexual abuse images were generated via Grok AI."
+      },
+      {
+        "title": "Musk hits out at ‘fascist’ UK as row over X and its Grok AI escalates",
+        "url": "https://www.standard.co.uk/news/tech/elon-musk-ofcom-liz-kendall-government-crime-b1265883.html",
+        "publisher": "Evening Standard",
+        "type": "news",
+        "snippet": "Liz Kendall said she would back Ofcom if it sought to ban X and its AI."
+      },
+      {
+        "title": "X Could Be Banned in the United Kingdom",
+        "url": "https://parade.com/news/social-media-platform-x-twitter-could-be-banned-united-kingdom",
+        "publisher": "parade.com",
+        "type": "news",
+        "snippet": "Starmer asked Ofcom for “all options to be on the table” after Grok generated material."
+      },
+      {
+        "title": "North East libraries at forefront of new project to help those most vulnerable to AI and misinformation",
+        "url": "https://www.chroniclelive.co.uk/news/north-east-news/north-east-libraries-forefront-new-33158580",
+        "publisher": "chroniclelive.co.uk",
+        "type": "news",
+        "snippet": "Libraries involved in a Government-funded scheme to help tackle “AI and misinformation.”"
+      },
+      {
+        "title": "UK could ban Elon Musk's X amid Grok AI abuse probe by government",
+        "url": "https://www.foxnews.com/world/uk-targets-elon-musks-x-fines-possible-ban-over-grok-deepfake-abuse",
+        "publisher": "Fox News",
+        "type": "news",
+        "snippet": "British government intensified crackdown after Ofcom investigation into X under Online Safety Act."
+      },
+      {
+        "title": "Grok spews misinformation about deadly Australia shooting",
+        "url": "https://www.thestar.com.my/tech/tech-news/2025/12/17/grok-spews-misinformation-about-deadly-australia-shooting",
+        "publisher": "The Star (Malaysia)",
+        "type": "news",
+        "snippet": "Grok misidentified people and falsely claimed a victim staged injuries."
+      },
+      {
+        "title": "Grok spews misinformation about deadly Australia shooting",
+        "url": "https://japantoday.com/category/tech/grok-spews-misinformation-about-deadly-australia-shooting",
+        "publisher": "Japan Today",
+        "type": "news",
+        "snippet": "Grok churned out misinformation during Bondi Beach mass shooting."
       }
-    ]
-  },
-  {
-    "groupId": "group-4",
-    "groupTitle": "Environmental Misinformation",
-    "groupSummary": "Claims regarding misinformation about environmental issues.",
-    "relevantSectionIds": [
-      "fact-checking-and-debunking",
-      "countermeasures"
     ],
-    "claimCount": 2,
-    "totalEngagement": 112400,
-    "claims": [
-      {
-        "id": "claim-7",
-        "claimText": "The claim that 'Aravallis are being destroyed' is a false narrative.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 112400,
-        "postExcerpt": "fact check for @republic & #arnabgoswami 'aravallis are being destroyed' is a false narrative."
-      },
-      {
-        "id": "claim-8",
-        "claimText": "What's spreading right now is misinformation, not bulldozers.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 112400,
-        "postExcerpt": "what's spreading right now is misinformation, not bulldozers."
-      }
-    ]
+    "factChecks": []
   },
   {
-    "groupId": "group-5",
-    "groupTitle": "EU Misinformation Claims",
-    "groupSummary": "Claims about misinformation related to EU policies.",
+    "groupId": "misinformation-g6",
+    "groupTitle": "Trust of other information",
+    "groupSummary": "Claims from social media discourse related to \"Trust of other information\"",
     "relevantSectionIds": [
-      "online-misinformationanchorsocialmediaandmisinformation",
-      "lack-of-peer-review"
-    ],
-    "claimCount": 8,
-    "totalEngagement": 83900,
-    "claims": [
-      {
-        "id": "claim-9",
-        "claimText": "The EU Commission is spreading misinformation about the chat control proposal.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 83900,
-        "postExcerpt": "the eu commission continues to spread misinformation about the chat control proposal."
-      },
-      {
-        "id": "claim-10",
-        "claimText": "Trilogue negotiations on chat control will begin on 9 December.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 83900,
-        "postExcerpt": "trilogue negotiations to start 9 December."
-      },
-      {
-        "id": "claim-11",
-        "claimText": "The ambition is to complete the trilogue negotiations before April 2026.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 83900,
-        "postExcerpt": "with the ambition of being completed before april 2026."
-      },
-      {
-        "id": "claim-12",
-        "claimText": "The EU Commissioner announced the start of negotiations during a visit to the European Parliament.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 83900,
-        "postExcerpt": "today, eu commissioner magnus brunner visited the european parliament."
-      },
-      {
-        "id": "claim-13",
-        "claimText": "The EU's chat control proposal is controversial and has sparked misinformation.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 83900,
-        "postExcerpt": "the eu's chat control proposal is controversial."
-      },
-      {
-        "id": "claim-14",
-        "claimText": "The misinformation surrounding the chat control proposal is causing public concern.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 83900,
-        "postExcerpt": "the misinformation surrounding the chat control proposal is causing public concern."
-      },
-      {
-        "id": "claim-15",
-        "claimText": "The chat control proposal has been met with skepticism from various stakeholders.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 83900,
-        "postExcerpt": "the chat control proposal has been met with skepticism."
-      },
-      {
-        "id": "claim-16",
-        "claimText": "Public discussions about the chat control proposal are often filled with misinformation.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 83900,
-        "postExcerpt": "public discussions about the chat control proposal are often filled with misinformation."
-      }
-    ]
-  },
-  {
-    "groupId": "group-6",
-    "groupTitle": "Disinformation and Its Creators",
-    "groupSummary": "Claims about the intentional creation and amplification of disinformation.",
-    "relevantSectionIds": [
-      "causes",
-      "identification"
-    ],
-    "claimCount": 2,
-    "totalEngagement": 83500,
-    "claims": [
-      {
-        "id": "claim-17",
-        "claimText": "Disinformation doesn't happen in a vacuum and is not a product of happenstance.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 83500,
-        "postExcerpt": "disinformation doesn't happen in a vacuum, nor is it the product of happenstance."
-      },
-      {
-        "id": "claim-18",
-        "claimText": "Kallie Kriel and Afriforum are past masters at creating and amplifying disinformation.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 83500,
-        "postExcerpt": "kallie kriel and afriforum are past masters at creating and amplifying it."
-      }
-    ]
-  },
-  {
-    "groupId": "group-7",
-    "groupTitle": "Anonymity and Misinformation",
-    "groupSummary": "Discussions on the role of anonymity in the spread of misinformation.",
-    "relevantSectionIds": [
-      "age",
-      "political-ideology-and-confirmation-bias"
-    ],
-    "claimCount": 2,
-    "totalEngagement": 79000,
-    "claims": [
-      {
-        "id": "claim-19",
-        "claimText": "The Spanish PM calls for an end to anonymity on social media to stop misinformation.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 79000,
-        "postExcerpt": "spanish pm pedro sánchez calls for 'an end to anonymity on social media'."
-      },
-      {
-        "id": "claim-20",
-        "claimText": "It's important to stop misinformation and hate speech, but who decides what's hate speech or misinformation?",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 79000,
-        "postExcerpt": "says it's very important to stop 'misinformation' and 'hate speech'."
-      }
-    ]
-  },
-  {
-    "groupId": "group-8",
-    "groupTitle": "Misinformation in Media",
-    "groupSummary": "Claims regarding misinformation spread through social media and its impact.",
-    "relevantSectionIds": [
-      "online-misinformationanchorsocialmediaandmisinformation",
       "trust-of-other-information"
     ],
     "claimCount": 3,
-    "totalEngagement": 40300,
+    "totalEngagement": 207230,
     "claims": [
       {
-        "id": "claim-21",
-        "claimText": "Misinformation cannot substitute for evidence.",
-        "sourceAuthor": "@username",
+        "id": "misinformation-c76",
+        "claimText": "Pieter du Toit wrote that disinformation does not happen in a vacuum or by happenstance",
+        "sourceAuthor": "News24",
         "platform": "twitter",
-        "engagement": 40300,
-        "postExcerpt": "misinformation cannot substitute for evidence."
+        "engagement": 83483,
+        "postExcerpt": "opinion | disinformation doesn't happen in a vacuum, nor is it the product of happenstance. kallie kriel and afriforum are past masters at creating and amplifying it, writes @pieterdutoit."
       },
       {
-        "id": "claim-22",
-        "claimText": "The rush to blame Pakistan for the Sydney tragedy was an organized campaign of lies by India.",
-        "sourceAuthor": "@username",
+        "id": "misinformation-c77",
+        "claimText": "Pieter du Toit wrote that Kallie Kriel and AfriForum are past masters at creating and amplifying disinformation",
+        "sourceAuthor": "News24",
         "platform": "twitter",
-        "engagement": 40300,
-        "postExcerpt": "the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies."
+        "engagement": 83483,
+        "postExcerpt": "opinion | disinformation doesn't happen in a vacuum, nor is it the product of happenstance. kallie kriel and afriforum are past masters at creating and amplifying it, writes @pieterdutoit."
       },
       {
-        "id": "claim-23",
-        "claimText": "Attaullah Tarar exposed Indian propaganda targeting Pakistan over the Bondi Beach incident.",
-        "sourceAuthor": "@username",
+        "id": "misinformation-c78",
+        "claimText": "Attaullah Tarar is the Minister of Information and Broadcasting of Pakistan",
+        "sourceAuthor": "ZardanSi",
         "platform": "twitter",
-        "engagement": 40300,
-        "postExcerpt": "- attaullah tarar (moib pakistan) exposed indian propaganda."
+        "engagement": 40264,
+        "postExcerpt": "\"misinformation cannot substitute for evidence. the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.\" - attaullah tarar (moib pakistan) exposed indian propaganda targeting pakistan over the bondi beach incident."
       }
-    ]
+    ],
+    "sources": [
+      {
+        "title": "WEAPONS OF MASS DISTRACTION: How Cognitive and Influence Warfare Is Being Waged Against You",
+        "url": "https://www.activistpost.com/weapons-of-mass-distraction-how-cognitive-and-influence-warfare-is-being-waged-against-you/",
+        "publisher": "activistpost.com",
+        "type": "news",
+        "snippet": "Reaction to social posts may be “engineered,” not happenstance."
+      },
+      {
+        "title": "Southport Riot: Inside the UK’s Anti-Immigrant Disinformation Ecosystem",
+        "url": "https://www.rappler.com/technology/nerve-study-southport-riot-anti-immigrant-disinformation-ecosystem/",
+        "publisher": "rappler.com",
+        "type": "news",
+        "snippet": "Nerve report describes a structured lifecycle: seeded, reinforced, amplified."
+      },
+      {
+        "title": "The rise of the Emirati dis-influencers and why we all should be worried",
+        "url": "https://www.middleeasteye.net/opinion/rise-of-Emirati-dis-influencers-exposing-uae-mini-propaganda-media-ecosystem",
+        "publisher": "middleeasteye.net",
+        "type": "news",
+        "snippet": "Investigates online influence networks aligned with UAE/Israel/far-right positions."
+      },
+      {
+        "title": "Truth crisis in AI era is human, not technological",
+        "url": "https://www.devdiscourse.com/article/technology/3731586-truth-crisis-in-ai-era-is-human-not-technological",
+        "publisher": "devdiscourse.com",
+        "type": "news",
+        "snippet": "Argues disinformation crisis is rooted in epistemology and human processing."
+      },
+      {
+        "title": "Engineered lies: How 2025’s disinformation machinery hijacks our collective reality",
+        "url": "https://www.rappler.com/newsbreak/fact-check/engineered-lies-how-disinformation-machinery-hijacks-collective-reality/",
+        "publisher": "rappler.com",
+        "type": "news",
+        "snippet": "Describes evolved disinformation as “tech-driven warfare” rather than random claims."
+      },
+      {
+        "title": "Patterns of misinformation swirl around Bondi massacre",
+        "url": "https://www.perthnow.com.au/news/politics/patterns-of-misinformation-swirl-around-bondi-massacre-c-21129163",
+        "publisher": "perthnow.com.au",
+        "type": "news",
+        "snippet": "Misinformation after Bondi attack; suggests patterns beyond “online players fabricating just for clicks.”"
+      },
+      {
+        "title": "Patterns of misinformation swirl around Bondi massacre",
+        "url": "https://www.canberratimes.com.au/story/9142125/patterns-of-misinformation-swirl-around-bondi-massacre/",
+        "publisher": "canberratimes.com.au",
+        "type": "news",
+        "snippet": "Notes false narratives (incl. false-flag assertions) continuing after Bondi shootings."
+      },
+      {
+        "title": "Sudan’s war of information",
+        "url": "https://www.forbes.com/sites/christinero/2026/01/29/sudans-war-of-information/",
+        "publisher": "forbes.com",
+        "type": "news",
+        "snippet": "Describes online disinformation as a “battlefield” linked to the war’s information ecosystem."
+      },
+      {
+        "title": "Misinformation during Brown investigation disrupted law enforcement’s work",
+        "url": "https://www.bostonglobe.com/2026/01/01/metro/commentary-ri-misinformation-brown-university-shooting/",
+        "publisher": "bostonglobe.com",
+        "type": "news",
+        "snippet": "Says rumors/fabricated images spread like wildfire and fuel the misinformation crisis."
+      },
+      {
+        "title": "Pakistan targets Taliban installations, terrorist hideouts in Kandahar",
+        "url": "https://www.nation.com.pk/16-Mar-2026/pakistan-targets-taliban-installations-terrorist-hideouts-kandahar",
+        "publisher": "The Nation",
+        "type": "news",
+        "snippet": "Information Minister Ataullah Tarar said… Operation Ghazab-Lil-Haq…"
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "misinformation-g1",
+    "groupTitle": "Spread",
+    "groupSummary": "Claims from social media discourse related to \"Spread\"",
+    "relevantSectionIds": [
+      "spread"
+    ],
+    "claimCount": 1,
+    "totalEngagement": 201120,
+    "claims": [
+      {
+        "id": "misinformation-c1",
+        "claimText": "WhatsApp groups are spreading a narrative that going to fight in Russia will earn young people instant citizenship and big money after the war",
+        "sourceAuthor": "zenzele",
+        "platform": "twitter",
+        "engagement": 201120,
+        "postExcerpt": "if we don't pay attention, we're going to lose many young people especially in matabeleland. there's a dangerous narrative spreading in whatsapp groups, convincing youths that going to fight in russia will earn them instant citizenship and big money after the war. for some, the historic ties between"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Meta says Russia tried to 'fully block' WhatsApp to promote state app",
+        "url": "https://www.firstpost.com/tech/meta-says-russia-tried-to-fully-block-whatsapp-to-promote-state-app-13978810.html",
+        "publisher": "firstpost.com",
+        "type": "news",
+        "snippet": "WhatsApp said Russia tried to “fully block” the app to push home-grown/state app control."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "misinformation-g3",
+    "groupTitle": "Social correction",
+    "groupSummary": "Claims from social media discourse related to \"Social correction\"",
+    "relevantSectionIds": [
+      "social-correction"
+    ],
+    "claimCount": 2,
+    "totalEngagement": 199632,
+    "claims": [
+      {
+        "id": "misinformation-c31",
+        "claimText": "The British government has admitted that it collects people's social media posts",
+        "sourceAuthor": "BasilTheGreat",
+        "platform": "twitter",
+        "engagement": 120676,
+        "postExcerpt": "police_car_light holy sh*t. the british government has admitted it collects our social media posts they are using ai to assess the posts for what they call 'misinformation' or more likely people disagreeing with them this is crazy. it's 1984. the uk is not a free country"
+      },
+      {
+        "id": "misinformation-c32",
+        "claimText": "Spanish Prime Minister Pedro Sánchez called for an end to anonymity on social media",
+        "sourceAuthor": "DefiantLs",
+        "platform": "twitter",
+        "engagement": 78956,
+        "postExcerpt": "spanish pm pedro sánchez calls for \"an end to anonymity on social media\" says it's very important to stop \"misinformation\" and \"hate speech\" and who decides what's hate speech or misinformation?"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fox News issues urgent alert - and it’s humiliating news for Keir Starmer",
+        "url": "https://www.express.co.uk/showbiz/tv-radio/2090646/fox-news-keir-starmer-breaking-alert",
+        "publisher": "Express.co.uk",
+        "type": "news",
+        "snippet": "Claims UK created a unit to monitor anti-migrant social media posts; ties to “1984”/information control."
+      },
+      {
+        "title": "Jim Jordan's 'Censorship Files:' UK Government Tried to Censor Criticism of Mass Migration, 'Two-Tier' Policing",
+        "url": "https://www.breitbart.com/tech/2025/07/31/jim-jordan-uk-government-tried-to-censor-criticism-of-mass-migration-asylum-refugees/",
+        "publisher": "Breitbart",
+        "type": "news",
+        "snippet": "Claims UK authorities tried to censor discussions about immigration and narratives about police/two-tier justice."
+      },
+      {
+        "title": "Keir Starmer expresses regret over social post on Egyptian activist",
+        "url": "https://www.independent.co.uk/tv/news/keir-starmer-regret-egyptian-activist-comments-b2894187.html",
+        "publisher": "The Independent",
+        "type": "news",
+        "snippet": "Starmer says government failed to vet an activist’s social media posts and expresses regret."
+      },
+      {
+        "title": "If Britain Bans X, How Far Will It Go To Block Free Speech?",
+        "url": "https://www.zerohedge.com/markets/if-britain-bans-x-how-far-will-it-go-block-free-speech",
+        "publisher": "Zerohedge",
+        "type": "news",
+        "snippet": "Discusses Britain fast-tracking a law to ban certain deepfakes; frames as information control over dissent."
+      },
+      {
+        "title": "Brendan O’Neill makes worrying free speech prediction as Britain ‘sleepwalks into Orwellian nightmare’",
+        "url": "https://www.gbnews.com/politics/brendan-o-neill-free-speech-warning-orwell",
+        "publisher": "GB News",
+        "type": "news",
+        "snippet": "Reports a free-speech warning about Orwellian overreach and police action tied to speech/comments."
+      },
+      {
+        "title": "The UK’s Online Safety Act Will Export British Tyranny",
+        "url": "https://www.theamericanconservative.com/the-uks-online-safety-act-will-export-british-tyranny/",
+        "publisher": "The American Conservative",
+        "type": "news",
+        "snippet": "Argues concerns that the UK’s Online Safety Act could be used to censor speech extraterritorially."
+      },
+      {
+        "title": "UK Threatens to Ban Elon Musk's X for Grok AI's Lewd Posts",
+        "url": "https://www.breitbart.com/europe/2026/01/09/uk-threatens-to-ban-elon-musks-x-for-grok-ais-creepy-lewd-posts/",
+        "publisher": "Breitbart",
+        "type": "news",
+        "snippet": "Says Starmer threatened to ban X over AI-generated sexualized images; discusses government anger over content."
+      },
+      {
+        "title": "UK Online Safety Act Undermines Free Speech",
+        "url": "https://www.breitbart.com/politics/2025/08/04/trump-state-department-uk-online-safety-act-undermines-free-speech-suppression-of-criticism-of-mass-migration-unacceptable/",
+        "publisher": "Breitbart",
+        "type": "news",
+        "snippet": "Says US State Department views UK Online Safety Act as suppressing free expression."
+      },
+      {
+        "title": "Elon Musk responds after Spanish PM announces sweeping social media crackdown",
+        "url": "https://www.foxnews.com/world/musk-calls-spanish-pm-tyrant-after-spain-announces-sweeping-social-media-crackdown",
+        "publisher": "Fox News",
+        "type": "news",
+        "snippet": "Spanish PM Pedro Sánchez plans to hold social media executives criminally liable; curb algorithms; disinformation and hate speech."
+      },
+      {
+        "title": "Spanish feminist targeted by AI fakes wants stricter online regulations",
+        "url": "https://www.reuters.com/sustainability/society-equity/spanish-feminist-targeted-by-ai-fakes-wants-stricter-online-regulations-2026-02-27/",
+        "publisher": "Reuters",
+        "type": "news",
+        "snippet": "Spanish activist calls for anonymous accounts to be made traceable to end impunity for digital violence."
+      }
+    ],
+    "factChecks": []
+  },
+  {
+    "groupId": "misinformation-g5",
+    "groupTitle": "Political ideology and confirmation bias",
+    "groupSummary": "Claims from social media discourse related to \"Political ideology and confirmation bias\"",
+    "relevantSectionIds": [
+      "political-ideology-and-confirmation-bias"
+    ],
+    "claimCount": 1,
+    "totalEngagement": 83926,
+    "claims": [
+      {
+        "id": "misinformation-c61",
+        "claimText": "Javier Zarzalejos said all political groups supported the European Parliament report and that the Parliament would go to trilogues with a strong mandate",
+        "sourceAuthor": "mullvadnet",
+        "platform": "twitter",
+        "engagement": 83926,
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+      }
+    ],
+    "sources": [],
+    "factChecks": []
   }
 ]
