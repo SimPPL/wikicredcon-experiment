@@ -364,6 +364,12 @@ export default function AnalysisPanel({ participants }: AnalysisPanelProps) {
         Paired participants: {pairedCount}
       </div>
 
+      {/* Visual Comparison Charts */}
+      <VisualComparison
+        metricData={metricData}
+        groupFilter={groupFilter}
+      />
+
       {/* Comparison view */}
       {groupFilter === 'both' && (
         <ComparisonTable
@@ -394,6 +400,247 @@ export default function AnalysisPanel({ participants }: AnalysisPanelProps) {
         Paired t-test used for within-subjects comparison. Cohen&apos;s d computed as mean
         difference / SD of differences. 95% CI computed using t-distribution approximation.
       </p>
+    </div>
+  );
+}
+
+// ============================================================
+// Visual Comparison Charts (CSS-only bar charts)
+// ============================================================
+
+interface ChartGroup {
+  title: string;
+  metrics: { key: string; label: string }[];
+}
+
+const CHART_GROUPS: ChartGroup[] = [
+  {
+    title: 'Editing Output',
+    metrics: [
+      { key: 'wordsAdded', label: 'Words Added' },
+      { key: 'citationsAdded', label: 'Citations Added' },
+      { key: 'sectionsEdited', label: 'Sections Edited' },
+    ],
+  },
+  {
+    title: 'Ground Truth Alignment',
+    metrics: [
+      { key: 'groundTruthSimilarity', label: 'Similarity to Ground Truth' },
+      { key: 'improvementOverBaseline', label: 'Improvement Over Baseline' },
+    ],
+  },
+  {
+    title: 'Editing Behavior',
+    metrics: [
+      { key: 'deliberationTime', label: 'Deliberation Time' },
+      { key: 'tabSwitches', label: 'Tab Switches' },
+      { key: 'editBurstCount', label: 'Edit Burst Count' },
+    ],
+  },
+];
+
+function VisualComparison({
+  metricData,
+  groupFilter,
+}: {
+  metricData: Record<string, { treatment: number[]; control: number[] }>;
+  groupFilter: GroupFilter;
+}) {
+  const hasData = Object.values(metricData).some(
+    d => d.treatment.length > 0 || d.control.length > 0,
+  );
+  if (!hasData) return null;
+
+  return (
+    <div style={{ marginBottom: 32 }}>
+      <h3 style={{
+        fontFamily: "Georgia, 'Times New Roman', serif",
+        fontSize: 16,
+        fontWeight: 600,
+        color: '#202122',
+        marginBottom: 16,
+      }}>
+        Visual Comparison
+      </h3>
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: 20 }}>
+        {CHART_GROUPS.map(group => (
+          <BarChartCard
+            key={group.title}
+            group={group}
+            metricData={metricData}
+            groupFilter={groupFilter}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function BarChartCard({
+  group,
+  metricData,
+  groupFilter,
+}: {
+  group: ChartGroup;
+  metricData: Record<string, { treatment: number[]; control: number[] }>;
+  groupFilter: GroupFilter;
+}) {
+  // Compute stats for each metric in this group
+  const rows = group.metrics.map(m => {
+    const d = metricData[m.key] || { treatment: [], control: [] };
+    return {
+      label: m.label,
+      tMean: mean(d.treatment),
+      tSd: sd(d.treatment),
+      cMean: mean(d.control),
+      cSd: sd(d.control),
+      hasTreatment: d.treatment.length > 0,
+      hasControl: d.control.length > 0,
+    };
+  });
+
+  // Find the max extent (mean + sd) across all rows for consistent scaling
+  const maxExtent = rows.reduce((mx, r) => {
+    const tExt = r.hasTreatment ? r.tMean + r.tSd : 0;
+    const cExt = r.hasControl ? r.cMean + r.cSd : 0;
+    return Math.max(mx, tExt, cExt);
+  }, 0.001);
+
+  const showTreatment = groupFilter === 'treatment' || groupFilter === 'both';
+  const showControl = groupFilter === 'control' || groupFilter === 'both';
+
+  return (
+    <div style={{
+      background: '#ffffff',
+      border: '1px solid #c8ccd1',
+      borderRadius: 4,
+      padding: 16,
+    }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 14 }}>
+        <h4 style={{
+          fontFamily: "Georgia, 'Times New Roman', serif",
+          fontSize: 14,
+          fontWeight: 600,
+          color: '#202122',
+          margin: 0,
+        }}>
+          {group.title}
+        </h4>
+        <div style={{ display: 'flex', gap: 12, fontSize: 12 }}>
+          {showTreatment && (
+            <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+              <span style={{ display: 'inline-block', width: 12, height: 12, borderRadius: 2, background: '#3366cc' }} />
+              Treatment
+            </span>
+          )}
+          {showControl && (
+            <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+              <span style={{ display: 'inline-block', width: 12, height: 12, borderRadius: 2, background: '#a2a9b1' }} />
+              Control
+            </span>
+          )}
+        </div>
+      </div>
+
+      {rows.map(row => (
+        <div key={row.label} style={{ marginBottom: 12 }}>
+          <div style={{ fontSize: 12, color: '#54595d', marginBottom: 4 }}>{row.label}</div>
+
+          {showTreatment && row.hasTreatment && (
+            <GroupedBar
+              meanVal={row.tMean}
+              sdVal={row.tSd}
+              maxExtent={maxExtent}
+              color="#3366cc"
+            />
+          )}
+
+          {showControl && row.hasControl && (
+            <GroupedBar
+              meanVal={row.cMean}
+              sdVal={row.cSd}
+              maxExtent={maxExtent}
+              color="#a2a9b1"
+            />
+          )}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function GroupedBar({
+  meanVal,
+  sdVal,
+  maxExtent,
+  color,
+}: {
+  meanVal: number;
+  sdVal: number;
+  maxExtent: number;
+  color: string;
+}) {
+  const barPct = Math.max(0, (Math.abs(meanVal) / maxExtent) * 100);
+  const errLeftPct = Math.max(0, ((Math.abs(meanVal) - sdVal) / maxExtent) * 100);
+  const errRightPct = Math.min(100, ((Math.abs(meanVal) + sdVal) / maxExtent) * 100);
+
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 3 }}>
+      <div style={{ position: 'relative', flex: 1, height: 18 }}>
+        {/* Bar fill */}
+        <div style={{
+          position: 'absolute',
+          top: 3,
+          left: 0,
+          height: 12,
+          width: `${barPct}%`,
+          backgroundColor: color,
+          borderRadius: 2,
+          opacity: 0.75,
+        }} />
+        {/* Error bar: horizontal line spanning +/- 1 SD */}
+        {sdVal > 0 && (
+          <>
+            <div style={{
+              position: 'absolute',
+              top: 8,
+              left: `${errLeftPct}%`,
+              width: `${Math.max(0, errRightPct - errLeftPct)}%`,
+              height: 2,
+              backgroundColor: color,
+              opacity: 0.95,
+            }} />
+            {/* Left cap */}
+            <div style={{
+              position: 'absolute',
+              top: 3,
+              left: `${errLeftPct}%`,
+              width: 1,
+              height: 12,
+              backgroundColor: color,
+            }} />
+            {/* Right cap */}
+            <div style={{
+              position: 'absolute',
+              top: 3,
+              left: `${errRightPct}%`,
+              width: 1,
+              height: 12,
+              backgroundColor: color,
+            }} />
+          </>
+        )}
+      </div>
+      <span style={{
+        fontSize: 11,
+        color: '#202122',
+        fontVariantNumeric: 'tabular-nums',
+        minWidth: 40,
+        textAlign: 'right',
+      }}>
+        {fmt(meanVal)}
+      </span>
     </div>
   );
 }

@@ -606,6 +606,34 @@ export default function AdminPage() {
           >
             Refresh
           </button>
+          <button
+            onClick={async () => {
+              try {
+                const res = await fetch('/data/dummy-experiment/dummy-localstorage.json');
+                if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
+                const data: Record<string, unknown> = await res.json();
+                for (const [key, value] of Object.entries(data)) {
+                  localStorage.setItem(key, typeof value === 'string' ? value : JSON.stringify(value));
+                }
+                window.location.reload();
+              } catch (err) {
+                console.error('Failed to load dummy data:', err);
+                alert('Failed to load dummy data. Check the console for details.');
+              }
+            }}
+            style={{
+              padding: '0.45rem 1rem',
+              backgroundColor: '#7c3aed',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '2px',
+              cursor: 'pointer',
+              fontSize: '0.85rem',
+              fontWeight: 500,
+            }}
+          >
+            Generate Dummy Data
+          </button>
         </div>
 
         {/* ── Overview cards ─────────────────────────────── */}
