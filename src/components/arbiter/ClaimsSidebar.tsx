@@ -182,8 +182,8 @@ export default function ClaimsSidebar({
         >
           {([
             { id: 'claims' as TabId, label: 'Claims', count: selectedGroup.claims.length },
-            { id: 'sources' as TabId, label: 'Sources', count: sources.length },
-            { id: 'fact-checks' as TabId, label: 'Fact-checks', count: factChecks.length },
+            { id: 'sources' as TabId, label: 'All Sources', count: sources.length },
+            { id: 'fact-checks' as TabId, label: 'Related News', count: factChecks.length },
             { id: 'wikipedia' as TabId, label: 'Wikipedia', count: wikiRefs.length },
           ]).map((tab) => (
             <button
@@ -283,7 +283,7 @@ export default function ClaimsSidebar({
                   className="text-xs py-4 text-center"
                   style={{ color: 'var(--wiki-text-disabled)' }}
                 >
-                  No fact-checks available for this group.
+                  No related news articles available for this group.
                 </p>
               )}
             </div>
