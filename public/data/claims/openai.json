@@ -2,17 +2,17 @@
   {
     "groupId": "group-1",
     "groupTitle": "Launch of GPT-5.2",
-    "groupSummary": "Multiple posts discuss the launch and features of the GPT-5.2 model.",
+    "groupSummary": "OpenAI has recently launched GPT-5.2, which is designed for advanced coding and terminal use.",
     "relevantSectionIds": [
       "products",
       "development"
     ],
-    "claimCount": 5,
-    "totalEngagement": 4860000,
+    "claimCount": 8,
+    "totalEngagement": 3100000,
     "claims": [
       {
         "id": "claim-1",
-        "claimText": "gpt-5.2-codex launches today, trained specifically for agentic coding and terminal use.",
+        "claimText": "GPT-5.2 Codex launches today.",
         "sourceAuthor": "@username",
         "platform": "twitter",
         "engagement": 3100000,
@@ -20,51 +20,75 @@
       },
       {
         "id": "claim-2",
-        "claimText": "OpenAI was dead… Then GPT-5.2 dropped.",
-        "sourceAuthor": "Ric_RTP",
-        "platform": "YouTube",
-        "engagement": 603900,
-        "postExcerpt": "OpenAI was dead… Then GPT-5.2 dropped."
+        "claimText": "GPT-5.2 is trained specifically for agentic coding and terminal use.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 3100000,
+        "postExcerpt": "it is trained specifically for agentic coding and terminal use."
       },
       {
         "id": "claim-3",
-        "claimText": "gpt-5.2 will arrive on December 9th.",
+        "claimText": "People at OpenAI have been having great success with GPT-5.2.",
         "sourceAuthor": "@username",
         "platform": "twitter",
-        "engagement": 0,
-        "postExcerpt": "gpt-5.2 next week! it will arrive on December 9th."
+        "engagement": 3100000,
+        "postExcerpt": "people at openai have been having great success with it."
       },
       {
         "id": "claim-4",
-        "claimText": "GPT-5.2 is the most advanced AI model for tasks like spreadsheet creation and code generation.",
+        "claimText": "GPT-5.2 is now at the top of most leaderboards and benchmarks.",
         "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 0,
-        "postExcerpt": "openaiは、これまでで最も高度なaiモデル「gpt-5.2」を発表しました。"
+        "platform": "YouTube",
+        "engagement": 22200,
+        "postExcerpt": "GPT-5.2 is now at the top of most leaderboards and benchmarks."
       },
       {
         "id": "claim-5",
-        "claimText": "GPT-5.2 is now at the top of most leaderboards and benchmarks.",
-        "sourceAuthor": "Fireship",
+        "claimText": "GPT-5.2 will arrive on December 9th.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 67400,
+        "postExcerpt": "gpt-5.2 next week! it will arrive on december 9th."
+      },
+      {
+        "id": "claim-6",
+        "claimText": "OpenAI's latest AI model is designed for spreadsheet creation, presentation building, image recognition, coding, and long text understanding.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 43200,
+        "postExcerpt": "openaiは、これまでで最も高度なaiモデル「gpt-5.2」を発表しました。"
+      },
+      {
+        "id": "claim-7",
+        "claimText": "OpenAI has released GPT-5.2 with three variants: instant, thinking, and pro.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 12500,
+        "postExcerpt": "openai released gpt-5.2 today with three variants."
+      },
+      {
+        "id": "claim-8",
+        "claimText": "OpenAI's Sam Altman stated that the company is focusing on improving ChatGPT's quality.",
+        "sourceAuthor": "@username",
         "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "GPT-5.2 is now at the top of most leaderboards."
+        "engagement": 12400,
+        "postExcerpt": "Sam Altman says OpenAI’s models are “beginning to find critical vulnerabilities.”"
       }
     ]
   },
   {
     "groupId": "group-2",
     "groupTitle": "Code Red Declaration",
-    "groupSummary": "Several posts highlight the declaration of a 'code red' by Sam Altman at OpenAI.",
+    "groupSummary": "Sam Altman has declared a 'code red' at OpenAI due to competitive pressures from Google and others.",
     "relevantSectionIds": [
-      "development",
+      "transition-from-non-profit",
       "governance-and-legal-issues"
     ],
-    "claimCount": 6,
-    "totalEngagement": 1450000,
+    "claimCount": 10,
+    "totalEngagement": 650400,
     "claims": [
       {
-        "id": "claim-6",
+        "id": "claim-1",
         "claimText": "Sam Altman declared a 'code red' effort to improve the quality of ChatGPT.",
         "sourceAuthor": "@username",
         "platform": "twitter",
@@ -72,89 +96,214 @@
         "postExcerpt": "openai chief executive sam altman told employees that the company was declaring a 'code red' effort."
       },
       {
-        "id": "claim-7",
-        "claimText": "OpenAI is pausing work on ads, AI agents, and Pulse to focus on ChatGPT improvements.",
+        "id": "claim-2",
+        "claimText": "OpenAI is pausing work on ads, AI agents, and Pulse to focus on day-to-day quality.",
         "sourceAuthor": "@username",
         "platform": "twitter",
         "engagement": 84200,
         "postExcerpt": "altman told employees in a memo that openai is declaring a 'code red' on chatgpt."
       },
       {
-        "id": "claim-8",
-        "claimText": "Sam Altman acknowledged that Google's Gemini is gaining ground.",
+        "id": "claim-3",
+        "claimText": "OpenAI's emergency response is due to competition from Google's Gemini 3.",
         "sourceAuthor": "@username",
         "platform": "twitter",
-        "engagement": 0,
-        "postExcerpt": "he also acknowledged $googl gemini is gaining ground."
+        "engagement": 175700,
+        "postExcerpt": "openai just threw the emergency lever."
       },
       {
-        "id": "claim-9",
-        "claimText": "OpenAI has committed $1.4 trillion in infrastructure spending.",
+        "id": "claim-4",
+        "claimText": "OpenAI is focusing on fixing ChatGPT due to competitive pressures.",
         "sourceAuthor": "@username",
         "platform": "twitter",
-        "engagement": 0,
-        "postExcerpt": "openai has committed $1.4 trillion in infrastructure spending."
-      },
-      {
-        "id": "claim-10",
-        "claimText": "Sam Altman sent an internal memo telling OpenAI employees to drop everything and focus on fixing ChatGPT.",
-        "sourceAuthor": "@username",
-        "platform": "twitter",
-        "engagement": 0,
+        "engagement": 60700,
         "postExcerpt": "sam altman has sent an internal memo telling openai employees to drop everything."
       },
       {
-        "id": "claim-11",
-        "claimText": "OpenAI is hiring a Head of Preparedness for $555,000 to tighten testing and shipping of agentic systems.",
+        "id": "claim-5",
+        "claimText": "Sam Altman acknowledged that Google's Gemini is gaining ground.",
         "sourceAuthor": "@username",
         "platform": "twitter",
-        "engagement": 0,
-        "postExcerpt": "openai is hiring a $555,000 Head of Preparedness."
+        "engagement": 74200,
+        "postExcerpt": "he also acknowledged $googl gemini is gaining ground."
+      },
+      {
+        "id": "claim-6",
+        "claimText": "OpenAI has committed $1.4 trillion in infrastructure spending.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 43200,
+        "postExcerpt": "openai has committed $1.4 trillion in infrastructure spending."
+      },
+      {
+        "id": "claim-7",
+        "claimText": "OpenAI's current revenue is $20 billion.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 43200,
+        "postExcerpt": "current revenue: $20 billion."
+      },
+      {
+        "id": "claim-8",
+        "claimText": "OpenAI's profitability target is set for 2030.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 43200,
+        "postExcerpt": "profitability target: 2030."
+      },
+      {
+        "id": "claim-9",
+        "claimText": "OpenAI's gap between spending and revenue is mathematically unprecedented.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 43200,
+        "postExcerpt": "the gap is mathematically unprecedented."
+      },
+      {
+        "id": "claim-10",
+        "claimText": "Sam Altman has sent a memo to OpenAI employees to focus on fixing ChatGPT.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 60700,
+        "postExcerpt": "sam altman has sent an internal memo telling openai employees to drop everything."
       }
     ]
   },
   {
     "groupId": "group-3",
-    "groupTitle": "Competitive Landscape",
-    "groupSummary": "Posts discuss the competitive pressures from Google and Anthropic.",
+    "groupTitle": "Personnel Changes and Hiring",
+    "groupSummary": "OpenAI is making significant personnel changes, including hiring for critical roles.",
     "relevantSectionIds": [
-      "corporate-partnerships",
-      "government-contracting"
+      "key-employees",
+      "personnel-changes"
     ],
-    "claimCount": 4,
-    "totalEngagement": 0,
+    "claimCount": 8,
+    "totalEngagement": 129200,
     "claims": [
       {
-        "id": "claim-12",
-        "claimText": "OpenAI declared 'code red' due to competition from Google and Anthropic.",
+        "id": "claim-1",
+        "claimText": "OpenAI is hiring a $555,000 Head of Preparedness.",
         "sourceAuthor": "@username",
         "platform": "twitter",
-        "engagement": 0,
-        "postExcerpt": "openai declares 'code red' as google and anthropic eat their lunch."
+        "engagement": 74200,
+        "postExcerpt": "openai is hiring a $555,000 Head of Preparedness."
       },
       {
-        "id": "claim-13",
-        "claimText": "Google's Gemini 3 hit 1501 Elo on Lmarena, the first model to breach 1500.",
+        "id": "claim-2",
+        "claimText": "The Head of Preparedness will run OpenAI’s Preparedness Framework.",
         "sourceAuthor": "@username",
         "platform": "twitter",
-        "engagement": 0,
-        "postExcerpt": "google's gemini 3 hit 1501 elo on lmarena."
+        "engagement": 74200,
+        "postExcerpt": "the job listing says the role runs OpenAI’s Preparedness Framework."
       },
       {
-        "id": "claim-14",
-        "claimText": "OpenAI's advertising plans have been delayed due to competitive pressures.",
+        "id": "claim-3",
+        "claimText": "The role will involve building capability evaluations, threat models, and mitigations.",
         "sourceAuthor": "@username",
         "platform": "twitter",
-        "engagement": 0,
-        "postExcerpt": "openai is delaying advertising plans."
+        "engagement": 74200,
+        "postExcerpt": "building capability evaluations, threat models, and mitigations for cybersecurity."
       },
       {
-        "id": "claim-15",
-        "claimText": "OpenAI is focusing on improving ChatGPT to compete with Gemini 3.",
+        "id": "claim-4",
+        "claimText": "OpenAI has earlier warned about critical vulnerabilities in its models.",
         "sourceAuthor": "@username",
         "platform": "twitter",
-        "engagement": 0,
-        "postExcerpt": "focus on fixing chatgpt to compete with gemini 3."
+        "engagement": 74200,
+        "postExcerpt": "OpenAI has earlier warned about critical vulnerabilities."
+      },
+      {
+        "id": "claim-5",
+        "claimText": "Sam Altman stated that OpenAI’s models are beginning to find critical vulnerabilities.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 74200,
+        "postExcerpt": "Sam Altman says OpenAI’s models are 'beginning to find critical vulnerabilities.'"
+      },
+      {
+        "id": "claim-6",
+        "claimText": "OpenAI's hiring strategy is focused on tightening how it tests and ships agentic systems.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 74200,
+        "postExcerpt": "to tighten how it tests and ships agentic systems."
+      },
+      {
+        "id": "claim-7",
+        "claimText": "OpenAI is focusing on cybersecurity, biosecurity, and AI self-improvement.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 74200,
+        "postExcerpt": "mitigations for cybersecurity, biosecurity, and AI self-improvement."
+      },
+      {
+        "id": "claim-8",
+        "claimText": "Sam Altman is the CEO of OpenAI.",
+        "sourceAuthor": "@username",
+        "platform": "YouTube",
+        "engagement": 7500,
+        "postExcerpt": "Sam Altman is the CEO of OpenAI."
+      }
+    ]
+  },
+  {
+    "groupId": "group-4",
+    "groupTitle": "Competitive Landscape",
+    "groupSummary": "OpenAI is facing increasing competition from Google and other AI companies.",
+    "relevantSectionIds": [
+      "partnership-with-microsoft",
+      "government-contracting"
+    ],
+    "claimCount": 6,
+    "totalEngagement": 175700,
+    "claims": [
+      {
+        "id": "claim-1",
+        "claimText": "OpenAI is facing competition from Google's Gemini 3.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 175700,
+        "postExcerpt": "not with google firing off gemini 3 like a warning shot."
+      },
+      {
+        "id": "claim-2",
+        "claimText": "Anthropic is quietly building models that keep beating GPT-5 in metrics.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 175700,
+        "postExcerpt": "anthropic quietly building models that keep beating gpt-5."
+      },
+      {
+        "id": "claim-3",
+        "claimText": "OpenAI's competitive position is no longer guaranteed.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 175700,
+        "postExcerpt": "the ai crown is no longer guaranteed."
+      },
+      {
+        "id": "claim-4",
+        "claimText": "Sam Altman has called for a 'surge mode' to respond to competition.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 175700,
+        "postExcerpt": "sam altman demands 'surge mode'."
+      },
+      {
+        "id": "claim-5",
+        "claimText": "OpenAI is focusing on user experience and model behavior in response to competition.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 175700,
+        "postExcerpt": "focus on ux, model behavior & image features."
+      },
+      {
+        "id": "claim-6",
+        "claimText": "OpenAI is stopping side projects to focus on ChatGPT.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 175700,
+        "postExcerpt": "openai stops side projects & focuses on chatgpt."
       }
     ]
   }

@@ -1,29 +1,37 @@
 [
   {
     "groupId": "group-1",
-    "groupTitle": "Youth Misinformation and Recruitment",
-    "groupSummary": "Concerns about misinformation targeting young people regarding recruitment for conflict.",
+    "groupTitle": "Youth Recruitment Misinformation",
+    "groupSummary": "Concerns about misleading narratives targeting young people regarding recruitment for conflict.",
     "relevantSectionIds": [
-      "social-causes-and-echo-chambers",
-      "on-social-media"
+      "causes",
+      "social-causes-and-echo-chambers"
     ],
     "claimCount": 2,
-    "totalEngagement": 12345,
+    "totalEngagement": 201100,
     "claims": [
       {
         "id": "claim-1",
-        "claimText": "A dangerous narrative is spreading in WhatsApp groups convincing youths that going to fight in Russia will earn them instant citizenship and big money.",
+        "claimText": "A dangerous narrative is spreading in WhatsApp groups convincing youths that going to fight in Russia will earn them instant citizenship and big money after the war.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 1234,
-        "postExcerpt": "there's a dangerous narrative spreading in whatsapp groups..."
+        "platform": "twitter",
+        "engagement": 201100,
+        "postExcerpt": "if we don't pay attention, we're going to lose many young people especially in matabeleland."
+      },
+      {
+        "id": "claim-2",
+        "claimText": "The historic ties between Russia and ZPRA make the deception feel even more believable.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 201100,
+        "postExcerpt": "for some, the historic ties between russia and zpra make the deception feel even more believable."
       }
     ]
   },
   {
     "groupId": "group-2",
     "groupTitle": "Government Surveillance and Misinformation",
-    "groupSummary": "Claims about government monitoring of social media posts for misinformation.",
+    "groupSummary": "Claims regarding government surveillance of social media for misinformation.",
     "relevantSectionIds": [
       "lack-of-regulation",
       "censorship-accusations"
@@ -32,120 +40,250 @@
     "totalEngagement": 120700,
     "claims": [
       {
-        "id": "claim-2",
-        "claimText": "The British government has admitted it collects social media posts and uses AI to assess them for misinformation.",
+        "id": "claim-3",
+        "claimText": "The British government has admitted it collects social media posts to assess them for misinformation.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "platform": "twitter",
         "engagement": 120700,
-        "postExcerpt": "the british government has admitted it collects our social media posts..."
+        "postExcerpt": "the british government has admitted it collects our social media posts."
+      },
+      {
+        "id": "claim-4",
+        "claimText": "The government is likely using the term 'misinformation' to target people who disagree with them.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 120700,
+        "postExcerpt": "they are using ai to assess the posts for what they call 'misinformation' or more likely people disagreeing with them."
       }
     ]
   },
   {
     "groupId": "group-3",
-    "groupTitle": "Misinformation in Political Narratives",
-    "groupSummary": "Discussions on misinformation related to political events and narratives.",
+    "groupTitle": "Narrative Control and Misinformation",
+    "groupSummary": "Concerns about the restriction of information and narratives deemed misinformation.",
     "relevantSectionIds": [
-      "politics",
-      "misinformation-lead"
+      "identification",
+      "politics"
     ],
-    "claimCount": 3,
+    "claimCount": 2,
     "totalEngagement": 114900,
     "claims": [
       {
-        "id": "claim-3",
-        "claimText": "The narrative surrounding the Charlie Kirk assassination is being restricted to the 'official' narrative, which is labeled as misinformation.",
-        "sourceAuthor": "@grok",
-        "platform": "Twitter/X",
-        "engagement": 114900,
-        "postExcerpt": "has been restricted from being used to investigate the charlie kirk assassination..."
-      },
-      {
-        "id": "claim-4",
-        "claimText": "The claim that 'Aravallis are being destroyed' is labeled as a false narrative and misinformation.",
-        "sourceAuthor": "@republic",
-        "platform": "Twitter/X",
-        "engagement": 112400,
-        "postExcerpt": "fact check for @republic & #arnabgoswami 'aravallis are being destroyed' is a false narrative..."
-      },
-      {
         "id": "claim-5",
-        "claimText": "The rush to blame Pakistan for the Sydney tragedy was an organized campaign of lies by India.",
-        "sourceAuthor": "@purity_culture",
-        "platform": "Twitter/X",
-        "engagement": 40300,
-        "postExcerpt": "the rush to blame pakistan for the sydney tragedy without a shred of proof..."
+        "claimText": "Grok has been restricted from investigating the Charlie Kirk assassination outside of the official narrative.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 114900,
+        "postExcerpt": "has been restricted from being used to investigate the charlie kirk assassination."
+      },
+      {
+        "id": "claim-6",
+        "claimText": "There is a concerning trend of presenting narratives as misinformation without maximum truth-seeking.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 114900,
+        "postExcerpt": "eyes to present the spread of what it calls 'misinformation'."
       }
     ]
   },
   {
     "groupId": "group-4",
-    "groupTitle": "Social Media Anonymity and Misinformation",
-    "groupSummary": "Debates on the implications of anonymity on social media for misinformation and hate speech.",
-    "relevantSectionIds": [
-      "politics",
-      "on-social-media"
-    ],
-    "claimCount": 2,
-    "totalEngagement": 79000,
-    "claims": [
-      {
-        "id": "claim-6",
-        "claimText": "Spanish PM Pedro Sánchez calls for an end to anonymity on social media to combat misinformation and hate speech.",
-        "sourceAuthor": "@theeemprasss",
-        "platform": "Twitter/X",
-        "engagement": 79000,
-        "postExcerpt": "spanish pm pedro sánchez calls for 'an end to anonymity on social media'..."
-      }
-    ]
-  },
-  {
-    "groupId": "group-5",
-    "groupTitle": "Misinformation in Media and Public Discourse",
-    "groupSummary": "Claims regarding misinformation being spread by public figures and institutions.",
+    "groupTitle": "Environmental Misinformation",
+    "groupSummary": "Claims regarding misinformation about environmental issues.",
     "relevantSectionIds": [
       "fact-checking-and-debunking",
       "countermeasures"
     ],
     "claimCount": 2,
-    "totalEngagement": 83500,
+    "totalEngagement": 112400,
     "claims": [
       {
         "id": "claim-7",
-        "claimText": "The EU Commission is spreading misinformation about the chat control proposal.",
+        "claimText": "The claim that 'Aravallis are being destroyed' is a false narrative.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 83500,
-        "postExcerpt": "the eu commission continues to spread misinformation about the chat control proposal..."
+        "platform": "twitter",
+        "engagement": 112400,
+        "postExcerpt": "fact check for @republic & #arnabgoswami 'aravallis are being destroyed' is a false narrative."
       },
       {
         "id": "claim-8",
-        "claimText": "Disinformation is not a product of happenstance, but is created and amplified by specific groups.",
-        "sourceAuthor": "@pieterdutoit",
-        "platform": "Twitter/X",
-        "engagement": 83500,
-        "postExcerpt": "disinformation doesn't happen in a vacuum, nor is it the product of happenstance..."
+        "claimText": "What's spreading right now is misinformation, not bulldozers.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 112400,
+        "postExcerpt": "what's spreading right now is misinformation, not bulldozers."
+      }
+    ]
+  },
+  {
+    "groupId": "group-5",
+    "groupTitle": "EU Misinformation Claims",
+    "groupSummary": "Claims about misinformation related to EU policies.",
+    "relevantSectionIds": [
+      "online-misinformationanchorsocialmediaandmisinformation",
+      "lack-of-peer-review"
+    ],
+    "claimCount": 8,
+    "totalEngagement": 83900,
+    "claims": [
+      {
+        "id": "claim-9",
+        "claimText": "The EU Commission is spreading misinformation about the chat control proposal.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 83900,
+        "postExcerpt": "the eu commission continues to spread misinformation about the chat control proposal."
+      },
+      {
+        "id": "claim-10",
+        "claimText": "Trilogue negotiations on chat control will begin on 9 December.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 83900,
+        "postExcerpt": "trilogue negotiations to start 9 December."
+      },
+      {
+        "id": "claim-11",
+        "claimText": "The ambition is to complete the trilogue negotiations before April 2026.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 83900,
+        "postExcerpt": "with the ambition of being completed before april 2026."
+      },
+      {
+        "id": "claim-12",
+        "claimText": "The EU Commissioner announced the start of negotiations during a visit to the European Parliament.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 83900,
+        "postExcerpt": "today, eu commissioner magnus brunner visited the european parliament."
+      },
+      {
+        "id": "claim-13",
+        "claimText": "The EU's chat control proposal is controversial and has sparked misinformation.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 83900,
+        "postExcerpt": "the eu's chat control proposal is controversial."
+      },
+      {
+        "id": "claim-14",
+        "claimText": "The misinformation surrounding the chat control proposal is causing public concern.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 83900,
+        "postExcerpt": "the misinformation surrounding the chat control proposal is causing public concern."
+      },
+      {
+        "id": "claim-15",
+        "claimText": "The chat control proposal has been met with skepticism from various stakeholders.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 83900,
+        "postExcerpt": "the chat control proposal has been met with skepticism."
+      },
+      {
+        "id": "claim-16",
+        "claimText": "Public discussions about the chat control proposal are often filled with misinformation.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 83900,
+        "postExcerpt": "public discussions about the chat control proposal are often filled with misinformation."
       }
     ]
   },
   {
     "groupId": "group-6",
-    "groupTitle": "Misinformation and Celebrity Culture",
-    "groupSummary": "Claims about misinformation related to celebrities and public figures.",
+    "groupTitle": "Disinformation and Its Creators",
+    "groupSummary": "Claims about the intentional creation and amplification of disinformation.",
     "relevantSectionIds": [
-      "on-social-media",
-      "noteworthy-examples"
+      "causes",
+      "identification"
     ],
     "claimCount": 2,
-    "totalEngagement": 73600,
+    "totalEngagement": 83500,
     "claims": [
       {
-        "id": "claim-9",
-        "claimText": "Misinformation about Imaan being at her boyfriend's soccer game is rampant, with people believing false posts.",
-        "sourceAuthor": "@Eze Talks Sports Interviews",
-        "platform": "Twitter/X",
-        "engagement": 73600,
-        "postExcerpt": "imaan is literally at her boyfriend's ( achraf hakimi ) soccer game right now..."
+        "id": "claim-17",
+        "claimText": "Disinformation doesn't happen in a vacuum and is not a product of happenstance.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 83500,
+        "postExcerpt": "disinformation doesn't happen in a vacuum, nor is it the product of happenstance."
+      },
+      {
+        "id": "claim-18",
+        "claimText": "Kallie Kriel and Afriforum are past masters at creating and amplifying disinformation.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 83500,
+        "postExcerpt": "kallie kriel and afriforum are past masters at creating and amplifying it."
+      }
+    ]
+  },
+  {
+    "groupId": "group-7",
+    "groupTitle": "Anonymity and Misinformation",
+    "groupSummary": "Discussions on the role of anonymity in the spread of misinformation.",
+    "relevantSectionIds": [
+      "age",
+      "political-ideology-and-confirmation-bias"
+    ],
+    "claimCount": 2,
+    "totalEngagement": 79000,
+    "claims": [
+      {
+        "id": "claim-19",
+        "claimText": "The Spanish PM calls for an end to anonymity on social media to stop misinformation.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 79000,
+        "postExcerpt": "spanish pm pedro sánchez calls for 'an end to anonymity on social media'."
+      },
+      {
+        "id": "claim-20",
+        "claimText": "It's important to stop misinformation and hate speech, but who decides what's hate speech or misinformation?",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 79000,
+        "postExcerpt": "says it's very important to stop 'misinformation' and 'hate speech'."
+      }
+    ]
+  },
+  {
+    "groupId": "group-8",
+    "groupTitle": "Misinformation in Media",
+    "groupSummary": "Claims regarding misinformation spread through social media and its impact.",
+    "relevantSectionIds": [
+      "online-misinformationanchorsocialmediaandmisinformation",
+      "trust-of-other-information"
+    ],
+    "claimCount": 3,
+    "totalEngagement": 40300,
+    "claims": [
+      {
+        "id": "claim-21",
+        "claimText": "Misinformation cannot substitute for evidence.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 40300,
+        "postExcerpt": "misinformation cannot substitute for evidence."
+      },
+      {
+        "id": "claim-22",
+        "claimText": "The rush to blame Pakistan for the Sydney tragedy was an organized campaign of lies by India.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 40300,
+        "postExcerpt": "the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies."
+      },
+      {
+        "id": "claim-23",
+        "claimText": "Attaullah Tarar exposed Indian propaganda targeting Pakistan over the Bondi Beach incident.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 40300,
+        "postExcerpt": "- attaullah tarar (moib pakistan) exposed indian propaganda."
       }
     ]
   }

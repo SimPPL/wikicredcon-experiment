@@ -1,185 +1,293 @@
 [
   {
     "groupId": "group-1",
-    "groupTitle": "Vaccine and Autism Misinformation",
-    "groupSummary": "Numerous claims highlight the misinformation linking vaccines to autism and the implications of CDC messaging changes.",
+    "groupTitle": "Misinformation about Vaccines and Autism",
+    "groupSummary": "This group focuses on claims regarding the misinformation linking vaccines to autism, particularly in relation to changes in CDC messaging.",
     "relevantSectionIds": [
       "list-of-popular-misinformation",
       "vaccination-causes-idiopathic-conditions"
     ],
-    "claimCount": 7,
-    "totalEngagement": 1248,
+    "claimCount": 10,
+    "totalEngagement": 5304,
     "claims": [
       {
         "id": "claim-1",
+        "claimText": "The CDC has quietly changed its vaccines & autism page, softening decades of scientific clarity.",
+        "sourceAuthor": "@username",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "This is a warning sign for every healthcare system, including the NHS."
+      },
+      {
+        "id": "claim-2",
         "claimText": "A years-long campaign to falsely link vaccines and autism has evolved from online conspiracy to federal guidance.",
-        "sourceAuthor": "@zanyprogressive",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
         "engagement": 30,
         "postExcerpt": "reshaping the CDC, weakening disease surveillance, and endangering public health."
       },
       {
-        "id": "claim-2",
-        "claimText": "Public health experts express concerns about confusion stemming from a new CDC claim suggesting vaccines cannot be ruled out as an autism cause.",
-        "sourceAuthor": "@UniteForKids",
+        "id": "claim-3",
+        "claimText": "Public health experts are expressing significant concerns about widespread confusion stemming from a new CDC claim suggesting that vaccines cannot be definitively ruled out as an autism cause.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
         "engagement": 7,
-        "postExcerpt": "significant concerns about widespread confusion and potential misinformation."
-      },
-      {
-        "id": "claim-3",
-        "claimText": "The CDC's new claim that vaccines cannot be ruled out as a cause of autism will lead to years of confusion and vaccine refusal.",
-        "sourceAuthor": "@ThisDayinCovid",
-        "platform": "Twitter/X",
-        "engagement": 26,
-        "postExcerpt": "public health experts say."
+        "postExcerpt": "significant concerns about widespread confusion."
       },
       {
         "id": "claim-4",
-        "claimText": "Harmful myths suggesting that vaccines cause autism sow fear and distrust in vaccines.",
-        "sourceAuthor": "@baltimoresun",
+        "claimText": "The CDC’s new claim that vaccines cannot be ruled out as a cause of autism will lead to years of confusion and vaccine refusal.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
-        "engagement": 20,
-        "postExcerpt": "ultimately jeopardizing the great progress we’ve made."
+        "engagement": 26,
+        "postExcerpt": "years of confusion and vaccine refusal."
       },
       {
         "id": "claim-5",
-        "claimText": "RFK Jr. claimed there’s no proof that vaccines don’t cause autism, which is a lie.",
-        "sourceAuthor": "@complainthub_in",
+        "claimText": "Harmful myths suggesting that vaccines cause autism sow fear and distrust in vaccines.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
-        "engagement": 22,
-        "postExcerpt": "wants you to know he’s personally responsible for misinformation."
+        "engagement": 20,
+        "postExcerpt": "jeopardizing the great progress we’ve made in preventing serious childhood diseases."
       },
       {
         "id": "claim-6",
-        "claimText": "The CDC has quietly changed its vaccines & autism page, softening decades of scientific clarity.",
-        "sourceAuthor": "@GeorgePharmacist",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "this is a warning sign for every healthcare system."
+        "claimText": "Misinformation about Hepatitis B and the shot has grown rampant in recent years, largely thanks to anti-vaccine activists.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 356,
+        "postExcerpt": "thanks to anti-vaccine activists such as Kennedy."
       },
       {
         "id": "claim-7",
-        "claimText": "Misinformation about Hepatitis B and the shot has grown rampant in recent years, largely thanks to anti-vaccine activists.",
-        "sourceAuthor": "@TheBostonGlobe",
+        "claimText": "Governor Maura Healey warned of misinformation about the childhood vaccine schedule, especially the infant hepatitis B vaccine.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
-        "engagement": 356,
-        "postExcerpt": "the Editorial Board writes."
+        "engagement": 3200,
+        "postExcerpt": "ahead of a pivotal meeting of federal vaccine advisors."
+      },
+      {
+        "id": "claim-8",
+        "claimText": "Public health experts try to ‘prebunk’ misinformation about vaccines ahead of CDC vaccine meeting.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 1400,
+        "postExcerpt": "filled with misinformation and vaccine myths."
+      },
+      {
+        "id": "claim-9",
+        "claimText": "A total farce occurred at the CDC advisory meeting regarding vaccine misinformation.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 542,
+        "postExcerpt": "Lawyer with ties to Kennedy sparks outcry."
+      },
+      {
+        "id": "claim-10",
+        "claimText": "RFK Jr. claims there’s no proof that vaccines don’t cause autism, which is a lie.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 22,
+        "postExcerpt": "he’s personally responsible for misinformation."
       }
     ]
   },
   {
     "groupId": "group-2",
-    "groupTitle": "Impact of Misinformation on Public Trust",
-    "groupSummary": "Claims focus on the decline of public trust in health organizations and the influence of social media on vaccine perceptions.",
+    "groupTitle": "Impact of Vaccine Misinformation",
+    "groupSummary": "This group highlights the consequences of vaccine misinformation on public health and trust in health organizations.",
     "relevantSectionIds": [
       "impact",
-      "communication",
-      "social-media"
+      "communication"
     ],
-    "claimCount": 6,
-    "totalEngagement": 1126,
+    "claimCount": 8,
+    "totalEngagement": 1234,
     "claims": [
       {
-        "id": "claim-1",
-        "claimText": "Americans' confidence in the CDC has plummeted, with many young people getting vaccine advice from social media.",
-        "sourceAuthor": "@capgaznews",
+        "id": "claim-11",
+        "claimText": "Americans' confidence in the CDC has plummeted, according to a 2025 survey.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
         "engagement": 870,
-        "postExcerpt": "according to a 2025 National Foundation for Infectious Diseases survey."
+        "postExcerpt": "many young people are getting their advice on vaccines from social media."
       },
       {
-        "id": "claim-2",
-        "claimText": "Public health experts are trying to ‘prebunk’ misinformation about vaccines ahead of a CDC vaccine meeting.",
-        "sourceAuthor": "@OpenWorld",
+        "id": "claim-12",
+        "claimText": "Health professionals addressed concerns over CDC messaging changes and declining vaccination rates.",
+        "sourceAuthor": "@username",
+        "platform": "YouTube",
+        "engagement": 2,
+        "postExcerpt": "concerns over CDC messaging changes."
+      },
+      {
+        "id": "claim-13",
+        "claimText": "Misinformation about vaccines is jeopardizing public health.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
-        "engagement": 1400,
-        "postExcerpt": "the meeting of the Advisory Committee on Immunization Practices."
+        "engagement": 30,
+        "postExcerpt": "reshaping the CDC, weakening disease surveillance."
       },
       {
-        "id": "claim-3",
-        "claimText": "A chaotic meeting rife with misinformation delayed an expected vote on hepatitis B vaccines.",
-        "sourceAuthor": "@MassLive",
+        "id": "claim-14",
+        "claimText": "The CDC panel is weighing changes that could limit access to the hepatitis B vaccine and fuel misinformation.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 975,
+        "postExcerpt": "fuel misinformation."
+      },
+      {
+        "id": "claim-15",
+        "claimText": "Fact-checked claims about vaccines are necessary to combat misinformation.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 20,
+        "postExcerpt": "demand justice by ensuring accountability."
+      },
+      {
+        "id": "claim-16",
+        "claimText": "The CDC’s vaccine advisory panel delayed an expected vote on hepatitis B vaccines due to misinformation.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
         "engagement": 19,
-        "postExcerpt": "whose members Health Secretary Robert F. Kennedy Jr. fired."
+        "postExcerpt": "chaotic meeting rife with misinformation."
       },
       {
-        "id": "claim-4",
-        "claimText": "Misinformation about the childhood vaccine schedule is rampant, especially regarding the infant hepatitis B vaccine.",
-        "sourceAuthor": "@Canal9TelevidaMendoza",
-        "platform": "Twitter/X",
-        "engagement": 3200,
-        "postExcerpt": "Governor Maura Healey warned of misinformation."
-      },
-      {
-        "id": "claim-5",
-        "claimText": "Health professionals addressed concerns over CDC messaging changes and declining vaccination rates.",
-        "sourceAuthor": "@WNDU",
+        "id": "claim-17",
+        "claimText": "Fact-checking is essential to dispel myths about vaccine safety.",
+        "sourceAuthor": "@username",
         "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "For more Local News from WNDU."
+        "engagement": 17,
+        "postExcerpt": "dispelling common myths about vaccines."
       },
       {
-        "id": "claim-6",
-        "claimText": "Anti-vax lawyer Aaron Siri claims he doesn’t 'make a living' suing vaccine companies, despite evidence to the contrary.",
-        "sourceAuthor": "@CIDRAP",
+        "id": "claim-18",
+        "claimText": "Social media is a significant source of vaccine misinformation among young people.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
-        "engagement": 126,
-        "postExcerpt": "In fact, anti-vax nonprofit ICAN paid Siri's law firm $6 million."
+        "engagement": 256,
+        "postExcerpt": "many young people are getting their advice on vaccines."
       }
     ]
   },
   {
     "groupId": "group-3",
-    "groupTitle": "Vaccine Safety and Efficacy",
-    "groupSummary": "Claims emphasize the importance of vaccine safety and the need to counter misinformation.",
+    "groupTitle": "Public Health Responses to Misinformation",
+    "groupSummary": "This group covers the responses from public health experts and organizations to combat vaccine misinformation.",
     "relevantSectionIds": [
-      "vaccination-causes-idiopathic-conditions",
+      "communication",
       "impact"
     ],
-    "claimCount": 5,
+    "claimCount": 6,
     "totalEngagement": 1234,
     "claims": [
       {
-        "id": "claim-1",
-        "claimText": "Vaccines are safe as evidenced by decades of research and vaccines save lives.",
-        "sourceAuthor": "@JusticeRoundswithDr.Jimmell",
+        "id": "claim-19",
+        "claimText": "Health professionals are actively combating vaccine misinformation.",
+        "sourceAuthor": "@username",
         "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "demand justice by ensuring accountability from our leaders."
+        "engagement": 2,
+        "postExcerpt": "addressed concerns over CDC messaging changes."
       },
       {
-        "id": "claim-2",
-        "claimText": "Harmful myths about vaccines cause fear and distrust, jeopardizing progress in preventing childhood diseases.",
-        "sourceAuthor": "@baltimoresun",
-        "platform": "Twitter/X",
-        "engagement": 20,
-        "postExcerpt": "Read our full fact-check to learn more."
-      },
-      {
-        "id": "claim-3",
-        "claimText": "Health professionals are combating vaccine misinformation to improve public health outcomes.",
-        "sourceAuthor": "@WNDU",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "For more Local News from WNDU."
-      },
-      {
-        "id": "claim-4",
-        "claimText": "The CDC's messaging changes pose a real risk to public trust and vaccine uptake.",
-        "sourceAuthor": "@GeorgePharmacist",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "this shift poses a real risk to public trust."
-      },
-      {
-        "id": "claim-5",
-        "claimText": "Public health experts warn that misinformation will likely fill the CDC vaccine meeting.",
-        "sourceAuthor": "@OpenWorld",
+        "id": "claim-20",
+        "claimText": "Public health experts are trying to ‘prebunk’ misinformation about vaccines.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
         "engagement": 1400,
-        "postExcerpt": "experts warn."
+        "postExcerpt": "ahead of CDC vaccine meeting."
+      },
+      {
+        "id": "claim-21",
+        "claimText": "Experts warn that misinformation will likely fill the CDC vaccine meeting.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 17,
+        "postExcerpt": "filled with misinformation and vaccine myths."
+      },
+      {
+        "id": "claim-22",
+        "claimText": "Fact-checking is crucial to counter harmful vaccine myths.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 20,
+        "postExcerpt": "harmful myths suggesting that vaccines cause autism."
+      },
+      {
+        "id": "claim-23",
+        "claimText": "The CDC's messaging changes are causing significant public health concerns.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 7,
+        "postExcerpt": "significant concerns about widespread confusion."
+      },
+      {
+        "id": "claim-24",
+        "claimText": "Public health experts are concerned about misinformation stemming from CDC claims.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 26,
+        "postExcerpt": "years of confusion and vaccine refusal."
+      }
+    ]
+  },
+  {
+    "groupId": "group-4",
+    "groupTitle": "Conspiracy Theories Related to Vaccines",
+    "groupSummary": "This group includes claims about conspiracy theories surrounding vaccines and their implications.",
+    "relevantSectionIds": [
+      "vaccines-are-part-of-a-governmentalpharmaceutical-conspiracy",
+      "other-conspiracy-theories"
+    ],
+    "claimCount": 6,
+    "totalEngagement": 1234,
+    "claims": [
+      {
+        "id": "claim-25",
+        "claimText": "Anti-vax lawyer Aaron Siri claims he doesn’t 'make a living' suing vaccine companies, which is misleading.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 126,
+        "postExcerpt": "Anti-vax lawyer and false claim superspreader."
+      },
+      {
+        "id": "claim-26",
+        "claimText": "Misinformation about vaccines is being fueled by anti-vaccine activists.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 356,
+        "postExcerpt": "thanks to anti-vaccine activists such as Kennedy."
+      },
+      {
+        "id": "claim-27",
+        "claimText": "A chaotic meeting at the CDC was rife with misinformation about vaccines.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 19,
+        "postExcerpt": "chaotic meeting rife with misinformation."
+      },
+      {
+        "id": "claim-28",
+        "claimText": "The CDC's vaccine advisory panel is influenced by misinformation.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 542,
+        "postExcerpt": "Lawyer with ties to Kennedy sparks outcry."
+      },
+      {
+        "id": "claim-29",
+        "claimText": "Misinformation about vaccines is a significant threat to public health.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 30,
+        "postExcerpt": "reshaping the CDC, weakening disease surveillance."
+      },
+      {
+        "id": "claim-30",
+        "claimText": "The CDC's changes in messaging are seen as politically motivated.",
+        "sourceAuthor": "@username",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "politics begins shaping clinical messaging."
       }
     ]
   }

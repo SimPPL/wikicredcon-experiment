@@ -1,105 +1,308 @@
 [
   {
-    "groupId": "glp1-1",
-    "groupTitle": "Side Effects and Safety Concerns",
-    "groupSummary": "Claims about GLP-1 drug side effects reported by patients and doctors",
+    "groupId": "group-1",
+    "groupTitle": "Regulatory and Market Impact",
+    "groupSummary": "This group focuses on the regulatory landscape and market dynamics surrounding GLP-1 drugs.",
     "relevantSectionIds": [
-      "adverse-effects",
-      "glp1-receptor-agonist-lead"
+      "legal-status",
+      "cost"
     ],
-    "claimCount": 3,
-    "totalEngagement": 500,
+    "claimCount": 8,
+    "totalEngagement": 215800,
     "claims": [
       {
-        "id": "glp1-c4",
-        "claimText": "23% of U.S. households already have someone on Ozempic or Wegovy. By 2030, that number hits 35% of all food & beverage units sold.",
-        "sourceAuthor": "soicfinance",
+        "id": "claim-1",
+        "claimText": "Regulatory surveillance over the GLP-1 drug supply chain is intensifying.",
+        "sourceAuthor": "@username",
         "platform": "twitter",
-        "engagement": 56600,
-        "postExcerpt": "Nobody's talking about the second-order effects of GLP-1 drugs loudly enough. So let us drop some data on the effect it is having on different industries! 1. 23% of U.S. households already have someon"
+        "engagement": 215800,
+        "postExcerpt": "Regulatory Surveillance Over Weight Loss Drug (GLP-1) Supply Chain"
       },
       {
-        "id": "glp1-c6",
-        "claimText": "Studies show that GLP-1 drugs such as Ozempic affect far more than metabolism, influencing inflammation, immunity, and brain function.",
-        "sourceAuthor": "washingtonpost",
+        "id": "claim-2",
+        "claimText": "The Drug Controller of India has intensified monitoring of the supply chain of GLP-1 drugs due to unauthorized sales.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 23000,
+        "postExcerpt": "#JustIn | #CDSCO intensifies monitoring of supply chain of GLP-1–based weight loss drugs."
+      },
+      {
+        "id": "claim-3",
+        "claimText": "The cost of GLP-1 drugs is falling, and pill versions are entering the U.S. market.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 13100,
+        "postExcerpt": "The cost of GLP-1 drugs is falling, and pill versions are hitting the U.S. market."
+      },
+      {
+        "id": "claim-4",
+        "claimText": "The introduction of generic versions of GLP-1 drugs has made them more accessible to the public.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 14200,
+        "postExcerpt": "When patent of GLP-1 drug expired, several pharmaceutical companies introduced its generic version."
+      },
+      {
+        "id": "claim-5",
+        "claimText": "The regulatory measures are aimed at ensuring ethical pharmaceutical practices in the GLP-1 drug supply chain.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8600,
+        "postExcerpt": "In order to ensure ethical pharmaceutical practices in the supply chain of Weight Loss Drug (GLP-1)..."
+      },
+      {
+        "id": "claim-6",
+        "claimText": "The GLP-1 drug market is experiencing a surge in demand, leading to a restructuring event in the food and beverage industry.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 56600,
+        "postExcerpt": "This isn't a niche health trend anymore, it's a demand restructuring event."
+      },
+      {
+        "id": "claim-7",
+        "claimText": "The popularity of GLP-1 drugs is prompting drugmakers to race to develop next-generation medications.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 22400,
+        "postExcerpt": "Pills have just started to enter the weight loss drug market, and drugmakers are racing to develop next-generation medications."
+      },
+      {
+        "id": "claim-8",
+        "claimText": "The introduction of multiple generic variants of GLP-1 drugs in India has raised concerns over unauthorized sales.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8500,
+        "postExcerpt": "With the recent introduction of multiple generic variants of GLP-1-based weight loss drugs in India..."
+      }
+    ]
+  },
+  {
+    "groupId": "group-2",
+    "groupTitle": "Efficacy and Usage",
+    "groupSummary": "This group highlights the effectiveness of GLP-1 drugs in weight loss and other health conditions.",
+    "relevantSectionIds": [
+      "type-2-diabetes",
+      "obesity",
+      "reward-system-disorders"
+    ],
+    "claimCount": 10,
+    "totalEngagement": 110600,
+    "claims": [
+      {
+        "id": "claim-9",
+        "claimText": "GLP-1 drugs can significantly help people suffering from substance abuse disorders.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 18400,
+        "postExcerpt": "GLP-1 medications like Ozempic have dominated public attention since 2021 for their ease with aiding weight loss."
+      },
+      {
+        "id": "claim-10",
+        "claimText": "Patients using GLP-1 drugs report a decrease in cravings for alcohol and binge eating.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 110600,
+        "postExcerpt": "I gained 30 pounds in recovery from alcoholism... my doctor prescribed a GLP-1... it’s been a miracle."
+      },
+      {
+        "id": "claim-11",
+        "claimText": "GLP-1 drugs can lead to a 15-20% reduction in body weight in clinical trials.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8000,
+        "postExcerpt": "You eat less. You lose weight. 15-20% body weight reduction in trials."
+      },
+      {
+        "id": "claim-12",
+        "claimText": "GLP-1 drugs mimic a hormone that signals fullness to the brain.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8000,
+        "postExcerpt": "What GLP-1 drugs actually do. • Mimic a hormone that tells your brain you’re full."
+      },
+      {
+        "id": "claim-13",
+        "claimText": "GLP-1 drugs delay stomach emptying, which reduces hunger and frequent food intake.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8000,
+        "postExcerpt": "The drug helps control diabetes by affecting brain function so that patients do not feel hungry all the time."
+      },
+      {
+        "id": "claim-14",
+        "claimText": "Studies show that GLP-1 drugs influence inflammation, immunity, and brain function.",
+        "sourceAuthor": "@username",
         "platform": "twitter",
         "engagement": 24800,
-        "postExcerpt": "Originally developed for diabetes and weight loss, studies show that GLP-1 drugs such as Ozempic affect far more than metabolism, influencing inflammation, immunity, and brain function while revealing"
-      }
-    ]
-  },
-  {
-    "groupId": "glp1-2",
-    "groupTitle": "Weight Loss Efficacy and Outcomes",
-    "groupSummary": "Claims about GLP-1 effectiveness for weight loss",
-    "relevantSectionIds": [
-      "obesity",
-      "glp1-receptor-agonist-lead"
-    ],
-    "claimCount": 3,
-    "totalEngagement": 300,
-    "claims": [
-      {
-        "id": "glp1-c4",
-        "claimText": "Higher adoption of weight loss and diabetes treatments poses a threat to restaurant chains and snacking giants' sales.",
-        "sourceAuthor": "CNBC",
-        "platform": "twitter",
-        "engagement": 13100,
-        "postExcerpt": "The cost of GLP-1 drugs is falling, and pill versions are hitting the U.S. market. For restaurant chains and snacking giants, higher adoption of weight loss and diabetes treatments poses a threat to t"
+        "postExcerpt": "Studies show that GLP-1 drugs such as Ozempic affect far more than metabolism."
       },
       {
-        "id": "glp1-c5",
-        "claimText": "The GLP-1 drug, which was introduced for diabetic patients, is being extensively used for weight loss.",
-        "sourceAuthor": "ANI",
+        "id": "claim-15",
+        "claimText": "GLP-1 drugs can help manage Type 2 diabetes effectively.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8000,
+        "postExcerpt": "Originally developed for diabetes and weight loss."
+      },
+      {
+        "id": "claim-16",
+        "claimText": "Some users of GLP-1 drugs experience a return of food cravings and weight gain.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 37500,
+        "postExcerpt": "Some people taking GLP-1 drugs experience a return of food noise and start putting pounds back on."
+      },
+      {
+        "id": "claim-17",
+        "claimText": "GLP-1 drugs are associated with a lower risk of depression and anxiety.",
+        "sourceAuthor": "@username",
         "platform": "twitter",
         "engagement": 9900,
-        "postExcerpt": "Fact-checked\n#WATCH | Ahmedabad, Gujarat | Indian Medical Association National President Dr Anil Kumar J. Nayak says, “...The GLP-1 drug, which was introduced for diabetic patients, is being extensive"
+        "postExcerpt": "En este estudio de mas de 90 mil personas su uso se asoció a un riesgo mucho menor de depresion."
       },
       {
-        "id": "glp1-c8",
-        "claimText": "The drug helps control diabetes by affecting brain function so that patients do not feel hungry all the time, and also delays stomach emptying.",
-        "sourceAuthor": "PTI_News",
+        "id": "claim-18",
+        "claimText": "GLP-1 drugs can potentially curb addiction to substances like alcohol and opioids.",
+        "sourceAuthor": "@username",
         "platform": "twitter",
-        "engagement": 12500,
-        "postExcerpt": "VIDEO | Gurugram: Dr. Naresh Trehan says GLP-1 (weight-loss) drugs were originally developed in the United States for patients who are severely obese and also have diabetes. He says the drug helps con"
+        "engagement": 7800,
+        "postExcerpt": "GLP-1 drugs aren't just about weight loss. Used correctly, they can end addiction."
       }
     ]
   },
   {
-    "groupId": "glp1-3",
-    "groupTitle": "Access, Cost, and Insurance Coverage",
-    "groupSummary": "Claims about GLP-1 drug costs and insurance coverage",
+    "groupId": "group-3",
+    "groupTitle": "Adverse Effects and Concerns",
+    "groupSummary": "This group discusses the potential adverse effects and concerns related to GLP-1 drugs.",
     "relevantSectionIds": [
-      "cost",
-      "legal-status",
-      "society-and-culture"
+      "adverse-effects"
     ],
-    "claimCount": 2,
-    "totalEngagement": 200,
+    "claimCount": 6,
+    "totalEngagement": 8000,
     "claims": [
       {
-        "id": "glp1-c7",
-        "claimText": "The cost of GLP-1 drugs is falling, and pill versions are hitting the U.S. market.",
-        "sourceAuthor": "CNBC",
+        "id": "claim-19",
+        "claimText": "Patients often stop taking GLP-1 drugs within a year due to lack of understanding of what to expect.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 72800,
+        "postExcerpt": "About half of people will stop taking it within a year."
+      },
+      {
+        "id": "claim-20",
+        "claimText": "Some users report nausea as a side effect of GLP-1 drugs.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8900,
+        "postExcerpt": "Most people think GLP1 medication works because it slows your stomach and makes you nauseous enough to eat less."
+      },
+      {
+        "id": "claim-21",
+        "claimText": "There are concerns regarding the unauthorized sale and misuse of GLP-1 drugs.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 23000,
+        "postExcerpt": "Citing concerns over unauthorized sale and misuse."
+      },
+      {
+        "id": "claim-22",
+        "claimText": "The misuse of GLP-1 drugs can lead to dangerous health outcomes.",
+        "sourceAuthor": "@username",
         "platform": "twitter",
         "engagement": 13100,
-        "postExcerpt": "The cost of GLP-1 drugs is falling, and pill versions are hitting the U.S. market. For restaurant chains and snacking giants, higher adoption of weight loss and diabetes treatments poses a threat to t"
+        "postExcerpt": "Any modern allopathic medicine taken without consulting a doctor is dangerous."
       },
       {
-        "id": "glp1-c5",
-        "claimText": "Grocery spend drops 5.3% within 6 months of starting GLP-1 drugs.",
-        "sourceAuthor": "soicfinance",
+        "id": "claim-23",
+        "claimText": "GLP-1 drugs can cause muscle loss similar to lifestyle-only weight loss.",
+        "sourceAuthor": "@username",
         "platform": "twitter",
-        "engagement": 56600,
-        "postExcerpt": "Nobody's talking about the second-order effects of GLP-1 drugs loudly enough. So let us drop some data on the effect it is having on different industries! 1. 23% of U.S. households already have someon"
+        "engagement": 80600,
+        "postExcerpt": "GLP-1RAs caused the exact same amount of muscle loss as lifestyle-only weight loss."
       },
       {
-        "id": "glp1-c7",
-        "claimText": "GLP-1 drugs were originally developed in the United States for patients who are severely obese and also have diabetes.",
-        "sourceAuthor": "PTI_News",
+        "id": "claim-24",
+        "claimText": "There are ongoing concerns about the long-term effects of GLP-1 drugs.",
+        "sourceAuthor": "@username",
         "platform": "twitter",
-        "engagement": 12500,
-        "postExcerpt": "VIDEO | Gurugram: Dr. Naresh Trehan says GLP-1 (weight-loss) drugs were originally developed in the United States for patients who are severely obese and also have diabetes. He says the drug helps con"
+        "engagement": 8000,
+        "postExcerpt": "We’re still figuring out how to manage tolerability, sarcopenia risk, and long-term use."
+      }
+    ]
+  },
+  {
+    "groupId": "group-4",
+    "groupTitle": "Research and Development",
+    "groupSummary": "This group highlights ongoing research and future developments in GLP-1 drugs.",
+    "relevantSectionIds": [
+      "research"
+    ],
+    "claimCount": 8,
+    "totalEngagement": 8000,
+    "claims": [
+      {
+        "id": "claim-25",
+        "claimText": "Next-generation multi-receptor incretin agonists are being developed to enhance weight loss and metabolic control.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8400,
+        "postExcerpt": "Next-gen multi-receptor incretin agonists (GLP-1/GIP, GLP-1/glucagon, GLP-1/amylin)..."
+      },
+      {
+        "id": "claim-26",
+        "claimText": "Research is ongoing to understand how GLP-1 drugs can be used to treat various health conditions beyond weight loss.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8000,
+        "postExcerpt": "Here's what the pharmaceutical industry won't teach you about the most powerful drugs in human history."
+      },
+      {
+        "id": "claim-27",
+        "claimText": "Studies are revealing new ways to treat seemingly unrelated conditions using GLP-1 drugs.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 24800,
+        "postExcerpt": "Studies show that GLP-1 drugs... revealing new ways to treat seemingly unrelated conditions."
+      },
+      {
+        "id": "claim-28",
+        "claimText": "The FDA has approved higher-dose versions of GLP-1 drugs for better efficacy.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8000,
+        "postExcerpt": "FDA approves higher-dose Wegovy (7.2 mg)..."
+      },
+      {
+        "id": "claim-29",
+        "claimText": "The development of oral GLP-1 drugs is expected to change the treatment landscape.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8000,
+        "postExcerpt": "Oral GLP-1 race intensifies."
+      },
+      {
+        "id": "claim-30",
+        "claimText": "Research indicates that GLP-1 drugs can improve kidney and liver function.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8000,
+        "postExcerpt": "Better glycemic control, and kidney/liver benefits."
+      },
+      {
+        "id": "claim-31",
+        "claimText": "The GLP-1 drug market is evolving with new entrants and competitive products.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8000,
+        "postExcerpt": "Another packed week for Novo Nordisk."
+      },
+      {
+        "id": "claim-32",
+        "claimText": "Research is being conducted to manage the long-term use of GLP-1 drugs in chronic diseases.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 8000,
+        "postExcerpt": "We’re still figuring out how to manage tolerability, sarcopenia risk, and long-term use."
       }
     ]
   }

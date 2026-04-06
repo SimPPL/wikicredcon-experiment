@@ -1,165 +1,254 @@
 [
   {
     "groupId": "group-1",
-    "groupTitle": "Microplastics in Food and Water",
-    "groupSummary": "Several posts highlight the presence of microplastics in food and drinking water, raising concerns about health risks.",
+    "groupTitle": "Microplastics in Clothing and Water",
+    "groupSummary": "Microplastics are prevalent in clothing and can contaminate water systems, posing risks to health and the environment.",
     "relevantSectionIds": [
-      "oral-intake",
+      "clothing",
       "bottled-water",
-      "sources"
+      "oral-intake"
     ],
-    "claimCount": 5,
-    "totalEngagement": 1234,
+    "claimCount": 9,
+    "totalEngagement": 23,
     "claims": [
       {
         "id": "claim-1",
-        "claimText": "Microplastics are found in many processed foods.",
-        "sourceAuthor": "@ScienceExplainedDaily",
+        "claimText": "Every wash of clothes leaves microplastics in the environment.",
+        "sourceAuthor": "@username",
         "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "Did you know that microplastics are found in many processed foods?"
+        "engagement": 23,
+        "postExcerpt": "Clothes: Every Wash Leaves Microplastics In The Environment"
       },
       {
         "id": "claim-2",
         "claimText": "The water you drink could have invisible contaminants, including microplastics.",
-        "sourceAuthor": "@WaterTalk",
+        "sourceAuthor": "@username",
         "platform": "YouTube",
         "engagement": 0,
         "postExcerpt": "Did you know that the water you drink could have invisible contaminants?"
       },
       {
         "id": "claim-3",
-        "claimText": "Adults ingest the equivalent of one credit card per week in microplastics.",
-        "sourceAuthor": "@StanfordMedicine",
-        "platform": "Twitter/X",
+        "claimText": "Miami faces common issues like hidden impurities in its water.",
+        "sourceAuthor": "@username",
+        "platform": "YouTube",
         "engagement": 0,
-        "postExcerpt": "Scientists estimate that adults ingest the equivalent of one credit card per week in microplastics."
+        "postExcerpt": "the water coming into your home in Miami isn't always as pure as it seems."
       },
       {
         "id": "claim-4",
-        "claimText": "Microplastic accumulation in the human body could be a serious health hazard.",
-        "sourceAuthor": "@Researcher",
-        "platform": "Twitter/X",
+        "claimText": "Microplastics are found in many processed foods.",
+        "sourceAuthor": "@username",
+        "platform": "YouTube",
         "engagement": 0,
-        "postExcerpt": "Microplastic accumulation in the human body could be a serious health hazard."
+        "postExcerpt": "Did you know that microplastics are found in many processed foods?"
       },
       {
         "id": "claim-5",
-        "claimText": "Global seafood trade is moving ‘forever chemicals’ from contaminated waters to dinner plates.",
-        "sourceAuthor": "@NoSpinMedia",
+        "claimText": "Microplastics can accumulate in the human body and may be linked to serious health hazards.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 25,
+        "postExcerpt": "microplastic accumulation in the human body could be a serious health hazard."
+      },
+      {
+        "id": "claim-6",
+        "claimText": "Microplastics might be linked to cancer and heart attacks.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 25,
+        "postExcerpt": "might be linked to cancer, heart attacks and other threatening medical conditions."
+      },
+      {
+        "id": "claim-7",
+        "claimText": "The global seafood trade is moving 'forever chemicals' from contaminated waters to dinner plates.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
         "engagement": 11,
         "postExcerpt": "How global seafood trade is moving ‘forever chemicals’ from contaminated waters to dinner plates."
+      },
+      {
+        "id": "claim-8",
+        "claimText": "Fish-inspired filters can stop microplastics from entering washers.",
+        "sourceAuthor": "@username",
+        "platform": "Reddit",
+        "engagement": 1,
+        "postExcerpt": "Fish-Inspired Filter Stops Microplastics in Washers."
       }
     ]
   },
   {
     "groupId": "group-2",
-    "groupTitle": "Environmental Impact of Microplastics",
-    "groupSummary": "Posts discuss the environmental consequences of microplastics, particularly in oceans and water systems.",
+    "groupTitle": "Microplastics Research and Policy",
+    "groupSummary": "Research on microplastics is expanding, with various countries taking action to address the issue.",
     "relevantSectionIds": [
-      "effects-on-the-environment",
-      "marine-and-freshwater-organisms"
+      "policy-and-legislation",
+      "education-and-recycling",
+      "sources-of-microplastics"
     ],
-    "claimCount": 4,
-    "totalEngagement": 1143,
-    "claims": [
-      {
-        "id": "claim-6",
-        "claimText": "150 million tons of plastic enter the oceans every year.",
-        "sourceAuthor": "@NewsMiamiDade",
-        "platform": "YouTube",
-        "engagement": 1100,
-        "postExcerpt": "150 ملین ٹن پلاسٹک ہر سال"
-      },
-      {
-        "id": "claim-7",
-        "claimText": "Microplastics are a significant contaminant in water systems.",
-        "sourceAuthor": "@WaterTalk",
-        "platform": "YouTube",
-        "engagement": 0,
-        "postExcerpt": "The water coming into your home isn't always as pure as it seems."
-      },
-      {
-        "id": "claim-8",
-        "claimText": "Microplastics can harm marine and freshwater organisms.",
-        "sourceAuthor": "@EnvironmentalResearch",
-        "platform": "Twitter/X",
-        "engagement": 0,
-        "postExcerpt": "Microplastics can harm marine and freshwater organisms."
-      },
-      {
-        "id": "claim-9",
-        "claimText": "Microplastics contribute to the pollution of ecosystems.",
-        "sourceAuthor": "@EcoWarrior",
-        "platform": "Twitter/X",
-        "engagement": 0,
-        "postExcerpt": "Microplastics contribute to the pollution of ecosystems."
-      }
-    ]
-  },
-  {
-    "groupId": "group-3",
-    "groupTitle": "Microplastics in Clothing and Textiles",
-    "groupSummary": "Claims highlight the role of clothing in releasing microplastics into the environment.",
-    "relevantSectionIds": [
-      "clothing"
-    ],
-    "claimCount": 2,
-    "totalEngagement": 23,
-    "claims": [
-      {
-        "id": "claim-10",
-        "claimText": "Every wash of synthetic clothing releases microplastics into the environment.",
-        "sourceAuthor": "@LizBui",
-        "platform": "YouTube",
-        "engagement": 23,
-        "postExcerpt": "Every Wash Leaves Microplastics In The Environment."
-      },
-      {
-        "id": "claim-11",
-        "claimText": "Microplastics from clothing contribute to water pollution.",
-        "sourceAuthor": "@EcoFashion",
-        "platform": "Twitter/X",
-        "engagement": 0,
-        "postExcerpt": "Microplastics from clothing contribute to water pollution."
-      }
-    ]
-  },
-  {
-    "groupId": "group-4",
-    "groupTitle": "Research and Data on Microplastics",
-    "groupSummary": "Posts emphasize the importance of research and data collection regarding microplastics.",
-    "relevantSectionIds": [
-      "microplastics-detection",
-      "education-and-recycling"
-    ],
-    "claimCount": 3,
+    "claimCount": 7,
     "totalEngagement": 1700,
     "claims": [
       {
-        "id": "claim-12",
-        "claimText": "There are over 1,200 datasets on microplastics collected across EU countries.",
-        "sourceAuthor": "@PlasticPirateEU",
+        "id": "claim-9",
+        "claimText": "The EU has expanded its research on microplastics from 3 to 14 countries.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 1700,
+        "postExcerpt": "From 3 to 14 EU countries."
+      },
+      {
+        "id": "claim-10",
+        "claimText": "There are over 1,200 datasets on microplastics collected by researchers.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
         "engagement": 1700,
         "postExcerpt": "From curiosity to 1,200+ datasets on microplastics."
       },
       {
-        "id": "claim-13",
-        "claimText": "Research on microplastics is crucial for understanding their impact.",
-        "sourceAuthor": "@Researcher",
+        "id": "claim-11",
+        "claimText": "The annual national recycling industry conference in Italy focuses on circular economy issues.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 245,
+        "postExcerpt": "the annual national recycling industry conference took place."
+      },
+      {
+        "id": "claim-12",
+        "claimText": "Microplastics are a significant concern in discussions about environmental policy.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
         "engagement": 0,
-        "postExcerpt": "Research on microplastics is crucial for understanding their impact."
+        "postExcerpt": "discussions about environmental policy."
+      },
+      {
+        "id": "claim-13",
+        "claimText": "Education on microplastics is crucial for reducing their impact.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "Education on microplastics is crucial."
       },
       {
         "id": "claim-14",
-        "claimText": "Education on microplastics is essential for effective recycling.",
-        "sourceAuthor": "@EcoEducator",
+        "claimText": "Plastic recycling could significantly reduce the volume of microplastics in the environment.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 25,
+        "postExcerpt": "we could significantly reduce the volume if we'd just shut down plastic recycling."
+      },
+      {
+        "id": "claim-15",
+        "claimText": "Microplastics are a growing concern in various countries, including the EU and the US.",
+        "sourceAuthor": "@username",
         "platform": "Twitter/X",
         "engagement": 0,
-        "postExcerpt": "Education on microplastics is essential for effective recycling."
+        "postExcerpt": "Microplastics are a growing concern."
+      }
+    ]
+  },
+  {
+    "groupId": "group-3",
+    "groupTitle": "Environmental Impact of Microplastics",
+    "groupSummary": "Microplastics pose a significant threat to marine and freshwater ecosystems.",
+    "relevantSectionIds": [
+      "marine-and-freshwater-organisms",
+      "effects-on-the-environment"
+    ],
+    "claimCount": 5,
+    "totalEngagement": 1100,
+    "claims": [
+      {
+        "id": "claim-16",
+        "claimText": "150 million tons of plastic enter the oceans every year.",
+        "sourceAuthor": "@username",
+        "platform": "YouTube",
+        "engagement": 1100,
+        "postExcerpt": "150 ملین ٹن پلاسٹک ہر سال"
+      },
+      {
+        "id": "claim-17",
+        "claimText": "Microplastics can harm marine life and disrupt ecosystems.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "Microplastics can harm marine life."
+      },
+      {
+        "id": "claim-18",
+        "claimText": "Microplastics are found in freshwater systems, affecting drinking water quality.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "Microplastics are found in freshwater systems."
+      },
+      {
+        "id": "claim-19",
+        "claimText": "Microplastics can accumulate in the food chain, impacting human health.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "Microplastics can accumulate in the food chain."
+      },
+      {
+        "id": "claim-20",
+        "claimText": "Microplastics contribute to the pollution of watersheds.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "Microplastics contribute to the pollution of watersheds."
+      }
+    ]
+  },
+  {
+    "groupId": "group-4",
+    "groupTitle": "Health Risks Associated with Microplastics",
+    "groupSummary": "Microplastics pose potential health risks to humans, including links to serious medical conditions.",
+    "relevantSectionIds": [
+      "human-health"
+    ],
+    "claimCount": 5,
+    "totalEngagement": 25,
+    "claims": [
+      {
+        "id": "claim-21",
+        "claimText": "Microplastics may be linked to cancer.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 25,
+        "postExcerpt": "Microplastics may be linked to cancer."
+      },
+      {
+        "id": "claim-22",
+        "claimText": "Microplastics could contribute to heart attacks.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 25,
+        "postExcerpt": "Microplastics could contribute to heart attacks."
+      },
+      {
+        "id": "claim-23",
+        "claimText": "The presence of microplastics in the body is a growing concern among researchers.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 25,
+        "postExcerpt": "The presence of microplastics in the body is a growing concern."
+      },
+      {
+        "id": "claim-24",
+        "claimText": "Microplastics can cause inflammation and other health issues.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 25,
+        "postExcerpt": "Microplastics can cause inflammation."
+      },
+      {
+        "id": "claim-25",
+        "claimText": "Research is ongoing to understand the full health implications of microplastics.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 25,
+        "postExcerpt": "Research is ongoing to understand the full health implications."
       }
     ]
   }
