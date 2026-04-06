@@ -24,9 +24,9 @@ export default function LandingPage({ onStart }: LandingPageProps) {
             Wikipedia editors write better?
           </h1>
           <p className="text-base md:text-lg mb-8 max-w-2xl mx-auto" style={{ color: '#c8ccd1', lineHeight: 1.7 }}>
-            Edit two real Wikipedia articles in 25 minutes. For one, you&apos;ll see what people
-            are saying about the topic on social media. We measure whether that changes
-            what you write — and whether it makes the article better.
+            Edit two real Wikipedia articles in 25 minutes. We&apos;re studying how different
+            information sources affect the editing process — and what that means for
+            the quality of collaborative knowledge.
           </p>
           <button
             onClick={onStart}
@@ -52,8 +52,8 @@ export default function LandingPage({ onStart }: LandingPageProps) {
           How It Works
         </h2>
         <p className="text-center text-base mb-10 max-w-xl mx-auto" style={{ color: '#54595d', lineHeight: 1.6 }}>
-          A within-subjects experiment: you do both conditions, so we can compare your
-          own editing with and without social media context.
+          You&apos;ll edit two articles under different conditions so we can study
+          how the editing experience varies.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -72,8 +72,8 @@ export default function LandingPage({ onStart }: LandingPageProps) {
             },
             {
               step: '03',
-              title: 'Compare your edits to reality',
-              description: 'After editing, see how your changes compare to what the Wikipedia community actually added over the following months. Did seeing social media discourse change what you wrote?',
+              title: 'See your editing patterns',
+              description: 'After editing, see a personalized dashboard showing your editing behavior — time spent, sections focused on, citations added, and how your approach differed across the two articles.',
               accent: '#14866d',
             },
           ].map(({ step, title, description, accent }) => (
@@ -152,39 +152,39 @@ export default function LandingPage({ onStart }: LandingPageProps) {
             className="text-xl mb-2"
             style={{ fontFamily: "Georgia, 'Linux Libertine', serif", color: '#202122' }}
           >
-            What We Measure
+            What We Study
           </h2>
           <p className="text-sm mb-6" style={{ color: '#54595d' }}>
-            Every participant edits two articles — one with Arbiter claims, one without.
-            We compare your own editing across conditions.
+            Every participant edits two articles under different conditions.
+            We study how the editing process varies.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6">
             <div className="p-4 rounded" style={{ background: '#eaf3ff', border: '1px solid #a3c1e0' }}>
               <div className="text-sm font-semibold mb-2" style={{ color: '#3366cc' }}>
-                Editing behavior
+                Editing process
               </div>
               <p className="text-sm" style={{ color: '#54595d', lineHeight: 1.5 }}>
-                Words added, citations included, sections touched, time spent deliberating
-                before editing, external searches made.
+                How you approach the article — which sections you focus on, how long you
+                deliberate, what sources you consult, and what changes you choose to make.
               </p>
             </div>
             <div className="p-4 rounded" style={{ background: '#f0fdf4', border: '1px solid #86efac' }}>
               <div className="text-sm font-semibold mb-2" style={{ color: '#14866d' }}>
-                Ground truth alignment
+                Content decisions
               </div>
               <p className="text-sm" style={{ color: '#54595d', lineHeight: 1.5 }}>
-                How closely your edits match what the Wikipedia community actually added
-                over the following months. Measured by text similarity and question answerability.
+                What information you add, remove, or restructure — and how your
+                editorial judgment differs when you have access to different resources.
               </p>
             </div>
             <div className="p-4 rounded" style={{ background: '#fef8e7', border: '1px solid #f0d060' }}>
               <div className="text-sm font-semibold mb-2" style={{ color: '#92610a' }}>
-                Information quality
+                Source usage
               </div>
               <p className="text-sm" style={{ color: '#54595d', lineHeight: 1.5 }}>
-                Whether your edited article can answer factual questions that the older
-                version could not — verified by multiple LLM judges across model families.
+                How you find, evaluate, and incorporate references — and whether
+                different information environments change your sourcing behavior.
               </p>
             </div>
           </div>
