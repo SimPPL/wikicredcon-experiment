@@ -199,6 +199,31 @@ export interface ArbiterClaim {
   wikipediaRefs?: ClaimSource[];
 }
 
+// --- Grouped Claims (for ClaimsSidebar) ---
+
+export interface ClaimGroupItem {
+  id: string;
+  claimText: string;
+  sourceAuthor: string;
+  platform: string;
+  engagement: number;
+  postExcerpt: string;
+}
+
+export interface ClaimGroup {
+  groupId: string;
+  groupTitle: string;
+  groupSummary: string;
+  relevantSectionIds: string[];
+  claimCount: number;
+  totalEngagement: number;
+  claims: ClaimGroupItem[];
+  /** Optional linked sources (news articles, academic papers, etc.) */
+  sources?: ClaimSource[];
+  /** Optional fact-check results */
+  factChecks?: ClaimSource[];
+}
+
 // --- Survey ---
 
 export interface SurveyResponse {

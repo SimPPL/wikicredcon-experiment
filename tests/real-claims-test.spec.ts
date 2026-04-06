@@ -72,32 +72,31 @@ test('Full flow with real Arbiter claims', async ({ page }) => {
     }
   }
 
-  // Verify claims data is real Arbiter data (not placeholder)
+  // Verify claims data is real Arbiter data in grouped format
   const claimsResponse = await page.evaluate(async () => {
-    // Try loading the claims file directly
     const resp = await fetch('/data/claims/pfas.json');
     if (resp.ok) {
-      const claims = await resp.json();
+      const groups = await resp.json();
       return {
-        count: claims.length,
-        firstClaim: claims[0]?.claimText?.slice(0, 80),
-        firstAuthor: claims[0]?.sourceAuthor,
-        firstPlatform: claims[0]?.platform,
-        hasEngagement: claims[0]?.engagement?.total > 0,
+        groupCount: groups.length,
+        firstGroupTitle: groups[0]?.groupTitle,
+        firstGroupClaims: groups[0]?.claims?.length,
+        totalClaims: groups.reduce((s: number, g: any) => s + (g.claims?.length || 0), 0),
+        hasRelevantSections: groups[0]?.relevantSectionIds?.length > 0,
       };
     }
     return null;
   });
 
-  console.log('\nClaims data check:');
-  console.log('  Claims count:', claimsResponse?.count);
-  console.log('  First claim:', claimsResponse?.firstClaim);
-  console.log('  Author:', claimsResponse?.firstAuthor);
-  console.log('  Platform:', claimsResponse?.firstPlatform);
-  console.log('  Has engagement:', claimsResponse?.hasEngagement);
+  console.log('\nClaims data check (grouped):');
+  console.log('  Group count:', claimsResponse?.groupCount);
+  console.log('  First group:', claimsResponse?.firstGroupTitle);
+  console.log('  First group claims:', claimsResponse?.firstGroupClaims);
+  console.log('  Total claims:', claimsResponse?.totalClaims);
+  console.log('  Has section mappings:', claimsResponse?.hasRelevantSections);
 
-  expect(claimsResponse?.count).toBeGreaterThan(0);
-  expect(claimsResponse?.hasEngagement).toBe(true);
+  expect(claimsResponse?.groupCount).toBeGreaterThan(0);
+  expect(claimsResponse?.totalClaims).toBeGreaterThan(0);
 
   console.log('\n=== REAL CLAIMS TEST PASSED ===');
 });

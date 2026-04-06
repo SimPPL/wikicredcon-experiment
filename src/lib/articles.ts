@@ -1,4 +1,4 @@
-import type { Article, ArbiterClaim } from '@/types';
+import type { Article, ArbiterClaim, ClaimGroup } from '@/types';
 
 export async function loadArticle(articleId: string, version: 'past' | 'current'): Promise<Article> {
   const res = await fetch(`/data/articles/${articleId}-${version}.json`, { cache: 'no-store' });
@@ -6,9 +6,16 @@ export async function loadArticle(articleId: string, version: 'past' | 'current'
   return res.json();
 }
 
+/** @deprecated Use loadClaimGroups instead */
 export async function loadClaims(articleId: string): Promise<ArbiterClaim[]> {
   const res = await fetch(`/data/claims/${articleId}.json`, { cache: 'no-store' });
   if (!res.ok) throw new Error(`Failed to load claims: ${articleId}`);
+  return res.json();
+}
+
+export async function loadClaimGroups(articleId: string): Promise<ClaimGroup[]> {
+  const res = await fetch(`/data/claims/${articleId}.json`, { cache: 'no-store' });
+  if (!res.ok) throw new Error(`Failed to load claim groups: ${articleId}`);
   return res.json();
 }
 

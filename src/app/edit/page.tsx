@@ -1,14 +1,15 @@
 'use client';
 
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { LS_KEYS, EXPERIMENT } from '@/lib/constants';
 import { getArticleForPhase } from '@/lib/experiment';
-import { loadArticle, loadClaims } from '@/lib/articles';
+import { loadArticle, loadClaimGroups } from '@/lib/articles';
 import { formatDuration, generateId } from '@/lib/utils';
 import type {
   Participant,
   Article,
   ArbiterClaim,
+  ClaimGroup,
   ExperimentPhase,
   EditSession,
   EditEvent,
@@ -30,7 +31,7 @@ export default function EditPage() {
   const [phase, setPhase] = useState<ExperimentPhase>('editing-1');
   const [article, setArticle] = useState<Article | null>(null);
   const [groundTruthArticle, setGroundTruthArticle] = useState<Article | null>(null);
-  const [claims, setClaims] = useState<ArbiterClaim[]>([]);
+  const [claimGroups, setClaimGroups] = useState<ClaimGroup[]>([]);
   const [condition, setCondition] = useState<'treatment' | 'control'>('control');
   const [editedContent, setEditedContent] = useState<Record<string, string>>({});
   const [editingSectionId, setEditingSectionId] = useState<string | null>(null);
@@ -101,7 +102,7 @@ export default function EditPage() {
       .catch(() => {}); // non-critical
 
     if (cond === 'treatment') {
-      loadClaims(articleId).then(setClaims).catch(() => setClaims([]));
+      loadClaimGroups(articleId).then(setClaimGroups).catch(() => setClaimGroups([]));
     }
 
     // Initialize session
@@ -347,6 +348,26 @@ export default function EditPage() {
     window.location.href = '/edit';
   }, []);
 
+  // Synthesize legacy ArbiterClaim[] from ClaimGroups for ArticleRenderer badges
+  const claimGroupsAsLegacyClaims: ArbiterClaim[] = useMemo(() => {
+    return claimGroups.flatMap((group) =>
+      group.claims.map((c) => ({
+        id: c.id,
+        articleId: article?.id || '',
+        relevantSectionIds: group.relevantSectionIds,
+        claimText: c.claimText,
+        platform: (c.platform.toLowerCase().includes('twitter') ? 'twitter'
+          : c.platform.toLowerCase() === 'reddit' ? 'reddit'
+          : c.platform.toLowerCase() === 'youtube' ? 'youtube'
+          : c.platform.toLowerCase() === 'bluesky' ? 'bluesky'
+          : 'twitter') as ArbiterClaim['platform'],
+        date: '',
+        engagement: { total: c.engagement },
+        topic: group.groupTitle,
+      }))
+    );
+  }, [claimGroups, article?.id]);
+
   // --- Render ---
   if (loading) {
     return (
@@ -458,7 +479,7 @@ export default function EditPage() {
               onContentChange={handleContentChange}
               onSectionFocus={handleSectionFocus}
               onSectionBlur={handleSectionBlur}
-              claims={condition === 'treatment' ? claims : []}
+              claims={condition === 'treatment' ? claimGroupsAsLegacyClaims : []}
               readOnly={viewMode === 'read'}
             />
 
@@ -531,7 +552,7 @@ export default function EditPage() {
         {/* Arbiter Sidebar (treatment only) */}
         {condition === 'treatment' && (
           <ClaimsSidebar
-            claims={claims}
+            claimGroups={claimGroups}
             activeSectionId={editingSectionId}
             sectionTitles={
               article
