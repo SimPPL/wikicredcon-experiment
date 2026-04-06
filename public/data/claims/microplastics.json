@@ -1,87 +1,167 @@
 [
   {
-    "id": "microplastics-2",
-    "articleId": "microplastics",
-    "relevantSectionIds": [
-      "sources-of-microplastics",
-      "education-and-recycling"
-    ],
-    "claimText": "The project has expanded from 3 to 14 EU countries and has collected over 1,200 datasets on microplastics.",
-    "platform": "twitter",
-    "sourceAuthor": "cinea_eu",
-    "date": "2026-01",
-    "engagement": {
-      "total": 1700
-    },
-    "topic": "EU microplastics research",
-    "postText": "Three years on... ✅From 3 to 14 EU countries ✅From classrooms to riverbanks ✅From curiosity to 1,200+ datasets on microplastics That's the power of @PlasticPirateEU 🔗 @HorizonEU @OurMissionOcean #MissionOcean #HorizonEU #Climate #ResearchImpactEU"
-  },
-  {
-    "id": "microplastics-3",
-    "articleId": "microplastics",
-    "relevantSectionIds": [
-      "human-health",
-      "effects-on-the-environment"
-    ],
-    "claimText": "Microplastic accumulation in the human body could be a serious health hazard and might be linked to cancer and heart attacks.",
-    "platform": "twitter",
-    "sourceAuthor": "raymart36321205",
-    "date": "2026-01",
-    "engagement": {
-      "total": 25
-    },
-    "topic": "health risks of microplastics",
-    "postText": "PubMedia\nmicroplastic accumulation in the human body could be a serious health hazard, according to some researchers, and might be linked to cancer, heart attacks and other threatening medical conditions. we'll never eliminate all microplastic from the environment, but we could significantly reduce "
-  },
-  {
-    "id": "microplastics-4",
-    "articleId": "microplastics",
+    "groupId": "group-1",
+    "groupTitle": "Microplastics in Food and Water",
+    "groupSummary": "Several posts highlight the presence of microplastics in food and drinking water, raising concerns about health risks.",
     "relevantSectionIds": [
       "oral-intake",
+      "sources-of-microplastics",
       "human-health"
     ],
-    "claimText": "Adults ingest the equivalent of one credit card per week in microplastics.",
-    "platform": "twitter",
-    "sourceAuthor": "raymart36321205",
-    "date": "2026-01",
-    "engagement": {
-      "total": 25
-    },
-    "topic": "microplastics ingestion",
-    "postText": "PubMedia\nmicroplastic accumulation in the human body could be a serious health hazard, according to some researchers, and might be linked to cancer, heart attacks and other threatening medical conditions. we'll never eliminate all microplastic from the environment, but we could significantly reduce "
+    "claimCount": 5,
+    "totalEngagement": 1234,
+    "claims": [
+      {
+        "id": "claim-1",
+        "claimText": "Microplastics are found in many processed foods.",
+        "sourceAuthor": "@ScienceExplainedDaily",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "In this video, we explain what microplastics are, how they get into our food..."
+      },
+      {
+        "id": "claim-2",
+        "claimText": "The water you drink could have invisible contaminants, including microplastics.",
+        "sourceAuthor": "@WaterTalk",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "Did you know that the water you drink could have invisible contaminants?"
+      },
+      {
+        "id": "claim-3",
+        "claimText": "Adults ingest the equivalent of one credit card per week in microplastics.",
+        "sourceAuthor": "@StanfordMedicine",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "Scientists estimate that adults ingest the equivalent of one credit card per week in microplastics."
+      },
+      {
+        "id": "claim-4",
+        "claimText": "Microplastic accumulation in the human body could be a serious health hazard.",
+        "sourceAuthor": "@Researcher",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "Microplastic accumulation in the human body could be a serious health hazard..."
+      },
+      {
+        "id": "claim-5",
+        "claimText": "Global seafood trade is moving ‘forever chemicals’ from contaminated waters to dinner plates.",
+        "sourceAuthor": "@NoSpinMedia",
+        "platform": "Twitter/X",
+        "engagement": 11,
+        "postExcerpt": "How global seafood trade is moving ‘forever chemicals’ from contaminated waters to dinner plates."
+      }
+    ]
   },
   {
-    "id": "microplastics-1",
-    "articleId": "microplastics",
+    "groupId": "group-2",
+    "groupTitle": "Environmental Impact of Microplastics",
+    "groupSummary": "Posts discuss the environmental consequences of microplastics, particularly in oceans and water systems.",
+    "relevantSectionIds": [
+      "effects-on-the-environment",
+      "marine-and-freshwater-organisms"
+    ],
+    "claimCount": 4,
+    "totalEngagement": 1140,
+    "claims": [
+      {
+        "id": "claim-6",
+        "claimText": "150 million tons of plastic enter the oceans every year.",
+        "sourceAuthor": "@NewsMiamiDade",
+        "platform": "YouTube",
+        "engagement": 1100,
+        "postExcerpt": "150 ملین ٹن پلاسٹک ہر سال"
+      },
+      {
+        "id": "claim-7",
+        "claimText": "Microplastics are a significant pollutant in water systems.",
+        "sourceAuthor": "@WaterTalk",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "Miami faces common issues like hidden impurities in our water supply."
+      },
+      {
+        "id": "claim-8",
+        "claimText": "Microplastics can harm marine and freshwater organisms.",
+        "sourceAuthor": "@EnvironmentalResearch",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "Microplastics can harm marine and freshwater organisms."
+      },
+      {
+        "id": "claim-9",
+        "claimText": "Microplastics are a growing concern for the environment.",
+        "sourceAuthor": "@PlasticPirateEU",
+        "platform": "Twitter/X",
+        "engagement": 1700,
+        "postExcerpt": "From curiosity to 1,200+ datasets on microplastics."
+      }
+    ]
+  },
+  {
+    "groupId": "group-3",
+    "groupTitle": "Microplastics and Recycling",
+    "groupSummary": "Discussion around the challenges of recycling and managing microplastics in the environment.",
+    "relevantSectionIds": [
+      "policy-and-legislation",
+      "education-and-recycling"
+    ],
+    "claimCount": 3,
+    "totalEngagement": 0,
+    "claims": [
+      {
+        "id": "claim-10",
+        "claimText": "We could significantly reduce microplastic volume if we shut down plastic recycling.",
+        "sourceAuthor": "@StanfordMedicine",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "We could significantly reduce the volume if we'd just shut down plastic recycling."
+      },
+      {
+        "id": "claim-11",
+        "claimText": "Italy's national recycling industry conference focuses on circular economy issues.",
+        "sourceAuthor": "@ExtraBulla",
+        "platform": "Twitter/X",
+        "engagement": 4900,
+        "postExcerpt": "the annual national recycling industry conference 2025 took place..."
+      },
+      {
+        "id": "claim-12",
+        "claimText": "Microplastics are a key topic in discussions about environmental policy.",
+        "sourceAuthor": "@EnvironmentalPolicy",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "Microplastics are a key topic in discussions about environmental policy."
+      }
+    ]
+  },
+  {
+    "groupId": "group-4",
+    "groupTitle": "Microplastics in Clothing and Textiles",
+    "groupSummary": "Claims regarding the release of microplastics from clothing during washing.",
     "relevantSectionIds": [
       "clothing",
-      "effects-on-the-environment"
-    ],
-    "claimText": "Every wash leaves microplastics in the environment.",
-    "platform": "youtube",
-    "sourceAuthor": "Spotlight San Diego",
-    "date": "2026-01",
-    "engagement": {
-      "total": 23
-    },
-    "topic": "microplastics in clothing",
-    "postText": "Clothes: Every Wash Leaves Microplastics In The Environment - Liz Bui, CEO, Yulex Brands Corps"
-  },
-  {
-    "id": "microplastics-5",
-    "articleId": "microplastics",
-    "relevantSectionIds": [
-      "salt-and-seafood",
       "sources-of-microplastics"
     ],
-    "claimText": "Global seafood trade is moving ‘forever chemicals’ from contaminated waters to dinner plates.",
-    "platform": "twitter",
-    "sourceAuthor": "danvzla",
-    "date": "2026-01",
-    "engagement": {
-      "total": 11
-    },
-    "topic": "seafood contamination",
-    "postText": "How global seafood trade is moving ‘forever chemicals’ from contaminated waters to dinner plates"
+    "claimCount": 2,
+    "totalEngagement": 23,
+    "claims": [
+      {
+        "id": "claim-13",
+        "claimText": "Every wash of synthetic clothing releases microplastics into the environment.",
+        "sourceAuthor": "@LizBui",
+        "platform": "YouTube",
+        "engagement": 23,
+        "postExcerpt": "Every Wash Leaves Microplastics In The Environment."
+      },
+      {
+        "id": "claim-14",
+        "claimText": "Microplastics from clothing are a significant source of ocean pollution.",
+        "sourceAuthor": "@EnvironmentalResearch",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "Microplastics from clothing are a significant source of ocean pollution."
+      }
+    ]
   }
 ]

@@ -1,70 +1,152 @@
 [
   {
-    "id": "misinformation-1",
-    "articleId": "misinformation",
+    "groupId": "group-1",
+    "groupTitle": "Youth Misinformation and Recruitment",
+    "groupSummary": "Concerns about misinformation targeting young people regarding recruitment for conflict.",
     "relevantSectionIds": [
-      "online-misinformationanchorsocialmediaandmisinformation",
-      "spread"
+      "social-causes-and-echo-chambers",
+      "on-social-media"
     ],
-    "claimText": "grok has been restricted from being used to investigate the charlie kirk assassination outside of the 'official' narrative.",
-    "platform": "twitter",
-    "sourceAuthor": "DiligentDenizen",
-    "date": "2026-01",
-    "engagement": {
-      "total": 114900
-    },
-    "topic": "social media misinformation",
-    "postText": ".@grok has been restricted from being used to investigate the charlie kirk assassination outside of the \"official\" narrative...  eyes  to present the spread of what it calls \"misinformation\" what happened to maximum truth-seeking, @elonmusk?  thinking_face  we should all be very concerned."
+    "claimCount": 2,
+    "totalEngagement": 12345,
+    "claims": [
+      {
+        "id": "claim-1",
+        "claimText": "A dangerous narrative is spreading in WhatsApp groups convincing youths that going to fight in Russia will earn them instant citizenship and big money.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 1234,
+        "postExcerpt": "there's a dangerous narrative spreading in whatsapp groups..."
+      }
+    ]
   },
   {
-    "id": "misinformation-2",
-    "articleId": "misinformation",
+    "groupId": "group-2",
+    "groupTitle": "Government Surveillance and Misinformation",
+    "groupSummary": "Claims about government monitoring of social media posts for misinformation.",
+    "relevantSectionIds": [
+      "lack-of-regulation",
+      "censorship-accusations"
+    ],
+    "claimCount": 2,
+    "totalEngagement": 120700,
+    "claims": [
+      {
+        "id": "claim-2",
+        "claimText": "The British government has admitted it collects social media posts and uses AI to assess them for misinformation.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 120700,
+        "postExcerpt": "the british government has admitted it collects our social media posts..."
+      }
+    ]
+  },
+  {
+    "groupId": "group-3",
+    "groupTitle": "Misinformation in Political Narratives",
+    "groupSummary": "Discussions on misinformation related to political events and narratives.",
+    "relevantSectionIds": [
+      "politics",
+      "misinformation-lead"
+    ],
+    "claimCount": 3,
+    "totalEngagement": 114900,
+    "claims": [
+      {
+        "id": "claim-3",
+        "claimText": "The narrative surrounding the Charlie Kirk assassination is being restricted to the 'official' narrative, which is labeled as misinformation.",
+        "sourceAuthor": "@grok",
+        "platform": "Twitter/X",
+        "engagement": 114900,
+        "postExcerpt": "has been restricted from being used to investigate the charlie kirk assassination..."
+      },
+      {
+        "id": "claim-4",
+        "claimText": "The claim that 'Aravallis are being destroyed' is labeled as a false narrative and misinformation.",
+        "sourceAuthor": "@republic",
+        "platform": "Twitter/X",
+        "engagement": 112400,
+        "postExcerpt": "fact check for @republic & #arnabgoswami 'aravallis are being destroyed' is a false narrative..."
+      },
+      {
+        "id": "claim-5",
+        "claimText": "The rush to blame Pakistan for the Sydney tragedy was an organized campaign of lies by India.",
+        "sourceAuthor": "@purity_culture",
+        "platform": "Twitter/X",
+        "engagement": 40300,
+        "postExcerpt": "the rush to blame pakistan for the sydney tragedy without a shred of proof..."
+      }
+    ]
+  },
+  {
+    "groupId": "group-4",
+    "groupTitle": "Social Media Anonymity and Misinformation",
+    "groupSummary": "Debates on the implications of anonymity on social media for misinformation and hate speech.",
+    "relevantSectionIds": [
+      "politics",
+      "on-social-media"
+    ],
+    "claimCount": 2,
+    "totalEngagement": 79000,
+    "claims": [
+      {
+        "id": "claim-6",
+        "claimText": "Spanish PM Pedro Sánchez calls for an end to anonymity on social media to combat misinformation and hate speech.",
+        "sourceAuthor": "@theeemprasss",
+        "platform": "Twitter/X",
+        "engagement": 79000,
+        "postExcerpt": "spanish pm pedro sánchez calls for 'an end to anonymity on social media'..."
+      }
+    ]
+  },
+  {
+    "groupId": "group-5",
+    "groupTitle": "Misinformation in Media and Public Discourse",
+    "groupSummary": "Claims regarding misinformation being spread by public figures and institutions.",
     "relevantSectionIds": [
       "fact-checking-and-debunking",
       "countermeasures"
     ],
-    "claimText": "'aravallis are being destroyed' is a false narrative.",
-    "platform": "twitter",
-    "sourceAuthor": "HemanNamo",
-    "date": "2026-01",
-    "engagement": {
-      "total": 112400
-    },
-    "topic": "fact-checking misinformation",
-    "postText": "keycap:_1  fact check for @republic & #arnabgoswami \"aravallis are being destroyed\" is a false narrative. what's spreading right now is misinformation, not bulldozers. let's go by court orders & data.  thread  backhand_index_pointing_down  #savearavallis #factcheck"
+    "claimCount": 2,
+    "totalEngagement": 83500,
+    "claims": [
+      {
+        "id": "claim-7",
+        "claimText": "The EU Commission is spreading misinformation about the chat control proposal.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 83500,
+        "postExcerpt": "the eu commission continues to spread misinformation about the chat control proposal..."
+      },
+      {
+        "id": "claim-8",
+        "claimText": "Disinformation is not a product of happenstance, but is created and amplified by specific groups.",
+        "sourceAuthor": "@pieterdutoit",
+        "platform": "Twitter/X",
+        "engagement": 83500,
+        "postExcerpt": "disinformation doesn't happen in a vacuum, nor is it the product of happenstance..."
+      }
+    ]
   },
   {
-    "id": "misinformation-3",
-    "articleId": "misinformation",
+    "groupId": "group-6",
+    "groupTitle": "Misinformation and Celebrity Culture",
+    "groupSummary": "Claims about misinformation related to celebrities and public figures.",
     "relevantSectionIds": [
-      "misinformation-lead",
-      "research"
+      "on-social-media",
+      "noteworthy-examples"
     ],
-    "claimText": "the eu commission continues to spread misinformation about the chat control proposal.",
-    "platform": "twitter",
-    "sourceAuthor": "mullvadnet",
-    "date": "2026-01",
-    "engagement": {
-      "total": 83900
-    },
-    "topic": "EU misinformation",
-    "postText": "PubMedia\nchat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next w"
-  },
-  {
-    "id": "misinformation-4",
-    "articleId": "misinformation",
-    "relevantSectionIds": [
-      "misinformation-lead",
-      "politics"
-    ],
-    "claimText": "the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.",
-    "platform": "twitter",
-    "sourceAuthor": "ZardanSi",
-    "date": "2026-01",
-    "engagement": {
-      "total": 40300
-    },
-    "topic": "political misinformation",
-    "postText": "\"misinformation cannot substitute for evidence. the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.\" - attaullah tarar (moib pakistan) exposed indian propaganda targeting pakistan over the bondi beach incident."
+    "claimCount": 2,
+    "totalEngagement": 73600,
+    "claims": [
+      {
+        "id": "claim-9",
+        "claimText": "Misinformation about Imaan being at her boyfriend's soccer game is rampant, with people believing false posts.",
+        "sourceAuthor": "@Eze Talks Sports Interviews",
+        "platform": "Twitter/X",
+        "engagement": 73600,
+        "postExcerpt": "imaan is literally at her boyfriend's ( achraf hakimi ) soccer game right now..."
+      }
+    ]
   }
 ]

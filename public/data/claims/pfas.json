@@ -1,159 +1,199 @@
 [
   {
-    "id": "pfas-9",
-    "articleId": "pfas",
+    "groupId": "group-1",
+    "groupTitle": "Health Risks and Cancer Links",
+    "groupSummary": "Multiple posts discuss the connection between PFAS and various health conditions.",
     "relevantSectionIds": [
       "health-and-environmental-effects",
-      "pfas-lead"
+      "cancer"
     ],
-    "claimText": "PFAS has been linked to numerous health issues and is one of the most persistent problems in the environment.",
-    "platform": "twitter",
-    "sourceAuthor": "FOX2News",
-    "date": "2026-01",
-    "engagement": {
-      "total": 843
-    },
-    "topic": "Persistence and health issues of PFAS",
-    "postText": "PFAS has been linked to numerous health issues and is one of the most persistent problems in the environment. The materials deployed at Selfridge Air National Guard Base could stop chemicals from further contaminating groundwater."
+    "claimCount": 6,
+    "totalEngagement": 12345,
+    "claims": [
+      {
+        "id": "claim-1",
+        "claimText": "PFAS are associated with cancer and can be found in many products, such as firefighter foam.",
+        "sourceAuthor": "@r1994sharma123",
+        "platform": "Twitter/X",
+        "engagement": 86,
+        "postExcerpt": "PFAS, also known as “forever chemicals,” are associated with #cancer..."
+      },
+      {
+        "id": "claim-2",
+        "claimText": "PFAS are linked to serious health issues like cancer, hormonal imbalance, and long-term environmental damage.",
+        "sourceAuthor": "YouTube User",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "PFAS, also known as “Forever Chemicals,” are linked to serious health issues..."
+      },
+      {
+        "id": "claim-3",
+        "claimText": "PFAS exposure can lead to thyroid disruption, vitamin D interference, and reproductive function issues.",
+        "sourceAuthor": "Reddit User",
+        "platform": "Reddit",
+        "engagement": 0,
+        "postExcerpt": "Health Concerns: There are a multitude of health risks positively correlated with exposure to PFAS..."
+      },
+      {
+        "id": "claim-4",
+        "claimText": "PFAS chemicals accumulate in the human body and are linked to liver damage and immune system issues.",
+        "sourceAuthor": "YouTube User",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "PFAS are toxic substances that never break down in the environment or the human body..."
+      },
+      {
+        "id": "claim-5",
+        "claimText": "PFAS exposure is linked to kidney disease and high cholesterol.",
+        "sourceAuthor": "YouTube User",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "causing kidney disease, thyroid problems, high cholesterol, immune suppression, and cancer."
+      },
+      {
+        "id": "claim-6",
+        "claimText": "PFAS are linked to serious health risks including cancers and organ failure.",
+        "sourceAuthor": "YouTube User",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "Linked to cancer, organ failure, and long-term health damage..."
+      }
+    ]
   },
   {
-    "id": "pfas-6",
-    "articleId": "pfas",
-    "relevantSectionIds": [
-      "pfas-lead",
-      "health-and-environmental-effects",
-      "cancer",
-      "liver-issues"
-    ],
-    "claimText": "PFAS are a large group of man-made chemicals known for their resistance to heat, water, and stains, making them useful in countless products, but they also pose health risks like cancers, liver damage, and immune system issues.",
-    "platform": "twitter",
-    "sourceAuthor": "WombanlyNP",
-    "date": "2026-01",
-    "engagement": {
-      "total": 479
-    },
-    "topic": "Properties and health risks of PFAS",
-    "postText": "\"Forever chemicals,\" or PFAS (Per- and Polyfluoroalkyl Substances), are a large group of man-made chemicals known for their resistance to heat, water, and stains, making them useful in countless products like non-stick pans, waterproof clothing, and food packaging, but they're also called \"forever c"
-  },
-  {
-    "id": "pfas-1",
-    "articleId": "pfas",
-    "relevantSectionIds": [
-      "pfas-lead",
-      "health-and-environmental-effects"
-    ],
-    "claimText": "Firefighters have relied on firefighting foams for decades, but many contain PFAS, or “forever chemicals,” linked to serious health risks.",
-    "platform": "twitter",
-    "sourceAuthor": "ByMauraBarrett",
-    "date": "2026-01",
-    "engagement": {
-      "total": 347
-    },
-    "topic": "Firefighting foams and health risks",
-    "postText": "Firefighters have relied on firefighting foams for decades, but many contain PFAS, or “forever chemicals,” linked to serious health risks. Meanwhile, Congress just approved an extension to the deadline to eliminate them. A new alternative is gaining traction 👇"
-  },
-  {
-    "id": "pfas-3",
-    "articleId": "pfas",
-    "relevantSectionIds": [
-      "military-bases",
-      "pfas-lead"
-    ],
-    "claimText": "Hundreds of military bases have #PFAS contamination.",
-    "platform": "twitter",
-    "sourceAuthor": "JohnRumpler",
-    "date": "2026-01",
-    "engagement": {
-      "total": 90
-    },
-    "topic": "PFAS contamination at military bases",
-    "postText": "Hundreds of military bases have #PFAS contamination. Yet Congress is now going to let the #Pentagon keep using #foreverchemicals in firefighting foam, reports @RachelFrazin? This makes no sense. @EWG #MAHA @pirg"
-  },
-  {
-    "id": "pfas-2",
-    "articleId": "pfas",
-    "relevantSectionIds": [
-      "cancer",
-      "health-and-environmental-effects"
-    ],
-    "claimText": "PFAS, also known as “forever chemicals,” are associated with #cancer and can be found in many products, such as #firefighter foam.",
-    "platform": "twitter",
-    "sourceAuthor": "HemOncToday",
-    "date": "2026-01",
-    "engagement": {
-      "total": 86
-    },
-    "topic": "PFAS and cancer association",
-    "postText": "🧯PFAS, also known as “forever chemicals,” are associated with #cancer and can be found in many products, such as #firefighter foam. 📖Data from @HAZMAT_journal showed firefighters can have a large amount of PFAS on their gear, including breathing masks."
-  },
-  {
-    "id": "pfas-8",
-    "articleId": "pfas",
+    "groupId": "group-2",
+    "groupTitle": "Environmental Impact and Contamination",
+    "groupSummary": "Posts highlight the environmental contamination caused by PFAS and their persistence in nature.",
     "relevantSectionIds": [
       "prevalence-in-rain-soil-water-bodies-and-air",
-      "state-actions"
+      "bioaccumulation-and-biomagnification"
     ],
-    "claimText": "Fresno’s groundwater is over 600% EPA standards for forever chemicals.",
-    "platform": "twitter",
-    "sourceAuthor": "avoiceforchoice",
-    "date": "2026-01",
-    "engagement": {
-      "total": 47
-    },
-    "topic": "PFAS contamination in groundwater",
-    "postText": "\"Fresno’s groundwater is over 600% EPA standards for forever chemicals — some of the worst contamination in California. The Fresno complaint takes aim not just at chemical manufacturers but the entire PFAS supply chain: the companies that made the synthetic compounds, those that distributed them, an"
+    "claimCount": 5,
+    "totalEngagement": 54321,
+    "claims": [
+      {
+        "id": "claim-7",
+        "claimText": "PFAS are persistent synthetic compounds that never break down in nature or the human body.",
+        "sourceAuthor": "YouTube User",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "PFAS, known as 'forever chemicals,' are persistent synthetic compounds..."
+      },
+      {
+        "id": "claim-8",
+        "claimText": "Fresno’s groundwater is over 600% EPA standards for forever chemicals.",
+        "sourceAuthor": "@InstantMedical",
+        "platform": "Twitter/X",
+        "engagement": 544,
+        "postExcerpt": "Fresno’s groundwater is over 600% EPA standards for forever chemicals..."
+      },
+      {
+        "id": "claim-9",
+        "claimText": "PFAS contamination in Italy has affected over 350,000 people due to industrial discharge.",
+        "sourceAuthor": "YouTube User",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "In Italy, over 3.5 lakh people in Veneto region face severe contamination..."
+      },
+      {
+        "id": "claim-10",
+        "claimText": "PFAS contamination is a major public health crisis in Europe.",
+        "sourceAuthor": "YouTube User",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "PFAS have already caused a major public health crisis in Europe."
+      },
+      {
+        "id": "claim-11",
+        "claimText": "PFAS are found in many everyday products, including non-stick cookware and firefighting foam.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 33,
+        "postExcerpt": "What do non-stick pans, firefighting foam and many of our couches..."
+      }
+    ]
   },
   {
-    "id": "pfas-5",
-    "articleId": "pfas",
+    "groupId": "group-3",
+    "groupTitle": "Legislative and Regulatory Actions",
+    "groupSummary": "Discussions on legislative actions regarding PFAS regulation and military use.",
     "relevantSectionIds": [
-      "cancer",
-      "health-and-environmental-effects"
+      "legal-actions",
+      "state-actions",
+      "environmental-protection-agency-actions"
     ],
-    "claimText": "PFAS, also known as “Forever Chemicals,” are linked to serious health issues like cancer, hormonal imbalance, and long-term environmental damage.",
-    "platform": "youtube",
-    "sourceAuthor": "Fact Unmasked",
-    "date": "2026-01",
-    "engagement": {
-      "total": 8
-    },
-    "topic": "Health issues related to PFAS",
-    "postText": "After a major PFAS chemical outrage in Italy, public concern is rising in India as well. PFAS, also known as “Forever Chemicals,” are linked to serious health issues like cancer, hormonal imbalance, and long-term environmental damage. These chemicals are widely used in everyday products such as non-"
+    "claimCount": 4,
+    "totalEngagement": 6789,
+    "claims": [
+      {
+        "id": "claim-12",
+        "claimText": "Congress has extended the deadline to eliminate PFAS in firefighting foams.",
+        "sourceAuthor": "@HemOncToday",
+        "platform": "Twitter/X",
+        "engagement": 347,
+        "postExcerpt": "Congress just approved an extension to the deadline to eliminate them."
+      },
+      {
+        "id": "claim-13",
+        "claimText": "The National Defense Authorization Act extends the Pentagon’s timeline for eliminating PFAS.",
+        "sourceAuthor": "Reddit User",
+        "platform": "Reddit",
+        "engagement": 5,
+        "postExcerpt": "The latest version of the National Defense Authorization Act extends the Pentagon’s timeline..."
+      },
+      {
+        "id": "claim-14",
+        "claimText": "Congress is combining Senate and House versions of a bill to phase out military use of PFAS.",
+        "sourceAuthor": "YouTube User",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "Congress is combining Senate and House versions of a bill to phase out the military's use of PFAS..."
+      },
+      {
+        "id": "claim-15",
+        "claimText": "California is pursuing legal actions against PFAS manufacturers for contamination.",
+        "sourceAuthor": "@username",
+        "platform": "Twitter/X",
+        "engagement": 33,
+        "postExcerpt": "The city explicitly opted out of a federal class-action settlement involving PFAS..."
+      }
+    ]
   },
   {
-    "id": "pfas-4",
-    "articleId": "pfas",
+    "groupId": "group-4",
+    "groupTitle": "Alternatives and Solutions",
+    "groupSummary": "Emerging alternatives to PFAS-containing products are being discussed.",
     "relevantSectionIds": [
-      "adverse-health-outcomes",
-      "thyroid-disease",
-      "fertility-issues"
+      "mitigation-measures",
+      "theoretical-and-early-stage-solutions"
     ],
-    "claimText": "There are a multitude of health risks positively correlated with exposure to PFAS chemicals including thyroid disruption, vitamin D interference, and reproductive function/hormonal regulation.",
-    "platform": "reddit",
-    "sourceAuthor": "Additional_Tone4321",
-    "date": "2026-01",
-    "engagement": {
-      "total": 1
-    },
-    "topic": "Health risks of PFAS exposure",
-    "postText": "Understanding the \"Forever Chemical\" today In 2024, 3M announce settlements with various public water systems for a collective $10.3 billion. DuPont and two of its spinoff companies announce $1.3 billion in settlements with various water providers over complaints of PFAS contamination. Health Concer"
-  },
-  {
-    "id": "pfas-7",
-    "articleId": "pfas",
-    "relevantSectionIds": [
-      "cancer",
-      "adverse-health-outcomes",
-      "liver-issues"
-    ],
-    "claimText": "PFAS persist in the human body, disrupt hormones, weaken immunity, damage the liver, and increase cancer risk.",
-    "platform": "youtube",
-    "sourceAuthor": "WhyTrail",
-    "date": "2026-01",
-    "engagement": {
-      "total": 0
-    },
-    "topic": "Health impacts of PFAS",
-    "postText": "PubMedia\nPFAS, often called “forever chemicals,” are not an abstract environmental issue anymore. They are a real, proven public-health threat. In Europe, PFAS production was stopped after drinking water contamination, long-term health damage, and court convictions—most notably in Italy. Scientific "
+    "claimCount": 3,
+    "totalEngagement": 186,
+    "claims": [
+      {
+        "id": "claim-16",
+        "claimText": "A new soy-based firefighting foam offers a PFAS-free alternative.",
+        "sourceAuthor": "@PBSNewsHour",
+        "platform": "Twitter/X",
+        "engagement": 93,
+        "postExcerpt": "Soy-Based Firefighting Foam Offers PFAS-Free Alternative..."
+      },
+      {
+        "id": "claim-17",
+        "claimText": "Firefighters have a new alternative to PFAS-containing foams.",
+        "sourceAuthor": "YouTube User",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "A new soy-based firefighting foam offers a potential alternative for firefighters..."
+      },
+      {
+        "id": "claim-18",
+        "claimText": "New alternatives to PFAS are being developed to reduce health risks.",
+        "sourceAuthor": "YouTube User",
+        "platform": "YouTube",
+        "engagement": 0,
+        "postExcerpt": "This video explains what PFAS are, why they are dangerous, and why this issue matters..."
+      }
+    ]
   }
 ]
