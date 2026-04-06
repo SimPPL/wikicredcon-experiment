@@ -350,8 +350,9 @@ export default function EditPage() {
 
   // Synthesize legacy ArbiterClaim[] from ClaimGroups for ArticleRenderer badges
   const claimGroupsAsLegacyClaims: ArbiterClaim[] = useMemo(() => {
+    if (!claimGroups || !Array.isArray(claimGroups)) return [];
     return claimGroups.flatMap((group) =>
-      group.claims.map((c) => ({
+      (group.claims || []).map((c) => ({
         id: c.id,
         articleId: article?.id || '',
         relevantSectionIds: group.relevantSectionIds,

@@ -85,7 +85,7 @@ export default function ClaimsSidebar({
   const [activeTab, setActiveTab] = useState<TabId>('claims');
 
   const totalClaims = useMemo(
-    () => claimGroups.reduce((sum, g) => sum + g.claimCount, 0),
+    () => (claimGroups || []).reduce((sum, g) => sum + (g.claimCount || g.claims?.length || 0), 0),
     [claimGroups]
   );
 
