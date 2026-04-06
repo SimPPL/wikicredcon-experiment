@@ -306,9 +306,16 @@ export default function DashboardPage() {
           >
             Export My Data (JSON)
           </button>
-          <p className="text-xs mt-2" style={{ color: 'var(--wiki-text-disabled)' }}>
+          <p className="text-xs mt-2 mb-4" style={{ color: 'var(--wiki-text-disabled)' }}>
             Download your experiment data to share with the workshop facilitator.
           </p>
+          <a
+            href="/"
+            className="px-6 py-2 rounded cursor-pointer text-sm inline-block"
+            style={{ backgroundColor: 'var(--wiki-chrome)', color: 'var(--wiki-text)', border: '1px solid var(--wiki-chrome-border)' }}
+          >
+            Return to Home Page
+          </a>
         </div>
       </div>
     </div>
