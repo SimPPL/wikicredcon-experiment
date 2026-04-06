@@ -178,15 +178,7 @@
         "snippet": "Says HHS plans childhood vaccine changes aligning with Denmark; frames RFK Jr. as a skeptic."
       }
     ],
-    "factChecks": [
-      {
-        "title": "Lawyer with ties to Kennedy sparks outcry over vaccine misinformation at CDC advisory meeting",
-        "url": "https://www.nbcnews.com/health/kids-health/lawyer-rfk-jr-vaccine-misinformation-cdc-panel-rcna247607",
-        "publisher": "NBC News",
-        "type": "fact-check",
-        "snippet": "An anti-vaccine lawyer, Aaron Siri, spoke at a CDC vaccine advisory panel meeting."
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": [
       {
         "title": "COVID-19 misinformation",
@@ -685,22 +677,7 @@
         "snippet": "CDC changed autism/vaccines page: “studies have not ruled out the possibility” vaccines cause autism."
       }
     ],
-    "factChecks": [
-      {
-        "title": "Governor Healey warns of hepatitis B vaccine misinformation",
-        "url": "https://www.bostonglobe.com/2025/12/03/metro/healey-expresses-support-for-hepatitis-b-vaccine-ahead-of-cdc-committee-vote/",
-        "publisher": "The Boston Globe",
-        "type": "fact-check",
-        "snippet": "“Between 1990 and 2019… hepatitis B infections dropped 99 percent in children and teens…”"
-      },
-      {
-        "title": "Massachusetts health chief: Vaccine disinformation fight takes 90% of job",
-        "url": "https://www.masslive.com/politics/2025/12/the-new-normal-fighting-misinformation-now-consumes-90-of-mass-top-health-officials-time.html",
-        "publisher": "masslive.com",
-        "type": "fact-check",
-        "snippet": "Healey: “In Massachusetts, we follow the science, the data and we listen to our medical experts.”"
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": []
   },
   {
@@ -871,22 +848,14 @@
         "snippet": "ACIP votes to stop recommending universal newborn hepatitis B shot."
       },
       {
-        "title": "South Carolina's measles outbreak shows effect of vaccine misinformation",
-        "url": "https://medicalxpress.com/news/2025-12-south-carolina-measles-outbreak-effect.html",
-        "publisher": "Medical Xpress",
-        "type": "news",
-        "snippet": "…Global Academy of South Carolina, where only 17% of the 605 students… provided documentation…"
-      }
-    ],
-    "factChecks": [
-      {
         "title": "Governor Healey warns of hepatitis B vaccine misinformation",
         "url": "https://www.bostonglobe.com/2025/12/03/metro/healey-expresses-support-for-hepatitis-b-vaccine-ahead-of-cdc-committee-vote/",
         "publisher": "Boston Globe",
-        "type": "fact-check",
+        "type": "news",
         "snippet": "September… “combination shot” protects against chickenpox plus measles, mumps and rubella; ACIP declined… COVID-19."
       }
     ],
+    "factChecks": [],
     "wikipediaRefs": []
   },
   {
@@ -1029,13 +998,6 @@
     ],
     "factChecks": [
       {
-        "title": "South Carolina's measles outbreak shows effect of vaccine misinformation",
-        "url": "https://medicalxpress.com/news/2025-12-south-carolina-measles-outbreak-effect.html",
-        "publisher": "Medical Xpress",
-        "type": "fact-check",
-        "snippet": "Spartanburg County … fighting a measles outbreak since early October, with more than 50 cases identified."
-      },
-      {
         "title": "“Nations who accept the new regulations [WHO International Health Regulations] are signing over their power in health emergencies to an unelected international organization that could order lockdowns, travel restrictions, or any other measures.\"",
         "url": "https://www.factcheck.org/2025/07/rfk-jr-hhs-wrong-about-who-power-under-updated-global-health-regulations/",
         "publisher": "FactCheck.org",
@@ -1085,7 +1047,7 @@
         "url": "https://www.masslive.com/politics/2025/12/the-new-normal-fighting-misinformation-now-consumes-90-of-mass-top-health-officials-time.html",
         "publisher": "MassLive",
         "type": "news",
-        "snippet": "“We have been safely… Hepatitis B vaccine to newborns since 1991… fallen by 99% nationwide.”"
+        "snippet": "“less than half of all Americans now saying they have confidence” (May tracking poll by KFF)"
       },
       {
         "title": "CDC panel overturns 1991 newborn vaccine policy, triggering warnings of a public health backslide",
@@ -1109,15 +1071,7 @@
         "snippet": "Nearly half of CDC vaccine databases paused without explanation; ~90% of stale databases vaccine-related"
       }
     ],
-    "factChecks": [
-      {
-        "title": "Massachusetts health chief: Vaccine disinformation fight takes 90% of job",
-        "url": "https://www.masslive.com/politics/2025/12/the-new-normal-fighting-misinformation-now-consumes-90-of-mass-top-health-officials-time.html",
-        "publisher": "MassLive",
-        "type": "fact-check",
-        "snippet": "“less than half of all Americans now saying they have confidence” (May tracking poll by KFF)"
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": []
   }
 ]

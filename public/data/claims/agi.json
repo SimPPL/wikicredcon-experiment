@@ -202,43 +202,7 @@
         "snippet": "Mentions Demis Hassabis at India’s AI summit and provides summit context involving other leaders."
       }
     ],
-    "factChecks": [
-      {
-        "title": "Enterprises prefer Anthropic's AI models over anyone else's, including OpenAI",
-        "url": "https://techcrunch.com/2025/07/31/enterprises-prefer-anthropics-ai-models-over-anyone-elses-including-openais/",
-        "publisher": "TechCrunch",
-        "type": "fact-check",
-        "snippet": "Anthropic now holds 32% of enterprise LLM market share by usage…"
-      },
-      {
-        "title": "Anthropic's Sonnet 4.6 matches flagship AI performance at one-fifth the cost, accelerating enterprise adoption",
-        "url": "https://venturebeat.com/orchestration/anthropics-sonnet-4-6-matches-flagship-ai-performance-at-one-fifth-the-cost",
-        "publisher": "VentureBeat",
-        "type": "fact-check",
-        "snippet": "Claude Sonnet 4.6 delivers near-flagship intelligence at mid-tier cost…"
-      },
-      {
-        "title": "Anthropic's AI models used in US military operations despite blacklist: Report",
-        "url": "https://www.moneycontrol.com/world/anthropics-ai-models-used-in-us-military-operations-despite-blacklist-report-article-13850371.html",
-        "publisher": "Moneycontrol",
-        "type": "fact-check",
-        "snippet": "Anthropic models developed by Anthropic are being used to support US military operations…"
-      },
-      {
-        "title": "AI on the battlefield: US used Anthropic's Claude in Maduro operation",
-        "url": "https://www.indiatoday.in/technology/news/story/ai-on-the-battlefield-us-used-anthropics-claude-in-maduro-operation-2868157-2026-02-14",
-        "publisher": "India Today",
-        "type": "fact-check",
-        "snippet": "Anthropic’s model, Claude… was used in a US military operation aimed at capturing Nicolás Maduro…"
-      },
-      {
-        "title": "Was Anthropic's Claude Used In AI Kill-Chain During Maduro Venezuela Raid",
-        "url": "https://www.zerohedge.com/ai/was-anthropics-claude-used-ai-kill-chain-during-maduro-venezuela-raid",
-        "publisher": "ZeroHedge",
-        "type": "fact-check",
-        "snippet": "Anthropic's AI tool, Claude, was reportedly used during the Delta Force raid to capture Nicolás Maduro…"
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": [
       {
         "title": "Nvidia",

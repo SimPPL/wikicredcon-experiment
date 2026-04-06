@@ -202,29 +202,7 @@
         "snippet": "Hims says it will stop offering access to compounded semaglutide after FDA warned of action."
       }
     ],
-    "factChecks": [
-      {
-        "title": "Australia’s therapeutic goods regulator has approved a new weight loss treatment.",
-        "url": "https://www.aap.com.au/factcheck/claims-ozempic-style-weight-loss-liquid-is-tga-approved-are-light-on-truth/",
-        "publisher": "AAP",
-        "type": "fact-check",
-        "snippet": "False. No such medication has been approved or endorsed by the regulator..."
-      },
-      {
-        "title": "What's Happening With Novo Nordisk Stock Today?",
-        "url": "https://www.benzinga.com/trading-ideas/movers/26/03/51490943/whats-happening-with-novo-nordisk-stock-today",
-        "publisher": "Benzinga",
-        "type": "fact-check",
-        "snippet": "Hims & Hers expands access… including the Wegovy pill… Pricing starts at $149 per month."
-      },
-      {
-        "title": "Fact check/The opioid crisis and national emergency declarations.",
-        "url": "https://ballotpedia.org/Fact_check/The_opioid_crisis_and_national_emergency_declarations",
-        "publisher": "Ballotpedia",
-        "type": "fact-check",
-        "snippet": "The San Francisco Chronicle"
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": [
       {
         "title": "GLP-1 receptor agonist",
@@ -435,7 +413,7 @@
         "url": "https://www.news18.com/india/govt-cracks-down-on-unauthorised-sale-of-glp-1-weight-loss-drugs-steps-up-surveillance-9993759.html",
         "publisher": "news18.com",
         "type": "news",
-        "snippet": "Concerns include availability through pharmacies/online platforms and risks from use without medical supervision."
+        "snippet": "Health ministry steps up action; warns use without proper supervision could lead to serious side effects."
       },
       {
         "title": "Govt intensifies regulatory surveillance over supply chain of weight-loss drug GLP-1",
@@ -489,39 +467,11 @@
     ],
     "factChecks": [
       {
-        "title": "Govt tightens watch on GLP-1 weight-loss drugs amid concerns over unauthorised sales",
-        "url": "https://timesofindia.indiatimes.com/india/govt-tightens-watch-on-glp-1-weight-loss-drugs-amid-concerns-over-unauthorised-sales/articleshow/129767740.cms",
-        "publisher": "Times of India",
+        "title": "Pharmaceutical companies behind weight loss and diabetes medication such as Ozempic are facing a lawsuit that could potentially pay out more than $2 billion.",
+        "url": "https://www.snopes.com/fact-check/ozempic-2-billion-lawsuit/",
+        "publisher": "Snopes",
         "type": "fact-check",
-        "snippet": "Drugs Controller intensifying surveillance against illegal sale and promotion; aims to prevent unauthorized sales and usage"
-      },
-      {
-        "title": "Govt intensifies surveillance on GLP-1 drugs amid misuse concerns",
-        "url": "https://www.financialexpress.com/india-news/govt-intensifies-surveillance-on-glp-1-drugs-amid-misuse-concerns/4182998/",
-        "publisher": "financialexpress.com",
-        "type": "fact-check",
-        "snippet": "Drugs Controller intensifies surveillance over unauthorized sale/promotion; warns about health risks if used unsupervised."
-      },
-      {
-        "title": "Govt Cracks Down On Unauthorised Sale Of GLP-1 Weight Loss Drugs, Steps Up Surveillance",
-        "url": "https://www.news18.com/india/govt-cracks-down-on-unauthorised-sale-of-glp-1-weight-loss-drugs-steps-up-surveillance-9993759.html",
-        "publisher": "news18.com",
-        "type": "fact-check",
-        "snippet": "Health ministry steps up action; warns use without proper supervision could lead to serious side effects."
-      },
-      {
-        "title": "India’s drug regulator to closely monitor sale, promotion of weight-loss drugs",
-        "url": "https://www.newindianexpress.com/nation/2026/Mar/24/indias-drug-regulator-to-closely-monitor-sale-promotion-of-weight-loss-drugs",
-        "publisher": "New Indian Express",
-        "type": "fact-check",
-        "snippet": "Tightened surveillance against unauthorised sale and promotion amid concerns over widespread misuse and easy availability"
-      },
-      {
-        "title": "Regulatory surveillance over supply chain of weight-loss drug GLP-1 intensified",
-        "url": "https://www.news18.com/agency-feeds/regulatory-surveillance-over-supply-chain-of-weight-loss-drug-glp-1-intensified-9993801.html",
-        "publisher": "News18 (agency feed)",
-        "type": "fact-check",
-        "snippet": "DCGI intensified surveillance against unauthorised sale and promotion; inspections and audits to check improper prescription"
+        "snippet": "Ozempic, other weight-loss drug makers face lawsuits…"
       }
     ],
     "wikipediaRefs": [
@@ -1141,64 +1091,77 @@
     ],
     "sources": [
       {
-        "title": "Hemodynamic impact of acute liver injury on cardiac function: An in silico study via a closed-loop cardiovascular model",
-        "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1014006",
-        "publisher": "PLOS Computational Biology",
-        "type": "news",
-        "snippet": "Analyzes how acute liver injury affects cardiovascular hemodynamics using a closed-loop model."
-      },
-      {
-        "title": "Naringenin attenuates liver injury in Schistosoma mansoni-induced liver fibrosis and oxidative stress in mice model",
-        "url": "https://journals.plos.org/plosntds/article?id=10.1371%2Fjournal.pntd.0013825",
-        "publisher": "PLOS Neglected Tropical Diseases",
-        "type": "news",
-        "snippet": "Mouse model study on liver fibrosis/oxidative stress and liver injury."
-      },
-      {
-        "title": "A novel method for establishing a mouse model of hepatic echinococcosis: Ultrasound-guided percutaneous liver puncture modeling",
-        "url": "https://journals.plos.org/plosntds/article?id=10.1371%2Fjournal.pntd.0014154",
-        "publisher": "PLOS Neglected Tropical Diseases",
-        "type": "news",
-        "snippet": "Describes creating mouse models of hepatic echinococcosis using ultrasound-guided liver puncture."
-      }
-    ],
-    "factChecks": [
-      {
         "title": "Telangana DCA cautions against unsupervised semaglutide use amid rising drug demand for weight loss",
         "url": "https://www.thehindu.com/news/national/telangana/telangana-dca-cautions-against-unsupervised-semaglutide-use-amid-rising-drug-demand-for-weight-loss/article70778664.ece",
         "publisher": "The Hindu",
-        "type": "fact-check",
+        "type": "news",
         "snippet": "Advisory says improper/unsupervised use can lead to serious complications incl. acute pancreatitis and severe GI reactions."
       },
       {
         "title": "IMA Raises Alarm Over Potential Misuse of GLP-1 Drugs in India",
         "url": "https://www.devdiscourse.com/article/headlines/3850834-ima-raises-alarm-over-potential-misuse-of-glp-1-drugs-in-india",
         "publisher": "Devdiscourse",
-        "type": "fact-check",
+        "type": "news",
         "snippet": "IMA warns against unsupervised GLP-1 use, citing side effects including nausea, vomiting, pancreatitis."
       },
       {
         "title": "Drug Regulator Tightens Watch On GLP-1 Weight-Loss Drugs, Issues Notice",
         "url": "https://www.ndtv.com/health/drug-regulator-tightens-watch-on-glp-1-weight-loss-drugs-issues-notice-11258204",
         "publisher": "NDTV",
-        "type": "fact-check",
+        "type": "news",
         "snippet": "Central regulator surveillance targets unauthorized sale/promotion amid concerns; use without supervision may cause serious adverse effects."
       },
       {
         "title": "Govt Intensifies Probe On GLP-1 Illegal Sales: Wholesalers, Online Platforms Under Radar",
         "url": "https://www.ndtvprofit.com/india/govt-intensifies-probe-on-weight-loss-drug-glp-1-illegal-sales-investigates-online-platforms-drug-wholesalersand-more-11258002",
         "publisher": "NDTV Profit",
-        "type": "fact-check",
+        "type": "news",
         "snippet": "Health Ministry notice highlights intensified surveillance over unauthorized sale/promotion of GLP-1 and mentions risks if misused."
       },
       {
         "title": "Govt intensifies regulatory surveillance over supply chain of weight-loss drug GLP-1",
         "url": "https://www.hindustantimes.com/india-news/govt-intensifies-regulatory-surveillance-over-supply-chain-of-weight-loss-drug-glp1-101774329494760.html",
         "publisher": "Hindustan Times",
-        "type": "fact-check",
+        "type": "news",
         "snippet": "Says drugs used without proper medical supervision may lead to serious adverse effects and health risks."
+      },
+      {
+        "title": "Centre intensifies regulatory surveillance over weight-loss drugs",
+        "url": "https://www.thehindu.com/sci-tech/health/centre-intensifies-regulatory-surveillance-over-weight-loss-drugs/article70780200.ece",
+        "publisher": "The Hindu",
+        "type": "news",
+        "snippet": "Ministry release: concerns about on-demand availability; used without proper medical supervision may lead to serious adverse effects."
+      },
+      {
+        "title": "Semaglutide: Telangana Drug Control cautions public on self-medication",
+        "url": "https://www.thehindubusinessline.com/news/national/semaglutide-telangana-drug-control-cautions-public-on-self-medication/article70780908.ece",
+        "publisher": "The Hindu BusinessLine",
+        "type": "news",
+        "snippet": "Advises the public not to self-medicate with semaglutide; use strictly under Endocrinologists/Internal Medicine specialists."
+      },
+      {
+        "title": "Drug regulator inspects 49 entities over unauthorised sale of weight loss drugs",
+        "url": "https://www.news18.com/agency-feeds/drug-regulator-inspects-49-entities-over-unauthorised-sale-of-weight-loss-drugs-9993600.html",
+        "publisher": "News18",
+        "type": "news",
+        "snippet": "Discusses inspections and a crackdown on unauthorized sales/misuse of GLP-1-based weight loss medications."
+      },
+      {
+        "title": "Crackdown on Unauthorised Sales of GLP-1 Weight Loss Medications",
+        "url": "https://www.devdiscourse.com/article/headlines/3848183-crackdown-on-unauthorised-sales-of-glp-1-weight-loss-medications",
+        "publisher": "Devdiscourse",
+        "type": "news",
+        "snippet": "National drug regulator surveillance over misuse; experts warn against reckless use due to potential serious side effects."
+      },
+      {
+        "title": "Govt Cracks Down On Unauthorised Sale Of GLP-1 Weight Loss Drugs, Steps Up Surveillance",
+        "url": "https://www.news18.com/india/govt-cracks-down-on-unauthorised-sale-of-glp-1-weight-loss-drugs-steps-up-surveillance-9993759.html",
+        "publisher": "News18",
+        "type": "news",
+        "snippet": "Ministry warns on-demand availability and says use without proper medical supervision could lead to serious side effects."
       }
     ],
+    "factChecks": [],
     "wikipediaRefs": [
       {
         "title": "GLP-1 receptor agonist",

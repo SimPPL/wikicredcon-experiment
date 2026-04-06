@@ -80,11 +80,26 @@ function main() {
       if (platform !== 'twitter' && platform !== 'reddit' && platform !== 'youtube') continue;
 
       for (const claim of (post.claims || [])) {
+        // Known fact-checking organizations
+        const FACT_CHECK_DOMAINS = ['factcheck.org', 'snopes.com', 'fullfact.org', 'politifact.com', 'afp.com/factcheck', 'reuters.com/fact-check', 'apnews.com/ap-fact-check', 'firstcheck', 'boomlive.in', 'altnews.in', 'vishvasnews.com'];
+        const isFactChecker = (s: Source) => {
+          const url = (s.url || '').toLowerCase();
+          const pub = (s.publisher || '').toLowerCase();
+          return FACT_CHECK_DOMAINS.some(d => url.includes(d) || pub.includes(d)) ||
+            pub.includes('fact check') || pub.includes('factcheck') || pub.includes('fact-check');
+        };
+
+        // Split Arbiter's factCheckedResources into actual fact-checks vs regular news
+        const arbiterFC = claim.factCheckedResources || [];
+        const realFactChecks = arbiterFC.filter(isFactChecker).map((s: Source) => ({ ...s, type: 'fact-check' as const }));
+        const fcAsNews = arbiterFC.filter((s: Source) => !isFactChecker(s)).map((s: Source) => ({ ...s, type: 'news' as const }));
+
         const sources = [
           ...(claim.otherNewsResources || []).map((s: Source) => ({ ...s, type: 'news' as const })),
           ...(claim.verifiedResources || []).map((s: Source) => ({ ...s, type: 'news' as const })),
+          ...fcAsNews,
         ];
-        const factChecks = (claim.factCheckedResources || []).map((s: Source) => ({ ...s, type: 'fact-check' as const }));
+        const factChecks = realFactChecks;
         // Wikipedia resources — include related pages but filter out the current article
         const wikiResources = (claim.wikipediaResources || [])
           .filter((s: Source) => {

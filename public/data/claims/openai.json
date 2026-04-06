@@ -202,15 +202,7 @@
         "snippet": "ChatGPT ... evolved into a behemoth with 300 million weekly active user"
       }
     ],
-    "factChecks": [
-      {
-        "title": "OpenAI updates ChatGPT model to cut “cringe” replies and improve answer quality",
-        "url": "https://indianexpress.com/shorts/technology/artificial-intelligence/openai-gpt-5-3-instant-update-chatgpt-less-cringe-hallucinations-10564254/",
-        "publisher": "Indian Express",
-        "type": "fact-check",
-        "snippet": "Update aims to improve accuracy and reduce unnecessary interruptions in conversation..."
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": [
       {
         "title": "Google",
@@ -851,15 +843,7 @@
         "snippet": "Altman: AI has clear limitations; not for warfighting decisions in military environment."
       }
     ],
-    "factChecks": [
-      {
-        "title": "Sam Altman | Merchant of the future",
-        "url": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece",
-        "publisher": "The Hindu",
-        "type": "fact-check",
-        "snippet": "Sam Altman has declared “code red”. … improve user experience with ChatGPT…"
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": []
   },
   {

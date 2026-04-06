@@ -614,29 +614,7 @@
         "snippet": "Questions over a plant shut down in Italy for causing pollution allowed to operate in India via another company."
       }
     ],
-    "factChecks": [
-      {
-        "title": "How the UK government plans to limit ‘forever chemical’ pollution - and what’s missing",
-        "url": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
-        "publisher": "The Conversation",
-        "type": "fact-check",
-        "snippet": "PFAS used for decades in products such as firefighting foams, non-stick cookware, clothing, electronics..."
-      },
-      {
-        "title": "Why one of Italy's biggest environmental scandals is causing a stir in Maharashtra's Ratnagiri",
-        "url": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
-        "publisher": "ThePrint",
-        "type": "fact-check",
-        "snippet": "PFAS... in products such as cookware, packaging, clothes, carpets... semiconductors..."
-      },
-      {
-        "title": "Why one of Italy's biggest environmental scandals is causing a stir in Maharashtra's Ratnagiri",
-        "url": "https://www.europesays.com/2662301/",
-        "publisher": "EuropeSays",
-        "type": "fact-check",
-        "snippet": "PFAS... in products such as cookware, packaging, clothes, carpets... semiconductors..."
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": []
   },
   {

@@ -150,28 +150,28 @@
         "url": "https://www.independent.co.uk/news/health/wegovy-fda-weight-loss-drug-approval-b2945556.html",
         "publisher": "The Independent",
         "type": "news",
-        "snippet": "Novo Nordisk said higher doses saw an average loss of 21% of body weight after 72 weeks"
+        "snippet": "Approved “Wegovy HD” 7.2 mg vs 2.4 mg; notes 2.4 mg was approved for chronic weight management."
       },
       {
         "title": "New FDA-approved ‘Wegovy HD’ offers triple the semaglutide dosage",
         "url": "https://nypost.com/2026/03/24/health/fda-approves-new-wegovy-hd-with-triple-the-dosage-of-the-semaglutide-medication/",
-        "publisher": "New York Post",
+        "publisher": "NYPost.com",
         "type": "news",
-        "snippet": "Higher-dose Wegovy (semaglutide) ... called a higher-dose GLP-1."
+        "snippet": "FDA approved Wegovy HD (7.2 mg) semaglutide; intended for weight loss and long-term maintenance."
       },
       {
         "title": "Greater weight loss promised by higher-dose Wegovy shot, now approved by FDA",
         "url": "https://www.foxnews.com/health/greater-weight-loss-promised-higher-dose-wegovy-shot-now-approved-fda",
         "publisher": "Fox News",
         "type": "news",
-        "snippet": "FDA approval of higher-dose Wegovy (semaglutide) 7.2 mg for weight loss and long-term maintenance."
+        "snippet": "FDA approved a new, higher-dose Wegovy (semaglutide) injection; 7.2 mg for weight loss/maintenance."
       },
       {
         "title": "New stronger weight-loss drug gets green light from FDA: 'Major jump'",
         "url": "https://www.foxnews.com/health/new-stronger-weight-loss-drug-gets-green-light-from-fda-major-jump",
         "publisher": "Fox News",
         "type": "news",
-        "snippet": "FDA approval of higher-dose Wegovy (semaglutide) ... described as a GLP-1."
+        "snippet": "FDA approval of higher-dose Wegovy (semaglutide) 7.2 mg; indicated for weight loss/long-term maintenance."
       },
       {
         "title": "Indian drugmakers flood market with cheaper versions of Novo's Ozempic, Wegovy",
@@ -202,43 +202,7 @@
         "snippet": "Describes GLP-1 drugs used for obesity/diabetes and discusses semaglutide generics."
       }
     ],
-    "factChecks": [
-      {
-        "title": "Oral Wegovy Launch",
-        "url": "https://www.globenewswire.com/news-release/2026/01/07/3214228/0/en/Best-Peptides-for-Weight-Loss-2026-Oral-Wegovy-Launch-Expands-GLP-1-Format-Options-as-Telehealth-Platforms-Compare-FDA-Approved-vs-Compounded-Semaglutide-Access.html",
-        "publisher": "Globe Newswire",
-        "type": "fact-check",
-        "snippet": "Reports describe Novo Nordisk’s introduction of an oral Wegovy (oral semaglutide) option"
-      },
-      {
-        "title": "The FDA just approved triple the previous maximum dose of Wegovy",
-        "url": "https://www.independent.co.uk/news/health/wegovy-fda-weight-loss-drug-approval-b2945556.html",
-        "publisher": "The Independent",
-        "type": "fact-check",
-        "snippet": "Approved “Wegovy HD” 7.2 mg vs 2.4 mg; notes 2.4 mg was approved for chronic weight management."
-      },
-      {
-        "title": "New FDA-approved ‘Wegovy HD’ offers triple the semaglutide dosage",
-        "url": "https://nypost.com/2026/03/24/health/fda-approves-new-wegovy-hd-with-triple-the-dosage-of-the-semaglutide-medication/",
-        "publisher": "NYPost.com",
-        "type": "fact-check",
-        "snippet": "FDA approved Wegovy HD (7.2 mg) semaglutide; intended for weight loss and long-term maintenance."
-      },
-      {
-        "title": "Greater weight loss promised by higher-dose Wegovy shot, now approved by FDA",
-        "url": "https://www.foxnews.com/health/greater-weight-loss-promised-higher-dose-wegovy-shot-now-approved-fda",
-        "publisher": "Fox News",
-        "type": "fact-check",
-        "snippet": "FDA approved a new, higher-dose Wegovy (semaglutide) injection; 7.2 mg for weight loss/maintenance."
-      },
-      {
-        "title": "New Oral Wegovy Pill",
-        "url": "https://www.globenewswire.com/news-release/2025/12/26/3210673/0/en/Best-Semaglutide-Options-for-2026-New-Oral-Wegovy-Pill-Approved-by-FDA-as-Patients-Compare-Injectable-and-Compounded-Access-Pathways.html",
-        "publisher": "GlobeNewswire",
-        "type": "fact-check",
-        "snippet": "States FDA approved a 25 mg oral Wegovy weight-loss pill for chronic weight management."
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": [
       {
         "title": "Executive functions",
@@ -453,22 +417,7 @@
         "snippet": "Doctors advise that taking a GLP-1 involves more than the shot, including attention to movement."
       }
     ],
-    "factChecks": [
-      {
-        "title": "GLP-1 weight-loss drug lawsuits allege serious side effects",
-        "url": "https://www.rgj.com/story/news/nation/2026/01/28/glp-1-weight-loss-drug-lawsuits-side-effects/87611067007/",
-        "publisher": "RGJ",
-        "type": "fact-check",
-        "snippet": "“eye stroke” that left him blind; lawsuits blame GLP-1 receptor agonists"
-      },
-      {
-        "title": "GLP-1 weight-loss drug lawsuits allege serious side effects",
-        "url": "https://www.usatoday.com/story/news/nation/2026/01/28/glp-1-weight-loss-drug-lawsuits-side-effects/87611067007/",
-        "publisher": "USA Today",
-        "type": "fact-check",
-        "snippet": "“eye stroke” left him blind; lawsuits allege inadequate warnings of severe injuries"
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": [
       {
         "title": "GLP-1 receptor agonist",
@@ -702,7 +651,7 @@
         "url": "https://www.ndtv.com/health/how-semaglutide-works-understanding-appetite-hormones-and-weight-loss-in-simple-terms-11243582",
         "publisher": "NDTV",
         "type": "news",
-        "snippet": "GLP-1 is a natural hormone produced in the gut, released after eating to regulate hunger and fullness."
+        "snippet": "Semaglutide mimics GLP-1; GLP-1 receptors in the brain regulate hunger and fullness."
       },
       {
         "title": "Affordable Weight Loss Drugs In India: How Cheap GLP-1s Will Affect Obesity Treatment",
@@ -758,7 +707,7 @@
         "url": "https://slate.com/technology/2026/03/ozempic-wegovy-semaglutide-side-effects-gastroparesis.html",
         "publisher": "Slate",
         "type": "news",
-        "snippet": "GLP-1 is not a foreign molecule; it is a hormone your intestines release after every meal."
+        "snippet": "Describes GLP-1 as a gut hormone released after meals that signals the gut/brain to slow down."
       },
       {
         "title": "Oral Alternative to Ozempic May Be Even More Effective For Weight Loss",
@@ -768,36 +717,7 @@
         "snippet": "GLP-1 drugs mimic the gut hormone GLP-1, released soon after eating; it signals fullness to the brain."
       }
     ],
-    "factChecks": [
-      {
-        "title": "How Semaglutide Works: Understanding Appetite, Hormones And Weight Loss In Simple Terms",
-        "url": "https://www.ndtv.com/health/how-semaglutide-works-understanding-appetite-hormones-and-weight-loss-in-simple-terms-11243582",
-        "publisher": "NDTV",
-        "type": "fact-check",
-        "snippet": "Semaglutide mimics GLP-1; GLP-1 receptors in the brain regulate hunger and fullness."
-      },
-      {
-        "title": "1 weight loss drugs accelerate BONE LOSS – NaturalNews.com",
-        "url": "https://www.naturalnews.com/2026-03-23-hidden-fracture-risks-glp-1-weight-loss-drugs-accelerate-bone-loss.html",
-        "publisher": "NaturalNews.com",
-        "type": "fact-check",
-        "snippet": "Claims GLP-1 receptor agonists accelerate bone turnover and may increase fracture risk."
-      },
-      {
-        "title": "The Risk Too Many People Are Taking With Ozempic",
-        "url": "https://slate.com/technology/2026/03/ozempic-wegovy-semaglutide-side-effects-gastroparesis.html",
-        "publisher": "Slate",
-        "type": "fact-check",
-        "snippet": "Describes GLP-1 as a gut hormone released after meals that signals the gut/brain to slow down."
-      },
-      {
-        "title": "1 in 10 patients taking Wegovy and Ozempic lose less than 5 per cent of body weight despite high expectations",
-        "url": "https://www.dailymail.co.uk/news/article-15669389/1-10-patients-taking-Wegovy-Ozempic-lose-5-cent-body-weight-despite-high-expectations.html",
-        "publisher": "Daily Mail",
-        "type": "fact-check",
-        "snippet": "Approval was based on clinical studies which showed a weight reduction of 15 to 20 per cent."
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": [
       {
         "title": "Executive functions",
@@ -1204,6 +1124,13 @@
     ],
     "sources": [
       {
+        "title": "Ozempic (Semaglutide) - What is it? How does it work? GLP-1 Receptor Agonists",
+        "url": "https://www.youtube.com/watch?v=OjLsj4gTcEE",
+        "publisher": "Whiteboard Medicine Simplified",
+        "type": "news",
+        "snippet": "Video states: “Ozempic is FDA-approved for type 2 diabetes” and explains glucose/HbA1c lowering."
+      },
+      {
         "title": "How Semaglutide Works: Understanding Appetite, Hormones And Weight Loss In Simple Terms",
         "url": "https://www.ndtv.com/health/how-semaglutide-works-understanding-appetite-hormones-and-weight-loss-in-simple-terms-11243582",
         "publisher": "NDTV",
@@ -1265,24 +1192,9 @@
         "publisher": "manilatimes.net",
         "type": "news",
         "snippet": "Discusses Novo Nordisk oral Wegovy; includes FDA-approved vs compounded access framing."
-      },
-      {
-        "title": "Metformin Vs Ozempic: Which Popular Diabetes Drug Improves Blood Sugar Control With Lesser Side Effects?",
-        "url": "https://www.ndtv.com/health/metformin-vs-ozempic-which-popular-diabetes-drug-improves-blood-sugar-control-with-lesser-side-effects-11278712",
-        "publisher": "ndtv.com",
-        "type": "news",
-        "snippet": "Both metformin and semaglutide improve blood sugar control…"
       }
     ],
-    "factChecks": [
-      {
-        "title": "Ozempic (Semaglutide) - What is it? How does it work? GLP-1 Receptor Agonists",
-        "url": "https://www.youtube.com/watch?v=OjLsj4gTcEE",
-        "publisher": "Whiteboard Medicine Simplified",
-        "type": "fact-check",
-        "snippet": "Video states: “Ozempic is FDA-approved for type 2 diabetes” and explains glucose/HbA1c lowering."
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": [
       {
         "title": "GLP-1 receptor agonist",

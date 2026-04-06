@@ -444,29 +444,7 @@
         "snippet": "Food additives have come under increasing scrutiny... Food dyes have been linked to a range of health effects, including increased cancer risk..."
       }
     ],
-    "factChecks": [
-      {
-        "title": "Ultra-processed foods tied to obesity and declining mental health in young adults: Global Report",
-        "url": "https://www.newindianexpress.com/lifestyle/health/2026/Feb/26/ultra-processed-foods-tied-to-obesity-and-declining-mental-health-in-young-adults-global-report",
-        "publisher": "New Indian Express",
-        "type": "fact-check",
-        "snippet": "UPF consumption associated with diseases like diabetes, heart disease and obesity, plus diminished emotional/cognitive functioning."
-      },
-      {
-        "title": "Understanding childhood obesity: Causes, treatments and how to reduce stigma",
-        "url": "https://medicalxpress.com/news/2025-12-childhood-obesity-treatments-stigma.html",
-        "publisher": "Medical Xpress",
-        "type": "fact-check",
-        "snippet": "Childhood obesity reflects modern environment of ultra-processed foods, digital devices and psychological stressors."
-      },
-      {
-        "title": "Understanding Childhood Obesity: Causes, Treatments and How to Reduce Stigma",
-        "url": "https://www.usnews.com/news/health-news/articles/2025-12-30/understanding-childhood-obesity-causes-treatments-and-how-to-reduce-stigma",
-        "publisher": "U.S. News",
-        "type": "fact-check",
-        "snippet": "Childhood obesity reflects modern environment of ultra-processed foods, digital devices and psychological stressors."
-      }
-    ],
+    "factChecks": [],
     "wikipediaRefs": [
       {
         "title": "Ultra-processed food",
