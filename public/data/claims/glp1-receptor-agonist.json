@@ -1,0 +1,138 @@
+[
+  {
+    "id": "glp1-receptor-agonist-1",
+    "articleId": "glp1-receptor-agonist",
+    "relevantSectionIds": [
+      "glp1-receptor-agonist-lead",
+      "obesity"
+    ],
+    "claimText": "23% of U.S. households already have someone on Ozempic or Wegovy. By 2030, that number hits 35% of all food & beverage units sold.",
+    "platform": "twitter",
+    "sourceAuthor": "soicfinance",
+    "date": "2026-01",
+    "engagement": {
+      "total": 56600
+    },
+    "topic": "Market Impact",
+    "postText": "Nobody's talking about the second-order effects of GLP-1 drugs loudly enough. So let us drop some data on the effect it is having on different industries! 1. 23% of U.S. households already have someone on Ozempic or Wegovy. By 2030, that number hits 35% of all food & beverage units sold. This isn't "
+  },
+  {
+    "id": "glp1-receptor-agonist-2",
+    "articleId": "glp1-receptor-agonist",
+    "relevantSectionIds": [
+      "obesity",
+      "type-2-diabetes"
+    ],
+    "claimText": "Grocery spend drops 5.3% within 6 months of starting GLP-1 drugs.",
+    "platform": "twitter",
+    "sourceAuthor": "soicfinance",
+    "date": "2026-01",
+    "engagement": {
+      "total": 56600
+    },
+    "topic": "Economic Effects",
+    "postText": "Nobody's talking about the second-order effects of GLP-1 drugs loudly enough. So let us drop some data on the effect it is having on different industries! 1. 23% of U.S. households already have someone on Ozempic or Wegovy. By 2030, that number hits 35% of all food & beverage units sold. This isn't "
+  },
+  {
+    "id": "glp1-receptor-agonist-7",
+    "articleId": "glp1-receptor-agonist",
+    "relevantSectionIds": [
+      "mechanism-of-action",
+      "research"
+    ],
+    "claimText": "Studies show that GLP-1 drugs such as Ozempic affect far more than metabolism, influencing inflammation, immunity, and brain function.",
+    "platform": "twitter",
+    "sourceAuthor": "washingtonpost",
+    "date": "2026-01",
+    "engagement": {
+      "total": 24800
+    },
+    "topic": "Broader Effects",
+    "postText": "Originally developed for diabetes and weight loss, studies show that GLP-1 drugs such as Ozempic affect far more than metabolism, influencing inflammation, immunity, and brain function while revealing new ways to treat seemingly unrelated conditions."
+  },
+  {
+    "id": "glp1-receptor-agonist-5",
+    "articleId": "glp1-receptor-agonist",
+    "relevantSectionIds": [
+      "cost",
+      "legal-status"
+    ],
+    "claimText": "The cost of GLP-1 drugs is falling, and pill versions are hitting the U.S. market.",
+    "platform": "twitter",
+    "sourceAuthor": "CNBC",
+    "date": "2026-01",
+    "engagement": {
+      "total": 13100
+    },
+    "topic": "Market Changes",
+    "postText": "The cost of GLP-1 drugs is falling, and pill versions are hitting the U.S. market. For restaurant chains and snacking giants, higher adoption of weight loss and diabetes treatments poses a threat to their sales — or an opportunity. Full story:"
+  },
+  {
+    "id": "glp1-receptor-agonist-6",
+    "articleId": "glp1-receptor-agonist",
+    "relevantSectionIds": [
+      "obesity",
+      "type-2-diabetes"
+    ],
+    "claimText": "Higher adoption of weight loss and diabetes treatments poses a threat to restaurant chains and snacking giants' sales.",
+    "platform": "twitter",
+    "sourceAuthor": "CNBC",
+    "date": "2026-01",
+    "engagement": {
+      "total": 13100
+    },
+    "topic": "Industry Impact",
+    "postText": "The cost of GLP-1 drugs is falling, and pill versions are hitting the U.S. market. For restaurant chains and snacking giants, higher adoption of weight loss and diabetes treatments poses a threat to their sales — or an opportunity. Full story:"
+  },
+  {
+    "id": "glp1-receptor-agonist-3",
+    "articleId": "glp1-receptor-agonist",
+    "relevantSectionIds": [
+      "history",
+      "type-2-diabetes"
+    ],
+    "claimText": "GLP-1 drugs were originally developed in the United States for patients who are severely obese and also have diabetes.",
+    "platform": "twitter",
+    "sourceAuthor": "PTI_News",
+    "date": "2026-01",
+    "engagement": {
+      "total": 12500
+    },
+    "topic": "Development History",
+    "postText": "VIDEO | Gurugram: Dr. Naresh Trehan says GLP-1 (weight-loss) drugs were originally developed in the United States for patients who are severely obese and also have diabetes. He says the drug helps control diabetes by affecting brain function so that patients do not feel hungry all the time, and also"
+  },
+  {
+    "id": "glp1-receptor-agonist-4",
+    "articleId": "glp1-receptor-agonist",
+    "relevantSectionIds": [
+      "mechanism-of-action",
+      "type-2-diabetes"
+    ],
+    "claimText": "The drug helps control diabetes by affecting brain function so that patients do not feel hungry all the time, and also delays stomach emptying.",
+    "platform": "twitter",
+    "sourceAuthor": "PTI_News",
+    "date": "2026-01",
+    "engagement": {
+      "total": 12500
+    },
+    "topic": "Mechanism of Action",
+    "postText": "VIDEO | Gurugram: Dr. Naresh Trehan says GLP-1 (weight-loss) drugs were originally developed in the United States for patients who are severely obese and also have diabetes. He says the drug helps control diabetes by affecting brain function so that patients do not feel hungry all the time, and also"
+  },
+  {
+    "id": "glp1-receptor-agonist-8",
+    "articleId": "glp1-receptor-agonist",
+    "relevantSectionIds": [
+      "type-2-diabetes",
+      "obesity"
+    ],
+    "claimText": "The GLP-1 drug, which was introduced for diabetic patients, is being extensively used for weight loss.",
+    "platform": "twitter",
+    "sourceAuthor": "ANI",
+    "date": "2026-01",
+    "engagement": {
+      "total": 9900
+    },
+    "topic": "Usage Trends",
+    "postText": "Fact-checked\n#WATCH | Ahmedabad, Gujarat | Indian Medical Association National President Dr Anil Kumar J. Nayak says, “...The GLP-1 drug, which was introduced for diabetic patients, is being extensively used for weight loss. This is wrong because any modern allopathic medicine taken without consulti"
+  }
+]

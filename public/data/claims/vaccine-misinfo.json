@@ -1,102 +1,121 @@
 [
   {
-    "id": "vax-1",
+    "id": "vaccine-misinfo-1",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["vaccination-causes-idiopathic-conditions", "vaccine-misinfo-lead"],
-    "claimText": "RFK Jr. is now running HHS and the CDC just changed its autism-vaccines page. The scientific establishment is finally admitting what parents have known for years.",
+    "relevantSectionIds": [
+      "vaccine-preventable-diseases-have-been-eradicated",
+      "extent"
+    ],
+    "claimText": "the vaccine for newborns made those tragedies preventable.",
     "platform": "twitter",
-    "date": "2025-11-20",
-    "engagement": { "likes": 89000, "shares": 45000, "comments": 12000 },
-    "topic": "Government policy"
+    "sourceAuthor": "KFFHealthNews",
+    "date": "2026-01",
+    "engagement": {
+      "total": 975
+    },
+    "topic": "vaccine effectiveness",
+    "postText": "A doctor in Alaska once watched the hepatis B virus take children’s lives, until the vaccine for newborns made those tragedies preventable. Now a CDC panel is weighing changes that could limit access to the shot and fuel misinformation. @JackieFortier"
   },
   {
-    "id": "vax-2",
+    "id": "vaccine-misinfo-6",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["vaccination-causes-idiopathic-conditions", "vaccine-misinfo-lead"],
-    "claimText": "The CDC did NOT say vaccines cause autism. They added weasel words to a webpage under political pressure. Every major study still shows no link. Don't fall for this.",
-    "platform": "bluesky",
-    "date": "2025-11-22",
-    "engagement": { "likes": 34000, "shares": 12000, "comments": 4500 },
-    "topic": "Scientific consensus"
-  },
-  {
-    "id": "vax-3",
-    "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["social-media"],
-    "claimText": "Since Elon took over Twitter, anti-vax content has exploded. A new study shows vaccine misinformation posts increased 3x after content moderation was rolled back.",
-    "platform": "reddit",
-    "date": "2025-06-15",
-    "engagement": { "likes": 22000, "comments": 3400 },
-    "topic": "Platform moderation"
-  },
-  {
-    "id": "vax-4",
-    "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["social-media"],
-    "claimText": "Meta is ending its fact-checking program. Combined with X's changes, there are now essentially zero guardrails against health misinformation on major social platforms.",
+    "relevantSectionIds": [
+      "impact",
+      "communication"
+    ],
+    "claimText": "Americans' confidence in the Centers for Disease Control and Prevention has plummeted.",
     "platform": "twitter",
-    "date": "2025-01-10",
-    "engagement": { "likes": 67000, "shares": 28000, "comments": 8900 },
-    "topic": "Platform moderation"
+    "sourceAuthor": "baltimoresun",
+    "date": "2026-01",
+    "engagement": {
+      "total": 870
+    },
+    "topic": "public trust in health authorities",
+    "postText": "Americans' confidence in the Centers for Disease Control and Prevention has plummeted, according to a 2025 National Foundation for Infectious Diseases survey, and many young people are getting their advice on vaccines from social media."
   },
   {
-    "id": "vax-5",
+    "id": "vaccine-misinfo-7",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["measures-against-misinformation", "communication"],
-    "claimText": "Google's prebunking videos actually work. New large-scale study shows people who watched them were significantly better at spotting vaccine misinformation.",
-    "platform": "youtube",
-    "date": "2025-03-08",
-    "engagement": { "views": 1200000, "likes": 45000, "comments": 6700 },
-    "topic": "Counter-misinformation"
-  },
-  {
-    "id": "vax-6",
-    "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["vaccination-causes-idiopathic-conditions", "impact"],
-    "claimText": "Australia and UK issue official statements reaffirming vaccines don't cause autism, directly contradicting the new CDC page. The US is now an outlier on basic public health science.",
+    "relevantSectionIds": [
+      "list-of-popular-misinformation",
+      "extent"
+    ],
+    "claimText": "Misinformation about Hepatitis B and the shot has grown rampant in recent years.",
     "platform": "twitter",
-    "date": "2025-12-05",
-    "engagement": { "likes": 43000, "shares": 18000, "comments": 5600 },
-    "topic": "International response"
+    "sourceAuthor": "PostOpinions",
+    "date": "2026-01",
+    "engagement": {
+      "total": 356
+    },
+    "topic": "vaccine misinformation",
+    "postText": "\"Misinformation about Hepatitis B and the shot has grown rampant in recent years, largely thanks to anti-vaccine activists such as Kennedy,\" the Editorial Board writes."
   },
   {
-    "id": "vax-7",
+    "id": "vaccine-misinfo-2",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["list-of-popular-misinformation", "impact"],
-    "claimText": "3 years later, long-term COVID vaccine safety data continues to show they are safe and effective. The 'wait and see' crowd has waited — and the data is clear.",
-    "platform": "bluesky",
-    "date": "2025-08-20",
-    "engagement": { "likes": 12000, "shares": 4500, "comments": 2100 },
-    "topic": "COVID-19 vaccines"
-  },
-  {
-    "id": "vax-8",
-    "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["measures-against-misinformation", "communication"],
-    "claimText": "Schools should teach media literacy, not just science. Kids who learn to recognize manipulation techniques are much better at resisting anti-vax content than kids who just memorize facts.",
-    "platform": "reddit",
-    "date": "2025-09-15",
-    "engagement": { "likes": 18000, "comments": 2800 },
-    "topic": "Education"
-  },
-  {
-    "id": "vax-9",
-    "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["vaccine-misinfo-lead", "vaccination-causes-idiopathic-conditions"],
-    "claimText": "The Wakefield fraud is 25+ years old but his debunked study still drives vaccine hesitancy worldwide. How is this STILL a thing in 2025?",
+    "relevantSectionIds": [
+      "list-of-popular-misinformation",
+      "extent"
+    ],
+    "claimText": "A years-long campaign to falsely link vaccines and autism has evolved from online conspiracy to federal guidance.",
     "platform": "twitter",
-    "date": "2025-05-12",
-    "engagement": { "likes": 28000, "shares": 9200, "comments": 3400 },
-    "topic": "Historical context"
+    "sourceAuthor": "MorrisMinute",
+    "date": "2026-01",
+    "engagement": {
+      "total": 30
+    },
+    "topic": "vaccine-autism link",
+    "postText": "A years-long campaign to falsely link vaccines and autism has evolved from online conspiracy to federal guidance — reshaping the CDC, weakening disease surveillance, and endangering public health."
   },
   {
-    "id": "vax-10",
+    "id": "vaccine-misinfo-4",
     "articleId": "vaccine-misinfo",
-    "relevantSectionIds": ["social-media", "measures-against-misinformation"],
-    "claimText": "Accuracy nudges work on social media: just asking people 'is this accurate?' before they share reduces vaccine misinformation sharing by 20%. Cheap, scalable, effective.",
-    "platform": "bluesky",
-    "date": "2025-07-01",
-    "engagement": { "likes": 8900, "shares": 3200, "comments": 890 },
-    "topic": "Interventions"
+    "relevantSectionIds": [
+      "extent",
+      "impact"
+    ],
+    "claimText": "the CDC’s new claim that vaccines cannot be ruled out as a cause of autism will lead to years of confusion and vaccine refusal.",
+    "platform": "twitter",
+    "sourceAuthor": "NUGlobalNews",
+    "date": "2026-01",
+    "engagement": {
+      "total": 26
+    },
+    "topic": "vaccine-autism link",
+    "postText": "The CDC’s new claim that vaccines cannot be ruled out as a cause of autism will lead to years of confusion and vaccine refusal, @Northeastern public health experts say."
+  },
+  {
+    "id": "vaccine-misinfo-5",
+    "articleId": "vaccine-misinfo",
+    "relevantSectionIds": [
+      "list-of-popular-misinformation",
+      "impact"
+    ],
+    "claimText": "Harmful myths suggesting that vaccines cause autism sow fear and distrust in vaccines.",
+    "platform": "twitter",
+    "sourceAuthor": "PC_PublicHealth",
+    "date": "2026-01",
+    "engagement": {
+      "total": 20
+    },
+    "topic": "vaccine-autism link",
+    "postText": "Fact-checked\nHarmful myths suggesting that vaccines cause autism sow fear and distrust in vaccines, ultimately jeopardizing the great progress we’ve made in preventing serious childhood diseases. Read our full fact-check to learn more:"
+  },
+  {
+    "id": "vaccine-misinfo-3",
+    "articleId": "vaccine-misinfo",
+    "relevantSectionIds": [
+      "vaccination-causes-idiopathic-conditions",
+      "extent"
+    ],
+    "claimText": "vaccines cannot be definitively ruled out as an autism cause.",
+    "platform": "twitter",
+    "sourceAuthor": "complainthub_in",
+    "date": "2026-01",
+    "engagement": {
+      "total": 7
+    },
+    "topic": "vaccine-autism link",
+    "postText": "Public health experts are expressing significant concerns about widespread confusion and potential misinformation stemming from a new CDC claim suggesting that vaccines cannot be definitively ruled out as an autism cause."
   }
 ]

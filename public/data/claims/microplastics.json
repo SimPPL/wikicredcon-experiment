@@ -3,17 +3,17 @@
     "id": "microplastics-2",
     "articleId": "microplastics",
     "relevantSectionIds": [
-      "education-and-recycling",
-      "sources"
+      "sources-of-microplastics",
+      "education-and-recycling"
     ],
-    "claimText": "From 3 to 14 EU countries, there are now 1,200+ datasets on microplastics.",
+    "claimText": "The project has expanded from 3 to 14 EU countries and has collected over 1,200 datasets on microplastics.",
     "platform": "twitter",
     "sourceAuthor": "cinea_eu",
     "date": "2026-01",
     "engagement": {
       "total": 1700
     },
-    "topic": "EU research on microplastics",
+    "topic": "EU microplastics research",
     "postText": "Three years on... ✅From 3 to 14 EU countries ✅From classrooms to riverbanks ✅From curiosity to 1,200+ datasets on microplastics That's the power of @PlasticPirateEU 🔗 @HorizonEU @OurMissionOcean #MissionOcean #HorizonEU #Climate #ResearchImpactEU"
   },
   {
@@ -72,7 +72,7 @@
     "articleId": "microplastics",
     "relevantSectionIds": [
       "salt-and-seafood",
-      "sources"
+      "sources-of-microplastics"
     ],
     "claimText": "Global seafood trade is moving ‘forever chemicals’ from contaminated waters to dinner plates.",
     "platform": "twitter",

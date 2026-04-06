@@ -1,0 +1,650 @@
+Vaccine Misinformation Claims CDC
+Dec 01, 2025 - Feb 15, 2026
+Social Intelligence
+Youtube
+Twitter
+Reddit
+Methodology
+Case Data
+Show Summary
+
+Identify the claims related to vaccine misinformation that you identify from the discourse
+
+Claims Analysis
+Posts view
+Claim groups view
+101s
+
+Switch views: Posts view shows claims per post, while Claim groups view groups similar claims across posts.
+
+Posts analyzed
+30
+Claims extracted
+78
+Fact-checks found
+54
+News sources
+402
+Wikipedia refs
+14
+
+5 posts had no extractable claims.
+
+cheryl ferenna
+
+YouTube
+
+• Group identity Cheryl Ferenna Livbertha - 210110253030 Salvya Bilqis Novina - 210110253043 Saskiasya Halima Quinathaya - 210110253051 Nasya Nawra Fazila - 210110253055 • Brief description This short movie is an adaptation of a true story about misinformation surrounding a COVID-19 vaccine from 4 years ago. The misinformation about the vaccine spread rapidly and easily across the internet, quickly capturing the public's attention. From this short movie, we hope that viewers who encounter similar real-world scenarios will learn how to effectively identify credible news by applying communication ethics in their daily lives.
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 5
+Wikipedia: 3
+
+56 interactions
+
+Open details
+
+View post
+
+George Bond
+
+YouTube
+
+The CDC has quietly changed its vaccines & autism page https://www.cdc.gov/vaccine-safety/about/autism.html — softening decades of scientific clarity. This is a warning sign for every healthcare system, including the NHS. I’m George, a UK pharmacist, and today we’re looking at what happens when politics begins shaping clinical messaging, and why this shift poses a real risk to public trust, vaccine uptake, and long-term health outcomes. In this video we cover: Why the CDC autism wording change matters Politics vs healthcare: when interests collide The US: a real-time example of politicised medicine UK pressure: is the NHS drifting the same way? How political messaging destroys trust What the NHS urgently needs to stay evidence-based How we protect patients in a political world Key message: When scientific clarity is diluted to satisfy political agendas, patients lose, the workforce loses, and years of progress can be undone overnight. Join the discussion How do we protect the NHS from
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 16
+Wikipedia: 2
+
+Open details
+
+View post
+
+WNDU 16 News Now
+
+YouTube
+
+Health professionals addressed concerns over CDC messaging changes and declining vaccination rates. https://www.wndu.com/2025/12/02/medical-experts-combat-vaccine-misinformation-south-bend-panel/ For more Local News from WNDU: https://www.wndu.com/ For more YouTube Content: https://www.youtube.com/channel/UC7AO1aI9S3A7vrSc9wLvA-Q
+
+Claims: 1
+Fact-checks: 0
+PubMedia: 0
+Sources: 8
+Wikipedia: 0
+
+2 interactions
+
+Open details
+
+View post
+
+London Real
+
+YouTube
+
+🍿 Watch the full interview for free at https://freedomplatform.tv/steve-kirsch-misinformation-superspreader-the-covid-19-vaccine-is-the-most-dangerous-of-all-time/ With the pervasive integration of digital technology into our lives, a myriad of issues have surfaced, ranging from the influence of social media to the emergence of artificial intelligence, all of which are reshaping the fabric of society. Particularly concerning is the diminishing presence of critical thinking and a reluctance to delve beyond the mainstream narrative. In an age inundated with vast amounts of information we are losing the ability to analyse, evaluate and draw reasoned conclusions based on evidence and logic, while those that do face the wrath of the big tech censorship machine. 🚨 Learn To Make Money In Crypto: 💰The Investment club: https://londonreal.tv/club 💰Crypto & DeFi Academy: https://londonreal.tv/defi-ytd 🔔 SUBSCRIBE ON YOUTUBE: http://bit.ly/SubscribeToLondonReal ▶️ FREE FULL EPISODES: https://
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+101 interactions
+
+Open details
+
+View post
+
+KFFHealthNews
+
+Twitter/X
+
+A doctor in Alaska once watched the hepatis B virus take children’s lives, until the vaccine for newborns made those tragedies preventable. Now a CDC panel is weighing changes that could limit access to the shot and fuel misinformation. @JackieFortier
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 20
+Wikipedia: 0
+
+975 interactions
+
+Open details
+
+View post
+
+MorrisMinute
+
+Twitter/X
+
+A years-long campaign to falsely link vaccines and autism has evolved from online conspiracy to federal guidance — reshaping the CDC, weakening disease surveillance, and endangering public health.
+
+Claims: 4
+Fact-checks: 0
+PubMedia: 0
+Sources: 18
+Wikipedia: 0
+
+30 interactions
+
+Open details
+
+View post
+
+zanyprogressive
+
+Twitter/X
+
+RFK Jr. wants you to know he’s personally responsible for misinformation about vaccines on CDC website: He told the New York Times there’s no proof that vaccines don’t cause autism, which is a lie. #Antivaxxers #cdc #health
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 19
+Wikipedia: 0
+
+22 interactions
+
+Open details
+
+View post
+
+complainthub_in
+
+Twitter/X
+
+Public health experts are expressing significant concerns about widespread confusion and potential misinformation stemming from a new CDC claim suggesting that vaccines cannot be definitively ruled out as an autism cause.
+
+Claims: 1
+Fact-checks: 0
+PubMedia: 0
+Sources: 6
+Wikipedia: 0
+
+7 interactions
+
+Open details
+
+View post
+
+UniteForKids
+
+Twitter/X
+
+The same ‘experts’ touting it’s safe and effective, think 10 dead children from💉is no big deal. ( it’s not 10- it’s many more & injured ). Listen to the 💩 reporting. ‘Experts doubt FDA official's claims about COVID-19 vaccine death claims
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+9 interactions
+
+Open details
+
+View post
+
+NUGlobalNews
+
+Twitter/X
+
+The CDC’s new claim that vaccines cannot be ruled out as a cause of autism will lead to years of confusion and vaccine refusal, @Northeastern public health experts say.
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 17
+Wikipedia: 0
+
+26 interactions
+
+Open details
+
+View post
+
+ThisDayinCovid
+
+Twitter/X
+
+On this day in COVID history, December 3, 2021: Facebook 'failing' to tackle COVID-19 misinformation posted by prominent anti-vaccine group, study claims Source: ABC News
+
+Claims: 1
+Fact-checks: 0
+PubMedia: 0
+Sources: 1
+Wikipedia: 0
+
+199 interactions
+
+Open details
+
+View post
+
+Justice Rounds with Dr. Jimmell
+
+YouTube
+Fact-checked
+
+Join me on this episode where I dispel common myths about vaccines, defend families with herd immunity and demand justice by ensuring accountability from our leaders and for ourselves to push back against harmful rhetoric about vaccine safety. Vaccines are safe as evidenced by decades of research and vaccines saves lives PERIOD!! Please share, like and subscribe to my YouTube channel @JusticeRoundswithDr.Jimmell !
+
+Claims: 2
+Fact-checks: 13
+PubMedia: 0
+Sources: 21
+Wikipedia: 2
+
+17 interactions
+
+Open details
+
+View post
+
+PC_PublicHealth
+
+Twitter/X
+Fact-checked
+
+Harmful myths suggesting that vaccines cause autism sow fear and distrust in vaccines, ultimately jeopardizing the great progress we’ve made in preventing serious childhood diseases. Read our full fact-check to learn more:
+
+Claims: 3
+Fact-checks: 9
+PubMedia: 0
+Sources: 31
+Wikipedia: 0
+
+20 interactions
+
+Open details
+
+View post
+
+baltimoresun
+
+Twitter/X
+
+Americans' confidence in the Centers for Disease Control and Prevention has plummeted, according to a 2025 National Foundation for Infectious Diseases survey, and many young people are getting their advice on vaccines from social media.
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 7
+Wikipedia: 1
+
+870 interactions
+
+Open details
+
+View post
+
+capgaznews
+
+Twitter/X
+
+Americans' confidence in the Centers for Disease Control and Prevention has plummeted, according to a 2025 National Foundation for Infectious Diseases survey, and many young people are getting their advice on vaccines from social media.
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 9
+Wikipedia: 2
+
+256 interactions
+
+Open details
+
+View post
+
+PostOpinions
+
+Twitter/X
+
+"Misinformation about Hepatitis B and the shot has grown rampant in recent years, largely thanks to anti-vaccine activists such as Kennedy," the Editorial Board writes.
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 20
+Wikipedia: 0
+
+356 interactions
+
+Open details
+
+View post
+
+The Boston Globe
+
+google_news
+Fact-checked
+
+Healey promised continued action to keep the hepatitis B vaccine available, if needed. Vaccine manufacturers were present at the Wednesday event, Goldstein said, alongside physicians and public health experts. Currently, the CDC recommends an initial dose of hepatitis B vaccine within 24 hours of birth for medically stable infants who weigh at least 4.4 pounds, a recommendation that has existed in some form since 1991. Follow-up doses are given at 1 month and 6 months. Between 1990 and 2019, hepatitis B infections dropped 99 percent in children and teens, according to a 2023 study in the official journal of the Office of the US Surgeon General. “It’s proven, it’s effective, and we want to take care of our little babies,” she said. “That will remain true in Massachusetts no matter what ACIP does in the next couple of days.” Hepatitis B, a liver infection, can lead to liver failure, liver cancer, and scarring called cirrhosis. The virus is spread between adults through sharing needles or
+
+Claims: 6
+Fact-checks: 5
+PubMedia: 0
+Sources: 35
+Wikipedia: 1
+
+Open details
+
+View post
+
+Medical Xpress
+
+google_news
+Fact-checked
+PubMedia
+
+Near the back corner of the local library's parking lot, largely out of view from the main road, the South Carolina Department of Public Health opened a pop-up clinic in early November, offering free measles vaccines to adults and children. Spartanburg County, in South Carolina's Upstate region, has been fighting a measles outbreak since early October, with more than 50 cases identified. Health officials have encouraged people who are unvaccinated to get a shot by visiting its mobile vaccine clinic at any of its several stops throughout the county. But on a Monday afternoon in Boiling Springs, only one person showed up. "It's progress. That progress is slow," Linda Bell, the state epidemiologist with the Department of Public Health, said during a recent press briefing. "We had hoped to see a more robust uptake than that in our mobile health units." As South Carolina tries to contain its measles outbreak, public health officials across the nation are concerned that the highly contagious
+
+Claims: 7
+Fact-checks: 1
+PubMedia: 1
+Sources: 29
+Wikipedia: 2
+
+Open details
+
+View post
+
+BostonGlobe
+
+Twitter/X
+
+Governor Maura Healey warned of misinformation about the childhood vaccine schedule, especially the infant hepatitis B vaccine, ahead of a pivotal meeting of federal vaccine advisors on Thursday.
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 18
+Wikipedia: 0
+
+3.2K interactions
+
+Open details
+
+View post
+
+Canal 9 Televida Mendoza
+
+YouTube
+
+-- Seguí la programación de #Canal9Televida ingresando a https://www.elnueve.com/📺 👉No te pierdas los videos de Noticiero Nueve, Cada Día, Viva la Mañana, No Culpes a la Noche, A Las Brasas, Replay y mucho más en nuestras listas de video: https://bit.ly/3QJ7ncS 🤔¿Ya te suscribiste a nuestro canal?: https://bit.ly/3AkYHmH 📺Para más información, visita https://www.elnueve.com/ ▶️No te olvides de seguirnos en TODAS las redes: - https://www.facebook.com/canal9televida - https://twitter.com/canal9televida - https://www.instagram.com/canal9televida/ - https://www.instagram.com/noticieronueve/ - https://www.instagram.com/replaycontenidos/ - https://www.instagram.com/cadadiacanal9/
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+2 interactions
+
+Open details
+
+View post
+
+johngregoryx
+
+Twitter/X
+
+Anti-vax lawyer and false claim superspreader Aaron Siri claims, "I don’t 'make a living' suing vaccine companies." In fact, anti-vax nonprofit ICAN paid Siri's law firm $6 million in 2023, the latest IRS filing available:
+
+Claims: 1
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+126 interactions
+
+Open details
+
+View post
+
+CIDRAP
+
+Twitter/X
+
+Public health experts try to ‘prebunk’ misinformation about vaccines ahead of CDC vaccine meeting today The meeting of the Advisory Committee on Immunization Practices will likely be filled with misinformation and vaccine myths, experts warn.
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 20
+Wikipedia: 0
+
+1.4K interactions
+
+Open details
+
+View post
+
+Open World
+
+YouTube
+
+Exploring the key issues raised in the Slate interview about RFK Jr., vaccine policy, and public health. We break down what the CDC does, why vaccine recommendations matter, and how public trust shapes health decisions. Includes expert context from public health professionals and practical guidance for parents navigating vaccination choices for their children.
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+Open details
+
+View post
+
+Margare77396679
+
+Twitter/X
+Fact-checked
+
+In a chaotic meeting rife with misinformation, the CDC’s vaccine advisory panel — whose members Health Secretary Robert F. Kennedy Jr. fired in June and replaced with a group that has largely expressed skepticism of vaccines delayed an expected vote on hepatitis B vaccines.
+
+Claims: 2
+Fact-checks: 4
+PubMedia: 0
+Sources: 24
+Wikipedia: 0
+
+19 interactions
+
+Open details
+
+View post
+
+MassLive
+
+google_news
+Fact-checked
+PubMedia
+
+Massachusetts Public Health Commissioner Dr. Robbie Goldstein is a Tufts University-trained physician who’s spent his entire career as an infectious disease specialist. He’s on the infectious disease faculty at MGH and teaches at Harvard Medical School. He did a two-year tour at the Centers for Disease Control and Prevention. And in 2023, he became the state’s point man on all things infectious disease. These days, however, Goldstein spends less time fighting plagues and more time playing whack-a-mole as the Trump administration launches what Goldstein sees as dangerous attacks on the science and common-sense approaches that have been the bedrock of public health for decades. How much time? “Fighting this disinformation, unfortunately, is 90% of my job on any given day,” Goldstein said Wednesday during a news conference at his agency’s headquarters in Downtown Boston. “And that’s the reality of public health in this moment.” Goldstein’s comments came ahead of Friday’s expected vote by
+
+Claims: 18
+Fact-checks: 9
+PubMedia: 1
+Sources: 73
+Wikipedia: 0
+
+Open details
+
+View post
+
+True North Eager Beaver Media
+
+YouTube
+
+The Daily Beaver Morning Show stands out from other morning programs due to its engaging coverage of a wide range of topics, from current events and political commentary to lighthearted discussions and interviews. It provides commentary and analysis of these topics from a uniquely Canadian perspective and is home to 'The Best DAMFAM in all of podcasting'. Support us: https://www.ko-fi.com/eagerbeaver Write to us: truenortheagerbeaver@gmail.com Audio Podcast version: https://www.podpage.com/the-true-north-eager-beaver/ Substack: https://douglasyoureagerbeaver976702.substack.com/
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+1 interactions
+
+Open details
+
+View post
+
+ChildrenNeedUs_
+
+Twitter/X
+
+Amy Middleman (CDC HepB researcher): “there’s been much misinformation about the vaccine since yesterday and it takes a long time to go through it.” (paraphrase.) Dr. Malone silenced her mic before she completed her statement. #ACIP
+
+Claims: 3
+Fact-checks: 0
+PubMedia: 0
+Sources: 15
+Wikipedia: 0
+
+78 interactions
+
+Open details
+
+View post
+
+Forbes Breaking News
+
+YouTube
+
+At the Advisory Committee on Immunization Practices' meeting on Friday, Joseph Hibbeln raised concerns about rolling back Hepatitis B vaccine requirements. Fuel your success with Forbes. Gain unlimited access to premium journalism, including breaking news, groundbreaking in-depth reported stories, daily digests and more. Plus, members get a front-row seat at members-only events with leading thinkers and doers, access to premium video that can help you get ahead, an ad-light experience, early access to select products including NFT drops and more: https://account.forbes.com/membership/?utm_source=youtube&utm_medium=display&utm_campaign=growth_non-sub_paid_subscribe_ytdescript Stay Connected Forbes on Facebook: http://fb.com/forbes Forbes Video on Twitter: http://www.twitter.com/forbes Forbes Video on Instagram: http://instagram.com/forbes More From Forbes: http://forbes.com
+
+Claims: 1
+Fact-checks: 0
+PubMedia: 0
+Sources: 10
+Wikipedia: 0
+
+303 interactions
+
+Open details
+
+View post
+
+NBC News
+
+google_news
+Fact-checked
+PubMedia
+
+An anti-vaccine lawyer who has regularly sued federal and state health agencies spoke Friday at a meeting of the Centers for Disease Control and Prevention’s vaccine advisory panel — an unheard-of departure for the committee, which for decades was a trusted source for vaccine recommendations. The lawyer, Aaron Siri, has also served as the personal attorney for Health Secretary Robert F. Kennedy Jr., a longtime anti-vaccine activist. Siri delivered a lengthy presentation about the childhood immunization schedule, chronicling what he said were concerning adverse events from routine vaccines and calling particular attention to vaccines for hepatitis B, pneumococcal disease and a combination shot for diphtheria, tetanus and pertussis (whooping cough). Previously, Siri has advocated for the Food and Drug Administration to revoke its approval of the polio vaccine. Art Caplan, head of the division of medical ethics at NYU Langone Medical Center, said Siri’s presence at the meeting suggests th
+
+Claims: 7
+Fact-checks: 12
+PubMedia: 1
+Sources: 36
+Wikipedia: 0
+
+Open details
+
+View post
+
+ArthurCaplan
+
+Twitter/X
+Fact-checked
+
+Lawyer with ties to Kennedy sparks outcry over vaccine misinformation at CDC advisory meeting. A total farce
+
+Claims: 1
+Fact-checks: 1
+PubMedia: 0
+Sources: 12
+Wikipedia: 1
+
+542 interactions
+
+Open details
+
+View post
+
+cheryl ferenna
+
+YouTube
+56 interactions
+2 claims
+View post
+
+• Group identity Cheryl Ferenna Livbertha - 210110253030 Salvya Bilqis Novina - 210110253043 Saskiasya Halima Quinathaya - 210110253051 Nasya Nawra Fazila - 210110253055 • Brief description This short movie is an adaptation of a true story about misinformation surrounding a COVID-19 vaccine from 4 years ago. The misinformation about the vaccine spread rapidly and easily across the internet, quickly capturing the public's attention. From this short movie, we hope that viewers who encounter similar real-world scenarios will learn how to effectively identify credible news by applying communication ethics in their daily lives.
+
+CLAIMS (2)
+
+The short movie is...
+Misinformation about the COVID-19...
+1
+
+The short movie is an adaptation of a true story about misinformation surrounding a COVID-19 vaccine from four years ago.
+
+Health
+2025-12-01
+
+SUMMARY
+
+The claim says the YouTube short movie by actor Cheryl Ferenna is an adaptation of a true story about COVID-19 vaccine misinformation from about four years ago. In the retrieved sources, none directly discuss this specific short film or confirm that it adapts a “true story” or that the time window is exactly “four years ago.” Several sources instead discuss COVID-19 vaccine misinformation and broader misinformation dynamics: Wikipedia’s [1] describes how false/misleading COVID-19 information has spread via media and social platforms and notes the concept of an WHO-declared “infodemic.” Wikipedia’s [2] provides background on how COVID-19 vaccines were developed and that the first clinical trials began in March 2020, which provides context for what “four years ago” could roughly mean in relation to vaccine-era timelines. Some retrieved news/science items reference misinformation broadly (e.g., a lawfare piece about an Academies report on misinformation about science via Misinformation Studies Meets the Raw Milk Renaissance), but they do not address the film’s adaptation status. Overall, the evidence set is largely topical background on misinformation and COVID-19 vaccines rather than corroboration of the specific film claim; the main gap is the lack of any source that mentions this particular YouTube movie or its “true story” adaptation and timing.
+
+Overall relevance is low-to-moderate because the retrieved items focus on COVID-19 vaccine misinformation and vaccine policy context rather than verifying the existence, content, or “true story adaptation” aspect of the specific short movie. Direct corroboration for the exact claim elements (adaptation of a true story; COVID-19 vaccine misinformation; “from four years ago”) is not present in the provided sources.
+
+SOURCES
+
+Fact-checked
+(0)
+PubMedia
+(0)
+Other
+(0)
+Wikipedia
+(2)
+WIKIPEDIA (2)
+[1]Wikipedia — COVID-19 misinformation — Describes false/misleading COVID-19 information spreading via social media/text/mass media and notes an WHO “infodemic.”
+[2]Wikipedia — COVID-19 vaccine — Provides vaccine background, including first clinical trials beginning in March 2020 and general vaccine development/bo...
+
+Based on the case study’s 227 posts (YouTube, Twitter, Reddit; Dec 1, 2025–Feb 15, 2026), claims analysis of a 30-post cross-platform sample surfaces several recurring vaccine-misinformation claim threads in the discourse (often framed around CDC guidance and “hidden” risks):
+
+“Vaccines cause autism” / “vaccines cannot be ruled out as a cause of autism.”
+This appears repeatedly as a core contested claim—sometimes asserted directly, and often discussed via allegations that CDC language implies uncertainty.
+
+“The CDC changed/rewrote its vaccines-and-autism webpage,” framed as the CDC “softening” prior clarity.
+A common narrative is that CDC site wording changed in a way that undermines the long-standing “no link” message.
+
+“There’s no proof vaccines don’t cause autism,” attributed to RFK Jr. (as reported/discussed in the discourse).
+This shows up as an influential talking point that other users either amplify or rebut.
+
+“Hepatitis B vaccine at birth is unnecessary / should be delayed,” linked to claims about transmission being mainly through sex or injection drug use.
+This is often part of a broader argument that newborn vaccination is overreach.
+
+“Hepatitis B vaccine (or childhood vaccines) weren’t properly tested,” including claims about lack of adequate placebo-controlled trials.
+This theme is used to argue that safety assurances are not credible.
+
+“Hepatitis B vaccination causes serious harms (e.g., multiple sclerosis),” or that there’s a “signal” of severe outcomes.
+This type of claim appears as part of a safety-scare cluster around routine vaccination.
+
+“COVID-19 vaccines are extremely dangerous / ‘most dangerous of all time’” and “COVID shots are killing children (more than reported).”
+In the sample, some posts are promotional/opinion-heavy and others are too vague to verify cleanly, but the underlying misinformation claim is present as a discourse motif.
+
+“Vaccines spread disease via ‘shedding’,” used as an argument that vaccinated people can harm others.
+This shows up as a recurring misinformation trope referenced in sourced rebuttals.
+
+“CDC/health agencies are hiding or manipulating safety data,” including claims implying corrupted decision-making (e.g., captured by politics/pharma).
+Even when not stated as a single precise fact, it appears as a narrative claim driving distrust.
+
+Net takeaway: the discourse clusters most strongly around (1) autism causation/CDC messaging, (2) newborn hepatitis B policy as a flashpoint for broader “unsafe/untested” claims, and (3) generalized COVID-19 vaccine harm narratives.
+
+Copy response
+Delete response
+Follow-ups
+Which CDC-page wording change (date/quote) is most cited for the “CDC softened” narrative, and how do posts describe it
+For the autism-related claim threads, what exact causal assertions are made (e.g., “can’t be ruled out” vs “proves autism”), and where
+Who are the top actors driving each major claim thread (autism, Hep B delay, COVID danger, shedding), and how much engagement do they get
+How does the autism/CDC-webpage narrative differ across YouTube vs X vs Reddit in sentiment and framing over time
+Outside the autism and Hep B themes, what other misinformation claim themes appear most frequently, and which get the highest engagement

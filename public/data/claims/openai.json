@@ -13,7 +13,7 @@
     "engagement": {
       "total": 3100000
     },
-    "topic": "product launch",
+    "topic": "GPT-5.2 Launch",
     "postText": "gpt-5.2-codex launches today. it is trained specifically for agentic coding and terminal use, and people at openai have been having great success with it."
   },
   {
@@ -30,7 +30,7 @@
     "engagement": {
       "total": 650400
     },
-    "topic": "internal company status",
+    "topic": "Code Red Declaration",
     "postText": "openai chief executive sam altman told employees that the company was declaring a \"code red\" effort to improve the quality of chatgpt"
   },
   {
@@ -47,15 +47,15 @@
     "engagement": {
       "total": 603900
     },
-    "topic": "product impact",
+    "topic": "Impact of GPT-5.2",
     "postText": "OpenAI was dead… Then GPT-5.2 dropped"
   },
   {
     "id": "openai-4",
     "articleId": "openai",
     "relevantSectionIds": [
-      "2025-restructuring",
-      "governance-and-legal-issues"
+      "development",
+      "alignment"
     ],
     "claimText": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong.",
     "platform": "twitter",
@@ -64,11 +64,45 @@
     "engagement": {
       "total": 359100
     },
-    "topic": "company insights",
+    "topic": "AI Development Insights",
     "postText": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words"
   },
   {
     "id": "openai-5",
+    "articleId": "openai",
+    "relevantSectionIds": [
+      "transition-from-non-profit",
+      "governance-and-legal-issues"
+    ],
+    "claimText": "sam altman just hit 'code red' - and big tech finally smells blood openai just threw the emergency lever.",
+    "platform": "twitter",
+    "sourceAuthor": "MarioNawfal",
+    "date": "2026-01",
+    "engagement": {
+      "total": 175700
+    },
+    "topic": "Code Red and Competitive Pressure",
+    "postText": "flag:_United_States  sam altman just hit \"code red\" - and big tech finally smells blood openai just threw the emergency lever. sam altman - the man who spent the last 2 years looking untouchable - told his staff this week that the ai crown is no longer guaranteed. not with google firing off gemini 3"
+  },
+  {
+    "id": "openai-6",
+    "articleId": "openai",
+    "relevantSectionIds": [
+      "development",
+      "alignment"
+    ],
+    "claimText": "openai says planning safeguards for ai models *openai: training models to safely respond to harmful requests",
+    "platform": "twitter",
+    "sourceAuthor": "zerohedge",
+    "date": "2026-01",
+    "engagement": {
+      "total": 164800
+    },
+    "topic": "AI Safety Measures",
+    "postText": "so when the board kicked out sam as ceo, they were right? *openai says planning safeguards for ai models *openai: training models to safely respond to harmful requests"
+  },
+  {
+    "id": "openai-7",
     "articleId": "openai",
     "relevantSectionIds": [
       "transition-from-non-profit",
@@ -81,11 +115,11 @@
     "engagement": {
       "total": 84200
     },
-    "topic": "internal company status",
+    "topic": "Focus on ChatGPT Quality",
     "postText": "altman told employees in a memo that openai is declaring a \"code red\" on chatgpt, pausing work on ads, ai agents & pulse to focus on day to day quality, more personalization, faster responses & fewer unnecessary refusals he also acknowledged $googl gemini is gaining ground and said openai plans to r"
   },
   {
-    "id": "openai-6",
+    "id": "openai-8",
     "articleId": "openai",
     "relevantSectionIds": [
       "finances",
@@ -98,7 +132,7 @@
     "engagement": {
       "total": 12400
     },
-    "topic": "financial performance",
+    "topic": "Revenue and GPT-5.2",
     "postText": "OpenAI's Sam Altman says revenue ramp 'unusual at this scale' as company rolls out GPT-5.2"
   }
 ]

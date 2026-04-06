@@ -3,8 +3,8 @@
     "id": "ultra-processed-food-2",
     "articleId": "ultra-processed-food",
     "relevantSectionIds": [
-      "definitions",
-      "nova-classification"
+      "nova-classification",
+      "how-to-identify-ultra-processed-foods"
     ],
     "claimText": "50–70% of the foods in our supermarkets are ultra-processed.",
     "platform": "youtube",
@@ -13,7 +13,7 @@
     "engagement": {
       "total": 4
     },
-    "topic": "prevalence of ultra-processed foods",
+    "topic": "definitions",
     "postText": "Did you know that 50–70% of the foods in our supermarkets are ultra-processed? These foods may look tasty, but they can affect your health in ways you don’t expect. In this video, we break down: What ultra-processed foods really are The difference between processed vs minimally processed foods Examp"
   },
   {
@@ -30,7 +30,7 @@
     "engagement": {
       "total": 3
     },
-    "topic": "health impacts of ultra-processed foods",
+    "topic": "health effects",
     "postText": "Episode Overview In this eye-opening conversation, Dr Euridice Martinez-Steele, who has spent 12 years researching ultra processed foods at NUPENS (University of Sao Paulo), explains how these industrial food formulations are driving chronic disease worldwide. Drawing on evidence from almost 10 mill"
   },
   {
@@ -47,14 +47,14 @@
     "engagement": {
       "total": 1
     },
-    "topic": "definition of ultra-processed foods",
+    "topic": "definitions",
     "postText": "What Science Is Showing About Ultra-Processed FoodsFor many years, nutrition advice focused on individual nutrients — calories, fat, sugar, and salt.But as research has expanded, scientists have begun looking at something broader:how foods are made, not just what’s listed on the label.This has led t"
   },
   {
     "id": "ultra-processed-food-1",
     "articleId": "ultra-processed-food",
     "relevantSectionIds": [
-      "health-effects",
+      "association-with-all-cause-mortality",
       "cancer"
     ],
     "claimText": "Recent systematic reviews and meta analyses reveal a strong association between high UPF consumption and increased risk of several cancers, particularly those affecting the digestive system and hormone dependent organs like the breast and colon.",
@@ -64,7 +64,7 @@
     "engagement": {
       "total": 0
     },
-    "topic": "health risks of ultra-processed foods",
+    "topic": "health effects",
     "postText": "Ultra processed foods have become a global staple, but the growing body of scientific evidence paints a far more troubling picture of their impact on human health. Recent systematic reviews and meta analyses reveal a strong association between high UPF consumption and increased risk of several cance"
   }
 ]
