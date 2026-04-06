@@ -10,4 +10,620 @@ Show Summary
 
 Identify the claims related to right to repair that you identify from the discourse
 
-Thinking…
+Claims Analysis
+Posts view
+Claim groups view
+302s
+
+Switch views: Posts view shows claims per post, while Claim groups view groups similar claims across posts.
+
+Posts analyzed
+30
+Claims extracted
+44
+Fact-checks found
+0
+News sources
+32
+Wikipedia refs
+59
+
+9 posts had no extractable claims.
+
+GuntherEagleman
+
+Twitter/X
+
+HOLY BOMBSHELL! Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE!
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 4
+Wikipedia: 4
+
+983.4K interactions
+
+Open details
+
+View post
+
+StandUpForTrmp
+
+Twitter/X
+
+🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 5
+Wikipedia: 5
+
+722.2K interactions
+
+Open details
+
+View post
+
+osbornforne
+
+Twitter/X
+
+Here I am fixing the brakes on my Campaign Manager’s RAM hoping to get your attention on an issue I care a lot about as a mechanic – Right To Repair. Right to Repair is simple: if you own something, you should be able to fix it or take it to a technician you trust. But for decades, big corporations have chipped away at this right by making repairs difficult, expensive, or even impossible. We need Right To Repair. When I’m in the U.S. Senate, I’ll cosponsor legislation to get it done.
+
+Claims: 1
+Fact-checks: 0
+PubMedia: 0
+Sources: 2
+Wikipedia: 2
+
+221.7K interactions
+
+Open details
+
+View post
+
+StoolGreenie
+
+Twitter/X
+
+Jayson Tatum - Right Achilles Repair - QUESTIONABLE is going to hit like crack
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 6
+Wikipedia: 3
+
+176.5K interactions
+
+Open details
+
+View post
+
+realDailyWire
+
+Twitter/X
+
+"everyone's seeing the fighting...but i think it's getting good conversations from that. we need to head forward in that." @reaganconrad on turning online discourse into productive real-life discussions:
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+151.2K interactions
+
+Open details
+
+View post
+
+SenWarren
+
+Twitter/X
+
+Right now, greedy defense contractors are blocking our troops from fixing their own equipment. Congress had a bipartisan plan to fix that, but lobbyists stopped it. @RepDeluzio and I aren't giving up on this. Our troops should have the right to repair their own stuff.
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 4
+Wikipedia: 4
+
+111.7K interactions
+
+Open details
+
+View post
+
+RepDeluzio
+
+Twitter/X
+
+Our troops should be able to fix their own equipment. It's outrageous that swampy corporate lobbyists and the politicians carrying their water stripped our military's "Right to Repair" out of the defense bill. @SenWarren and I won't stop fighting to protect public money, support our troops, and fight corporate power in Washington.
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+48.5K interactions
+
+Open details
+
+View post
+
+RightPulseNewss
+
+Twitter/X
+
+🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 4
+Wikipedia: 4
+
+43.6K interactions
+
+Open details
+
+View post
+
+PRG CLIPS
+
+YouTube
+
+Find All Tools Used Here: https://www.phonerepairguru.com/tools Find PRG Merch Here: https://www.phonerepairguru.com/merch Find All Products Here: https://www.phonerepairguru.com/as-seen-on-shorts Thank you for watching! Buy My BLUE Mat: https://a.co/d/h3iPG3i Website ( Contact/Tools/Merch/Short Video Products ): https://www.phonerepairguru.com/ Ask a Question (Join the Subreddit): https://www.reddit.com/r/PhoneRepairTalk/ PROMO INQUIRIES: Tony@prettygoodagents.com Social: Check us out on Instagram https://www.instagram.com/therealphonerepairguru/?hl=en Or on TikTok https://www.tiktok.com/@phonerepairguru?lang=en Snapchat: https://www.snapchat.com/add/phonerepairguru Twitter: https://twitter.com/therealprg?lang=en Facebook: https://www.facebook.com/phonerepairguruu/ Phone Repair Guru assumes no liability for any damage caused to your phone as a result of any of the information contained in this video. Do not attempt unless you are open to the possibility of further damaging your device
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+40.2K interactions
+
+Open details
+
+View post
+
+KaiSchwemmer
+
+Twitter/X
+
+the debate i had on barfight with @michaeljknowles and @stevedeaceshow is up now on youtube, go give it a watch!
+
+Claims: 1
+Fact-checks: 0
+PubMedia: 0
+Sources: 2
+Wikipedia: 2
+
+32.7K interactions
+
+Open details
+
+View post
+
+RepMGP
+
+Twitter/X
+
+At this rate, we’re going to get turned into a permanent class of renters without the agency to fix what we rely on. My bipartisan Right to Repair bills would right that wrong and affirm that America is a nation of people who know how to make things.
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+29.2K interactions
+
+Open details
+
+View post
+
+edify_club
+
+Twitter/X
+
+Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thousands of crores every year. It also fills the country with unnecessary e waste that could have been avoided. Short device life has become normal. It should not be. Here is what almost no one in the market wants to say. More than 70 percent of corporate laptops that enter e waste pipelines still have four to six years of usable life left. The problem is not the hardware. The problem is the system around it. Across the world, the conversation has shifted to longevity. Europe uses a repairability index. The United States is pushing right to repair laws. Consumers are finally asking why a machine that is built to last is treated like a disposable item. India is next. And Indian consumers will ga
+
+Claims: 5
+Fact-checks: 0
+PubMedia: 0
+Sources: 8
+Wikipedia: 8
+
+23.5K interactions
+
+Open details
+
+View post
+
+Zcash_Daily
+
+Twitter/X
+
+Open source software & 3D printing are the future. Pirate Party helped farmers sue John Deere for the “Right To Repair” tractors. Website: Marcin Jakubowski, Ph.D founder of Open Source Ecology. Credit: OpenSourceEcology (IG)
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 5
+Wikipedia: 5
+
+21.1K interactions
+
+Open details
+
+View post
+
+FaytuksNetwork
+
+Twitter/X
+
+🇺🇸 Right to repair language for military equipment was stripped from the NDAA in December despite White House, Pentagon, and bipartisan backing. Atlantic Council analysis says the current repair restrictions threaten U.S. forces combat readiness.
+
+Claims: 3
+Fact-checks: 0
+PubMedia: 0
+Sources: 5
+Wikipedia: 5
+
+16.9K interactions
+
+Open details
+
+View post
+
+WIRED
+
+Twitter/X
+
+This year, the right-to-repair movement got a boost from—surprisingly—big tech, tariffs, and economic downturn. But the companies controlling who fixes their stuff aren’t giving up that power willingly.
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 6
+Wikipedia: 6
+
+13.1K interactions
+
+Open details
+
+View post
+
+WIRED
+
+Twitter/X
+
+As vehicles grow more software-dependent, repairing them has become harder than ever. A bill in the US House called the Repair Act would ease those restrictions, but it comes with caveats.
+
+Claims: 3
+Fact-checks: 0
+PubMedia: 0
+Sources: 5
+Wikipedia: 4
+
+9.8K interactions
+
+Open details
+
+View post
+
+GBNEWS
+
+Twitter/X
+
+'Reform not only can repair that damage, we can take Britain to new heights.' Head of Policy at Reform UK Zia Yusuf hits out at Kemi Badenoch for refusing to admit the Conservative Party broke Britain. 🇬🇧 Become a Friend of GB News:
+
+Claims: 3
+Fact-checks: 0
+PubMedia: 0
+Sources: 17
+Wikipedia: 0
+
+9.7K interactions
+
+Open details
+
+View post
+
+MeadorFTC
+
+Twitter/X
+
+Right to repair is common sense. When you buy something, you should be able to fix it yourself. This is about basic fairness—and it’s also about keeping the market competitive. Honored to be fighting alongside good men like ⁦@SecWar⁩ in this battle.
+
+Claims: 1
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+9.4K interactions
+
+Open details
+
+View post
+
+ObiWan_Catnobi
+
+Twitter/X
+
+malas baca jadi abri. namanya diskusi publik, mimbar bebas, even demo itu hak. buat exercise hak, ga butuh izin aparat, cukup kasi surat pemberitahuan
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 11
+Wikipedia: 0
+
+9.3K interactions
+
+Open details
+
+View post
+
+atensnut
+
+Twitter/X
+
+Americans shouldn’t be forced into expensive dealership repairs. The REPAIR Act guarantees your right to choose independent shops and keeps money in your pocket. @RepGuthrie @RepGusBilirakis — let’s get this done for hardworking families!
+
+Claims: 1
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+9.1K interactions
+
+Open details
+
+View post
+
+Uncle Tony's Garage
+
+YouTube
+
+When we first heard about Hyundai requiring a computer connection complete with subscription software to perform a simple rear brake pad service, it was via a video by @louisrossman, and to be honest we thought he might have been mistaken since he's not an actual hands on mechanic. But, we did just a little digging, and as it turns out this is actually the case with current model years Ionic 5 EVs. The fear here, is that if Hyundai can get away with this on this one model, there is nothing to stop any manufacturer from incorporating in any vehicle, this locking the little guy shop and DIY mechanic out of performing the most basic and common maintenance and repairs. MERCHANDISE Get Your UTG T-Shirts Here: https://uncletonysgarage.com/product/utg-t-shirt Get Your UTG Stickers Here: https://uncletonysgarage.com/product/utg-stickers OUR STORE: https://uncletonysgarage.com
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+9.0K interactions
+
+Open details
+
+View post
+
+engadget
+
+Twitter/X
+
+Congress removes right to repair language from 2026 defense bill
+
+Claims: 1
+Fact-checks: 0
+PubMedia: 0
+Sources: 1
+Wikipedia: 1
+
+8.6K interactions
+
+Open details
+
+View post
+
+Things Your House Needs
+
+YouTube
+
+This 5-minute fix is illegal in some places That should bother you Right to Repair while I fix my Lincoln Follow if you believe ownership should mean something #thingsyourhouseneeds #righttorepair #diy #resilience
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+8.4K interactions
+
+Open details
+
+View post
+
+LEAADFarms
+
+Twitter/X
+
+the government has been forcing manufacturers to put this stuff on to meet standards. Does the right to repair mean the right to delete and modify my equipment to run when I need it?
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+7.8K interactions
+
+Open details
+
+View post
+
+RobProvince
+
+Twitter/X
+
+Right To Repair
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+7.7K interactions
+
+Open details
+
+View post
+
+nProctor
+
+Twitter/X
+
+This is a similar story that I've heard from a lot of farmers in my work on Right to Repair. Farmers don't need a bailout, they need to be liberated!
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+7.3K interactions
+
+Open details
+
+View post
+
+seidosha
+
+Twitter/X
+
+『修理する権利』(アーロン・パーザナウスキー著/西村伸泰訳)の解題を書いてくださった吉田健彦さんが、本書のガイダンスを行われます。 欧米における「修理する権利(Right to repair)」の動向から、仙台に根ざすローカルな取り組みまで、さまざまな位相で「修理すること」について考えます。
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+7.2K interactions
+
+Open details
+
+View post
+
+NickSolheim
+
+Twitter/X
+
+Happy New Year and welcome to Season 6 of Moment of Truth. We’re kicking it off with a topic that fills me with incredible fury: the fight over Right to Repair. If you’ve ever tried to work on your own car and found yourself locked out by software or unable to twist a trademarked bespoke screw, this wonky issue has made your life worse. And defense contractors are making trillions off of doing it to our military. Thank you to @kevin_oreilly7 for doing such great work on this important issue and for coming on our show to get me (and hopefully all of you!) fired up about it. 02:25 - What is Right to Repair? 09:07 - Everyday Rip-Offs 13:30 - Corporate Profit Motives 18:40 - Why Military Right to Repair Is A National Security Problem 27:54 - Trump Admin Leaders Sounding the Alarm 33:47 - We Used to Fix Our Own Jets Like Badasses 38:33 - Lobby Lies About Innovation 43:26 - NDAA and the Industry Power Play 48:21 - Why We'll Win
+
+Claims: 3
+Fact-checks: 0
+PubMedia: 0
+Sources: 3
+Wikipedia: 3
+
+6.7K interactions
+
+Open details
+
+View post
+
+StandUpForTrmp
+
+Twitter/X
+
+🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 3
+Wikipedia: 3
+
+6.1K interactions
+
+Open details
+
+View post
+
+eWastelander
+
+YouTube
+
+#eWaste #eWastelander #Modding #RetroTech #Tech #Vintage #Analog #Retro #Obsolete #Tinkering #Xbox #Sony #Gaming #iPod #Walkman #AntiAI #Cyberpunk #TVHead #Cowboy #Nintendo #Controllers #Fixing #Repair #RighttoRepair #Dreamcasts #Stadia #Minidisc #PSBBN #PlayStation #PS2 #TubeTV #CRTTV #ModdedController #DIY #homebrew
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+5.4K interactions
+
+Open details
+
+View post
+
+GuntherEagleman
+
+Twitter/X
+983.4K interactions
+2 claims
+View post
+
+HOLY BOMBSHELL! Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE!
+
+CLAIMS (2)
+
+Donald Trump said that...
+John Deere has been...
+1
+
+Donald Trump said that the right to repair is coming to farmers
+
+Political
+2025-12-08
+
+SUMMARY
+
+The claim says that Donald Trump stated that the “right to repair” is coming to farmers. No retrieved non-Wikipedia sources were provided, so there is no direct supporting reporting in the source set. Wikipedia background explains what “right to repair” generally means: a legal right for device/equipment owners to repair or modify products, discusses common barriers (e.g., manufacturer-restricted tools/parts and software barriers), and notes it can include farm equipment such as agricultural machinery [1]. Wikipedia’s pages about Donald Trump Wikipedia: Donald Trump and John Deere Wikipedia: John Deere provide general entity context (roles and what John Deere manufactures) but do not include information about any Trump statement on farmers receiving right-to-repair. As a result, the provided evidence set contains only conceptual and entity background, not confirmation that Trump made the specific “coming to farmers” statement.
+
+Overall, the sources are relevant for background on what the “right to repair” concept covers and for general context on the named entities, but none of them directly address the specific quoted assertion about Trump and farmers. This creates a mismatch between the claim’s specificity and the evidence provided.
+
+SOURCES
+
+Fact-checked
+(0)
+PubMedia
+(0)
+Other
+(0)
+Wikipedia
+(1)
+WIKIPEDIA (1)
+[1]Wikipedia — Right to repair — Defines right to repair as allowing owners to maintain, repair, or modify products; includes farm equipment.
+
+Based on the case study’s 832 posts (YouTube, Twitter, Reddit; 2025-12-01 to 2026-02-01), claims analysis surfaced 44 checkable claims from a high-signal subset of 30 posts. The main right-to-repair claims in the discourse cluster into a few recurring narratives:
+
+Political “promise” claim (farm equipment): Multiple viral posts assert that Donald Trump said “right to repair is coming to our farmers,” often paired with the allegation that John Deere has treated farmers unfairly “for decades.”
+Military right-to-repair claim: Posts argue that right-to-repair provisions for military equipment were removed from the defense authorization process (often described as being “stripped” from the NDAA/defense bill), despite supposed bipartisan/administration support, and that restrictions harm readiness.
+Auto right-to-repair policy claim: Posts promote a federal “REPAIR Act/Repair Act,” claiming it would guarantee access to independent repair shops and ease restrictions as vehicles become more software-dependent.
+Software lock-in / subscription claim (vehicles): A prominent YouTube narrative alleges Hyundai requires a computer connection plus subscription software to perform basic service (rear brake pads) on newer Ioniq 5 EVs—framed as an escalation in repair lockouts.
+Consumer/tech sustainability claims: Posts claim right-to-repair is linked to reducing waste and premature replacement, including a quantitative assertion that “70%+ of corporate laptops entering e-waste streams still have 4–6 years of usable life,” plus the claim that “Europe uses a repairability index.”
+
+A key caveat from the evidence attached to these extracted claims: many are widely repeated but not well-supported by corroborating reporting within the retrieved sources in this run (several claims are backed mainly by general background rather than direct confirmation), so they’re best treated as “discourse claims” rather than verified facts unless you separately confirm them.
+
+Copy response
+Delete response
+Follow-ups
+Which of the 44 extracted right-to-repair claims have the strongest source-backed evidence in the 30 high-signal posts
+For the “Trump promised right to repair for farmers” narrative, what exact quotes or paraphrases appear in the top posts
+Who are the most influential accounts driving each major right-to-repair narrative (auto, military, farm, software lock-in), and how much they amplified
+Did the balance between claims about auto (REPAIR Act/software lock-in) vs military/farm rights shift differently across YouTube, Twitter, and Reddit
+What themes besides “right to repair” appear alongside it in the discourse (e.g., waste/repairability, EU policy, e-waste, sustainability), and which platform stresses them most

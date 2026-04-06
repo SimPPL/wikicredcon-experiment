@@ -8,13 +8,13 @@
       "development"
     ],
     "claimCount": 5,
-    "totalEngagement": 4870000,
+    "totalEngagement": 4860000,
     "claims": [
       {
         "id": "claim-1",
         "claimText": "gpt-5.2-codex launches today, trained specifically for agentic coding and terminal use.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "platform": "twitter",
         "engagement": 3100000,
         "postExcerpt": "gpt-5.2-codex launches today."
       },
@@ -28,17 +28,17 @@
       },
       {
         "id": "claim-3",
-        "claimText": "GPT-5.2 will arrive on December 9th.",
+        "claimText": "gpt-5.2 will arrive on December 9th.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "platform": "twitter",
         "engagement": 0,
-        "postExcerpt": "gpt-5.2 next week! it will arrive on december 9th."
+        "postExcerpt": "gpt-5.2 next week! it will arrive on December 9th."
       },
       {
         "id": "claim-4",
-        "claimText": "GPT-5.2 is the most advanced AI model for tasks like spreadsheet creation and image recognition.",
+        "claimText": "GPT-5.2 is the most advanced AI model for tasks like spreadsheet creation and code generation.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "platform": "twitter",
         "engagement": 0,
         "postExcerpt": "openaiは、これまでで最も高度なaiモデル「gpt-5.2」を発表しました。"
       },
@@ -55,106 +55,106 @@
   {
     "groupId": "group-2",
     "groupTitle": "Code Red Declaration",
-    "groupSummary": "Several posts discuss the declaration of a 'code red' by Sam Altman in response to competition.",
+    "groupSummary": "Several posts highlight the declaration of a 'code red' by Sam Altman at OpenAI.",
     "relevantSectionIds": [
       "development",
       "governance-and-legal-issues"
     ],
     "claimCount": 6,
-    "totalEngagement": 1000000,
+    "totalEngagement": 1450000,
     "claims": [
       {
         "id": "claim-6",
         "claimText": "Sam Altman declared a 'code red' effort to improve the quality of ChatGPT.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "platform": "twitter",
         "engagement": 650400,
         "postExcerpt": "openai chief executive sam altman told employees that the company was declaring a 'code red' effort."
       },
       {
         "id": "claim-7",
-        "claimText": "OpenAI is pausing work on ads and AI agents to focus on ChatGPT quality.",
+        "claimText": "OpenAI is pausing work on ads, AI agents, and Pulse to focus on ChatGPT improvements.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "platform": "twitter",
         "engagement": 84200,
         "postExcerpt": "altman told employees in a memo that openai is declaring a 'code red' on chatgpt."
       },
       {
         "id": "claim-8",
-        "claimText": "OpenAI has committed $1.4 trillion in infrastructure spending.",
+        "claimText": "Sam Altman acknowledged that Google's Gemini is gaining ground.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
-        "engagement": 0,
-        "postExcerpt": "the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending."
-      },
-      {
-        "id": "claim-9",
-        "claimText": "Sam Altman acknowledged that Google’s Gemini is gaining ground.",
-        "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "platform": "twitter",
         "engagement": 0,
         "postExcerpt": "he also acknowledged $googl gemini is gaining ground."
       },
       {
-        "id": "claim-10",
-        "claimText": "OpenAI plans to roll out a new reasoning model next week.",
+        "id": "claim-9",
+        "claimText": "OpenAI has committed $1.4 trillion in infrastructure spending.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "platform": "twitter",
         "engagement": 0,
-        "postExcerpt": "openai plans to roll out a new reasoning model next week."
+        "postExcerpt": "openai has committed $1.4 trillion in infrastructure spending."
+      },
+      {
+        "id": "claim-10",
+        "claimText": "Sam Altman sent an internal memo telling OpenAI employees to drop everything and focus on fixing ChatGPT.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
+        "engagement": 0,
+        "postExcerpt": "sam altman has sent an internal memo telling openai employees to drop everything."
       },
       {
         "id": "claim-11",
-        "claimText": "Sam Altman sent an internal memo telling employees to focus on fixing ChatGPT.",
-        "sourceAuthor": "Jason Calacanis",
-        "platform": "Twitter/X",
+        "claimText": "OpenAI is hiring a Head of Preparedness for $555,000 to tighten testing and shipping of agentic systems.",
+        "sourceAuthor": "@username",
+        "platform": "twitter",
         "engagement": 0,
-        "postExcerpt": "sam altman has sent an internal memo telling openai employees to drop everything and focus on fixing chatgpt."
+        "postExcerpt": "openai is hiring a $555,000 Head of Preparedness."
       }
     ]
   },
   {
     "groupId": "group-3",
     "groupTitle": "Competitive Landscape",
-    "groupSummary": "Posts highlight the competitive pressures OpenAI faces from other AI companies.",
+    "groupSummary": "Posts discuss the competitive pressures from Google and Anthropic.",
     "relevantSectionIds": [
-      "partnership-with-microsoft",
-      "corporate-partnerships"
+      "corporate-partnerships",
+      "government-contracting"
     ],
     "claimCount": 4,
     "totalEngagement": 0,
     "claims": [
       {
         "id": "claim-12",
-        "claimText": "Google's Gemini 3 is outperforming OpenAI's models in key metrics.",
+        "claimText": "OpenAI declared 'code red' due to competition from Google and Anthropic.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "platform": "twitter",
         "engagement": 0,
-        "postExcerpt": "google firing off gemini 3 like a warning shot."
+        "postExcerpt": "openai declares 'code red' as google and anthropic eat their lunch."
       },
       {
         "id": "claim-13",
-        "claimText": "Anthropic is quietly building models that beat GPT-5 in important metrics.",
+        "claimText": "Google's Gemini 3 hit 1501 Elo on Lmarena, the first model to breach 1500.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "platform": "twitter",
         "engagement": 0,
-        "postExcerpt": "anthropic quietly building models that keep beating gpt-5."
+        "postExcerpt": "google's gemini 3 hit 1501 elo on lmarena."
       },
       {
         "id": "claim-14",
         "claimText": "OpenAI's advertising plans have been delayed due to competitive pressures.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "platform": "twitter",
         "engagement": 0,
-        "postExcerpt": "openai advertising plans delayed."
+        "postExcerpt": "openai is delaying advertising plans."
       },
       {
         "id": "claim-15",
-        "claimText": "OpenAI is focusing on enhancing user experience to compete with Gemini 3.",
+        "claimText": "OpenAI is focusing on improving ChatGPT to compete with Gemini 3.",
         "sourceAuthor": "@username",
-        "platform": "Twitter/X",
+        "platform": "twitter",
         "engagement": 0,
-        "postExcerpt": "chatgptのチャット機能のパーソナライズとカスタマイズによるユーザー体験の向上がgemini3に対抗."
+        "postExcerpt": "focus on fixing chatgpt to compete with gemini 3."
       }
     ]
   }

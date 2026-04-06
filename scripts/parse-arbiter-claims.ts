@@ -19,7 +19,7 @@ const CLAIMS_DIR = join(__dirname, '..', 'public', 'data', 'claims');
 const API_KEY = readFileSync(join(__dirname, '..', '..', '.env'), 'utf8')
   .split('\n').find(l => l.startsWith('OPENROUTER_API_KEY='))!.split('=')[1].trim();
 
-const ARTICLES = ['pfas', 'openai', 'ultra-processed-food', 'agi', 'misinformation', 'microplastics', 'glp1-receptor-agonist', 'vaccine-misinfo'];
+const ARTICLES = ['pfas', 'openai', 'ultra-processed-food', 'agi', 'misinformation', 'microplastics', 'vaccine-misinfo', 'right-to-repair'];
 
 interface ParsedClaim {
   id: string;

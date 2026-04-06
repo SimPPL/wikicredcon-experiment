@@ -1,171 +1,177 @@
 [
   {
     "groupId": "group-1",
-    "groupTitle": "Health Risks and Disease Associations",
-    "groupSummary": "Numerous claims highlight the links between ultra-processed foods and various health issues, including cancer, obesity, and diabetes.",
+    "groupTitle": "Health Risks and Chronic Diseases",
+    "groupSummary": "Numerous claims link ultra-processed foods to various health issues, including cancer and chronic diseases.",
     "relevantSectionIds": [
       "health-effects",
       "cancer",
-      "obesity-and-weight-gain",
-      "diabetes"
+      "obesity-and-weight-gain"
     ],
     "claimCount": 7,
-    "totalEngagement": 23456,
+    "totalEngagement": 14567,
     "claims": [
       {
         "id": "claim-1",
-        "claimText": "High UPF consumption is associated with increased risk of several cancers, particularly those affecting the digestive system and hormone-dependent organs.",
-        "sourceAuthor": "@unknown",
+        "claimText": "Ultra-processed foods are linked to increased risk of several cancers, particularly those affecting the digestive system.",
+        "sourceAuthor": "Dr. Joe Schwarz",
         "platform": "YouTube",
-        "engagement": 1500,
-        "postExcerpt": "Recent systematic reviews reveal a strong association between high UPF consumption and increased risk of several cancers."
+        "engagement": 2000,
+        "postExcerpt": "the growing body of scientific evidence paints a far more troubling picture of their impact on human health."
       },
       {
         "id": "claim-2",
-        "claimText": "Ultra-processed foods are linked to 12 serious health conditions.",
-        "sourceAuthor": "@StudioSWL",
+        "claimText": "New research links ultra-processed foods to 12 serious health conditions.",
+        "sourceAuthor": "Studio SWL",
         "platform": "YouTube",
         "engagement": 800,
-        "postExcerpt": "New research links ultra-processed foods to 12 serious health conditions."
+        "postExcerpt": "what this means, what to watch for, and how to make smarter food choices."
       },
       {
         "id": "claim-3",
-        "claimText": "Ultra-processed foods increase the risk of obesity, heart disease, diabetes, cancer, mental health disorders, and dementia.",
-        "sourceAuthor": "@ChrisvanTulleken",
+        "claimText": "Ultra-processed foods are linked to obesity, heart disease, diabetes, cancer, mental health disorders, and dementia.",
+        "sourceAuthor": "Chris van Tulleken",
         "platform": "YouTube",
-        "engagement": 1200,
-        "postExcerpt": "These foods are quietly damaging your body, increasing your risk of obesity, heart disease, diabetes, cancer, mental health disorders, and dementia."
+        "engagement": 1500,
+        "postExcerpt": "we uncover the hidden dangers of ultra-processed food."
       },
       {
         "id": "claim-4",
-        "claimText": "Evidence shows that many preservatives in ultra-processed foods are significantly tied to increased cancer risk.",
-        "sourceAuthor": "@TheGutCode",
+        "claimText": "Evidence shows that many preservatives in ultra-processed foods are tied to increased cancer risk.",
+        "sourceAuthor": "The Gut Code",
         "platform": "Twitter/X",
         "engagement": 100,
-        "postExcerpt": "Data from @bmj_latest showed many preservative additives are significantly tied to increased risk for overall cancer development."
+        "postExcerpt": "Data from @bmj_latest showed many preservative additives..."
       },
       {
         "id": "claim-5",
         "claimText": "Ultra-processed foods are linked to higher cancer risk, faster aging, and cognitive decline.",
-        "sourceAuthor": "@unknown",
+        "sourceAuthor": "Timbo",
         "platform": "YouTube",
-        "engagement": 600,
-        "postExcerpt": "The hidden dangers of ultra-processed foods are now linked to higher cancer risk, faster aging, and cognitive decline."
+        "engagement": 1200,
+        "postExcerpt": "the hidden dangers of ultra-processed foods (UPFs)..."
       },
       {
         "id": "claim-6",
-        "claimText": "Ultra-processed foods can harm our liver, gut, heart, brain, and hormones.",
-        "sourceAuthor": "@unknown",
+        "claimText": "Ultra-processed foods are associated with chronic diseases and constant hunger.",
+        "sourceAuthor": "Prof. Dr. Daud",
         "platform": "YouTube",
-        "engagement": 400,
-        "postExcerpt": "These foods are loaded with artificial colors, preservatives, excess sugar, unhealthy fats, and chemical additives."
+        "engagement": 300,
+        "postExcerpt": "linked to early death, chronic disease, and constant hunger."
       },
       {
         "id": "claim-7",
-        "claimText": "Ultra-processed foods are associated with chronic diseases and constant hunger.",
-        "sourceAuthor": "@unknown",
+        "claimText": "Ultra-processed foods can disrupt our gut microbiome and increase our eating rate.",
+        "sourceAuthor": "Dr. Euridice Martinez-Steele",
         "platform": "YouTube",
-        "engagement": 300,
-        "postExcerpt": "Researchers are now linking ultra-processed foods to early death, chronic disease, and constant hunger."
+        "engagement": 1500,
+        "postExcerpt": "how these industrial food formulations are driving chronic disease worldwide."
       }
     ]
   },
   {
     "groupId": "group-2",
-    "groupTitle": "Definitions and Characteristics of Ultra-Processed Foods",
-    "groupSummary": "Several posts define ultra-processed foods and describe their characteristics, including ingredients and processing methods.",
+    "groupTitle": "Identification and Characteristics of Ultra-Processed Foods",
+    "groupSummary": "Claims focus on how to identify ultra-processed foods and their characteristics.",
     "relevantSectionIds": [
-      "definitions",
+      "how-to-identify-ultra-processed-foods",
       "nova-classification"
     ],
-    "claimCount": 5,
-    "totalEngagement": 5678,
+    "claimCount": 6,
+    "totalEngagement": 9800,
     "claims": [
       {
         "id": "claim-8",
-        "claimText": "Ultra-processed foods are significantly altered from their original form using industrial processes and ingredients not found in a home kitchen.",
-        "sourceAuthor": "@unknown",
+        "claimText": "Ultra-processed foods are significantly altered from their original form using industrial processes.",
+        "sourceAuthor": "Dr. Joe Schwarz",
         "platform": "YouTube",
-        "engagement": 200,
-        "postExcerpt": "Ultra-processed foods are foods that have been significantly altered from their original form using industrial processes."
+        "engagement": 500,
+        "postExcerpt": "foods that have been significantly altered from their original form..."
       },
       {
         "id": "claim-9",
-        "claimText": "Common ingredients in ultra-processed foods include artificial flavors, colors, preservatives, sweeteners, and emulsifiers.",
-        "sourceAuthor": "@unknown",
+        "claimText": "Examples of ultra-processed foods include packaged snacks, sugary drinks, and ready-to-eat meals.",
+        "sourceAuthor": "Chris van Tulleken",
         "platform": "YouTube",
-        "engagement": 250,
-        "postExcerpt": "They often contain: Artificial flavors, colors, or preservatives, sweeteners or emulsifiers."
+        "engagement": 700,
+        "postExcerpt": "from breakfast cereals and biscuits to flavored drinks..."
       },
       {
         "id": "claim-10",
-        "claimText": "Examples of ultra-processed foods include packaged snacks, sugary drinks, and ready-to-eat meals.",
-        "sourceAuthor": "@unknown",
+        "claimText": "Ultra-processed foods often contain artificial flavors, colors, preservatives, and additives.",
+        "sourceAuthor": "Studio SWL",
         "platform": "YouTube",
         "engagement": 300,
-        "postExcerpt": "Examples include: Packaged snacks (like chips or candy bars), sugary drinks, and ready-to-eat meals."
+        "postExcerpt": "loaded with artificial colors, preservatives, excess sugar..."
       },
       {
         "id": "claim-11",
-        "claimText": "Ultra-processed foods are often marketed as convenient but come with hidden health risks.",
-        "sourceAuthor": "@unknown",
+        "claimText": "The NOVA classification system is used to identify ultra-processed foods.",
+        "sourceAuthor": "Dr. Yashwant Singh",
         "platform": "YouTube",
-        "engagement": 150,
-        "postExcerpt": "Ultra-processed foods: convenient, but at a cost."
+        "engagement": 400,
+        "postExcerpt": "the gold standard used by researchers worldwide..."
       },
       {
         "id": "claim-12",
-        "claimText": "The NOVA classification system is used to categorize ultra-processed foods based on their level of processing.",
-        "sourceAuthor": "@DrYashwantSingh",
+        "claimText": "Many ultra-processed foods are marketed as healthy but are actually harmful.",
+        "sourceAuthor": "thegarybrecka",
         "platform": "YouTube",
-        "engagement": 180,
-        "postExcerpt": "According to the NOVA classification system—the gold standard used by researchers worldwide—ultra-processed foods are industrial creations."
+        "engagement": 600,
+        "postExcerpt": "foods marketed as 'healthy.'"
+      },
+      {
+        "id": "claim-13",
+        "claimText": "50-70% of foods in supermarkets are ultra-processed.",
+        "sourceAuthor": "Unknown",
+        "platform": "YouTube",
+        "engagement": 500,
+        "postExcerpt": "Did you know that 50–70% of the foods in our supermarkets are ultra-processed?"
       }
     ]
   },
   {
     "groupId": "group-3",
-    "groupTitle": "Economic and Social Implications",
-    "groupSummary": "Posts discuss the economic factors influencing the prevalence of ultra-processed foods and their impact on public health.",
+    "groupTitle": "Economic and Social Impacts",
+    "groupSummary": "Claims discuss the economic implications and societal trends related to ultra-processed foods.",
     "relevantSectionIds": [
       "economics",
-      "affordability-for-consumers",
-      "regulation-and-policy"
+      "affordability-for-consumers"
     ],
     "claimCount": 4,
-    "totalEngagement": 3456,
+    "totalEngagement": 3500,
     "claims": [
       {
-        "id": "claim-13",
-        "claimText": "The growing dependence on packaged and ultra-processed foods is driven by rapid lifestyle changes and marketing.",
-        "sourceAuthor": "@unknown",
-        "platform": "YouTube",
-        "engagement": 220,
-        "postExcerpt": "An MP highlighted the growing dependence on packaged and ultra-processed foods and warned about its long-term impact on public health."
-      },
-      {
         "id": "claim-14",
-        "claimText": "Ultra-processed foods are often more affordable and accessible than fresh, whole foods.",
-        "sourceAuthor": "@unknown",
+        "claimText": "The rise of ultra-processed foods is linked to changes in lifestyle and family structure.",
+        "sourceAuthor": "Unknown",
         "platform": "YouTube",
-        "engagement": 300,
-        "postExcerpt": "These foods are typically high in added sugar and are often more affordable than fresh produce."
+        "engagement": 200,
+        "postExcerpt": "the growing dependence on packaged and ultra-processed foods..."
       },
       {
         "id": "claim-15",
-        "claimText": "Aggressive marketing of ultra-processed foods contributes to chronic illness, especially among vulnerable populations.",
-        "sourceAuthor": "@unknown",
+        "claimText": "Ultra-processed foods are often more affordable than fresh, whole foods.",
+        "sourceAuthor": "Unknown",
         "platform": "YouTube",
-        "engagement": 400,
-        "postExcerpt": "This video covers: Ultra-processed foods and chronic disease, Factory farms."
+        "engagement": 300,
+        "postExcerpt": "chemically processed and ultra-processed foods are typically high in added sugar..."
       },
       {
         "id": "claim-16",
-        "claimText": "The economic model of food production favors ultra-processed foods over healthier options.",
-        "sourceAuthor": "@unknown",
+        "claimText": "Aggressive marketing of ultra-processed foods contributes to their consumption.",
+        "sourceAuthor": "Unknown",
         "platform": "YouTube",
-        "engagement": 350,
-        "postExcerpt": "The dark side of modern food: How profits are harming public health."
+        "engagement": 500,
+        "postExcerpt": "how ultra-processed foods, factory farming, antibiotic overuse..."
+      },
+      {
+        "id": "claim-17",
+        "claimText": "The convenience of ultra-processed foods is driving their popularity despite health risks.",
+        "sourceAuthor": "Unknown",
+        "platform": "YouTube",
+        "engagement": 2500,
+        "postExcerpt": "Ultra-processed foods: convenient, but at a cost."
       }
     ]
   }

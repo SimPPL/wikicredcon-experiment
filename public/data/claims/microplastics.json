@@ -5,8 +5,8 @@
     "groupSummary": "Several posts highlight the presence of microplastics in food and drinking water, raising concerns about health risks.",
     "relevantSectionIds": [
       "oral-intake",
-      "sources-of-microplastics",
-      "human-health"
+      "bottled-water",
+      "sources"
     ],
     "claimCount": 5,
     "totalEngagement": 1234,
@@ -17,7 +17,7 @@
         "sourceAuthor": "@ScienceExplainedDaily",
         "platform": "YouTube",
         "engagement": 0,
-        "postExcerpt": "In this video, we explain what microplastics are, how they get into our food..."
+        "postExcerpt": "Did you know that microplastics are found in many processed foods?"
       },
       {
         "id": "claim-2",
@@ -41,7 +41,7 @@
         "sourceAuthor": "@Researcher",
         "platform": "Twitter/X",
         "engagement": 0,
-        "postExcerpt": "Microplastic accumulation in the human body could be a serious health hazard..."
+        "postExcerpt": "Microplastic accumulation in the human body could be a serious health hazard."
       },
       {
         "id": "claim-5",
@@ -62,7 +62,7 @@
       "marine-and-freshwater-organisms"
     ],
     "claimCount": 4,
-    "totalEngagement": 1140,
+    "totalEngagement": 1143,
     "claims": [
       {
         "id": "claim-6",
@@ -74,11 +74,11 @@
       },
       {
         "id": "claim-7",
-        "claimText": "Microplastics are a significant pollutant in water systems.",
+        "claimText": "Microplastics are a significant contaminant in water systems.",
         "sourceAuthor": "@WaterTalk",
         "platform": "YouTube",
         "engagement": 0,
-        "postExcerpt": "Miami faces common issues like hidden impurities in our water supply."
+        "postExcerpt": "The water coming into your home isn't always as pure as it seems."
       },
       {
         "id": "claim-8",
@@ -90,64 +90,26 @@
       },
       {
         "id": "claim-9",
-        "claimText": "Microplastics are a growing concern for the environment.",
-        "sourceAuthor": "@PlasticPirateEU",
+        "claimText": "Microplastics contribute to the pollution of ecosystems.",
+        "sourceAuthor": "@EcoWarrior",
         "platform": "Twitter/X",
-        "engagement": 1700,
-        "postExcerpt": "From curiosity to 1,200+ datasets on microplastics."
+        "engagement": 0,
+        "postExcerpt": "Microplastics contribute to the pollution of ecosystems."
       }
     ]
   },
   {
     "groupId": "group-3",
-    "groupTitle": "Microplastics and Recycling",
-    "groupSummary": "Discussion around the challenges of recycling and managing microplastics in the environment.",
-    "relevantSectionIds": [
-      "policy-and-legislation",
-      "education-and-recycling"
-    ],
-    "claimCount": 3,
-    "totalEngagement": 0,
-    "claims": [
-      {
-        "id": "claim-10",
-        "claimText": "We could significantly reduce microplastic volume if we shut down plastic recycling.",
-        "sourceAuthor": "@StanfordMedicine",
-        "platform": "Twitter/X",
-        "engagement": 0,
-        "postExcerpt": "We could significantly reduce the volume if we'd just shut down plastic recycling."
-      },
-      {
-        "id": "claim-11",
-        "claimText": "Italy's national recycling industry conference focuses on circular economy issues.",
-        "sourceAuthor": "@ExtraBulla",
-        "platform": "Twitter/X",
-        "engagement": 4900,
-        "postExcerpt": "the annual national recycling industry conference 2025 took place..."
-      },
-      {
-        "id": "claim-12",
-        "claimText": "Microplastics are a key topic in discussions about environmental policy.",
-        "sourceAuthor": "@EnvironmentalPolicy",
-        "platform": "Twitter/X",
-        "engagement": 0,
-        "postExcerpt": "Microplastics are a key topic in discussions about environmental policy."
-      }
-    ]
-  },
-  {
-    "groupId": "group-4",
     "groupTitle": "Microplastics in Clothing and Textiles",
-    "groupSummary": "Claims regarding the release of microplastics from clothing during washing.",
+    "groupSummary": "Claims highlight the role of clothing in releasing microplastics into the environment.",
     "relevantSectionIds": [
-      "clothing",
-      "sources-of-microplastics"
+      "clothing"
     ],
     "claimCount": 2,
     "totalEngagement": 23,
     "claims": [
       {
-        "id": "claim-13",
+        "id": "claim-10",
         "claimText": "Every wash of synthetic clothing releases microplastics into the environment.",
         "sourceAuthor": "@LizBui",
         "platform": "YouTube",
@@ -155,12 +117,49 @@
         "postExcerpt": "Every Wash Leaves Microplastics In The Environment."
       },
       {
-        "id": "claim-14",
-        "claimText": "Microplastics from clothing are a significant source of ocean pollution.",
-        "sourceAuthor": "@EnvironmentalResearch",
+        "id": "claim-11",
+        "claimText": "Microplastics from clothing contribute to water pollution.",
+        "sourceAuthor": "@EcoFashion",
         "platform": "Twitter/X",
         "engagement": 0,
-        "postExcerpt": "Microplastics from clothing are a significant source of ocean pollution."
+        "postExcerpt": "Microplastics from clothing contribute to water pollution."
+      }
+    ]
+  },
+  {
+    "groupId": "group-4",
+    "groupTitle": "Research and Data on Microplastics",
+    "groupSummary": "Posts emphasize the importance of research and data collection regarding microplastics.",
+    "relevantSectionIds": [
+      "microplastics-detection",
+      "education-and-recycling"
+    ],
+    "claimCount": 3,
+    "totalEngagement": 1700,
+    "claims": [
+      {
+        "id": "claim-12",
+        "claimText": "There are over 1,200 datasets on microplastics collected across EU countries.",
+        "sourceAuthor": "@PlasticPirateEU",
+        "platform": "Twitter/X",
+        "engagement": 1700,
+        "postExcerpt": "From curiosity to 1,200+ datasets on microplastics."
+      },
+      {
+        "id": "claim-13",
+        "claimText": "Research on microplastics is crucial for understanding their impact.",
+        "sourceAuthor": "@Researcher",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "Research on microplastics is crucial for understanding their impact."
+      },
+      {
+        "id": "claim-14",
+        "claimText": "Education on microplastics is essential for effective recycling.",
+        "sourceAuthor": "@EcoEducator",
+        "platform": "Twitter/X",
+        "engagement": 0,
+        "postExcerpt": "Education on microplastics is essential for effective recycling."
       }
     ]
   }
