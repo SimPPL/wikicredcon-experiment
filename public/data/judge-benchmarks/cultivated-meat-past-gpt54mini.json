@@ -1,0 +1,102 @@
+{
+  "articleId": "cultivated-meat",
+  "version": "past",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 5,
+  "correct": 4,
+  "meanQuality": 2.6,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What year did Winston Churchill express interest in the potential of cultured meat?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that in a 1931 essay Winston Churchill wrote about growing parts of a chicken separately, expressing interest in the idea behind cultured meat. The expected answer of 1931 matches the article."
+    },
+    {
+      "questionId": "q2",
+      "question": "What significant development regarding cow cells was demonstrated in January 2024?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention any January 2024 development about cow cells producing their own growth factors or not requiring recombinant growth factors/fetal bovine serum. Since the expected answer is not supported by the article, the question is not answerable from the given text."
+    },
+    {
+      "questionId": "q3",
+      "question": "What was the first cultured meat product to be officially approved for sale in Australia and New Zealand, and when did this occur?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.11,
+      "quality": 1,
+      "explanation": "The article text does not mention any officially approved cultured meat product for sale in Australia and New Zealand, nor does it mention Vow quail or the date 7 April 2025. The only regulatory/sale milestones in the article are the first commercial sale in Singapore in December 2020 and other development milestones. Since the expected answer is not supported by the article, it is incorrect based on the provided text."
+    },
+    {
+      "questionId": "q4",
+      "question": "What amount of investment did cultured meat and seafood companies attract worldwide from 2021 through 2023?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that data published by The Good Food Institute found that in 2021 through 2023, cultured meat and seafood companies attracted over $2.5 billion in investment worldwide. This matches the expected answer."
+    },
+    {
+      "questionId": "q5",
+      "question": "What legal action did Upside Foods take in August 2024?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text does not mention any legal action taken by Upside Foods in August 2024, nor does it mention Florida or a lawsuit. Therefore the expected answer cannot be verified from the article, and it is not supported by the provided text."
+    },
+    {
+      "questionId": "q6",
+      "question": "What was demonstrated in November 2025 regarding cow cells?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention any demonstration in November 2025 or anything about cow cells being spontaneously immortalized after 500 days without genetic modification. That expected answer is not supported by the article."
+    },
+    {
+      "questionId": "q7",
+      "question": "How does the regulation of cultured meat differ between the FDA and USDA as per the new agreement?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not contain the described FDA/USDA agreement or any details about their respective regulatory roles. Since the expected answer cannot be verified from the article, the question is not answerable from the given text."
+    },
+    {
+      "questionId": "q8",
+      "question": "Which states are considering laws similar to Alabama's ban on cultured meat manufacturing as of October 2024?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention Alabama’s ban on cultured meat manufacturing or any October 2024 state legislation. Therefore the question cannot be answered from the provided text, and the expected answer is not supported by the article."
+    },
+    {
+      "questionId": "q9",
+      "question": "What was the primary focus of companies pursuing cultured meat as mentioned in the new article?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly says that most efforts focus on common meats such as pork, beef, and chicken, which matches the expected answer."
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the significance of the cultured grouper brought to market by Avant Meats in 2021?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article says that while most efforts focus on pork, beef, and chicken, some companies have pursued various species of fish and other seafood, including Avant Meats, who brought cultured grouper to market in 2021. This matches the expected answer."
+    }
+  ],
+  "timestamp": 1775438073830
+}

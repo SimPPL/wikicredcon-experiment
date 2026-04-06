@@ -1,0 +1,102 @@
+{
+  "articleId": "semaglutide",
+  "version": "past",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 8,
+  "correct": 4,
+  "meanQuality": 3.1,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What is the average percentage of weight regained by individuals after stopping semaglutide treatment within the following year?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that after stopping semaglutide, individuals regain about two-thirds (67%) of the weight they lost within the following year. The expected answer matches exactly."
+    },
+    {
+      "questionId": "q2",
+      "question": "What new indication for semaglutide was expanded by the FDA in August 2025?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.78,
+      "quality": 4,
+      "explanation": "The article says that in August 2025 the FDA expanded semaglutide (Wegovy) to include treatment of metabolic-associated steatohepatitis (MASH) in adults with moderate to advanced fibrosis. The expected answer adds 'noncirrhotic' and the former name NASH, which are not stated in the article. So the answer is partly consistent but not fully supported by the provided text."
+    },
+    {
+      "questionId": "q3",
+      "question": "What was the cumulative occurrence of major adverse cardiovascular events in the semaglutide group during the cardiovascular health trial?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that in the cardiovascular health trial, major adverse cardiovascular events occurred in 6.5% of participants who received semaglutide, compared with 8% for placebo. The expected answer’s figure of 569 out of 8803 patients matches that 6.5% rate."
+    },
+    {
+      "questionId": "q4",
+      "question": "What is the expected price drop for Wegovy, Ozempic, and Rybelsus announced by Novo Nordisk effective January 2027?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text does not mention any announced January 2027 price drop for Wegovy, Ozempic, or Rybelsus, nor does it provide the expected price drop amount. The expected answer is therefore not supported by the article."
+    },
+    {
+      "questionId": "q5",
+      "question": "What was the average duration of exposure to either placebo or semaglutide during the cardiovascular health trial?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.08,
+      "quality": 2,
+      "explanation": "The article mentions the cardiovascular health trial and that it was placebo-controlled, but it does not state the average duration of exposure as 34.2±13.7 months. The expected answer is not supported by the provided text, so the response is not correct based on this article."
+    },
+    {
+      "questionId": "q6",
+      "question": "How many generic versions of semaglutide are being developed for the Chinese market?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that in China the semaglutide patents were ruled invalid in 2022, which supports the existence of generic development. While it does not give a precise count in the visible text, the expected answer of at least 15 generic versions is consistent with the article’s information and not contradicted by it."
+    },
+    {
+      "questionId": "q7",
+      "question": "What is the range of monthly therapy costs for generic semaglutide in India after the patent expiration?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention generic semaglutide pricing in India or any monthly therapy cost range after patent expiration. It only states patent expiration timing in various countries, with no India-specific cost data. Therefore the expected answer is not supported by the article text."
+    },
+    {
+      "questionId": "q8",
+      "question": "What was the percentage reduction in major adverse cardiovascular events for participants who received semaglutide compared to those who received placebo?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 0.98,
+      "quality": 5,
+      "explanation": "The article says major adverse cardiovascular events occurred in 6.5% of participants who received semaglutide and 8% of those who received placebo. That is a reduction of 1.5 percentage points, which is 18.75% relative to placebo, matching the expected answer of 18.8% less."
+    },
+    {
+      "questionId": "q9",
+      "question": "What was the outcome of the Trump Administration's decision regarding the Biden Administration's proposal on GLP-1 coverage?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention the Trump Administration, the Biden Administration’s GLP-1 coverage proposal, or any decision to finalize or decline it. The expected answer is therefore not supported by the provided text."
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the brand name under which the oral version of semaglutide was approved for weight management in December 2025?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.08,
+      "quality": 2,
+      "explanation": "The article says the oral version of semaglutide (Rybelsus) was approved for medical use in the US in September 2019, and Wegovy is the injectable higher-dose version approved for weight management. It does not say the oral version was approved for weight management in December 2025. The expected answer 'Wegovy' conflicts with the article text."
+    }
+  ],
+  "timestamp": 1775437742454
+}

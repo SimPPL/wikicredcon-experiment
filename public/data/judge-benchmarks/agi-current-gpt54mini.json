@@ -1,0 +1,102 @@
+{
+  "articleId": "agi",
+  "version": "current",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 9,
+  "correct": 8,
+  "meanQuality": 4.2,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What framework for classifying AGI was proposed by Google DeepMind researchers in 2023?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that Google DeepMind researchers proposed a 2023 framework defining five performance levels of AGI: emerging, competent, expert, virtuoso, and superhuman."
+    },
+    {
+      "questionId": "q2",
+      "question": "What is the definition of a competent AGI according to the new framework proposed in 2023?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly states that a competent AGI is defined as an AI that outperforms 50% of skilled adults in a wide range of non-physical tasks."
+    },
+    {
+      "questionId": "q3",
+      "question": "What significant event regarding the Turing test occurred in 2025?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly states that in 2025, a pre-registered three-party Turing-test study by Cameron R. Jones and Benjamin K. Bergen found GPT-4.5 was judged to be the human in 73% of five-minute text conversations."
+    },
+    {
+      "questionId": "q4",
+      "question": "What does the Ikea test involve according to the new content?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that the Ikea test involves an AI controlling a robot that attempts to assemble Ikea flat-pack furniture after being shown the parts and instructions. This matches the expected answer."
+    },
+    {
+      "questionId": "q5",
+      "question": "What was demonstrated by MIT researchers in December 2025 regarding the Ikea test?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly states that in December 2025 MIT researchers demonstrated a 'speech-to-reality' system combining large language models with vision-language models and robotic assembly. This matches the expected answer exactly."
+    },
+    {
+      "questionId": "q6",
+      "question": "What significant advancement in coffee-making AI was reported in January 2024?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly states that in January 2024, Figure AI's Figure 01 humanoid learned to operate a Keurig coffee machine autonomously after watching video demonstrations. This matches the expected answer exactly."
+    },
+    {
+      "questionId": "q7",
+      "question": "What does Mustafa Suleyman's test propose for AI?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly states that Mustafa Suleyman's test proposes giving an AI model US$100,000 and asking it to obtain US$1 million, which matches the expected answer exactly."
+    },
+    {
+      "questionId": "q8",
+      "question": "According to the new content, what is the FurnitureBench benchmark?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly says the FurnitureBench benchmark, published in 2025, provides a standardized real-world furniture assembly benchmark with over 200 hours of demonstration data for training and evaluating autonomous assembly systems."
+    },
+    {
+      "questionId": "q9",
+      "question": "What did researchers from OpenAI estimate in 2023 regarding the impact of LLMs on the U.S. workforce?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.08,
+      "quality": 1,
+      "explanation": "The article text provided does not mention any 2023 OpenAI estimate about 80% of the U.S. workforce or 10% of tasks being affected by LLMs. Since the expected answer is not supported by the article, it is not correct based on the given text."
+    },
+    {
+      "questionId": "q10",
+      "question": "What did Stephen Hawking state about the outcome of automation on quality of life?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention Stephen Hawking or any statement about automation, quality of life, or wealth redistribution. Therefore the expected answer cannot be verified from the article."
+    }
+  ],
+  "timestamp": 1775437953218
+}

@@ -1,0 +1,102 @@
+{
+  "articleId": "vaccine-misinfo",
+  "version": "current",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 6,
+  "correct": 3,
+  "meanQuality": 2.3,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What significant change occurred to the CDC website on 'Autism and Vaccines' on November 19, 2025?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that as of November 19, 2025, the CDC website on 'Autism and Vaccines' had been changed, and it frames this as misinformation contradicting the established scientific consensus that there is no causal link between vaccines and autism. This matches the expected answer."
+    },
+    {
+      "questionId": "q2",
+      "question": "By how much did measles vaccine compliance drop from 2019 to 2024 according to the World Health Organization?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not provide any WHO statistic about measles vaccine compliance dropping from 2019 to 2024, nor does it mention a 3% decline. The only relevant statement is that measles remains a serious disease and vaccination is the only way to protect against it. Therefore the expected answer is not supported by the article."
+    },
+    {
+      "questionId": "q3",
+      "question": "What was the measles vaccine rate in the United States during the 2023-2024 academic year?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0.1,
+      "quality": 1,
+      "explanation": "The article mentions measles vaccination only in the general claim that vaccination is the only way to protect against measles, but it does not provide a U.S. measles vaccine rate for the 2023-2024 academic year. The expected answer references an external statistic not contained in the article, so it is not answerable from the text."
+    },
+    {
+      "questionId": "q4",
+      "question": "What change occurred in California's vaccine exemption policies after the 2015 measles epidemic?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The question is answerable from the article context, and the expected answer matches the article-based fact: after the 2015 measles epidemic, California eliminated non-medical vaccine exemptions."
+    },
+    {
+      "questionId": "q5",
+      "question": "What communication strategies are suggested to counter vaccine misinformation?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.31,
+      "quality": 2,
+      "explanation": "The article discusses vaccine misinformation and gives examples of false claims, but it does not mention the specific communication strategies in the expected answer. In particular, it does not state that humour should be used to dispel myths or that vaccine misinformation warnings should be provided. The article does support the idea that the scientific consensus is that vaccines are safe and effective, but the full expected answer is not supported by the text."
+    },
+    {
+      "questionId": "q6",
+      "question": "What is the only disease that has been successfully eradicated to date?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text does not state that smallpox is the only disease successfully eradicated to date. It mentions polio being eliminated in most parts of the world and discusses vaccine-preventable diseases, but not this fact. The expected answer may be generally true in real-world terms, but it is not supported by the article text, so it should be marked incorrect under the given instructions."
+    },
+    {
+      "questionId": "q7",
+      "question": "What is the significance of maintaining vaccination rates according to the Lancet Digital Health Journal?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention the Lancet Digital Health Journal or the quoted significance about a few percentage points of herd immunity. Therefore the expected answer cannot be verified from the article, and it is not supported by the text."
+    },
+    {
+      "questionId": "q8",
+      "question": "What is the role of physicians in communicating vaccine effectiveness according to the Pediatric Journal of Nursing?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.18,
+      "quality": 2,
+      "explanation": "The article text provided does not mention the Pediatric Journal of Nursing or state that physicians need to make more effort communicating vaccine effectiveness to patients and parents. It focuses broadly on vaccine misinformation and effectiveness, but not this specific role or wording. Therefore the expected answer is not supported by the article text."
+    },
+    {
+      "questionId": "q9",
+      "question": "What impact did the 2015 measles epidemic have on vaccine exemption policies across the US?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention the 2015 measles epidemic or any resulting changes to vaccine exemption policies across the US. The expected answer is not supported by the article."
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the potential next candidate for eradication among vaccine-preventable diseases?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 4,
+      "explanation": "The article states that measles remains a serious disease and that vaccination is the only way to protect against it, but it does not explicitly discuss eradication candidates. The expected answer identifies measles as the likely next eradication effort, which is not contradicted by the article and is consistent with its emphasis on measles as a major vaccine-preventable disease."
+    }
+  ],
+  "timestamp": 1775437758985
+}

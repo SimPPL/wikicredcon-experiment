@@ -1,0 +1,192 @@
+{
+  "articleId": "vaccine-misinfo",
+  "judgeModel": "claude-opus-4-6",
+  "method": "Systematic assessment by Claude Opus 4.6 using article text analysis, section existence checks, and answer keyword matching against both article versions",
+  "pastArticle": {
+    "answerable": 4,
+    "correct": 3,
+    "total": 10
+  },
+  "currentArticle": {
+    "answerable": 10,
+    "correct": 10,
+    "total": 10
+  },
+  "gap": {
+    "answerable": 6,
+    "correct": 7
+  },
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What significant change occurred to the CDC website on 'Autism and Vaccines' on November 19, 2025?",
+      "answer": "The CDC website was radically changed to include several false statements contradicting long-standing scientific evidence that supports the absence of a causal link between childhood vaccines and autism.",
+      "basedOnChange": "New section: CDC as source of vaccine misinformation",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q2",
+      "question": "By how much did measles vaccine compliance drop from 2019 to 2024 according to the World Health Organization?",
+      "answer": "Measles vaccine compliance dropped by 3%.",
+      "basedOnChange": "New section: Effects on herd immunity",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q3",
+      "question": "What was the measles vaccine rate in the United States during the 2023-2024 academic year?",
+      "answer": "The measles vaccine rates officially dropped below the herd immunity threshold of 95%.",
+      "basedOnChange": "New section: Effects on herd immunity",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q4",
+      "question": "What change occurred in California's vaccine exemption policies after the 2015 measles epidemic?",
+      "answer": "California eliminated non-medical vaccine exemptions.",
+      "basedOnChange": "New section: Vaccine mandate exemptions",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q5",
+      "question": "What communication strategies are suggested to counter vaccine misinformation?",
+      "answer": "Communicating the scientific consensus that vaccines are safe and effective, using humour to dispel vaccine myths, and providing vaccine misinformation warnings.",
+      "basedOnChange": "Expanded: Communication grew by 184 chars",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q6",
+      "question": "What is the only disease that has been successfully eradicated to date?",
+      "answer": "Smallpox.",
+      "basedOnChange": "New section: Some vaccine-preventable diseases have been eradicated",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q7",
+      "question": "What is the significance of maintaining vaccination rates according to the Lancet Digital Health Journal?",
+      "answer": "There are only a few percentage points of herd immunity that make the difference between having an epidemic and not having an epidemic.",
+      "basedOnChange": "New section: Effects on herd immunity",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.9
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q8",
+      "question": "What is the role of physicians in communicating vaccine effectiveness according to the Pediatric Journal of Nursing?",
+      "answer": "More effort needs to be made by physicians in communicating vaccine effectiveness to patients and parents of patients.",
+      "basedOnChange": "New section: Physician-patient communication",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.28
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q9",
+      "question": "What impact did the 2015 measles epidemic have on vaccine exemption policies across the US?",
+      "answer": "It led many states to reconsider their vaccine exemption policies.",
+      "basedOnChange": "New section: Vaccine mandate exemptions",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the potential next candidate for eradication among vaccine-preventable diseases?",
+      "answer": "Measles appears to be the most likely candidate for the next eradication effort.",
+      "basedOnChange": "New section: Some vaccine-preventable diseases have been eradicated",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    }
+  ],
+  "timestamp": 1775440690689
+}

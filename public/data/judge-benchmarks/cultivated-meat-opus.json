@@ -1,0 +1,192 @@
+{
+  "articleId": "cultivated-meat",
+  "judgeModel": "claude-opus-4-6",
+  "method": "Systematic assessment by Claude Opus 4.6 using article text analysis, section existence checks, and answer keyword matching against both article versions",
+  "pastArticle": {
+    "answerable": 9,
+    "correct": 7,
+    "total": 10
+  },
+  "currentArticle": {
+    "answerable": 10,
+    "correct": 10,
+    "total": 10
+  },
+  "gap": {
+    "answerable": 1,
+    "correct": 3
+  },
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What year did Winston Churchill express interest in the potential of cultured meat?",
+      "answer": "1931",
+      "basedOnChange": "Expanded: Lead added historical context",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q2",
+      "question": "What significant development regarding cow cells was demonstrated in January 2024?",
+      "answer": "A study demonstrated that cow cells can produce its own growth factors and do not require the expensive recombinant growth factors or fetal bovine serum.",
+      "basedOnChange": "Expanded: Lead added recent research findings",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.74
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q3",
+      "question": "What was the first cultured meat product to be officially approved for sale in Australia and New Zealand, and when did this occur?",
+      "answer": "Vow quail on 7 April 2025",
+      "basedOnChange": "New section: Australia and New Zealand entry",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q4",
+      "question": "What amount of investment did cultured meat and seafood companies attract worldwide from 2021 through 2023?",
+      "answer": "Over $2.5 billion",
+      "basedOnChange": "Expanded: Lead added investment data",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q5",
+      "question": "What legal action did Upside Foods take in August 2024?",
+      "answer": "Upside Foods sued Florida in an attempt to strike down their law.",
+      "basedOnChange": "Expanded: US added legal context",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q6",
+      "question": "What was demonstrated in November 2025 regarding cow cells?",
+      "answer": "Cow cells can be spontaneously immortalized after 500 days without genetic modification.",
+      "basedOnChange": "Expanded: Lead added recent research findings",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.36
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q7",
+      "question": "How does the regulation of cultured meat differ between the FDA and USDA as per the new agreement?",
+      "answer": "The FDA oversees cell collection, cell banks, and cell growth and differentiation, while the USDA oversees the production and labeling of food products derived from the cells that are meant for human consumption.",
+      "basedOnChange": "Expanded: US added regulatory details",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q8",
+      "question": "Which states are considering laws similar to Alabama's ban on cultured meat manufacturing as of October 2024?",
+      "answer": "Arizona, Kentucky, Tennessee, and West Virginia.",
+      "basedOnChange": "Expanded: US added legal context",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.38
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.75
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q9",
+      "question": "What was the primary focus of companies pursuing cultured meat as mentioned in the new article?",
+      "answer": "Common meats such as pork, beef, and chicken.",
+      "basedOnChange": "Expanded: Lead added focus on common meats",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the significance of the cultured grouper brought to market by Avant Meats in 2021?",
+      "answer": "It represents efforts to pursue various species of fish and other seafood in cultured meat production.",
+      "basedOnChange": "Expanded: Lead added seafood production efforts",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    }
+  ],
+  "timestamp": 1775440690763
+}

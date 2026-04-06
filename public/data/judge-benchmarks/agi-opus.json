@@ -1,0 +1,192 @@
+{
+  "articleId": "agi",
+  "judgeModel": "claude-opus-4-6",
+  "method": "Systematic assessment by Claude Opus 4.6 using article text analysis, section existence checks, and answer keyword matching against both article versions",
+  "pastArticle": {
+    "answerable": 4,
+    "correct": 2,
+    "total": 10
+  },
+  "currentArticle": {
+    "answerable": 10,
+    "correct": 10,
+    "total": 10
+  },
+  "gap": {
+    "answerable": 6,
+    "correct": 8
+  },
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What framework for classifying AGI was proposed by Google DeepMind researchers in 2023?",
+      "answer": "They define five performance levels of AGI: emerging, competent, expert, virtuoso, and superhuman.",
+      "basedOnChange": "Expanded: Terminology added AGI classification framework",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q2",
+      "question": "What is the definition of a competent AGI according to the new framework proposed in 2023?",
+      "answer": "A competent AGI is defined as an AI that outperforms 50% of skilled adults in a wide range of non-physical tasks.",
+      "basedOnChange": "Expanded: Terminology added AGI classification framework",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.31
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q3",
+      "question": "What significant event regarding the Turing test occurred in 2025?",
+      "answer": "A 2025 pre‑registered, three‑party Turing‑test study by Cameron R. Jones and Benjamin K. Bergen showed that GPT-4.5 was judged to be the human in 73% of five‑minute text conversations.",
+      "basedOnChange": "New section: Turing test added 2025 study results",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.93
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q4",
+      "question": "What does the Ikea test involve according to the new content?",
+      "answer": "The Ikea test involves an AI controlling a robot which attempts to assemble an Ikea flat-pack furniture product after having been shown the parts and instructions.",
+      "basedOnChange": "New section: Ikea test added description",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.93
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q5",
+      "question": "What was demonstrated by MIT researchers in December 2025 regarding the Ikea test?",
+      "answer": "MIT researchers demonstrated a 'speech-to-reality' system combining large language models with vision-language models and robotic assembly.",
+      "basedOnChange": "New section: Ikea test added 2025 demonstration",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.83
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q6",
+      "question": "What significant advancement in coffee-making AI was reported in January 2024?",
+      "answer": "Figure AI's Figure 01 humanoid learned to operate a Keurig coffee machine autonomously after watching video demonstrations.",
+      "basedOnChange": "New section: Coffee test added 2024 advancement",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.92
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q7",
+      "question": "What does Mustafa Suleyman's test propose for AI?",
+      "answer": "Mustafa Suleyman's test proposes giving an AI model US$100,000 and asking it to obtain US$1 million.",
+      "basedOnChange": "New section: Suleyman's test added proposal",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q8",
+      "question": "According to the new content, what is the FurnitureBench benchmark?",
+      "answer": "The FurnitureBench benchmark provides a standardised real-world furniture assembly benchmark with over 200 hours of demonstration data for training and evaluating autonomous assembly systems.",
+      "basedOnChange": "New section: Ikea test added FurnitureBench benchmark",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q9",
+      "question": "What did researchers from OpenAI estimate in 2023 regarding the impact of LLMs on the U.S. workforce?",
+      "answer": "Researchers from OpenAI estimated in 2023 that '80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of LLMs.'",
+      "basedOnChange": "Expanded: Mass unemployment added workforce impact estimates",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.73
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.91
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q10",
+      "question": "What did Stephen Hawking state about the outcome of automation on quality of life?",
+      "answer": "According to Stephen Hawking, the outcome of automation on the quality of life will depend on how the wealth will be redistributed.",
+      "basedOnChange": "Expanded: Mass unemployment added Hawking's statement",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.71
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.89
+      },
+      "quality": 4
+    }
+  ],
+  "timestamp": 1775440690735
+}

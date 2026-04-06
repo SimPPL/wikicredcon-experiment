@@ -1,0 +1,102 @@
+{
+  "articleId": "deepfake",
+  "version": "past",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 4,
+  "correct": 1,
+  "meanQuality": 1.6,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What open-source tools were mentioned that allowed users to create deepfake videos without formal education in computer science?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.67,
+      "quality": 2,
+      "explanation": "The article does mention FakeApp, Faceswap, and DeepFaceLab as alternatives used to create deepfake videos. However, the expected answer is not fully supported because the article does not say these tools were specifically for users 'without formal education in computer science.' That phrasing is an inference beyond the text. Also, the article spells the tools as 'Faceswap' and 'DeepFaceLab' rather than 'FaceSwap'."
+    },
+    {
+      "questionId": "q2",
+      "question": "In which month and year did the Belgian branch of Extinction Rebellion publish a deepfake video of Belgian Prime Minister Sophie Wilmès?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention Extinction Rebellion Belgium or a deepfake video of Belgian Prime Minister Sophie Wilmès, so the expected answer cannot be verified from the article alone. Therefore the question is not answerable from this text."
+    },
+    {
+      "questionId": "q3",
+      "question": "What significant event occurred in March 2024 regarding deepfake technology in India?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention any event in March 2024 in India. It also does not support the expected answer about political candidates widely employing deepfake technology to reach out to voters. Since the expected answer is not contained in the article, the question is not answerable from the text."
+    },
+    {
+      "questionId": "q4",
+      "question": "What was the intent behind the deepfake video created by Jordan Peele featuring Barack Obama?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.2,
+      "quality": 2,
+      "explanation": "The article does mention the 'Synthesizing Obama' deepfake project, but it does not state that Jordan Peele created it or give the intended purpose in those terms. The expected answer about portraying the dangerous consequences and power of deepfakes is not supported by the provided text, so the response is not correct based on the article."
+    },
+    {
+      "questionId": "q5",
+      "question": "What was the outcome for the employee responsible for airing a deepfake of Trump during his Oval Office address?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention an employee airing a deepfake of Trump during his Oval Office address, nor does it state any outcome such as being fired. The expected answer cannot be verified from the article."
+    },
+    {
+      "questionId": "q6",
+      "question": "What is the 'liar's dividend' as defined in the new section?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not contain a definition of the 'liar's dividend' or the new section referenced in the question. The expected answer cannot be verified from the article."
+    },
+    {
+      "questionId": "q7",
+      "question": "How many views did the deepfake video of Belgian Prime Minister Sophie Wilmès receive within 24 hours?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention Belgian Prime Minister Sophie Wilmès or the number of views her deepfake video received within 24 hours. Therefore the expected answer cannot be verified from the article."
+    },
+    {
+      "questionId": "q8",
+      "question": "What significant shift in electioneering tactics was noted in the March 2024 event in India?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that deepfakes have raised concerns about interfering with elections and mentions their impact on politics. The expected answer about a significant shift in electioneering tactics in India due to a surge in deepfake use is consistent with the article's theme, and there is no contradiction in the provided text."
+    },
+    {
+      "questionId": "q9",
+      "question": "What was the deepfake video of Joe Biden prior to the 2024 election intended to do?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention a deepfake video of Joe Biden prior to the 2024 election, nor does it state that such a video was intended to dissuade people from voting for him. The expected answer cannot be verified from the article."
+    },
+    {
+      "questionId": "q10",
+      "question": "What was the financial loss incurred by the firm Arup Group due to a deepfake scam?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention Arup Group or any $25 million loss. Since the expected answer is not supported by the article, it is not correct based on the given text."
+    }
+  ],
+  "timestamp": 1775438038245
+}

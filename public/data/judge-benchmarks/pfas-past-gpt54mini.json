@@ -1,0 +1,102 @@
+{
+  "articleId": "pfas",
+  "version": "past",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 9,
+  "correct": 7,
+  "meanQuality": 3.8,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What is the estimated market value for PFAS in 2023?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly states that the PFAS market was estimated to be US$28 billion in 2023, which matches the expected answer."
+    },
+    {
+      "questionId": "q2",
+      "question": "Which companies have ended or plan to end the sale of PFAS or products containing them?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text does not mention W. L. Gore & Associates, Patagonia, REI, H&M, or 3M ending or planning to end PFAS sales or PFAS-containing products. The only relevant company detail is that 3M is one of the major PFAS producers and paid a large settlement, but no sale phase-out is stated. The expected answer is not supported by the article."
+    },
+    {
+      "questionId": "q3",
+      "question": "What percentage of groundwater samples found in a 2024 study contained harmful levels of PFAS?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that a 2024 worldwide study of 45,000 groundwater samples found that 31% contained levels of PFAS harmful to human health. The expected answer matches the article exactly."
+    },
+    {
+      "questionId": "q4",
+      "question": "What is the classification of PFOA by the International Agency for Research on Cancer (IARC)?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that PFOA is classified as carcinogenic to humans (Group 1) by the IARC."
+    },
+    {
+      "questionId": "q5",
+      "question": "How much profit did the PFAS industry generate in 2023?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that PFAS sales generate a total industry profit of $4 billion per year, and the question asks how much profit the PFAS industry generated in 2023. This matches the expected answer of $4 billion."
+    },
+    {
+      "questionId": "q6",
+      "question": "What health issues are associated with PFAS exposure during pregnancy?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly states that PFAS exposure is a risk factor for hypertensive disorders in pregnancy, including preeclampsia and high blood pressure. The expected answer matches the text."
+    },
+    {
+      "questionId": "q7",
+      "question": "What significant change occurred in the classification of PFAS by the OECD in 2021?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.12,
+      "quality": 2,
+      "explanation": "The article mentions that different organizations use different PFAS definitions, but it does not state that the OECD expanded its terminology in 2021 or give the quoted 2021 OECD definition. The expected answer is not supported by the article text, so the response is not correct."
+    },
+    {
+      "questionId": "q8",
+      "question": "What is the relationship between PFOS levels and total cholesterol in humans?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that elevated PFOS levels were significantly associated with elevated total cholesterol and LDL cholesterol in humans, which matches the expected answer."
+    },
+    {
+      "questionId": "q9",
+      "question": "How does PFAS bioaccumulation affect organisms at higher trophic levels?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 0.92,
+      "quality": 4,
+      "explanation": "The article says PFAS move through soils, bioaccumulate in fish and wildlife, and are then eaten by humans. While it does not explicitly describe trophic-level magnification in the exact wording of the expected answer, the idea that concentrations increase as organisms higher in the food chain consume contaminated organisms is consistent with the article."
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the significance of the 2023 study analyzing fish fillets in relation to PFAS?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention a 2023 study analyzing fish fillets or the claimed finding about a single serving significantly increasing blood PFOS levels. It only generally states that PFAS bioaccumulate in fish and wildlife, which are then eaten by humans. Therefore the expected answer is not supported by the article."
+    }
+  ],
+  "timestamp": 1775438004763
+}

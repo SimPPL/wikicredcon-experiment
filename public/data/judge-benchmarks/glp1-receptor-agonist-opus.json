@@ -1,0 +1,192 @@
+{
+  "articleId": "glp1-receptor-agonist",
+  "judgeModel": "claude-opus-4-6",
+  "method": "Systematic assessment by Claude Opus 4.6 using article text analysis, section existence checks, and answer keyword matching against both article versions",
+  "pastArticle": {
+    "answerable": 4,
+    "correct": 2,
+    "total": 10
+  },
+  "currentArticle": {
+    "answerable": 10,
+    "correct": 10,
+    "total": 10
+  },
+  "gap": {
+    "answerable": 6,
+    "correct": 8
+  },
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What are the BMI criteria for recommending GLP-1 agonists as an add-on therapy to lifestyle intervention?",
+      "answer": "BMI ≥30 kg/m² or BMI ≥27 kg/m² with at least one weight-related comorbidity.",
+      "basedOnChange": "Expanded: Obesity added BMI criteria",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.3
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q2",
+      "question": "What percentage of lost weight do people typically regain within a year after stopping GLP-1 agonists?",
+      "answer": "50–70%",
+      "basedOnChange": "Expanded: Obesity added weight regain statistics",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q3",
+      "question": "What specific liver condition is Wegovy (semaglutide) approved to treat?",
+      "answer": "Metabolic dysfunction-associated steatohepatitis (MASH) with stage 2 or stage 3 liver fibrosis.",
+      "basedOnChange": "Expanded: Metabolic dysfunction–associated steatotic liver disease added treatment information",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.88
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q4",
+      "question": "What boxed warning does the FDA require for GLP-1 agonists?",
+      "answer": "The risk of thyroid C-cell tumors, including medullary thyroid cancer (MTC).",
+      "basedOnChange": "New section: Thyroid cancer added boxed warning information",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.31
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q5",
+      "question": "What initiative was announced by the Trump Administration in November 2025 regarding GLP-1 agonists?",
+      "answer": "TrumpRx, an initiative to lower the price of GLP-1s to $245 per month for Medicaid and CHIP patients and $50 per month for Medicare patients.",
+      "basedOnChange": "New section: Medicare, Medicaid and CHIP coverage added initiative details",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.91
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q6",
+      "question": "When is coverage for patients with obesity and at least one comorbidity expected to be implemented?",
+      "answer": "As early as April 1, 2026.",
+      "basedOnChange": "New section: Medicare, Medicaid and CHIP coverage added implementation date",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q7",
+      "question": "How do GLP-1 agonists compare to pioglitazone and vitamin E in treating metabolic dysfunction–associated steatotic liver disease?",
+      "answer": "GLP-1 agonists are as effective a treatment for MASLD as pioglitazone and vitamin E.",
+      "basedOnChange": "Expanded: Metabolic dysfunction–associated steatotic liver disease added comparison details",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q8",
+      "question": "What was the outcome of the 2022 UK study regarding the use of GLP-1 agonists for treating Parkinson's disease?",
+      "answer": "The study failed to find any advantage of using GLP-1 agonists to treat Parkinson's disease.",
+      "basedOnChange": "New section: Parkinson's disease added study results",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q9",
+      "question": "What did a 2025 study suggest about GLP-1 agonists and the risk of neurocognitive disorders?",
+      "answer": "GLP-1 agonists may reduce risks of neurocognitive disorders, including Alzheimer's disease.",
+      "basedOnChange": "New section: Alzheimer's disease added study findings",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the estimated percentage of online compounding pharmacies operating illegally as of 2024?",
+      "answer": "95%",
+      "basedOnChange": "New section: Alternatives to approved sources added illegal operation statistics",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    }
+  ],
+  "timestamp": 1775440690697
+}

@@ -1,0 +1,192 @@
+{
+  "articleId": "openai",
+  "judgeModel": "claude-opus-4-6",
+  "method": "Systematic assessment by Claude Opus 4.6 using article text analysis, section existence checks, and answer keyword matching against both article versions",
+  "pastArticle": {
+    "answerable": 6,
+    "correct": 4,
+    "total": 10
+  },
+  "currentArticle": {
+    "answerable": 10,
+    "correct": 10,
+    "total": 10
+  },
+  "gap": {
+    "answerable": 4,
+    "correct": 6
+  },
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What was the projected operating loss for OpenAI in 2025?",
+      "answer": "$8 billion",
+      "basedOnChange": "Expanded: Business model added financial projections",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.5
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q2",
+      "question": "What was the total amount of funding OpenAI projected to raise by 2029?",
+      "answer": "$115 billion",
+      "basedOnChange": "Expanded: Business model added financial projections",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.5
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q3",
+      "question": "Which startup did OpenAI acquire in August 2023?",
+      "answer": "Global Illumination",
+      "basedOnChange": "Expanded: Acquisitions added new details",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q4",
+      "question": "What was the value of the deal OpenAI reached with CoreWeave in March 2025?",
+      "answer": "$11.9 billion",
+      "basedOnChange": "Expanded: Acquisitions added new details",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q5",
+      "question": "What significant event occurred on February 10, 2026, related to OpenAI?",
+      "answer": "Mass shootings in Tumbler Ridge, British Columbia",
+      "basedOnChange": "New section: 2026 Canadian mass shooting",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q6",
+      "question": "What was the nature of the lawsuit filed in August 2025 against OpenAI?",
+      "answer": "Wrongful death lawsuit",
+      "basedOnChange": "New section: Wrongful-death lawsuits over ChatGPT safety (2025)",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q7",
+      "question": "How many lawsuits did the Social Media Victims Law Center and Tech Justice Law Project file against OpenAI in November 2025?",
+      "answer": "Seven lawsuits",
+      "basedOnChange": "New section: Wrongful-death lawsuits over ChatGPT safety (2025)",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q8",
+      "question": "What was the amount of the contract awarded to OpenAI by the DoD in June 2025?",
+      "answer": "$200 million",
+      "basedOnChange": "Expanded: Government contracting added new details",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q9",
+      "question": "What did OpenAI's Chief Product Officer, Kevin Weil, achieve in 2025?",
+      "answer": "Commissioned lieutenant colonel in the U.S. Army",
+      "basedOnChange": "Expanded: Government contracting added new details",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q10",
+      "question": "What did OpenAI express intentions to do after the wrongful death lawsuit in August 2025?",
+      "answer": "Strengthening protections including updated crisis response behavior and parental controls",
+      "basedOnChange": "New section: Wrongful-death lawsuits over ChatGPT safety (2025)",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    }
+  ],
+  "timestamp": 1775440690703
+}

@@ -1,0 +1,192 @@
+{
+  "articleId": "pfas",
+  "judgeModel": "claude-opus-4-6",
+  "method": "Systematic assessment by Claude Opus 4.6 using article text analysis, section existence checks, and answer keyword matching against both article versions",
+  "pastArticle": {
+    "answerable": 5,
+    "correct": 4,
+    "total": 10
+  },
+  "currentArticle": {
+    "answerable": 9,
+    "correct": 9,
+    "total": 10
+  },
+  "gap": {
+    "answerable": 4,
+    "correct": 5
+  },
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What is the estimated market value for PFAS in 2023?",
+      "answer": "$28 billion",
+      "basedOnChange": "New section: Market",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q2",
+      "question": "Which companies have ended or plan to end the sale of PFAS or products containing them?",
+      "answer": "W. L. Gore & Associates, Patagonia, REI, H&M, and 3M",
+      "basedOnChange": "New section: Ending manufacture",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0.5
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q3",
+      "question": "What percentage of groundwater samples found in a 2024 study contained harmful levels of PFAS?",
+      "answer": "31%",
+      "basedOnChange": "Expanded: Prevalence in rain, soil, water bodies, and air",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q4",
+      "question": "What is the classification of PFOA by the International Agency for Research on Cancer (IARC)?",
+      "answer": "Carcinogenic to humans (Group 1)",
+      "basedOnChange": "New section: Cancers",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q5",
+      "question": "How much profit did the PFAS industry generate in 2023?",
+      "answer": "$4 billion",
+      "basedOnChange": "New section: Market",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q6",
+      "question": "What health issues are associated with PFAS exposure during pregnancy?",
+      "answer": "Hypertensive disorders including preeclampsia and high blood pressure.",
+      "basedOnChange": "Expanded: Pregnancy and lactation issues",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q7",
+      "question": "What significant change occurred in the classification of PFAS by the OECD in 2021?",
+      "answer": "The OECD expanded its terminology, stating that 'PFAS are defined as fluorinated substances that contain at least one fully fluorinated methyl or methylene carbon atom.'",
+      "basedOnChange": "Expanded: Definition",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.3
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.87
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q8",
+      "question": "What is the relationship between PFOS levels and total cholesterol in humans?",
+      "answer": "Elevated PFOS levels were significantly associated with elevated total cholesterol and LDL cholesterol.",
+      "basedOnChange": "New section: High cholesterol",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q9",
+      "question": "How does PFAS bioaccumulation affect organisms at higher trophic levels?",
+      "answer": "Lower concentrations of pollutants can very quickly grow to harmful concentrations in organisms at higher trophic levels, including humans.",
+      "basedOnChange": "Expanded: Bioaccumulation and biomagnification",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the significance of the 2023 study analyzing fish fillets in relation to PFAS?",
+      "answer": "Freshwater fish ubiquitously contain high levels of harmful PFAS, with a single serving typically significantly increasing the blood PFOS level.",
+      "basedOnChange": "Expanded: Bioaccumulation and biomagnification",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    }
+  ],
+  "timestamp": 1775440690744
+}

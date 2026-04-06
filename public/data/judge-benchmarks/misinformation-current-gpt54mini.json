@@ -1,0 +1,102 @@
+{
+  "articleId": "misinformation",
+  "version": "current",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 4,
+  "correct": 3,
+  "meanQuality": 2.3,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What did the World Economic Forum identify as the most severe global risks in January 2024?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that in January 2024 the World Economic Forum identified misinformation and disinformation, propagated by both internal and external interests, as the most severe global risks in the short term to 'widen societal and political divides.' This matches the expected answer exactly."
+    },
+    {
+      "questionId": "q2",
+      "question": "What percentage of Americans were reached by content from untrustworthy websites during the 2016 U.S. presidential election?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that during the 2016 U.S. presidential election, content from websites deemed 'untrustworthy' reached up to 40% of Americans. The expected answer matches this exactly."
+    },
+    {
+      "questionId": "q3",
+      "question": "What was the success rate of participants in the Microsoft AI for Good Lab study when identifying real versus AI-generated images?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention the Microsoft AI for Good Lab study or any success rate for identifying real versus AI-generated images, so the question cannot be answered from the provided text."
+    },
+    {
+      "questionId": "q4",
+      "question": "What significant event occurred on December 8, 2025, in Japan?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention any event on December 8, 2025, in Japan, nor does it discuss an earthquake disaster there. The expected answer is not supported by the provided text."
+    },
+    {
+      "questionId": "q5",
+      "question": "What type of misinformation was spread during the COVID-19 pandemic according to the new content?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly says that during the COVID-19 pandemic, social media propagated misinformation about symptoms, treatments, and long-term health-related problems."
+    },
+    {
+      "questionId": "q6",
+      "question": "What was the impact of algorithmic amplification on the spread of misinformation on social media?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.14,
+      "quality": 2,
+      "explanation": "The article says social media platforms enable misinformation to be posted and shared quickly, and that misinformation spreads faster, deeper, and more broadly than accurate information. However, it does not mention algorithmic amplification or say that sensational and catching posts perform better. The expected answer adds unsupported detail."
+    },
+    {
+      "questionId": "q7",
+      "question": "What was the result of the deepfake video broadcasted by hackers involving Volodymyr Zelenskyy in 2022?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention a 2022 deepfake video involving Volodymyr Zelenskyy or its result. Therefore the expected answer cannot be verified from the article, and it is not answerable from the given text."
+    },
+    {
+      "questionId": "q8",
+      "question": "What is one of the challenges in implementing interventions for misinformation as suggested in the new content?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0.1,
+      "quality": 1,
+      "explanation": "The article text provided does not mention implementing interventions for misinformation, nor does it mention a challenge of 'an overabundance of lab research and a lack of field studies.' Because this answer is not supported by the article, it is not answerable from the text."
+    },
+    {
+      "questionId": "q9",
+      "question": "What is the proposed model for effective crowdsourcing interventions to combat misinformation?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention any proposed model for effective crowdsourcing interventions or a 'two steps away' network approach. Therefore the expected answer cannot be verified from the article."
+    },
+    {
+      "questionId": "q10",
+      "question": "What was the main finding of the NewsGuard report regarding TikTok's misinformation levels?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention a NewsGuard report, TikTok, or any finding about a ~20% misinformation level. Therefore the expected answer cannot be verified from the article."
+    }
+  ],
+  "timestamp": 1775437885899
+}

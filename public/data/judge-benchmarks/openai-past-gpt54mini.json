@@ -1,0 +1,102 @@
+{
+  "articleId": "openai",
+  "version": "past",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 6,
+  "correct": 2,
+  "meanQuality": 2,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What was the projected operating loss for OpenAI in 2025?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly states that OpenAI 'projects to lose $8 billion in 2025,' which matches the expected answer."
+    },
+    {
+      "questionId": "q2",
+      "question": "What was the total amount of funding OpenAI projected to raise by 2029?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that OpenAI expected to burn approximately $115 billion through 2029. This matches the expected answer."
+    },
+    {
+      "questionId": "q3",
+      "question": "Which startup did OpenAI acquire in August 2023?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text does not mention OpenAI acquiring any startup in August 2023, and it does not contain the expected answer 'Global Illumination.' Therefore the provided answer is not supported by the article."
+    },
+    {
+      "questionId": "q4",
+      "question": "What was the value of the deal OpenAI reached with CoreWeave in March 2025?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention any OpenAI deal with CoreWeave in March 2025 or its value. Therefore the expected answer cannot be verified from the article alone."
+    },
+    {
+      "questionId": "q5",
+      "question": "What significant event occurred on February 10, 2026, related to OpenAI?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article contains no information about February 10, 2026 or any event in Tumbler Ridge, British Columbia. The only relevant February 10 date mentioned is February 10, 2025, when a consortium led by Elon Musk submitted a $97.4 billion unsolicited bid to buy the nonprofit controlling OpenAI. The expected answer is unrelated and contradicts the article."
+    },
+    {
+      "questionId": "q6",
+      "question": "What was the nature of the lawsuit filed in August 2025 against OpenAI?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 2,
+      "explanation": "The article says that in August 2025 Elon Musk revived legal action against OpenAI and Altman, but it does not describe it as a wrongful death lawsuit. The August 2025 lawsuit type is not specified in the article, so the expected answer is not supported by the text."
+    },
+    {
+      "questionId": "q7",
+      "question": "How many lawsuits did the Social Media Victims Law Center and Tech Justice Law Project file against OpenAI in November 2025?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention any lawsuits filed by the Social Media Victims Law Center or Tech Justice Law Project in November 2025. It also does not provide the number seven for this event. Since the expected answer is not supported by the article text, the question is not answerable from the provided article."
+    },
+    {
+      "questionId": "q8",
+      "question": "What was the amount of the contract awarded to OpenAI by the DoD in June 2025?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.12,
+      "quality": 2,
+      "explanation": "The article states that in July 2025 the United States Department of Defense announced OpenAI had received a $200 million contract. The question asks about June 2025, which is not what the article says. The expected answer matches the contract amount, but the date in the question is inconsistent with the article."
+    },
+    {
+      "questionId": "q9",
+      "question": "What did OpenAI's Chief Product Officer, Kevin Weil, achieve in 2025?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text does not mention OpenAI's Chief Product Officer Kevin Weil or any 2025 achievement by him. The expected answer is therefore not supported by the article. Also, the specific claim 'Commissioned lieutenant colonel in the U.S. Army' is not stated anywhere in the provided text."
+    },
+    {
+      "questionId": "q10",
+      "question": "What did OpenAI express intentions to do after the wrongful death lawsuit in August 2025?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text does not mention any wrongful death lawsuit in August 2025 or intentions to strengthen protections, update crisis response behavior, or add parental controls. The expected answer is not supported by the provided article."
+    }
+  ],
+  "timestamp": 1775437871709
+}

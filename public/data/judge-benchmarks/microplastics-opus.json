@@ -1,0 +1,192 @@
+{
+  "articleId": "microplastics",
+  "judgeModel": "claude-opus-4-6",
+  "method": "Systematic assessment by Claude Opus 4.6 using article text analysis, section existence checks, and answer keyword matching against both article versions",
+  "pastArticle": {
+    "answerable": 4,
+    "correct": 4,
+    "total": 10
+  },
+  "currentArticle": {
+    "answerable": 10,
+    "correct": 10,
+    "total": 10
+  },
+  "gap": {
+    "answerable": 6,
+    "correct": 6
+  },
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What year was it estimated that there are between 15 and 51 trillion individual pieces of microplastic in the world's oceans?",
+      "answer": "2014",
+      "basedOnChange": "Expanded: Classification added new data",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q2",
+      "question": "What is the estimated weight range of microplastics in the world's oceans as of 2014?",
+      "answer": "between 93,000 and 236,000 metric tons",
+      "basedOnChange": "Expanded: Classification added new data",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q3",
+      "question": "What is the estimated annual leakage of microplastics from paint into the ocean?",
+      "answer": "1.9 Mt/year",
+      "basedOnChange": "Expanded: Sources of microplastics added new data",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q4",
+      "question": "What percentage of the Great Pacific Garbage Patch is estimated to be made up of microplastics?",
+      "answer": "up to 30%",
+      "basedOnChange": "Expanded: Sources of microplastics added new data",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q5",
+      "question": "What significant finding was reported in a 2023 study regarding microplastics and soil?",
+      "answer": "microplastics can reduce soil fertility and crop yields by disrupting soil microbial communities and water retention capacity.",
+      "basedOnChange": "Expanded: Oral intake added new data",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0.25
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q6",
+      "question": "What was the estimated number of microplastics released into water sources daily before the updates?",
+      "answer": "65 million",
+      "basedOnChange": "Expanded: Oral intake added new data",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q7",
+      "question": "What specific gastrointestinal effects have been observed in fish due to microplastic exposure?",
+      "answer": "inflammation and alterations of the intestinal microbiome.",
+      "basedOnChange": "New section: Gastrointestinal effects",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q8",
+      "question": "What was the significant finding regarding microplastics in the context of Hurricane Larry in September 2021?",
+      "answer": "Hurricane Larry deposited, during the storm peak, 113,000 particles/m2/day as it passed over Newfoundland, Canada.",
+      "basedOnChange": "Expanded: Effects on the environment added new data",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q9",
+      "question": "What new methods have been developed for detecting nanoplastics, as mentioned in the article?",
+      "answer": "microfluidics method to aggregate nanoplastics into larger aggregates for convenient isolation, enrichment and downstream quantification via fluorescence microscopy.",
+      "basedOnChange": "Expanded: Nanoplastics added new data",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0.23
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.92
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the relationship between microplastics and the hypothalamic-pituitary-gonadal (HPG) axis?",
+      "answer": "Microplastics and their additives can disrupt the hypothalamic-pituitary-gonadal (HPG) axis, a critical regulator of male reproductive function.",
+      "basedOnChange": "Expanded: Human health added new data",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    }
+  ],
+  "timestamp": 1775440690723
+}

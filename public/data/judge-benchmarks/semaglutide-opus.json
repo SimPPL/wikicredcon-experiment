@@ -1,0 +1,192 @@
+{
+  "articleId": "semaglutide",
+  "judgeModel": "claude-opus-4-6",
+  "method": "Systematic assessment by Claude Opus 4.6 using article text analysis, section existence checks, and answer keyword matching against both article versions",
+  "pastArticle": {
+    "answerable": 2,
+    "correct": 0,
+    "total": 10
+  },
+  "currentArticle": {
+    "answerable": 9,
+    "correct": 7,
+    "total": 10
+  },
+  "gap": {
+    "answerable": 7,
+    "correct": 7
+  },
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What is the average percentage of weight regained by individuals after stopping semaglutide treatment within the following year?",
+      "answer": "67%",
+      "basedOnChange": "New section: United States",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q2",
+      "question": "What new indication for semaglutide was expanded by the FDA in August 2025?",
+      "answer": "The treatment of noncirrhotic metabolic-associated steatohepatitis (MASH), formerly known as nonalcoholic steatohepatitis (NASH), with moderate to advanced liver fibrosis.",
+      "basedOnChange": "New section: United States",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.93
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q3",
+      "question": "What was the cumulative occurrence of major adverse cardiovascular events in the semaglutide group during the cardiovascular health trial?",
+      "answer": "569 of the 8803 patients in the semaglutide group, which were 6.5% of the participants.",
+      "basedOnChange": "New section: Trials for cardiovascular health",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.4
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q4",
+      "question": "What is the expected price drop for Wegovy, Ozempic, and Rybelsus announced by Novo Nordisk effective January 2027?",
+      "answer": "$675/month.",
+      "basedOnChange": "New section: Cost, coverage and supply",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q5",
+      "question": "What was the average duration of exposure to either placebo or semaglutide during the cardiovascular health trial?",
+      "answer": "34.2±13.7 months.",
+      "basedOnChange": "New section: Trials for cardiovascular health",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0.5
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q6",
+      "question": "How many generic versions of semaglutide are being developed for the Chinese market?",
+      "answer": "At least 15 generic versions.",
+      "basedOnChange": "New section: China",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.67
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q7",
+      "question": "What is the range of monthly therapy costs for generic semaglutide in India after the patent expiration?",
+      "answer": "Approximately ₹2,200 to ₹4,200.",
+      "basedOnChange": "New section: India",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.67
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q8",
+      "question": "What was the percentage reduction in major adverse cardiovascular events for participants who received semaglutide compared to those who received placebo?",
+      "answer": "18.8% less major adverse cardiovascular events.",
+      "basedOnChange": "New section: Trials for cardiovascular health",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.4
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q9",
+      "question": "What was the outcome of the Trump Administration's decision regarding the Biden Administration's proposal on GLP-1 coverage?",
+      "answer": "The Trump Administration declined to finalize the proposal.",
+      "basedOnChange": "New section: Rejection of Biden-Era Proposal",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the brand name under which the oral version of semaglutide was approved for weight management in December 2025?",
+      "answer": "Wegovy.",
+      "basedOnChange": "New section: United States",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    }
+  ],
+  "timestamp": 1775440690677
+}

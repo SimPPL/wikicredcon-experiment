@@ -1,0 +1,102 @@
+{
+  "articleId": "ultra-processed-food",
+  "version": "past",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 9,
+  "correct": 6,
+  "meanQuality": 3.4,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What year did Carlos Augusto Monteiro and others at the University of São Paulo publish a paper describing the Nova classification system?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that the term gained prominence from a 2009 paper by Brazilian researchers as part of the Nova classification system, and that Carlos Augusto Monteiro first published the concept in a 2009 commentary."
+    },
+    {
+      "questionId": "q2",
+      "question": "What are the four defining themes identified in the 2021 survey for classifying levels of food processing?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly lists the four defining themes from the 2021 survey as: Extent of change, Nature of change, Place of processing, and Purpose of processing. The expected answer matches exactly."
+    },
+    {
+      "questionId": "q3",
+      "question": "What score on the Siga Index indicates that a food product is classified as ultra-processed?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that the Siga Index defines ultra-processed foods as those with a score below 40, which matches the expected answer."
+    },
+    {
+      "questionId": "q4",
+      "question": "According to a 2023 review, what is the increased risk percentage of various cancers for people who consume 10% more ultra-processed foods?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 0.95,
+      "quality": 4,
+      "explanation": "The article states that a 2023 review found people who consume 10% more ultra-processed foods have an increased risk of various cancers. The expected answer is paraphrased and does not give the percentage, but it matches the article’s meaning."
+    },
+    {
+      "questionId": "q5",
+      "question": "What significant change occurred in the food supply during World War II related to ultra-processed foods?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention World War II or any development of long shelf-life food for soldiers in combat. Therefore the expected answer is not supported by the article."
+    },
+    {
+      "questionId": "q6",
+      "question": "What percentage of packaged food in the United States is represented by ultra-processed foods?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.18,
+      "quality": 2,
+      "explanation": "The article does not state that ultra-processed foods represent 70% of packaged food in the United States. It only says that, as of 2023, the United States leads consumption with 58% of daily calories from ultra-processed foods. Therefore the expected answer is not supported by the article text."
+    },
+    {
+      "questionId": "q7",
+      "question": "What is one of the reasons for the popularity of ultra-processed foods among lower-income consumers?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that ultra-processed foods 'often have an extended shelf life,' which is noted as an important consideration for lower-income consumers without reliable access to refrigeration."
+    },
+    {
+      "questionId": "q8",
+      "question": "In what year did Carlos Monteiro and Arne Astrup engage in a series of articles debating the Nova classification?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention a 2022 debate between Carlos Monteiro and Arne Astrup, nor does it provide the year of their article series. The expected answer is not supported by the provided text."
+    },
+    {
+      "questionId": "q9",
+      "question": "What is the hazard ratio for animal-based products associated with diseases among ultra-processed foods according to a 2023 study?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention a hazard ratio of 1.09 for animal-based products. It only says that some specific ultra-processed foods associated with higher risk of type 2 diabetes include animal-based products, but no hazard ratio is given. The expected answer is not supported by the article text."
+    },
+    {
+      "questionId": "q10",
+      "question": "How does the Nova classification system define ultra-processed foods?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly states that the Nova definition of ultra-processed food does not comment on the nutritional content of food and is not intended to be used for nutrient profiling. This matches the expected answer."
+    }
+  ],
+  "timestamp": 1775437807393
+}

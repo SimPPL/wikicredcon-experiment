@@ -1,0 +1,102 @@
+{
+  "articleId": "right-to-repair",
+  "version": "past",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 9,
+  "correct": 2,
+  "meanQuality": 2.3,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What are the common obstacles to repair mentioned in the new lead section?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article’s lead section explicitly lists the common obstacles to repair as requirements to use only the manufacturer's maintenance services, restrictions on access to tools and components, and software barriers. The expected answer matches exactly."
+    },
+    {
+      "questionId": "q2",
+      "question": "What is the purpose of repair monopolies as described in the new lead section?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.18,
+      "quality": 2,
+      "explanation": "The article says common obstacles to repair include requirements to use only the manufacturer's maintenance services and restrictions on access to tools and components. It also mentions that when companies retain a monopoly on repair, repair costs can exceed replacement costs. However, it does not explicitly state that the purpose of repair monopolies is to force customers to either use the manufacturer's own repair services or purchase new equipment. That wording goes beyond the article text."
+    },
+    {
+      "questionId": "q3",
+      "question": "What specific requirements does the European Union's Right to Repair Directive impose on manufacturers regarding repair services?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.12,
+      "quality": 2,
+      "explanation": "The article mentions the European Union only in the context of 'Standardized parts' (USB-C) in a table, and says the rules are not yet finalized. It does not state that EU manufacturers must offer repair 'within a reasonable time' and 'for a reasonable price.' That expected answer is not supported by the article text."
+    },
+    {
+      "questionId": "q4",
+      "question": "What is the effective date for the European online platform for repair to be fully operational?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention any European online platform for repair or its effective date, so the expected answer cannot be verified from the provided text. Because the question is not answerable from the article, the response cannot be judged correct."
+    },
+    {
+      "questionId": "q5",
+      "question": "What report did the Federal Trade Commission release in 2021 regarding repair restrictions?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text does not mention any Federal Trade Commission report released in 2021 or the title 'Nixing the Fix'. Therefore the expected answer is not supported by the article."
+    },
+    {
+      "questionId": "q6",
+      "question": "What does the 2022 legislative change in Australia require manufacturers to do?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.12,
+      "quality": 2,
+      "explanation": "The article text does not mention any 2022 legislative change in Australia or a requirement to provide information to repairers and Registered Training Organisations at a fair market price. The only 2022 entries listed are Colorado wheelchair repair and New York's Digital Fair Repair Act. So the expected answer is not supported by the article, and it appears to come from outside the provided text."
+    },
+    {
+      "questionId": "q7",
+      "question": "What is the deadline for member states to transpose the European Union's Right to Repair Directive?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does mention the European Union's Right to Repair Directive, but it does not state the transposition deadline as July 31, 2026. In the text, the EU-related entry only says the rules are not yet finalized and must be adopted by member states and approved by the Council. So the expected answer is not supported by the article text."
+    },
+    {
+      "questionId": "q8",
+      "question": "How does the new content describe the impact of repair monopolies on consumers?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.64,
+      "quality": 3,
+      "explanation": "The article supports part of the idea: it says that when companies retain a monopoly on repair, repair costs can exceed replacement costs and prices are driven up. However, the expected answer adds several effects not stated in the article—\"increased delays, reduced serviceability, and less choice\"—so it is not fully supported by the text."
+    },
+    {
+      "questionId": "q9",
+      "question": "What significant changes were made to the right to repair in the United States as of 2023?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 0.98,
+      "quality": 4,
+      "explanation": "The article states that in 2023 Minnesota passed a law requiring manufacturers of certain electronic products to make documentation, parts, and tools for diagnosis, maintenance, or repair available to independent repair providers and consumers. This matches the expected answer."
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the significance of the 2024 Right to Repair Directive in the European Union?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.1,
+      "quality": 2,
+      "explanation": "The article does mention the EU in the repairability table, but it does not state the 2024 Right to Repair Directive or that it amends EU sales-of-goods rules to extend the legal guarantee when a consumer chooses repair over replacement. That expected answer is not supported by the article text and appears to be from outside the article."
+    }
+  ],
+  "timestamp": 1775438105610
+}

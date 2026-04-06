@@ -1,0 +1,102 @@
+{
+  "articleId": "glp1-receptor-agonist",
+  "version": "past",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 7,
+  "correct": 5,
+  "meanQuality": 3.1,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What are the BMI criteria for recommending GLP-1 agonists as an add-on therapy to lifestyle intervention?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that GLP-1 agonists are recommended as an add-on therapy to lifestyle intervention in people with a BMI over 30 or a BMI over 27 with at least one weight-related comorbidity, which matches the expected answer."
+    },
+    {
+      "questionId": "q2",
+      "question": "What percentage of lost weight do people typically regain within a year after stopping GLP-1 agonists?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that after stopping GLP-1 agonists, people regain on average more than half (50–70%) of the lost weight within a year, which matches the expected answer."
+    },
+    {
+      "questionId": "q3",
+      "question": "What specific liver condition is Wegovy (semaglutide) approved to treat?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.12,
+      "quality": 2,
+      "explanation": "The article states that semaglutide (Wegovy) is approved for obesity and mentions GLP-1 agonists in relation to metabolic dysfunction-associated steatotic liver disease (MASLD), but it does not say Wegovy is approved to treat metabolic dysfunction-associated steatohepatitis (MASH) with stage 2 or 3 fibrosis. The expected answer appears to rely on newer or different approval information not present in the article."
+    },
+    {
+      "questionId": "q4",
+      "question": "What boxed warning does the FDA require for GLP-1 agonists?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that GLP-1 agonists can stimulate calcitonin secretion in mice, leading to C-cell hypertrophy and an increased risk of thyroid cancer. The expected FDA boxed warning about thyroid C-cell tumors, including medullary thyroid cancer, is consistent with this."
+    },
+    {
+      "questionId": "q5",
+      "question": "What initiative was announced by the Trump Administration in November 2025 regarding GLP-1 agonists?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention any Trump Administration initiative in November 2025, TrumpRx, or the prices $245/$50. Therefore the expected answer is not supported by the article and cannot be verified from it."
+    },
+    {
+      "questionId": "q6",
+      "question": "When is coverage for patients with obesity and at least one comorbidity expected to be implemented?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention any expected implementation date for insurance coverage for patients with obesity and at least one comorbidity. The provided expected answer ('As early as April 1, 2026') is not supported by the article text."
+    },
+    {
+      "questionId": "q7",
+      "question": "How do GLP-1 agonists compare to pioglitazone and vitamin E in treating metabolic dysfunction–associated steatotic liver disease?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that GLP-1 agonists are 'at least as effective in the treatment of metabolic dysfunction–associated steatotic liver disease (MASLD) as the medications in current use, pioglitazone and Vitamin E.' This matches the expected answer."
+    },
+    {
+      "questionId": "q8",
+      "question": "What was the outcome of the 2022 UK study regarding the use of GLP-1 agonists for treating Parkinson's disease?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention a 2022 UK study on GLP-1 agonists for Parkinson's disease, so the expected answer cannot be verified from the article. Therefore it is not answerable from the source text."
+    },
+    {
+      "questionId": "q9",
+      "question": "What did a 2025 study suggest about GLP-1 agonists and the risk of neurocognitive disorders?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention neurocognitive disorders or Alzheimer's disease. It only states that a 2025 study suggested GLP-1 agonists increased risks of hypotension, syncope, joint diseases, nephrolithiasis, interstitial nephritis, and acute pancreatitis. Therefore the expected answer is not supported by the article text."
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the estimated percentage of online compounding pharmacies operating illegally as of 2024?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly states: \"An estimated 95% of online pharmacies were operating illegally in 2024.\" This matches the expected answer of 95%."
+    }
+  ],
+  "timestamp": 1775437838880
+}

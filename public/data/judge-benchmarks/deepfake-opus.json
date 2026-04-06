@@ -1,0 +1,192 @@
+{
+  "articleId": "deepfake",
+  "judgeModel": "claude-opus-4-6",
+  "method": "Systematic assessment by Claude Opus 4.6 using article text analysis, section existence checks, and answer keyword matching against both article versions",
+  "pastArticle": {
+    "answerable": 8,
+    "correct": 8,
+    "total": 10
+  },
+  "currentArticle": {
+    "answerable": 10,
+    "correct": 10,
+    "total": 10
+  },
+  "gap": {
+    "answerable": 2,
+    "correct": 2
+  },
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What open-source tools were mentioned that allowed users to create deepfake videos without formal education in computer science?",
+      "answer": "FakeApp, FaceSwap, and DeepFaceLab",
+      "basedOnChange": "Expanded: Amateur development added details",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0.17
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q2",
+      "question": "In which month and year did the Belgian branch of Extinction Rebellion publish a deepfake video of Belgian Prime Minister Sophie Wilmès?",
+      "answer": "April 2020",
+      "basedOnChange": "Expanded: Politics added specific events",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q3",
+      "question": "What significant event occurred in March 2024 regarding deepfake technology in India?",
+      "answer": "Deepfake technology was widely employed by political candidates to reach out to voters.",
+      "basedOnChange": "Expanded: Politics added specific events",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q4",
+      "question": "What was the intent behind the deepfake video created by Jordan Peele featuring Barack Obama?",
+      "answer": "To portray the dangerous consequences and power of deepfakes.",
+      "basedOnChange": "Expanded: Example events added details",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q5",
+      "question": "What was the outcome for the employee responsible for airing a deepfake of Trump during his Oval Office address?",
+      "answer": "The employee was subsequently fired.",
+      "basedOnChange": "Expanded: Politics added specific events",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q6",
+      "question": "What is the 'liar's dividend' as defined in the new section?",
+      "answer": "A phenomenon where individuals claim that incriminating recordings of themselves are AI-generated to dismiss claims and gain sympathy.",
+      "basedOnChange": "New section: Liar's dividend",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q7",
+      "question": "How many views did the deepfake video of Belgian Prime Minister Sophie Wilmès receive within 24 hours?",
+      "answer": "More than 100,000 views",
+      "basedOnChange": "Expanded: Politics added specific events",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q8",
+      "question": "What significant shift in electioneering tactics was noted in the March 2024 event in India?",
+      "answer": "A significant shift in electioneering tactics in India due to the surge in the use of deepfakes.",
+      "basedOnChange": "Expanded: Politics added specific events",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q9",
+      "question": "What was the deepfake video of Joe Biden prior to the 2024 election intended to do?",
+      "answer": "Dissuade people from voting for him.",
+      "basedOnChange": "Expanded: Example events added details",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q10",
+      "question": "What was the financial loss incurred by the firm Arup Group due to a deepfake scam?",
+      "answer": "$25 million",
+      "basedOnChange": "Expanded: Example events added details",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    }
+  ],
+  "timestamp": 1775440690751
+}

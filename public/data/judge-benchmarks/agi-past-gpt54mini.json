@@ -1,0 +1,102 @@
+{
+  "articleId": "agi",
+  "version": "past",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 9,
+  "correct": 5,
+  "meanQuality": 3.1,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What framework for classifying AGI was proposed by Google DeepMind researchers in 2023?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article explicitly states that Google DeepMind researchers proposed a 2023 framework classifying AGI by five performance levels: emerging, competent, expert, virtuoso, and superhuman."
+    },
+    {
+      "questionId": "q2",
+      "question": "What is the definition of a competent AGI according to the new framework proposed in 2023?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.07,
+      "quality": 1,
+      "explanation": "The article says Google DeepMind researchers proposed a 2023 framework with five performance levels: emerging, competent, expert, virtuoso, and superhuman. However, it does not define 'competent AGI' as 'outperforming 50% of skilled adults in a wide range of non-physical tasks.' That definition appears unsupported by the article text."
+    },
+    {
+      "questionId": "q3",
+      "question": "What significant event regarding the Turing test occurred in 2025?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that in 2025 a pre-registered, three-party Turing-test study by Cameron R. Jones and Benjamin K. Bergen found GPT-4.5 was judged to be the human in 73% of five-minute text conversations, which matches the expected answer."
+    },
+    {
+      "questionId": "q4",
+      "question": "What does the Ikea test involve according to the new content?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article says the Ikea test (Flat Pack Furniture Test) is when an AI views the parts and instructions of an Ikea flat-pack product, then controls a robot to assemble the furniture correctly. The expected answer matches this."
+    },
+    {
+      "questionId": "q5",
+      "question": "What was demonstrated by MIT researchers in December 2025 regarding the Ikea test?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.08,
+      "quality": 1,
+      "explanation": "The article mentions the Ikea test, but it does not say that MIT researchers demonstrated a 'speech-to-reality' system in December 2025, nor does it mention combining large language models with vision-language models and robotic assembly. That expected answer is not supported by the article text."
+    },
+    {
+      "questionId": "q6",
+      "question": "What significant advancement in coffee-making AI was reported in January 2024?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.12,
+      "quality": 2,
+      "explanation": "The article mentions the Coffee Test and says that robots developed by Figure AI and other robotics companies can perform tasks like making coffee, but it does not mention Figure 01, a Keurig machine, autonomous learning from video demonstrations, or a January 2024 report. The expected answer includes details not supported by the article text."
+    },
+    {
+      "questionId": "q7",
+      "question": "What does Mustafa Suleyman's test propose for AI?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that the Modern Turing Test (Suleyman) gives an AI model $100,000 and requires it to obtain $1 million, which matches the expected answer."
+    },
+    {
+      "questionId": "q8",
+      "question": "According to the new content, what is the FurnitureBench benchmark?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text does not mention FurnitureBench or provide any description of it. The expected answer cannot be supported from the article, so the pair is not correct based on the given text."
+    },
+    {
+      "questionId": "q9",
+      "question": "What did researchers from OpenAI estimate in 2023 regarding the impact of LLMs on the U.S. workforce?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article text states that OpenAI researchers in 2023 estimated 80% of the U.S. workforce could have at least 10% of their work tasks affected by LLMs, which matches the expected answer."
+    },
+    {
+      "questionId": "q10",
+      "question": "What did Stephen Hawking state about the outcome of automation on quality of life?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention Stephen Hawking or any statement about automation, wealth redistribution, or quality of life. Therefore the expected answer cannot be verified from the article."
+    }
+  ],
+  "timestamp": 1775437969791
+}

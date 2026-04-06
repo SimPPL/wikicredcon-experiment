@@ -1,0 +1,102 @@
+{
+  "articleId": "vaccine-misinfo",
+  "version": "past",
+  "judgeModel": "openai/gpt-5.4-mini",
+  "answerable": 4,
+  "correct": 1,
+  "meanQuality": 1.5,
+  "totalQuestions": 10,
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What significant change occurred to the CDC website on 'Autism and Vaccines' on November 19, 2025?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text does not mention any CDC website change on November 19, 2025, so the expected answer is not supported by the provided article. Because the article is silent on this event, the question cannot be answered from the text alone."
+    },
+    {
+      "questionId": "q2",
+      "question": "By how much did measles vaccine compliance drop from 2019 to 2024 according to the World Health Organization?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention any World Health Organization statistic about measles vaccine compliance in 2019 versus 2024, nor does it state a 3% drop. Because the expected answer is not supported by the provided text, it cannot be verified from the article."
+    },
+    {
+      "questionId": "q3",
+      "question": "What was the measles vaccine rate in the United States during the 2023-2024 academic year?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article says only that measles remains a serious disease and that vaccination is the only way to protect against it. It does not mention any U.S. measles vaccine rate for the 2023-2024 academic year, so the expected answer is not supported by the text."
+    },
+    {
+      "questionId": "q4",
+      "question": "What change occurred in California's vaccine exemption policies after the 2015 measles epidemic?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not mention California, the 2015 measles epidemic, or any change to California's vaccine exemption policies. Since the expected answer is not supported by the provided text, the question is unanswerable from this article."
+    },
+    {
+      "questionId": "q5",
+      "question": "What communication strategies are suggested to counter vaccine misinformation?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.33,
+      "quality": 2,
+      "explanation": "The article does support communicating the scientific consensus that vaccination is beneficial and that many vaccine myths are false. However, it does not mention using humour to dispel vaccine myths or providing vaccine misinformation warnings as suggested communication strategies. Those elements are not supported by the article text."
+    },
+    {
+      "questionId": "q6",
+      "question": "What is the only disease that has been successfully eradicated to date?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article does not state that smallpox is the only disease successfully eradicated to date. It discusses other vaccine-preventable diseases and mentions elimination of wild poliovirus in most parts of the world, which differs from the expected answer. Since the expected answer is not supported by the article text, the response is incorrect."
+    },
+    {
+      "questionId": "q7",
+      "question": "What is the significance of maintaining vaccination rates according to the Lancet Digital Health Journal?",
+      "answerable": true,
+      "correct": false,
+      "accuracy_score": 0.08,
+      "quality": 1,
+      "explanation": "The article does not mention the Lancet Digital Health Journal or the specific claim about a few percentage points of herd immunity making the difference between an epidemic and not having one. The expected answer is not supported by the provided text."
+    },
+    {
+      "questionId": "q8",
+      "question": "What is the role of physicians in communicating vaccine effectiveness according to the Pediatric Journal of Nursing?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text does not mention the Pediatric Journal of Nursing or any statement about physicians needing to make more effort to communicate vaccine effectiveness to patients and parents. The expected answer is not supported by the provided article."
+    },
+    {
+      "questionId": "q9",
+      "question": "What impact did the 2015 measles epidemic have on vaccine exemption policies across the US?",
+      "answerable": false,
+      "correct": false,
+      "accuracy_score": 0,
+      "quality": 1,
+      "explanation": "The article text provided does not mention a 2015 measles epidemic or any resulting changes to vaccine exemption policies across the US. Therefore the expected answer cannot be verified from the article."
+    },
+    {
+      "questionId": "q10",
+      "question": "What is the potential next candidate for eradication among vaccine-preventable diseases?",
+      "answerable": true,
+      "correct": true,
+      "accuracy_score": 1,
+      "quality": 5,
+      "explanation": "The article states that measles is a serious vaccine-preventable disease and that vaccination is the only way to protect against it. The expected answer identifies measles as the most likely next candidate for eradication, which is consistent with the article text."
+    }
+  ],
+  "timestamp": 1775437776372
+}

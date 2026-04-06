@@ -1,0 +1,192 @@
+{
+  "articleId": "misinformation",
+  "judgeModel": "claude-opus-4-6",
+  "method": "Systematic assessment by Claude Opus 4.6 using article text analysis, section existence checks, and answer keyword matching against both article versions",
+  "pastArticle": {
+    "answerable": 5,
+    "correct": 1,
+    "total": 10
+  },
+  "currentArticle": {
+    "answerable": 8,
+    "correct": 8,
+    "total": 10
+  },
+  "gap": {
+    "answerable": 3,
+    "correct": 7
+  },
+  "verdicts": [
+    {
+      "questionId": "q1",
+      "question": "What did the World Economic Forum identify as the most severe global risks in January 2024?",
+      "answer": "Misinformation and disinformation, propagated by both internal and external interests, to 'widen societal and political divides'.",
+      "basedOnChange": "Expanded: Lead added details about WEF",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.4
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q2",
+      "question": "What percentage of Americans were reached by content from untrustworthy websites during the 2016 U.S. presidential election?",
+      "answer": "Up to 40%.",
+      "basedOnChange": "Expanded: History added statistics",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q3",
+      "question": "What was the success rate of participants in the Microsoft AI for Good Lab study when identifying real versus AI-generated images?",
+      "answer": "62%.",
+      "basedOnChange": "New section: LA wildfire Hollywood sign",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q4",
+      "question": "What significant event occurred on December 8, 2025, in Japan?",
+      "answer": "An earthquake disaster.",
+      "basedOnChange": "New section: December 8th earthquake",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0.5
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q5",
+      "question": "What type of misinformation was spread during the COVID-19 pandemic according to the new content?",
+      "answer": "Misinformation about symptoms, treatments, and long-term health-related problems.",
+      "basedOnChange": "Expanded: COVID-19 misinformation added details",
+      "past": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.8
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.86
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q6",
+      "question": "What was the impact of algorithmic amplification on the spread of misinformation on social media?",
+      "answer": "It boosts the spread of misinformation because sensational and catching posts perform better.",
+      "basedOnChange": "Expanded: Lack of regulation added explanation",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.28
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.89
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q7",
+      "question": "What was the result of the deepfake video broadcasted by hackers involving Volodymyr Zelenskyy in 2022?",
+      "answer": "Zelenskyy later disproved the deepfake.",
+      "basedOnChange": "New section: Zelenskyy deepfakes",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 1
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q8",
+      "question": "What is one of the challenges in implementing interventions for misinformation as suggested in the new content?",
+      "answer": "An overabundance of lab research and a lack of field studies.",
+      "basedOnChange": "New section: Countermeasures",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.38
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.75
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q9",
+      "question": "What is the proposed model for effective crowdsourcing interventions to combat misinformation?",
+      "answer": "A 'two steps away' network approach.",
+      "basedOnChange": "New section: Crowdsourced fact-checking",
+      "past": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0
+      },
+      "current": {
+        "answerable": false,
+        "correct": false,
+        "accuracy": 0.5
+      },
+      "quality": 4
+    },
+    {
+      "questionId": "q10",
+      "question": "What was the main finding of the NewsGuard report regarding TikTok's misinformation levels?",
+      "answer": "There is a very high level (~20%) of online misinformation delivered to a mainly young user base.",
+      "basedOnChange": "Expanded: Misinformation on TikTok added findings",
+      "past": {
+        "answerable": true,
+        "correct": false,
+        "accuracy": 0.39
+      },
+      "current": {
+        "answerable": true,
+        "correct": true,
+        "accuracy": 0.78
+      },
+      "quality": 4
+    }
+  ],
+  "timestamp": 1775440690712
+}
