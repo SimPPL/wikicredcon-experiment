@@ -238,6 +238,29 @@
         "type": "fact-check",
         "snippet": "Anthropic's AI tool, Claude, was reportedly used during the Delta Force raid to capture Nicolás Maduro…"
       }
+    ],
+    "wikipediaRefs": [
+      {
+        "title": "Nvidia",
+        "url": "https://en.wikipedia.org/wiki/Nvidia",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Nvidia is an American technology company; headquarters in Santa Clara, California; founded 1993; key people include Jensen Huang (president and CEO)."
+      },
+      {
+        "title": "Jensen Huang",
+        "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Jensen Huang is the founder, president, and CEO of Nvidia; he has remained president and CEO since its founding."
+      },
+      {
+        "title": "Anthropic",
+        "url": "https://en.wikipedia.org/wiki/Anthropic",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Anthropic is an American AI company founded in 2021; Dario Amodei is CEO and the company focuses on AI safety. It refused a DoD demand in 2026 tied to domestic surveillance and fully autonomous weapons."
+      }
     ]
   },
   {
@@ -387,7 +410,8 @@
         "snippet": "Edwin Chen, the 38-year-old founder of Surge AI, … net worth…"
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "agi-g3",
@@ -475,7 +499,8 @@
         "snippet": "Reports Musk’s claim that AI could become smarter than any human by end of this year/2026."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "agi-g4",
@@ -497,7 +522,8 @@
       }
     ],
     "sources": [],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "agi-g5",
@@ -519,6 +545,7 @@
       }
     ],
     "sources": [],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   }
 ]

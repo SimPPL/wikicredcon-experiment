@@ -202,7 +202,44 @@
         "snippet": "Transcript references that on Dec. 13, a man walked into a building on Brown campus and began shooting."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "United States Congress",
+        "url": "https://en.wikipedia.org/wiki/United_States_Congress",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes the United States Congress as the federal legislative branch (bicameral: House and Senate) and provides general legislative-role background."
+      },
+      {
+        "title": "Firefighting foam",
+        "url": "https://en.wikipedia.org/wiki/Firefighting_foam",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Notes that aqueous film-forming foams can contain fluorosurfactants such as PFOA or PFOS."
+      },
+      {
+        "title": "Congress",
+        "url": "https://en.wikipedia.org/wiki/Congress",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "In the U.S., Congress is the bicameral legislative branch of the federal government."
+      },
+      {
+        "title": "The Pentagon",
+        "url": "https://en.wikipedia.org/wiki/The_Pentagon",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "The Pentagon is headquarters of the U.S. Department of Defense; “Pentagon” is often used as a metonym for DoD leadership."
+      },
+      {
+        "title": "EPA",
+        "url": "https://en.wikipedia.org/wiki/EPA",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Excerpt indicates “EPA” commonly refers to the U.S. Environmental Protection Agency (USEPA)."
+      }
+    ]
   },
   {
     "groupId": "pfas-g12",
@@ -363,7 +400,16 @@
         "snippet": "Reports measuring PFAS in pet foods; reiterates PFAS persist and are found in water, soil, wildlife, humans."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "EPA",
+        "url": "https://en.wikipedia.org/wiki/EPA",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines “EPA” as an acronym for “Environmental Protection Agency” (US)."
+      }
+    ]
   },
   {
     "groupId": "pfas-g6",
@@ -590,7 +636,8 @@
         "type": "fact-check",
         "snippet": "PFAS... in products such as cookware, packaging, clothes, carpets... semiconductors..."
       }
-    ]
+    ],
+    "wikipediaRefs": []
   },
   {
     "groupId": "pfas-g2",
@@ -781,7 +828,8 @@
         "snippet": "Questions activists/politicians ask about a plant shut down in Italy allowed to operate in India through a different company."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "pfas-g9",
@@ -866,7 +914,8 @@
         "snippet": "Describes PFAS as “forever chemicals” and says many do not break down easily."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "pfas-g1",
@@ -911,7 +960,16 @@
         "snippet": "Researchers measured PFAS in pet foods; PFAS found across many products."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Firefighting foam",
+        "url": "https://en.wikipedia.org/wiki/Firefighting_foam",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Firefighting foam is used for fire suppression; Wikipedia notes some foams (e.g., AFFF) frequently contain fluorosurfactants such as PFOS/PFOA and highlights environmental/health concerns."
+      }
+    ]
   },
   {
     "groupId": "pfas-g17",
@@ -933,7 +991,8 @@
       }
     ],
     "sources": [],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "pfas-g11",
@@ -963,6 +1022,7 @@
         "snippet": "A bill would require fire districts to consider soybean-based foam to reduce exposure to PFAS."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   }
 ]

@@ -238,6 +238,64 @@
         "type": "fact-check",
         "snippet": "States FDA approved a 25 mg oral Wegovy weight-loss pill for chronic weight management."
       }
+    ],
+    "wikipediaRefs": [
+      {
+        "title": "Executive functions",
+        "url": "https://en.wikipedia.org/wiki/Executive_functions",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Executive functions are cognitive processes that support goal-directed behavior (e.g., attentional control, working memory, inhibitory control)."
+      },
+      {
+        "title": "Depression (mood)",
+        "url": "https://en.wikipedia.org/wiki/Depression_(mood)",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Depression (mood) involves low mood/aversion to activity and may include difficulty in thinking and concentration and suicidal thoughts."
+      },
+      {
+        "title": "GLP-1 receptor agonist",
+        "url": "https://en.wikipedia.org/wiki/GLP-1_receptor_agonist",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "States that in January 2026 the FDA requested removal of suicidal behavior and ideation warning from GLP-1 RA medications."
+      },
+      {
+        "title": "Food and Drug Administration",
+        "url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "The FDA is a U.S. federal agency responsible for control and supervision of prescription and OTC pharmaceutical drugs, among other products."
+      },
+      {
+        "title": "EMA",
+        "url": "https://en.wikipedia.org/wiki/EMA",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "EMA is a European Union agency for the evaluation of medicinal products (as listed on the disambiguation page)."
+      },
+      {
+        "title": "Rybelsus",
+        "url": "https://en.wikipedia.org/wiki/Rybelsus",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Identifies Rybelsus as a “trade name for the drug semaglutide.”"
+      },
+      {
+        "title": "Wegovy",
+        "url": "https://en.wikipedia.org/wiki/Wegovy",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Wegovy is described as a trade name for the drug semaglutide."
+      },
+      {
+        "title": "Tirzepatide",
+        "url": "https://en.wikipedia.org/wiki/Tirzepatide",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "“It is sold… under the brand name Mounjaro for diabetes treatment.”"
+      }
     ]
   },
   {
@@ -410,6 +468,29 @@
         "type": "fact-check",
         "snippet": "“eye stroke” left him blind; lawsuits allege inadequate warnings of severe injuries"
       }
+    ],
+    "wikipediaRefs": [
+      {
+        "title": "GLP-1 receptor agonist",
+        "url": "https://en.wikipedia.org/wiki/GLP-1_receptor_agonist",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes GLP-1 receptor agonists as causing reduced appetite and reduced energy intake; notes they are used for type 2 diabetes and obesity."
+      },
+      {
+        "title": "Tirzepatide",
+        "url": "https://en.wikipedia.org/wiki/Tirzepatide",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "“Tirzepatide… is a… GLP-1 receptor agonist… used… for weight loss.”"
+      },
+      {
+        "title": "FDA",
+        "url": "https://en.wikipedia.org/wiki/FDA",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes FDA as a U.S. federal regulatory body (Food and Drug Administration) and provides background on the agency."
+      }
     ]
   },
   {
@@ -469,7 +550,23 @@
         "snippet": "Mentions Wegovy pill as currently the only FDA-approved oral GLP-1 for weight loss..."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Tirzepatide",
+        "url": "https://en.wikipedia.org/wiki/Tirzepatide",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Tirzepatide is a GIP analog and GLP-1 receptor agonist used for type 2 diabetes and weight loss; administered via subcutaneous injections; sold as Mounjaro (diabetes) and Zepbound (weight loss)."
+      },
+      {
+        "title": "FDA",
+        "url": "https://en.wikipedia.org/wiki/FDA",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "FDA is a United States federal regulatory body (Food and Drug Administration)."
+      }
+    ]
   },
   {
     "groupId": "semaglutide-g9",
@@ -514,7 +611,23 @@
         "snippet": "Consumer research report on compounded GLP-1 medication access and verification in telehealth programs."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Mounjaro",
+        "url": "https://en.wikipedia.org/wiki/Mounjaro",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Mounjaro is described as a trade name for the drug tirzepatide."
+      },
+      {
+        "title": "Tirzepatide",
+        "url": "https://en.wikipedia.org/wiki/Tirzepatide",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Tirzepatide is used for diabetes and weight loss and is sold under brand name Mounjaro in some countries."
+      }
+    ]
   },
   {
     "groupId": "semaglutide-g1",
@@ -684,6 +797,50 @@
         "type": "fact-check",
         "snippet": "Approval was based on clinical studies which showed a weight reduction of 15 to 20 per cent."
       }
+    ],
+    "wikipediaRefs": [
+      {
+        "title": "Executive functions",
+        "url": "https://en.wikipedia.org/wiki/Executive_functions",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes executive functions as cognitive processes supporting goal-directed behavior via cognitive control."
+      },
+      {
+        "title": "Depression (mood)",
+        "url": "https://en.wikipedia.org/wiki/Depression_(mood)",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Depression can involve suicidal thoughts; it affects mood, thoughts, behavior, and sense of well-being."
+      },
+      {
+        "title": "Suicidal ideation",
+        "url": "https://en.wikipedia.org/wiki/Suicidal_ideation",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Suicidal ideation is associated with depression and other mood disorders; it is a symptom, not a diagnosis."
+      },
+      {
+        "title": "GLP-1 receptor agonist",
+        "url": "https://en.wikipedia.org/wiki/GLP-1_receptor_agonist",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "States endogenous GLP-1 is released in the small intestine and GLP-1 agonists mimic its actions."
+      },
+      {
+        "title": "Ozempic",
+        "url": "https://en.wikipedia.org/wiki/Ozempic",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Ozempic is a trade name for the drug semaglutide."
+      },
+      {
+        "title": "Wegovy",
+        "url": "https://en.wikipedia.org/wiki/Wegovy",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Wegovy is a trade name for the drug semaglutide."
+      }
     ]
   },
   {
@@ -779,7 +936,8 @@
         "snippet": "release describing oral semaglutide option and format considerations beyond weekly injections"
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "semaglutide-g4",
@@ -912,7 +1070,30 @@
         "snippet": "Says GLP-1 used without medical supervision may lead to serious adverse effects and health risks."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "GLP-1 receptor agonist",
+        "url": "https://en.wikipedia.org/wiki/GLP-1_receptor_agonist",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes GLP-1 receptor agonists as medications that reduce blood sugar and reduce appetite/energy intake; notes obesity/diabetes uses and common adverse effects (mostly gastrointestinal) and other cautions."
+      },
+      {
+        "title": "Tirzepatide",
+        "url": "https://en.wikipedia.org/wiki/Tirzepatide",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Tirzepatide is a GLP-1 receptor agonist used for type 2 diabetes and weight loss; most frequent side-effects include nausea, vomiting, diarrhea, decreased appetite, constipation, upper abdominal discomfort, and abdominal pain."
+      },
+      {
+        "title": "Wegovy",
+        "url": "https://en.wikipedia.org/wiki/Wegovy",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Wegovy is described as a trade name for semaglutide."
+      }
+    ]
   },
   {
     "groupId": "semaglutide-g3",
@@ -1100,6 +1281,29 @@
         "publisher": "Whiteboard Medicine Simplified",
         "type": "fact-check",
         "snippet": "Video states: “Ozempic is FDA-approved for type 2 diabetes” and explains glucose/HbA1c lowering."
+      }
+    ],
+    "wikipediaRefs": [
+      {
+        "title": "GLP-1 receptor agonist",
+        "url": "https://en.wikipedia.org/wiki/GLP-1_receptor_agonist",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "GLP-1 receptor agonists are described as reducing blood sugar and appetite; includes general clinical context."
+      },
+      {
+        "title": "Rybelsus",
+        "url": "https://en.wikipedia.org/wiki/Rybelsus",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Identifies Rybelsus as a trade name for the drug semaglutide."
+      },
+      {
+        "title": "Tirzepatide",
+        "url": "https://en.wikipedia.org/wiki/Tirzepatide",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Tirzepatide is used as an anti-diabetic medication for type 2 diabetes and for weight loss; it is administered via subcutaneous injections."
       }
     ]
   }

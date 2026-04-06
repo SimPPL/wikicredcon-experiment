@@ -16,7 +16,7 @@ const CLAIMS_DIR = join(__dirname, '..', 'public', 'data', 'claims');
 const ARTICLES = ['semaglutide', 'glp1-receptor-agonist', 'vaccine-misinfo', 'pfas', 'openai', 'ultra-processed-food', 'agi', 'misinformation', 'microplastics', 'right-to-repair'];
 
 interface Source { title?: string; url: string; publisher?: string; snippet?: string; relevance?: string; }
-interface Claim { extractedClaim: string; claimType?: string; confidence?: string; factCheckedResources?: Source[]; verifiedResources?: Source[]; otherNewsResources?: Source[]; }
+interface Claim { extractedClaim: string; claimType?: string; confidence?: string; factCheckedResources?: Source[]; verifiedResources?: Source[]; otherNewsResources?: Source[]; wikipediaResources?: Source[]; }
 interface Post { actor?: string; platform?: string; postText?: string; postLink?: string; interactions?: number; claims: Claim[]; }
 
 function findPosts(obj: any, depth = 0): Post[] {
@@ -79,6 +79,15 @@ function main() {
           ...(claim.verifiedResources || []).map((s: Source) => ({ ...s, type: 'news' as const })),
         ];
         const factChecks = (claim.factCheckedResources || []).map((s: Source) => ({ ...s, type: 'fact-check' as const }));
+        // Wikipedia resources — include related pages but filter out the current article
+        const wikiResources = (claim.wikipediaResources || [])
+          .filter((s: Source) => {
+            const url = s.url?.toLowerCase() || '';
+            // Exclude Wikipedia page for the current article
+            const articleSlug = articleId.replace(/-/g, '_');
+            return !url.includes(articleSlug) || articleSlug === 'misinformation'; // misinformation is too generic to filter
+          })
+          .map((s: Source) => ({ ...s, type: 'wikipedia' as const }));
 
         // Simple section mapping: check if claim text contains section-related keywords
         const claimLower = claim.extractedClaim?.toLowerCase() || '';
@@ -101,6 +110,7 @@ function main() {
           postLink: post.postLink || '',
           sources,
           factChecks,
+          wikiResources,
           relevantSections,
           confidence: claim.confidence,
         });
@@ -125,9 +135,11 @@ function main() {
       // Aggregate sources across claims in this group
       const allGroupSources = claims.flatMap((c: any) => c.sources);
       const allGroupFactChecks = claims.flatMap((c: any) => c.factChecks);
+      const allGroupWiki = claims.flatMap((c: any) => c.wikiResources || []);
       // Deduplicate sources by URL
       const uniqueSources = [...new Map(allGroupSources.map((s: any) => [s.url, s])).values()];
       const uniqueFactChecks = [...new Map(allGroupFactChecks.map((s: any) => [s.url, s])).values()];
+      const uniqueWiki = [...new Map(allGroupWiki.map((s: any) => [s.url, s])).values()];
 
       return {
         groupId: `${articleId}-g${i + 1}`,
@@ -158,6 +170,13 @@ function main() {
           type: 'fact-check',
           snippet: s.snippet || '',
         })),
+        wikipediaRefs: uniqueWiki.slice(0, 8).map((s: any) => ({
+          title: s.title || '',
+          url: s.url,
+          publisher: 'Wikipedia',
+          type: 'wikipedia',
+          snippet: s.snippet || '',
+        })),
       };
     });
 
@@ -170,7 +189,8 @@ function main() {
     const totalClaims = topGroups.reduce((s, g) => s + g.claims.length, 0);
     const totalSources = topGroups.reduce((s, g) => s + (g.sources?.length || 0), 0);
     const totalFCs = topGroups.reduce((s, g) => s + (g.factChecks?.length || 0), 0);
-    console.log(`  Saved ${topGroups.length} groups, ${totalClaims} claims, ${totalSources} sources, ${totalFCs} fact-checks`);
+    const totalWiki = topGroups.reduce((s, g) => s + (g.wikipediaRefs?.length || 0), 0);
+    console.log(`  Saved ${topGroups.length} groups, ${totalClaims} claims, ${totalSources} sources, ${totalFCs} fact-checks, ${totalWiki} wiki refs`);
   }
 
   console.log('\nDone.');

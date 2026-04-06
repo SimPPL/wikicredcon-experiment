@@ -186,6 +186,29 @@
         "type": "fact-check",
         "snippet": "An anti-vaccine lawyer, Aaron Siri, spoke at a CDC vaccine advisory panel meeting."
       }
+    ],
+    "wikipediaRefs": [
+      {
+        "title": "COVID-19 misinformation",
+        "url": "https://en.wikipedia.org/wiki/COVID-19_misinformation",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "False information about COVID-19 spread through social media, text messaging, and mass media; WHO declared an “infodemic”."
+      },
+      {
+        "title": "COVID-19 vaccine",
+        "url": "https://en.wikipedia.org/wiki/COVID-19_vaccine",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Provides vaccine background, including first clinical trials beginning in March 2020 and general vaccine development/boosters."
+      },
+      {
+        "title": "Centers for Disease Control and Prevention",
+        "url": "https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes CDC as a U.S. federal public health agency under HHS, headquartered in Atlanta, Georgia."
+      }
     ]
   },
   {
@@ -427,6 +450,36 @@
         "type": "fact-check",
         "snippet": "Study largely confirms known, rare COVID-19 vaccine side effects."
       }
+    ],
+    "wikipediaRefs": [
+      {
+        "title": "Centers for Disease Control and Prevention",
+        "url": "https://en.wikipedia.org/wiki/Centers_for_Disease_Control_and_Prevention",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "CDC is described as the national public health agency of the United States and a federal agency under HHS, headquartered in Atlanta; it is also noted to have faced major disruptions during the second Trump administration."
+      },
+      {
+        "title": "Vaccine",
+        "url": "https://en.wikipedia.org/wiki/Vaccine",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "A vaccine is a biological preparation that provides active acquired immunity to a particular infectious or malignant disease."
+      },
+      {
+        "title": "Social media",
+        "url": "https://en.wikipedia.org/wiki/Social_media",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines social media as platforms for sharing/aggregating user-generated content and notes it can be used to learn; also discusses criticism including viral misinformation."
+      },
+      {
+        "title": "United States",
+        "url": "https://en.wikipedia.org/wiki/United_States",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes the U.S. as a federal republic of 50 states with substantial autonomy for states (general background context)."
+      }
     ]
   },
   {
@@ -647,7 +700,8 @@
         "type": "fact-check",
         "snippet": "Healey: “In Massachusetts, we follow the science, the data and we listen to our medical experts.”"
       }
-    ]
+    ],
+    "wikipediaRefs": []
   },
   {
     "groupId": "vaccine-misinfo-g5",
@@ -706,7 +760,16 @@
         "snippet": "Survey: Americans more likely to trust AMA than CDC when guidance conflicts."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Social media",
+        "url": "https://en.wikipedia.org/wiki/Social_media",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines social media as technologies enabling creation/sharing of content among virtual communities; notes misinformation can spread with little oversight."
+      }
+    ]
   },
   {
     "groupId": "vaccine-misinfo-g3",
@@ -823,7 +886,8 @@
         "type": "fact-check",
         "snippet": "September… “combination shot” protects against chickenpox plus measles, mumps and rubella; ACIP declined… COVID-19."
       }
-    ]
+    ],
+    "wikipediaRefs": []
   },
   {
     "groupId": "vaccine-misinfo-g6",
@@ -853,7 +917,8 @@
         "snippet": "In September, Massachusetts became the first state ... require insurers ... regardless of guidance coming out of Washington."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "vaccine-misinfo-g7",
@@ -984,7 +1049,8 @@
         "type": "fact-check",
         "snippet": "RFK Jr. Cites Flawed Paper Claiming Link Between Vaccines and ..."
       }
-    ]
+    ],
+    "wikipediaRefs": []
   },
   {
     "groupId": "vaccine-misinfo-g8",
@@ -1051,6 +1117,7 @@
         "type": "fact-check",
         "snippet": "“less than half of all Americans now saying they have confidence” (May tracking poll by KFF)"
       }
-    ]
+    ],
+    "wikipediaRefs": []
   }
 ]

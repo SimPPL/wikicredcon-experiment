@@ -222,6 +222,8 @@ export interface ClaimGroup {
   sources?: ClaimSource[];
   /** Optional fact-check results */
   factChecks?: ClaimSource[];
+  /** Optional related Wikipedia pages (excluding the current article) */
+  wikipediaRefs?: ClaimSource[];
 }
 
 // --- Survey ---

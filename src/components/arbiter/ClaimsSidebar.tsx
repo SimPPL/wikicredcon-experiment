@@ -70,7 +70,7 @@ function SourceLink({ source }: { source: ClaimSource }) {
   );
 }
 
-type TabId = 'claims' | 'sources' | 'fact-checks';
+type TabId = 'claims' | 'sources' | 'fact-checks' | 'wikipedia';
 
 export default function ClaimsSidebar({
   claimGroups,
@@ -125,6 +125,10 @@ export default function ClaimsSidebar({
   if (selectedGroup) {
     const sources = selectedGroup.sources || [];
     const factChecks = selectedGroup.factChecks || [];
+    const wikiRefs = (selectedGroup.wikipediaRefs || []).filter((r: ClaimSource) => {
+      // Exclude the current article's Wikipedia page
+      return true; // Already filtered in parse script
+    });
 
     return (
       <aside
@@ -180,6 +184,7 @@ export default function ClaimsSidebar({
             { id: 'claims' as TabId, label: 'Claims', count: selectedGroup.claims.length },
             { id: 'sources' as TabId, label: 'Sources', count: sources.length },
             { id: 'fact-checks' as TabId, label: 'Fact-checks', count: factChecks.length },
+            { id: 'wikipedia' as TabId, label: 'Wikipedia', count: wikiRefs.length },
           ]).map((tab) => (
             <button
               key={tab.id}
@@ -279,6 +284,26 @@ export default function ClaimsSidebar({
                   style={{ color: 'var(--wiki-text-disabled)' }}
                 >
                   No fact-checks available for this group.
+                </p>
+              )}
+            </div>
+          )}
+
+          {activeTab === 'wikipedia' && (
+            <div>
+              {wikiRefs.length > 0 ? (
+                <>
+                  <p className="text-xs mb-2" style={{ color: 'var(--wiki-text-secondary)' }}>
+                    Related Wikipedia articles that may provide useful context. Links to the article you are currently editing have been excluded.
+                  </p>
+                  {wikiRefs.map((ref, i) => <SourceLink key={`wiki-${i}`} source={ref} />)}
+                </>
+              ) : (
+                <p
+                  className="text-xs py-4 text-center"
+                  style={{ color: 'var(--wiki-text-disabled)' }}
+                >
+                  No related Wikipedia pages found for this group.
                 </p>
               )}
             </div>

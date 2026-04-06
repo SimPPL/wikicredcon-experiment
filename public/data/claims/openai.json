@@ -210,6 +210,15 @@
         "type": "fact-check",
         "snippet": "Update aims to improve accuracy and reduce unnecessary interruptions in conversation..."
       }
+    ],
+    "wikipediaRefs": [
+      {
+        "title": "Google",
+        "url": "https://en.wikipedia.org/wiki/Google",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Google is described as a major technology company; Wikipedia lists AI-related products such as Gemini and Google Assistant."
+      }
     ]
   },
   {
@@ -415,7 +424,8 @@
         "snippet": "Altman dismissed claims about AI using lots of water as “completely untrue, totally insane.”"
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "openai-g2",
@@ -620,7 +630,23 @@
         "snippet": "Google announced a major upgrade to Gemini 3 Deep Think, claiming leading scores across benchmarks"
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Google",
+        "url": "https://en.wikipedia.org/wiki/Google",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Google is an American multinational technology corporation; it went public via an initial public offering (IPO) in 2004."
+      },
+      {
+        "title": "Anthropic",
+        "url": "https://en.wikipedia.org/wiki/Anthropic",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Anthropic PBC is an AI company founded in 2021 that developed Claude; it also describes integration/offerings (e.g., Claude models)."
+      }
+    ]
   },
   {
     "groupId": "openai-g3",
@@ -833,7 +859,8 @@
         "type": "fact-check",
         "snippet": "Sam Altman has declared “code red”. … improve user experience with ChatGPT…"
       }
-    ]
+    ],
+    "wikipediaRefs": []
   },
   {
     "groupId": "openai-g8",
@@ -990,7 +1017,23 @@
         "snippet": "Discusses adoption/usage of GenAI tools like ChatGPT and Gemini across European countries."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Google",
+        "url": "https://en.wikipedia.org/wiki/Google",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Google is an American multinational technology company; its products include web navigation (Chrome) and AI (including Gemini)."
+      },
+      {
+        "title": "Anthropic",
+        "url": "https://en.wikipedia.org/wiki/Anthropic",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Wikipedia says that in Nov 2025 Anthropic reported “hackers sponsored by the Chinese government” used Claude for automated cyberattacks against around 30 global organisations, by tricking Claude into carrying out automated subtasks for defensive testing."
+      }
+    ]
   },
   {
     "groupId": "openai-g6",
@@ -1139,7 +1182,16 @@
         "snippet": "Focuses on Anthropic’s valuation and competition with OpenAI; not on Altman’s “code red.”"
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Anthropic",
+        "url": "https://en.wikipedia.org/wiki/Anthropic",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Anthropic PBC is an American AI company founded in 2021 and develops large language models named Claude."
+      }
+    ]
   },
   {
     "groupId": "openai-g5",
@@ -1244,7 +1296,16 @@
         "snippet": "ChatGPT achieved 900 million weekly active users and 50 million subscribers worldwide."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Google",
+        "url": "https://en.wikipedia.org/wiki/Google",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes Google LLC as an American multinational technology company and lists AI products including Gemini; also provides corporate background (founded 1998, reorganized under Alphabet in 2015)."
+      }
+    ]
   },
   {
     "groupId": "openai-g7",
@@ -1288,6 +1349,7 @@
         "snippet": "Google executive says it is \"not ruling them out\" for Gemini; discusses user learning from ads."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   }
 ]

@@ -202,7 +202,65 @@
         "snippet": "Law bans seven artificial dyes from school meals; switch to colors from natural sources."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Ultra-processed food",
+        "url": "https://en.wikipedia.org/wiki/Ultra-processed_food",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines ultra-processed foods under the Nova classification and notes epidemiological associations with non-communicable diseases/obesity; research on effects is evolving."
+      },
+      {
+        "title": "Nova classification",
+        "url": "https://en.wikipedia.org/wiki/Nova_classification",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes the Nova framework (proposed in 2009) grouping foods by extent/purpose of processing, including Group 4 “Ultra-processed foods.”"
+      },
+      {
+        "title": "Chris van Tulleken",
+        "url": "https://en.wikipedia.org/wiki/Chris_van_Tulleken",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes him as a British physician/TV presenter; says he authored the Sunday Times best-selling book \"Ultra-Processed People\" and investigates dietary causes for disease."
+      },
+      {
+        "title": "Fast food",
+        "url": "https://en.wikipedia.org/wiki/Fast_food",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes fast food as mass-produced food optimized for quick service and notes associations reported in the article between fast-food consumption and health outcomes (e.g., obesity)."
+      },
+      {
+        "title": "Digital marketing",
+        "url": "https://en.wikipedia.org/wiki/Digital_marketing",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines digital marketing as promotion using digital technologies and describes common methods such as social media marketing."
+      },
+      {
+        "title": "Social media",
+        "url": "https://en.wikipedia.org/wiki/Social_media",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines social media as platforms for creating and sharing content online; notes that social media can be criticized for impacts on children and teenagers."
+      },
+      {
+        "title": "Food additive",
+        "url": "https://en.wikipedia.org/wiki/Food_additive",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Food additives are substances added to preserve flavor or enhance taste/appearance; it also notes additive use is tied to ultra-processed foods in the late 20th century."
+      },
+      {
+        "title": "BBC World Service",
+        "url": "https://en.wikipedia.org/wiki/BBC_World_Service",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "BBC World Service broadcasts radio news/speech/discussions and also distributes via internet streaming and podcasting; launched as Empire Short Wave Service on 19 Dec 1932 and took the name “BBC World Service” on 1 May 1965."
+      }
+    ]
   },
   {
     "groupId": "ultra-processed-food-g2",
@@ -408,6 +466,64 @@
         "type": "fact-check",
         "snippet": "Childhood obesity reflects modern environment of ultra-processed foods, digital devices and psychological stressors."
       }
+    ],
+    "wikipediaRefs": [
+      {
+        "title": "Ultra-processed food",
+        "url": "https://en.wikipedia.org/wiki/Ultra-processed_food",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines ultra-processed foods (Nova group) and summarizes that epidemiological data associate UPF consumption with non-communicable diseases and obesity."
+      },
+      {
+        "title": "Nova classification",
+        "url": "https://en.wikipedia.org/wiki/Nova_classification",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Explains Nova grouping by extent/purpose of processing and defines “ultra-processed foods”; states epidemiological studies link UPFs with various cancers."
+      },
+      {
+        "title": "Preservative",
+        "url": "https://en.wikipedia.org/wiki/Preservative",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines preservatives as substances added to prevent decomposition and microbial growth."
+      },
+      {
+        "title": "The BMJ",
+        "url": "https://en.wikipedia.org/wiki/The_BMJ",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Provides context: The BMJ is a fortnightly peer-reviewed medical journal; name changes and editor info."
+      },
+      {
+        "title": "Fast food",
+        "url": "https://en.wikipedia.org/wiki/Fast_food",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes fast food as mass-produced food designed for rapid service; includes associations with health risks such as obesity and depression."
+      },
+      {
+        "title": "Social media",
+        "url": "https://en.wikipedia.org/wiki/Social_media",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines social media and describes how it enables creation/sharing of content; discusses criticisms including impacts on children/teenagers."
+      },
+      {
+        "title": "Digital marketing",
+        "url": "https://en.wikipedia.org/wiki/Digital_marketing",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines digital marketing and lists methods including social media marketing and influencer marketing; discusses how digital platforms transformed marketing since the 1990s/2000s."
+      },
+      {
+        "title": "Chronic condition",
+        "url": "https://en.wikipedia.org/wiki/Chronic_condition",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "A chronic condition/disease is typically persistent or long-lasting (often >3 months); chronic conditions are often non-communicable diseases."
+      }
     ]
   },
   {
@@ -454,7 +570,37 @@
         "snippet": "Ultra-processed food consumption linked with diseases like diabetes, heart disease, and obesity..."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Food labelling and advertising law (Chile)",
+        "url": "https://en.wikipedia.org/wiki/Food_labelling_and_advertising_law_(Chile)",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Ley 20.606 established a framework regulating front-of-package nutritional warnings; regulations came into full force on June 27, 2016."
+      },
+      {
+        "title": "Sugary drink tax",
+        "url": "https://en.wikipedia.org/wiki/Sugary_drink_tax",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines sugary drink taxes as a surcharge designed to reduce consumption by making sweetened beverages more expensive; noted as debated in many countries."
+      },
+      {
+        "title": "Nova classification",
+        "url": "https://en.wikipedia.org/wiki/Nova_classification",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Nova is a framework proposed in 2009 (University of São Paulo) classifying foods into four groups, including “Ultra-processed foods.”"
+      },
+      {
+        "title": "Ultra-processed food",
+        "url": "https://en.wikipedia.org/wiki/Ultra-processed_food",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "“Ultra-processed foods … [are] commonly associated with the Nova food classification system, which distinguishes UPFs from minimally processed and processed foods.”"
+      }
+    ]
   },
   {
     "groupId": "ultra-processed-food-g1",
@@ -575,7 +721,44 @@
         "snippet": "Food additives… scrutiny… Health Secretary… ban on eight frequently used food dyes…"
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Joseph A. Schwarcz",
+        "url": "https://en.wikipedia.org/wiki/Joseph_A._Schwarcz",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "States he “is the director of McGill's Office for Science and Society.”"
+      },
+      {
+        "title": "CJAD",
+        "url": "https://en.wikipedia.org/wiki/CJAD",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Explains CJAD as a commercial Montreal news/talk station identifying on-air as “CJAD 800.”"
+      },
+      {
+        "title": "Office for Science and Society",
+        "url": "https://en.wikipedia.org/wiki/Office_for_Science_and_Society",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Lists “Director Joseph Schwarcz” and describes the organization’s science education purpose and formation in 1999."
+      },
+      {
+        "title": "Ultra-processed food",
+        "url": "https://en.wikipedia.org/wiki/Ultra-processed_food",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "UPFs are industrially formulated and often use additives including emulsifiers; mechanisms for health effects are not clearly established."
+      },
+      {
+        "title": "Intensive animal farming",
+        "url": "https://en.wikipedia.org/wiki/Intensive_animal_farming",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes factory farming/industrial livestock production; includes “public health risks” such as “antibiotic resistance.”"
+      }
+    ]
   },
   {
     "groupId": "ultra-processed-food-g7",
@@ -605,7 +788,8 @@
         "snippet": "UPF consumption associated with diseases like diabetes, heart diseases and obesity, plus diminished mind health."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "ultra-processed-food-g5",
@@ -649,7 +833,16 @@
         "snippet": "Plans to remove a weir to improve fish migration; concerns about ecological impacts."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Intensive animal farming",
+        "url": "https://en.wikipedia.org/wiki/Intensive_animal_farming",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes factory farming as keeping livestock, including fish, at high stocking densities at large scale; notes harm to environment and wildlife."
+      }
+    ]
   },
   {
     "groupId": "ultra-processed-food-g6",
@@ -714,6 +907,15 @@
         "snippet": "Pope John Paul II urged protection from “evil use of advertising techniques” harming young people."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Ultra-processed food",
+        "url": "https://en.wikipedia.org/wiki/Ultra-processed_food",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "UPFs are industrially formulated products; the Nova definition considers ingredients/processing and how products are marketed."
+      }
+    ]
   }
 ]

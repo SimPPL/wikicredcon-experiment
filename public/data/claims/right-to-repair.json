@@ -202,7 +202,65 @@
         "snippet": "Reform UK said ... Farage and Zia Yusuf, his government efficiency chief, told a press conference..."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "John Deere",
+        "url": "https://en.wikipedia.org/wiki/John_Deere",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Deere & Company manufactures agricultural machinery and provides financial services."
+      },
+      {
+        "title": "Donald Trump",
+        "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Donald John Trump ... served as the 45th president from 2017 to 2021."
+      },
+      {
+        "title": "Jayson Tatum",
+        "url": "https://en.wikipedia.org/wiki/Jayson_Tatum",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Jayson Christopher Tatum Sr. is a professional basketball player for the Boston Celtics."
+      },
+      {
+        "title": "United States Congress",
+        "url": "https://en.wikipedia.org/wiki/United_States_Congress",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Congress is the U.S. legislative branch and is bicameral (House and Senate)."
+      },
+      {
+        "title": "Chris Deluzio",
+        "url": "https://en.wikipedia.org/wiki/Chris_Deluzio",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Deluzio serves as a U.S. representative (Pennsylvania’s 17th district) since 2023."
+      },
+      {
+        "title": "Michael Knowles (political commentator)",
+        "url": "https://en.wikipedia.org/wiki/Michael_Knowles_(political_commentator)",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes Michael John Knowles as an American conservative political commentator/media host affiliated with The Daily Wire."
+      },
+      {
+        "title": "YouTube",
+        "url": "https://en.wikipedia.org/wiki/YouTube",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines YouTube as an American online video sharing platform owned by Google; provides founding date and platform context."
+      },
+      {
+        "title": "ThinkPad",
+        "url": "https://en.wikipedia.org/wiki/ThinkPad",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "ThinkPad is a line of business-oriented laptops originally designed by IBM and now manufactured by Lenovo; provides background on the brand mentioned in the post."
+      }
+    ]
   },
   {
     "groupId": "right-to-repair-g1",
@@ -407,7 +465,65 @@
         "snippet": "Peaceful protest turned into biggest crime; Gandhi says peaceful protest is soul of democracy."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Donald Trump",
+        "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Biographical overview: U.S. politician and 47th president (since 2025), previously 45th president (2017–2021)."
+      },
+      {
+        "title": "John Deere",
+        "url": "https://en.wikipedia.org/wiki/John_Deere",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes Deere & Company (John Deere) as an American corporation that manufactures agricultural machinery and related equipment."
+      },
+      {
+        "title": "Jayson Tatum",
+        "url": "https://en.wikipedia.org/wiki/Jayson_Tatum",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Jayson Christopher Tatum Sr. is an American professional basketball player for the Boston Celtics of the NBA."
+      },
+      {
+        "title": "Achilles tendon rupture",
+        "url": "https://en.wikipedia.org/wiki/Achilles_tendon_rupture",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Treatment may consist of surgical repair or conservative management for Achilles tendon rupture."
+      },
+      {
+        "title": "Pirate Party",
+        "url": "https://en.wikipedia.org/wiki/Pirate_Party",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes Pirate Party as a label adopted by various parties with policies focused on digital-age civil rights; includes advocacy such as freedom of speech, anonymity, transparency, and internet freedom."
+      },
+      {
+        "title": "National Defense Authorization Act for Fiscal Year 2025",
+        "url": "https://en.wikipedia.org/wiki/National_Defense_Authorization_Act_for_Fiscal_Year_2025",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Includes a “military right-to-repair provision” (Section 828) on access to repair materials."
+      },
+      {
+        "title": "Atlantic Council",
+        "url": "https://en.wikipedia.org/wiki/Atlantic_Council",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Atlantic Council is an American think tank headquartered in Washington, DC."
+      },
+      {
+        "title": "National Defense Authorization Act",
+        "url": "https://en.wikipedia.org/wiki/National_Defense_Authorization_Act",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "NDAAs are federal laws specifying annual DoD budget/expenditures and defense policies."
+      }
+    ]
   },
   {
     "groupId": "right-to-repair-g3",
@@ -429,7 +545,16 @@
       }
     ],
     "sources": [],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "United States Senate",
+        "url": "https://en.wikipedia.org/wiki/United_States_Senate",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Explains the Senate is the upper house of the U.S. Congress with authority to make and pass federal legislation."
+      }
+    ]
   },
   {
     "groupId": "right-to-repair-g4",
@@ -467,7 +592,16 @@
       }
     ],
     "sources": [],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "United States House of Representatives",
+        "url": "https://en.wikipedia.org/wiki/United_States_House_of_Representatives",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "The House is the lower house of Congress; with the Senate it can pass federal legislation, and bills passed by both are sent to the president for signature or veto."
+      }
+    ]
   },
   {
     "groupId": "right-to-repair-g5",
@@ -513,6 +647,7 @@
         "snippet": "“integrated digital systems” cited as risks from Chinese smart cars/data theft"
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   }
 ]

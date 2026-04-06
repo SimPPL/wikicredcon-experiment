@@ -194,7 +194,30 @@
         "snippet": "The EU's proposed CSAR mandates automated scanning of private messages, framed as child protection."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Zimbabwe People's Revolutionary Army",
+        "url": "https://en.wikipedia.org/wiki/Zimbabwe_People%27s_Revolutionary_Army",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "ZIPRA/ZPRA was formed in the 1960s; its sponsors included the Organisation of African Unity and Soviet Union."
+      },
+      {
+        "title": "Misinformation",
+        "url": "https://en.wikipedia.org/wiki/Misinformation",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines misinformation as incorrect or misleading information; discusses how social media can enable rapid spread, and notes some policies can restrict expression in some contexts."
+      },
+      {
+        "title": "Aravalli Range",
+        "url": "https://en.wikipedia.org/wiki/Aravalli_Range",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "The Aravalli Range is a mountain range in north-western India, running ~670 km from near Delhi through Haryana and Rajasthan to Gujarat."
+      }
+    ]
   },
   {
     "groupId": "misinformation-g4",
@@ -311,7 +334,30 @@
         "snippet": "Grok churned out misinformation during Bondi Beach mass shooting."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Misinformation",
+        "url": "https://en.wikipedia.org/wiki/Misinformation",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines misinformation as incorrect or misleading information; notes social media platforms enable faster posting and sharing of misinformation."
+      },
+      {
+        "title": "Aravalli Range",
+        "url": "https://en.wikipedia.org/wiki/Aravalli_Range",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes Aravalli Range as a mountain range in north-western India running ~670 km and spanning states including Rajasthan and Haryana."
+      },
+      {
+        "title": "Social media",
+        "url": "https://en.wikipedia.org/wiki/Social_media",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Describes social media platforms’ features and criticism, including viral spread with little/no oversight and amplification of misinformation."
+      }
+    ]
   },
   {
     "groupId": "misinformation-g6",
@@ -420,7 +466,8 @@
         "snippet": "Information Minister Ataullah Tarar said… Operation Ghazab-Lil-Haq…"
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "misinformation-g1",
@@ -450,7 +497,23 @@
         "snippet": "WhatsApp said Russia tried to “fully block” the app to push home-grown/state app control."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "WhatsApp",
+        "url": "https://en.wikipedia.org/wiki/WhatsApp",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "WhatsApp is an instant messaging and VoIP service with billions of monthly active users (general platform background)."
+      },
+      {
+        "title": "Matabeleland",
+        "url": "https://en.wikipedia.org/wiki/Matabeleland",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Matabeleland is a southwestern Zimbabwe region divided into Matabeleland North, Bulawayo, and Matabeleland South."
+      }
+    ]
   },
   {
     "groupId": "misinformation-g3",
@@ -551,7 +614,23 @@
         "snippet": "Spanish activist calls for anonymous accounts to be made traceable to end impunity for digital violence."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": [
+      {
+        "title": "Misinformation",
+        "url": "https://en.wikipedia.org/wiki/Misinformation",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Defines misinformation/disinformation and notes social media platforms can spread misinformation quickly."
+      },
+      {
+        "title": "Social media",
+        "url": "https://en.wikipedia.org/wiki/Social_media",
+        "publisher": "Wikipedia",
+        "type": "wikipedia",
+        "snippet": "Provides an overview of social media and notes it is criticized for various negative impacts; discusses viral spread and lack of oversight."
+      }
+    ]
   },
   {
     "groupId": "misinformation-g5",
@@ -573,6 +652,7 @@
       }
     ],
     "sources": [],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   }
 ]

@@ -56,7 +56,8 @@
         "snippet": "Explainer of the European Commission and why it matters in the context of an India-EU free trade agreement."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "microplastics-g9",
@@ -78,7 +79,8 @@
       }
     ],
     "sources": [],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "microplastics-g4",
@@ -145,7 +147,8 @@
         "snippet": "Plastic particles were found inside prostate cancer tumours... scientists warn..."
       }
     ],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "microplastics-g1",
@@ -289,7 +292,8 @@
         "type": "fact-check",
         "snippet": "However, there is no scientific evidence proving they can remove or eliminate microplastics from the body."
       }
-    ]
+    ],
+    "wikipediaRefs": []
   },
   {
     "groupId": "microplastics-g3",
@@ -530,7 +534,8 @@
         "type": "fact-check",
         "snippet": ""
       }
-    ]
+    ],
+    "wikipediaRefs": []
   },
   {
     "groupId": "microplastics-g6",
@@ -552,7 +557,8 @@
       }
     ],
     "sources": [],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "microplastics-g7",
@@ -574,7 +580,8 @@
       }
     ],
     "sources": [],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   },
   {
     "groupId": "microplastics-g8",
@@ -596,6 +603,7 @@
       }
     ],
     "sources": [],
-    "factChecks": []
+    "factChecks": [],
+    "wikipediaRefs": []
   }
 ]
