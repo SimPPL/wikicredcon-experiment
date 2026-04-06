@@ -20,22 +20,28 @@ interface Claim { extractedClaim: string; claimType?: string; confidence?: strin
 interface Post { actor?: string; platform?: string; postText?: string; postLink?: string; interactions?: number; claims: Claim[]; }
 
 function findPosts(obj: any, depth = 0): Post[] {
-  if (depth > 8 || !obj) return [];
-  if (typeof obj === 'object' && !Array.isArray(obj) && obj.posts && Array.isArray(obj.posts)) {
-    return obj.posts;
-  }
-  if (Array.isArray(obj)) {
-    for (const item of obj) {
-      const result = findPosts(item, depth + 1);
-      if (result.length > 0) return result;
+  // Find the posts array with the MOST claims (not just the first one found)
+  let bestPosts: Post[] = [];
+  let bestClaimCount = 0;
+
+  function search(o: any, d: number) {
+    if (d > 10 || !o) return;
+    if (typeof o === 'object' && !Array.isArray(o) && o.posts && Array.isArray(o.posts)) {
+      const claimCount = o.posts.reduce((s: number, p: any) => s + (p.claims?.length || 0), 0);
+      if (claimCount > bestClaimCount) {
+        bestClaimCount = claimCount;
+        bestPosts = o.posts;
+      }
     }
-  } else if (typeof obj === 'object') {
-    for (const v of Object.values(obj)) {
-      const result = findPosts(v, depth + 1);
-      if (result.length > 0) return result;
+    if (Array.isArray(o)) {
+      for (const item of o) search(item, d + 1);
+    } else if (typeof o === 'object') {
+      for (const v of Object.values(o)) search(v, d + 1);
     }
   }
-  return [];
+
+  search(obj, depth);
+  return bestPosts;
 }
 
 function mapPlatform(p?: string): 'twitter' | 'reddit' | 'youtube' {
