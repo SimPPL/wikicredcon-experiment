@@ -1,4 +1,4 @@
-Semaglutides
+Semaglutide Claims made on Social Media
 Dec 01, 2025 - Feb 01, 2026
 Social Intelligence
 Youtube
@@ -7,11 +7,652 @@ Reddit
 Methodology
 Case Data
 Show Summary
-Start exploring this case study
 
-Ask about actors, themes, claims, sentiment, engagement, or request a visualization from the case study dataset.
+Identify the claims related to semaglutide that you identify from the discourse
 
-2 queued
-Clear all
-Identify the claims related to semaglutide that you identify from the discourse
-Identify the claims related to semaglutide that you identify from the discourse
+Claims Analysis
+Posts view
+Claim groups view
+113s
+
+Switch views: Posts view shows claims per post, while Claim groups view groups similar claims across posts.
+
+Posts analyzed
+30
+Claims extracted
+91
+Fact-checks found
+24
+News sources
+269
+Wikipedia refs
+125
+
+9 posts had no extractable claims.
+
+ShamliyanTA
+
+Twitter/X
+
+Semaglutide was not effective at improving the primary outcome, executive function •Semaglutide was safe, with no effects on depressive symptoms or suicidal ideation. Semaglutide for the treatment of cognitive dysfunction in major depres
+
+Claims: 4
+Fact-checks: 0
+PubMedia: 0
+Sources: 24
+Wikipedia: 13
+
+8 interactions
+
+Open details
+
+View post
+
+Whiteboard Medicine Simplified
+
+YouTube
+Fact-checked
+
+Ozempic (semaglutide) is one of the most widely discussed medications today for type 2 diabetes and weight loss. In this video, we explain what Ozempic is, how it works, and why GLP-1 receptor agonists have transformed diabetes and obesity treatment. Ozempic belongs to a class of medications called GLP-1 receptor agonists (also known as GLP-1 agonists or GLP-1 medications). Its active ingredient, semaglutide, is a synthetic form of the natural hormone glucagon-like peptide-1 (GLP-1). This hormone is released from the gut after meals and plays a critical role in blood sugar regulation and appetite control. So, how does Ozempic work? The GLP-1 mechanism works through multiple pathways. Ozempic increases glucose-dependent insulin secretion, suppresses excess glucagon release, slows gastric emptying, and acts on appetite centers in the brain. Because of this, patients feel full earlier, eat smaller meals, and experience reduced hunger. This explains both Ozempic for diabetes and Ozempic fo
+
+Claims: 4
+Fact-checks: 1
+PubMedia: 0
+Sources: 10
+Wikipedia: 7
+
+52 interactions
+
+Open details
+
+View post
+
+Regan Archibald
+
+YouTube
+
+Discover why Semaglutide and CJC-1295 are sometimes discussed together—and what’s important to understand before exploring that topic. This episode breaks down common concerns people raise about Semaglutide, how peptide combinations are typically talked about, and what individuals are often curious about with this pairing. You’ll also learn common misconceptions to watch for so you can approach these conversations more thoughtfully. Watch until the end for your next recommended episode. Download your FREE copy of my Peptide Blueprint here: https://www.agelessfuture.com/blueprint Want 30% off our Ageless Future Labs? Sign up here! https://agelessfuture.com/longevity-labs/ Watch And Enjoy! Regan Archibald Key Moments In This Episode ======================== 00:00 Intro & Summary 01:26 Downside Of Using Semaglutide 02:55 Safe Way Of Doing It 04:27 Benefits Of These Peptides 06:32 What You Want To Avoid 08:41 Watch Next What To Watch Next ======================== Can You Take BPC-157 And S
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+18 interactions
+
+Open details
+
+View post
+
+BMI Doctors
+
+YouTube
+
+A video summary from the original blog "Is There a Link Between Semaglutide and Suicidal Thoughts? A Deep Dive" published here: https://bmidoctors.com/is-there-a-link-between-semaglutide-and-suicidal-thoughts-a-deep-dive/
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+Open details
+
+View post
+
+Medication Academy
+
+YouTube
+Fact-checked
+
+This video provides a quick medication update for WEGOVY (semaglutide), one of the most widely used GLP-1 receptor agonists for chronic weight management, risk reduction of major adverse cardiovascular events, and treatment of noncirrhotic metabolic dysfunction-associated steatohepatitis (MASH). #pharmacyeducation #WEGOVY #semaglutide #weightloss #chronicweightmanagement #cardioriskreduction #MASHliverdisease #druginformation #medicationreview ⏱️ Timestamps 00:00 Overview 00:43 Indications and usage 02:49 Drug chemistry 03:37 Dosage forms and recommended dosage 05:11 US boxed warning 05:31 Mechanism of action and how it works 06:08 Pharmacokinetics 07:17 Drug interactions and contraindications 07:55 Adverse effects 08:29 Reference 📚 Reference WEGOVY (semaglutide) [prescribing information]. Plainsboro, NJ: Novo Nordisk Inc; November 2025. https://www.novo-pi.com/wegovy.pdf (accessed: December 1, 2025) 💊 Subscribe for more weekly videos on new drug approvals and medication insights. Di
+
+Claims: 5
+Fact-checks: 6
+PubMedia: 0
+Sources: 29
+Wikipedia: 5
+
+1 interactions
+
+Open details
+
+View post
+
+AZTRT
+
+Reddit
+
+Understanding Semaglutide: What It Is and How It Fits Into a Structured Weight-Loss Approach Semaglutide has become one of the most discussed medications in the weight-loss space, but there’s still a lot of confusion about what it does — and just as importantly, what it doesn’t do. What is semaglutide? Semaglutide is a GLP-1 receptor agonist that works by: Increasing feelings of fullness Slowing gastric emptying Reducing appetite and food noise It was originally developed for type 2 diabetes and later studied for weight management under medical supervision. What semaglutide is not Semaglutide is not a replacement for: Consistent nutrition habits Adequate protein intake Movement and strength training Sleep, hydration, and recovery Long-term behavior change Without structure, many people struggle with plateaus, muscle loss, or weight regain after stopping medication. Why structure still matters Even with appetite suppression, the body still requires: Sufficient protein to preserve lean m
+
+Claims: 4
+Fact-checks: 0
+PubMedia: 0
+Sources: 22
+Wikipedia: 7
+
+1 interactions
+
+Open details
+
+View post
+
+Medication Academy
+
+YouTube
+
+This video shares medication insights for RYBELSUS (semaglutide), the first ORAL, once daily GLP-1 receptor agonist for treating adults with type 2 diabetes (T2D), and risk reduction of major adverse cardiovascular events in adults with T2D. #pharmacyeducation #RYBELSUS #semaglutide #diabetes #cardioriskreduction #medicationpearls #medicationreview ⏱️ Timestamps 00:00 Overview 00:46 Indications and usage 01:52 Drug chemistry 02:54 Dosage forms and recommended dosage 05:04 US boxed warning 05:23 Mechanism of action and how it works 05:54 Pharmacokinetics 07:41 Drug interactions and contraindications 08:32 Adverse effects 08:46 Reference 📚 Reference RYBELSUS (semaglutide) [prescribing information]. Plainsboro, NJ: Novo Nordisk Inc; October 2025. https://www.novo-pi.com/rybelsus.pdf (accessed: December 4, 2025) 💊 Subscribe for more weekly videos on new drug approvals and medication insights. Disclaimer: The Medication Academy YouTube channel is for educational purposes only and is not i
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 8
+Wikipedia: 5
+
+2 interactions
+
+Open details
+
+View post
+
+Diet Plus Minus
+
+YouTube
+
+Semaglutide Diet Mistakes That Stall Weight Loss – Eat These Instead If you are taking semaglutide (Ozempic or Wegovy) but your weight loss has slowed or stopped, your diet may be the real problem. In this video, Dr. Pankaj Kumar explains the most common semaglutide diet mistakes that quietly ruin results — even when the dose is correct. Many people eat too little protein, choose the wrong “healthy” foods, or rely only on appetite suppression instead of nutrition strategy. You’ll learn: Why very low calories can backfire on semaglutide Foods that worsen nausea, fatigue, and muscle loss What to eat instead to protect metabolism and results How to structure meals for fat loss, not weight regain This guidance is especially important if you feel weak, stuck, or are losing muscle instead of fat while on semaglutide. semaglutide diet semaglutide weight loss ozempic diet mistakes wegovy food list semaglutide plateau protein on semaglutide ozempic meal plan glp-1 diet tips semaglutide side eff
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+2 interactions
+
+Open details
+
+View post
+
+ACOANM RU4REAL
+
+YouTube
+
+I Became Sick After Taking Semiglutide
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+7 interactions
+
+Open details
+
+View post
+
+MedReview BD
+
+YouTube
+
+Ozempic (Semaglutide) Explained: Dosage, Side Effects, Weight Loss & Diabetes Benefits | 2025 Guide Ozempic (Semaglutide) is a prescription GLP-1 receptor agonist widely used in the USA and Europe for Type 2 diabetes management and cardiovascular risk reduction. In recent years, Ozempic has also gained attention for its weight-loss effects, making it one of the most searched diabetes medicines globally. In this video, we explain how Ozempic works, correct dosing, side effects, pregnancy safety, and real clinical results, based on FDA and EMA-approved data. 🔍 What You’ll Learn in This Video: ✔ What Ozempic (Semaglutide) is ✔ FDA & EMA approval history ✔ Ozempic dosage schedule (0.25 mg → 2 mg) ✔ How Ozempic lowers blood sugar ✔ Weight loss results from clinical studies ✔ Common & serious side effects ✔ Pregnancy & breastfeeding warnings ✔ Who should NOT use Ozempic ✔ Ozempic vs Wegovy vs Rybelsus (brief overview) Ozempic is not a cosmetic weight-loss drug. It should only be used under
+
+Claims: 5
+Fact-checks: 0
+PubMedia: 0
+Sources: 28
+Wikipedia: 7
+
+Open details
+
+View post
+
+He-InFo
+
+YouTube
+
+In this video, we explore Wegovy (semaglutide), a revolutionary GLP-1 receptor agonist approved for chronic weight management and Type 2 Diabetes. Learn how Wegovy works to reduce appetite, improve blood sugar control, and support heart health — all in a once-weekly injection. Whether you're managing obesity, diabetes, or simply want to understand your medication better, this guide will help you make informed decisions about Wegovy and how it compares to other treatments. 🔍 What you'll learn: - What is Wegovy (semaglutide)? - How does it support weight loss and blood sugar control? - Who should take it — and who should avoid it? - Common side effects and safety precautions - How Wegovy compares to other GLP-1 medications 📌 Subscribe to He-info for more health insights and medication explainers! 👍 Like, 💬 Comment, and 🔔 Turn on notifications to stay informed. 📚 Disclaimer: This video is for educational purposes only. Always consult your healthcare provider before starting or chang
+
+Claims: 4
+Fact-checks: 0
+PubMedia: 0
+Sources: 17
+Wikipedia: 0
+
+1 interactions
+
+Open details
+
+View post
+
+Open World
+
+YouTube
+
+New research suggests low-dose semaglutide (Ozempic/Wegovy) may improve glycemic control and reduce weight in adults with schizophrenia treated with metabolic-risk antipsychotics like clozapine or olanzapine. This video breaks down the study design, key findings (HbA1c reductions, weight and waist circumference changes), potential mechanisms, and what it could mean for managing metabolic side effects in psychiatric care. We also discuss safety signals, limitations (small sample, early-stage dysglycemia, 26-week follow-up), and future directions for larger trials in psychiatric populations. If you’re researching treatment strategies for antipsychotic-induced metabolic risk, this review highlights a promising adjunct approach and the need for more robust evidence. TIMESTAMPS: 0:00 - Study overview and population 1:25 - Primary and secondary outcomes 2:40 - Metabolic implications for antipsychotics 4:10 - Safety and adverse events 5:30 - Limitations and next steps 6:45 - Practical takeawa
+
+Claims: 4
+Fact-checks: 0
+PubMedia: 0
+Sources: 25
+Wikipedia: 8
+
+Open details
+
+View post
+
+Sweat Success Podcast
+
+YouTube
+
+Semaglutide and GLP-1 medications aren’t a “cheat” they can be the spark that gets people moving again. In this clip, we explore how GLP-1s act as a gateway for people who feel stuck, overwhelmed, overweight, or mentally drained, helping them regain momentum when nothing else has worked. We break down the stigma around “cheating” in health and fitness, comparing GLP-1s to supplements, tools, and even technology that help people get started. The conversation explains how reducing food noise, lowering inflammation, and decreasing chronic pain can create a powerful psychological and physiological shift making exercise, better nutrition, and consistency finally feel possible. This clip also dives into lesser-known benefits people report, including reduced cravings for ultra-processed foods, alcohol, and smoking, along with improved mood, lower cortisol, and increased motivation. At the same time, we are clear about the risks: without strength training, proper nutrition, and movement, GLP-1
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 12
+Wikipedia: 4
+
+3 interactions
+
+Open details
+
+View post
+
+He-InFo
+
+YouTube
+
+In this video, we explore Rybelsus (semaglutide), the first oral GLP-1 receptor agonist approved for Type 2 Diabetes. Learn how it works to lower blood sugar, support weight loss, and reduce cardiovascular risks — all in a convenient pill form. Whether you're a patient, caregiver, or healthcare student, this guide will help you understand how Rybelsus works, its benefits, potential side effects, and how it compares to other diabetes medications. 🔍 What you'll learn: - What is Rybelsus (semaglutide)? - How does it help manage Type 2 Diabetes? - Who should take it — and who should avoid it? - Common side effects and safety precautions - How it compares to injectable GLP-1 medications 📌 Subscribe to He-info for more health insights and medication explainers! 👍 Like, 💬 Comment, and 🔔 Turn on notifications to stay informed. 📚 Disclaimer: This video is for educational purposes only. Always consult your healthcare provider before starting or changing any medication. 🔖 Hashtags #Rybelsu
+
+Claims: 3
+Fact-checks: 0
+PubMedia: 0
+Sources: 15
+Wikipedia: 6
+
+4 interactions
+
+Open details
+
+View post
+
+Dr Navin Agrawal OBESITY,SLEEP & BODY WEIGHT CARE
+
+YouTube
+
+सेमाग्लूटाइड यो-यो डाइटिंग को कैसे रोकता है USE OF SEMAGLUTIDE TO TIDE OVER YO YO PHENOMENON #Semaglutide #YoYoPhenomenon #WeightLossTreatment #HealthyFatLoss OUR CONTACT ADDRESS IS :- Valsad:- Agrawal superspeciality clinic Yashkamal building block A first floor, opposite jade blue showroom Tithal Road,Valsad, Gujarat(india)396001 Timings:-9:00-10:30 in morning on Monday to Thursday 3:30pm to 5:30 pm in afternoon Daily(Excluding Sunday) Admission and emergency patients and cardiac intervention at Valsad are performed at ZENITH DOCTOR HOUSE,(ADARASH HOSPITAL)Near post office and Ava bai school, Halar road, Valsad For appointment:- 02632-356091 9316799267 Vapi:- 21ST CENTURY HOSPITAL first floor cardiac opd, Gunjan char rasta, NH 8,Vapi,India Timings:-12am to 3pm Daily excluding Sunday boisar building number 01-rajas building -bank of india ,navapur naka -boisar only friday -morning 9 to 11 Admission and critical care and cathlab procedures are done at 21ST CENTURY HOSPITAL,Vapi For app
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+2 interactions
+
+Open details
+
+View post
+
+MedCurious - Science of Health
+
+YouTube
+PubMedia
+
+Do you wonder why your hunger sometimes feels like it never shuts up, no matter how much you’ve eaten?🤔 And what are GLP-1 drugs like Ozempic, Wegovy, Mounjaro, Zepbound actually doing inside your body? In this video, we step inside your Appetite Feed—the constant conversation between your gut and your brain—to explore how GLP-1, semaglutide, and tirzepatide work, why they can lead to weight loss, and what they don’t fix. We’ll break down: 👉 How hunger is regulated by ghrelin, GLP-1, the vagus nerve, and brain reward circuits. 👉 Why some people with obesity or type 2 diabetes feel like hunger and cravings are “always on” 👉 What GLP-1 actually is (a hormone your body already makes, not a magic fat burner). 👉 How GLP-1 receptor agonists (like Semaglutide/Ozempic/Wegovy) and dual agonists (like tirzepatide/Mounjaro/Zepbound) change the volume of hunger signals. 👉 Why these medications can be life-changing for some, unhelpful or risky for others. 👉 Why sleep, stress, food environmen
+
+Claims: 10
+Fact-checks: 0
+PubMedia: 1
+Sources: 37
+Wikipedia: 14
+
+13 interactions
+
+Open details
+
+View post
+
+Mira Aesthetic Cosmetic Surgery Center
+
+YouTube
+
+Best GLP-1 Peptide for Weight Loss? Semaglutide vs Tirzepatide vs Retatrutide Explained Are you wondering which GLP-1 peptide is best for weight loss — Semaglutide, Tirzepatide, or Retatrutide? In this video, Dr. Mira from Mirror Aesthetics explains the key differences between first, second, and third-generation injectable peptide weight loss shots. Learn why there is no “one-size-fits-all” solution and how different patients respond differently to GLP-1 medications. Topics Covered: What is Semaglutide (1st Generation GLP-1)? How Tirzepatide (2nd Generation) works What makes Retatrutide (3rd Generation) different Why weight loss peptides are patient-dependent When to switch peptide classes Why slow, steady weight loss (1 lb per week) is best Avoiding rapid weight loss rebound Long-term sustainability strategies Important Reminder: There is no magic bullet for weight loss. The best peptide depends on how your body responds. Some patients respond better to GLP-1 (Semaglutide), others to
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+1 interactions
+
+Open details
+
+View post
+
+System Critique
+
+YouTube
+
+GLP-1 drugs like semaglutide and tirzepatide are changing how we treat obesity and heart disease. This video gives a clear, simple look at the major benefits—like large weight loss, better heart outcomes, and reduced stroke risk—and the equally important safety warnings. We explain the SELECT trial finding: a 20% drop in major heart events for people with established cardiovascular disease. But we also cover serious risks such as stomach side effects, dehydration, kidney injury, gallbladder problems, and concerns for specific groups like older adults and people with certain thyroid conditions. If you’re curious about whether these drugs are safe, what the risks really mean, and who may or may not be a good candidate, this video gives you the full picture without hype. What we cover: -How GLP-1 drugs help with weight loss -SELECT trial results: heart attack and stroke reduction -Common side effects and why they happen -Kidney risk and dehydration -Gallbladder and pancreas concerns -Bone
+
+Claims: 4
+Fact-checks: 0
+PubMedia: 0
+Sources: 19
+Wikipedia: 6
+
+Open details
+
+View post
+
+BodyByBariatrics
+
+YouTube
+
+Everything you need to know about GLP-1 medications in 60 seconds. HERE WE GO! ⏱️👇 There are two major injectable GLP-1 medications you need to know about: Semaglutide and Tirzepatide and, yes, tirzepatide is more effective. Here’s what GLP-1s actually do (and why they work): ✨ They quiet food noise - that constant chatter, cravings, and obsessive thoughts about food ✨ They slow gastric emptying ✨ They help you feel full and satisfied (sometimes for the first time ever!) Common side effects are mostly GI-related (Usually dose-related and very manageable when done correctly): ➡️ nausea ➡️ constipation ➡️ occasional diarrhea ➡️ indigestion or reflux Who tends to be “super responders”? ✔️ Patients after bariatric surgery ✔️ Those with less weight to lose (often BMI less than 30) Who may struggle more? ⚠️ Patients with higher BMIs (over 30) and more metabolic resistance If you stop the medication without addressing the root disease, the evidence shows you’re very likely to regain the weig
+
+Claims: 7
+Fact-checks: 0
+PubMedia: 0
+Sources: 35
+Wikipedia: 7
+
+9 interactions
+
+Open details
+
+View post
+
+Dr Aparna G Bhasker Bariatric Laparoscopic Surgeon
+
+YouTube
+Fact-checked
+
+GLP-1 Weight Loss Injections Side Effects Explained | Complete Side Effects Guide GLP-1 weight loss injections like Semaglutide, Liraglutide and Tirzepatide are extremely popular today, but understanding their side effects is crucial. In this video, we explain the common, rare, and serious complications associated with these medications, including digestive issues, gallbladder stones, pancreatitis, dehydration, and eye-related risks in diabetic patients. We also highlight who should avoid these drugs, especially during pregnancy or with thyroid cancer history. Always use these medicines under medical supervision for safe and effective results. For more queries or appointments:- Contact us - +91 97692 09330/+91 9819572718 Email us - info@bestbariatricsurgeon.org Visit us at - www.bestbariatricsurgeon.org www.aparnagovilbhasker.com www.laparoscopicsurgeryindia.com Location: MetaHeal- Laparoscopy and Bariatric Surgery Center 105, Royal Heritage, behind Rustomjee Elements, near Juhu Lane,
+
+Claims: 5
+Fact-checks: 2
+PubMedia: 0
+Sources: 27
+Wikipedia: 5
+
+8 interactions
+
+Open details
+
+View post
+
+Dr. Darren Himeles
+
+YouTube
+
+GLP‐1 agonists like Ozempic (semaglutide) are some of the most effective medications available for healthy weight loss. In this video, Dr. Darren explains what GLP‐1 medicines are, how they work, common side effects, dosing, safety, and how to use them as part of a long‐term weight‐loss plan. You’ll learn: What GLP‐1 agonists do in the body How Ozempic helps reduce hunger Recommended dosing (0.25 mg → 0.5 mg → higher if needed) Common GI side effects and what to expect How to track healthy weight loss over six months When to continue or stop the medication What to know about insurance coverage and cost This video is designed to help you understand GLP‐1 medications clearly and safely so you can have an informed conversation with your doctor. If you find this helpful, please subscribe and comment with the health topics you’d like covered next. Disclaimer: This video is for educational purposes only and is not a substitute for medical advice. If you’re experiencing symptoms or considerin
+
+Claims: 4
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+12 interactions
+
+Open details
+
+View post
+
+Jenelle Ketcham
+
+YouTube
+Fact-checked
+
+After being on Mounjaro for about a two and a half year, I’m making a change — and in this video I’m sharing exactly why I decided to switch to semaglutide. This wasn’t an impulsive decision. After insurance stopped covering Mounjaro, I moved to compounded tirzepatide, then recently returned to brand-name Mounjaro to use my remaining 5 mg pens before they expired. But over time, I noticed the benefits I once had — appetite suppression and reduced food noise — were no longer consistent. I also sat down and reviewed my 2026 budget and had some honest conversations with my doctor about long-term sustainability, cost, fear of regain, and whether switching or even stopping for a reset made sense. In this video, I talk about: - My full GLP-1 timeline (Mounjaro → compounded #mounjaro #tirzepatide #zepbound #glp1 #glp1journey #weightlossjourney #jenelleketcham #healthylifestyle tirzepatide → Mounjaro) - Why I’m switching to semaglutide through telehealth - The real difference between Mounjaro
+
+Claims: 6
+Fact-checks: 1
+PubMedia: 0
+Sources: 22
+Wikipedia: 13
+
+169 interactions
+
+Open details
+
+View post
+
+Dr. Spencer Nadolsky
+
+YouTube
+Fact-checked
+
+Oral Wegovy is here, and people have a lot of questions. In this Docs Who Lift episode, Dr. Spencer Nadolsky and Dr. Carl Nadolsky break down how oral semaglutide is formulated to survive the stomach, why the pill uses a special absorption helper, and why the dose numbers look so different compared to injections. Work with my team: https://joinvineyard.com/ We also talk through real world dosing and switching. If you are moving from injectable Wegovy or Ozempic to oral Wegovy, we explain the logic behind conservative vs aggressive transitions, what we are doing in clinic so far, and the practical rules that matter most for absorption, including timing, water amount, and the empty stomach requirement. We also cover how this can get tricky if you take thyroid medication and why consistency matters more than perfection. Finally, we dig into what happens when people stop GLP 1s using SURMOUNT 4 post hoc data. You will hear the real spread of outcomes, who maintains, who regains, and why we
+
+Claims: 2
+Fact-checks: 2
+PubMedia: 0
+Sources: 10
+Wikipedia: 5
+
+208 interactions
+
+Open details
+
+View post
+
+Phil's My Pharmacist
+
+YouTube
+Fact-checked
+
+GLP-1 medications like semaglutide, tirzepatide, and retatrutide have changed the weight loss world. They can dramatically reduce appetite and help people lose weight quickly — but what happens inside your body if you stay on them long term? In this video, we break down what GLP-1 drugs actually do to: • Muscle mass and metabolism • Hunger and appetite signaling in the brain • Gut bacteria and natural GLP-1 production • Bone density and long-term metabolic rate • Why weight regain is so common after stopping • Why “microdosing” does not prevent rebound • How to reduce rebound and protect muscle while using GLP-1s You’ll also learn: • The difference between GLP-1, GIP, and glucagon • Why muscle loss matters more than most people realize • How gut health and fiber play a role in natural GLP-1 production • What to focus on if you’re currently using or considering GLP-1 medications GLP-1 drugs can be powerful tools — but they are not metabolic repair tools. Understanding how they change yo
+
+Claims: 6
+Fact-checks: 3
+PubMedia: 0
+Sources: 28
+Wikipedia: 0
+
+151 interactions
+
+Open details
+
+View post
+
+The Better Living PA
+
+YouTube
+
+The Most Common GLP-1 Questions Answered by a Physician Assistant | Semaglutide, Tirzepatide, Weight Loss, Side Effects Are GLP-1 medications cheating? Will you regain the weight if you stop? Are compounded GLP-1s safe? Can you get addicted to semaglutide or tirzepatide? In this long-form video, Tiffany Bailey, PA-C breaks down the most frequently asked questions about GLP-1 medications in a simple, science-based way. If you are considering a GLP-1 for weight loss, insulin resistance, perimenopause weight gain, or metabolic health, this video will help you understand: • How GLP-1 medications work in the body • Semaglutide vs tirzepatide explained • Side effects and how to reduce them • What happens when you stop GLP-1 therapy • Compounded GLP-1 safety and pharmacy standards • Hair loss, muscle loss, and plateaus • Long term success strategies This is not hype. This is real metabolic medicine explained by a practicing physician assistant. 🔔 Subscribe for weekly videos on weight loss, h
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+122 interactions
+
+Open details
+
+View post
+
+MounjaroNotes
+
+Twitter/X
+
+FDA has approved Novo Nordisk’s once-daily Wegovy pill (oral semaglutide 25 mg) for chronic weight management in adults with obesity or overweight + a related condition; in the OASIS 4 trial, average weight loss was 16.6% at 64 weeks.
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 14
+Wikipedia: 2
+
+453 interactions
+
+Open details
+
+View post
+
+DrPND
+
+YouTube
+
+Many people experience impressive weight loss with semaglutide, but one of the biggest questions is what happens after stopping the medication. In this episode, we talk about why weight regain is common, what “food noise” really means, and the most important steps you can take to maintain your progress long-term. You’ll learn simple, realistic strategies around movement, nutrition, fullness, and support so you can continue building a healthier life even after semaglutide. If you’ve been worried about gaining the weight back, this episode will help you feel more confident and prepared moving forward. semaglutide ozempic weight loss wegovy weight loss maintenance keeping weight off life after semaglutide post semaglutide journey food noise appetite control healthy weight management sustainable weight loss nutrition tips protein and fiber exercise for weight loss metabolic health holistic weight loss natural weight loss support functional medicine weight regain prevention lifestyle medici
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+Open details
+
+View post
+
+Star Bariatric Hospital
+
+YouTube
+Fact-checked
+
+Weight Loss Injections Explained: Mounjaro, Ozempic, Liraglutide, Semaglutide Kaise Kaam Karte Hain? Mounjaro, Ozempic For Weight Loss | Liraglutide, Semaglutide & Tirzepatide For Weight Loss In Hindi In this video, we explain GLP-1 Drugs (Glucagon Like Peptide-1 Analogues), how they work in the body, and their role in weight loss and diabetes management. #glp1 #glp1medication #glp STAR Hospital - Region's First Internationally Certified Super-Specialist Centre for Bariatric Surgery | Weight Loss Surgery | Metabolic Surgery | Diabetes Surgery Dr. Jasmeet Singh Ahluwalia (MS, FNB-MAS, FBMS) Super-Specialist Bariatric, Metabolic & Advanced Laparoscopic Surgeon 265, Lajpat Nagar, Guru Nanak Mission Chowk, Jalandhar, Punjab, 144001 Helpline: +91-9888958889 Website: http://drjasmeetahluwalia.com YouTube channel : https://youtube.com/c/drjasmeetsinghahluwalia Facebook page: https://m.facebook.com/drjasmeetahluwalia/ Google Map Link - https://maps.app.goo.gl/tgBRuhrc4V9opskx8 Appointment: 018
+
+Claims: 6
+Fact-checks: 9
+PubMedia: 0
+Sources: 23
+Wikipedia: 9
+
+Open details
+
+View post
+
+Health Sense with Janessa
+
+YouTube
+
+I honestly thought I was ready to stop, but the emotional side effects of weaning off have been difficult. In this vlog, I’m sharing the raw reality of my current headspace, why I'm reconsidering my plan to quit, and whether I should find a new doctor. It’s not just about the weight—it’s about how I feel mentally. If you’ve struggled with the decision to stay on or come off GLP-1s, I would love to hear your experience. In this video: 00:00 - Training Update: Dealing with low motivation & deloading 04:44 - Example workout when motivation is low 07:07 - The emotional reality of weaning off semaglutide 14:45 - High-protein plant based grocery items Interested in working together? Learn more about my services on my website and complete a new client intake form 👇 My Website: https://www.janessanickell.com My Coaching Intake Form: https://www.janessanickell.com/intake My Other Channels: https://www.youtube.com/@AstrologywithJanessa + https://www.youtube.com/@JanessaNickell This video is not
+
+Claims: 0
+Fact-checks: 0
+PubMedia: 0
+Sources: 0
+Wikipedia: 0
+
+21 interactions
+
+Open details
+
+View post
+
+jobrx
+
+Twitter/X
+
+FDA moves to strike suicide risk warnings from 3 GLP-1s The FDA is requesting that drugmakers remove suicidal ideation and behavior warnings from the labeling of three GLP-1 receptor agonists — Saxenda (liraglutide), Wegovy (semaglutide) and
+
+Claims: 2
+Fact-checks: 0
+PubMedia: 0
+Sources: 13
+Wikipedia: 2
+
+117 interactions
+
+Open details
+
+View post
+
+ShamliyanTA
+
+Twitter/X
+8 interactions
+4 claims
+View post
+
+Semaglutide was not effective at improving the primary outcome, executive function •Semaglutide was safe, with no effects on depressive symptoms or suicidal ideation. Semaglutide for the treatment of cognitive dysfunction in major depres
+
+CLAIMS (4)
+
+Semaglutide was not effective...
+Semaglutide was safe in...
+Semaglutide had no effect...
+Semaglutide had no effect...
+1
+
+Semaglutide was not effective at improving executive function in the treatment of cognitive dysfunction in major depressive disorder
+
+Health
+2026-01-13
+
+SUMMARY
+
+The claim states that semaglutide was not effective at improving executive function for people with cognitive dysfunction in major depressive disorder. None of the retrieved non-Wikipedia sources provide any study results, trial outcomes, or discussion specifically about semaglutide’s effect on executive function in major depressive disorder. Several sources are about semaglutide in other contexts (e.g., weight loss, diabetes, pricing, generic availability), such as [1, 2], and reporting on semaglutide market changes like [3], none of which address executive function or major depressive disorder outcomes. Wikipedia provides background definitions for the claim’s core concepts: executive functions are cognitive processes supporting goal-directed behavior, including attentional control and working memory [4], depression can include difficulty thinking and concentration, and suicidal thoughts can occur (Wikipedia: Depression (mood))), and suicidal ideation is a symptom/risk construct often discussed alongside mood disorders [6]. A major gap is that the evidence provided does not include the specific clinical trial(s) or outcomes needed to substantively address the claim about executive function in major depressive disorder. Additional relevant coverage: [8]), [7].
+
+Overall, the retrieved sources are largely about semaglutide’s general use, mechanisms, and market/pricing context rather than cognitive outcomes in major depressive disorder. Wikipedia offers definitions/background but does not provide evidence about semaglutide’s effectiveness for executive function in major depressive disorder.
+
+SOURCES
+
+Fact-checked
+(0)
+PubMedia
+(0)
+Other
+(3)
+Wikipedia
+(4)
+OTHER (3)
+[1]NDTV — How Semaglutide Works: Understanding Appetite, Hormones And Weight Loss In Simple Terms — Explains semaglutide as a GLP-1 receptor–acting medication for weight and blood sugar control.
+[2]NDTV — Affordable Weight Loss Drugs In India: How Cheap GLP-1s Will Affect Obesity Treatment — Discusses semaglutide patent expiry and expected generic price reductions in India.
+[3]Business Standard — Semaglutide prices crash up to 90% as 15+ generics launch in two days — Reports that semaglutide generic launches reduced prices by large percentages.
+WIKIPEDIA (4)
+[4]Wikipedia — Executive functions — Executive functions support goal-directed behavior; include attentional control, working memory, and cognitive flexibil...
+[5]Wikipedia — Depression (mood) — Depression involves low mood/aversion to activity; it can include difficulty in thinking and concentration.
+[6]Wikipedia — Suicidal ideation — Suicidal ideation is a symptom involving thoughts/ruminations about dying by suicide, varying from passive to planning.
+[7]Wikipedia — Semaglutide — Semaglutide is an anti-diabetic and anti-obesity (GLP-1–related) medication; approved for medical use in the US in 2017.
+
+Based on the case study’s 158 posts (YouTube, Twitter, Reddit; 2025-12-01 to 2026-02-01), the discourse contains a mix of (a) straightforward “explainer” claims about what semaglutide is and how it works, (b) safety/side-effect claims, and (c) policy/labeling and trial-result claims (often relayed second-hand). A smaller slice involves more speculative or niche clinical claims (e.g., psychiatric populations).
+
+Across the posts analyzed, 91 semaglutide-related claims were identified. The most recurring claim types cluster into these themes:
+
+What semaglutide is (and brand/product identity claims)
+Semaglutide is a GLP-1 receptor agonist.
+Ozempic and Wegovy are semaglutide-based prescription drugs.
+Wegovy is semaglutide (brand/active ingredient identity claim).
+Rybelsus is semaglutide and is taken orally (pill form).
+“Oral Wegovy” is oral semaglutide (framed as a newly available pill in some posts).
+How semaglutide works / expected effects (mechanism claims)
+Semaglutide reduces appetite / “food noise,” increases satiety, and can slow gastric emptying.
+GLP-1 is a hormone the body naturally produces; semaglutide/GLP-1 drugs mimic or amplify that signal.
+GLP-1 drugs can change hunger signaling in the brain and contribute to weight loss.
+Indications and benefits (what it’s for / what it helps)
+Semaglutide products are used for type 2 diabetes management (especially Ozempic/Rybelsus in the discourse).
+Wegovy is used/approved for chronic weight management (frequently asserted in explainer content).
+Cardiovascular benefit framing: semaglutide/Wegovy discussed as reducing risk of major adverse cardiovascular events (often mentioned without precise sourcing details inside the posts).
+Side effects, risks, and “misuse” narratives
+Common GI side effects: nausea, vomiting, diarrhea, constipation (repeated across multiple explainer posts).
+Warnings about serious risks discussed in the discourse include pancreatitis and gallbladder problems (often framed as rare/serious).
+Cautionary claims that unsupervised use/self-medication can be harmful (a recurring narrative, especially around access and compounding conversations).
+Stopping semaglutide and weight regain (maintenance/rebound claims)
+Weight regain after stopping GLP-1/semaglutide is common (frequently framed as a key “life after semaglutide” concern).
+Some posts add stronger variants like “microdosing doesn’t prevent rebound,” though these are typically asserted without strong corroboration inside the discourse itself.
+Mental health / suicidality and labeling claims
+Posts discuss whether GLP-1s/semaglutide are linked to suicidal ideation (often posed as a question rather than a firm assertion).
+A policy-style claim appears in the dataset that FDA is requesting removal of suicidality warnings from labeling for certain GLP-1 drugs (including Wegovy/semaglutide in the way it’s discussed).
+More niche or speculative clinical claims (lower volume, higher uncertainty)
+Claims about semaglutide in psychiatric contexts (e.g., schizophrenia patients on antipsychotics: improved glycemic control, reduced weight/waist circumference over a study period) appear, but the discourse often references “a study” without providing easily verifiable details inside the posts themselves.
+A niche claim appears about semaglutide and executive function / depressive symptoms / suicidal ideation in major depressive disorder—raised in a way that reads like it’s summarizing a study, but with limited confirming context within the broader discourse.
+
+Overall pattern: most claims are “educational/medical explainer” content (mechanism, brands, dosing concepts, common side effects) plus a strong secondary narrative around safety and what happens when you stop (rebound/maintenance). The more specific trial-number/statistic claims (e.g., particular % weight loss at a specific week count) show up but tend to be repeated as headline facts rather than carefully sourced within-platform.
+
+Copy response
+Delete response
+Follow-ups
+Which specific claim types were most frequent among the 91 claims, and what examples of wording appeared most often
+For safety/side-effect claims (e.g., pancreatitis, gallbladder issues, GI effects), how often did posts frame them as rare vs common
+Which accounts or creators were most active in driving the “how it works” vs “benefits/indications” themes on each platform
+Do the weight-loss mechanism claims and cardiovascular-benefit claims appear more on one platform than the others, and how does sentiment differ
+Were there any noticeable spikes in semaglutide discussion during 2025-12-01 to 2026-02-01, and which themes dominated those periods
