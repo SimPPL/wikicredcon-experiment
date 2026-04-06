@@ -69,11 +69,11 @@ function renderContentWithCitations(content: string, citations: ArticleSection['
         return <p key={pIdx} style={{ marginBottom: '0.5em' }}>{parts}</p>;
       })}
 
-      {/* Inline references list for this section */}
+      {/* Inline references list for this section — always show if citations exist */}
       {citations.length > 0 && (
-        <details className="mt-2 mb-2" style={{ fontSize: '0.75rem' }}>
+        <details className="mt-2 mb-2" style={{ fontSize: '0.75rem' }} open>
           <summary
-            style={{ color: 'var(--wiki-text-secondary)', cursor: 'pointer', fontSize: '0.75rem' }}
+            style={{ color: 'var(--wiki-link)', cursor: 'pointer', fontSize: '0.8rem', fontWeight: 500 }}
           >
             References ({citations.length})
           </summary>
