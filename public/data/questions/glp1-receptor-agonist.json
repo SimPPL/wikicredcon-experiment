@@ -1,92 +1,102 @@
 [
   {
     "id": "q1",
-    "question": "What are GLP-1 receptor agonists primarily used to treat?",
-    "answer": "GLP-1 receptor agonists are used to treat type 2 diabetes and obesity.",
-    "relevantPassage": "GLP-1 receptor agonists are used to treat type 2 diabetes and obesity, and are under study for treatment of metabolic dysfunction–associated steatotic liver disease, polycystic ovary syndrome, and diseases of the reward system, such as addictions (especially from ultra-processed foods).",
+    "question": "What are the BMI criteria for recommending GLP-1 agonists as an add-on therapy to lifestyle intervention?",
+    "answer": "BMI ≥30 kg/m² or BMI ≥27 kg/m² with at least one weight-related comorbidity.",
+    "relevantPassage": "GLP-1 agonists are recommended as an add-on therapy to lifestyle intervention (calorie restriction and exercise) in people with a BMI ≥30 kg/m² or with a BMI ≥27 kg/m² with at least one weight-related comorbidity...",
     "category": "factual",
     "difficulty": "easy",
-    "sectionId": "Lead"
+    "sectionId": "Obesity",
+    "basedOnChange": "Expanded: Obesity added BMI criteria"
   },
   {
     "id": "q2",
-    "question": "Which GLP-1 agonist is approved by the FDA to treat metabolic dysfunction-associated steatohepatitis?",
-    "answer": "Wegovy (semaglutide) is approved by the FDA to treat metabolic dysfunction-associated steatohepatitis.",
-    "relevantPassage": "Wegovy (semaglutide) is approved by the FDA to treat MASH (metabolic dysfunction-associated steatohepatitis) with stage 2 or stage 3 liver fibrosis.",
+    "question": "What percentage of lost weight do people typically regain within a year after stopping GLP-1 agonists?",
+    "answer": "50–70%",
+    "relevantPassage": "Studies reported that on average people regain more than half (50–70%) of the lost weight within a year after stopping any of these medications.",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Metabolic dysfunction–associated steatotic liver disease"
+    "sectionId": "Obesity",
+    "basedOnChange": "Expanded: Obesity added weight regain statistics"
   },
   {
     "id": "q3",
-    "question": "What is the half-life of the naturally occurring native GLP-1 hormone?",
-    "answer": "The half-life of the naturally occurring native GLP-1 hormone is about two minutes.",
-    "relevantPassage": "The naturally occurring native GLP-1 hormone is considered a peptide hormone. It has a half-life of only about two minutes, because the dipeptidyl peptidase-4 (DPP-4) enzyme rapidly breaks it down.",
+    "question": "What specific liver condition is Wegovy (semaglutide) approved to treat?",
+    "answer": "Metabolic dysfunction-associated steatohepatitis (MASH) with stage 2 or stage 3 liver fibrosis.",
+    "relevantPassage": "Wegovy (semaglutide) is approved by the FDA to treat MASH (metabolic dysfunction-associated steatohepatitis) with stage 2 or stage 3 liver fibrosis.",
     "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "Pharmacokinetics"
+    "difficulty": "medium",
+    "sectionId": "Metabolic dysfunction–associated steatotic liver disease",
+    "basedOnChange": "Expanded: Metabolic dysfunction–associated steatotic liver disease added treatment information"
   },
   {
     "id": "q4",
-    "question": "What was the outcome of the 2023 meta-analysis regarding SGLT2 inhibitors and cardiovascular events?",
-    "answer": "The 2023 meta-analysis reported that SGLT2 inhibitors reduce the risk for three-point major adverse cardiovascular events.",
-    "relevantPassage": "A 2023 meta-analysis including 13 cardiovascular outcome trials reported that SGLT2 inhibitors reduce the risk for three-point major adverse cardiovascular events, especially in subjects with an estimated glomerular filtration rate (eGFR) below 60 mL/min.",
+    "question": "What boxed warning does the FDA require for GLP-1 agonists?",
+    "answer": "The risk of thyroid C-cell tumors, including medullary thyroid cancer (MTC).",
+    "relevantPassage": "The US Food and Drug Administration requires a boxed warning in the package inserts of GLP-1 agonists due to the risk of thyroid C-cell tumors, including medullary thyroid cancer (MTC).",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Type 2 diabetes"
+    "sectionId": "Thyroid cancer",
+    "basedOnChange": "New section: Thyroid cancer added boxed warning information"
   },
   {
     "id": "q5",
-    "question": "What is the primary mechanism of action of GLP-1 receptor agonists?",
-    "answer": "GLP-1 agonists work by activating the GLP-1 receptor, which slows gastric emptying, inhibits glucagon release, and stimulates insulin production.",
-    "relevantPassage": "GLP-1 agonists work by activating the GLP-1 receptor, which is found all around the body. Some sites are on beta cells in the pancreas and on neurons in the brain. GLP-1 receptor activation slows gastric emptying, inhibits the release of glucagon, and stimulates insulin production.",
-    "category": "factual",
-    "difficulty": "hard",
-    "sectionId": "Mechanism of action"
+    "question": "What initiative was announced by the Trump Administration in November 2025 regarding GLP-1 agonists?",
+    "answer": "TrumpRx, an initiative to lower the price of GLP-1s to $245 per month for Medicaid and CHIP patients and $50 per month for Medicare patients.",
+    "relevantPassage": "However, in November 2025, the Trump Administration announced TrumpRx, an initiative similar to GoodRx to lower the price of GLP-1s to $245 per month for patients covered by Medicaid and CHIP and $50 month for Medicare patients if states opted in.",
+    "category": "temporal",
+    "difficulty": "medium",
+    "sectionId": "Medicare, Medicaid and CHIP coverage",
+    "basedOnChange": "New section: Medicare, Medicaid and CHIP coverage added initiative details"
   },
   {
     "id": "q6",
-    "question": "What significant change occurred on April 4, 2025, regarding GLP-1 coverage?",
-    "answer": "On April 4, 2025, the Trump Administration declined to finalize a proposal that would have required Medicare, Medicaid, and CHIP to broadly cover GLP-1s for weight loss.",
-    "relevantPassage": "On April 4, 2025, the Trump Administration declined to finalize a proposal from the Biden Administration that would have required Medicare, Medicaid, and CHIP to broadly cover GLP-1s for weight loss.",
+    "question": "When is coverage for patients with obesity and at least one comorbidity expected to be implemented?",
+    "answer": "As early as April 1, 2026.",
+    "relevantPassage": "Coverage for patients with obesity and at least one comorbidity like (elevated LDL-cholesterol, high blood pressure and/or MASLD), will be implemented as early as April 1, 2026.",
     "category": "temporal",
     "difficulty": "medium",
-    "sectionId": "Medicare, Medicaid and CHIP coverage"
+    "sectionId": "Medicare, Medicaid and CHIP coverage",
+    "basedOnChange": "New section: Medicare, Medicaid and CHIP coverage added implementation date"
   },
   {
     "id": "q7",
-    "question": "When did the FDA request the removal of the suicidal behavior warning from GLP-1 RA medications?",
-    "answer": "In January 2026, the US Food and Drug Administration requested removal of suicidal behavior and ideation warning from glucagon-like peptide-1 receptor agonist (GLP-1 RA) medications.",
-    "relevantPassage": "In January 2026, the US Food and Drug Administration requested removal of suicidal behavior and ideation warning from glucagon-like peptide-1 receptor agonist (GLP-1 RA) medications.",
-    "category": "temporal",
+    "question": "How do GLP-1 agonists compare to pioglitazone and vitamin E in treating metabolic dysfunction–associated steatotic liver disease?",
+    "answer": "GLP-1 agonists are as effective a treatment for MASLD as pioglitazone and vitamin E.",
+    "relevantPassage": "A 2023 systematic review reported that GLP-1 agonists are as effective a treatment for metabolic dysfunction–associated steatotic liver disease (MASLD) as the medications in current use, pioglitazone and vitamin E.",
+    "category": "comparison",
     "difficulty": "medium",
-    "sectionId": "Adverse effects"
+    "sectionId": "Metabolic dysfunction–associated steatotic liver disease",
+    "basedOnChange": "Expanded: Metabolic dysfunction–associated steatotic liver disease added comparison details"
   },
   {
     "id": "q8",
-    "question": "How do GLP-1 agonists compare to DPP-4 inhibitors in terms of potency?",
-    "answer": "DPP-4 inhibitors are generally considered less potent than GLP-1 agonists.",
-    "relevantPassage": "Another class of anti-diabetes drugs, DPP-4 inhibitors, work by reducing the breakdown of endogenous GLP-1, and are generally considered less potent than GLP-1 agonists.",
-    "category": "comparison",
-    "difficulty": "medium",
-    "sectionId": "Mechanism of action"
+    "question": "What was the outcome of the 2022 UK study regarding the use of GLP-1 agonists for treating Parkinson's disease?",
+    "answer": "The study failed to find any advantage of using GLP-1 agonists to treat Parkinson's disease.",
+    "relevantPassage": "A 2022 UK study failed to find any advantage of using GLP-1 agonists to treat Parkinson's disease.",
+    "category": "causal",
+    "difficulty": "hard",
+    "sectionId": "Parkinson's disease",
+    "basedOnChange": "New section: Parkinson's disease added study results"
   },
   {
     "id": "q9",
-    "question": "What differential use is suggested between SGLT2 inhibitors and GLP-1 receptor agonists based on renal function?",
-    "answer": "GLP-1 receptor agonists were more beneficial in people with higher eGFRs, while SGLT2 inhibitors had a larger relative risk reduction in populations with a higher proportion of albuminuria.",
-    "relevantPassage": "This suggests differential use of the two substance classes in people with preserved and reduced renal function or with and without diabetic nephropathy, respectively.",
-    "category": "comparison",
+    "question": "What did a 2025 study suggest about GLP-1 agonists and the risk of neurocognitive disorders?",
+    "answer": "GLP-1 agonists may reduce risks of neurocognitive disorders, including Alzheimer's disease.",
+    "relevantPassage": "A 2025 study suggested that GLP-1 agonists may reduce risks of neurocognitive disorders, including Alzheimer's disease, pointing to a then-emerging body of research.",
+    "category": "causal",
     "difficulty": "hard",
-    "sectionId": "Type 2 diabetes"
+    "sectionId": "Alzheimer's disease",
+    "basedOnChange": "New section: Alzheimer's disease added study findings"
   },
   {
     "id": "q10",
-    "question": "What was the conclusion of the 2025 study regarding GLP-1 agonists and neurocognitive disorders?",
-    "answer": "The 2025 study suggested that GLP-1 agonists reduced risks of neurocognitive disorders, including Alzheimer's disease.",
-    "relevantPassage": "A retrospective cohort study published in 2025 evaluated GLP-1 agonists' benefits and risks compared to other anti-diabetic medications. The study suggested that GLP-1 agonists reduced risks of substance use and psychotic disorders, seizures, neurocognitive disorders (including Alzheimer's disease and other dementias), coagulation disorders, cardiometabolic disorders, infectious diseases, and several respiratory conditions relative to nonusers.",
+    "question": "What is the estimated percentage of online compounding pharmacies operating illegally as of 2024?",
+    "answer": "95%",
+    "relevantPassage": "Al Carter, executive director of the National Association of Boards of Pharmacy, estimated that 95% of online compounding pharmacies were operating illegally in 2024.",
     "category": "factual",
     "difficulty": "hard",
-    "sectionId": "Research"
+    "sectionId": "Alternatives to approved sources",
+    "basedOnChange": "New section: Alternatives to approved sources added illegal operation statistics"
   }
 ]

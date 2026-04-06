@@ -1,92 +1,102 @@
 [
   {
     "id": "q1",
-    "question": "When was the term 'deepfake' first introduced?",
-    "answer": "The term deepfake originated in late 2017.",
-    "relevantPassage": "The term deepfake originated in late 2017 from a Reddit user named 'deepfakes'.",
+    "question": "What open-source tools were mentioned that allowed users to create deepfake videos without formal education in computer science?",
+    "answer": "FakeApp, FaceSwap, and DeepFaceLab",
+    "relevantPassage": "The freely available tools like FakeApp, FaceSwap, and DeepFaceLab allowed users who did not have any formal education in computer science to assemble deepfake videos with consumer hardware.",
     "category": "factual",
     "difficulty": "easy",
-    "sectionId": "Amateur development"
+    "sectionId": "Amateur development",
+    "basedOnChange": "Expanded: Amateur development added details"
   },
   {
     "id": "q2",
-    "question": "What was the primary purpose of the deepfake video created by Joaquin Oliver's parents?",
-    "answer": "To encourage people to support gun safety legislation.",
-    "relevantPassage": "In 2020, a deepfake video of Joaquin Oliver, a victim of the Parkland shooting, was created as part of a gun safety campaign.",
-    "category": "factual",
+    "question": "In which month and year did the Belgian branch of Extinction Rebellion publish a deepfake video of Belgian Prime Minister Sophie Wilmès?",
+    "answer": "April 2020",
+    "relevantPassage": "In April 2020, the Belgian branch of Extinction Rebellion published a deepfake video of Belgian Prime Minister Sophie Wilmès on Facebook.",
+    "category": "temporal",
     "difficulty": "medium",
-    "sectionId": "Resurrection"
+    "sectionId": "Politics",
+    "basedOnChange": "Expanded: Politics added specific events"
   },
   {
     "id": "q3",
-    "question": "What is the estimated global fraud loss attributed to deepfake scams as of 2023?",
-    "answer": "$12 billion.",
-    "relevantPassage": "According to the Better Business Bureau, deepfake scams are becoming more prevalent. These scams are responsible for an estimated $12 billion in fraud losses globally.",
-    "category": "factual",
+    "question": "What significant event occurred in March 2024 regarding deepfake technology in India?",
+    "answer": "Deepfake technology was widely employed by political candidates to reach out to voters.",
+    "relevantPassage": "In March 2024, during India's state assembly elections, deepfake technology was widely employed by political candidates to reach out to voters.",
+    "category": "temporal",
     "difficulty": "medium",
-    "sectionId": "Fraud and scams"
+    "sectionId": "Politics",
+    "basedOnChange": "Expanded: Politics added specific events"
   },
   {
     "id": "q4",
-    "question": "What technology is primarily used in deepfake creation?",
-    "answer": "Generative adversarial networks (GANs).",
-    "relevantPassage": "Deepfakes utilize this architecture by having a universal encoder which encodes a person in to the latent space... A popular upgrade to this architecture attaches a generative adversarial network to the decoder.",
-    "category": "factual",
-    "difficulty": "hard",
-    "sectionId": "Techniques"
+    "question": "What was the intent behind the deepfake video created by Jordan Peele featuring Barack Obama?",
+    "answer": "To portray the dangerous consequences and power of deepfakes.",
+    "relevantPassage": "The intent of this video was to portray the dangerous consequences and power of deepfakes, and how deepfakes can make anyone say anything.",
+    "category": "causal",
+    "difficulty": "medium",
+    "sectionId": "Example events",
+    "basedOnChange": "Expanded: Example events added details"
   },
   {
     "id": "q5",
-    "question": "Why have academics raised concerns about deepfakes?",
-    "answer": "They may promote disinformation and hate speech, as well as interfere with elections.",
-    "relevantPassage": "Academics have raised concerns about the potential for deepfakes to promote disinformation and hate speech, as well as interfere with elections.",
-    "category": "causal",
+    "question": "What was the outcome for the employee responsible for airing a deepfake of Trump during his Oval Office address?",
+    "answer": "The employee was subsequently fired.",
+    "relevantPassage": "The employee found responsible for the video was subsequently fired.",
+    "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Lead"
+    "sectionId": "Politics",
+    "basedOnChange": "Expanded: Politics added specific events"
   },
   {
     "id": "q6",
-    "question": "How has deepfake technology evolved in terms of its accessibility?",
-    "answer": "It has become increasingly convincing and available to the public.",
-    "relevantPassage": "From traditional entertainment to gaming, deepfake technology has evolved to be increasingly convincing and available to the public.",
-    "category": "causal",
-    "difficulty": "medium",
-    "sectionId": "Lead"
+    "question": "What is the 'liar's dividend' as defined in the new section?",
+    "answer": "A phenomenon where individuals claim that incriminating recordings of themselves are AI-generated to dismiss claims and gain sympathy.",
+    "relevantPassage": "The liar's dividend is a political and social phenomenon in which, when faced with incriminating or embarrassing authentic video or audio recordings of themselves, individuals will claim that the recordings are AI in order to dismiss the claims and gain sympathy.",
+    "category": "factual",
+    "difficulty": "hard",
+    "sectionId": "Liar's dividend",
+    "basedOnChange": "New section: Liar's dividend"
   },
   {
     "id": "q7",
-    "question": "When did the Defense Advanced Research Projects Agency (DARPA) launch the Media Forensics program?",
-    "answer": "In 2016.",
-    "relevantPassage": "In 2016, the Defense Advanced Research Projects Agency (DARPA) launched the Media Forensics (MediFor) program which was funded through 2020.",
-    "category": "temporal",
-    "difficulty": "easy",
-    "sectionId": "Response from DARPA"
+    "question": "How many views did the deepfake video of Belgian Prime Minister Sophie Wilmès receive within 24 hours?",
+    "answer": "More than 100,000 views",
+    "relevantPassage": "It had more than 100,000 views within 24 hours and received many comments.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Politics",
+    "basedOnChange": "Expanded: Politics added specific events"
   },
   {
     "id": "q8",
-    "question": "What significant change occurred in January 2018 regarding deepfake applications?",
-    "answer": "A proprietary desktop application called 'FakeApp' was launched.",
-    "relevantPassage": "In January 2018, a proprietary desktop application called 'FakeApp' was launched.",
-    "category": "temporal",
-    "difficulty": "medium",
-    "sectionId": "Commercial development"
+    "question": "What significant shift in electioneering tactics was noted in the March 2024 event in India?",
+    "answer": "A significant shift in electioneering tactics in India due to the surge in the use of deepfakes.",
+    "relevantPassage": "This surge in the use of deepfakes for political campaigns marked a significant shift in electioneering tactics in India.",
+    "category": "causal",
+    "difficulty": "hard",
+    "sectionId": "Politics",
+    "basedOnChange": "Expanded: Politics added specific events"
   },
   {
     "id": "q9",
-    "question": "How do deepfakes compare to traditional methods of media manipulation?",
-    "answer": "Deepfakes are more difficult to classify as genuine or not due to their advanced technology.",
-    "relevantPassage": "Though fake photos have long been plentiful, faking motion pictures has been more difficult, and the presence of deepfakes increases the difficulty of classifying videos as genuine or not.",
-    "category": "comparison",
+    "question": "What was the deepfake video of Joe Biden prior to the 2024 election intended to do?",
+    "answer": "Dissuade people from voting for him.",
+    "relevantPassage": "Prior to the 2024 United States presidential election, phone calls imitating the voice of the incumbent Joe Biden were made to dissuade people from voting for him.",
+    "category": "causal",
     "difficulty": "hard",
-    "sectionId": "Concerns and countermeasures"
+    "sectionId": "Example events",
+    "basedOnChange": "Expanded: Example events added details"
   },
   {
     "id": "q10",
-    "question": "What distinguishes the Chinese reception of deepfakes from that in the West?",
-    "answer": "The Chinese response has centered on practical regulatory measures rather than anxieties about disinformation and pornography.",
-    "relevantPassage": "the Chinese term does not contain the 'fake' of the English deepfake, and de Seta argues that this cultural context may explain why the Chinese response has centered on practical regulatory measures to 'fraud risks, image rights, economic profit, and ethical imbalances'.",
-    "category": "comparison",
-    "difficulty": "hard",
-    "sectionId": "Social science and humanities approaches to deepfakes"
+    "question": "What was the financial loss incurred by the firm Arup Group due to a deepfake scam?",
+    "answer": "$25 million",
+    "relevantPassage": "The firm Arup Group lost $25 million in 2024 from a deepfake scam.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Example events",
+    "basedOnChange": "Expanded: Example events added details"
   }
 ]

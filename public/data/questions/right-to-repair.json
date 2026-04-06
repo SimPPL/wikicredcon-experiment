@@ -1,92 +1,102 @@
 [
   {
     "id": "q1",
-    "question": "What is the purpose of repair monopolies according to the article?",
-    "answer": "To force customers to either use the manufacturer's own repair services or purchase new equipment from the manufacturer.",
-    "relevantPassage": "The purpose of repair monopolies is to force customers to either use the manufacturer's own repair services or purchase new equipment from the manufacturer.",
+    "question": "What are the common obstacles to repair mentioned in the new lead section?",
+    "answer": "Requirements to use only the manufacturer's maintenance services, restrictions on access to tools and components, and software barriers.",
+    "relevantPassage": "Common obstacles to repair include requirements to use only the manufacturer's maintenance services, restrictions on access to tools and components, and software barriers.",
     "category": "factual",
     "difficulty": "easy",
-    "sectionId": "Lead"
+    "sectionId": "Lead",
+    "basedOnChange": "Expanded: Lead added details"
   },
   {
     "id": "q2",
-    "question": "What significant event regarding right to repair occurred in Massachusetts in 2012?",
-    "answer": "Massachusetts passed the United States' first right-to-repair law for the automotive sector.",
-    "relevantPassage": "The first successful implementation of a right to repair came when Massachusetts passed the United States' first right-to-repair law for the automotive sector in 2012.",
-    "category": "factual",
+    "question": "What is the purpose of repair monopolies as described in the new lead section?",
+    "answer": "To force customers to either use the manufacturer's own repair services or purchase new equipment from the manufacturer.",
+    "relevantPassage": "The purpose of repair monopolies is to force customers to either use the manufacturer's own repair services or purchase new equipment from the manufacturer.",
+    "category": "causal",
     "difficulty": "medium",
-    "sectionId": "History"
+    "sectionId": "Lead",
+    "basedOnChange": "Expanded: Lead added details"
   },
   {
     "id": "q3",
-    "question": "What is the repairability index created by France in 2021?",
-    "answer": "A rating from 1-10 providing a value for how repairable a device is.",
-    "relevantPassage": "France created repairability index... A rating from 1-10 providing a value for how repairable a device is.",
+    "question": "What specific requirements does the European Union's Right to Repair Directive impose on manufacturers regarding repair services?",
+    "answer": "Manufacturers must offer repair 'within a reasonable time' and 'for a reasonable price.'",
+    "relevantPassage": "Specifically, according to the European Commission’s summary of the Directive (2024/1799), manufacturers of products covered by EU reparability requirements and listed in the Directive’s annex must offer repair 'within a reasonable time' and 'for a reasonable price.'",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "History"
+    "sectionId": "European Union",
+    "basedOnChange": "Expanded: European Union added details"
   },
   {
     "id": "q4",
-    "question": "How did the COVID-19 pandemic impact the right-to-repair movement?",
-    "answer": "The pandemic has also been credited with helping to grow the right-to-repair movement since many repair shops were closed.",
-    "relevantPassage": "The pandemic has also been credited with helping to grow the right-to-repair movement since many repair shops were closed.",
-    "category": "causal",
+    "question": "What is the effective date for the European online platform for repair to be fully operational?",
+    "answer": "January 1, 2028.",
+    "relevantPassage": "The platform is expected to become fully operational by 1 January 2028.",
+    "category": "temporal",
     "difficulty": "medium",
-    "sectionId": "Impacts"
+    "sectionId": "European Union",
+    "basedOnChange": "Expanded: European Union added details"
   },
   {
     "id": "q5",
-    "question": "What change occurred in the FTC's approach to warranty practices in April 2018?",
-    "answer": "The FTC sent notice to manufacturers stating that their warranty practices may violate the Magnuson-Moss Warranty Act.",
-    "relevantPassage": "In April 2018, the Federal Trade Commission sent notice to six automobile, consumer electronics, and video game console manufacturers... stating that their warranty practices may violate the Magnuson-Moss Warranty Act.",
-    "category": "temporal",
+    "question": "What report did the Federal Trade Commission release in 2021 regarding repair restrictions?",
+    "answer": "\"Nixing the Fix\".",
+    "relevantPassage": "In the United States, the Federal Trade Commission (FTC) has examined repair restrictions in the context of consumer protection and competition policy. The 2021 report to Congress ('Nixing the Fix') describes common forms of repair restriction.",
+    "category": "factual",
     "difficulty": "medium",
-    "sectionId": "History"
+    "sectionId": "United States",
+    "basedOnChange": "Expanded: United States added details"
   },
   {
     "id": "q6",
-    "question": "What was the outcome of the 2020 Massachusetts Question 1 regarding automobile repair?",
-    "answer": "It aimed to update the previous measure on automobile repair to include electronic vehicle data.",
-    "relevantPassage": "2020 Massachusetts Question 1 passed to update the previous measure on automobile repair to include electronic vehicle data.",
-    "category": "temporal",
+    "question": "What does the 2022 legislative change in Australia require manufacturers to do?",
+    "answer": "Provide information to repairers and Registered Training Organisations at a fair market price.",
+    "relevantPassage": "In 2022, legislative changes introduced 'The Motor Vehicle Repair and Service Information Sharing Scheme', which requires manufacturers, importers and others to provide information to repairers and Registered Training Organisations at a fair market price.",
+    "category": "factual",
     "difficulty": "medium",
-    "sectionId": "History"
+    "sectionId": "Australia",
+    "basedOnChange": "New section: Australia"
   },
   {
     "id": "q7",
-    "question": "How does the right to repair in the EU differ from previous regulations?",
-    "answer": "The Right to Repair Directive requires manufacturers to offer repair services that are both efficient and affordable.",
-    "relevantPassage": "The European Union's Right to Repair Directive (R2RD) requires manufacturers to offer repair services that are both efficient and affordable.",
-    "category": "comparison",
+    "question": "What is the deadline for member states to transpose the European Union's Right to Repair Directive?",
+    "answer": "July 31, 2026.",
+    "relevantPassage": "Member States must transpose the directive by 31 July 2026.",
+    "category": "temporal",
     "difficulty": "hard",
-    "sectionId": "Enacted legislation"
+    "sectionId": "European Union",
+    "basedOnChange": "Expanded: European Union added details"
   },
   {
     "id": "q8",
-    "question": "What significant change did Oregon implement regarding parts pairing in 2024?",
-    "answer": "Oregon bans parts pairing starting in 2025.",
-    "relevantPassage": "Oregon bans parts pairing starting in 2025.",
-    "category": "temporal",
+    "question": "How does the new content describe the impact of repair monopolies on consumers?",
+    "answer": "They lead to higher prices, increased delays, reduced serviceability, and less choice for consumers.",
+    "relevantPassage": "Repair monopolies have been found to lead to higher prices, increased delays, reduced serviceability, and less choice for consumers.",
+    "category": "causal",
     "difficulty": "medium",
-    "sectionId": "Enacted legislation"
+    "sectionId": "Lead",
+    "basedOnChange": "Expanded: Lead added details"
   },
   {
     "id": "q9",
-    "question": "How did Apple's practices regarding older iPhones lead to public backlash?",
-    "answer": "Users discovered that recent updates were throttling the phone's performance, leading to accusations that Apple sabotaged older iPhones to compel customers to buy new models.",
-    "relevantPassage": "In late 2017, users of older iPhone models discovered evidence that recent updates to the phone's operating system, iOS, were throttling the phone's performance.",
-    "category": "causal",
+    "question": "What significant changes were made to the right to repair in the United States as of 2023?",
+    "answer": "Minnesota law passed requiring manufacturers of certain electronic products to make documentation, parts, and tools for diagnosis, maintenance, or repair available.",
+    "relevantPassage": "2023 Minnesota law passed requires manufactures of certain electronic products to make documentation, parts, and tools for diagnosis, maintenance, or repair available to independent repair providers and consumers.",
+    "category": "factual",
     "difficulty": "hard",
-    "sectionId": "History"
+    "sectionId": "United States",
+    "basedOnChange": "Expanded: United States added details"
   },
   {
     "id": "q10",
-    "question": "What was one of the main goals of the right to repair movement as mentioned in the article?",
-    "answer": "To favor repair instead of replacement, and make such repairs more affordable leading to a more sustainable economy.",
-    "relevantPassage": "Some goals of the right to repair are to favor repair instead of replacement, and make such repairs more affordable leading to a more sustainable economy.",
-    "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "Definition"
+    "question": "What is the significance of the 2024 Right to Repair Directive in the European Union?",
+    "answer": "It amends the EU sales-of-goods rules to extend the legal guarantee when a consumer chooses repair over replacement.",
+    "relevantPassage": "In addition, Directive 2024/1799 amends the EU sales-of-goods rules so that when a consumer chooses repair (rather than replacement) within the seller’s liability framework, the legal guarantee must be extended once by one year.",
+    "category": "causal",
+    "difficulty": "hard",
+    "sectionId": "European Union",
+    "basedOnChange": "Expanded: European Union added details"
   }
 ]

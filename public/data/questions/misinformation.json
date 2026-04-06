@@ -6,87 +6,97 @@
     "relevantPassage": "In January 2024, the World Economic Forum identified misinformation and disinformation, propagated by both internal and external interests, to 'widen societal and political divides' as the most severe global risks in the short term.",
     "category": "factual",
     "difficulty": "easy",
-    "sectionId": "Lead"
+    "sectionId": "Lead",
+    "basedOnChange": "Expanded: Lead added details about WEF"
   },
   {
     "id": "q2",
-    "question": "What is the first recorded large-scale disinformation campaign mentioned in the article?",
-    "answer": "The Great Moon Hoax, published in 1835 in the New York The Sun.",
-    "relevantPassage": "The first recorded large-scale disinformation campaign was the Great Moon Hoax, published in 1835 in the New York The Sun.",
+    "question": "What percentage of Americans were reached by content from untrustworthy websites during the 2016 U.S. presidential election?",
+    "answer": "Up to 40%.",
+    "relevantPassage": "During the 2016 U.S. presidential election, content from websites deemed 'untrustworthy' reached up to 40% of Americans, despite misinformation making up only 6% of overall news media.",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "History"
+    "sectionId": "History",
+    "basedOnChange": "Expanded: History added statistics"
   },
   {
     "id": "q3",
-    "question": "Which countries are ranked the worst for media freedom in 2025?",
-    "answer": "Eritrea, North Korea, China, Syria, Iran, Afghanistan, Turkmenistan, Vietnam, Nicaragua, Russia, Egypt, Myanmar, Djibouti, Azerbaijan, Belarus, Cuba, United Arab Emirates, Palestine, Saudi Arabia, Cambodia, Venezuela, Turkey, and Pakistan.",
-    "relevantPassage": "The countries ranked the worst for media freedom in 2025 are, in this order, Eritrea, North Korea, China, Syria, Iran, Afghanistan, Turkmenistan, Vietnam, Nicaragua, Russia, Egypt, Myanmar, Djibouti, Azerbaijan, Belarus, Cuba, United Arab Emirates, Palestine, Saudi Arabia, Cambodia, Venezuela, Turkey and Pakistan.",
-    "category": "factual",
-    "difficulty": "hard",
-    "sectionId": "Lead"
-  },
-  {
-    "id": "q4",
-    "question": "What significant change occurred in the digital literacy of older adults according to the 2023 Pew Research Center study?",
-    "answer": "61% of adults aged 65 years or older own a smartphone, 45% use social media, and 44% own a tablet computer.",
-    "relevantPassage": "According to a nationally representative study of U.S. adults by Pew Research Center from 2023, 61% of adults aged 65 years or older own a smartphone, 45% use social media, and 44% own a tablet computer.",
-    "category": "temporal",
-    "difficulty": "medium",
-    "sectionId": "Age"
-  },
-  {
-    "id": "q5",
-    "question": "What was the outcome of the Microsoft AI for Good Lab study regarding participants' ability to distinguish real from artificial images?",
-    "answer": "Participants had a 62% success rate in guessing correctly.",
+    "question": "What was the success rate of participants in the Microsoft AI for Good Lab study when identifying real versus AI-generated images?",
+    "answer": "62%.",
     "relevantPassage": "The Microsoft AI for Good Lab study found that participants had a 62% success rate in guessing correctly.",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "AI contribution to the problem and aid in combatting"
+    "sectionId": "LA wildfire Hollywood sign",
+    "basedOnChange": "New section: LA wildfire Hollywood sign"
+  },
+  {
+    "id": "q4",
+    "question": "What significant event occurred on December 8, 2025, in Japan?",
+    "answer": "An earthquake disaster.",
+    "relevantPassage": "On December 8, 2025, Japan experienced an earthquake disaster, accompanied by multiple AI-generated videos that emerged on social media.",
+    "category": "temporal",
+    "difficulty": "easy",
+    "sectionId": "December 8th earthquake",
+    "basedOnChange": "New section: December 8th earthquake"
+  },
+  {
+    "id": "q5",
+    "question": "What type of misinformation was spread during the COVID-19 pandemic according to the new content?",
+    "answer": "Misinformation about symptoms, treatments, and long-term health-related problems.",
+    "relevantPassage": "During the COVID-19 pandemic, social media was used as one of the main propagators of misinformation about symptoms, treatments, and long-term health-related problems.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "COVID-19 misinformation",
+    "basedOnChange": "Expanded: COVID-19 misinformation added details"
   },
   {
     "id": "q6",
-    "question": "What event in December 2025 was accompanied by multiple AI-generated videos that misinformed the public?",
-    "answer": "An earthquake disaster in Japan.",
-    "relevantPassage": "On December 8, 2025, Japan experienced an earthquake disaster, accompanied by multiple AI-generated videos that emerged on social media.",
-    "category": "temporal",
+    "question": "What was the impact of algorithmic amplification on the spread of misinformation on social media?",
+    "answer": "It boosts the spread of misinformation because sensational and catching posts perform better.",
+    "relevantPassage": "The architecture of social platforms intensifies this issue, with features such as algorithmic amplification—which prioritizes highly emotional or engaging content—boosting the spread of misinformation because sensational and catching posts perform better.",
+    "category": "causal",
     "difficulty": "medium",
-    "sectionId": "December 8th earthquake"
+    "sectionId": "Lack of regulation",
+    "basedOnChange": "Expanded: Lack of regulation added explanation"
   },
   {
     "id": "q7",
-    "question": "What did the Pew Research report find about American adults sharing misinformation on social media?",
-    "answer": "Approximately one in four American adults admitted to sharing misinformation on their social media platforms.",
-    "relevantPassage": "Pew Research reports shared that approximately one in four American adults admitted to sharing misinformation on their social media platforms.",
+    "question": "What was the result of the deepfake video broadcasted by hackers involving Volodymyr Zelenskyy in 2022?",
+    "answer": "Zelenskyy later disproved the deepfake.",
+    "relevantPassage": "Zelenskyy later disproved the deepfake.",
     "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "On social media"
+    "difficulty": "medium",
+    "sectionId": "Zelenskyy deepfakes",
+    "basedOnChange": "New section: Zelenskyy deepfakes"
   },
   {
     "id": "q8",
-    "question": "How did misinformation about COVID-19 spread during the pandemic according to the article?",
-    "answer": "Misinformation was propagated through social media about symptoms, treatments, and long-term health-related problems.",
-    "relevantPassage": "During the COVID-19 pandemic, social media was used as one of the main propagators of misinformation about symptoms, treatments, and long-term health-related problems.",
+    "question": "What is one of the challenges in implementing interventions for misinformation as suggested in the new content?",
+    "answer": "An overabundance of lab research and a lack of field studies.",
+    "relevantPassage": "Several challenges have been suggested in implementing interventions for misinformation: an overabundance of lab research and a lack of field studies.",
     "category": "causal",
-    "difficulty": "medium",
-    "sectionId": "COVID-19 misinformation"
+    "difficulty": "hard",
+    "sectionId": "Countermeasures",
+    "basedOnChange": "New section: Countermeasures"
   },
   {
     "id": "q9",
-    "question": "What is the relationship between political ideology and the sharing of misinformation according to research from 2022?",
-    "answer": "There is a strong correlation between right-wing partisanship and the sharing of online misinformation, with similar trends found among left-leaning users.",
-    "relevantPassage": "Researchers explored the relationship between partisanship, the presence of an echo chamber, and vulnerability to misinformation, finding a strong correlation between right-wing partisanship and the sharing of online misinformation.",
+    "question": "What is the proposed model for effective crowdsourcing interventions to combat misinformation?",
+    "answer": "A 'two steps away' network approach.",
+    "relevantPassage": "To solve this, a 'two steps away' network approach has been suggested.",
     "category": "causal",
     "difficulty": "hard",
-    "sectionId": "Political ideology and confirmation bias"
+    "sectionId": "Crowdsourced fact-checking",
+    "basedOnChange": "New section: Crowdsourced fact-checking"
   },
   {
     "id": "q10",
-    "question": "How does the lack of regulation on social media contribute to the spread of misinformation?",
-    "answer": "It creates an environment where speed is prioritized over accuracy, allowing inaccurate or misleading posts to circulate widely.",
-    "relevantPassage": "This lack of regulation creates an environment where speed is prioritized over accuracy on social media. Because editorial oversight is not required, inaccurate or misleading posts can circulate widely before any fact-checkers or experts even become aware of them.",
-    "category": "causal",
+    "question": "What was the main finding of the NewsGuard report regarding TikTok's misinformation levels?",
+    "answer": "There is a very high level (~20%) of online misinformation delivered to a mainly young user base.",
+    "relevantPassage": "A research report by NewsGuard found there is a very high level (~20% in their probes of videos about relevant topics) of online misinformation delivered – to a mainly young user base – with TikTok.",
+    "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Lack of regulation"
+    "sectionId": "Misinformation on TikTok",
+    "basedOnChange": "Expanded: Misinformation on TikTok added findings"
   }
 ]

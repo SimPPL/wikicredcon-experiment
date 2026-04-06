@@ -1,92 +1,102 @@
 [
   {
     "id": "q1",
-    "question": "When did the widespread use of PFAS begin?",
-    "answer": "1938",
-    "relevantPassage": "Widespread use of PFAS began in 1938 with the invention of Teflon...",
-    "category": "temporal",
+    "question": "What is the estimated market value for PFAS in 2023?",
+    "answer": "$28 billion",
+    "relevantPassage": "The market for PFAS was estimated to be US$28 billion in 2023.",
+    "category": "factual",
     "difficulty": "easy",
-    "sectionId": "Lead"
+    "sectionId": "Market",
+    "basedOnChange": "New section: Market"
   },
   {
     "id": "q2",
-    "question": "What is the estimated market value of PFAS in 2023?",
-    "answer": "US$28 billion",
-    "relevantPassage": "The market for PFAS was estimated to be US$28 billion in 2023...",
+    "question": "Which companies have ended or plan to end the sale of PFAS or products containing them?",
+    "answer": "W. L. Gore & Associates, Patagonia, REI, H&M, and 3M",
+    "relevantPassage": "Citing health concerns, several manufacturing companies have ended or stated that they plan to end the sale of PFAS or products that contain them. These companies include W. L. Gore & Associates (the maker of Gore-Tex), Patagonia, REI, H&M, and 3M.",
     "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "Market"
+    "difficulty": "medium",
+    "sectionId": "Ending manufacture",
+    "basedOnChange": "New section: Ending manufacture"
   },
   {
     "id": "q3",
-    "question": "Which company paid the largest settlement for PFAS water contamination in 2023?",
-    "answer": "3M",
-    "relevantPassage": "PFAS producers have paid billions of dollars to settle litigation claims, the largest being a $10.3 billion settlement paid by 3M for water contamination in 2023.",
+    "question": "What percentage of groundwater samples found in a 2024 study contained harmful levels of PFAS?",
+    "answer": "31%",
+    "relevantPassage": "In 2024, a worldwide study of 45,000 groundwater samples found that 31% of samples contained levels of PFAS that were harmful to human health.",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Lead"
+    "sectionId": "Prevalence in rain, soil, water bodies, and air",
+    "basedOnChange": "Expanded: Prevalence in rain, soil, water bodies, and air"
   },
   {
     "id": "q4",
-    "question": "What are PFAS commonly referred to as due to their persistence?",
-    "answer": "\"forever chemicals\"",
-    "relevantPassage": "Many PFAS such as PFOS and PFOA pose health and environmental concerns because they are persistent organic pollutants, and are consequently often called \"forever chemicals\".",
+    "question": "What is the classification of PFOA by the International Agency for Research on Cancer (IARC)?",
+    "answer": "Carcinogenic to humans (Group 1)",
+    "relevantPassage": "PFOA is classified as carcinogenic to humans (Group 1) by the International Agency for Research on Cancer (IARC) based on 'sufficient' evidence for cancer in animals and 'strong' mechanistic evidence in exposed humans.",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Lead"
+    "sectionId": "Cancers",
+    "basedOnChange": "New section: Cancers"
   },
   {
     "id": "q5",
-    "question": "What health condition has been linked to PFAS exposure during pregnancy?",
-    "answer": "hypertensive disorders",
-    "relevantPassage": "Exposure to PFAS is a risk factor for hypertensive disorders in pregnancy including preeclampsia and high blood pressure.",
-    "category": "causal",
+    "question": "How much profit did the PFAS industry generate in 2023?",
+    "answer": "$4 billion",
+    "relevantPassage": "Sales of PFAS, which cost approximately $20 per kilogram, generated a total industry profit of $4 billion per year on 16% profit margins in 2023.",
+    "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Pregnancy and lactation issues"
+    "sectionId": "Market",
+    "basedOnChange": "New section: Market"
   },
   {
     "id": "q6",
-    "question": "Why are fluorinated surfactants a concern for regulatory agencies?",
-    "answer": "due to their persistence, toxicity, and widespread occurrence in the blood of general populations",
-    "relevantPassage": "Fluorosurfactants such as PFOS, PFOA, and perfluorononanoic acid (PFNA) have caught the attention of regulatory agencies because of their persistence, toxicity, and widespread occurrence in the blood of general populations.",
+    "question": "What health issues are associated with PFAS exposure during pregnancy?",
+    "answer": "Hypertensive disorders including preeclampsia and high blood pressure.",
+    "relevantPassage": "Exposure to PFAS is a risk factor for hypertensive disorders in pregnancy including preeclampsia and high blood pressure.",
     "category": "causal",
     "difficulty": "medium",
-    "sectionId": "Fluorosurfactants"
+    "sectionId": "Pregnancy and lactation issues",
+    "basedOnChange": "Expanded: Pregnancy and lactation issues"
   },
   {
     "id": "q7",
-    "question": "What significant change occurred in January 2025 regarding PFAS cleanup costs in the UK and Europe?",
-    "answer": "The cost of cleaning up toxic PFAS pollution was stated to exceed £1.6 trillion over the next 20 years.",
-    "relevantPassage": "In January 2025, the cost of cleaning up toxic PFAS pollution in the UK and Europe was stated to exceed £1.6 trillion over the next 20 years...",
-    "category": "temporal",
+    "question": "What significant change occurred in the classification of PFAS by the OECD in 2021?",
+    "answer": "The OECD expanded its terminology, stating that 'PFAS are defined as fluorinated substances that contain at least one fully fluorinated methyl or methylene carbon atom.'",
+    "relevantPassage": "Beginning in 2021, the OECD expanded its terminology, stating that 'PFAS are defined as fluorinated substances that contain at least one fully fluorinated methyl or methylene carbon atom.'",
+    "category": "causal",
     "difficulty": "hard",
-    "sectionId": "Lead"
+    "sectionId": "Definition",
+    "basedOnChange": "Expanded: Definition"
   },
   {
     "id": "q8",
-    "question": "How do PFAS levels in freshwater fish compare to those in the general population according to a 2023 study?",
-    "answer": "Freshwater fish ubiquitously contain high levels of harmful PFAS, significantly increasing blood PFOS levels with a single serving.",
-    "relevantPassage": "A study published in 2023 analyzing 500 composite samples of fish fillets... showed freshwater fish ubiquitously contain high levels of harmful PFAS, with a single serving typically significantly increasing the blood PFOS level.",
-    "category": "comparison",
+    "question": "What is the relationship between PFOS levels and total cholesterol in humans?",
+    "answer": "Elevated PFOS levels were significantly associated with elevated total cholesterol and LDL cholesterol.",
+    "relevantPassage": "A response is observed in humans where elevated PFOS levels were significantly associated with elevated total cholesterol and LDL cholesterol.",
+    "category": "causal",
     "difficulty": "hard",
-    "sectionId": "Bioaccumulation and biomagnification"
+    "sectionId": "High cholesterol",
+    "basedOnChange": "New section: High cholesterol"
   },
   {
     "id": "q9",
-    "question": "What is the difference in PFAS exposure between general populations and professional ski wax technicians?",
-    "answer": "Professional ski wax technicians are more strongly exposed to PFAS from the glide wax used to coat skis.",
-    "relevantPassage": "Compared to the general public exposed to contaminated drinking water, professional ski wax technicians are more strongly exposed to PFAS from the glide wax used to coat the bottom of skis...",
-    "category": "comparison",
-    "difficulty": "medium",
-    "sectionId": "Professional ski wax technicians"
+    "question": "How does PFAS bioaccumulation affect organisms at higher trophic levels?",
+    "answer": "Lower concentrations of pollutants can very quickly grow to harmful concentrations in organisms at higher trophic levels, including humans.",
+    "relevantPassage": "When bioaccumulation is looked at in the perspective of the entire food web, it is called biomagnification, which is important to track because lower concentrations of pollutants in environmental matrices can very quickly grow to harmful concentrations in organisms at higher trophic levels, including humans.",
+    "category": "causal",
+    "difficulty": "hard",
+    "sectionId": "Bioaccumulation and biomagnification",
+    "basedOnChange": "Expanded: Bioaccumulation and biomagnification"
   },
   {
     "id": "q10",
-    "question": "What regulatory change did Maine implement regarding PFAS in 2021?",
-    "answer": "Maine became the first U.S. state to ban these compounds in all products by 2030.",
-    "relevantPassage": "In 2021, Maine became the first U.S. state to ban these compounds in all products by 2030.",
-    "category": "temporal",
+    "question": "What is the significance of the 2023 study analyzing fish fillets in relation to PFAS?",
+    "answer": "Freshwater fish ubiquitously contain high levels of harmful PFAS, with a single serving typically significantly increasing the blood PFOS level.",
+    "relevantPassage": "A study published in 2023 analyzing 500 composite samples of fish fillets collected across the United States... showed freshwater fish ubiquitously contain high levels of harmful PFAS, with a single serving typically significantly increasing the blood PFOS level.",
+    "category": "comparison",
     "difficulty": "hard",
-    "sectionId": "Litigation and regulations"
+    "sectionId": "Bioaccumulation and biomagnification",
+    "basedOnChange": "Expanded: Bioaccumulation and biomagnification"
   }
 ]

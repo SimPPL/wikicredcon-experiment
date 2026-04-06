@@ -1,92 +1,102 @@
 [
   {
     "id": "q1",
-    "question": "What percentage of parents of children under five regularly encounter vaccine misinformation on social media?",
-    "answer": "50%",
-    "relevantPassage": "A survey by the Royal Society for Public Health found that 50% of the parents of children under the age of five regularly encountered misinformation related to vaccination on social media.",
+    "question": "What significant change occurred to the CDC website on 'Autism and Vaccines' on November 19, 2025?",
+    "answer": "The CDC website was radically changed to include several false statements contradicting long-standing scientific evidence that supports the absence of a causal link between childhood vaccines and autism.",
+    "relevantPassage": "As of November 19, 2025, under the leadership of HHS Secretary Robert F. Kennedy Jr., the CDC website on 'Autism and Vaccines' was radically changed from its earlier September 2025 version to a new version on November 19, 2025. The revised webpage makes several false statements, contradicting long-standing scientific evidence that supports the absence of a causal link between childhood vaccines and autism.",
     "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "Extent"
+    "difficulty": "medium",
+    "sectionId": "CDC as source of vaccine misinformation",
+    "basedOnChange": "New section: CDC as source of vaccine misinformation"
   },
   {
     "id": "q2",
-    "question": "When was the incorrect claim that vaccines cause autism first published?",
-    "answer": "1998",
-    "relevantPassage": "The incorrect claim that vaccines cause autism dates to a paper published in 1998 and has since been retracted.",
-    "category": "temporal",
-    "difficulty": "medium",
-    "sectionId": "Vaccination causes idiopathic conditions"
+    "question": "By how much did measles vaccine compliance drop from 2019 to 2024 according to the World Health Organization?",
+    "answer": "Measles vaccine compliance dropped by 3%.",
+    "relevantPassage": "The World Health Organization reported that measles vaccine compliance dropped by 3% from 2019 to 2024.",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Effects on herd immunity",
+    "basedOnChange": "New section: Effects on herd immunity"
   },
   {
     "id": "q3",
-    "question": "What organization classified vaccine-related misinformation into five topic areas?",
-    "answer": "The World Health Organization",
-    "relevantPassage": "The World Health Organization has classified vaccine related misinformation into five topic areas.",
-    "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "List of popular misinformation"
-  },
-  {
-    "id": "q4",
-    "question": "What significant change occurred to the CDC website on 'Autism and Vaccines' on November 19, 2025?",
-    "answer": "It was radically changed to a new version that makes several false statements.",
-    "relevantPassage": "As of November 19, 2025, under the leadership of HHS Secretary Robert F. Kennedy Jr., the CDC website on 'Autism and Vaccines' was radically changed from its earlier September 2025 version to a new version on November 19, 2025.",
-    "category": "temporal",
-    "difficulty": "medium",
-    "sectionId": "CDC as source of vaccine misinformation"
-  },
-  {
-    "id": "q5",
-    "question": "What was the impact of misinformation on vaccine hesitancy in Nigeria in 2003?",
-    "answer": "It led to a five-fold increase in the number of polio cases.",
-    "relevantPassage": "In 2003, rumors about polio vaccines intensified vaccine hesitancy in Nigeria and led to a five-fold increase in the number of polio cases in the country over three years.",
-    "category": "causal",
-    "difficulty": "medium",
-    "sectionId": "Impact"
-  },
-  {
-    "id": "q6",
-    "question": "What is the only disease that has been successfully eradicated through vaccination?",
-    "answer": "Smallpox",
-    "relevantPassage": "To date, the only disease that has been successfully eradicated is smallpox.",
-    "category": "factual",
-    "difficulty": "hard",
-    "sectionId": "Some vaccine-preventable diseases have been eradicated"
-  },
-  {
-    "id": "q7",
-    "question": "How did the misinformation about COVID-19 vaccines affect public acceptance in China?",
-    "answer": "Public acceptance of Chinese domestic COVID-19 vaccines dropped significantly due to concerns about the possible high cost.",
-    "relevantPassage": "Public acceptance of Chinese domestic COVID-19 vaccines dropped significantly due to concerns about the possible high cost.",
-    "category": "causal",
-    "difficulty": "medium",
-    "sectionId": "Impact"
-  },
-  {
-    "id": "q8",
-    "question": "What was the vaccination rate for measles in the United States during the 2023-2024 academic year?",
-    "answer": "It dropped below the herd immunity threshold of 95%.",
+    "question": "What was the measles vaccine rate in the United States during the 2023-2024 academic year?",
+    "answer": "The measles vaccine rates officially dropped below the herd immunity threshold of 95%.",
     "relevantPassage": "In the United States, measles vaccine rates officially dropped below the herd immunity threshold of 95% during the 2023-2024 academic year.",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Effects on herd immunity"
+    "sectionId": "Effects on herd immunity",
+    "basedOnChange": "New section: Effects on herd immunity"
   },
   {
-    "id": "q9",
-    "question": "What strategies are suggested for effectively countering vaccine misinformation?",
-    "answer": "Communicating the scientific consensus that vaccines are safe and effective, using humour to dispel vaccine myths, and providing vaccine misinformation warnings.",
-    "relevantPassage": "Communication strategies to counter vaccine misinformation and effectively improve the intention to vaccinate include communicating the scientific consensus that vaccines are safe and effective, using humour to dispel vaccine myths, and providing vaccine misinformation warnings.",
-    "category": "causal",
-    "difficulty": "hard",
-    "sectionId": "Communication"
-  },
-  {
-    "id": "q10",
-    "question": "What was the outcome of the 2015 measles epidemic in California regarding vaccine exemptions?",
+    "id": "q4",
+    "question": "What change occurred in California's vaccine exemption policies after the 2015 measles epidemic?",
     "answer": "California eliminated non-medical vaccine exemptions.",
     "relevantPassage": "After the 2015 epidemic, California eliminated non-medical vaccine exemptions.",
     "category": "temporal",
     "difficulty": "medium",
-    "sectionId": "Vaccine mandate exemptions"
+    "sectionId": "Vaccine mandate exemptions",
+    "basedOnChange": "New section: Vaccine mandate exemptions"
+  },
+  {
+    "id": "q5",
+    "question": "What communication strategies are suggested to counter vaccine misinformation?",
+    "answer": "Communicating the scientific consensus that vaccines are safe and effective, using humour to dispel vaccine myths, and providing vaccine misinformation warnings.",
+    "relevantPassage": "Communication strategies to counter vaccine misinformation and effectively improve the intention to vaccinate include communicating the scientific consensus that vaccines are safe and effective, using humour to dispel vaccine myths, and providing vaccine misinformation warnings.",
+    "category": "causal",
+    "difficulty": "medium",
+    "sectionId": "Communication",
+    "basedOnChange": "Expanded: Communication grew by 184 chars"
+  },
+  {
+    "id": "q6",
+    "question": "What is the only disease that has been successfully eradicated to date?",
+    "answer": "Smallpox.",
+    "relevantPassage": "To date, the only disease that has been successfully eradicated is smallpox.",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Some vaccine-preventable diseases have been eradicated",
+    "basedOnChange": "New section: Some vaccine-preventable diseases have been eradicated"
+  },
+  {
+    "id": "q7",
+    "question": "What is the significance of maintaining vaccination rates according to the Lancet Digital Health Journal?",
+    "answer": "There are only a few percentage points of herd immunity that make the difference between having an epidemic and not having an epidemic.",
+    "relevantPassage": "Lancet Digital Health Journal stated that there are only a few percentage points of herd immunity that make the difference between having an epidemic and not having an epidemic, highlighting just how crucial it is to maintain concrete vaccination rates.",
+    "category": "causal",
+    "difficulty": "hard",
+    "sectionId": "Effects on herd immunity",
+    "basedOnChange": "New section: Effects on herd immunity"
+  },
+  {
+    "id": "q8",
+    "question": "What is the role of physicians in communicating vaccine effectiveness according to the Pediatric Journal of Nursing?",
+    "answer": "More effort needs to be made by physicians in communicating vaccine effectiveness to patients and parents of patients.",
+    "relevantPassage": "A review from the Pediatric Journal of Nursing noted that more effort needs to be made by physicians in communicating vaccine effectiveness to patients and parents of patients.",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "Physician-patient communication",
+    "basedOnChange": "New section: Physician-patient communication"
+  },
+  {
+    "id": "q9",
+    "question": "What impact did the 2015 measles epidemic have on vaccine exemption policies across the US?",
+    "answer": "It led many states to reconsider their vaccine exemption policies.",
+    "relevantPassage": "A 2015 measles epidemic in California that led to over 100 measles cases resulted in policy changes that led many states to reconsider their vaccine exemption policies.",
+    "category": "causal",
+    "difficulty": "medium",
+    "sectionId": "Vaccine mandate exemptions",
+    "basedOnChange": "New section: Vaccine mandate exemptions"
+  },
+  {
+    "id": "q10",
+    "question": "What is the potential next candidate for eradication among vaccine-preventable diseases?",
+    "answer": "Measles appears to be the most likely candidate for the next eradication effort.",
+    "relevantPassage": "From a practical standpoint, measles appears to be the most likely candidate for the next eradication effort.",
+    "category": "comparison",
+    "difficulty": "hard",
+    "sectionId": "Some vaccine-preventable diseases have been eradicated",
+    "basedOnChange": "New section: Some vaccine-preventable diseases have been eradicated"
   }
 ]

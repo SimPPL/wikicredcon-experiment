@@ -1,92 +1,102 @@
 [
   {
     "id": "q1",
-    "question": "What is cultured meat also known as?",
-    "answer": "Cultivated meat.",
-    "relevantPassage": "Cultured meat, also known as cultivated meat among other names...",
-    "category": "factual",
+    "question": "What year did Winston Churchill express interest in the potential of cultured meat?",
+    "answer": "1931",
+    "relevantPassage": "Its potential has long been of interest, including to British statesman Winston Churchill in 1931.",
+    "category": "temporal",
     "difficulty": "easy",
-    "sectionId": "Lead"
+    "sectionId": "Lead",
+    "basedOnChange": "Expanded: Lead added historical context"
   },
   {
     "id": "q2",
-    "question": "When did the first cultured beef burger patty get created?",
-    "answer": "In 2013.",
-    "relevantPassage": "The first cultured beef burger patty was created by Mark Post at Maastricht University in 2013.",
+    "question": "What significant development regarding cow cells was demonstrated in January 2024?",
+    "answer": "A study demonstrated that cow cells can produce its own growth factors and do not require the expensive recombinant growth factors or fetal bovine serum.",
+    "relevantPassage": "In January 2024, a study demonstrated that cow cells can produce its own growth factors and do not require the expensive recombinant growth factors or fetal bovine serum.",
     "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "First public trial"
+    "difficulty": "medium",
+    "sectionId": "Lead",
+    "basedOnChange": "Expanded: Lead added recent research findings"
   },
   {
     "id": "q3",
-    "question": "What significant event occurred in December 2020 in Singapore regarding cultured meat?",
-    "answer": "The world's first commercial sale of cell-cultured meat occurred.",
-    "relevantPassage": "However, cultured meat is not yet widely available.",
-    "category": "factual",
+    "question": "What was the first cultured meat product to be officially approved for sale in Australia and New Zealand, and when did this occur?",
+    "answer": "Vow quail on 7 April 2025",
+    "relevantPassage": "On 7 April 2025, Vow quail became the first cultured meat product to be officially approved for sale in Australia and New Zealand.",
+    "category": "temporal",
     "difficulty": "medium",
-    "sectionId": "Lead"
+    "sectionId": "Australia and New Zealand entry",
+    "basedOnChange": "New section: Australia and New Zealand entry"
   },
   {
     "id": "q4",
-    "question": "What was the investment amount attracted by cultured meat and seafood companies from 2021 to 2023?",
-    "answer": "Over $2.5 billion.",
+    "question": "What amount of investment did cultured meat and seafood companies attract worldwide from 2021 through 2023?",
+    "answer": "Over $2.5 billion",
     "relevantPassage": "Data published by The Good Food Institute found that in 2021 through 2023, cultured meat and seafood companies attracted over $2.5 billion in investment worldwide.",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Lead"
+    "sectionId": "Lead",
+    "basedOnChange": "Expanded: Lead added investment data"
   },
   {
     "id": "q5",
-    "question": "What did the Dutch start-up Meatable achieve in April 2024?",
-    "answer": "They hosted the first legally approved public proof-of-concept tasting of cultured meat in the European Union.",
-    "relevantPassage": "In April 2024, the Dutch start-up Meatable hosted the first legally approved public proof‑of‑concept tasting of cultured meat in the European Union...",
+    "question": "What legal action did Upside Foods take in August 2024?",
+    "answer": "Upside Foods sued Florida in an attempt to strike down their law.",
+    "relevantPassage": "In August 2024, Upside Foods sued Florida in an attempt to strike down their law.",
     "category": "factual",
-    "difficulty": "hard",
-    "sectionId": "European Union and Switzerland entry"
+    "difficulty": "medium",
+    "sectionId": "US",
+    "basedOnChange": "Expanded: US added legal context"
   },
   {
     "id": "q6",
-    "question": "Why did the Italian government withdraw the draft bill banning cultivated meat in October 2023?",
-    "answer": "To avoid a likely rejection by the European Commission.",
-    "relevantPassage": "Francesco Lollobrigida, Italy's minister of agriculture, said that the withdrawal of the proposed anti-cultured meat bill Italy submitted to the European Union 'is not a step back', which many speculated was because the government wanted to avoid a likely rejection by the European Commission.",
-    "category": "causal",
-    "difficulty": "medium",
-    "sectionId": "Italy"
+    "question": "What was demonstrated in November 2025 regarding cow cells?",
+    "answer": "Cow cells can be spontaneously immortalized after 500 days without genetic modification.",
+    "relevantPassage": "In November 2025, a study demonstrated that cow cells can be spontaneously immortalized after 500 days without genetic modification.",
+    "category": "factual",
+    "difficulty": "hard",
+    "sectionId": "Lead",
+    "basedOnChange": "Expanded: Lead added recent research findings"
   },
   {
     "id": "q7",
-    "question": "How did the study in January 2024 contribute to cultured meat production?",
-    "answer": "It demonstrated that cow cells can produce their own growth factors.",
-    "relevantPassage": "In January 2024, a study demonstrated that cow cells can produce its own growth factors and do not require the expensive recombinant growth factors or fetal bovine serum.",
+    "question": "How does the regulation of cultured meat differ between the FDA and USDA as per the new agreement?",
+    "answer": "The FDA oversees cell collection, cell banks, and cell growth and differentiation, while the USDA oversees the production and labeling of food products derived from the cells that are meant for human consumption.",
+    "relevantPassage": "Under the agreement, the FDA oversees cell collection, cell banks, and cell growth and differentiation, while the USDA oversees the production and labeling of food products derived from the cells that are meant for human consumption.",
     "category": "causal",
     "difficulty": "medium",
-    "sectionId": "Lead"
+    "sectionId": "US",
+    "basedOnChange": "Expanded: US added regulatory details"
   },
   {
     "id": "q8",
-    "question": "What change occurred in the regulatory structure of Israel by February 2023?",
-    "answer": "Israeli authorities established a regulatory structure similar to that of Singapore.",
-    "relevantPassage": "By February 2023, Israeli authorities had established a regulatory structure similar to that of Singapore...",
-    "category": "temporal",
+    "question": "Which states are considering laws similar to Alabama's ban on cultured meat manufacturing as of October 2024?",
+    "answer": "Arizona, Kentucky, Tennessee, and West Virginia.",
+    "relevantPassage": "The governments of Arizona, Kentucky, Tennessee, and West Virginia are considering similar laws.",
+    "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Israel entry"
+    "sectionId": "US",
+    "basedOnChange": "Expanded: US added legal context"
   },
   {
     "id": "q9",
-    "question": "What was the outcome of the collaboration between Aleph Farms and 3D Bioprinting Solutions in October 2019?",
-    "answer": "They cultured meat on the International Space Station.",
-    "relevantPassage": "In October 2019, Aleph Farms collaborated with 3D Bioprinting Solutions to culture meat on the International Space Station.",
-    "category": "factual",
-    "difficulty": "hard",
-    "sectionId": "Industry development"
+    "question": "What was the primary focus of companies pursuing cultured meat as mentioned in the new article?",
+    "answer": "Common meats such as pork, beef, and chicken.",
+    "relevantPassage": "Most efforts focus on common meats such as pork, beef, and chicken; species which constitute the bulk of conventional meat consumption in developed countries.",
+    "category": "comparison",
+    "difficulty": "medium",
+    "sectionId": "Lead",
+    "basedOnChange": "Expanded: Lead added focus on common meats"
   },
   {
     "id": "q10",
-    "question": "How does the environmental impact of cultured meat compare to traditional meat production?",
-    "answer": "Cultured meat may cause up to 92% less greenhouse gas emissions compared to conventional beef.",
-    "relevantPassage": "The latest study by independent research firm CE Delft shows that—compared with conventional beef—cultured meat may cause up to 92% less greenhouse gas emissions if renewable energy is used in the production process.",
+    "question": "What is the significance of the cultured grouper brought to market by Avant Meats in 2021?",
+    "answer": "It represents efforts to pursue various species of fish and other seafood in cultured meat production.",
+    "relevantPassage": "Some companies have pursued various species of fish and other seafood, such as Avant Meats who brought cultured grouper to market in 2021.",
     "category": "comparison",
     "difficulty": "hard",
-    "sectionId": "Environment"
+    "sectionId": "Lead",
+    "basedOnChange": "Expanded: Lead added seafood production efforts"
   }
 ]

@@ -1,92 +1,102 @@
 [
   {
     "id": "q1",
-    "question": "What is artificial general intelligence (AGI) defined as?",
-    "answer": "A theoretical type of artificial intelligence that matches or surpasses human capabilities across virtually all cognitive tasks.",
-    "relevantPassage": "Artificial general intelligence (AGI) is a theoretical type of artificial intelligence that matches or surpasses human capabilities across virtually all cognitive tasks.",
+    "question": "What framework for classifying AGI was proposed by Google DeepMind researchers in 2023?",
+    "answer": "They define five performance levels of AGI: emerging, competent, expert, virtuoso, and superhuman.",
+    "relevantPassage": "A framework for classifying AGI was proposed in 2023 by Google DeepMind researchers. They define five performance levels of AGI: emerging, competent, expert, virtuoso, and superhuman.",
     "category": "factual",
     "difficulty": "easy",
-    "sectionId": "Lead"
+    "sectionId": "Terminology",
+    "basedOnChange": "Expanded: Terminology added AGI classification framework"
   },
   {
     "id": "q2",
-    "question": "In what year did the first summer school on AGI take place?",
-    "answer": "2009",
-    "relevantPassage": "The first summer school on AGI was organized in Xiamen, China in 2009 by the Xiamen university's Artificial Brain Laboratory and OpenCog.",
+    "question": "What is the definition of a competent AGI according to the new framework proposed in 2023?",
+    "answer": "A competent AGI is defined as an AI that outperforms 50% of skilled adults in a wide range of non-physical tasks.",
+    "relevantPassage": "For example, a competent AGI is defined as an AI that outperforms 50% of skilled adults in a wide range of non-physical tasks.",
     "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "Modern artificial general intelligence research"
+    "difficulty": "medium",
+    "sectionId": "Terminology",
+    "basedOnChange": "Expanded: Terminology added AGI classification framework"
   },
   {
     "id": "q3",
-    "question": "What is the Ikea test designed to assess?",
-    "answer": "An AI's ability to assemble an Ikea flat-pack furniture product.",
-    "relevantPassage": "The 'Ikea test', also known as the Flat Pack Furniture Test, involves an AI controls a robot which attempts to assemble a Ikea flat-pack furniture product after having been shown the parts and instructions.",
-    "category": "factual",
+    "question": "What significant event regarding the Turing test occurred in 2025?",
+    "answer": "A 2025 pre‑registered, three‑party Turing‑test study by Cameron R. Jones and Benjamin K. Bergen showed that GPT-4.5 was judged to be the human in 73% of five‑minute text conversations.",
+    "relevantPassage": "A 2025 pre‑registered, three‑party Turing‑test study by Cameron R. Jones and Benjamin K. Bergen showed that GPT-4.5 was judged to be the human in 73% of five‑minute text conversations.",
+    "category": "temporal",
     "difficulty": "medium",
-    "sectionId": "Tests for human-level AGI"
+    "sectionId": "Turing test",
+    "basedOnChange": "New section: Turing test added 2025 study results"
   },
   {
     "id": "q4",
-    "question": "Who proposed the Turing test?",
-    "answer": "Alan Turing",
-    "relevantPassage": "The Turing test was proposed by Alan Turing in his 1950 paper 'Computing Machinery and Intelligence'.",
+    "question": "What does the Ikea test involve according to the new content?",
+    "answer": "The Ikea test involves an AI controlling a robot which attempts to assemble an Ikea flat-pack furniture product after having been shown the parts and instructions.",
+    "relevantPassage": "The 'Ikea test', also known as the Flat Pack Furniture Test, involves an AI controls a robot which attempts to assemble a Ikea flat-pack furniture product after haveing been shown the parts and instructions.",
     "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Turing test"
+    "difficulty": "easy",
+    "sectionId": "Ikea test",
+    "basedOnChange": "New section: Ikea test added description"
   },
   {
     "id": "q5",
-    "question": "What percentage of judges did Eugene Goostman reportedly convince he was human during the Turing Test event?",
-    "answer": "33%",
-    "relevantPassage": "In 2014, a chatbot named Eugene Goostman, designed to imitate a 13-year-old Ukrainian boy, reportedly passed a Turing Test event by convincing 33% of judges that it was human.",
-    "category": "factual",
+    "question": "What was demonstrated by MIT researchers in December 2025 regarding the Ikea test?",
+    "answer": "MIT researchers demonstrated a 'speech-to-reality' system combining large language models with vision-language models and robotic assembly.",
+    "relevantPassage": "In December 2025, MIT researchers demonstrated a 'speech-to-reality' system combining large language models with vision-language models and robotic assembly.",
+    "category": "temporal",
     "difficulty": "medium",
-    "sectionId": "Turing test"
+    "sectionId": "Ikea test",
+    "basedOnChange": "New section: Ikea test added 2025 demonstration"
   },
   {
     "id": "q6",
-    "question": "What significant prediction did Microsoft researchers make about GPT-4 in 2023?",
-    "answer": "They concluded that it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system.",
-    "relevantPassage": "In 2023, Microsoft researchers published a detailed evaluation of GPT-4. They concluded: 'Given the breadth and depth of GPT-4's capabilities, we believe that it could reasonably be viewed as an early (yet still incomplete) version of an artificial general intelligence (AGI) system.'",
-    "category": "factual",
-    "difficulty": "hard",
-    "sectionId": "Feasibility"
+    "question": "What significant advancement in coffee-making AI was reported in January 2024?",
+    "answer": "Figure AI's Figure 01 humanoid learned to operate a Keurig coffee machine autonomously after watching video demonstrations.",
+    "relevantPassage": "In January 2024, Figure AI's Figure 01 humanoid learned to operate a Keurig coffee machine autonomously after watching video demonstrations.",
+    "category": "temporal",
+    "difficulty": "medium",
+    "sectionId": "Coffee test",
+    "basedOnChange": "New section: Coffee test added 2024 advancement"
   },
   {
     "id": "q7",
-    "question": "What was the outcome of the 2025 pre-registered Turing-test study involving GPT-4.5?",
-    "answer": "GPT-4.5 was judged to be the human in 73% of five-minute text conversations.",
-    "relevantPassage": "A 2025 pre‑registered, three‑party Turing‑test study by Cameron R. Jones and Benjamin K. Bergen showed that GPT-4.5 was judged to be the human in 73% of five‑minute text conversations—surpassing the 67% humanness rate of real confederates and meeting the researchers' criterion for having passed the test.",
+    "question": "What does Mustafa Suleyman's test propose for AI?",
+    "answer": "Mustafa Suleyman's test proposes giving an AI model US$100,000 and asking it to obtain US$1 million.",
+    "relevantPassage": "Mustafa Suleyman's test proposes giving an AI model US$100,000 and asking it to obtain US$1 million.",
     "category": "factual",
-    "difficulty": "hard",
-    "sectionId": "Turing test"
+    "difficulty": "medium",
+    "sectionId": "Suleyman's test",
+    "basedOnChange": "New section: Suleyman's test added proposal"
   },
   {
     "id": "q8",
-    "question": "What did the 2023 report by Stuart Armstrong and Kaj Sotala analyze?",
-    "answer": "95 predictions made between 1950 and 2012 on when human-level AI will come about.",
-    "relevantPassage": "A report by Stuart Armstrong and Kaj Sotala of the Machine Intelligence Research Institute found that 'over [a] 60-year time frame there is a strong bias towards predicting the arrival of human-level AI as between 15 and 25 years from the time the prediction was made'. They analyzed 95 predictions made between 1950 and 2012 on when human-level AI will come about.",
+    "question": "According to the new content, what is the FurnitureBench benchmark?",
+    "answer": "The FurnitureBench benchmark provides a standardised real-world furniture assembly benchmark with over 200 hours of demonstration data for training and evaluating autonomous assembly systems.",
+    "relevantPassage": "The FurnitureBench benchmark, published in the International Journal of Robotics Research in 2025, now provides a standardised real-world furniture assembly benchmark with over 200 hours of demonstration data for training and evaluating autonomous assembly systems.",
     "category": "factual",
     "difficulty": "hard",
-    "sectionId": "Feasibility"
+    "sectionId": "Ikea test",
+    "basedOnChange": "New section: Ikea test added FurnitureBench benchmark"
   },
   {
     "id": "q9",
-    "question": "What is the FurnitureBench benchmark used for?",
-    "answer": "It provides a standardized real-world furniture assembly benchmark with over 200 hours of demonstration data for training and evaluating autonomous assembly systems.",
-    "relevantPassage": "The FurnitureBench benchmark, published in the International Journal of Robotics Research in 2025, now provides a standardized real-world furniture assembly benchmark with over 200 hours of demonstration data for training and evaluating autonomous assembly systems.",
+    "question": "What did researchers from OpenAI estimate in 2023 regarding the impact of LLMs on the U.S. workforce?",
+    "answer": "Researchers from OpenAI estimated in 2023 that '80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of LLMs.'",
+    "relevantPassage": "Researchers from OpenAI estimated in 2023 that '80% of the U.S. workforce could have at least 10% of their work tasks affected by the introduction of LLMs.'",
     "category": "factual",
-    "difficulty": "hard",
-    "sectionId": "Ikea test"
+    "difficulty": "medium",
+    "sectionId": "Mass unemployment",
+    "basedOnChange": "Expanded: Mass unemployment added workforce impact estimates"
   },
   {
     "id": "q10",
-    "question": "What is the expected impact of AGI on public health according to the article?",
-    "answer": "AGI could accelerate medical research, notably against cancer, and democratize access to rapid, high-quality medical diagnostics.",
-    "relevantPassage": "For example, in public health, AGI could accelerate medical research, notably against cancer. It could take care of the elderly, and democratize access to rapid, high-quality medical diagnostics.",
-    "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Benefits"
+    "question": "What did Stephen Hawking state about the outcome of automation on quality of life?",
+    "answer": "According to Stephen Hawking, the outcome of automation on the quality of life will depend on how the wealth will be redistributed.",
+    "relevantPassage": "According to Stephen Hawking, the outcome of automation on the quality of life will depend on how the wealth will be redistributed.",
+    "category": "causal",
+    "difficulty": "hard",
+    "sectionId": "Mass unemployment",
+    "basedOnChange": "Expanded: Mass unemployment added Hawking's statement"
   }
 ]

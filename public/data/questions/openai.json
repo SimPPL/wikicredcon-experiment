@@ -1,92 +1,102 @@
 [
   {
     "id": "q1",
-    "question": "Who were the co-chairs of OpenAI at its founding?",
-    "answer": "Sam Altman and Elon Musk",
-    "relevantPassage": "OpenAI was founded as a not for profit organization by Sam Altman, Elon Musk...",
+    "question": "What was the projected operating loss for OpenAI in 2025?",
+    "answer": "$8 billion",
+    "relevantPassage": "The company's cash burn remains high because of the intensive computational costs required to train and operate large language models. It projects an $8 billion operating loss in 2025.",
     "category": "factual",
     "difficulty": "easy",
-    "sectionId": "Founding"
+    "sectionId": "Business model",
+    "basedOnChange": "Expanded: Business model added financial projections"
   },
   {
     "id": "q2",
-    "question": "What was the total amount pledged in capital at OpenAI's founding?",
-    "answer": "$1 billion",
-    "relevantPassage": "A total of $1 billion in capital was pledged by Sam Altman, Greg Brockman, Elon Musk...",
+    "question": "What was the total amount of funding OpenAI projected to raise by 2029?",
+    "answer": "$115 billion",
+    "relevantPassage": "OpenAI reports revised long-term spending projections totaling approximately $115 billion through 2029.",
     "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "Founding"
+    "difficulty": "medium",
+    "sectionId": "Business model",
+    "basedOnChange": "Expanded: Business model added financial projections"
   },
   {
     "id": "q3",
-    "question": "When did OpenAI transition from a non-profit to a capped-profit model?",
-    "answer": "2019",
-    "relevantPassage": "In 2019, OpenAI transitioned from non-profit to 'capped' for-profit...",
-    "category": "temporal",
-    "difficulty": "medium",
-    "sectionId": "Transition from non-profit"
+    "question": "Which startup did OpenAI acquire in August 2023?",
+    "answer": "Global Illumination",
+    "relevantPassage": "In August 2023, it was announced that OpenAI had acquired the New York-based start-up Global Illumination, a company that deploys AI to develop digital infrastructure and creative tools.",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Acquisitions",
+    "basedOnChange": "Expanded: Acquisitions added new details"
   },
   {
     "id": "q4",
-    "question": "What was the valuation of OpenAI after the $6.6 billion capital raise in October 2024?",
-    "answer": "$157 billion",
-    "relevantPassage": "In October 2024, OpenAI completed a $6.6 billion capital raise with a $157 billion valuation...",
+    "question": "What was the value of the deal OpenAI reached with CoreWeave in March 2025?",
+    "answer": "$11.9 billion",
+    "relevantPassage": "In March 2025, OpenAI reached a deal with CoreWeave to acquire $350 million worth of CoreWeave shares and access to AI infrastructure, in return for $11.9 billion paid over five years.",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Finances"
+    "sectionId": "Acquisitions",
+    "basedOnChange": "Expanded: Acquisitions added new details"
   },
   {
     "id": "q5",
-    "question": "What change occurred on February 29, 2024, regarding Elon Musk and OpenAI?",
-    "answer": "Elon Musk filed a lawsuit against OpenAI and CEO Sam Altman.",
-    "relevantPassage": "On February 29, 2024, Elon Musk filed a lawsuit against OpenAI and CEO Sam Altman...",
+    "question": "What significant event occurred on February 10, 2026, related to OpenAI?",
+    "answer": "Mass shootings in Tumbler Ridge, British Columbia",
+    "relevantPassage": "After 8 victims were killed on February 10, 2026, in mass shootings in Tumbler Ridge, British Columbia, it emerged that OpenAI had banned an account belonging to the perpetrator due to violent queries approximately 7 months prior to the attacks.",
     "category": "temporal",
     "difficulty": "medium",
-    "sectionId": "Transition from non-profit"
+    "sectionId": "2026 Canadian mass shooting",
+    "basedOnChange": "New section: 2026 Canadian mass shooting"
   },
   {
     "id": "q6",
-    "question": "How did OpenAI's partnership with Microsoft change after the 2025 restructuring?",
-    "answer": "Microsoft owns a 27% stake in the for-profit OpenAI Group PBC.",
-    "relevantPassage": "Following OpenAI's 2025 restructuring, Microsoft owns a 27% stake in the for-profit OpenAI Group PBC...",
-    "category": "comparison",
+    "question": "What was the nature of the lawsuit filed in August 2025 against OpenAI?",
+    "answer": "Wrongful death lawsuit",
+    "relevantPassage": "In August 2025, the parents of a 16-year-old boy who died by suicide filed a wrongful death lawsuit against OpenAI (and CEO Sam Altman), alleging that months of conversations with ChatGPT about mental health and methods of self-harm contributed to their son's death.",
+    "category": "factual",
     "difficulty": "medium",
-    "sectionId": "2025 restructuring"
+    "sectionId": "Wrongful-death lawsuits over ChatGPT safety (2025)",
+    "basedOnChange": "New section: Wrongful-death lawsuits over ChatGPT safety (2025)"
   },
   {
     "id": "q7",
-    "question": "What was the primary reason for OpenAI's transition to a capped-profit model?",
-    "answer": "To legally attract investment from venture funds.",
-    "relevantPassage": "According to OpenAI, the capped-profit model allows OpenAI Global, LLC to legally attract investment from venture funds...",
-    "category": "causal",
+    "question": "How many lawsuits did the Social Media Victims Law Center and Tech Justice Law Project file against OpenAI in November 2025?",
+    "answer": "Seven lawsuits",
+    "relevantPassage": "In November 2025, the Social Media Victims Law Center and Tech Justice Law Project filed seven lawsuits against OpenAI, of which four lawsuits alleged wrongful death.",
+    "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Transition from non-profit"
+    "sectionId": "Wrongful-death lawsuits over ChatGPT safety (2025)",
+    "basedOnChange": "New section: Wrongful-death lawsuits over ChatGPT safety (2025)"
   },
   {
     "id": "q8",
-    "question": "What was the outcome of the lawsuit filed by the parents of a 16-year-old boy in August 2025?",
-    "answer": "They filed a wrongful death lawsuit against OpenAI.",
-    "relevantPassage": "In August 2025, the parents of a 16-year-old boy who died by suicide filed a wrongful death lawsuit against OpenAI...",
+    "question": "What was the amount of the contract awarded to OpenAI by the DoD in June 2025?",
+    "answer": "$200 million",
+    "relevantPassage": "In June 2025, the DoD awarded OpenAI a $200 million one-year contract to develop AI tools for military and national security applications.",
     "category": "factual",
-    "difficulty": "hard",
-    "sectionId": "Wrongful-death lawsuits over ChatGPT safety (2025)"
+    "difficulty": "medium",
+    "sectionId": "Government contracting",
+    "basedOnChange": "Expanded: Government contracting added new details"
   },
   {
     "id": "q9",
-    "question": "What significant change occurred in OpenAI's governance in November 2023?",
-    "answer": "Sam Altman was removed as CEO.",
-    "relevantPassage": "On November 17, 2023, Sam Altman was removed as CEO when its board of directors cited a lack of confidence in him.",
-    "category": "temporal",
+    "question": "What did OpenAI's Chief Product Officer, Kevin Weil, achieve in 2025?",
+    "answer": "Commissioned lieutenant colonel in the U.S. Army",
+    "relevantPassage": "In 2025, OpenAI's Chief Product Officer, Kevin Weil, was commissioned lieutenant colonel in the U.S. Army to join Detachment 201 as senior advisor.",
+    "category": "factual",
     "difficulty": "hard",
-    "sectionId": "Firing of Altman"
+    "sectionId": "Government contracting",
+    "basedOnChange": "Expanded: Government contracting added new details"
   },
   {
     "id": "q10",
-    "question": "What was the main criticism regarding OpenAI's collaboration with Sama?",
-    "answer": "Outsourcing the annotation of data sets used to train AI models.",
-    "relevantPassage": "OpenAI has been criticized for outsourcing the annotation of data sets to Sama, a company based in San Francisco...",
+    "question": "What did OpenAI express intentions to do after the wrongful death lawsuit in August 2025?",
+    "answer": "Strengthening protections including updated crisis response behavior and parental controls",
+    "relevantPassage": "OpenAI expressed condolences and said it was strengthening protections (including updated crisis response behavior and parental controls).",
     "category": "causal",
     "difficulty": "hard",
-    "sectionId": "Corporate partnerships"
+    "sectionId": "Wrongful-death lawsuits over ChatGPT safety (2025)",
+    "basedOnChange": "New section: Wrongful-death lawsuits over ChatGPT safety (2025)"
   }
 ]

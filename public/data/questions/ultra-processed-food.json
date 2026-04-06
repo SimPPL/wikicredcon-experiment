@@ -1,92 +1,102 @@
 [
   {
     "id": "q1",
-    "question": "What is the Nova food classification system associated with?",
-    "answer": "Ultra-processed foods (UPFs) are industrially manufactured food products.",
-    "relevantPassage": "Ultra-processed foods (UPF) are industrially manufactured food products, generally derived from natural food or synthesized from other organic compounds.",
+    "question": "What year did Carlos Augusto Monteiro and others at the University of São Paulo publish a paper describing the Nova classification system?",
+    "answer": "2009",
+    "relevantPassage": "A 2009 paper by Monteiro and others at the University of São Paulo described the Nova classification system.",
     "category": "factual",
     "difficulty": "easy",
-    "sectionId": "Lead"
+    "sectionId": "History",
+    "basedOnChange": "New section: History"
   },
   {
     "id": "q2",
+    "question": "What are the four defining themes identified in the 2021 survey for classifying levels of food processing?",
+    "answer": "Extent of change, Nature of change, Place of processing, Purpose of processing",
+    "relevantPassage": "A survey of systems for classifying levels of food processing in 2021 identified four 'defining themes': Extent of change (from natural state), Nature of change (properties, ingredients added), Place of processing (where/by whom), Purpose of processing (why, essential/cosmetic)",
+    "category": "factual",
+    "difficulty": "medium",
+    "sectionId": "History",
+    "basedOnChange": "New section: History"
+  },
+  {
+    "id": "q3",
+    "question": "What score on the Siga Index indicates that a food product is classified as ultra-processed?",
+    "answer": "Below 40",
+    "relevantPassage": "The Siga Index also defines ultra-processed foods (UPFs) as those with a score below 40, which are considered to have low nutritional value and high levels of additives, preservatives, and artificial ingredients.",
+    "category": "factual",
+    "difficulty": "easy",
+    "sectionId": "Siga Index",
+    "basedOnChange": "Expanded: Siga Index"
+  },
+  {
+    "id": "q4",
+    "question": "According to a 2023 review, what is the increased risk percentage of various cancers for people who consume 10% more ultra-processed foods?",
+    "answer": "Increased risk of various cancers",
+    "relevantPassage": "A 2023 review indicated that people who consume 10% more ultra-processed foods have an increased risk of various cancers, including colorectal, breast, and pancreatic cancer.",
+    "category": "causal",
+    "difficulty": "medium",
+    "sectionId": "Cancer",
+    "basedOnChange": "Expanded: Cancer"
+  },
+  {
+    "id": "q5",
+    "question": "What significant change occurred in the food supply during World War II related to ultra-processed foods?",
+    "answer": "Food with a long shelf life was developed primarily to secure the food supply of soldiers engaging in active combat.",
+    "relevantPassage": "During World War II food with a long shelf life was developed primarily to secure the food supply of soldiers engaging in active combat.",
+    "category": "causal",
+    "difficulty": "medium",
+    "sectionId": "Commercialization and market expansion",
+    "basedOnChange": "New section: Commercialization and market expansion"
+  },
+  {
+    "id": "q6",
     "question": "What percentage of packaged food in the United States is represented by ultra-processed foods?",
     "answer": "70%",
     "relevantPassage": "UPFs represent 70% of packaged food in the United States.",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Environmental impact"
-  },
-  {
-    "id": "q3",
-    "question": "Which countries have published national dietary guidelines recommending the avoidance of ultra-processed foods?",
-    "answer": "Brazil, Uruguay, Peru, and Ecuador.",
-    "relevantPassage": "Four Latin American countries—Brazil, Uruguay, Peru, and Ecuador—have so far published national official dietary guidelines that recommend avoiding ultra-processed foods.",
-    "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Regulation and policy"
-  },
-  {
-    "id": "q4",
-    "question": "What health risk is associated with each 10% increase in ultra-processed food consumption according to a 2023 meta-analysis?",
-    "answer": "A 12% higher risk for type 2 diabetes.",
-    "relevantPassage": "A 2023 meta-analysis of 415,554 participants found that each 10% increase in ultra-processed food consumption was associated with a 12% higher risk for type 2 diabetes.",
-    "category": "factual",
-    "difficulty": "hard",
-    "sectionId": "Diabetes"
-  },
-  {
-    "id": "q5",
-    "question": "What is the Siga Index used for?",
-    "answer": "It is a classification system for processed foods based on the degree of processing and the nutritional quality of foods.",
-    "relevantPassage": "The Siga Index is a classification system for processed foods developed in France. It is based on the degree of processing and the nutritional quality of foods, using a holistic and reductionist approach.",
-    "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "Siga Index"
-  },
-  {
-    "id": "q6",
-    "question": "What is the main focus of the Nova food classification system?",
-    "answer": "Food processing rather than foods types or nutrients.",
-    "relevantPassage": "The system focuses on food processing rather than foods types or nutrients.",
-    "category": "factual",
-    "difficulty": "medium",
-    "sectionId": "NOVA"
+    "sectionId": "Environmental impact",
+    "basedOnChange": "Expanded: Environmental impact"
   },
   {
     "id": "q7",
-    "question": "Why are ultra-processed foods often considered more affordable?",
-    "answer": "They often use low-cost ingredients, which can reduce production and retail prices.",
-    "relevantPassage": "Ultra-processed foods often use low-cost ingredients, which can reduce production and retail prices.",
+    "question": "What is one of the reasons for the popularity of ultra-processed foods among lower-income consumers?",
+    "answer": "They often have an extended shelf life.",
+    "relevantPassage": "UPFs often have an extended shelf life, an important consideration for lower income consumers without reliable access to refrigeration.",
     "category": "causal",
-    "difficulty": "easy",
-    "sectionId": "Profitability and affordability"
+    "difficulty": "medium",
+    "sectionId": "Profitability and affordability",
+    "basedOnChange": "New section: Profitability and affordability"
   },
   {
     "id": "q8",
-    "question": "How do ultra-processed foods contribute to environmental impacts?",
-    "answer": "They account for 26% of global greenhouse gas emissions.",
-    "relevantPassage": "Food systems, including the production, transportation, and processing of foods, account for 26% of global greenhouse gas emissions.",
-    "category": "causal",
-    "difficulty": "medium",
-    "sectionId": "Environmental impact"
+    "question": "In what year did Carlos Monteiro and Arne Astrup engage in a series of articles debating the Nova classification?",
+    "answer": "2022",
+    "relevantPassage": "In 2022, Carlos Monteiro and Arne Astrup argued for and against the Nova classification in a series of three articles written in the style of an Oxford debate.",
+    "category": "temporal",
+    "difficulty": "hard",
+    "sectionId": "Criticism",
+    "basedOnChange": "Expanded: Criticism"
   },
   {
     "id": "q9",
-    "question": "When did concerns about food processing begin to emerge?",
-    "answer": "Since at least the Industrial Revolution.",
-    "relevantPassage": "Concerns about food processing have existed since at least the Industrial Revolution.",
-    "category": "temporal",
-    "difficulty": "easy",
-    "sectionId": "History"
+    "question": "What is the hazard ratio for animal-based products associated with diseases among ultra-processed foods according to a 2023 study?",
+    "answer": "1.09",
+    "relevantPassage": "The study found that animal-based products (HR = 1.09) and artificially and sugar-sweetened beverages (HR = 1.09) are most strongly associated with diseases among UPFs.",
+    "category": "factual",
+    "difficulty": "hard",
+    "sectionId": "Criticism",
+    "basedOnChange": "Expanded: Criticism"
   },
   {
     "id": "q10",
-    "question": "What significant change occurred in 2022 regarding ultra-processed foods in the UK?",
-    "answer": "The Scientific Advisory Committee on Nutrition (SACN) recommended further research and scheduled a review on its position for June 2024.",
-    "relevantPassage": "In 2022, the Scientific Advisory Committee on Nutrition (SACN) reviewed scientific literature to consider whether the British government should adopt a position on ultra-processed food and recommended further research, scheduling a review on its position for June 2024.",
-    "category": "temporal",
+    "question": "How does the Nova classification system define ultra-processed foods?",
+    "answer": "The Nova definition of ultra-processed food does not comment on the nutritional content of food and is not intended to be used for nutrient profiling.",
+    "relevantPassage": "The Nova definition of ultra-processed food does not comment on the nutritional content of food and is not intended to be used for nutrient profiling.",
+    "category": "comparison",
     "difficulty": "medium",
-    "sectionId": "Regulation and policy"
+    "sectionId": "NOVA",
+    "basedOnChange": "New section: NOVA"
   }
 ]

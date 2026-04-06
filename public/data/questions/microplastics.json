@@ -1,92 +1,102 @@
 [
   {
     "id": "q1",
-    "question": "What are the two classifications of microplastics recognized in the article?",
-    "answer": "Primary microplastics and secondary microplastics.",
-    "relevantPassage": "Two classifications of microplastics are currently recognized. Primary microplastics include any plastic fragments or particles that are already 5.0 mm in size or less before entering the environment. Secondary microplastics arise from the degradation (breakdown) of larger plastic products through natural weathering processes after entering the environment.",
+    "question": "What year was it estimated that there are between 15 and 51 trillion individual pieces of microplastic in the world's oceans?",
+    "answer": "2014",
+    "relevantPassage": "In 2014, it was estimated that there are between 15 and 51 trillion individual pieces of microplastic in the world's oceans...",
     "category": "factual",
     "difficulty": "easy",
-    "sectionId": "Lead"
+    "sectionId": "Classification",
+    "basedOnChange": "Expanded: Classification added new data"
   },
   {
     "id": "q2",
-    "question": "What percentage of ocean microplastics comes from textiles or clothing?",
-    "answer": "Approximately 35%.",
-    "relevantPassage": "Approximately 35% of all ocean microplastics come from textiles or clothing, primarily due to the erosion of polyester, acrylic, or nylon-based clothing, often during the washing process.",
+    "question": "What is the estimated weight range of microplastics in the world's oceans as of 2014?",
+    "answer": "between 93,000 and 236,000 metric tons",
+    "relevantPassage": "...which was estimated to weigh between 93,000 and 236,000 metric tons.",
     "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "Lead"
+    "difficulty": "medium",
+    "sectionId": "Classification",
+    "basedOnChange": "Expanded: Classification added new data"
   },
   {
     "id": "q3",
-    "question": "What was the estimated number of individual pieces of microplastic in the world's oceans in 2014?",
-    "answer": "Between 15 and 51 trillion individual pieces.",
-    "relevantPassage": "In 2014, it was estimated that there are between 15 and 51 trillion individual pieces of microplastic in the world's oceans.",
+    "question": "What is the estimated annual leakage of microplastics from paint into the ocean?",
+    "answer": "1.9 Mt/year",
+    "relevantPassage": "Paint appears as the largest source of microplastic leakage into the ocean and waterways (1.9 Mt/year)...",
     "category": "factual",
     "difficulty": "medium",
-    "sectionId": "Classification"
+    "sectionId": "Sources of microplastics",
+    "basedOnChange": "Expanded: Sources of microplastics added new data"
   },
   {
     "id": "q4",
-    "question": "What is the main pathway of human exposure to microplastics?",
-    "answer": "Oral intake.",
-    "relevantPassage": "Oral intake is the main pathway of human exposure to microplastics.",
+    "question": "What percentage of the Great Pacific Garbage Patch is estimated to be made up of microplastics?",
+    "answer": "up to 30%",
+    "relevantPassage": "Microplastics could contribute up to 30% of the Great Pacific Garbage Patch polluting the world's oceans...",
     "category": "factual",
-    "difficulty": "easy",
-    "sectionId": "Oral intake"
+    "difficulty": "medium",
+    "sectionId": "Sources of microplastics",
+    "basedOnChange": "Expanded: Sources of microplastics added new data"
   },
   {
     "id": "q5",
-    "question": "What is the estimated range of microplastics emitted from car and truck tires in Denmark?",
-    "answer": "Between orders of magnitude (mass) 10^6 to 10^11 kg per year.",
-    "relevantPassage": "Estimates of emissions of microplastics to the environment in Denmark are between orders of magnitude (mass) 10^6 to 10^11 kg per year.",
-    "category": "factual",
+    "question": "What significant finding was reported in a 2023 study regarding microplastics and soil?",
+    "answer": "microplastics can reduce soil fertility and crop yields by disrupting soil microbial communities and water retention capacity.",
+    "relevantPassage": "A 2023 study found that microplastics can reduce soil fertility and crop yields by disrupting soil microbial communities and water retention capacity.",
+    "category": "causal",
     "difficulty": "medium",
-    "sectionId": "Car and truck tires"
+    "sectionId": "Oral intake",
+    "basedOnChange": "Expanded: Oral intake added new data"
   },
   {
     "id": "q6",
-    "question": "Why are microplastics considered a risk to environmental and human health?",
-    "answer": "Due to their small size, nanoplastics can cross cellular membranes and affect the functioning of cells.",
-    "relevantPassage": "Nanoplastics are thought to be a risk to environmental and human health. Due to their small size, nanoplastics can cross cellular membranes and affect the functioning of cells.",
-    "category": "causal",
-    "difficulty": "medium",
-    "sectionId": "Nanoplastics"
+    "question": "What was the estimated number of microplastics released into water sources daily before the updates?",
+    "answer": "65 million",
+    "relevantPassage": "65 million microplastics are released into water sources every day.",
+    "category": "factual",
+    "difficulty": "hard",
+    "sectionId": "Oral intake",
+    "basedOnChange": "Expanded: Oral intake added new data"
   },
   {
     "id": "q7",
-    "question": "How do microplastics enter drinking water sources?",
-    "answer": "From surface runoff, wastewater effluent, combined sewer overflows, industrial effluent, degraded plastic waste, and atmospheric deposition.",
-    "relevantPassage": "Microplastics may enter drinking water sources in a number of ways: from surface runoff (e.g. after a rain event), to wastewater effluent (both treated and untreated), combined sewer overflows, industrial effluent, degraded plastic waste, and atmospheric deposition.",
+    "question": "What specific gastrointestinal effects have been observed in fish due to microplastic exposure?",
+    "answer": "inflammation and alterations of the intestinal microbiome.",
+    "relevantPassage": "In fish such as Danio rerio, microplastic particles accumulate in the intestine and may induce biological responses including inflammation and alterations of the intestinal microbiome.",
     "category": "causal",
-    "difficulty": "medium",
-    "sectionId": "Oral intake"
+    "difficulty": "hard",
+    "sectionId": "Gastrointestinal effects",
+    "basedOnChange": "New section: Gastrointestinal effects"
   },
   {
     "id": "q8",
-    "question": "When was the first study on microplastics in freshwater ecosystems published?",
-    "answer": "In 2011.",
-    "relevantPassage": "The first study on microplastics in freshwater ecosystems was published in 2011 that found an average of 37.8 fragments per square meter of Lake Huron sediment samples.",
+    "question": "What was the significant finding regarding microplastics in the context of Hurricane Larry in September 2021?",
+    "answer": "Hurricane Larry deposited, during the storm peak, 113,000 particles/m2/day as it passed over Newfoundland, Canada.",
+    "relevantPassage": "In September 2021 Hurricane Larry deposited, during the storm peak, 113,000 particles/m2/day as it passed over Newfoundland, Canada.",
     "category": "temporal",
-    "difficulty": "easy",
-    "sectionId": "Freshwater"
+    "difficulty": "medium",
+    "sectionId": "Effects on the environment",
+    "basedOnChange": "Expanded: Effects on the environment added new data"
   },
   {
     "id": "q9",
-    "question": "What significant change occurred in the United States regarding microbeads in cosmetics after the Microbead-Free Waters Act of 2015?",
-    "answer": "The use of microbeads in toothpaste and other rinse-off cosmetic products has been discontinued.",
-    "relevantPassage": "After the Microbead-Free Waters Act of 2015, the use of microbeads in toothpaste and other rinse-off cosmetic products has been discontinued in the US.",
-    "category": "temporal",
-    "difficulty": "medium",
-    "sectionId": "Cosmetics industry"
+    "question": "What new methods have been developed for detecting nanoplastics, as mentioned in the article?",
+    "answer": "microfluidics method to aggregate nanoplastics into larger aggregates for convenient isolation, enrichment and downstream quantification via fluorescence microscopy.",
+    "relevantPassage": "A microfluidics method is also developed to aggregate nanoplastics into larger aggregates for convenient isolation, enrichment and downstream quantification via fluorescence microscopy of Nile-Red stained nanoplastics aggregates.",
+    "category": "factual",
+    "difficulty": "hard",
+    "sectionId": "Nanoplastics",
+    "basedOnChange": "Expanded: Nanoplastics added new data"
   },
   {
     "id": "q10",
-    "question": "How do the emissions from car tires compare to other sources of microplastics?",
-    "answer": "Emissions from car tires are substantially higher than those of other sources of microplastics.",
-    "relevantPassage": "The emissions from car tires (wear reaching 100%) are substantially higher than those of other sources of microplastics, e.g., airplane tires (2%), artificial turf (wear 12–50%), brakes (wear 8%), and road markings (wear 5%).",
-    "category": "comparison",
-    "difficulty": "hard",
-    "sectionId": "Car and truck tires"
+    "question": "What is the relationship between microplastics and the hypothalamic-pituitary-gonadal (HPG) axis?",
+    "answer": "Microplastics and their additives can disrupt the hypothalamic-pituitary-gonadal (HPG) axis, a critical regulator of male reproductive function.",
+    "relevantPassage": "Microplastics and their additives can disrupt the hypothalamic-pituitary-gonadal (HPG) axis, a critical regulator of male reproductive function.",
+    "category": "causal",
+    "difficulty": "medium",
+    "sectionId": "Human health",
+    "basedOnChange": "Expanded: Human health added new data"
   }
 ]
