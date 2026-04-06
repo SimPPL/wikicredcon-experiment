@@ -232,6 +232,11 @@ export interface SurveyResponse {
   participantId: string;
   socialMediaUsefulnessPost: number; // 1-5
   confidencePost: number; // 1-5
+  editingSelfEfficacy: number; // 1-5
+  informationSufficiency: number; // 1-5
+  perceivedDifficulty: number; // 1-5
+  sourceDiversity: number; // 1-5
+  trustInQuality: number; // 1-5
   arbiterShowedNewInfo: boolean;
   arbiterShowedNewInfoText?: string;
   arbiterChangedEditing: boolean;
@@ -239,6 +244,8 @@ export interface SurveyResponse {
   wouldUseTool: number; // 1-5
   mostUsefulThing?: string;
   misleadingOrUnhelpful?: string;
+  openFeedback?: string;
+  followUpEmail?: string;
   completedAt: number;
 }
 
