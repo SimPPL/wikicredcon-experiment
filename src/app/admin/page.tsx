@@ -849,7 +849,7 @@ export default function AdminPage() {
                                     {s.condition === 'treatment' && (
                                       <>
                                         {' '}
-                                        | Arbiter interactions: {s.arbiterInteractions.length}
+                                        | Claims panel interactions: {s.arbiterInteractions.length}
                                       </>
                                     )}
                                   </div>

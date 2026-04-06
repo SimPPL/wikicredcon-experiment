@@ -78,6 +78,37 @@ export default function ArticleRenderer({
           </div>
         );
       })}
+
+      {/* Full References section */}
+      {(() => {
+        const allCitations = article.sections.flatMap(s => s.citations);
+        if (allCitations.length === 0) return null;
+        return (
+          <div className="mt-8 pt-4" style={{ borderTop: '1px solid var(--wiki-chrome-border)' }}>
+            <h2 style={{ fontSize: '1.5rem', fontWeight: 400, borderBottom: '1px solid var(--wiki-chrome-border)', paddingBottom: '0.15rem', marginBottom: '0.5rem' }}>
+              References
+            </h2>
+            <ol className="pl-5 space-y-1" style={{ fontSize: '0.8rem', color: 'var(--wiki-text-secondary)', lineHeight: 1.5 }}>
+              {allCitations.map((c) => (
+                <li key={c.id} value={c.index}>
+                  {c.url ? (
+                    <a
+                      href={c.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: 'var(--wiki-link)' }}
+                    >
+                      {c.text}
+                    </a>
+                  ) : (
+                    <span>{c.text}</span>
+                  )}
+                </li>
+              ))}
+            </ol>
+          </div>
+        );
+      })()}
     </div>
   );
 }

@@ -187,10 +187,7 @@ export default function LandingPage({ onStart }: LandingPageProps) {
             <a href="https://simppl.org" target="_blank" rel="noopener noreferrer" style={{ color: '#a2a9b1' }}>
               SimPPL
             </a>
-            <a href="https://arbiter.simppl.org" target="_blank" rel="noopener noreferrer" style={{ color: '#a2a9b1' }}>
-              Arbiter
-            </a>
-            <a href="https://meta.wikimedia.org/wiki/WikiCredCon" target="_blank" rel="noopener noreferrer" style={{ color: '#a2a9b1' }}>
+<a href="https://meta.wikimedia.org/wiki/WikiCredCon" target="_blank" rel="noopener noreferrer" style={{ color: '#a2a9b1' }}>
               WikiCredCon
             </a>
           </div>

@@ -393,8 +393,8 @@ export default function EditPage() {
             Task 1 Complete
           </h1>
           <p className="mb-4" style={{ color: 'var(--wiki-text-secondary)' }}>
-            You will now edit a different article {nextCondition} the Arbiter
-            sidebar showing social media claims.
+            You will now edit a different article {nextCondition} the claims panel
+            showing social media claims.
           </p>
           <p className="mb-6 text-sm" style={{ color: 'var(--wiki-text-disabled)' }}>
             You will have another 12 minutes for this task.

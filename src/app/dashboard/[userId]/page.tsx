@@ -207,7 +207,7 @@ export default function DashboardPage() {
                     color: session.condition === 'treatment' ? '#4338ca' : 'var(--wiki-text-secondary)',
                   }}
                 >
-                  {session.condition === 'treatment' ? 'With Arbiter' : 'Without Arbiter'}
+                  {session.condition === 'treatment' ? 'With Claims Panel' : 'Without Claims Panel'}
                 </span>
               </div>
 
@@ -289,7 +289,7 @@ export default function DashboardPage() {
               {session.condition === 'treatment' && session.arbiterInteractions.length > 0 && (
                 <div className="mt-4">
                   <h4 className="text-sm font-semibold mb-2" style={{ color: 'var(--wiki-text-secondary)' }}>
-                    Arbiter claim interactions: {session.arbiterInteractions.length}
+                    Claims panel interactions: {session.arbiterInteractions.length}
                   </h4>
                 </div>
               )}

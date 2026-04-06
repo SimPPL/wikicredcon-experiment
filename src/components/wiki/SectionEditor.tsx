@@ -14,7 +14,6 @@ interface SectionEditorProps {
 }
 
 function renderContentWithCitations(content: string, citations: ArticleSection['citations']) {
-  // Split into paragraphs on double newlines
   const paragraphs = content.split(/\n\n+/).filter(p => p.trim());
 
   return (
@@ -24,7 +23,7 @@ function renderContentWithCitations(content: string, citations: ArticleSection['
           return <p key={pIdx} style={{ marginBottom: '0.5em' }}>{para}</p>;
         }
 
-        // Replace [n] patterns with superscript citation links
+        // Replace [n] patterns with clickable superscript citation links
         const parts: React.ReactNode[] = [];
         const regex = /\[(\d+)\]/g;
         let lastIndex = 0;
@@ -35,11 +34,31 @@ function renderContentWithCitations(content: string, citations: ArticleSection['
             parts.push(para.slice(lastIndex, match.index));
           }
           const citationIndex = parseInt(match[1], 10);
-          parts.push(
-            <sup key={`cite-${pIdx}-${match.index}`} className="wiki-citation">
-              [{citationIndex}]
-            </sup>
-          );
+          const citation = citations.find(c => c.index === citationIndex);
+
+          if (citation?.url) {
+            parts.push(
+              <sup key={`cite-${pIdx}-${match.index}`}>
+                <a
+                  href={citation.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={citation.text}
+                  className="wiki-citation"
+                  style={{ cursor: 'pointer' }}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  [{citationIndex}]
+                </a>
+              </sup>
+            );
+          } else {
+            parts.push(
+              <sup key={`cite-${pIdx}-${match.index}`} className="wiki-citation" title={citation?.text}>
+                [{citationIndex}]
+              </sup>
+            );
+          }
           lastIndex = regex.lastIndex;
         }
 
@@ -49,6 +68,36 @@ function renderContentWithCitations(content: string, citations: ArticleSection['
 
         return <p key={pIdx} style={{ marginBottom: '0.5em' }}>{parts}</p>;
       })}
+
+      {/* Inline references list for this section */}
+      {citations.length > 0 && (
+        <details className="mt-2 mb-2" style={{ fontSize: '0.75rem' }}>
+          <summary
+            style={{ color: 'var(--wiki-text-secondary)', cursor: 'pointer', fontSize: '0.75rem' }}
+          >
+            References ({citations.length})
+          </summary>
+          <ol className="mt-1 pl-4 space-y-0.5" style={{ color: 'var(--wiki-text-secondary)', fontSize: '0.7rem', lineHeight: 1.4 }}>
+            {citations.map((c) => (
+              <li key={c.id} value={c.index}>
+                {c.url ? (
+                  <a
+                    href={c.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ color: 'var(--wiki-link)' }}
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    {c.text.slice(0, 120)}{c.text.length > 120 ? '...' : ''}
+                  </a>
+                ) : (
+                  <span>{c.text.slice(0, 120)}{c.text.length > 120 ? '...' : ''}</span>
+                )}
+              </li>
+            ))}
+          </ol>
+        </details>
+      )}
     </div>
   );
 }

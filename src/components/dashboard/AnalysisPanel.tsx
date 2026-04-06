@@ -154,8 +154,8 @@ const METRIC_DEFINITIONS: MetricDefinition[] = [
   { key: 'timeAway', label: 'Time Away (ms)', description: 'Total time on other tabs', source: 'Behavioral' },
   { key: 'groundTruthSimilarity', label: 'Ground Truth Similarity', description: 'Similarity to current article', source: 'Experiment-specific' },
   { key: 'improvementOverBaseline', label: 'Improvement Over Baseline', description: 'How much closer to ground truth', source: 'Experiment-specific' },
-  { key: 'arbiterClaimsViewed', label: 'Arbiter Claims Viewed', description: 'Claims viewed in sidebar', source: 'Treatment only', treatmentOnly: true },
-  { key: 'arbiterTime', label: 'Arbiter Time (ms)', description: 'Time reading claims', source: 'Treatment only', treatmentOnly: true },
+  { key: 'arbiterClaimsViewed', label: 'Claims Viewed', description: 'Claims viewed in sidebar', source: 'Treatment only', treatmentOnly: true },
+  { key: 'arbiterTime', label: 'Claims Panel Time (ms)', description: 'Time reading claims', source: 'Treatment only', treatmentOnly: true },
   { key: 'totalEditTime', label: 'Total Edit Time (ms)', description: 'Session duration', source: 'Standard' },
 ];
 

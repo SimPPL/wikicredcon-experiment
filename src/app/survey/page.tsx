@@ -18,9 +18,9 @@ export default function SurveyPage() {
   // Survey fields
   const [usefulnessPost, setUsefulnessPost] = useState<number>(0);
   const [confidencePost, setConfidencePost] = useState<number>(0);
-  const [showedNewInfo, setShowedNewInfo] = useState<boolean | null>(null);
+  const [showedNewInfo, setShowedNewInfo] = useState<number>(0);
   const [showedNewInfoText, setShowedNewInfoText] = useState('');
-  const [changedEditing, setChangedEditing] = useState<boolean | null>(null);
+  const [changedEditing, setChangedEditing] = useState<number>(0);
   const [changedEditingText, setChangedEditingText] = useState('');
   const [wouldUseTool, setWouldUseTool] = useState<number>(0);
   const [mostUseful, setMostUseful] = useState('');
@@ -69,9 +69,9 @@ export default function SurveyPage() {
       participantId: participant.id,
       socialMediaUsefulnessPost: usefulnessPost,
       confidencePost,
-      arbiterShowedNewInfo: showedNewInfo === true,
+      arbiterShowedNewInfo: showedNewInfo >= 4,
       arbiterShowedNewInfoText: showedNewInfoText || undefined,
-      arbiterChangedEditing: changedEditing === true,
+      arbiterChangedEditing: changedEditing >= 4,
       arbiterChangedEditingText: changedEditingText || undefined,
       wouldUseTool,
       mostUsefulThing: mostUseful || undefined,
@@ -110,8 +110,8 @@ export default function SurveyPage() {
   const isValid =
     usefulnessPost > 0 &&
     confidencePost > 0 &&
-    showedNewInfo !== null &&
-    changedEditing !== null &&
+    showedNewInfo > 0 &&
+    changedEditing > 0 &&
     wouldUseTool > 0;
 
   return (
@@ -192,76 +192,70 @@ export default function SurveyPage() {
             </div>
           </div>
 
-          {/* Q3: Arbiter showed new info */}
+          {/* Q3: Claims panel showed new info */}
           <div>
             <p className="text-sm font-semibold mb-2" style={{ color: '#202122' }}>
-              3. Did Arbiter show you information you would not have found on your own?{' '}
+              3. The claims panel showed me information I would not have found on my own.{' '}
               <span className="text-red-600">*</span>
             </p>
-            <div className="flex gap-4 mb-2">
-              <label className="flex items-center gap-2 text-sm cursor-pointer">
-                <input
-                  type="radio"
-                  name="showedNewInfo"
-                  checked={showedNewInfo === true}
-                  onChange={() => setShowedNewInfo(true)}
-                  className="accent-blue-600"
-                />
-                Yes
-              </label>
-              <label className="flex items-center gap-2 text-sm cursor-pointer">
-                <input
-                  type="radio"
-                  name="showedNewInfo"
-                  checked={showedNewInfo === false}
-                  onChange={() => setShowedNewInfo(false)}
-                  className="accent-blue-600"
-                />
-                No
-              </label>
+            <div className="flex gap-6 mb-2">
+              {[1, 2, 3, 4, 5].map((n) => (
+                <label key={n} className="flex flex-col items-center gap-1 text-sm cursor-pointer">
+                  <input
+                    type="radio"
+                    name="showedNewInfo"
+                    value={n}
+                    checked={showedNewInfo === n}
+                    onChange={() => setShowedNewInfo(n)}
+                    className="accent-blue-600"
+                  />
+                  {n}
+                </label>
+              ))}
+            </div>
+            <div className="flex justify-between text-xs mb-2" style={{ color: '#54595d' }}>
+              <span>Strongly Disagree</span>
+              <span>Strongly Agree</span>
             </div>
             <textarea
               value={showedNewInfoText}
               onChange={(e) => setShowedNewInfoText(e.target.value)}
-              placeholder="Please elaborate..."
+              placeholder="Please elaborate (optional)..."
               className="w-full border rounded px-3 py-2 text-sm"
               style={{ borderColor: '#c8ccd1' }}
               rows={3}
             />
           </div>
 
-          {/* Q4: Arbiter changed editing */}
+          {/* Q4: Claims panel changed editing */}
           <div>
             <p className="text-sm font-semibold mb-2" style={{ color: '#202122' }}>
-              4. Did Arbiter change what you chose to edit or how you edited it?{' '}
+              4. The claims panel influenced what I chose to edit or how I edited it.{' '}
               <span className="text-red-600">*</span>
             </p>
-            <div className="flex gap-4 mb-2">
-              <label className="flex items-center gap-2 text-sm cursor-pointer">
-                <input
-                  type="radio"
-                  name="changedEditing"
-                  checked={changedEditing === true}
-                  onChange={() => setChangedEditing(true)}
-                  className="accent-blue-600"
-                />
-                Yes
-              </label>
-              <label className="flex items-center gap-2 text-sm cursor-pointer">
-                <input
-                  type="radio"
-                  name="changedEditing"
-                  checked={changedEditing === false}
-                  onChange={() => setChangedEditing(false)}
-                  className="accent-blue-600"
-                />
-                No
-              </label>
+            <div className="flex gap-6 mb-2">
+              {[1, 2, 3, 4, 5].map((n) => (
+                <label key={n} className="flex flex-col items-center gap-1 text-sm cursor-pointer">
+                  <input
+                    type="radio"
+                    name="changedEditing"
+                    value={n}
+                    checked={changedEditing === n}
+                    onChange={() => setChangedEditing(n)}
+                    className="accent-blue-600"
+                  />
+                  {n}
+                </label>
+              ))}
+            </div>
+            <div className="flex justify-between text-xs mb-2" style={{ color: '#54595d' }}>
+              <span>Strongly Disagree</span>
+              <span>Strongly Agree</span>
             </div>
             <textarea
               value={changedEditingText}
               onChange={(e) => setChangedEditingText(e.target.value)}
-              placeholder="Please elaborate..."
+              placeholder="Please elaborate (optional)..."
               className="w-full border rounded px-3 py-2 text-sm"
               style={{ borderColor: '#c8ccd1' }}
               rows={3}
@@ -271,7 +265,7 @@ export default function SurveyPage() {
           {/* Q5: Would use tool */}
           <div>
             <p className="text-sm font-semibold mb-2" style={{ color: '#202122' }}>
-              5. Would you use a tool like Arbiter in your regular editing?{' '}
+              5. I would find a similar claims panel useful in my regular editing workflow.{' '}
               <span className="text-red-600">*</span>
             </p>
             <div className="flex gap-6">
@@ -290,15 +284,15 @@ export default function SurveyPage() {
               ))}
             </div>
             <div className="flex justify-between text-xs mt-1" style={{ color: '#54595d' }}>
-              <span>Definitely not</span>
-              <span>Definitely yes</span>
+              <span>Strongly Disagree</span>
+              <span>Strongly Agree</span>
             </div>
           </div>
 
           {/* Q6: Most useful thing */}
           <div>
             <p className="text-sm font-semibold mb-2" style={{ color: '#202122' }}>
-              6. What was the most useful thing Arbiter showed you?
+              6. What was the most useful aspect of the claims panel?
             </p>
             <textarea
               value={mostUseful}
@@ -312,7 +306,7 @@ export default function SurveyPage() {
           {/* Q7: Misleading or unhelpful */}
           <div>
             <p className="text-sm font-semibold mb-2" style={{ color: '#202122' }}>
-              7. What was misleading or unhelpful about Arbiter?
+              7. What was misleading or unhelpful about the claims panel?
             </p>
             <textarea
               value={misleading}

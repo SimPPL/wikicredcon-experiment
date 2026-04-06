@@ -122,7 +122,7 @@ export default function ConsentForm({ onConsent }: ConsentFormProps) {
                 focus, toolbar usage, citation additions)
               </li>
               <li>
-                Interaction data with the Arbiter sidebar (if shown): which claims you
+                Interaction data with the claims sidebar (if shown): which claims you
                 viewed, time spent viewing claims
               </li>
               <li>Browser tab focus/blur events (to detect external searches)</li>

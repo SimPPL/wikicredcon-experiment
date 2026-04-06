@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "WikiCredCon Editing Experiment",
-  description: "A platform for studying credibility-aware Wikipedia editing with Arbiter",
+  description: "A platform for studying credibility-aware Wikipedia editing with social media claims",
 };
 
 export default function RootLayout({
