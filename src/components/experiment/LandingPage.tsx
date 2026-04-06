@@ -24,9 +24,10 @@ export default function LandingPage({ onStart }: LandingPageProps) {
             Wikipedia Articles
           </h1>
           <p className="text-base md:text-lg mb-8 max-w-2xl mx-auto" style={{ color: '#c8ccd1', lineHeight: 1.7 }}>
-            Wikipedia articles need regular updates to stay accurate and comprehensive.
-            In this exercise, you&apos;ll review and improve real articles that may have
-            gaps in their coverage — and learn about your own editing patterns in the process.
+            Wikipedia thrives when editors apply their knowledge and judgment to improve
+            articles. In this exercise, you&apos;ll review and edit real articles following
+            Wikipedia&apos;s core content policies — and learn about your own editing patterns
+            in the process.
           </p>
           <button
             onClick={onStart}
@@ -60,7 +61,7 @@ export default function LandingPage({ onStart }: LandingPageProps) {
           {[
             {
               title: 'Review the article',
-              description: 'You\'ll receive a Wikipedia article that may be missing recent developments or have coverage gaps. Read through it and identify where it could be improved — just like you would on Wikipedia itself.',
+              description: 'You\'ll receive a real Wikipedia article. Read through it and apply your editorial judgment — checking for verifiability, neutral point of view, and completeness, just as you would on Wikipedia itself.',
               accent: '#3366cc',
             },
             {

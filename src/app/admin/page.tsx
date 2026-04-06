@@ -5,6 +5,7 @@ import { EXPERIMENT } from '@/lib/constants';
 import { formatDuration } from '@/lib/utils';
 import type { ParticipantData, Article } from '@/types';
 import AnalysisPanel from '@/components/dashboard/AnalysisPanel';
+import QABenchmarkPanel from '@/components/dashboard/QABenchmarkPanel';
 
 // ── Statistical helpers ────────────────────────────────────
 
@@ -95,7 +96,7 @@ export default function AdminPage() {
   // Data state
   const [participants, setParticipants] = useState<ParticipantData[]>([]);
   const [expandedId, setExpandedId] = useState<string | null>(null);
-  const [activeTab, setActiveTab] = useState<'articles' | 'participants' | 'analysis'>('articles');
+  const [activeTab, setActiveTab] = useState<'articles' | 'participants' | 'analysis' | 'benchmark'>('articles');
 
   // Article state
   const [articleStats, setArticleStats] = useState<ArticleStats[]>([]);
@@ -533,6 +534,7 @@ export default function AdminPage() {
           ['articles', 'Articles'],
           ['participants', 'Participants'],
           ['analysis', 'Analysis'],
+          ['benchmark', 'QA Benchmark'],
         ] as const).map(([key, label]) => (
           <button
             key={key}
@@ -870,6 +872,10 @@ export default function AdminPage() {
         {/* ── ANALYSIS TAB ───────────────────────────────── */}
         {activeTab === 'analysis' && (
           <AnalysisPanel participants={participants} />
+        )}
+
+        {activeTab === 'benchmark' && (
+          <QABenchmarkPanel participants={participants} />
         )}
       </div>
     </div>

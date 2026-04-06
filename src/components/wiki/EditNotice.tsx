@@ -25,10 +25,9 @@ export default function EditNotice({ articleId, articleTitle, revisionDate }: Ed
           Your task
         </div>
         <p style={{ fontSize: '0.85rem', lineHeight: 1.6, marginBottom: '0.5rem' }}>
-          You are editing a snapshot of <strong>&ldquo;{articleTitle}&rdquo;</strong> from{' '}
-          <strong>{revisionDate}</strong>. Edit this article for <strong>clarity</strong>,{' '}
-          <strong>accuracy</strong>, <strong>reliability</strong>, and any{' '}
-          <strong>new information</strong> you believe should be included.
+          You are editing <strong>&ldquo;{articleTitle}&rdquo;</strong>. Edit this article for{' '}
+          <strong>clarity</strong>, <strong>accuracy</strong>, <strong>reliability</strong>,{' '}
+          and any <strong>new information</strong> you believe should be included.
         </p>
         <p style={{ fontSize: '0.85rem', lineHeight: 1.6, marginBottom: '0.5rem' }}>
           You have <strong>10 minutes</strong> to edit, plus <strong>1 minute</strong> to
