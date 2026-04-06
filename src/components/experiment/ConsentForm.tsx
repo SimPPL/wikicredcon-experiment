@@ -54,6 +54,18 @@ export default function ConsentForm({ onConsent }: ConsentFormProps) {
           WikiCredCon Editing Experiment &mdash; Credibility-Aware Wikipedia Editing Study
         </p>
 
+        {/* Top-level anonymization notice */}
+        <div
+          className="p-4 rounded-lg mb-8 text-sm"
+          style={{ background: '#eaf3ff', border: '1px solid #a3c1e0', color: '#202122', lineHeight: 1.6 }}
+        >
+          <strong>All data collected in this study is fully anonymized.</strong> Your email
+          address is used only to send you your personal editing report if you request it.
+          If you prefer not to share your email, you may enter a fake email — you simply
+          won&apos;t receive a follow-up report. Your email is stored separately from all
+          research data and is never included in any analysis or publication.
+        </div>
+
         <hr className="mb-8" style={{ borderColor: '#c8ccd1' }} />
 
         {/* Sections */}
