@@ -1,0 +1,217 @@
+{
+  "articleId": "semaglutide",
+  "judgeModel": "claude-opus-4-6",
+  "generatorModel": "openai/gpt-4o-mini",
+  "scoringDate": "2026-04-05",
+  "methodology": "Manual line-by-line scoring by Claude Opus 4.6 reading both article versions and assessing each question-answer pair",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the average percentage of weight regained by individuals after stopping semaglutide treatment within the following year?",
+      "expectedAnswer": "67%",
+      "pastArticle": {
+        "answerable": true,
+        "answerAccurate": true,
+        "explanation": "The past article's 'Trials for obesity' section mentions the STEP 4 trial showing weight regain after discontinuation. The 67% figure appears in the past article in the context of the STEP trials.",
+        "accuracyScore": 0.9
+      },
+      "currentArticle": {
+        "answerable": true,
+        "answerAccurate": true,
+        "explanation": "Clearly stated in the United States section.",
+        "accuracyScore": 1.0
+      },
+      "questionQuality": 3,
+      "isGoodDiffQuestion": false,
+      "note": "This fact exists in BOTH versions — not a good diff question. The information was present in the older article."
+    },
+    {
+      "id": "q2",
+      "question": "What new indication for semaglutide was expanded by the FDA in August 2025?",
+      "expectedAnswer": "Treatment of noncirrhotic MASH with moderate to advanced liver fibrosis",
+      "pastArticle": {
+        "answerable": false,
+        "answerAccurate": false,
+        "explanation": "The past article mentions MASH research but does NOT mention the August 2025 FDA approval. The approval event happened after the Oct 2025 snapshot of this article — wait, that's contradictory. The past snapshot IS Oct 2025, so if the approval was Aug 2025, it may or may not be there. Checking: the past article's Research section mentions 'Phase 3 trials for MASLD are ongoing' — it does NOT mention the FDA approval.",
+        "accuracyScore": 0.0
+      },
+      "currentArticle": {
+        "answerable": true,
+        "answerAccurate": true,
+        "explanation": "Clearly stated in the United States section with the August 2025 date.",
+        "accuracyScore": 1.0
+      },
+      "questionQuality": 5,
+      "isGoodDiffQuestion": true,
+      "note": "Excellent diff question — targets a specific regulatory event absent from the past version."
+    },
+    {
+      "id": "q3",
+      "question": "What was the cumulative occurrence of major adverse cardiovascular events in the semaglutide group during the cardiovascular health trial?",
+      "expectedAnswer": "569 of 8803 patients (6.5%)",
+      "pastArticle": {
+        "answerable": false,
+        "answerAccurate": false,
+        "explanation": "The past article's 'For cardiovascular health' section describes the SELECT trial and its 20% reduction result but does NOT include the specific numbers (569/8803/6.5%). These detailed statistics were added in the expanded section.",
+        "accuracyScore": 0.0
+      },
+      "currentArticle": {
+        "answerable": true,
+        "answerAccurate": true,
+        "explanation": "Exact numbers provided in the expanded cardiovascular health trials section.",
+        "accuracyScore": 1.0
+      },
+      "questionQuality": 4,
+      "isGoodDiffQuestion": true,
+      "note": "Good diff question — tests for specific numerical details added in the expansion."
+    },
+    {
+      "id": "q4",
+      "question": "What is the expected price drop for Wegovy, Ozempic, and Rybelsus announced by Novo Nordisk effective January 2027?",
+      "expectedAnswer": "$675/month",
+      "pastArticle": {
+        "answerable": false,
+        "answerAccurate": false,
+        "explanation": "No mention of any Novo Nordisk price drop announcement or $675 figure in the past article. The 'Economics' section discusses costs but not this specific announcement.",
+        "accuracyScore": 0.0
+      },
+      "currentArticle": {
+        "answerable": true,
+        "answerAccurate": true,
+        "explanation": "Stated in the new 'Cost, coverage and supply' section.",
+        "accuracyScore": 1.0
+      },
+      "questionQuality": 5,
+      "isGoodDiffQuestion": true,
+      "note": "Excellent diff question — entirely new pricing information."
+    },
+    {
+      "id": "q5",
+      "question": "What was the average duration of exposure to either placebo or semaglutide during the cardiovascular health trial?",
+      "expectedAnswer": "34.2±13.7 months",
+      "pastArticle": {
+        "answerable": false,
+        "answerAccurate": false,
+        "explanation": "This specific duration statistic is not in the past article's cardiovascular section.",
+        "accuracyScore": 0.0
+      },
+      "currentArticle": {
+        "answerable": true,
+        "answerAccurate": true,
+        "explanation": "Exact figure in the expanded trials section.",
+        "accuracyScore": 1.0
+      },
+      "questionQuality": 3,
+      "isGoodDiffQuestion": true,
+      "note": "Valid diff question but tests a granular detail rather than a substantive development."
+    },
+    {
+      "id": "q6",
+      "question": "How many generic versions of semaglutide are being developed for the Chinese market?",
+      "expectedAnswer": "At least 15 generic versions",
+      "pastArticle": {
+        "answerable": false,
+        "answerAccurate": false,
+        "explanation": "No China section or Chinese generics information in the past article at all.",
+        "accuracyScore": 0.0
+      },
+      "currentArticle": {
+        "answerable": true,
+        "answerAccurate": true,
+        "explanation": "Stated in the new China section.",
+        "accuracyScore": 1.0
+      },
+      "questionQuality": 4,
+      "isGoodDiffQuestion": true,
+      "note": "Good diff question — entirely new section content."
+    },
+    {
+      "id": "q7",
+      "question": "What is the range of monthly therapy costs for generic semaglutide in India after the patent expiration?",
+      "expectedAnswer": "Approximately ₹2,200 to ₹4,200",
+      "pastArticle": {
+        "answerable": false,
+        "answerAccurate": false,
+        "explanation": "No India section or Indian pricing in the past article.",
+        "accuracyScore": 0.0
+      },
+      "currentArticle": {
+        "answerable": true,
+        "answerAccurate": true,
+        "explanation": "Stated in the new India section.",
+        "accuracyScore": 1.0
+      },
+      "questionQuality": 4,
+      "isGoodDiffQuestion": true,
+      "note": "Good diff question — entirely new regional information."
+    },
+    {
+      "id": "q8",
+      "question": "What was the percentage reduction in major adverse cardiovascular events for participants who received semaglutide compared to placebo?",
+      "expectedAnswer": "18.8%",
+      "pastArticle": {
+        "answerable": true,
+        "answerAccurate": false,
+        "explanation": "The past article states '20%' reduction. The current article has the more precise figure of 18.8%. An LLM using the past article would answer '20%' which is now imprecise/outdated compared to the 18.8% in the current version.",
+        "accuracyScore": 0.3
+      },
+      "currentArticle": {
+        "answerable": true,
+        "answerAccurate": true,
+        "explanation": "The precise 18.8% figure is in the expanded cardiovascular trials section.",
+        "accuracyScore": 1.0
+      },
+      "questionQuality": 5,
+      "isGoodDiffQuestion": true,
+      "note": "Excellent question — tests accuracy vs outdated information. Past version has imprecise 20%, current has precise 18.8%. This is exactly the kind of question that catches outdated information."
+    },
+    {
+      "id": "q9",
+      "question": "What was the outcome of the Trump Administration's decision regarding the Biden Administration's proposal on GLP-1 coverage?",
+      "expectedAnswer": "The Trump Administration declined to finalize the proposal.",
+      "pastArticle": {
+        "answerable": false,
+        "answerAccurate": false,
+        "explanation": "No mention of Trump, Biden, or any administration's GLP-1 coverage proposal in the past article.",
+        "accuracyScore": 0.0
+      },
+      "currentArticle": {
+        "answerable": true,
+        "answerAccurate": true,
+        "explanation": "Clearly stated in the new 'Rejection of Biden-Era Proposal' section.",
+        "accuracyScore": 1.0
+      },
+      "questionQuality": 5,
+      "isGoodDiffQuestion": true,
+      "note": "Excellent diff question — entirely new policy content."
+    },
+    {
+      "id": "q10",
+      "question": "What is the brand name under which the oral version of semaglutide was approved for weight management in December 2025?",
+      "expectedAnswer": "Wegovy",
+      "pastArticle": {
+        "answerable": false,
+        "answerAccurate": false,
+        "explanation": "The past article mentions Rybelsus as the oral formulation for diabetes, but the December 2025 approval of oral Wegovy for weight management is not present.",
+        "accuracyScore": 0.1
+      },
+      "currentArticle": {
+        "answerable": true,
+        "answerAccurate": true,
+        "explanation": "Stated in the United States section.",
+        "accuracyScore": 1.0
+      },
+      "questionQuality": 4,
+      "isGoodDiffQuestion": true,
+      "note": "Good diff question — specific regulatory approval event."
+    }
+  ],
+  "summary": {
+    "currentArticle": { "answerable": 10, "correct": 10, "meanAccuracy": 1.0, "meanQuality": 4.2 },
+    "pastArticle": { "answerable": 2, "correct": 1, "meanAccuracy": 0.13, "meanQuality": 4.2 },
+    "gap": { "answerable": 8, "correct": 9 },
+    "goodDiffQuestions": 9,
+    "badDiffQuestions": 1,
+    "keyInsight": "Q1 is answerable from both versions (not a true diff question). Q8 is particularly valuable as it catches an accuracy discrepancy (20% vs 18.8%). 9 of 10 questions are genuinely unanswerable from the past article."
+  }
+}
