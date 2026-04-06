@@ -34,6 +34,36 @@ function BarChart({ data, label }: { data: Record<string, number>; label: string
   );
 }
 
+function PercentageBar({ value, label }: { value: number; label: string }) {
+  const pct = Math.round(value * 100);
+  const isPositive = pct >= 0;
+  return (
+    <div className="mb-2">
+      <div className="flex justify-between text-xs mb-1">
+        <span style={{ color: 'var(--wiki-text-secondary)' }}>{label}</span>
+        <span style={{ fontWeight: 600, color: isPositive ? '#15803d' : '#b91c1c' }}>
+          {pct}%
+        </span>
+      </div>
+      <div className="h-3 rounded-full overflow-hidden" style={{ background: '#e5e7eb' }}>
+        <div
+          className="h-full rounded-full transition-all"
+          style={{
+            width: `${Math.min(Math.abs(pct), 100)}%`,
+            backgroundColor: isPositive ? '#22c55e' : '#ef4444',
+          }}
+        />
+      </div>
+    </div>
+  );
+}
+
+function articleDisplayName(articleId: string): string {
+  if (articleId === 'semaglutide') return 'Semaglutide';
+  if (articleId === 'vaccine-misinfo') return 'Vaccine Misinformation';
+  return articleId;
+}
+
 export default function DashboardPage() {
   const params = useParams();
   const userId = params.userId as string;
@@ -98,6 +128,20 @@ export default function DashboardPage() {
     });
   }, [data, articles]);
 
+  // Compute the hero editing score: average improvement across sessions
+  const heroScore = useMemo(() => {
+    if (!data) return null;
+    const sessionsWithMetrics = data.sessions.filter(
+      (s) => s.computedMetrics && s.computedMetrics.improvementOverBaseline !== undefined
+    );
+    if (sessionsWithMetrics.length === 0) return null;
+    const totalImprovement = sessionsWithMetrics.reduce(
+      (sum, s) => sum + s.computedMetrics!.improvementOverBaseline,
+      0
+    );
+    return totalImprovement / sessionsWithMetrics.length;
+  }, [data]);
+
   if (loading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
@@ -151,6 +195,287 @@ export default function DashboardPage() {
       </div>
 
       <div className="max-w-[1100px] mx-auto px-6 py-6">
+
+        {/* ============================================================ */}
+        {/* YOUR EDITING REPORT — shareable, screenshot-friendly section */}
+        {/* ============================================================ */}
+        <div className="mb-10">
+          <h2
+            className="text-center mb-6"
+            style={{
+              fontFamily: "Georgia, 'Linux Libertine', serif",
+              fontSize: '1.6rem',
+              color: '#202122',
+            }}
+          >
+            Your Editing Report
+          </h2>
+
+          {/* --- 1. Hero Score Card --- */}
+          <div
+            className="rounded-lg border text-center mb-8"
+            style={{
+              borderColor: '#c8ccd1',
+              background: heroScore !== null
+                ? heroScore >= 0
+                  ? 'linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)'
+                  : 'linear-gradient(135deg, #fef2f2 0%, #fecaca 100%)'
+                : 'linear-gradient(135deg, #f8f9fa 0%, #eaecf0 100%)',
+              padding: '2.5rem 2rem',
+            }}
+          >
+            <div
+              className="text-sm uppercase tracking-wider mb-2"
+              style={{ color: '#54595d', fontWeight: 600, letterSpacing: '0.1em' }}
+            >
+              Your Editing Score
+            </div>
+            {heroScore !== null ? (
+              <>
+                <div
+                  style={{
+                    fontFamily: "Georgia, 'Linux Libertine', serif",
+                    fontSize: '4rem',
+                    fontWeight: 700,
+                    lineHeight: 1.1,
+                    color: heroScore >= 0 ? '#15803d' : '#b91c1c',
+                  }}
+                >
+                  {heroScore >= 0 ? '+' : ''}{(heroScore * 100).toFixed(1)}%
+                </div>
+                <div
+                  className="mt-2 text-sm"
+                  style={{ color: '#54595d', maxWidth: 420, margin: '0.5rem auto 0' }}
+                >
+                  {heroScore >= 0
+                    ? 'Your edits moved the article closer to its current Wikipedia state.'
+                    : 'Your edits diverged from the direction the Wikipedia community took.'}
+                </div>
+              </>
+            ) : (
+              <>
+                <div
+                  style={{
+                    fontFamily: "Georgia, 'Linux Libertine', serif",
+                    fontSize: '2.5rem',
+                    fontWeight: 700,
+                    lineHeight: 1.2,
+                    color: '#72777d',
+                  }}
+                >
+                  Score pending
+                </div>
+                <div className="mt-2 text-sm" style={{ color: '#72777d' }}>
+                  Ground truth scoring will appear once your edits are published.
+                </div>
+              </>
+            )}
+          </div>
+
+          {/* --- 2. Per-Session Comparison Cards --- */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            {data.sessions.map((session, idx) => {
+              const cm = session.computedMetrics;
+              const wordsAdded = cm?.wordsAdded ?? 0;
+              const citationsAdded = cm?.citationsAdded ?? session.citationsAdded.length;
+              const sectionsEdited = cm?.sectionsEdited ?? 0;
+
+              return (
+                <div
+                  key={session.sessionId}
+                  className="bg-white rounded-lg border"
+                  style={{ borderColor: '#c8ccd1' }}
+                >
+                  {/* Card header */}
+                  <div
+                    className="px-5 py-3 rounded-t-lg"
+                    style={{
+                      background: '#eaecf0',
+                      borderBottom: '1px solid #c8ccd1',
+                    }}
+                  >
+                    <div
+                      className="font-semibold"
+                      style={{
+                        fontFamily: "Georgia, 'Linux Libertine', serif",
+                        fontSize: '1.1rem',
+                        color: '#202122',
+                      }}
+                    >
+                      Session {idx + 1}
+                    </div>
+                    <div className="text-xs" style={{ color: '#54595d' }}>
+                      {articleDisplayName(session.articleId)}
+                    </div>
+                  </div>
+
+                  {/* Card body */}
+                  <div className="px-5 py-4">
+                    <div className="grid grid-cols-2 gap-x-4 gap-y-3 text-sm mb-4">
+                      <div>
+                        <div className="text-xs" style={{ color: '#72777d' }}>Words added</div>
+                        <div className="font-semibold text-lg" style={{ color: '#202122' }}>
+                          {wordsAdded}
+                        </div>
+                      </div>
+                      <div>
+                        <div className="text-xs" style={{ color: '#72777d' }}>Citations added</div>
+                        <div className="font-semibold text-lg" style={{ color: '#202122' }}>
+                          {citationsAdded}
+                        </div>
+                      </div>
+                      <div>
+                        <div className="text-xs" style={{ color: '#72777d' }}>Sections edited</div>
+                        <div className="font-semibold text-lg" style={{ color: '#202122' }}>
+                          {sectionsEdited}
+                        </div>
+                      </div>
+                      <div>
+                        <div className="text-xs" style={{ color: '#72777d' }}>Time spent</div>
+                        <div className="font-semibold text-lg" style={{ color: '#202122' }}>
+                          {formatDuration(session.totalEditTime)}
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Ground truth similarity bar */}
+                    {cm && cm.similarityToGroundTruth !== undefined && (
+                      <PercentageBar
+                        value={cm.similarityToGroundTruth}
+                        label="Similarity to current Wikipedia"
+                      />
+                    )}
+
+                    {/* Improvement over baseline */}
+                    {cm && cm.improvementOverBaseline !== undefined && (
+                      <div className="mt-2">
+                        <div className="flex justify-between text-xs">
+                          <span style={{ color: 'var(--wiki-text-secondary)' }}>
+                            Improvement over baseline
+                          </span>
+                          <span
+                            style={{
+                              fontWeight: 600,
+                              color: cm.improvementOverBaseline >= 0 ? '#15803d' : '#b91c1c',
+                            }}
+                          >
+                            {cm.improvementOverBaseline >= 0 ? '+' : ''}
+                            {(cm.improvementOverBaseline * 100).toFixed(1)}%
+                          </span>
+                        </div>
+                      </div>
+                    )}
+
+                    {!cm && (
+                      <div className="text-xs mt-2 italic" style={{ color: '#72777d' }}>
+                        Ground truth metrics not yet computed.
+                      </div>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* --- 3. Explanation Text --- */}
+          <div
+            className="rounded border px-6 py-4 mb-8 text-sm leading-relaxed"
+            style={{
+              borderColor: '#c8ccd1',
+              background: '#fff',
+              color: '#54595d',
+            }}
+          >
+            Your editing score measures how closely your edits brought the article toward
+            its most recent version on Wikipedia. A positive score means your edits moved
+            the article in the direction that the Wikipedia community eventually took. The
+            score is computed by comparing text similarity between your edited version and
+            the current Wikipedia article, relative to the starting snapshot.
+          </div>
+
+          {/* --- 4. Share Your Results Card --- */}
+          <div
+            className="rounded-lg border-2 bg-white mx-auto"
+            style={{
+              borderColor: '#a2a9b1',
+              maxWidth: 540,
+              padding: '2rem',
+            }}
+          >
+            <div
+              className="text-center mb-4"
+              style={{
+                fontFamily: "Georgia, 'Linux Libertine', serif",
+                fontSize: '1.2rem',
+                color: '#202122',
+              }}
+            >
+              WikiCredCon Editing Experiment
+            </div>
+
+            {/* Score */}
+            <div className="text-center mb-4">
+              <div className="text-xs uppercase tracking-wider mb-1" style={{ color: '#72777d' }}>
+                Editing Score
+              </div>
+              <div
+                style={{
+                  fontFamily: "Georgia, 'Linux Libertine', serif",
+                  fontSize: '2.2rem',
+                  fontWeight: 700,
+                  color: heroScore !== null
+                    ? heroScore >= 0 ? '#15803d' : '#b91c1c'
+                    : '#72777d',
+                }}
+              >
+                {heroScore !== null
+                  ? `${heroScore >= 0 ? '+' : ''}${(heroScore * 100).toFixed(1)}%`
+                  : 'Pending'}
+              </div>
+            </div>
+
+            {/* Per-session summary in the share card */}
+            <div
+              className="grid gap-3 mb-4"
+              style={{
+                gridTemplateColumns: data.sessions.length === 2 ? '1fr 1fr' : '1fr',
+              }}
+            >
+              {data.sessions.map((session, idx) => {
+                const cm = session.computedMetrics;
+                return (
+                  <div
+                    key={session.sessionId}
+                    className="rounded border px-3 py-3 text-center"
+                    style={{ borderColor: '#eaecf0' }}
+                  >
+                    <div className="text-xs font-semibold mb-1" style={{ color: '#54595d' }}>
+                      {articleDisplayName(session.articleId)}
+                    </div>
+                    <div className="text-xs" style={{ color: '#72777d' }}>
+                      {cm?.wordsAdded ?? 0} words added
+                    </div>
+                    <div className="text-xs" style={{ color: '#72777d' }}>
+                      {cm?.citationsAdded ?? session.citationsAdded.length} citations
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            <div
+              className="text-center text-xs pt-3"
+              style={{ color: '#a2a9b1', borderTop: '1px solid #eaecf0' }}
+            >
+              Screenshot this card to share your editing results!
+            </div>
+          </div>
+        </div>
+
+        {/* ============================================================ */}
+        {/* EXISTING DASHBOARD CONTENT BELOW                             */}
+        {/* ============================================================ */}
+
         {/* Overview Cards */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
           <div className="bg-white p-4 rounded border" style={{ borderColor: 'var(--wiki-chrome-border)' }}>
