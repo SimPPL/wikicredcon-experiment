@@ -1,0 +1,87 @@
+[
+  {
+    "id": "microplastics-2",
+    "articleId": "microplastics",
+    "relevantSectionIds": [
+      "education-and-recycling",
+      "sources"
+    ],
+    "claimText": "From 3 to 14 EU countries, there are now 1,200+ datasets on microplastics.",
+    "platform": "twitter",
+    "sourceAuthor": "cinea_eu",
+    "date": "2026-01",
+    "engagement": {
+      "total": 1700
+    },
+    "topic": "EU research on microplastics",
+    "postText": "Three years on... ✅From 3 to 14 EU countries ✅From classrooms to riverbanks ✅From curiosity to 1,200+ datasets on microplastics That's the power of @PlasticPirateEU 🔗 @HorizonEU @OurMissionOcean #MissionOcean #HorizonEU #Climate #ResearchImpactEU"
+  },
+  {
+    "id": "microplastics-3",
+    "articleId": "microplastics",
+    "relevantSectionIds": [
+      "human-health",
+      "effects-on-the-environment"
+    ],
+    "claimText": "Microplastic accumulation in the human body could be a serious health hazard and might be linked to cancer and heart attacks.",
+    "platform": "twitter",
+    "sourceAuthor": "raymart36321205",
+    "date": "2026-01",
+    "engagement": {
+      "total": 25
+    },
+    "topic": "health risks of microplastics",
+    "postText": "PubMedia\nmicroplastic accumulation in the human body could be a serious health hazard, according to some researchers, and might be linked to cancer, heart attacks and other threatening medical conditions. we'll never eliminate all microplastic from the environment, but we could significantly reduce "
+  },
+  {
+    "id": "microplastics-4",
+    "articleId": "microplastics",
+    "relevantSectionIds": [
+      "oral-intake",
+      "human-health"
+    ],
+    "claimText": "Adults ingest the equivalent of one credit card per week in microplastics.",
+    "platform": "twitter",
+    "sourceAuthor": "raymart36321205",
+    "date": "2026-01",
+    "engagement": {
+      "total": 25
+    },
+    "topic": "microplastics ingestion",
+    "postText": "PubMedia\nmicroplastic accumulation in the human body could be a serious health hazard, according to some researchers, and might be linked to cancer, heart attacks and other threatening medical conditions. we'll never eliminate all microplastic from the environment, but we could significantly reduce "
+  },
+  {
+    "id": "microplastics-1",
+    "articleId": "microplastics",
+    "relevantSectionIds": [
+      "clothing",
+      "effects-on-the-environment"
+    ],
+    "claimText": "Every wash leaves microplastics in the environment.",
+    "platform": "youtube",
+    "sourceAuthor": "Spotlight San Diego",
+    "date": "2026-01",
+    "engagement": {
+      "total": 23
+    },
+    "topic": "microplastics in clothing",
+    "postText": "Clothes: Every Wash Leaves Microplastics In The Environment - Liz Bui, CEO, Yulex Brands Corps"
+  },
+  {
+    "id": "microplastics-5",
+    "articleId": "microplastics",
+    "relevantSectionIds": [
+      "salt-and-seafood",
+      "sources"
+    ],
+    "claimText": "Global seafood trade is moving ‘forever chemicals’ from contaminated waters to dinner plates.",
+    "platform": "twitter",
+    "sourceAuthor": "danvzla",
+    "date": "2026-01",
+    "engagement": {
+      "total": 11
+    },
+    "topic": "seafood contamination",
+    "postText": "How global seafood trade is moving ‘forever chemicals’ from contaminated waters to dinner plates"
+  }
+]

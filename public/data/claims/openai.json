@@ -1,0 +1,104 @@
+[
+  {
+    "id": "openai-1",
+    "articleId": "openai",
+    "relevantSectionIds": [
+      "products",
+      "development"
+    ],
+    "claimText": "gpt-5.2-codex launches today. it is trained specifically for agentic coding and terminal use, and people at openai have been having great success with it.",
+    "platform": "twitter",
+    "sourceAuthor": "sama",
+    "date": "2026-01",
+    "engagement": {
+      "total": 3100000
+    },
+    "topic": "product launch",
+    "postText": "gpt-5.2-codex launches today. it is trained specifically for agentic coding and terminal use, and people at openai have been having great success with it."
+  },
+  {
+    "id": "openai-2",
+    "articleId": "openai",
+    "relevantSectionIds": [
+      "transition-from-non-profit",
+      "governance-and-legal-issues"
+    ],
+    "claimText": "openai chief executive sam altman told employees that the company was declaring a 'code red' effort to improve the quality of chatgpt",
+    "platform": "twitter",
+    "sourceAuthor": "WSJ",
+    "date": "2026-01",
+    "engagement": {
+      "total": 650400
+    },
+    "topic": "internal company status",
+    "postText": "openai chief executive sam altman told employees that the company was declaring a \"code red\" effort to improve the quality of chatgpt"
+  },
+  {
+    "id": "openai-3",
+    "articleId": "openai",
+    "relevantSectionIds": [
+      "products",
+      "development"
+    ],
+    "claimText": "OpenAI was dead… Then GPT-5.2 dropped",
+    "platform": "youtube",
+    "sourceAuthor": "Fireship",
+    "date": "2026-01",
+    "engagement": {
+      "total": 603900
+    },
+    "topic": "product impact",
+    "postText": "OpenAI was dead… Then GPT-5.2 dropped"
+  },
+  {
+    "id": "openai-4",
+    "articleId": "openai",
+    "relevantSectionIds": [
+      "2025-restructuring",
+      "governance-and-legal-issues"
+    ],
+    "claimText": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong.",
+    "platform": "twitter",
+    "sourceAuthor": "Ric_RTP",
+    "date": "2026-01",
+    "engagement": {
+      "total": 359100
+    },
+    "topic": "company insights",
+    "postText": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words"
+  },
+  {
+    "id": "openai-5",
+    "articleId": "openai",
+    "relevantSectionIds": [
+      "transition-from-non-profit",
+      "governance-and-legal-issues"
+    ],
+    "claimText": "altman told employees in a memo that openai is declaring a 'code red' on chatgpt, pausing work on ads, ai agents & pulse to focus on day to day quality.",
+    "platform": "twitter",
+    "sourceAuthor": "wallstengine",
+    "date": "2026-01",
+    "engagement": {
+      "total": 84200
+    },
+    "topic": "internal company status",
+    "postText": "altman told employees in a memo that openai is declaring a \"code red\" on chatgpt, pausing work on ads, ai agents & pulse to focus on day to day quality, more personalization, faster responses & fewer unnecessary refusals he also acknowledged $googl gemini is gaining ground and said openai plans to r"
+  },
+  {
+    "id": "openai-6",
+    "articleId": "openai",
+    "relevantSectionIds": [
+      "finances",
+      "products"
+    ],
+    "claimText": "OpenAI's Sam Altman says revenue ramp 'unusual at this scale' as company rolls out GPT-5.2",
+    "platform": "youtube",
+    "sourceAuthor": "CNBC Television",
+    "date": "2026-01",
+    "engagement": {
+      "total": 12400
+    },
+    "topic": "financial performance",
+    "postText": "OpenAI's Sam Altman says revenue ramp 'unusual at this scale' as company rolls out GPT-5.2"
+  }
+]

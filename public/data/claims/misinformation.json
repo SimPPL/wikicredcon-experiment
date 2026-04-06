@@ -1,0 +1,87 @@
+[
+  {
+    "id": "misinformation-1",
+    "articleId": "misinformation",
+    "relevantSectionIds": [
+      "online-misinformationanchorsocialmediaandmisinformation",
+      "spread"
+    ],
+    "claimText": "grok has been restricted from being used to investigate the charlie kirk assassination outside of the 'official' narrative.",
+    "platform": "twitter",
+    "sourceAuthor": "DiligentDenizen",
+    "date": "2026-01",
+    "engagement": {
+      "total": 114900
+    },
+    "topic": "social media and misinformation",
+    "postText": ".@grok has been restricted from being used to investigate the charlie kirk assassination outside of the \"official\" narrative...  eyes  to present the spread of what it calls \"misinformation\" what happened to maximum truth-seeking, @elonmusk?  thinking_face  we should all be very concerned."
+  },
+  {
+    "id": "misinformation-2",
+    "articleId": "misinformation",
+    "relevantSectionIds": [
+      "online-misinformationanchorsocialmediaandmisinformation",
+      "spread"
+    ],
+    "claimText": "the spread of what it calls 'misinformation' raises concerns about truth-seeking.",
+    "platform": "twitter",
+    "sourceAuthor": "DiligentDenizen",
+    "date": "2026-01",
+    "engagement": {
+      "total": 114900
+    },
+    "topic": "social media and misinformation",
+    "postText": ".@grok has been restricted from being used to investigate the charlie kirk assassination outside of the \"official\" narrative...  eyes  to present the spread of what it calls \"misinformation\" what happened to maximum truth-seeking, @elonmusk?  thinking_face  we should all be very concerned."
+  },
+  {
+    "id": "misinformation-3",
+    "articleId": "misinformation",
+    "relevantSectionIds": [
+      "fact-checking-and-debunking",
+      "countermeasures"
+    ],
+    "claimText": "'aravallis are being destroyed' is a false narrative and spreading misinformation.",
+    "platform": "twitter",
+    "sourceAuthor": "HemanNamo",
+    "date": "2026-01",
+    "engagement": {
+      "total": 112400
+    },
+    "topic": "fact-checking",
+    "postText": "keycap:_1  fact check for @republic & #arnabgoswami \"aravallis are being destroyed\" is a false narrative. what's spreading right now is misinformation, not bulldozers. let's go by court orders & data.  thread  backhand_index_pointing_down  #savearavallis #factcheck"
+  },
+  {
+    "id": "misinformation-4",
+    "articleId": "misinformation",
+    "relevantSectionIds": [
+      "online-misinformationanchorsocialmediaandmisinformation",
+      "spread"
+    ],
+    "claimText": "the eu commission continues to spread misinformation about the chat control proposal.",
+    "platform": "twitter",
+    "sourceAuthor": "mullvadnet",
+    "date": "2026-01",
+    "engagement": {
+      "total": 83900
+    },
+    "topic": "EU misinformation",
+    "postText": "PubMedia\nchat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next w"
+  },
+  {
+    "id": "misinformation-5",
+    "articleId": "misinformation",
+    "relevantSectionIds": [
+      "spread",
+      "social-causes-and-echo-chambers"
+    ],
+    "claimText": "the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.",
+    "platform": "twitter",
+    "sourceAuthor": "ZardanSi",
+    "date": "2026-01",
+    "engagement": {
+      "total": 40300
+    },
+    "topic": "international misinformation",
+    "postText": "\"misinformation cannot substitute for evidence. the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.\" - attaullah tarar (moib pakistan) exposed indian propaganda targeting pakistan over the bondi beach incident."
+  }
+]
