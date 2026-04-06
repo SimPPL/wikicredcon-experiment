@@ -5,6 +5,7 @@ import { EXPERIENCE_OPTIONS, LS_KEYS } from '@/lib/constants';
 import { assignCondition } from '@/lib/experiment';
 import { generateId } from '@/lib/utils';
 import ConsentForm from '@/components/experiment/ConsentForm';
+import LandingPage from '@/components/experiment/LandingPage';
 import type { Participant, EditingExperience } from '@/types';
 
 function hashEmail(email: string): string {
@@ -19,6 +20,7 @@ function hashEmail(email: string): string {
 }
 
 export default function RegistrationPage() {
+  const [started, setStarted] = useState(false);
   const [consented, setConsented] = useState(false);
   const [email, setEmail] = useState('');
   const [wikiUsername, setWikiUsername] = useState('');
@@ -34,6 +36,7 @@ export default function RegistrationPage() {
     const stored = localStorage.getItem('wikicred_consent');
     if (stored) {
       setConsented(true);
+      setStarted(true);
     }
   }, []);
 
@@ -94,6 +97,10 @@ export default function RegistrationPage() {
     frequency !== '' &&
     confidence > 0 &&
     usefulness > 0;
+
+  if (!started) {
+    return <LandingPage onStart={() => setStarted(true)} />;
+  }
 
   if (!consented) {
     return <ConsentForm onConsent={() => setConsented(true)} />;
