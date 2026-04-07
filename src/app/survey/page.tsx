@@ -108,6 +108,16 @@ export default function SurveyPage() {
 
     saveParticipantData(fullData);
 
+    // Persist to Supabase (fire-and-forget — don't block on it)
+    fetch('/api/persist', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        participantId: participant.id,
+        data: fullData,
+      }),
+    }).catch((err) => console.error('Failed to persist to server:', err));
+
     // Advance to complete
     localStorage.setItem(LS_KEYS.PHASE, 'complete');
     window.location.href = `/dashboard/${participant.id}`;

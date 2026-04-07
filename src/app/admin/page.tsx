@@ -634,6 +634,42 @@ export default function AdminPage() {
           >
             Generate Dummy Data
           </button>
+          <button
+            onClick={async () => {
+              try {
+                const res = await fetch('/api/persist');
+                if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
+                const rows = await res.json();
+                if (Array.isArray(rows)) {
+                  for (const row of rows) {
+                    if (row.participant_id && row.data) {
+                      localStorage.setItem(
+                        `wikicred_participant_data_${row.participant_id}`,
+                        typeof row.data === 'string' ? row.data : JSON.stringify(row.data)
+                      );
+                    }
+                  }
+                  alert(`Synced ${rows.length} participants from server.`);
+                  window.location.reload();
+                }
+              } catch (err) {
+                console.error('Sync failed:', err);
+                alert('Sync failed. Check console for details.');
+              }
+            }}
+            style={{
+              padding: '0.45rem 1rem',
+              backgroundColor: '#0891b2',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '2px',
+              cursor: 'pointer',
+              fontSize: '0.85rem',
+              fontWeight: 500,
+            }}
+          >
+            Sync from Server
+          </button>
         </div>
 
         {/* ── Overview cards ─────────────────────────────── */}
