@@ -201,15 +201,20 @@ export default function DashboardPage() {
         {/* ============================================================ */}
         <div className="mb-10">
           <h2
-            className="text-center mb-6"
+            className="text-center mb-3"
             style={{
               fontFamily: "Georgia, 'Linux Libertine', serif",
               fontSize: '1.6rem',
               color: '#202122',
             }}
           >
-            Your Editing Report
+            Congratulations on Completing Your Edits!
           </h2>
+          <p className="text-center text-sm mb-6" style={{ color: '#54595d', maxWidth: 600, margin: '0 auto 1.5rem' }}>
+            We present a comparison of the snapshots you edited with the current Wikipedia
+            articles, for you to compare how aligned your edits are with the Wikipedia
+            community&apos;s edits.
+          </p>
 
           {/* --- 1. Hero Score Card --- */}
           <div
@@ -248,8 +253,8 @@ export default function DashboardPage() {
                   style={{ color: '#54595d', maxWidth: 420, margin: '0.5rem auto 0' }}
                 >
                   {heroScore >= 0
-                    ? 'Your edits moved the article closer to its current Wikipedia state.'
-                    : 'Your edits diverged from the direction the Wikipedia community took.'}
+                    ? 'Your edits are aligned with the changes the Wikipedia community made!'
+                    : 'Your edits took a different direction from the Wikipedia community.'}
                 </div>
               </>
             ) : (
@@ -286,7 +291,7 @@ export default function DashboardPage() {
                   className="bg-white rounded-lg border"
                   style={{ borderColor: '#c8ccd1' }}
                 >
-                  {/* Card header */}
+                  {/* Card header — reveal the snapshot date */}
                   <div
                     className="px-5 py-3 rounded-t-lg"
                     style={{
@@ -302,10 +307,16 @@ export default function DashboardPage() {
                         color: '#202122',
                       }}
                     >
-                      Session {idx + 1}
+                      Session {idx + 1}: {articleDisplayName(session.articleId)}
                     </div>
                     <div className="text-xs" style={{ color: '#54595d' }}>
-                      {articleDisplayName(session.articleId)}
+                      You edited a snapshot of the &ldquo;{articleDisplayName(session.articleId)}&rdquo; Wikipedia
+                      article from{' '}
+                      <strong>
+                        {articles[`${session.articleId}-past`]?.revisionDate
+                          ? new Date(articles[`${session.articleId}-past`].revisionDate).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
+                          : 'an earlier date'}
+                      </strong>.
                     </div>
                   </div>
 
@@ -401,8 +412,8 @@ export default function DashboardPage() {
                               label="Citation recovery rate"
                             />
                             <div className="text-xs mt-0.5" style={{ color: '#72777d' }}>
-                              {Math.round(cm.citationRecoveryRate * 100)}% of new references in the current
-                              Wikipedia article were also added by you.
+                              {Math.round(cm.citationRecoveryRate * 100)}% of the references that the Wikipedia
+                              community added since your snapshot were also independently found by you.
                             </div>
                           </div>
                         )}
@@ -429,11 +440,11 @@ export default function DashboardPage() {
               color: '#54595d',
             }}
           >
-            Your editing score measures how closely your edits brought the article toward
-            its most recent version on Wikipedia. A positive score means your edits moved
-            the article in the direction that the Wikipedia community eventually took. The
-            score is computed by comparing text similarity between your edited version and
-            the current Wikipedia article, relative to the starting snapshot.
+            <strong>How to read your score:</strong> Your editing score measures how closely
+            your edits align with the changes the Wikipedia community made since the snapshot
+            you edited. A positive score means your edits moved the article in the same direction
+            that the community eventually took. The comparison is based on text similarity and
+            reference overlap between your edited version and the current Wikipedia article.
           </div>
 
           {/* --- 4. Share Your Results Card --- */}
