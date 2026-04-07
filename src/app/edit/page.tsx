@@ -80,6 +80,14 @@ export default function EditPage() {
       return;
     }
 
+    // Guard: if 2 sessions already completed, go to survey (prevents 3rd session bug)
+    const existingSessions = JSON.parse(localStorage.getItem(LS_KEYS.COMPLETED_SESSIONS) || '[]');
+    if (existingSessions.length >= 2) {
+      localStorage.setItem(LS_KEYS.PHASE, 'survey');
+      window.location.href = '/survey';
+      return;
+    }
+
     setPhase(storedPhase);
 
     const { articleId, condition: cond } = getArticleForPhase(p, storedPhase);
@@ -310,6 +318,10 @@ export default function EditPage() {
     sessionRef.current.endedAt = Date.now();
     sessionRef.current.totalEditTime = sessionRef.current.endedAt - sessionRef.current.startedAt;
     sessionRef.current.finalContent = { ...editedContent };
+    // Save edited citations as a JSON string in finalContent under a special key
+    if (Object.keys(editedCitations).length > 0) {
+      sessionRef.current.finalContent['__editedCitations__'] = JSON.stringify(editedCitations);
+    }
 
     // Compute granular metrics if ground truth is available
     if (article && groundTruthArticle) {
@@ -324,12 +336,15 @@ export default function EditPage() {
       }
     }
 
-    // Save completed session
+    // Save completed session — cap at 2 sessions maximum
     const completedSessions = JSON.parse(
       localStorage.getItem(LS_KEYS.COMPLETED_SESSIONS) || '[]'
     );
-    completedSessions.push(sessionRef.current);
-    localStorage.setItem(LS_KEYS.COMPLETED_SESSIONS, JSON.stringify(completedSessions));
+    // Prevent duplicate sessions (e.g., from page refresh)
+    if (completedSessions.length < 2) {
+      completedSessions.push(sessionRef.current);
+      localStorage.setItem(LS_KEYS.COMPLETED_SESSIONS, JSON.stringify(completedSessions));
+    }
     localStorage.removeItem(LS_KEYS.CURRENT_SESSION);
     setShowPublishDialog(false);
 
