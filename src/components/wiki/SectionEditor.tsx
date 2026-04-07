@@ -69,13 +69,13 @@ function renderContentWithCitations(content: string, citations: ArticleSection['
         return <p key={pIdx} style={{ marginBottom: '0.5em' }}>{parts}</p>;
       })}
 
-      {/* Inline references list for this section — always show if citations exist */}
+      {/* Inline references list — collapsed by default, from original Wikipedia snapshot */}
       {citations.length > 0 && (
-        <details className="mt-2 mb-2" style={{ fontSize: '0.75rem' }} open>
+        <details className="mt-2 mb-2" style={{ fontSize: '0.75rem' }}>
           <summary
-            style={{ color: 'var(--wiki-link)', cursor: 'pointer', fontSize: '0.8rem', fontWeight: 500 }}
+            style={{ color: 'var(--wiki-text-secondary)', cursor: 'pointer', fontSize: '0.75rem' }}
           >
-            References ({citations.length})
+            References from this article ({citations.length})
           </summary>
           <ol className="mt-1 pl-4 space-y-0.5" style={{ color: 'var(--wiki-text-secondary)', fontSize: '0.7rem', lineHeight: 1.4 }}>
             {citations.map((c) => (
