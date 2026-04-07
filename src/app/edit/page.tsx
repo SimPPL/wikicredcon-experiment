@@ -34,6 +34,7 @@ export default function EditPage() {
   const [claimGroups, setClaimGroups] = useState<ClaimGroup[]>([]);
   const [condition, setCondition] = useState<'treatment' | 'control'>('control');
   const [editedContent, setEditedContent] = useState<Record<string, string>>({});
+  const [editedCitations, setEditedCitations] = useState<Record<string, import('@/types').Citation[]>>({});
   const [editingSectionId, setEditingSectionId] = useState<string | null>(null);
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
   const [viewMode, setViewMode] = useState<'read' | 'edit'>('edit');
@@ -195,6 +196,10 @@ export default function EditPage() {
     },
     [editedContent]
   );
+
+  const handleReferencesChange = useCallback((sectionId: string, citations: import('@/types').Citation[]) => {
+    setEditedCitations((prev) => ({ ...prev, [sectionId]: citations }));
+  }, []);
 
   const handleToggleEdit = useCallback((sectionId: string) => {
     setEditingSectionId((prev) => (prev === sectionId ? null : sectionId));
@@ -475,9 +480,11 @@ export default function EditPage() {
             <ArticleRenderer
               article={article}
               editedContent={editedContent}
+              editedCitations={editedCitations}
               editingSectionId={editingSectionId}
               onToggleEdit={handleToggleEdit}
               onContentChange={handleContentChange}
+              onReferencesChange={handleReferencesChange}
               onSectionFocus={handleSectionFocus}
               onSectionBlur={handleSectionBlur}
               claims={condition === 'treatment' ? claimGroupsAsLegacyClaims : []}

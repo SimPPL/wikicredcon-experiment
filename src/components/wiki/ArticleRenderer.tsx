@@ -1,14 +1,16 @@
 'use client';
 
-import { Article, ArbiterClaim } from '@/types';
+import { Article, ArbiterClaim, Citation } from '@/types';
 import SectionEditor from './SectionEditor';
 
 interface ArticleRendererProps {
   article: Article;
   editedContent: Record<string, string>;
+  editedCitations?: Record<string, Citation[]>;
   editingSectionId: string | null;
   onToggleEdit: (sectionId: string) => void;
   onContentChange: (sectionId: string, newContent: string) => void;
+  onReferencesChange?: (sectionId: string, citations: Citation[]) => void;
   onSectionFocus?: (sectionId: string) => void;
   onSectionBlur?: (sectionId: string) => void;
   claims?: ArbiterClaim[];
@@ -18,9 +20,11 @@ interface ArticleRendererProps {
 export default function ArticleRenderer({
   article,
   editedContent,
+  editedCitations,
   editingSectionId,
   onToggleEdit,
   onContentChange,
+  onReferencesChange,
   onSectionFocus,
   onSectionBlur,
   claims = [],
@@ -70,7 +74,9 @@ export default function ArticleRenderer({
               isEditing={!readOnly && editingSectionId === section.id}
               onToggleEdit={readOnly ? () => {} : onToggleEdit}
               onContentChange={onContentChange}
+              onReferencesChange={readOnly ? undefined : onReferencesChange}
               editedContent={editedContent[section.id]}
+              editedCitations={editedCitations?.[section.id]}
               onFocus={onSectionFocus}
               onBlur={onSectionBlur}
               hideEditLink={readOnly}

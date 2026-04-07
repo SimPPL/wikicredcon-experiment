@@ -1,16 +1,135 @@
 'use client';
 
-import { ArticleSection } from '@/types';
+import { useState } from 'react';
+import { ArticleSection, Citation } from '@/types';
 
 interface SectionEditorProps {
   section: ArticleSection;
   isEditing: boolean;
   onToggleEdit: (sectionId: string) => void;
   onContentChange: (sectionId: string, newContent: string) => void;
+  onReferencesChange?: (sectionId: string, citations: Citation[]) => void;
   editedContent?: string;
+  editedCitations?: Citation[];
   onFocus?: (sectionId: string) => void;
   onBlur?: (sectionId: string) => void;
   hideEditLink?: boolean;
+}
+
+function EditableReferences({
+  citations,
+  onChange,
+}: {
+  citations: Citation[];
+  onChange: (updated: Citation[]) => void;
+}) {
+  const [showAddForm, setShowAddForm] = useState(false);
+  const [newRefText, setNewRefText] = useState('');
+  const [newRefUrl, setNewRefUrl] = useState('');
+
+  const handleRemove = (citationId: string) => {
+    onChange(citations.filter(c => c.id !== citationId));
+  };
+
+  const handleAdd = () => {
+    if (!newRefText.trim()) return;
+    const newCitation: Citation = {
+      id: `new-${Date.now()}`,
+      index: citations.length,
+      text: newRefText.trim(),
+      url: newRefUrl.trim() || undefined,
+    };
+    onChange([...citations, newCitation]);
+    setNewRefText('');
+    setNewRefUrl('');
+    setShowAddForm(false);
+  };
+
+  return (
+    <div className="mt-3 p-3 rounded" style={{ background: '#f8f9fa', border: '1px solid var(--wiki-chrome-border)' }}>
+      <div className="flex items-center justify-between mb-2">
+        <span className="text-xs font-semibold" style={{ color: 'var(--wiki-text-secondary)' }}>
+          References ({citations.length})
+        </span>
+        <button
+          onClick={() => setShowAddForm(!showAddForm)}
+          className="text-xs px-2 py-0.5 rounded cursor-pointer"
+          style={{ color: 'var(--wiki-link)', border: '1px solid var(--wiki-chrome-border)', background: '#fff' }}
+        >
+          + Add reference
+        </button>
+      </div>
+
+      {/* Add reference form */}
+      {showAddForm && (
+        <div className="mb-2 p-2 rounded" style={{ background: '#fff', border: '1px solid var(--wiki-chrome-border)' }}>
+          <input
+            type="text"
+            value={newRefText}
+            onChange={(e) => setNewRefText(e.target.value)}
+            placeholder="Reference description (e.g., Author, Title, Year)"
+            className="w-full border rounded px-2 py-1 text-xs mb-1"
+            style={{ borderColor: 'var(--wiki-chrome-border)' }}
+          />
+          <input
+            type="url"
+            value={newRefUrl}
+            onChange={(e) => setNewRefUrl(e.target.value)}
+            placeholder="URL (optional)"
+            className="w-full border rounded px-2 py-1 text-xs mb-1"
+            style={{ borderColor: 'var(--wiki-chrome-border)' }}
+          />
+          <div className="flex gap-2">
+            <button
+              onClick={handleAdd}
+              className="text-xs px-2 py-0.5 rounded cursor-pointer text-white"
+              style={{ background: 'var(--wiki-button-primary)' }}
+            >
+              Add
+            </button>
+            <button
+              onClick={() => { setShowAddForm(false); setNewRefText(''); setNewRefUrl(''); }}
+              className="text-xs px-2 py-0.5 rounded cursor-pointer"
+              style={{ color: 'var(--wiki-text-secondary)', border: '1px solid var(--wiki-chrome-border)' }}
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Existing references — editable */}
+      <ol className="pl-4 space-y-1" style={{ fontSize: '0.7rem', color: 'var(--wiki-text-secondary)', lineHeight: 1.4 }}>
+        {citations.map((c) => (
+          <li key={c.id} className="flex items-start gap-1 group">
+            <div className="flex-1 min-w-0">
+              {c.url ? (
+                <a
+                  href={c.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: 'var(--wiki-link)' }}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  {c.text.slice(0, 120)}{c.text.length > 120 ? '...' : ''}
+                </a>
+              ) : (
+                <span>{c.text.slice(0, 120)}{c.text.length > 120 ? '...' : ''}</span>
+              )}
+            </div>
+            <button
+              onClick={() => handleRemove(c.id)}
+              className="text-xs cursor-pointer opacity-40 hover:opacity-100 flex-shrink-0"
+              style={{ color: 'var(--wiki-error)', background: 'none', border: 'none', padding: '0 2px' }}
+              title="Remove this reference"
+            >
+              ×
+            </button>
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
 }
 
 function renderContentWithCitations(content: string, citations: ArticleSection['citations']) {
@@ -108,10 +227,13 @@ export default function SectionEditor({
   onToggleEdit,
   onContentChange,
   editedContent,
+  onReferencesChange,
+  editedCitations,
   onFocus,
   onBlur,
   hideEditLink = false,
 }: SectionEditorProps) {
+  const currentCitations = editedCitations !== undefined ? editedCitations : section.citations;
   const HeadingTag = section.level <= 2 ? 'h2' : 'h3';
 
   // Lead section (level 1) doesn't show a separate heading —
@@ -140,6 +262,13 @@ export default function SectionEditor({
             rows={Math.max(6, value.split('\n').length + 2)}
             autoFocus
           />
+          {/* Editable references for lead section */}
+          {onReferencesChange && (
+            <EditableReferences
+              citations={currentCitations}
+              onChange={(updated) => onReferencesChange(section.id, updated)}
+            />
+          )}
         </div>
       );
     }
@@ -194,6 +323,13 @@ export default function SectionEditor({
           rows={Math.max(6, value.split('\n').length + 2)}
           autoFocus
         />
+        {/* Editable references */}
+        {onReferencesChange && (
+          <EditableReferences
+            citations={currentCitations}
+            onChange={(updated) => onReferencesChange(section.id, updated)}
+          />
+        )}
         <div className="flex justify-end mt-2">
           <button
             onClick={() => onToggleEdit(section.id)}
