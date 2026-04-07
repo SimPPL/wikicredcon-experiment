@@ -130,9 +130,16 @@ export interface ComputedSessionMetrics {
   improvementOverBaseline: number; // how much closer to ground truth
   // Per-section ground truth
   sectionImprovements: Record<string, number>;
+  // Citation comparison metrics
+  citationsInPast: number;
+  citationsInCurrent: number;
+  citationsAddedByEditor: number; // new citations the editor added
+  citationsRemovedByEditor: number; // citations the editor removed
+  citationsMatchingCurrent: number; // editor's citations that match the current article
+  citationRecoveryRate: number; // % of new-in-current citations that editor also added
   // Arbiter-specific (treatment only)
   arbiterClaimsViewed: number;
-  arbiterClaimsCoveredInEdits: number; // claims whose content was added to article
+  arbiterClaimsCoveredInEdits: number;
   arbiterTimeSpentMs: number;
 }
 

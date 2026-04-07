@@ -437,6 +437,49 @@ export function computeGranularMetrics(
   const baselineToGT = computeSimilarity(fullOriginal, fullGroundTruth);
   const improvementOverBaseline = similarityToGroundTruth - baselineToGT;
 
+  // Citation comparison: past vs current vs editor's changes
+  const pastCitationUrls = new Set(
+    pastArticle.sections.flatMap(s => s.citations).filter(c => c.url).map(c => c.url!)
+  );
+  const currentCitationUrls = new Set(
+    currentArticle.sections.flatMap(s => s.citations).filter(c => c.url).map(c => c.url!)
+  );
+
+  // Parse editor's citation changes from finalContent.__editedCitations__
+  let editorCitationUrls = new Set(pastCitationUrls); // start with past citations
+  const editedCitationsRaw = session.finalContent['__editedCitations__'];
+  if (editedCitationsRaw) {
+    try {
+      const editedCitations: Record<string, Array<{ url?: string }>> = JSON.parse(editedCitationsRaw);
+      // Rebuild the full set from edited sections
+      editorCitationUrls = new Set<string>();
+      for (const section of pastArticle.sections) {
+        const edited = editedCitations[section.id];
+        if (edited) {
+          edited.forEach(c => { if (c.url) editorCitationUrls.add(c.url); });
+        } else {
+          section.citations.forEach(c => { if (c.url) editorCitationUrls.add(c.url); });
+        }
+      }
+    } catch { /* use default */ }
+  }
+  // Also include citations added via the toolbar Cite button
+  session.citationsAdded.forEach(c => { if (c.url) editorCitationUrls.add(c.url); });
+
+  const newInCurrent = [...currentCitationUrls].filter(u => !pastCitationUrls.has(u));
+  const editorNewCitations = [...editorCitationUrls].filter(u => !pastCitationUrls.has(u));
+  const editorRemovedCitations = [...pastCitationUrls].filter(u => !editorCitationUrls.has(u));
+  const editorMatchesCurrent = editorNewCitations.filter(u => currentCitationUrls.has(u));
+
+  const citationsInPast = pastCitationUrls.size;
+  const citationsInCurrent = currentCitationUrls.size;
+  const citationsAddedByEditor = editorNewCitations.length;
+  const citationsRemovedByEditor = editorRemovedCitations.length;
+  const citationsMatchingCurrent = editorMatchesCurrent.length;
+  const citationRecoveryRate = newInCurrent.length > 0
+    ? citationsMatchingCurrent / newInCurrent.length
+    : 0;
+
   // Arbiter-specific
   const arbiterClaimsViewed = new Set(
     session.arbiterInteractions
@@ -466,8 +509,14 @@ export function computeGranularMetrics(
     similarityToBaseline,
     improvementOverBaseline,
     sectionImprovements,
+    citationsInPast,
+    citationsInCurrent,
+    citationsAddedByEditor,
+    citationsRemovedByEditor,
+    citationsMatchingCurrent,
+    citationRecoveryRate,
     arbiterClaimsViewed,
-    arbiterClaimsCoveredInEdits: 0, // requires claim-content matching, computed separately
+    arbiterClaimsCoveredInEdits: 0,
     arbiterTimeSpentMs,
   };
 }

@@ -366,6 +366,49 @@ export default function DashboardPage() {
                       </div>
                     )}
 
+                    {/* Citation comparison */}
+                    {cm && cm.citationsInCurrent !== undefined && (
+                      <div className="mt-3 p-2.5 rounded" style={{ background: '#f8f9fa', border: '1px solid var(--wiki-chrome-border)' }}>
+                        <div className="text-xs font-semibold mb-1.5" style={{ color: 'var(--wiki-text-secondary)' }}>
+                          Reference comparison
+                        </div>
+                        <div className="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
+                          <div style={{ color: '#72777d' }}>In original snapshot</div>
+                          <div style={{ fontWeight: 500 }}>{cm.citationsInPast} references</div>
+                          <div style={{ color: '#72777d' }}>In current Wikipedia</div>
+                          <div style={{ fontWeight: 500 }}>{cm.citationsInCurrent} references</div>
+                          <div style={{ color: '#72777d' }}>You added</div>
+                          <div style={{ fontWeight: 500, color: cm.citationsAddedByEditor > 0 ? '#15803d' : '#72777d' }}>
+                            {cm.citationsAddedByEditor > 0 ? '+' : ''}{cm.citationsAddedByEditor} new
+                          </div>
+                          <div style={{ color: '#72777d' }}>You removed</div>
+                          <div style={{ fontWeight: 500, color: cm.citationsRemovedByEditor > 0 ? '#b91c1c' : '#72777d' }}>
+                            {cm.citationsRemovedByEditor > 0 ? '-' : ''}{cm.citationsRemovedByEditor}
+                          </div>
+                          {cm.citationsMatchingCurrent > 0 && (
+                            <>
+                              <div style={{ color: '#72777d' }}>Match current article</div>
+                              <div style={{ fontWeight: 600, color: '#15803d' }}>
+                                {cm.citationsMatchingCurrent} references
+                              </div>
+                            </>
+                          )}
+                        </div>
+                        {cm.citationRecoveryRate > 0 && (
+                          <div className="mt-2">
+                            <PercentageBar
+                              value={cm.citationRecoveryRate}
+                              label="Citation recovery rate"
+                            />
+                            <div className="text-xs mt-0.5" style={{ color: '#72777d' }}>
+                              {Math.round(cm.citationRecoveryRate * 100)}% of new references in the current
+                              Wikipedia article were also added by you.
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
+
                     {!cm && (
                       <div className="text-xs mt-2 italic" style={{ color: '#72777d' }}>
                         Ground truth metrics not yet computed.
