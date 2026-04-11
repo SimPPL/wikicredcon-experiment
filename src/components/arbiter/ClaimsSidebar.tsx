@@ -33,6 +33,61 @@ function formatEngagement(n: number): string {
   return String(n);
 }
 
+// --- Source reliability (Iffy.news dataset) ---
+
+// Tier 1-5: very unreliable → mostly reliable. 0 = not rated.
+type ReliabilityTier = 0 | 1 | 2 | 3 | 4 | 5;
+
+const TIER_COLORS: Record<ReliabilityTier, { bg: string; border: string; label: string; dot: string }> = {
+  0: { bg: '#f8f9fa', border: '#e0e0e0', label: 'Not rated', dot: '#a2a9b1' },
+  1: { bg: '#fde8e8', border: '#e53e3e', label: 'Very unreliable', dot: '#c53030' },
+  2: { bg: '#fef2e8', border: '#dd6b20', label: 'Unreliable', dot: '#c05621' },
+  3: { bg: '#fefce8', border: '#d69e2e', label: 'Questionable', dot: '#b7791f' },
+  4: { bg: '#fefce8', border: '#ecc94b', label: 'Mixed reliability', dot: '#b7791f' },
+  5: { bg: '#e8f8ef', border: '#38a169', label: 'Mostly reliable', dot: '#276749' },
+};
+
+function extractDomain(url: string): string {
+  try {
+    const hostname = new URL(url).hostname.toLowerCase();
+    // Strip www. prefix
+    return hostname.replace(/^www\./, '');
+  } catch {
+    return '';
+  }
+}
+
+function getReliabilityTier(url: string, iffyDomains: Record<string, number>): ReliabilityTier {
+  const domain = extractDomain(url);
+  if (!domain) return 0;
+  // Check exact domain and parent domain (e.g., news.example.com → example.com)
+  if (domain in iffyDomains) return iffyDomains[domain] as ReliabilityTier;
+  const parts = domain.split('.');
+  if (parts.length > 2) {
+    const parent = parts.slice(-2).join('.');
+    if (parent in iffyDomains) return iffyDomains[parent] as ReliabilityTier;
+  }
+  return 0; // Not in dataset
+}
+
+function ReliabilityDot({ tier }: { tier: ReliabilityTier }) {
+  const c = TIER_COLORS[tier];
+  return (
+    <span
+      title={c.label}
+      style={{
+        display: 'inline-block',
+        width: 8,
+        height: 8,
+        borderRadius: '50%',
+        background: c.dot,
+        flexShrink: 0,
+        marginTop: 2,
+      }}
+    />
+  );
+}
+
 function CopyButton({ text }: { text: string }) {
   const [copied, setCopied] = useState(false);
 
@@ -65,7 +120,7 @@ function CopyButton({ text }: { text: string }) {
   );
 }
 
-function SourceLink({ source }: { source: ClaimSource }) {
+function SourceLink({ source, iffyDomains }: { source: ClaimSource; iffyDomains: Record<string, number> }) {
   const icons: Record<string, string> = {
     'fact-check': '\u2713',
     'news': '\ud83d\udcf0',
@@ -73,23 +128,37 @@ function SourceLink({ source }: { source: ClaimSource }) {
     'academic': '\ud83d\udcc4',
     'other': '\ud83d\udd17',
   };
+  const tier = getReliabilityTier(source.url, iffyDomains);
+  const colors = TIER_COLORS[tier];
   return (
     <div
-      className="py-1.5 px-2 rounded text-xs hover:bg-gray-100"
-      style={{ borderBottom: '1px solid #f0f0f0' }}
+      className="py-1.5 px-2 rounded text-xs"
+      style={{
+        borderBottom: '1px solid #f0f0f0',
+        background: colors.bg,
+        borderLeft: `3px solid ${colors.border}`,
+      }}
     >
       <div className="flex items-start gap-1.5">
         <span style={{ fontSize: '0.7rem', flexShrink: 0 }}>{icons[source.type] || icons.other}</span>
         <div className="min-w-0 flex-1">
-          <a
-            href={source.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium"
-            style={{ color: 'var(--wiki-link)', fontSize: '0.75rem', textDecoration: 'none' }}
-          >
-            {source.title?.slice(0, 80) || source.url.slice(0, 60)}
-          </a>
+          <div className="flex items-center gap-1">
+            <ReliabilityDot tier={tier} />
+            <a
+              href={source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium"
+              style={{ color: 'var(--wiki-link)', fontSize: '0.75rem', textDecoration: 'none' }}
+            >
+              {source.title?.slice(0, 80) || source.url.slice(0, 60)}
+            </a>
+          </div>
+          {tier > 0 && (
+            <div style={{ color: colors.dot, fontSize: '0.6rem', fontWeight: 600, marginTop: 1 }}>
+              {colors.label}
+            </div>
+          )}
           {source.publisher && (
             <div style={{ color: 'var(--wiki-text-secondary)', fontSize: '0.7rem' }}>
               {source.publisher}
@@ -160,6 +229,15 @@ export default function ClaimsSidebar({
   const [activeTab, setActiveTab] = useState<TabId>('claims');
   const isMobile = useIsMobile();
   const [highlightPulse, setHighlightPulse] = useState(false);
+  const [iffyDomains, setIffyDomains] = useState<Record<string, number>>({});
+
+  // Load iffy-domains reliability data
+  useEffect(() => {
+    fetch('/data/iffy-domains.json')
+      .then(r => r.ok ? r.json() : {})
+      .then(setIffyDomains)
+      .catch(() => {});
+  }, []);
   const prevSectionRef = useRef<string | null>(null);
   const firstRelevantRef = useRef<HTMLButtonElement | null>(null);
 
@@ -394,7 +472,7 @@ export default function ClaimsSidebar({
           {activeTab === 'sources' && (
             <div>
               {sources.length > 0 ? (
-                sources.map((src, i) => <SourceLink key={`src-${i}`} source={src} />)
+                sources.map((src, i) => <SourceLink key={`src-${i}`} source={src} iffyDomains={iffyDomains} />)
               ) : (
                 <p
                   className="text-xs py-4 text-center"
@@ -409,7 +487,7 @@ export default function ClaimsSidebar({
           {activeTab === 'fact-checks' && (
             <div>
               {factChecks.length > 0 ? (
-                factChecks.map((fc, i) => <SourceLink key={`fc-${i}`} source={fc} />)
+                factChecks.map((fc, i) => <SourceLink key={`fc-${i}`} source={fc} iffyDomains={iffyDomains} />)
               ) : (
                 <p
                   className="text-xs py-4 text-center"
@@ -428,7 +506,7 @@ export default function ClaimsSidebar({
                   <p className="text-xs mb-2" style={{ color: 'var(--wiki-text-secondary)' }}>
                     Related Wikipedia articles that may provide useful context. Links to the article you are currently editing have been excluded.
                   </p>
-                  {wikiRefs.map((ref, i) => <SourceLink key={`wiki-${i}`} source={ref} />)}
+                  {wikiRefs.map((ref, i) => <SourceLink key={`wiki-${i}`} source={ref} iffyDomains={iffyDomains} />)}
                 </>
               ) : (
                 <p
