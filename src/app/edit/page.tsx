@@ -231,34 +231,42 @@ export default function EditPage() {
   );
 
   const handleReferencesChange = useCallback((sectionId: string, citations: import('@/types').Citation[]) => {
-    const prevCitations = editedCitationsRef.current[sectionId];
+    const prevCitations = editedCitationsRef.current[sectionId] || [];
     setEditedCitations((prev) => {
       const next = { ...prev, [sectionId]: citations };
       editedCitationsRef.current = next;
       return next;
     });
 
-    // Track reference changes as edit events
-    if (sessionRef.current && prevCitations !== undefined) {
-      // Only diff against previous known state (not first call which initializes)
-      const added = citations.filter(c => !prevCitations.some(o => o.id === c.id));
-      const removed = prevCitations.filter(o => !citations.some(c => c.id === o.id));
+    if (!sessionRef.current) return;
 
-      for (const c of added) {
-        sessionRef.current.editEvents.push({
-          timestamp: Date.now(),
-          sectionId,
-          action: 'insert',
-          contentBefore: '',
-          contentAfter: `[ref added] ${c.text.slice(0, 80)} | ${c.url || 'no-url'}`,
-        });
-        sessionRef.current.citationsAdded.push({
-          timestamp: Date.now(),
-          sectionId,
-          referenceText: c.text,
-          url: c.url,
-        });
-      }
+    // Detect newly added refs (id starts with "new-" AND not already tracked)
+    const alreadyTrackedIds = new Set(
+      sessionRef.current.citationsAdded.map(c => `${c.sectionId}:${c.referenceText}`)
+    );
+    const newRefs = citations.filter(c =>
+      c.id.startsWith('new-') && !alreadyTrackedIds.has(`${sectionId}:${c.text}`)
+    );
+    for (const c of newRefs) {
+      sessionRef.current.editEvents.push({
+        timestamp: Date.now(),
+        sectionId,
+        action: 'insert',
+        contentBefore: '',
+        contentAfter: `[ref added] ${c.text.slice(0, 80)} | ${c.url || 'no-url'}`,
+      });
+      sessionRef.current.citationsAdded.push({
+        timestamp: Date.now(),
+        sectionId,
+        referenceText: c.text,
+        url: c.url,
+      });
+    }
+
+    // Detect removed refs (in prev but not in current)
+    if (prevCitations.length > 0) {
+      const currentIds = new Set(citations.map(c => c.id));
+      const removed = prevCitations.filter(c => !currentIds.has(c.id));
       for (const c of removed) {
         sessionRef.current.editEvents.push({
           timestamp: Date.now(),
@@ -266,24 +274,6 @@ export default function EditPage() {
           action: 'delete',
           contentBefore: `[ref removed] ${c.text.slice(0, 80)} | ${c.url || 'no-url'}`,
           contentAfter: '',
-        });
-      }
-    } else if (sessionRef.current && prevCitations === undefined) {
-      // First call for this section — detect user-added refs (id starts with "new-")
-      const userAdded = citations.filter(c => c.id.startsWith('new-'));
-      for (const c of userAdded) {
-        sessionRef.current.editEvents.push({
-          timestamp: Date.now(),
-          sectionId,
-          action: 'insert',
-          contentBefore: '',
-          contentAfter: `[ref added] ${c.text.slice(0, 80)} | ${c.url || 'no-url'}`,
-        });
-        sessionRef.current.citationsAdded.push({
-          timestamp: Date.now(),
-          sectionId,
-          referenceText: c.text,
-          url: c.url,
         });
       }
     }
