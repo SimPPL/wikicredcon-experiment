@@ -215,3 +215,83 @@ body {
 .bar-chart-bar {
   transition: width 0.5s ease-out;
 }
+
+/* ===== Mobile Claims Bottom Sheet ===== */
+
+.mobile-claims-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 48px;
+  padding-bottom: env(safe-area-inset-bottom);
+  background: #3366cc;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.mobile-claims-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(0, 0, 0, 0.3);
+  animation: sheetFadeIn 0.2s ease-out;
+}
+
+.mobile-claims-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 70;
+  height: 60dvh;
+  background: #fafbff;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  padding-bottom: env(safe-area-inset-bottom);
+  animation: sheetSlideUp 0.25s ease-out;
+}
+
+.mobile-claims-handle {
+  width: 36px;
+  height: 4px;
+  background: #c8ccd1;
+  border-radius: 2px;
+  margin: 8px auto 4px;
+  flex-shrink: 0;
+}
+
+.mobile-claims-content {
+  flex: 1;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0 16px 16px;
+  border-left: none;
+}
+
+/* Override arbiter-sidebar border on mobile sheet */
+.mobile-claims-content.arbiter-sidebar {
+  border-left: none;
+}
+
+@keyframes sheetSlideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+@keyframes sheetFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

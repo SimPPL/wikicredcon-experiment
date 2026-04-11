@@ -214,6 +214,7 @@ function generateSession(participantId, condition, articleId, startTime) {
     participantId,
     condition,
     articleId,
+    deviceType: Math.random() > 0.8 ? 'mobile' : 'desktop',
     startedAt: startTime,
     endedAt: startTime + editDuration,
     editEvents,

@@ -24,6 +24,7 @@ import EditNotice from '@/components/wiki/EditNotice';
 import PublishDialog from '@/components/wiki/PublishDialog';
 import ClaimsSidebar from '@/components/arbiter/ClaimsSidebar';
 import { computeGranularMetrics } from '@/lib/metrics-computation';
+import { useIsMobile } from '@/lib/useIsMobile';
 
 export default function EditPage() {
   // --- State ---
@@ -45,6 +46,8 @@ export default function EditPage() {
   const [finalizeNudgeDismissed, setFinalizeNudgeDismissed] = useState(false);
   const [editSummary, setEditSummary] = useState('');
   const [loading, setLoading] = useState(true);
+
+  const isMobile = useIsMobile();
 
   // --- Refs for metrics (avoid re-renders) ---
   const sessionRef = useRef<EditSession | null>(null);
@@ -117,11 +120,13 @@ export default function EditPage() {
     }
 
     // Initialize session
+    const isMobileDevice = window.matchMedia('(max-width: 767px)').matches;
     const session: EditSession = {
       sessionId: generateId(),
       participantId: p.id,
       condition: cond,
       articleId,
+      deviceType: isMobileDevice ? 'mobile' : 'desktop',
       startedAt: Date.now(),
       editEvents: [],
       sectionTimes: {},
@@ -375,6 +380,19 @@ export default function EditPage() {
     window.location.href = '/edit';
   }, []);
 
+  const handleSidebarToggle = useCallback(() => {
+    const newCollapsed = !sidebarCollapsed;
+    setSidebarCollapsed(newCollapsed);
+    if (sessionRef.current) {
+      sessionRef.current.arbiterInteractions.push({
+        timestamp: Date.now(),
+        claimId: '__sidebar__',
+        action: newCollapsed ? 'collapse' : 'expand',
+        duration: 0,
+      });
+    }
+  }, [sidebarCollapsed]);
+
   // Synthesize legacy ArbiterClaim[] from ClaimGroups for ArticleRenderer badges
   const claimGroupsAsLegacyClaims: ArbiterClaim[] = useMemo(() => {
     if (!claimGroups || !Array.isArray(claimGroups)) return [];
@@ -597,8 +615,8 @@ export default function EditPage() {
           </div>
         </div>
 
-        {/* Arbiter Sidebar (treatment only) */}
-        {condition === 'treatment' && (
+        {/* Arbiter Sidebar — desktop: inside flex row */}
+        {condition === 'treatment' && !isMobile && (
           <ClaimsSidebar
             claimGroups={claimGroups}
             activeSectionId={editingSectionId}
@@ -610,10 +628,27 @@ export default function EditPage() {
             onClaimView={handleClaimView}
             onClaimClick={handleClaimClick}
             collapsed={sidebarCollapsed}
-            onToggle={() => setSidebarCollapsed(!sidebarCollapsed)}
+            onToggle={handleSidebarToggle}
           />
         )}
       </div>
+
+      {/* Arbiter Sidebar — mobile: fixed overlay outside flex row */}
+      {condition === 'treatment' && isMobile && (
+        <ClaimsSidebar
+          claimGroups={claimGroups}
+          activeSectionId={editingSectionId}
+          sectionTitles={
+            article
+              ? Object.fromEntries(article.sections.map((s) => [s.id, s.title]))
+              : {}
+          }
+          onClaimView={handleClaimView}
+          onClaimClick={handleClaimClick}
+          collapsed={sidebarCollapsed}
+          onToggle={handleSidebarToggle}
+        />
+      )}
     </div>
   );
 }

@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import type { ClaimGroup, ClaimSource } from '@/types';
+import { useIsMobile } from '@/lib/useIsMobile';
 
 interface ClaimsSidebarProps {
   claimGroups: ClaimGroup[];
@@ -72,6 +73,44 @@ function SourceLink({ source }: { source: ClaimSource }) {
 
 type TabId = 'claims' | 'sources' | 'fact-checks' | 'wikipedia';
 
+function SidebarShell({
+  children,
+  isMobile,
+  onClose,
+}: {
+  children: React.ReactNode;
+  isMobile: boolean;
+  onClose: () => void;
+}) {
+  if (!isMobile) {
+    return (
+      <aside
+        className="arbiter-sidebar h-screen overflow-hidden flex flex-col p-4 sticky top-0"
+        style={{ width: 370, flexShrink: 0 }}
+      >
+        {children}
+      </aside>
+    );
+  }
+
+  return (
+    <>
+      <div className="mobile-claims-backdrop" onClick={onClose} />
+      <div
+        className="mobile-claims-sheet"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Social media claims"
+      >
+        <div className="mobile-claims-handle" />
+        <div className="mobile-claims-content arbiter-sidebar">
+          {children}
+        </div>
+      </div>
+    </>
+  );
+}
+
 export default function ClaimsSidebar({
   claimGroups,
   activeSectionId,
@@ -83,6 +122,7 @@ export default function ClaimsSidebar({
 }: ClaimsSidebarProps) {
   const [selectedGroupId, setSelectedGroupId] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState<TabId>('claims');
+  const isMobile = useIsMobile();
 
   const totalClaims = useMemo(
     () => (claimGroups || []).reduce((sum, g) => sum + (g.claimCount || g.claims?.length || 0), 0),
@@ -106,6 +146,14 @@ export default function ClaimsSidebar({
 
   // --- Collapsed state ---
   if (collapsed) {
+    if (isMobile) {
+      return (
+        <button onClick={onToggle} className="mobile-claims-bar">
+          <span>Claims ({totalClaims})</span>
+          <span style={{ fontSize: '0.7rem', opacity: 0.8 }}>Tap to open</span>
+        </button>
+      );
+    }
     return (
       <button
         onClick={onToggle}
@@ -131,11 +179,8 @@ export default function ClaimsSidebar({
     });
 
     return (
-      <aside
-        className="arbiter-sidebar h-screen overflow-hidden flex flex-col p-4 sticky top-0"
-        style={{ width: 370, flexShrink: 0 }}
-      >
-        {/* Header with collapse */}
+      <SidebarShell isMobile={isMobile} onClose={onToggle}>
+        {/* Header with collapse/close */}
         <div className="flex items-center justify-between mb-2">
           <h2 className="text-sm font-semibold" style={{ color: '#36c' }}>
             Social Media Claims
@@ -146,9 +191,11 @@ export default function ClaimsSidebar({
             style={{
               border: '1px solid var(--wiki-chrome-border)',
               color: 'var(--wiki-text-secondary)',
+              fontSize: isMobile ? '1rem' : undefined,
             }}
+            aria-label="Close claims panel"
           >
-            Collapse
+            {isMobile ? '✕' : 'Collapse'}
           </button>
         </div>
 
@@ -309,16 +356,13 @@ export default function ClaimsSidebar({
             </div>
           )}
         </div>
-      </aside>
+      </SidebarShell>
     );
   }
 
   // --- Default / group list view ---
   return (
-    <aside
-      className="arbiter-sidebar h-screen overflow-y-auto p-4 sticky top-0"
-      style={{ width: 370, flexShrink: 0 }}
-    >
+    <SidebarShell isMobile={isMobile} onClose={onToggle}>
       {/* Header */}
       <div className="flex items-center justify-between mb-3">
         <h2 className="text-sm font-semibold" style={{ color: '#36c' }}>
@@ -330,9 +374,11 @@ export default function ClaimsSidebar({
           style={{
             border: '1px solid var(--wiki-chrome-border)',
             color: 'var(--wiki-text-secondary)',
+            fontSize: isMobile ? '1rem' : undefined,
           }}
+          aria-label="Close claims panel"
         >
-          Collapse
+          {isMobile ? '✕' : 'Collapse'}
         </button>
       </div>
 
@@ -436,6 +482,6 @@ export default function ClaimsSidebar({
           );
         })}
       </div>
-    </aside>
+    </SidebarShell>
   );
 }

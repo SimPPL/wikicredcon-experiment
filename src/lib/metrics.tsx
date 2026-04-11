@@ -165,11 +165,13 @@ export function MetricsProvider({ children }: { children: React.ReactNode }) {
 
   const initSession = useCallback(
     (participantId: string, condition: ExperimentCondition, articleId: string) => {
+      const isMobileDevice = window.matchMedia('(max-width: 767px)').matches;
       const session: EditSession = {
         sessionId: crypto.randomUUID(),
         participantId,
         condition,
         articleId,
+        deviceType: isMobileDevice ? 'mobile' : 'desktop',
         startedAt: Date.now(),
         editEvents: [],
         sectionTimes: {},

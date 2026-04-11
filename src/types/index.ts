@@ -88,6 +88,7 @@ export interface EditSession {
   participantId: string;
   condition: ExperimentCondition;
   articleId: string;
+  deviceType: 'mobile' | 'desktop';
   startedAt: number;
   endedAt?: number;
   editEvents: EditEvent[];
