@@ -119,8 +119,13 @@ export default function EditPage() {
       loadClaimGroups(articleId).then(setClaimGroups).catch(() => setClaimGroups([]));
     }
 
-    // Initialize session
+    // Start sidebar collapsed on mobile so article is immediately visible
     const isMobileDevice = window.matchMedia('(max-width: 767px)').matches;
+    if (isMobileDevice) {
+      setSidebarCollapsed(true);
+    }
+
+    // Initialize session
     const session: EditSession = {
       sessionId: generateId(),
       participantId: p.id,
@@ -491,7 +496,7 @@ export default function EditPage() {
       <div className="flex">
         {/* Article Area */}
         <div className={`flex-1 ${condition === 'treatment' && !sidebarCollapsed ? '' : ''}`}>
-          <div className="max-w-[960px] mx-auto px-4 py-4">
+          <div className="max-w-[960px] mx-auto px-4 py-4" style={isMobile && condition === 'treatment' ? { paddingBottom: 64 } : undefined}>
             {/* Finalize nudge popup — appears at 2-minute mark, dismissible */}
             {isFinalizePhase && showFinalizeNudge && !finalizeNudgeDismissed && (
               <div
