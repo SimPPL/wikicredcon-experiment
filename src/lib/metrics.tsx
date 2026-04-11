@@ -179,6 +179,7 @@ export function MetricsProvider({ children }: { children: React.ReactNode }) {
         citationsAdded: [],
         tabBlurEvents: [],
         arbiterInteractions: [],
+        linkClicks: [],
         finalContent: {},
         totalEditTime: 0,
       };

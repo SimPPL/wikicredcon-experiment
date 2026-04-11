@@ -10,6 +10,7 @@ interface ClaimsSidebarProps {
   sectionTitles?: Record<string, string>;
   onClaimView?: (claimId: string) => void;
   onClaimClick?: (claimId: string) => void;
+  onLinkEvent?: (url: string, sourceType: string, action: 'click' | 'copy') => void;
   collapsed: boolean;
   onToggle: () => void;
 }
@@ -88,7 +89,7 @@ function ReliabilityDot({ tier }: { tier: ReliabilityTier }) {
   );
 }
 
-function CopyButton({ text }: { text: string }) {
+function CopyButton({ text, onCopy }: { text: string; onCopy?: () => void }) {
   const [copied, setCopied] = useState(false);
 
   return (
@@ -98,6 +99,7 @@ function CopyButton({ text }: { text: string }) {
         e.stopPropagation();
         navigator.clipboard.writeText(text).then(() => {
           setCopied(true);
+          onCopy?.();
           setTimeout(() => setCopied(false), 1500);
         });
       }}
@@ -120,7 +122,7 @@ function CopyButton({ text }: { text: string }) {
   );
 }
 
-function SourceLink({ source, iffyDomains }: { source: ClaimSource; iffyDomains: Record<string, number> }) {
+function SourceLink({ source, iffyDomains, onLinkEvent }: { source: ClaimSource; iffyDomains: Record<string, number>; onLinkEvent?: (url: string, sourceType: string, action: 'click' | 'copy') => void }) {
   const icons: Record<string, string> = {
     'fact-check': '\u2713',
     'news': '\ud83d\udcf0',
@@ -150,6 +152,7 @@ function SourceLink({ source, iffyDomains }: { source: ClaimSource; iffyDomains:
               rel="noopener noreferrer"
               className="font-medium"
               style={{ color: 'var(--wiki-link)', fontSize: '0.75rem', textDecoration: 'none' }}
+              onClick={() => onLinkEvent?.(source.url, source.type, 'click')}
             >
               {source.title?.slice(0, 80) || source.url.slice(0, 60)}
             </a>
@@ -170,7 +173,7 @@ function SourceLink({ source, iffyDomains }: { source: ClaimSource; iffyDomains:
             </div>
           )}
         </div>
-        <CopyButton text={source.url} />
+        <CopyButton text={source.url} onCopy={() => onLinkEvent?.(source.url, source.type, 'copy')} />
       </div>
     </div>
   );
@@ -222,6 +225,7 @@ export default function ClaimsSidebar({
   sectionTitles = {},
   onClaimView,
   onClaimClick,
+  onLinkEvent,
   collapsed,
   onToggle,
 }: ClaimsSidebarProps) {
@@ -472,7 +476,7 @@ export default function ClaimsSidebar({
           {activeTab === 'sources' && (
             <div>
               {sources.length > 0 ? (
-                sources.map((src, i) => <SourceLink key={`src-${i}`} source={src} iffyDomains={iffyDomains} />)
+                sources.map((src, i) => <SourceLink key={`src-${i}`} source={src} iffyDomains={iffyDomains} onLinkEvent={onLinkEvent} />)
               ) : (
                 <p
                   className="text-xs py-4 text-center"
@@ -487,7 +491,7 @@ export default function ClaimsSidebar({
           {activeTab === 'fact-checks' && (
             <div>
               {factChecks.length > 0 ? (
-                factChecks.map((fc, i) => <SourceLink key={`fc-${i}`} source={fc} iffyDomains={iffyDomains} />)
+                factChecks.map((fc, i) => <SourceLink key={`fc-${i}`} source={fc} iffyDomains={iffyDomains} onLinkEvent={onLinkEvent} />)
               ) : (
                 <p
                   className="text-xs py-4 text-center"
@@ -506,7 +510,7 @@ export default function ClaimsSidebar({
                   <p className="text-xs mb-2" style={{ color: 'var(--wiki-text-secondary)' }}>
                     Related Wikipedia articles that may provide useful context. Links to the article you are currently editing have been excluded.
                   </p>
-                  {wikiRefs.map((ref, i) => <SourceLink key={`wiki-${i}`} source={ref} iffyDomains={iffyDomains} />)}
+                  {wikiRefs.map((ref, i) => <SourceLink key={`wiki-${i}`} source={ref} iffyDomains={iffyDomains} onLinkEvent={onLinkEvent} />)}
                 </>
               ) : (
                 <p

@@ -223,6 +223,7 @@ function generateSession(participantId, condition, articleId, startTime) {
     citationsAdded,
     tabBlurEvents,
     arbiterInteractions,
+    linkClicks: [],
     finalContent,
     totalEditTime: editDuration,
     computedMetrics,

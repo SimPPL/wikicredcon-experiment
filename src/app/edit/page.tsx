@@ -139,6 +139,7 @@ export default function EditPage() {
       citationsAdded: [],
       tabBlurEvents: [],
       arbiterInteractions: [],
+      linkClicks: [],
       finalContent: {},
       totalEditTime: 0,
     };
@@ -301,6 +302,20 @@ export default function EditPage() {
         duration: 0,
       };
       sessionRef.current.arbiterInteractions.push(interaction);
+    }
+  }, []);
+
+  const handleLinkEvent = useCallback((url: string, sourceType: string, action: 'click' | 'copy') => {
+    if (sessionRef.current) {
+      let domain = '';
+      try { domain = new URL(url).hostname.replace(/^www\./, ''); } catch {}
+      sessionRef.current.linkClicks.push({
+        timestamp: Date.now(),
+        url,
+        domain,
+        sourceType,
+        action,
+      });
     }
   }, []);
 
@@ -632,6 +647,7 @@ export default function EditPage() {
             }
             onClaimView={handleClaimView}
             onClaimClick={handleClaimClick}
+            onLinkEvent={handleLinkEvent}
             collapsed={sidebarCollapsed}
             onToggle={handleSidebarToggle}
           />

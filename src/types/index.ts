@@ -83,6 +83,14 @@ export interface ArbiterInteraction {
   duration: number; // ms
 }
 
+export interface LinkClickEvent {
+  timestamp: number;
+  url: string;
+  domain: string;
+  sourceType: string; // 'source' | 'fact-check' | 'wikipedia' | 'claim-copy'
+  action: 'click' | 'copy';
+}
+
 export interface EditSession {
   sessionId: string;
   participantId: string;
@@ -97,6 +105,7 @@ export interface EditSession {
   citationsAdded: CitationEvent[];
   tabBlurEvents: TabBlurEvent[];
   arbiterInteractions: ArbiterInteraction[];
+  linkClicks: LinkClickEvent[];
   finalContent: Record<string, string>; // sectionId -> final text
   totalEditTime: number; // ms
   // Computed metrics (populated on publish)
