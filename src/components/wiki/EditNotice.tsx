@@ -30,7 +30,7 @@ export default function EditNotice({ articleId, articleTitle, revisionDate }: Ed
           and any <strong>new information</strong> you believe should be included.
         </p>
         <p style={{ fontSize: '0.85rem', lineHeight: 1.6, marginBottom: '0.5rem' }}>
-          You have <strong>10 minutes</strong> to edit, plus <strong>1 minute</strong> to
+          You have <strong>8 minutes</strong> to edit, plus <strong>2 minutes</strong> to
           finalize and polish your changes before submission.
         </p>
         <p style={{ fontSize: '0.85rem', lineHeight: 1.6 }}>
