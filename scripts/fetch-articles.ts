@@ -147,7 +147,47 @@ function extractCitations(wikitext: string): Citation[] {
       url = urlParam[1];
     }
 
-    // Bare URLs
+    // DOI → https://doi.org/...
+    if (!url) {
+      const doiParam = refContent.match(/\|\s*doi\s*=\s*([^\s|}<]+)/);
+      if (doiParam) {
+        url = `https://doi.org/${doiParam[1].replace(/^doi:/, '')}`;
+      }
+    }
+
+    // PMID → https://pubmed.ncbi.nlm.nih.gov/...
+    if (!url) {
+      const pmidParam = refContent.match(/\|\s*pmid\s*=\s*(\d+)/);
+      if (pmidParam) {
+        url = `https://pubmed.ncbi.nlm.nih.gov/${pmidParam[1]}/`;
+      }
+    }
+
+    // PMC → https://www.ncbi.nlm.nih.gov/pmc/articles/PMC.../
+    if (!url) {
+      const pmcParam = refContent.match(/\|\s*pmc\s*=\s*(\d+)/);
+      if (pmcParam) {
+        url = `https://www.ncbi.nlm.nih.gov/pmc/articles/PMC${pmcParam[1]}/`;
+      }
+    }
+
+    // arXiv → https://arxiv.org/abs/...
+    if (!url) {
+      const arxivParam = refContent.match(/\|\s*arxiv\s*=\s*([^\s|}<]+)/);
+      if (arxivParam) {
+        url = `https://arxiv.org/abs/${arxivParam[1]}`;
+      }
+    }
+
+    // ISBN → search link
+    if (!url) {
+      const isbnParam = refContent.match(/\|\s*isbn\s*=\s*([^\s|}<]+)/);
+      if (isbnParam) {
+        url = `https://en.wikipedia.org/wiki/Special:BookSources/${isbnParam[1].replace(/-/g, '')}`;
+      }
+    }
+
+    // Bare URLs as last resort
     if (!url) {
       const bareUrl = refContent.match(/(https?:\/\/[^\s\]|}<]+)/);
       if (bareUrl) {

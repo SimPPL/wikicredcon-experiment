@@ -1,148 +1,154 @@
 {
   "id": "openai",
   "title": "OpenAI",
-  "revisionDate": "2026-04-05",
-  "revisionId": "1346897763",
+  "revisionDate": "2026-04-11",
+  "revisionId": "1348213428",
   "sections": [
     {
       "id": "founding",
       "title": "Founding",
       "level": 2,
-      "content": "in San Francisco]]\nIn December 2015, OpenAI was founded as a not for profit organization by Sam Altman, Elon Musk, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, and Wojciech Zaremba, with Sam Altman and Elon Musk as the co-chairs. A total of $1 billion in capital was pledged by Sam Altman, Greg Brockman, Elon Musk, Reid Hoffman, Jessica Livingston, Peter Thiel, Amazon Web Services (AWS), and Infosys. However, the actual capital collected significantly lagged pledges. According to company disclosures, only $130 million had been received by 2019.\n\nIn its founding charter, OpenAI stated an intention to collaborate openly with other institutions by making certain patents and research publicly available, but later restricted access to its most capable models, citing competitive and safety concerns. It was later headquartered at the Pioneer Building in the Mission District, San Francisco.\n\nAccording to OpenAI's charter, its founding mission is \"to ensure that artificial general intelligence (AGI)—by which we mean highly autonomous systems that outperform humans at most economically valuable work—benefits all of humanity.\" OpenAI stated that \"it's hard to fathom how much human-level AI could benefit society\", and that it is equally difficult to comprehend \"how much it could damage society if built or used incorrectly\". Co-chair Sam Altman expected a decades-long project that eventually surpasses human intelligence.\n\nBrockman met with Yoshua Bengio, one of the \"founding fathers\" of deep learning, and drew up a list of great AI researchers. OpenAI's potential and mission drew these researchers to the firm; a Google employee said he was willing to leave Google for OpenAI \"partly because of the very strong group of people and, to a very large extent, because of its mission.\" Nvidia gifted its first DGX-1 supercomputer to OpenAI in August 2016 to help it train larger and more complex AI models with the capability of reducing processing time from six days to two hours. In December 2016, OpenAI released \"Universe\", a software platform for measuring and training an AI's general intelligence across the world's supply of games, websites, and other applications.",
+      "content": "in San Francisco]]\nIn December 2015, OpenAI was founded as the nonprofit organization OpenAI, Inc., by Sam Altman, Elon Musk, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, and Wojciech Zaremba, with Sam Altman and Elon Musk as the co-chairs. A total of $1 billion in capital was pledged by Sam Altman, Greg Brockman, Elon Musk, Reid Hoffman, Jessica Livingston, Peter Thiel, Amazon Web Services (AWS), and Infosys. However, the actual capital collected significantly lagged pledges. According to company disclosures, only $130 million had been received by 2019.\n\nIn its founding charter, OpenAI defined its mission as ensuring that artificial general intelligence (AGI) \"benefits all of humanity\", It was later headquartered at the Pioneer Building in the Mission District, San Francisco.\n\nMusk and Altman stated in 2015 that they were partly motivated by concerns about AI safety and existential risk from artificial general intelligence. OpenAI stated that \"it's hard to fathom how much human-level AI could benefit society\", and that it is equally difficult to comprehend \"how much it could damage society if built or used incorrectly\". Co-chair Sam Altman expected a decades-long project that eventually surpasses human intelligence.\n\nBrockman met with Yoshua Bengio, one of the \"founding fathers\" of deep learning, and drew up a list of great AI researchers. OpenAI's potential and mission drew these researchers to the firm; a Google employee said he was willing to leave Google for OpenAI \"partly because of the very strong group of people and, to a very large extent, because of its mission.\" Nvidia gifted its first DGX-1 supercomputer to OpenAI in August 2016 to help it train larger and more complex AI models with the capability of reducing processing time from six days to two hours. In December 2016, OpenAI released \"Universe\", a software platform for measuring and training an AI's general intelligence across the world's supply of games, websites, and other applications.",
       "citations": [
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Only 4 of OpenAI's 11 Founders Are Still With the Company—Where Are the Rest of Them?, (2024-07-12)",
-          "url": "https://observer.com/2024/07/openai-founders-career/"
+          "text": "Ostrovsky, A Timeline of OpenAI's For-Profit Shift, (October 27, 2025)",
+          "url": "https://time.com/7328674/openai-chatgpt-sam-altman-elon-musk-timeline/"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Introducing OpenAI, (December 12, 2015)",
-          "url": "https://openai.com/blog/introducing-openai/"
+          "text": "Only 4 of OpenAI's 11 Founders Are Still With the Company—Where Are the Rest of Them?, (2024-07-12)",
+          "url": "https://observer.com/2024/07/openai-founders-career/"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Sam Altman on His Plan to Keep A.I. Out of the Hands of the \"Bad Guys\", (2015)",
-          "url": "https://www.vanityfair.com/news/2015/12/sam-altman-elon-musk-openai"
+          "text": "Introducing OpenAI, (December 12, 2015)",
+          "url": "https://openai.com/blog/introducing-openai/"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Our structure, (October 28, 2025)",
-          "url": "https://openai.com/our-structure"
+          "text": "Sam Altman on His Plan to Keep A.I. Out of the Hands of the \"Bad Guys\", (2015)",
+          "url": "https://www.vanityfair.com/news/2015/12/sam-altman-elon-musk-openai"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Introducing OpenAI, (December 12, 2015)",
-          "url": "https://blog.openai.com/introducing-openai/"
+          "text": "Our structure, (October 28, 2025)",
+          "url": "https://openai.com/our-structure"
         },
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Tech giants pledge $1bn for 'altruistic AI' venture, OpenAI, (December 12, 2015)",
-          "url": "https://www.bbc.com/news/technology-35082344"
+          "text": "Introducing OpenAI, (December 12, 2015)",
+          "url": "https://blog.openai.com/introducing-openai/"
         },
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Seetharaman, Turning OpenAI Into a Real Business Is Tearing It Apart, (September 27, 2024)",
-          "url": "https://www.wsj.com/tech/ai/open-ai-division-for-profit-da26c24b"
+          "text": "Tech giants pledge $1bn for 'altruistic AI' venture, OpenAI, (December 12, 2015)",
+          "url": "https://www.bbc.com/news/technology-35082344"
         },
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Conger, Elon Musk's Neuralink Sought to Open an Animal Testing Facility in San Francisco",
-          "url": "https://gizmodo.com/elon-musks-neuralink-sought-to-open-an-animal-testing-f-1823167674"
+          "text": "Seetharaman, Turning OpenAI Into a Real Business Is Tearing It Apart, (September 27, 2024)",
+          "url": "https://www.wsj.com/tech/ai/open-ai-division-for-profit-da26c24b"
         },
         {
           "id": "cite-8",
           "index": 8,
-          "text": "Hao, The messy, secretive reality behind OpenAI's bid to save the world, (February 17, 2020)",
-          "url": "https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/"
+          "text": "Conger, Elon Musk's Neuralink Sought to Open an Animal Testing Facility in San Francisco",
+          "url": "https://gizmodo.com/elon-musks-neuralink-sought-to-open-an-animal-testing-f-1823167674"
         },
         {
           "id": "cite-9",
           "index": 9,
-          "text": "Lewontin, Open AI: Effort to democratize artificial intelligence research?, (December 14, 2015)",
-          "url": "https://www.csmonitor.com/Technology/2015/1214/Open-AI-Effort-to-democratize-artificial-intelligence-research"
+          "text": "Hao, The messy, secretive reality behind OpenAI's bid to save the world, (February 17, 2020)",
+          "url": "https://www.technologyreview.com/s/615181/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/"
         },
         {
           "id": "cite-10",
           "index": 10,
-          "text": "Cade Metz, Inside OpenAI, Elon Musk's Wild Plan to Set Artificial Intelligence Free, (April 27, 2016)",
-          "url": "https://www.wired.com/2016/04/openai-elon-musk-sam-altman-plan-to-set-artificial-intelligence-free/"
+          "text": "Lewontin, Open AI: Effort to democratize artificial intelligence research?, (December 14, 2015)",
+          "url": "https://www.csmonitor.com/Technology/2015/1214/Open-AI-Effort-to-democratize-artificial-intelligence-research"
         },
         {
           "id": "cite-11",
           "index": 11,
-          "text": "Mendoza, Tech leaders launch nonprofit to save the world from killer robots",
-          "url": "https://www.csmonitor.com/Science/2015/1214/Tech-leaders-launch-nonprofit-to-save-the-world-from-killer-robots"
+          "text": "Cade Metz, Inside OpenAI, Elon Musk's Wild Plan to Set Artificial Intelligence Free, (April 27, 2016)",
+          "url": "https://www.wired.com/2016/04/openai-elon-musk-sam-altman-plan-to-set-artificial-intelligence-free/"
         },
         {
           "id": "cite-12",
           "index": 12,
-          "text": "Metz, Elon Musk's Billion-Dollar AI Plan Is About Far More Than Saving the World, (December 15, 2015)",
-          "url": "https://www.wired.com/2015/12/elon-musks-billion-dollar-ai-plan-is-about-far-more-than-saving-the-world/"
+          "text": "Mendoza, Tech leaders launch nonprofit to save the world from killer robots",
+          "url": "https://www.csmonitor.com/Science/2015/1214/Tech-leaders-launch-nonprofit-to-save-the-world-from-killer-robots"
         },
         {
           "id": "cite-13",
           "index": 13,
-          "text": "Metz, A.I. Researchers Are Making More Than $1 Million, Even at a Nonprofit, (April 19, 2018)",
-          "url": "https://www.nytimes.com/2018/04/19/technology/artificial-intelligence-salaries-openai.html"
+          "text": "Metz, Elon Musk's Billion-Dollar AI Plan Is About Far More Than Saving the World, (December 15, 2015)",
+          "url": "https://www.wired.com/2015/12/elon-musks-billion-dollar-ai-plan-is-about-far-more-than-saving-the-world/"
         },
         {
           "id": "cite-14",
           "index": 14,
-          "text": "Dave Gershgorn, Elon Musk's Artificial Intelligence Group Opens A 'Gym' To Train A.I., (April 27, 2016)",
-          "url": "http://www.popsci.com/elon-musks-artificial-intelligence-group-opens-gym-to-train-ai"
+          "text": "Metz, A.I. Researchers Are Making More Than $1 Million, Even at a Nonprofit, (April 19, 2018)",
+          "url": "https://www.nytimes.com/2018/04/19/technology/artificial-intelligence-salaries-openai.html"
         },
         {
           "id": "cite-15",
           "index": 15,
-          "text": "Carr, How Nvidia Became ChatGPT's Brain and Joined the $1 Trillion Club, (June 15, 2023)",
-          "url": "https://www.bloomberg.com/news/features/2023-06-15/nvidia-s-ai-chips-power-chatgpt-and-multibillion-dollar-surge"
+          "text": "Dave Gershgorn, Elon Musk's Artificial Intelligence Group Opens A 'Gym' To Train A.I., (April 27, 2016)",
+          "url": "http://www.popsci.com/elon-musks-artificial-intelligence-group-opens-gym-to-train-ai"
         },
         {
           "id": "cite-16",
           "index": 16,
-          "text": "Vanian, Elon Musk's Artificial Intelligence Project Just Got a Free Supercomputer, (August 15, 2016)",
-          "url": "https://fortune.com/2016/08/15/elon-musk-artificial-intelligence-openai-nvidia-supercomputer/"
+          "text": "Carr, How Nvidia Became ChatGPT's Brain and Joined the $1 Trillion Club, (June 15, 2023)",
+          "url": "https://www.bloomberg.com/news/features/2023-06-15/nvidia-s-ai-chips-power-chatgpt-and-multibillion-dollar-surge"
         },
         {
           "id": "cite-17",
           "index": 17,
-          "text": "Metz, Elon Musk's Lab Wants to Teach Computers to Use Apps Just Like Humans Do",
-          "url": "https://www.wired.com/2016/12/openais-universe-computers-learn-use-apps-like-humans/"
+          "text": "Vanian, Elon Musk's Artificial Intelligence Project Just Got a Free Supercomputer, (August 15, 2016)",
+          "url": "https://fortune.com/2016/08/15/elon-musk-artificial-intelligence-openai-nvidia-supercomputer/"
         },
         {
           "id": "cite-18",
           "index": 18,
-          "text": "Mannes, OpenAI's Universe is the fun parent every artificial intelligence deserves",
-          "url": "https://techcrunch.com/2016/12/05/openais-universe-is-the-fun-parent-every-artificial-intelligence-deserves/"
+          "text": "Metz, Elon Musk's Lab Wants to Teach Computers to Use Apps Just Like Humans Do",
+          "url": "https://www.wired.com/2016/12/openais-universe-computers-learn-use-apps-like-humans/"
         },
         {
           "id": "cite-19",
           "index": 19,
-          "text": "OpenAI – Universe",
-          "url": "https://universe.openai.com/"
+          "text": "Mannes, OpenAI's Universe is the fun parent every artificial intelligence deserves",
+          "url": "https://techcrunch.com/2016/12/05/openais-universe-is-the-fun-parent-every-artificial-intelligence-deserves/"
         },
         {
           "id": "cite-20",
           "index": 20,
+          "text": "OpenAI – Universe",
+          "url": "https://universe.openai.com/"
+        },
+        {
+          "id": "cite-21",
+          "index": 21,
           "text": "Claburn, Elon Musk-backed OpenAI reveals Universe – a universal training ground for computers",
           "url": "https://www.theregister.co.uk/2016/12/05/openai_universe_reinforcement_learning/"
         }
       ]
     },
     {
-      "id": "transition-from-non-profit",
-      "title": "Transition from non-profit",
-      "level": 3,
-      "content": "In 2019, OpenAI transitioned from non-profit to \"capped\" for-profit, with the profit being capped at 100 times any investment. According to OpenAI, the capped-profit model allows OpenAI Global, LLC to legally attract investment from venture funds and, in addition, to grant employees stakes in the company. Many top researchers work for Google Brain, DeepMind, or Facebook, which offer equity that a nonprofit would be unable to match. Before the transition, OpenAI was legally required to publicly disclose the compensation of its top employees. announcing an investment package of $1 billion into the company. Since then, OpenAI systems have run on an Azure-based supercomputing platform from Microsoft.\n\nOpenAI Global, LLC then announced its intention to commercially license its technologies. It planned to spend $1 billion \"within five years, and possibly much faster\". Altman stated that even a billion dollars may turn out to be insufficient, and that the lab may ultimately need \"more capital than any non-profit has ever raised\" to achieve artificial general intelligence.\n\nThe nonprofit, OpenAI, Inc., is the sole controlling shareholder of OpenAI Global, LLC, which, despite being a for-profit company, retains a formal fiduciary responsibility to OpenAI, Inc.'s nonprofit charter. A majority of OpenAI, Inc.'s board is barred from having financial stakes in OpenAI Global, LLC.\n\nOn February 29, 2024, Elon Musk filed a lawsuit against OpenAI and CEO Sam Altman, accusing them of shifting focus from public benefit to profit maximization—a case OpenAI dismissed as \"incoherent\" and \"frivolous\", though Musk later revived legal action against Altman and others in August.\n\nOn April 9, 2024, OpenAI countersued Musk in federal court, alleging that he had engaged in \"bad-faith tactics\" to slow the company's progress and seize its innovations for his personal benefit. OpenAI also argued that Musk had previously supported the creation of a for-profit structure and had expressed interest in controlling OpenAI himself. The countersuit seeks damages and legal measures to prevent further alleged interference.\n\nOn February 10, 2025, a consortium of investors led by Elon Musk submitted a $97.4 billion unsolicited bid to buy the nonprofit that controls OpenAI, declaring willingness to match or exceed any better offer. The offer was rejected on 14 February 2025, with OpenAI stating that it was not for sale, but the offer complicated Altman's restructuring plan by suggesting a lower bar for how much the nonprofit should be valued.\n\nThe plan has been criticized by former employees. A legal letter named \"Not For Private Gain\" asked the attorneys general of California and Delaware to intervene, stating that the restructuring is illegal and would remove governance safeguards from the nonprofit and the attorneys general. The letter argues that OpenAI's complex structure was deliberately designed to remain accountable to its mission, without the conflicting pressure of maximizing profits. It contends that the nonprofit is best positioned to advance its mission of ensuring AGI benefits all of humanity by continuing to control OpenAI Global, LLC, whatever the amount of equity that it could get in exchange. PBCs can choose how they balance their mission with profit-making. Controlling shareholders have a large influence on how closely a PBC sticks to its mission.",
+      "id": "creation-of-for-profit-subsidiaries-2019",
+      "title": "Creation of for-profit subsidiaries (2019)",
+      "level": 4,
+      "content": "In 2019, OpenAI transitioned from nonprofit to \"capped\" for-profit, with the profit being capped at 100 times any investment. OpenAI formed three subsidiaries: the holding company OpenAI LP, the holding company OpenAI GP LLC, and the capped for-profit company OpenAI Global, LLC. The holding company OpenAI LP was owned by the nonprofit OpenAI, Inc., OpenAI employees, and investors, whereas OpenAI Global, LLC, was owned by OpenAI LP and Microsoft, the latter of which had a minority non-voting stake. The nonprofit OpenAI, Inc., controlled OpenAI GP LLC, which in turn controlled OpenAI LP and OpenAI Global, LLC.\n\nOpenAI stated that the capped-profit model would allow it to legally attract investment from venture funds and compensate employees with equity as competing AI companies did. Microsoft subsequently invested $1 billion in OpenAI LP, and OpenAI's services were migrated to Microsoft Azure. Since then, OpenAI systems have run on an Azure-based supercomputing platform.\n\nThe 2019 restructuring made the nonprofit OpenAI, Inc., the only controlling shareholder of OpenAI LP, which retained a formal fiduciary responsibility to OpenAI, Inc.'s nonprofit charter. A majority of OpenAI, Inc.'s board was barred from having financial stakes in OpenAI LP.",
       "citations": [
         {
           "id": "cite-0",
@@ -153,26 +159,26 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "To Compete With Google, OpenAI Seeks Investors–and Profits, (December 3, 2019)",
-          "url": "https://www.wired.com/story/compete-google-openai-seeks-investorsand-profits/"
+          "text": "Fan, Novel Corporate Governance Structures, (Spring 2025)",
+          "url": "https://jolt.law.harvard.edu/assets/articlePDFs/v38.4/2-Fan-Nguyen.pdf"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Kahn, AI Research Group Co-Founded by Elon Musk Starts For-Profit Arm, (March 11, 2019)",
-          "url": "https://www.bloomberg.com/news/articles/2019-03-11/ai-research-group-co-founded-by-musk-starts-for-profit-arm"
+          "text": "To Compete With Google, OpenAI Seeks Investors–and Profits, (December 3, 2019)",
+          "url": "https://www.wired.com/story/compete-google-openai-seeks-investorsand-profits/"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Microsoft invests in and partners with OpenAI, (July 22, 2019)",
-          "url": "https://openai.com/blog/microsoft-invests-in-and-partners-with-openai"
+          "text": "Kahn, AI Research Group Co-Founded by Elon Musk Starts For-Profit Arm, (March 11, 2019)",
+          "url": "https://www.bloomberg.com/news/articles/2019-03-11/ai-research-group-co-founded-by-musk-starts-for-profit-arm"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Langston, Microsoft announces new supercomputer, lays out vision for future AI work, (January 11, 2023)",
-          "url": "https://news.microsoft.com/source/features/ai/openai-azure-supercomputer/"
+          "text": "Foley, Microsoft invests $1 billion in OpenAI, which is going all-in on Azure, (July 22, 2019)",
+          "url": "https://www.zdnet.com/article/microsoft-invests-1-billion-in-openai-which-is-going-all-in-on-azure/"
         },
         {
           "id": "cite-5",
@@ -189,122 +195,68 @@
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Microsoft Invests in and Partners with OpenAI to Support Us Building Beneficial AGI, (July 22, 2019)",
-          "url": "https://openai.com/blog/microsoft/"
-        },
-        {
-          "id": "cite-8",
-          "index": 8,
-          "text": "Murgia, DeepMind runs up higher losses and debts in race for AI, (August 7, 2019)",
-          "url": "https://www.ft.com/content/d4280856-b92d-11e9-8a88-aa6628ac896c"
-        },
-        {
-          "id": "cite-9",
-          "index": 9,
-          "text": "OpenAI Will Need More Capital Than Any Non-Profit Has Ever Raised",
-          "url": "https://fortune.com/2019/10/03/openai-will-need-more-capital-than-any-non-profit-has-ever-raised/"
-        },
-        {
-          "id": "cite-10",
-          "index": 10,
           "text": "Vincent, Microsoft invests $1 billion in OpenAI to pursue holy grail of artificial intelligence, (July 22, 2019)",
           "url": "https://www.theverge.com/2019/7/22/20703578/microsoft-openai-investment-partnership-1-billion-azure-artificial-general-intelligence-agi"
-        },
-        {
-          "id": "cite-11",
-          "index": 11,
-          "text": "Satariano, Elon Musk Sues OpenAI and Sam Altman for Violating the Company's Principles, (March 1, 2024)",
-          "url": "https://www.nytimes.com/2024/03/01/technology/elon-musk-openai-sam-altman-lawsuit.html"
-        },
-        {
-          "id": "cite-12",
-          "index": 12,
-          "text": "Lopatto, OpenAI says Elon Musk wanted 'absolute control' of the company, (March 6, 2024)",
-          "url": "https://www.theverge.com/2024/3/5/24091773/openai-response-elon-musk-breach-of-contract-lawsuit"
-        },
-        {
-          "id": "cite-13",
-          "index": 13,
-          "text": "Kharpal, Elon Musk revives lawsuit against OpenAI, Sam Altman in federal court, (August 5, 2024)",
-          "url": "https://www.cnbc.com/2024/08/05/elon-musk-revives-lawsuit-against-openai-sam-altman-in-federal-court.html"
-        },
-        {
-          "id": "cite-14",
-          "index": 14,
-          "text": "De Avila, Elon Musk Revives Lawsuit Against OpenAI and Sam Altman, (August 5, 2024)",
-          "url": "https://www.wsj.com/tech/ai/elon-musk-revives-lawsuit-against-openai-and-sam-altman-d7e5a87c"
-        },
-        {
-          "id": "cite-15",
-          "index": 15,
-          "text": "Habeshian, OpenAI countersues Elon Musk in bitter legal battle, (April 10, 2025)",
-          "url": "https://www.axios.com/2025/04/10/openai-elon-musk-countersuit"
-        },
-        {
-          "id": "cite-16",
-          "index": 16,
-          "text": "Hammond, Elon Musk-led consortium offers $100bn to take control of OpenAI, (10 February 2025)",
-          "url": "https://www.ft.com/content/3a673ed2-26d5-47af-9028-8af7d742c2e7"
-        },
-        {
-          "id": "cite-17",
-          "index": 17,
-          "text": "Toonkel, Elon Musk-Led Group Makes $97.4 Billion Bid for Control of OpenAI, (February 10, 2025)",
-          "url": "https://www.wsj.com/tech/elon-musk-openai-bid-4af12827"
-        },
-        {
-          "id": "cite-18",
-          "index": 18,
-          "text": "OpenAI rejects $97.4bn Musk bid and says company is not for sale, (14 February 2025)",
-          "url": "https://www.theguardian.com/technology/2025/feb/14/openai-elon-musk"
-        },
-        {
-          "id": "cite-19",
-          "index": 19,
-          "text": "Booth, OpenAI Wants to Go For-Profit. Experts Say Regulators Should Step In, (2025-04-24)",
-          "url": "https://time.com/7279977/openai-for-profit-letter-elon-musk/"
-        },
-        {
-          "id": "cite-20",
-          "index": 20,
-          "text": "Tong, Group that opposed OpenAI's restructuring raises concerns about new revamp plan, (May 15, 2025)",
-          "url": "https://www.reuters.com/business/group-that-opposed-openais-restructuring-raises-concerns-about-new-revamp-plan-2025-05-15/"
-        },
-        {
-          "id": "cite-21",
-          "index": 21,
-          "text": "Goldman, Ex-OpenAI employees sign open letter to California AG: For-profit pivot poses 'palpable threat' to nonprofit mission",
-          "url": "https://fortune.com/article/ex-openai-employees-california-ag-for-profit-pivot-threat-nonprofit-mission/"
-        },
-        {
-          "id": "cite-22",
-          "index": 22,
-          "text": "Piper, OpenAI's nonprofit structure was supposed to protect you. What went wrong?, (2025-04-24)",
-          "url": "https://www.vox.com/future-perfect/410261/openai-non-profit-transition-letter-sam-altman-artificial-intelligence"
-        },
-        {
-          "id": "cite-23",
-          "index": 23,
-          "text": "OpenAI outlines new for-profit structure in bid to stay ahead in costly AI race, (January 2, 2025)",
-          "url": "https://www.reuters.com/technology/artificial-intelligence/openai-lays-out-plan-shift-new-for-profit-structure-2024-12-27/"
         }
       ]
     },
     {
-      "id": "2025-restructuring",
-      "title": "2025 restructuring",
+      "id": "conversion-to-public-benefit-corporation-2025",
+      "title": "Conversion to public benefit corporation (2025)",
       "level": 4,
-      "content": "On October 28, 2025, OpenAI announced that it had adopted the new PBC corporate structure after receiving approval from the attorneys general of California and Delaware. Under the new structure, OpenAI's for-profit branch became a public benefit corporation known as OpenAI Group PBC, while the non-profit was renamed to the OpenAI Foundation. The OpenAI Foundation holds a 26% stake in the PBC, while Microsoft holds a 27% stake and the remaining 47% is owned by employees and other investors.\n\nAll members of the OpenAI Group PBC board of directors will be appointed by the OpenAI Foundation, which can remove them at any time. Members of the Foundation's board will also serve on the for-profit board. The new structure allows the for-profit PBC to raise investor funds like most traditional tech companies, including through an initial public offering, which Altman claimed was the most likely path forward.",
+      "content": "In December 2024, OpenAI proposed a restructuring plan to convert the capped-profit into a Delaware-based public benefit corporation (PBC), remove its profit cap, and release it from the control of the nonprofit.\n\nThe plan has been criticized by former employees. A legal letter named \"Not For Private Gain\" asked the attorneys general of California and Delaware to intervene, stating that the restructuring is illegal and would remove governance safeguards from the nonprofit and the attorneys general. The letter argues that OpenAI's complex structure was deliberately designed to remain accountable to its mission, without the conflicting pressure of maximizing profits. It contends that the nonprofit is best positioned to advance its mission of ensuring AGI benefits all of humanity by continuing to control OpenAI Global, LLC, whatever the amount of equity that it could get in exchange. PBCs can choose how they balance their mission with profit-making. Controlling shareholders have a large influence on how closely a PBC sticks to its mission.\n\nOn October 28, 2025, OpenAI announced that it had adopted the new PBC corporate structure after receiving approval from the attorneys general of California and Delaware. Under the new structure, OpenAI's for-profit branch became a public benefit corporation known as OpenAI Group PBC, while the nonprofit was renamed to the OpenAI Foundation. The OpenAI Foundation holds a 26% stake in the PBC, while Microsoft holds a 27% stake and the remaining 47% is owned by employees and other investors.\n\nAll members of the OpenAI Group PBC board of directors will be appointed by the OpenAI Foundation, which can remove them at any time. As of April 2026, all but one of the board members of the OpenAI Foundation were also board members of OpenAI Group PBC. The new structure allows the for-profit PBC to raise investor funds like most traditional tech companies, including through an initial public offering, which Altman claimed was the most likely path forward.",
       "citations": [
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Metz, OpenAI Restructures to Become a More Traditional For-Profit Company, (October 28, 2025)",
-          "url": "https://www.nytimes.com/2025/10/28/technology/openai-restructure-for-profit-company.html"
+          "text": "Booth, OpenAI Wants to Go For-Profit. Experts Say Regulators Should Step In, (2025-04-24)",
+          "url": "https://time.com/7279977/openai-for-profit-letter-elon-musk/"
         },
         {
           "id": "cite-1",
           "index": 1,
+          "text": "Tong, Group that opposed OpenAI's restructuring raises concerns about new revamp plan, (May 15, 2025)",
+          "url": "https://www.reuters.com/business/group-that-opposed-openais-restructuring-raises-concerns-about-new-revamp-plan-2025-05-15/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Goldman, Ex-OpenAI employees sign open letter to California AG: For-profit pivot poses 'palpable threat' to nonprofit mission",
+          "url": "https://fortune.com/article/ex-openai-employees-california-ag-for-profit-pivot-threat-nonprofit-mission/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Piper, OpenAI's nonprofit structure was supposed to protect you. What went wrong?, (2025-04-24)",
+          "url": "https://www.vox.com/future-perfect/410261/openai-non-profit-transition-letter-sam-altman-artificial-intelligence"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "OpenAI outlines new for-profit structure in bid to stay ahead in costly AI race, (January 2, 2025)",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/openai-lays-out-plan-shift-new-for-profit-structure-2024-12-27/"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Perlo, OpenAI accused of using legal tactics to silence nonprofits, (October 15, 2025)",
+          "url": "https://www.nbcnews.com/tech/tech-news/openai-chatgpt-accused-using-subpoenas-silence-nonprofits-rcna237348"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Shugerman, OpenAI thinks its critics are funded by billionaires. Now it’s going after them, (September 2, 2025)",
+          "url": "https://sfstandard.com/2025/09/02/openai-sam-altman-elon-musk-ai-regulation/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Metz, OpenAI Restructures to Become a More Traditional For-Profit Company, (October 28, 2025)",
+          "url": "https://www.nytimes.com/2025/10/28/technology/openai-restructure-for-profit-company.html"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
           "text": "Microsoft, OpenAI reach deal removing fundraising constraints for ChatGPT maker",
           "url": "https://www.reuters.com/business/microsoft-openai-reach-new-deal-allow-openai-restructure-2025-10-28/"
         }
@@ -314,7 +266,7 @@
       "id": "partnership-with-microsoft",
       "title": "Partnership with Microsoft",
       "level": 3,
-      "content": "In January 2023, OpenAI Global, LLC was in talks for funding that would value the company at $29 billion, double its 2021 value. On January 23, 2023, Microsoft announced a new US$10 billion investment in OpenAI Global, LLC over multiple years, partially needed to use Microsoft's cloud-computing service Azure.\n\nFrom September to December, 2023, Microsoft rebranded all variants of its Copilot to Microsoft Copilot, and they added MS-Copilot to many installations of Windows and released Microsoft Copilot mobile apps.\n\nFollowing OpenAI's 2025 restructuring, Microsoft owns a 27% stake in the for-profit OpenAI Group PBC, valued at $135 billion. In a deal announced the same day, OpenAI agreed to purchase $250 billion of Azure services, with Microsoft ceding their right of first refusal over OpenAI's future cloud computing purchases. As part of the deal, OpenAI will continue to share 20% of its revenue with Microsoft until it achieves AGI, which must now be verified by an independent panel of experts. The deal also loosened restrictions on both companies working with third parties, allowing Microsoft to pursue AGI independently and allowing OpenAI to develop products with other companies.",
+      "content": "In January 2023, OpenAI Global, LLC was in talks for funding that would value the company at $29 billion, double its 2021 value. On January 23, 2023, Microsoft announced a new US$10 billion investment in OpenAI Global, LLC over multiple years, partially needed to use Microsoft's cloud-computing service Azure. Later that year, Microsoft used OpenAI models for its Copilot chatbot, integrated Copilot into Windows, and released mobile apps for the service.\n\nFollowing OpenAI's 2025 restructuring, Microsoft owns a 27% stake in the for-profit OpenAI Group PBC, valued at $135 billion. In a deal announced the same day, OpenAI agreed to purchase $250 billion of Azure services, with Microsoft ceding their right of first refusal over OpenAI's future cloud computing purchases. As part of the deal, OpenAI will continue to share 20% of its revenue with Microsoft until it achieves AGI, which must now be verified by an independent panel of experts. The deal also loosened restrictions on both companies working with third parties, allowing Microsoft to pursue AGI independently and allowing OpenAI to develop products with other companies.",
       "citations": [
         {
           "id": "cite-0",
@@ -492,7 +444,7 @@
       "id": "business-model",
       "title": "Business model",
       "level": 2,
-      "content": "OpenAI employs a tiered revenue model that combines free consumer access, paid subscription services, enterprise licensing, and application programming interface (API) usage-based pricing. The model reflects a freemium software as a service (SaaS) structure in which basic functionality is provided at no cost, while advanced capabilities are offered through paid plans such as ChatGPT Plus and enterprise solutions.\nFreemium SaaS models are designed to convert free users into paying customers by emphasizing perceived value, user satisfaction, and feature differentiation. Research on SaaS conversion indicates that perceived usefulness and alignment with user needs are central predictors of willingness to subscribe. Workplace adoption research has similarly reported that perceived intelligence and information support increase knowledge acquisition and strengthen intent to use generative AI systems.\nOpenAI's subscription and enterprise offerings are structured around scalable compute usage and API integration into third-party platforms. The introduction of diversified revenue streams, including subscription tiers, enterprise contracts, API licensing, and advertising experiments in certain segments, reflects a multi-channel monetization approach.\nFinancial market research has also documented abnormal stock returns among publicly traded firms referencing ChatGPT in regulatory filings, suggesting that generative AI adoption has been associated with investor expectations of productivity and revenue effects.\nThe sustainability of freemium AI platforms has been linked in academic literature to continued enterprise integration across sectors, including finance, supply chains, and sustainability risk management.\n\nThe company's cash burn remains high because of the intensive computational costs required to train and operate large language models. It projects an $8 billion operating loss in 2025. OpenAI reports revised long-term spending projections totaling approximately $115 billion through 2029, with annual expenditures projected to escalate significantly, reaching $17 billion in 2026, $35 billion in 2027, and $45 billion in 2028. These expenditures are primarily allocated toward expanding compute infrastructure, developing proprietary AI chips, constructing data centers, and funding intensive model training programs, with more than half of the spending through the end of the decade expected to support research-intensive compute for model training and development.\n\nThe company's financial strategy prioritizes market expansion and technological advancement over near-term profitability, with OpenAI targeting cash-flow-positive operations by 2029 and projecting revenue of approximately $200 billion by 2030.\n\nIn October 2025, OpenAI completed an employee share sale of up to $10 billion to existing investors which valued the company at $500 billion. The deal values OpenAI as the most valuable privately owned company in the world—surpassing SpaceX as the world's most valuable private company.",
+      "content": "OpenAI employs a tiered revenue model that combines free consumer access, paid subscription services, enterprise licensing, and application programming interface (API) usage-based pricing. The model reflects a freemium software as a service (SaaS) structure in which basic functionality is provided at no cost, while advanced capabilities are offered through paid plans such as ChatGPT Plus and enterprise solutions.\nFreemium SaaS models are designed to convert free users into paying customers by emphasizing perceived value, user satisfaction, and feature differentiation. Research on SaaS conversion indicates that perceived usefulness and alignment with user needs are central predictors of willingness to subscribe. Workplace adoption research has similarly reported that perceived intelligence and information support increase knowledge acquisition and strengthen intent to use generative AI systems.\nOpenAI's subscription and enterprise offerings are structured around scalable compute usage and API integration into third-party platforms. The introduction of diversified revenue streams, including subscription tiers, enterprise contracts, API licensing, and advertising experiments in certain segments, reflects a multi-channel monetization approach.\nFinancial market research has also documented abnormal stock returns among publicly traded firms referencing ChatGPT in regulatory filings, suggesting that generative AI adoption has been associated with investor expectations of productivity and revenue effects.\nThe sustainability of freemium AI platforms has been linked in academic literature to continued enterprise integration across sectors, including finance, supply chains, and sustainability risk management.\n\nThe company's cash burn remains high because of the intensive computational costs required to train and operate large language models. It projects an $8 billion operating loss in 2025. OpenAI reports revised long-term spending projections totaling approximately $115 billion through 2029, with annual expenditures projected to escalate significantly, reaching $17 billion in 2026, $35 billion in 2027, and $45 billion in 2028. These expenditures are primarily allocated toward expanding compute infrastructure, developing proprietary AI chips, constructing data centers, and funding intensive model training programs, with more than half of the spending through the end of the decade expected to support research-intensive compute for model training and development.\n\nThe company's financial strategy prioritizes market expansion and technological advancement over near-term profitability, with OpenAI targeting cash-flow-positive operations by 2029 and projecting revenue of approximately $200 billion by 2030.\n\nIn October 2025, OpenAI completed an employee share sale of up to $10 billion to existing investors which valued the company at $500 billion. The deal values OpenAI as the most valuable privately owned company in the world—surpassing SpaceX as the world's most valuable private company.\n\nIn April 2026, reports indicated that OpenAI projected approximately $2.5 billion in advertising revenue for the year, with estimates rising to $100 billion annually by 2030, highlighting advertising as a key component of its future business strategy.",
       "citations": [
         {
           "id": "cite-0",
@@ -503,17 +455,20 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Hsu, Converting free users to paying customers in freemium services: a SaaS success model, (2025)"
+          "text": "Hsu, Converting free users to paying customers in freemium services: a SaaS success model, (2025)",
+          "url": "https://doi.org/10.1007/s10257-024-00690-2"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Ma, Exploring User Adoption of ChatGPT: A Technology Acceptance Model Perspective, (2025)"
+          "text": "Ma, Exploring User Adoption of ChatGPT: A Technology Acceptance Model Perspective, (2025)",
+          "url": "https://doi.org/10.1080/10447318.2024.2314358"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Jo, AI in the Workplace: Examining the Effects of ChatGPT on Information Support and Knowledge Acquisition, (2024)"
+          "text": "Jo, AI in the Workplace: Examining the Effects of ChatGPT on Information Support and Knowledge Acquisition, (2024)",
+          "url": "https://doi.org/10.1080/10447318.2023.2278283"
         },
         {
           "id": "cite-4",
@@ -530,17 +485,20 @@
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Pietrzak, A trillion dollars race—how ChatGPT affects stock prices, (2025)"
+          "text": "Pietrzak, A trillion dollars race—how ChatGPT affects stock prices, (2025)",
+          "url": "https://doi.org/10.1186/s43093-025-00470-5"
         },
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Roozkhosh, Exploring the adoption and long-term effects of ChatGPT in a sustainable supply chain, (2025)"
+          "text": "Roozkhosh, Exploring the adoption and long-term effects of ChatGPT in a sustainable supply chain, (2025)",
+          "url": "https://doi.org/10.1007/s10696-024-09575-5"
         },
         {
           "id": "cite-8",
           "index": 8,
-          "text": "Kong, Sustainability risk management: Exploring the role of artificial intelligence capabilities through an information-processing lens, (2025)"
+          "text": "Kong, Sustainability risk management: Exploring the role of artificial intelligence capabilities through an information-processing lens, (2025)",
+          "url": "https://doi.org/10.1111/risa.17448"
         },
         {
           "id": "cite-9",
@@ -589,6 +547,12 @@
           "index": 16,
           "text": "Kinder, OpenAI overtakes SpaceX after hitting $500bn valuation, (2025-10-02)",
           "url": "https://www.ft.com/content/f6befd14-6e8e-497d-98c9-6894b4cca7e4"
+        },
+        {
+          "id": "cite-17",
+          "index": 17,
+          "text": "OpenAI projects $2.5 billion ad revenue this year, $100 billion by 2030, (9 April 2026)",
+          "url": "https://www.reuters.com/business/media-telecom/openai-projects-25-billion-ad-revenue-this-year-100-billion-by-2030-axios-2026-04-09/"
         }
       ]
     },
@@ -596,7 +560,7 @@
       "id": "acquisitions",
       "title": "Acquisitions",
       "level": 3,
-      "content": "In August 2023, it was announced that OpenAI had acquired the New York-based start-up Global Illumination, a company that deploys AI to develop digital infrastructure and creative tools.\n\nIn June 2024, OpenAI acquired Multi, a startup focused on remote collaboration.\n\nIn March 2025, OpenAI reached a deal with CoreWeave to acquire $350 million worth of CoreWeave shares and access to AI infrastructure, in return for $11.9 billion paid over five years. Microsoft was already CoreWeave's biggest customer in 2024. Alongside their other business dealings, OpenAI and Microsoft were renegotiating the terms of their partnership to facilitate a potential future initial public offering by OpenAI, while ensuring Microsoft's continued access to advanced AI models.\n\nIn September 2025, OpenAI agreed to acquire the product testing startup Statsig for $1.1 billion in an all-stock deal and appointed Statsig's founding CEO Vijaye Raji as OpenAI's chief technology officer of applications. The company also announced development of an AI-driven hiring service designed to rival LinkedIn. OpenAI acquired personal finance app Roi in October 2025. In October 2025, OpenAI acquired Software Applications Incorporated, the developer of Sky, a macOS-based natural language interface designed to operate across desktop applications. The Sky team joined OpenAI, and the company announced plans to integrate Sky's capabilities into ChatGPT. In December 2025, it was announced OpenAI had agreed to acquire Neptune, an AI tooling startup that helps companies track and manage model training, for an undisclosed amount.\n\nIn January 2026, it was announced OpenAI had acquired healthcare technology startup Torch for approximately $60 million. The acquisition followed the launch of OpenAI's ChatGPT Health product and was intended to strengthen the company's medical data and healthcare artificial intelligence capabilities. OpenAI acquired Python tool developer Astral in March 2026.",
+      "content": "In August 2023, it was announced that OpenAI had acquired the New York-based start-up Global Illumination, a company that deploys AI to develop digital infrastructure and creative tools.\n\nIn June 2024, OpenAI acquired Multi, a startup focused on remote collaboration.\n\nOn February 10, 2025, a consortium of investors led by Elon Musk submitted a $97.4 billion unsolicited bid to buy the nonprofit that controls OpenAI, declaring willingness to match or exceed any better offer. The offer was rejected on 14 February 2025, with OpenAI stating that it was not for sale, but the offer complicated Altman's restructuring plan by suggesting a lower bar for how much the nonprofit should be valued. Alongside their other business dealings, OpenAI and Microsoft were renegotiating the terms of their partnership to facilitate a potential future initial public offering by OpenAI, while ensuring Microsoft's continued access to advanced AI models.\n\nIn September 2025, OpenAI agreed to acquire the product testing startup Statsig for $1.1 billion in an all-stock deal and appointed Statsig's founding CEO Vijaye Raji as OpenAI's chief technology officer of applications. The company also announced development of an AI-driven hiring service designed to rival LinkedIn. OpenAI acquired personal finance app Roi in October 2025. In October 2025, OpenAI acquired Software Applications Incorporated, the developer of Sky, a macOS-based natural language interface designed to operate across desktop applications. The Sky team joined OpenAI, and the company announced plans to integrate Sky's capabilities into ChatGPT. In December 2025, it was announced OpenAI had agreed to acquire Neptune, an AI tooling startup that helps companies track and manage model training, for an undisclosed amount.\n\nIn January 2026, it was announced OpenAI had acquired healthcare technology startup Torch for approximately $60 million. The acquisition followed the launch of OpenAI's ChatGPT Health product and was intended to strengthen the company's medical data and healthcare artificial intelligence capabilities. OpenAI acquired Python tool developer Astral in March 2026.",
       "citations": [
         {
           "id": "cite-0",
@@ -613,72 +577,90 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Wang, CoreWeave inks $11.9 billion contract with OpenAI ahead of IP, (March 10, 2025)",
-          "url": "https://www.reuters.com/technology/artificial-intelligence/coreweave-strikes-12-billion-contract-with-openai-ahead-ipo-sources-say-2025-03-10/"
+          "text": "Hammond, Elon Musk-led consortium offers $100bn to take control of OpenAI, (10 February 2025)",
+          "url": "https://www.ft.com/content/3a673ed2-26d5-47af-9028-8af7d742c2e7"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Eadicicco, Former Apple design chief Jony Ive is joining OpenAI {{!, (2025-05-21)",
-          "url": "https://www.cnn.com/2025/05/21/tech/jony-ive-apple-design-chief-openai?iid=cnn_buildContentRecirc_end_recirc"
+          "text": "Toonkel, Elon Musk-Led Group Makes $97.4 Billion Bid for Control of OpenAI, (February 10, 2025)",
+          "url": "https://www.wsj.com/tech/elon-musk-openai-bid-4af12827"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Fraser, Apple iPhone designer Sir Jony Ive joins ChatGPT-maker OpenAI, (2025-05-22)",
-          "url": "https://www.bbc.com/news/articles/c5y66yemjdmo"
+          "text": "OpenAI rejects $97.4bn Musk bid and says company is not for sale, (14 February 2025)",
+          "url": "https://www.theguardian.com/technology/2025/feb/14/openai-elon-musk"
         },
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Isaac, OpenAI Unites With Jony Ive in $6.5 Billion Deal to Create A.I. Devices, (2025-05-21)",
-          "url": "https://www.nytimes.com/2025/05/21/technology/openai-jony-ive-deal.html?partner=slack&smid=sl-share"
+          "text": "Wang, CoreWeave inks $11.9 billion contract with OpenAI ahead of IP, (March 10, 2025)",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/coreweave-strikes-12-billion-contract-with-openai-ahead-ipo-sources-say-2025-03-10/"
         },
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Metz, OpenAI to Buy Product Testing Startup Statsig for $1.1 Billion, (September 2, 2025)",
-          "url": "https://www.bloomberg.com/news/articles/2025-09-02/openai-to-buy-product-testing-startup-statsig-for-1-1-billion"
+          "text": "Eadicicco, Former Apple design chief Jony Ive is joining OpenAI {{!, (2025-05-21)",
+          "url": "https://www.cnn.com/2025/05/21/tech/jony-ive-apple-design-chief-openai?iid=cnn_buildContentRecirc_end_recirc"
         },
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Field, OpenAI is working on a type of LinkedIn competitor, (4 September 2025)",
-          "url": "https://www.theverge.com/openai/772026/openai-is-working-on-a-type-of-linkedin-competitor"
+          "text": "Fraser, Apple iPhone designer Sir Jony Ive joins ChatGPT-maker OpenAI, (2025-05-22)",
+          "url": "https://www.bbc.com/news/articles/c5y66yemjdmo"
         },
         {
           "id": "cite-8",
           "index": 8,
-          "text": "Bellan, With its latest acqui-hire, OpenAI is doubling down on personalized consumer AI, (2025-10-03)",
-          "url": "https://techcrunch.com/2025/10/03/with-its-latest-acqui-hire-openai-is-doubling-down-on-personalized-consumer-ai/"
+          "text": "Isaac, OpenAI Unites With Jony Ive in $6.5 Billion Deal to Create A.I. Devices, (2025-05-21)",
+          "url": "https://www.nytimes.com/2025/05/21/technology/openai-jony-ive-deal.html?partner=slack&smid=sl-share"
         },
         {
           "id": "cite-9",
           "index": 9,
-          "text": "OpenAI acquires Software Applications Incorporated, maker of Sky, (2026-01-02)",
-          "url": "https://openai.com/index/openai-acquires-software-applications-incorporated/"
+          "text": "Metz, OpenAI to Buy Product Testing Startup Statsig for $1.1 Billion, (September 2, 2025)",
+          "url": "https://www.bloomberg.com/news/articles/2025-09-02/openai-to-buy-product-testing-startup-statsig-for-1-1-billion"
         },
         {
           "id": "cite-10",
           "index": 10,
-          "text": "Dharma, OpenAI agrees to buy Neptune, (2025-12-05)",
-          "url": "https://www.verdict.co.uk/openai-agrees-buy-neptune/"
+          "text": "Field, OpenAI is working on a type of LinkedIn competitor, (4 September 2025)",
+          "url": "https://www.theverge.com/openai/772026/openai-is-working-on-a-type-of-linkedin-competitor"
         },
         {
           "id": "cite-11",
           "index": 11,
-          "text": "Jose, OpenAI Acquires Health Tech Startup Torch to Expand Medical AI {{!",
-          "url": "https://www.easterneye.biz/openai-acquires-torch-health-tech-medical-ai/"
+          "text": "Bellan, With its latest acqui-hire, OpenAI is doubling down on personalized consumer AI, (2025-10-03)",
+          "url": "https://techcrunch.com/2025/10/03/with-its-latest-acqui-hire-openai-is-doubling-down-on-personalized-consumer-ai/"
         },
         {
           "id": "cite-12",
           "index": 12,
-          "text": "Capoot, OpenAI acquires health-care technology startup Torch for $60 million, source says, (2026-01-12)",
-          "url": "https://www.cnbc.com/2026/01/12/open-ai-torch-health-care-technology.html"
+          "text": "OpenAI acquires Software Applications Incorporated, maker of Sky, (2026-01-02)",
+          "url": "https://openai.com/index/openai-acquires-software-applications-incorporated/"
         },
         {
           "id": "cite-13",
           "index": 13,
+          "text": "Dharma, OpenAI agrees to buy Neptune, (2025-12-05)",
+          "url": "https://www.verdict.co.uk/openai-agrees-buy-neptune/"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Jose, OpenAI Acquires Health Tech Startup Torch to Expand Medical AI {{!",
+          "url": "https://www.easterneye.biz/openai-acquires-torch-health-tech-medical-ai/"
+        },
+        {
+          "id": "cite-15",
+          "index": 15,
+          "text": "Capoot, OpenAI acquires health-care technology startup Torch for $60 million, source says, (2026-01-12)",
+          "url": "https://www.cnbc.com/2026/01/12/open-ai-torch-health-care-technology.html"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
           "text": "Orland, OpenAI is acquiring open source Python tool-maker Astral, (2026-03-19)",
           "url": "https://arstechnica.com/ai/2026/03/openai-is-acquiring-open-source-python-tool-maker-astral/"
         }
@@ -1117,7 +1099,7 @@
       "id": "alignment",
       "title": "Alignment",
       "level": 3,
-      "content": "In July 2023, OpenAI launched the superalignment project, aiming within four years to determine how to align future superintelligent systems. OpenAI promised to dedicate 20% of its computing resources to the project, although the team denied receiving anything close to 20%. OpenAI ended the project in May 2024 after its co-leaders Ilya Sutskever and Jan Leike left the company.",
+      "content": "In July 2023, OpenAI launched the superalignment project, aiming within four years to determine how to align future superintelligent systems. OpenAI promised to dedicate 20% of its computing resources to the project, although the company's employees later reported that the company only allocated 1–2% of its resources here. OpenAI ended the project in May 2024 after its co-leaders Ilya Sutskever and Jan Leike left the company.",
       "citations": [
         {
           "id": "cite-0",
@@ -1265,7 +1247,7 @@
       "id": "firing-of-altman",
       "title": "Firing of Altman",
       "level": 3,
-      "content": "On November 17, 2023, Sam Altman was removed as CEO when its board of directors (composed of Helen Toner, Ilya Sutskever, Adam D'Angelo and Tasha McCauley) cited a lack of confidence in him. Chief Technology Officer Mira Murati took over as interim CEO. Greg Brockman, the president of OpenAI, was also removed as chairman of the board and resigned from the company's presidency shortly thereafter. Three senior OpenAI researchers subsequently resigned: director of research and GPT-4 lead Jakub Pachocki, head of AI risk Aleksander Mądry, and researcher Szymon Sidor.\n\nOn November 18, 2023, there were reportedly talks of Altman returning as CEO amid pressure placed upon the board by investors such as Microsoft and Thrive Capital, who objected to Altman's departure. Although Altman himself spoke in favor of returning to OpenAI, he has since stated that he considered starting a new company and bringing former OpenAI employees with him if talks to reinstate him didn't work out. The board members agreed \"in principle\" to resign if Altman returned. On November 19, 2023, negotiations with Altman to return failed and Murati was replaced by Emmett Shear as interim CEO. The board initially contacted Anthropic CEO Dario Amodei (a former OpenAI executive) about replacing Altman, and proposed a merger of the two companies, but both offers were declined.\n\nOn November 20, 2023, Microsoft CEO Satya Nadella announced Altman and Brockman would be joining Microsoft to lead a new advanced AI research team, but added that they were still committed to OpenAI despite recent events. Before the partnership with Microsoft was finalized, Altman gave the board another opportunity to negotiate with him. About 738 of OpenAI's 770 employees, including Murati and Sutskever, signed an open letter stating they would quit their jobs and join Microsoft if the board did not rehire Altman and then resign. This prompted OpenAI investors to consider legal action against the board as well. In response, OpenAI management sent an internal memo to employees stating that negotiations with Altman and the board had resumed and would take some time.\n\nOn November 21, 2023, after continued negotiations, Altman and Brockman returned to the company in their prior roles along with a reconstructed board made up of new members Bret Taylor (as chairman) and Lawrence Summers, with D'Angelo remaining. According to subsequent reporting, shortly before Altman's firing, some employees raised concerns to the board about how he had handled the safety implications of a recent internal AI capability discovery. On November 29, 2023, OpenAI announced that an anonymous Microsoft employee had joined the board as a non-voting member to observe the company's operations; Microsoft resigned from the board in July 2024.\n\nIn February 2024, the Securities and Exchange Commission subpoenaed OpenAI's internal communication to determine if Altman's alleged lack of candor misled investors.\n\nIn 2024, following the temporary removal of Sam Altman and his return, many employees gradually left OpenAI, including most of the original leadership team and a significant number of AI safety researchers.",
+      "content": "On November 17, 2023, Sam Altman was removed as CEO when its board of directors (composed of Helen Toner, Ilya Sutskever, Adam D'Angelo and Tasha McCauley) cited a lack of confidence in him. Chief Technology Officer Mira Murati took over as interim CEO. Greg Brockman, the president of OpenAI, was also removed as chairman of the board and resigned from the company's presidency shortly thereafter. Three senior OpenAI researchers subsequently resigned: director of research and GPT-4 lead Jakub Pachocki, head of AI risk Aleksander Mądry, and researcher Szymon Sidor.\n\nOn November 18, 2023, there were reportedly talks of Altman returning as CEO amid pressure placed upon the board by investors such as Microsoft and Thrive Capital, who objected to Altman's departure. Although Altman himself spoke in favor of returning to OpenAI, he has since stated that he considered starting a new company and bringing former OpenAI employees with him if talks to reinstate him did not work out. Altman insisted multiple times that all board members who supported his removal should resign; the board members agreed \"in principle\" to resign if Altman returned. On November 19, 2023, negotiations with Altman to return failed and Murati was replaced by Emmett Shear as interim CEO. The board initially contacted Anthropic CEO Dario Amodei (a former OpenAI executive) about replacing Altman, and proposed a merger of the two companies, but both offers were declined.\n\nOn November 20, 2023, Microsoft CEO Satya Nadella announced Altman and Brockman would be joining Microsoft to lead a new advanced AI research team, but added that they were still committed to OpenAI despite recent events. Before the partnership with Microsoft was finalized, Altman gave the board another opportunity to negotiate with him. About 738 of OpenAI's 770 employees, including Murati and Sutskever, signed an open letter stating they would quit their jobs and join Microsoft if the board did not rehire Altman and then resign. This prompted OpenAI investors to consider legal action against the board as well. In response, OpenAI management sent an internal memo to employees stating that negotiations with Altman and the board had resumed and would take some time.\n\nOn November 21, 2023, after continued negotiations, Altman and Brockman returned to the company in their prior roles along with a reconstructed board made up of new members Bret Taylor (as chairman) and Lawrence Summers, with D'Angelo remaining. According to subsequent reporting, shortly before Altman's firing, some employees raised concerns to the board about how he had handled the safety implications of a recent internal AI capability discovery. On November 29, 2023, OpenAI announced that an anonymous Microsoft employee had joined the board as a non-voting member to observe the company's operations; Microsoft resigned from the board in July 2024.\n\nIn February 2024, the Securities and Exchange Commission subpoenaed OpenAI's internal communication to determine if Altman's alleged lack of candor misled investors. Following the temporary removal of Sam Altman and his return, many employees gradually left OpenAI, including most of the original leadership team and a significant number of AI safety researchers.",
       "citations": [
         {
           "id": "cite-0",
@@ -1312,101 +1294,107 @@
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Patel, OpenAI board in discussions with Sam Altman to return as CEO, (November 18, 2023)",
-          "url": "https://www.theverge.com/2023/11/18/23967199/breaking-openai-board-in-discussions-with-sam-altman-to-return-as-ceo"
+          "text": "Farrow, Sam Altman May Control Our Future—Can He Be Trusted?, (April 6, 2026)",
+          "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted"
         },
         {
           "id": "cite-8",
           "index": 8,
-          "text": "Heath, The deal to bring Sam Altman back to OpenAI has fallen apart, (November 20, 2023)",
-          "url": "https://www.theverge.com/2023/11/20/23967515/sam-altman-openai-board-fired-new-ceo"
+          "text": "Patel, OpenAI board in discussions with Sam Altman to return as CEO, (November 18, 2023)",
+          "url": "https://www.theverge.com/2023/11/18/23967199/breaking-openai-board-in-discussions-with-sam-altman-to-return-as-ceo"
         },
         {
           "id": "cite-9",
           "index": 9,
-          "text": "Dastin, OpenAI's board approached Anthropic CEO about top job and merger, (November 21, 2023)",
-          "url": "https://www.reuters.com/technology/openais-board-approached-anthropic-ceo-about-top-job-merger-sources-2023-11-21/"
+          "text": "Heath, The deal to bring Sam Altman back to OpenAI has fallen apart, (November 20, 2023)",
+          "url": "https://www.theverge.com/2023/11/20/23967515/sam-altman-openai-board-fired-new-ceo"
         },
         {
           "id": "cite-10",
           "index": 10,
-          "text": "Warren, Microsoft hires former OpenAI CEO Sam Altman, (November 20, 2023)",
-          "url": "https://www.theverge.com/2023/11/20/23968829/microsoft-hires-sam-altman-greg-brockman-employees-openai"
+          "text": "Dastin, OpenAI's board approached Anthropic CEO about top job and merger, (November 21, 2023)",
+          "url": "https://www.reuters.com/technology/openais-board-approached-anthropic-ceo-about-top-job-merger-sources-2023-11-21/"
         },
         {
           "id": "cite-11",
           "index": 11,
-          "text": "Patel, Sam Altman is still trying to return as OpenAI CEO, (November 20, 2023)",
-          "url": "https://www.theverge.com/2023/11/20/23969586/sam-altman-plotting-return-open-ai-microsoft"
+          "text": "Warren, Microsoft hires former OpenAI CEO Sam Altman, (November 20, 2023)",
+          "url": "https://www.theverge.com/2023/11/20/23968829/microsoft-hires-sam-altman-greg-brockman-employees-openai"
         },
         {
           "id": "cite-12",
           "index": 12,
-          "text": "OpenAI Staff Near Total Mutiny With Threat to Jump to Microsoft, (November 20, 2023)",
-          "url": "https://news.bloomberglaw.com/us-law-week/openai-staff-threaten-to-go-to-microsoft-if-board-doesnt-quit"
+          "text": "Patel, Sam Altman is still trying to return as OpenAI CEO, (November 20, 2023)",
+          "url": "https://www.theverge.com/2023/11/20/23969586/sam-altman-plotting-return-open-ai-microsoft"
         },
         {
           "id": "cite-13",
           "index": 13,
-          "text": "Knight, OpenAI Staff Threaten to Quit Unless Board Resigns",
-          "url": "https://www.wired.com/story/openai-staff-walk-protest-sam-altman/"
+          "text": "OpenAI Staff Near Total Mutiny With Threat to Jump to Microsoft, (November 20, 2023)",
+          "url": "https://news.bloomberglaw.com/us-law-week/openai-staff-threaten-to-go-to-microsoft-if-board-doesnt-quit"
         },
         {
           "id": "cite-14",
           "index": 14,
-          "text": "Tong, Exclusive: OpenAI investors considering suing the board after CEO's abrupt firing, (November 20, 2023)",
-          "url": "https://www.reuters.com/technology/openai-investors-considering-suing-board-after-ceos-abrupt-firing-sources-2023-11-20/"
+          "text": "Knight, OpenAI Staff Threaten to Quit Unless Board Resigns",
+          "url": "https://www.wired.com/story/openai-staff-walk-protest-sam-altman/"
         },
         {
           "id": "cite-15",
           "index": 15,
-          "text": "Lawler, OpenAI exec to employees: \"our number one goal remains to reunify OpenAI.\", (November 21, 2023)",
-          "url": "https://www.theverge.com/2023/11/21/23970550/openai-exec-to-employees-our-number-one-goal-remains-to-reunify-openai"
+          "text": "Tong, Exclusive: OpenAI investors considering suing the board after CEO's abrupt firing, (November 20, 2023)",
+          "url": "https://www.reuters.com/technology/openai-investors-considering-suing-board-after-ceos-abrupt-firing-sources-2023-11-20/"
         },
         {
           "id": "cite-16",
           "index": 16,
-          "text": "Heath, Breaking: Sam Altman to return as CEO of OpenAI, (November 22, 2023)",
-          "url": "https://www.theverge.com/2023/11/22/23967223/sam-altman-returns-ceo-open-ai"
+          "text": "Lawler, OpenAI exec to employees: \"our number one goal remains to reunify OpenAI.\", (November 21, 2023)",
+          "url": "https://www.theverge.com/2023/11/21/23970550/openai-exec-to-employees-our-number-one-goal-remains-to-reunify-openai"
         },
         {
           "id": "cite-17",
           "index": 17,
-          "text": "Lightman, Let's Verify Step by Step, (2023)"
+          "text": "Heath, Breaking: Sam Altman to return as CEO of OpenAI, (November 22, 2023)",
+          "url": "https://www.theverge.com/2023/11/22/23967223/sam-altman-returns-ceo-open-ai"
         },
         {
           "id": "cite-18",
           "index": 18,
-          "text": "Tong, Exclusive: OpenAI researchers warned board of AI breakthrough ahead of CEO ouster, sources say, (November 23, 2023)",
-          "url": "https://www.reuters.com/technology/sam-altmans-ouster-openai-was-precipitated-by-letter-board-about-ai-breakthrough-2023-11-22/"
+          "text": "Lightman, Let's Verify Step by Step, (2023)"
         },
         {
           "id": "cite-19",
           "index": 19,
-          "text": "Heath, Microsoft joins OpenAI's board with Sam Altman officially back as CEO, (November 30, 2023)",
-          "url": "https://www.theverge.com/2023/11/29/23981848/sam-altman-back-open-ai-ceo-microsoft-board"
+          "text": "Tong, Exclusive: OpenAI researchers warned board of AI breakthrough ahead of CEO ouster, sources say, (November 23, 2023)",
+          "url": "https://www.reuters.com/technology/sam-altmans-ouster-openai-was-precipitated-by-letter-board-about-ai-breakthrough-2023-11-22/"
         },
         {
           "id": "cite-20",
           "index": 20,
-          "text": "Microsoft ditches OpenAI board observer seat amid regulatory scrutiny",
-          "url": "https://www.channelnewsasia.com/business/microsoft-ditches-openai-board-observer-seat-amid-regulatory-scrutiny-4469086"
+          "text": "Heath, Microsoft joins OpenAI's board with Sam Altman officially back as CEO, (November 30, 2023)",
+          "url": "https://www.theverge.com/2023/11/29/23981848/sam-altman-back-open-ai-ceo-microsoft-board"
         },
         {
           "id": "cite-21",
           "index": 21,
-          "text": "Seetharaman, SEC Investigating Whether OpenAI Investors Were Misled, (February 28, 2024)",
-          "url": "https://www.wsj.com/tech/sec-investigating-whether-openai-investors-were-misled-9d90b411"
+          "text": "Microsoft ditches OpenAI board observer seat amid regulatory scrutiny",
+          "url": "https://www.channelnewsasia.com/business/microsoft-ditches-openai-board-observer-seat-amid-regulatory-scrutiny-4469086"
         },
         {
           "id": "cite-22",
           "index": 22,
-          "text": "Piper, Inside OpenAI's multibillion-dollar gambit to become a for-profit company, (2024-10-28)",
-          "url": "https://www.vox.com/future-perfect/380117/openai-microsoft-sam-altman-nonprofit-for-profit-foundation-artificial-intelligence"
+          "text": "Seetharaman, SEC Investigating Whether OpenAI Investors Were Misled, (February 28, 2024)",
+          "url": "https://www.wsj.com/tech/sec-investigating-whether-openai-investors-were-misled-9d90b411"
         },
         {
           "id": "cite-23",
           "index": 23,
+          "text": "Piper, Inside OpenAI's multibillion-dollar gambit to become a for-profit company, (2024-10-28)",
+          "url": "https://www.vox.com/future-perfect/380117/openai-microsoft-sam-altman-nonprofit-for-profit-foundation-artificial-intelligence"
+        },
+        {
+          "id": "cite-24",
+          "index": 24,
           "text": "Knight, The OpenAI Talent Exodus Gives Rivals an Opening",
           "url": "https://www.wired.com/story/openai-departures-research-rivals-artificial-intelligence/"
         }
@@ -1502,7 +1490,7 @@
       "id": "governance-and-legal-issues",
       "title": "Governance and legal issues",
       "level": 2,
-      "content": "in 2023]]In May 2023, Sam Altman, Greg Brockman and Ilya Sutskever posted recommendations for the governance of superintelligence. They stated that superintelligence could happen within the next 10 years, allowing a \"dramatically more prosperous future\" and that \"given the possibility of existential risk, we can't just be reactive\". They proposed creating an international watchdog organization similar to IAEA to oversee AI systems above a certain capability threshold, suggesting that relatively weak AI systems on the other side should not be overly regulated. They also called for more technical safety research for superintelligences, and asked for more coordination, for example through governments launching a joint project which \"many current efforts become part of\".\n\nIn July 2023, the FTC issued a civil investigative demand to OpenAI to investigate whether the company's data security and privacy practices to develop ChatGPT were unfair or harmed consumers (including by reputational harm) in violation of Section 5 of the Federal Trade Commission Act of 1914. These are typically preliminary investigative matters and are nonpublic, but the FTC's document was leaked. The agency also raised concerns about 'circular' spending arrangements—for example, Microsoft extending Azure credits to OpenAI while both companies shared engineering talent—and warned that such structures could negatively affect the public.\n\nIn September 2024, OpenAI's global affairs chief endorsed the UK's \"smart\" AI regulation during testimony to a House of Lords committee.\n\nIn February 2025, OpenAI CEO Sam Altman stated that the company is interested in collaborating with the People's Republic of China, despite regulatory restrictions imposed by the U.S. government. This shift comes in response to the growing influence of the Chinese artificial intelligence company DeepSeek, which has disrupted the AI market with open models, including DeepSeek V3 and DeepSeek R1. Following DeepSeek's market emergence, OpenAI enhanced security protocols to protect proprietary development techniques from industrial espionage. Some industry observers noted similarities between DeepSeek's model distillation approach and OpenAI's methodology, though no formal intellectual property claim was filed.\n\nAccording to Oliver Roberts, in March 2025, the United States had 781 state AI bills or laws. OpenAI advocated for preempting state AI laws with federal laws. According to Scott Kohler, OpenAI has opposed California's AI legislation and suggested that the state bill encroaches on a more competent federal government. Public Citizen opposed a federal preemption on AI and pointed to OpenAI's growth and valuation as evidence that existing state laws have not hampered innovation.",
+      "content": "in 2023]]In May 2023, Sam Altman, Greg Brockman and Ilya Sutskever posted recommendations for the governance of superintelligence. They stated that superintelligence could happen within the next 10 years, allowing a \"dramatically more prosperous future\" and that \"given the possibility of existential risk, we can't just be reactive\". They proposed creating an international watchdog organization similar to IAEA to oversee AI systems above a certain capability threshold, suggesting that relatively weak AI systems on the other side should not be overly regulated. They also called for more technical safety research for superintelligences, and asked for more coordination, for example through governments launching a joint project which \"many current efforts become part of\".\n\nIn July 2023, the FTC issued a civil investigative demand to OpenAI to investigate whether the company's data security and privacy practices to develop ChatGPT were unfair or harmed consumers (including by reputational harm) in violation of Section 5 of the Federal Trade Commission Act of 1914. These are typically preliminary investigative matters and are nonpublic, but the FTC's document was leaked. The agency also raised concerns about 'circular' spending arrangements—for example, Microsoft extending Azure credits to OpenAI while both companies shared engineering talent—and warned that such structures could negatively affect the public.\n\nIn September 2024, OpenAI's global affairs chief endorsed the UK's \"smart\" AI regulation during testimony to a House of Lords committee.\n\nIn February 2025, OpenAI CEO Sam Altman stated that the company is interested in collaborating with the People's Republic of China, despite regulatory restrictions imposed by the U.S. government. This shift comes in response to the growing influence of the Chinese artificial intelligence company DeepSeek, which has disrupted the AI market with open models, including DeepSeek V3 and DeepSeek R1. Following DeepSeek's market emergence, OpenAI enhanced security protocols to protect proprietary development techniques from industrial espionage. Some industry observers noted similarities between DeepSeek's model distillation approach and OpenAI's methodology, though no formal intellectual property claim was filed.\n\nAccording to Oliver Roberts, in March 2025, the United States had 781 state AI bills or laws. OpenAI advocated for preempting state AI laws with federal laws. According to Scott Kohler, OpenAI has opposed California's AI legislation and suggested that the state bill encroaches on a more competent federal government. Public Citizen opposed a federal preemption on AI and pointed to OpenAI's growth and valuation as evidence that existing state laws have not hampered innovation.\n\nIn early 2026, OpenAI provided the entire initial funding for the Parents & Kids Safe AI Coalition. Several organizations contacted on behalf of the coalition reported being unaware of OpenAI's involvement.",
       "citations": [
         {
           "id": "cite-0",
@@ -1599,6 +1587,12 @@
           "index": 15,
           "text": "Federal Preemption of State AI Laws Is Dangerous and Reckless, (21 May 2025)",
           "url": "https://www.citizen.org/article/federal-preemption-of-state-ai-laws-is-dangerous-and-reckless/"
+        },
+        {
+          "id": "cite-16",
+          "index": 16,
+          "text": "Kids groups say they didn’t know OpenAI was behind their child safety coalition, (2026-04-01)",
+          "url": "https://sfstandard.com/2026/04/01/openai-ai-kids-safety-coalition/"
         }
       ]
     },
@@ -1703,8 +1697,8 @@
         {
           "id": "cite-9",
           "index": 9,
-          "text": "[https://fingfx.thomsonreuters.com/gfx/legaldocs/xmpjrjwjrpr/OPENAI%20RAW%20STORY%20LAWSUIT%20intercept.pdf OpenAI RAW STORY LAWSUIT INTERCEPT] {{Webarchive|url=https://web.archive.org/web/20240328115412/https://fingfx.thomsonreuters.com/gfx/legaldocs/xmpjrjwjrpr/OPENAI%20RAW%20STORY%20LAWSUIT%20intercept.pdf|date=March 28, 2024}} - from [[Reuters]]",
-          "url": "https://web.archive.org/web/20240328115412/https://fingfx.thomsonreuters.com/gfx/legaldocs/xmpjrjwjrpr/OPENAI%20RAW%20STORY%20LAWSUIT%20intercept.pdf"
+          "text": "The Intercept v. OpenAI, (2024-02-28)",
+          "url": "https://fingfx.thomsonreuters.com/gfx/legaldocs/xmpjrjwjrpr/OPENAI%20RAW%20STORY%20LAWSUIT%20intercept.pdf"
         },
         {
           "id": "cite-10",
@@ -1821,10 +1815,48 @@
       ]
     },
     {
+      "id": "litigation-involving-elon-musk",
+      "title": "Litigation involving Elon Musk",
+      "level": 3,
+      "content": "On February 29, 2024, Elon Musk filed a lawsuit against OpenAI and CEO Sam Altman, accusing them of shifting focus from public benefit to profit maximization—a case OpenAI dismissed as \"incoherent\" and \"frivolous\", though Musk later revived legal action against Altman and others in August.\n\nOn April 9, 2024, OpenAI countersued Musk in federal court, alleging that he had engaged in \"bad-faith tactics\" to slow the company's progress and seize its innovations for his personal benefit. OpenAI also argued that Musk had previously supported the creation of a for-profit structure and had expressed interest in controlling OpenAI himself. The countersuit seeks damages and legal measures to prevent further alleged interference.",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Satariano, Elon Musk Sues OpenAI and Sam Altman for Violating the Company's Principles, (March 1, 2024)",
+          "url": "https://www.nytimes.com/2024/03/01/technology/elon-musk-openai-sam-altman-lawsuit.html"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Lopatto, OpenAI says Elon Musk wanted 'absolute control' of the company, (March 6, 2024)",
+          "url": "https://www.theverge.com/2024/3/5/24091773/openai-response-elon-musk-breach-of-contract-lawsuit"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Kharpal, Elon Musk revives lawsuit against OpenAI, Sam Altman in federal court, (August 5, 2024)",
+          "url": "https://www.cnbc.com/2024/08/05/elon-musk-revives-lawsuit-against-openai-sam-altman-in-federal-court.html"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "De Avila, Elon Musk Revives Lawsuit Against OpenAI and Sam Altman, (August 5, 2024)",
+          "url": "https://www.wsj.com/tech/ai/elon-musk-revives-lawsuit-against-openai-and-sam-altman-d7e5a87c"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Habeshian, OpenAI countersues Elon Musk in bitter legal battle, (April 10, 2025)",
+          "url": "https://www.axios.com/2025/04/10/openai-elon-musk-countersuit"
+        }
+      ]
+    },
+    {
       "id": "wrongful-death-lawsuits-over-chatgpt-safety-2025",
       "title": "Wrongful-death lawsuits over ChatGPT safety (2025)",
       "level": 3,
-      "content": "In August 2025, the parents of a 16-year-old boy who died by suicide filed a wrongful death lawsuit against OpenAI (and CEO Sam Altman), alleging that months of conversations with ChatGPT about mental health and methods of self-harm contributed to their son's death and that safeguards were inadequate for minors. OpenAI expressed condolences and said it was strengthening protections (including updated crisis response behavior and parental controls). Coverage described it as a first-of-its-kind wrongful death case targeting the company's chatbot. The complaint was filed in California state court in San Francisco.\n\nIn November 2025, the Social Media Victims Law Center and Tech Justice Law Project filed seven lawsuits against OpenAI, of which four lawsuits alleged wrongful death. The suits were filed on behalf of Zane Shamblin, 23, of Texas; Amaurie Lacey, 17, of Georgia; Joshua Enneking, 26, of Florida; and Joe Ceccanti, 48, of Oregon, who each committed suicide after prolonged ChatGPT usage.",
+      "content": "In August 2025, the parents of a 16-year-old boy who died by suicide filed a wrongful death lawsuit, Raine v. OpenAI, against the company (and CEO Sam Altman), alleging that months of conversations with ChatGPT about mental health and methods of self-harm contributed to their son's death and that safeguards were inadequate for minors. OpenAI expressed condolences and said it was strengthening protections (including updated crisis response behavior and parental controls). Coverage described it as a first-of-its-kind wrongful death case targeting the company's chatbot. The complaint was filed in California state court in San Francisco.\n\nIn November 2025, the Social Media Victims Law Center and Tech Justice Law Project filed seven lawsuits against OpenAI, of which four lawsuits alleged wrongful death. The suits were filed on behalf of Zane Shamblin, 23, of Texas; Amaurie Lacey, 17, of Georgia; Joshua Enneking, 26, of Florida; and Joe Ceccanti, 48, of Oregon, who each committed suicide after prolonged ChatGPT usage.",
       "citations": [
         {
           "id": "cite-0",

@@ -1,7 +1,7 @@
 {
   "id": "vaccine-misinfo",
   "title": "Vaccine misinformation",
-  "revisionDate": "2026-04-05",
+  "revisionDate": "2026-04-11",
   "revisionId": "1345347796",
   "sections": [
     {
@@ -25,12 +25,14 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Dubé, Vaccine Hesitancy, Acceptance, and Anti-Vaccination: Trends and Future Prospects for Public Health, (1 April 2021)"
+          "text": "Dubé, Vaccine Hesitancy, Acceptance, and Anti-Vaccination: Trends and Future Prospects for Public Health, (1 April 2021)",
+          "url": "https://doi.org/10.1146/annurev-publhealth-090419-102240"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Kortum, The Impact of Inaccurate Internet Health Information in a Secondary School Learning Environment, (30 June 2008)"
+          "text": "Kortum, The Impact of Inaccurate Internet Health Information in a Secondary School Learning Environment, (30 June 2008)",
+          "url": "https://doi.org/10.2196/jmir.986"
         },
         {
           "id": "cite-4",
@@ -67,12 +69,14 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Burki, Vaccine misinformation and social media, (1 October 2019)"
+          "text": "Burki, Vaccine misinformation and social media, (1 October 2019)",
+          "url": "https://doi.org/10.1016/S2589-7500(19)30136-0"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Broniatowski, Weaponized Health Communication: Twitter Bots and Russian Trolls Amplify the Vaccine Debate, (October 2018)"
+          "text": "Broniatowski, Weaponized Health Communication: Twitter Bots and Russian Trolls Amplify the Vaccine Debate, (October 2018)",
+          "url": "https://doi.org/10.2105/AJPH.2018.304567"
         },
         {
           "id": "cite-2",
@@ -83,7 +87,8 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Bertin, Conspiracy Beliefs, Rejection of Vaccination, and Support for hydroxychloroquine: A Conceptual Replication-Extension in the COVID-19 Pandemic Context, (2020)"
+          "text": "Bertin, Conspiracy Beliefs, Rejection of Vaccination, and Support for hydroxychloroquine: A Conceptual Replication-Extension in the COVID-19 Pandemic Context, (2020)",
+          "url": "https://doi.org/10.3389/fpsyg.2020.565128"
         }
       ]
     },
@@ -109,7 +114,8 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Geoghegan, Vaccine Safety: Myths and Misinformation, (17 March 2020)"
+          "text": "Geoghegan, Vaccine Safety: Myths and Misinformation, (17 March 2020)",
+          "url": "https://doi.org/10.3389/fmicb.2020.00372"
         },
         {
           "id": "cite-2",
@@ -120,17 +126,20 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Davidson, Vaccination as a cause of autism—myths and controversies, (December 2017)"
+          "text": "Davidson, Vaccination as a cause of autism—myths and controversies, (December 2017)",
+          "url": "https://doi.org/10.31887/DCNS.2017.19.4/mdavidson"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "A timeline of the Wakefield retraction, (1 March 2010)"
+          "text": "A timeline of the Wakefield retraction, (1 March 2010)",
+          "url": "https://doi.org/10.1038/nm0310-248b"
         },
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Eggertson, Lancet retracts 12-year-old article linking autism to MMR vaccines, (2010-03-09)"
+          "text": "Eggertson, Lancet retracts 12-year-old article linking autism to MMR vaccines, (2010-03-09)",
+          "url": "https://doi.org/10.1503/cmaj.109-3179"
         },
         {
           "id": "cite-6",
@@ -182,7 +191,8 @@
         {
           "id": "cite-14",
           "index": 14,
-          "text": "Abbasi, Widespread Misinformation About Infertility Continues to Create COVID-19 Vaccine Hesitancy, (2022-03-15)"
+          "text": "Abbasi, Widespread Misinformation About Infertility Continues to Create COVID-19 Vaccine Hesitancy, (2022-03-15)",
+          "url": "https://doi.org/10.1001/jama.2022.2404"
         },
         {
           "id": "cite-15",
@@ -199,12 +209,14 @@
         {
           "id": "cite-17",
           "index": 17,
-          "text": "Hooker, Analysis of health outcomes in vaccinated and unvaccinated children: Developmental delays, asthma, ear infections and gastrointestinal disorders, (January 2020)"
+          "text": "Hooker, Analysis of health outcomes in vaccinated and unvaccinated children: Developmental delays, asthma, ear infections and gastrointestinal disorders, (January 2020)",
+          "url": "https://doi.org/10.1177/2050312120925344"
         },
         {
           "id": "cite-18",
           "index": 18,
-          "text": "Mawson, Multiple Vaccinations and the Enigma of Vaccine Injury, (2020-11-12)"
+          "text": "Mawson, Multiple Vaccinations and the Enigma of Vaccine Injury, (2020-11-12)",
+          "url": "https://doi.org/10.3390/vaccines8040676"
         },
         {
           "id": "cite-19",
@@ -221,7 +233,8 @@
         {
           "id": "cite-21",
           "index": 21,
-          "text": "Ioniuc, Challenges in the Pharmacotherapeutic Management of Pediatric Asthma, (2022-12-18)"
+          "text": "Ioniuc, Challenges in the Pharmacotherapeutic Management of Pediatric Asthma, (2022-12-18)",
+          "url": "https://doi.org/10.3390/ph15121581"
         }
       ]
     },
@@ -246,7 +259,8 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Rieder, 'Nosodes' are no substitute for vaccines, (May 2015)"
+          "text": "Rieder, 'Nosodes' are no substitute for vaccines, (May 2015)",
+          "url": "https://doi.org/10.1093/pch/20.4.219"
         }
       ]
     },
@@ -271,7 +285,8 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Retroviral DNA Transposition: Themes and Variations, (December 2014)"
+          "text": "Retroviral DNA Transposition: Themes and Variations, (December 2014)",
+          "url": "https://doi.org/10.1128/microbiolspec.MDNA3-0005-2014"
         },
         {
           "id": "cite-3",
@@ -374,12 +389,14 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "The early origins of autism, (February 2000)"
+          "text": "The early origins of autism, (February 2000)",
+          "url": "https://doi.org/10.1038/scientificamerican0200-56"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Autism and metabolic diseases, (March 2008)"
+          "text": "Autism and metabolic diseases, (March 2008)",
+          "url": "https://doi.org/10.1177/0883073807308698"
         },
         {
           "id": "cite-3",
@@ -434,7 +451,8 @@
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Kew, Breaking the Last Chains of Poliovirus Transmission: Progress and Challenges in Global Polio Eradication, (29 September 2018)"
+          "text": "Kew, Breaking the Last Chains of Poliovirus Transmission: Progress and Challenges in Global Polio Eradication, (29 September 2018)",
+          "url": "https://doi.org/10.1146/annurev-virology-101416-041749"
         },
         {
           "id": "cite-7",
@@ -451,7 +469,8 @@
         {
           "id": "cite-9",
           "index": 9,
-          "text": "Gerts, \"Thought I'd Share First\" and Other Conspiracy Theory Tweets from the COVID-19 Infodemic: Exploratory Study, (2021-04-14)"
+          "text": "Gerts, \"Thought I'd Share First\" and Other Conspiracy Theory Tweets from the COVID-19 Infodemic: Exploratory Study, (2021-04-14)",
+          "url": "https://doi.org/10.2196/26527"
         },
         {
           "id": "cite-10",
@@ -462,12 +481,14 @@
         {
           "id": "cite-11",
           "index": 11,
-          "text": "Prausnitz, Engineering Microneedle Patches for Vaccination and Drug Delivery to Skin, (2017)"
+          "text": "Prausnitz, Engineering Microneedle Patches for Vaccination and Drug Delivery to Skin, (2017)",
+          "url": "https://doi.org/10.1146/annurev-chembioeng-060816-101514"
         },
         {
           "id": "cite-12",
           "index": 12,
-          "text": "McHugh, Biocompatible near-infrared quantum dots delivered to the skin by microneedle patches record vaccination, (2019)"
+          "text": "McHugh, Biocompatible near-infrared quantum dots delivered to the skin by microneedle patches record vaccination, (2019)",
+          "url": "https://doi.org/10.1126/scitranslmed.aay7162"
         },
         {
           "id": "cite-13",
@@ -559,7 +580,8 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Wilson, Social media and vaccine hesitancy, (1 October 2020)"
+          "text": "Wilson, Social media and vaccine hesitancy, (1 October 2020)",
+          "url": "https://doi.org/10.1136/bmjgh-2020-004206"
         },
         {
           "id": "cite-4",
@@ -576,7 +598,8 @@
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Loomba, Measuring the impact of COVID-19 vaccine misinformation on vaccination intent in the UK and USA, (5 February 2021)"
+          "text": "Loomba, Measuring the impact of COVID-19 vaccine misinformation on vaccination intent in the UK and USA, (5 February 2021)",
+          "url": "https://doi.org/10.1038/s41562-021-01056-1"
         },
         {
           "id": "cite-7",
@@ -587,7 +610,8 @@
         {
           "id": "cite-8",
           "index": 8,
-          "text": "Lin, Understanding COVID-19 vaccine demand and hesitancy: A nationwide online survey in China, (2020-12-17)"
+          "text": "Lin, Understanding COVID-19 vaccine demand and hesitancy: A nationwide online survey in China, (2020-12-17)",
+          "url": "https://doi.org/10.1371/journal.pntd.0008961"
         }
       ]
     },
@@ -606,7 +630,8 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Burki, Vaccine misinformation and social media, (2019-10-01)"
+          "text": "Burki, Vaccine misinformation and social media, (2019-10-01)",
+          "url": "https://doi.org/10.1016/S2589-7500(19)30136-0"
         }
       ]
     },
@@ -619,7 +644,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Bowes, Measles, misinformation, and risk: personal belief exemptions and the MMR vaccine, (2016-12-01)"
+          "text": "Bowes, Measles, misinformation, and risk: personal belief exemptions and the MMR vaccine, (2016-12-01)",
+          "url": "https://doi.org/10.1093/jlb/lsw057"
         }
       ]
     },
@@ -644,7 +670,8 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Whitehead, A systematic review of communication interventions for countering vaccine misinformation, (2023-01-27)"
+          "text": "Whitehead, A systematic review of communication interventions for countering vaccine misinformation, (2023-01-27)",
+          "url": "https://doi.org/10.1016/j.vaccine.2022.12.059"
         },
         {
           "id": "cite-3",
@@ -655,7 +682,8 @@
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Steffens, How organisations promoting vaccination respond to misinformation on social media: a qualitative investigation, (23 October 2019)"
+          "text": "Steffens, How organisations promoting vaccination respond to misinformation on social media: a qualitative investigation, (23 October 2019)",
+          "url": "https://doi.org/10.1186/s12889-019-7659-3"
         },
         {
           "id": "cite-5",
@@ -744,7 +772,8 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Hinman, Eradication of Vaccine-Preventable Diseases, (1999)"
+          "text": "Hinman, Eradication of Vaccine-Preventable Diseases, (1999)",
+          "url": "https://doi.org/10.1146/annurev.publhealth.20.1.211"
         }
       ]
     }

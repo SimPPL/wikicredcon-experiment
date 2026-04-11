@@ -1,8 +1,8 @@
 {
   "id": "semaglutide",
   "title": "Semaglutide",
-  "revisionDate": "2026-04-05",
-  "revisionId": "1346156481",
+  "revisionDate": "2026-04-11",
+  "revisionId": "1348173914",
   "sections": [
     {
       "id": "semaglutide-lead",
@@ -91,22 +91,26 @@
         {
           "id": "cite-13",
           "index": 13,
-          "text": "Wegovy (semaglutide): a new weight loss drug for chronic weight management, (January 2022)"
+          "text": "Wegovy (semaglutide): a new weight loss drug for chronic weight management, (January 2022)",
+          "url": "https://doi.org/10.1136/jim-2021-001952"
         },
         {
           "id": "cite-14",
           "index": 14,
-          "text": "Clinical review of subcutaneous semaglutide for obesity, (February 2022)"
+          "text": "Clinical review of subcutaneous semaglutide for obesity, (February 2022)",
+          "url": "https://doi.org/10.1111/jcpt.13574"
         },
         {
           "id": "cite-15",
           "index": 15,
-          "text": "Efficacy and safety of semaglutide for weight management: evidence from the STEP program, (January 2022)"
+          "text": "Efficacy and safety of semaglutide for weight management: evidence from the STEP program, (January 2022)",
+          "url": "https://doi.org/10.1080/00325481.2022.2147326"
         },
         {
           "id": "cite-16",
           "index": 16,
-          "text": "Oral Semaglutide, (January 2020)"
+          "text": "Oral Semaglutide, (January 2020)",
+          "url": "https://doi.org/10.2337/cd19-0079"
         },
         {
           "id": "cite-17",
@@ -123,7 +127,8 @@
         {
           "id": "cite-19",
           "index": 19,
-          "text": "The selection and use of essential medicines, 2025: WHO Model List of Essential Medicines, 24th list, (2025)"
+          "text": "The selection and use of essential medicines, 2025: WHO Model List of Essential Medicines, 24th list, (2025)",
+          "url": "https://doi.org/10.2471/B09474"
         }
       ]
     },
@@ -166,17 +171,20 @@
         {
           "id": "cite-5",
           "index": 5,
-          "text": "A systematic review and meta-analysis of the efficacy and safety of pharmacological treatments for obesity in adults, (October 2025)"
+          "text": "A systematic review and meta-analysis of the efficacy and safety of pharmacological treatments for obesity in adults, (October 2025)",
+          "url": "https://doi.org/10.1038/s41591-025-03978-z"
         },
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Weight Regain After Liraglutide, Semaglutide or Tirzepatide Interruption: A Narrative Review of Randomized Studies, (May 2025)"
+          "text": "Weight Regain After Liraglutide, Semaglutide or Tirzepatide Interruption: A Narrative Review of Randomized Studies, (May 2025)",
+          "url": "https://doi.org/10.3390/jcm14113791"
         },
         {
           "id": "cite-7",
           "index": 7,
-          "text": "West, Weight regain after cessation of medication for weight management: systematic review and meta-analysis, (2026-01-07)"
+          "text": "West, Weight regain after cessation of medication for weight management: systematic review and meta-analysis, (2026-01-07)",
+          "url": "https://doi.org/10.1136/bmj-2025-085304"
         },
         {
           "id": "cite-8",
@@ -220,7 +228,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Risk of Gastrointestinal Adverse Events Associated With Glucagon-Like Peptide-1 Receptor Agonists for Weight Loss, (November 2023)"
+          "text": "Risk of Gastrointestinal Adverse Events Associated With Glucagon-Like Peptide-1 Receptor Agonists for Weight Loss, (November 2023)",
+          "url": "https://doi.org/10.1001/jama.2023.19574"
         },
         {
           "id": "cite-1",
@@ -231,7 +240,8 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Incretin-based glucose-lowering medications and the risk of acute pancreatitis and malignancies: a meta-analysis based on cardiovascular outcomes trials, (April 2020)"
+          "text": "Incretin-based glucose-lowering medications and the risk of acute pancreatitis and malignancies: a meta-analysis based on cardiovascular outcomes trials, (April 2020)",
+          "url": "https://doi.org/10.1111/dom.13924"
         },
         {
           "id": "cite-3",
@@ -242,7 +252,8 @@
         {
           "id": "cite-4",
           "index": 4,
-          "text": "The Thyroid Pathologist Meets Therapeutic Pharmacology, (March 2023)"
+          "text": "The Thyroid Pathologist Meets Therapeutic Pharmacology, (March 2023)",
+          "url": "https://doi.org/10.1007/s12022-023-09749-1"
         },
         {
           "id": "cite-5",
@@ -261,7 +272,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Glucagon-like Peptide-1 receptor agonists activate rodent thyroid C-cells causing calcitonin release and C-cell proliferation, (April 2010)"
+          "text": "Glucagon-like Peptide-1 receptor agonists activate rodent thyroid C-cells causing calcitonin release and C-cell proliferation, (April 2010)",
+          "url": "https://doi.org/10.1210/en.2009-1272"
         }
       ]
     },
@@ -274,12 +286,14 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes, (November 2016)"
+          "text": "Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes, (November 2016)",
+          "url": "https://doi.org/10.1056/NEJMoa1607141"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Glucagon-like Peptide-1 Receptor Signaling Modulates β Cell Apoptosis, (2003)"
+          "text": "Glucagon-like Peptide-1 Receptor Signaling Modulates β Cell Apoptosis, (2003)",
+          "url": "https://doi.org/10.1074/jbc.M209423200"
         },
         {
           "id": "cite-2",
@@ -290,12 +304,14 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Semaglutide: First Global Approval, (February 2018)"
+          "text": "Semaglutide: First Global Approval, (February 2018)",
+          "url": "https://doi.org/10.1007/s40265-018-0871-0"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Effects of once-weekly semaglutide on appetite, energy intake, control of eating, food preference and body weight in subjects with obesity, (September 2017)"
+          "text": "Effects of once-weekly semaglutide on appetite, energy intake, control of eating, food preference and body weight in subjects with obesity, (September 2017)",
+          "url": "https://doi.org/10.1111/dom.12932"
         }
       ]
     },
@@ -308,22 +324,26 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Discovery of the Once-Weekly Glucagon-Like Peptide-1 (GLP-1) Analogue Semaglutide, (September 2015)"
+          "text": "Discovery of the Once-Weekly Glucagon-Like Peptide-1 (GLP-1) Analogue Semaglutide, (September 2015)",
+          "url": "https://doi.org/10.1021/acs.jmedchem.5b00726"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "The human GLP-1 analogs liraglutide and semaglutide: absence of histopathological effects on the pancreas in nonhuman primates, (July 2014)"
+          "text": "The human GLP-1 analogs liraglutide and semaglutide: absence of histopathological effects on the pancreas in nonhuman primates, (July 2014)",
+          "url": "https://doi.org/10.2337/db13-1087"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Semaglutide: Review and Place in Therapy for Adults With Type 2 Diabetes, (March 2019)"
+          "text": "Semaglutide: Review and Place in Therapy for Adults With Type 2 Diabetes, (March 2019)",
+          "url": "https://doi.org/10.1016/j.jcjd.2018.05.008"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Semaglutide, a once-weekly human GLP-1 analog, does not reduce the bioavailability of the combined oral contraceptive, ethinylestradiol/levonorgestrel, (May 2015)"
+          "text": "Semaglutide, a once-weekly human GLP-1 analog, does not reduce the bioavailability of the combined oral contraceptive, ethinylestradiol/levonorgestrel, (May 2015)",
+          "url": "https://doi.org/10.1002/jcph.443"
         }
       ]
     },
@@ -436,7 +456,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Once-Weekly Semaglutide in Adults with Overweight or Obesity, (March 2021)"
+          "text": "Once-Weekly Semaglutide in Adults with Overweight or Obesity, (March 2021)",
+          "url": "https://doi.org/10.1056/NEJMoa2032183"
         },
         {
           "id": "cite-1",
@@ -447,7 +468,8 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Two-year effects of semaglutide in adults with overweight or obesity: the STEP 5 trial, (October 2022)"
+          "text": "Two-year effects of semaglutide in adults with overweight or obesity: the STEP 5 trial, (October 2022)",
+          "url": "https://doi.org/10.1038/s41591-022-02026-4"
         },
         {
           "id": "cite-3",
@@ -458,7 +480,8 @@
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Anti-obesity drug discovery: advances and challenges, (March 2022)"
+          "text": "Anti-obesity drug discovery: advances and challenges, (March 2022)",
+          "url": "https://doi.org/10.1038/s41573-021-00337-8"
         }
       ]
     },
@@ -840,7 +863,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "National trends in prescription drug expenditures and projections for 2024, (July 2024)"
+          "text": "National trends in prescription drug expenditures and projections for 2024, (July 2024)",
+          "url": "https://doi.org/10.1093/ajhp/zxae105"
         }
       ]
     },
@@ -848,7 +872,7 @@
       "id": "cost-coverage-and-supply",
       "title": "Cost, coverage and supply",
       "level": 4,
-      "content": "In the US, Wegovy has a list price of $1,349.02 per month as of 2022, suggesting that because of the high costs many people \"who could most benefit from weight loss may be unable to afford such expensive drugs\". High costs of Ozempic prompted some insurance companies to investigate and refuse to cover individuals with what the companies considered was insufficient evidence to support a diabetes diagnosis, alleging off-label prescribing for weight loss.\n\nNovo Nordisk announced in February 2026, that effective January 2027 the list price of Wegovy, Ozempic and Rybelsus would drop to $675/month.\n\nIn the UK, semaglutide is available on NHS prescription for diabetes at nominal or no cost to the individual. It is also available for obesity, limited to treatment for two years. In Finland, semaglutide is included in the national price regulation scheme and is available by prescription; however, for people with type 2 diabetes and a BMI over 27, part of the cost is covered by Kela, the Finnish social insurance institution. In Australia, semaglutide is available on the Pharmaceutical Benefits Scheme prescription for diabetes at the regular co-payment rates of $31.60, or $7.70 for concession card holders. By contrast, in the United States, due to high costs, some health plans do not cover weight-loss drugs like semaglutide and tirzepatide. (, about half of plans sponsored by private-sector employers cover these drugs, federal Medicare Part D does not cover weight-loss drugs, and only a few federally-funded, state-administered Medicaid plans cover drugs for obesity.)\n\nHigh demand caused worldwide supply shortages of semaglutide in 2023; new UK prescriptions were not issued during the shortage. Novo Nordisk revealed in April 2024, that to meet the enormous demand for semaglutide, it was running its production facilities 24/7; it had budgeted $6 billion in 2024 to expand its crowded and congested facilities; and it had hired over 10,000 new employees in 2023 alone.",
+      "content": "In the US, Wegovy has a list price of $1,349.02 per month as of 2022, suggesting that because of the high costs many people \"who could most benefit from weight loss may be unable to afford such expensive drugs\". High costs of Ozempic prompted some insurance companies to investigate and refuse to cover individuals with what the companies considered was insufficient evidence to support a diabetes diagnosis, alleging off-label prescribing for weight loss.\n\nNovo Nordisk announced in February 2026, that effective January 2027 the list price of Wegovy, Ozempic and Rybelsus would drop to $675/month.\n\nIn the UK, semaglutide is available on NHS prescription for diabetes at nominal or no cost to the individual. It is also available for obesity, limited to treatment for two years. In Finland, semaglutide is included in the national price regulation scheme and is available by prescription; however, for people with type 2 diabetes and a BMI over 27, part of the cost is covered by Kela, the Finnish social insurance institution. In Australia, semaglutide is available on the Pharmaceutical Benefits Scheme prescription for diabetes at the regular co-payment rates of $25.00, or $7.70 for concession card holders. By contrast, in the United States, due to high costs, some health plans do not cover weight-loss drugs like semaglutide and tirzepatide. (, about half of plans sponsored by private-sector employers cover these drugs, federal Medicare Part D does not cover weight-loss drugs, and only a few federally-funded, state-administered Medicaid plans cover drugs for obesity.)\n\nHigh demand caused worldwide supply shortages of semaglutide in 2023; new UK prescriptions were not issued during the shortage. Novo Nordisk revealed in April 2024, that to meet the enormous demand for semaglutide, it was running its production facilities 24/7; it had budgeted $6 billion in 2024 to expand its crowded and congested facilities; and it had hired over 10,000 new employees in 2023 alone.",
       "citations": [
         {
           "id": "cite-0",
@@ -907,7 +931,8 @@
         {
           "id": "cite-9",
           "index": 9,
-          "text": "Health Benefits In 2024: Higher Premiums Persist, Employer Strategies For GLP-1 Coverage And Family-Building Benefits, (November 2024)"
+          "text": "Health Benefits In 2024: Higher Premiums Persist, Employer Strategies For GLP-1 Coverage And Family-Building Benefits, (November 2024)",
+          "url": "https://doi.org/10.1377/hlthaff.2024.01006"
         },
         {
           "id": "cite-10",
@@ -987,9 +1012,9 @@
     },
     {
       "id": "rejection-of-biden-era-proposal",
-      "title": "Rejection of Biden-Era Proposal",
+      "title": "Rejection of Biden-era Proposal",
       "level": 3,
-      "content": "On April 4, 2025, the Trump Administration declined to finalize a proposal from the Biden Administration that would have required Medicare, Medicaid, and CHIP to broadly cover GLP-1s for weight loss. Despite the rejection, CMS has indicated that it might cover obesity medication in future rulemaking. However, in November 2025, the Trump Administration announced TrumpRx, an initiative similar to GoodRx to lower the price of GLP-1s to $245 per month for patients covered by Medicaid and CHIP and $50 month for Medicare patients if states opted in. Coverage for patients with obesity and at least one comorbidity like (elevated LDL-cholesterol, high blood pressure and/or MASLD), will be implemented as early as April 1, 2026. However, the cost will be significantly higher to taxpayers due to the fact that most insurance companies do not cover it in their formulary. Prior to this change, most Medicaid and CHIP patients only paid $3 a month, the same price for brand-name medication.",
+      "content": "On April 4, 2025, the Trump Administration declined to finalize a proposal from the Biden Administration that would have required Medicare, Medicaid, and CHIP to broadly cover GLP-1s for weight loss. Despite the rejection, CMS has indicated that it might cover obesity medication in future rulemaking. However, in November 2025, the Trump Administration announced TrumpRx, an initiative similar to GoodRx, to lower the price of GLP-1s to $245 per month for patients covered by Medicaid and CHIP and $50 month for Medicare patients if states opted in. Coverage for patients with obesity and at least one comorbidity like (elevated LDL-cholesterol, high blood pressure and/or MASLD), will be implemented as early as April 1, 2026. However, the cost will be significantly higher to taxpayers due to the fact that most insurance companies do not cover it in their formulary. Prior to this change, most Medicaid and CHIP patients only paid $3 a month, the same price for brand-name medication.",
       "citations": [
         {
           "id": "cite-0",
@@ -1003,17 +1028,19 @@
       "id": "research",
       "title": "Research",
       "level": 2,
-      "content": "A 2014 meta-analysis found that semaglutide may be effective in lowering liver enzymes (transaminitis) and improving certain radiologically observed features of metabolic dysfunction–associated steatotic liver disease.\nThe French national health care insurance system database had previously suggested that one to three years of use of glucagon-like peptide-1 receptor agonists like exenatide, liraglutide, and dulaglutide may be linked with increased occurrence of thyroid cancer. Semaglutide belongs to the same family of medicine. A meta-analysis involving data from 37 randomized controlled trials and 19 real-world studies (46,719 individuals) showed that semaglutide use over 18 months was not associated with increased risk of any cancer, supported by high-quality evidence.\n\nIn March 2023, a Novo Nordisk official said, based on a randomized, double-blind study (NCT03548935) funded by the company, that people using semaglutide to lose weight regained two-thirds of their original weight loss one year (52 weeks) after discontinuing use of the drug. After two years (120 weeks), the patients retained roughly one-third of their original weight loss (5.6% of the original 17.3% loss).\n\nIn July 2023, the Icelandic Medicines Agency reported two cases of suicidal thoughts and one case of self-injury of users of the injection, prompting a safety assessment of Ozempic, Wegovy, Saxenda, and similar drugs. In January 2024, a preliminary review conducted by the US Food and Drug Administration (FDA) confirmed no evidence had been found to suggest that the medicine causes suicidal thoughts or actions.\n\nIn June 2025, the European Medicines Agency recommended that the product information for semaglutide medicines be updated to include non-arteritic anterior ischemic optic neuropathy as a very rare side effect, while the World Health Organization concluded that the risk management plan for semaglutide should be revised to include non-arteritic anterior ischemic optic neuropathy as a potential risk.\n\nA 2025 observational study reported a modest increased risk of a serious eye condition in people with diabetes taking glucagon-like peptide-1 (GLP-1) receptor agonists. The analysis found that individuals using the medications had a slightly higher incidence of neovascular age-related macular degeneration compared to similar individuals not on the medications.\n\nIn the STEP-HFpEF trial including people with obesity and heart failure with preserved ejection fraction, weight loss was associated with improvements in heart failure symptoms and functional capacity. An observational study on people with obesity and type 2diabetes and heart failure with preserved ejection fraction, semaglutide had about a 42% lower risk of hospitalization for heart failure and all-cause death combined compared with sitagliptin.\n\nAn analysis of events in the US FDA Adverse Event Reporting System suggests an association between several GLP-1 agonists (including semaglutide) and cutaneous reactions, such as dermal hypersensitivity reactions, eosinophilic panniculitis, bullous pemphigoid, and morbilliform drug eruptions.",
+      "content": "A 2014 meta-analysis found that semaglutide may be effective in lowering liver enzymes (transaminitis) and improving certain radiologically observed features of metabolic dysfunction–associated steatotic liver disease.\nThe French national health care insurance system database had previously suggested that one to three years of use of glucagon-like peptide-1 receptor agonists like exenatide, liraglutide, and dulaglutide may be linked with increased occurrence of thyroid cancer. Semaglutide belongs to the same family of medicine. A meta-analysis involving data from 37 randomized controlled trials and 19 real-world studies (46,719 individuals) showed that semaglutide use over 18 months was not associated with increased risk of any cancer, supported by high-quality evidence.\n\nIn March 2023, a Novo Nordisk official said, based on a randomized, double-blind study (NCT03548935) funded by the company, that people using semaglutide to lose weight regained two-thirds of their original weight loss one year (52 weeks) after discontinuing use of the drug. After two years (120 weeks), the patients retained roughly one-third of their original weight loss (5.6% of the original 17.3% loss).\n\nIn July 2023, the Icelandic Medicines Agency reported two cases of suicidal thoughts and one case of self-injury of users of the injection, prompting a safety assessment of Ozempic, Wegovy, Saxenda, and similar drugs. In January 2024, a preliminary review conducted by the US Food and Drug Administration (FDA) confirmed no evidence had been found to suggest that the medicine causes suicidal thoughts or actions.\n\nIn June 2025, the European Medicines Agency recommended that the product information for semaglutide medicines be updated to include non-arteritic anterior ischemic optic neuropathy (NAION) as a very rare side effect, while the World Health Organization concluded that the risk management plan for semaglutide should be revised to include NAION as a potential risk.\n\nA 2025 observational study reported a modest increased risk of a serious eye condition in people with diabetes taking glucagon-like peptide-1 (GLP-1) receptor agonists. The analysis found that individuals using the medications had a slightly higher incidence of neovascular age-related macular degeneration compared to similar individuals not on the medications.\n\nIn the STEP-HFpEF trial including people with obesity and heart failure with preserved ejection fraction, weight loss was associated with improvements in heart failure symptoms and functional capacity. An observational study on people with obesity and type 2diabetes and heart failure with preserved ejection fraction, semaglutide had about a 42% lower risk of hospitalization for heart failure and all-cause death combined compared with sitagliptin.\n\nAn analysis of events in the US FDA Adverse Event Reporting System suggests an association between several GLP-1 agonists (including semaglutide) and cutaneous reactions, such as dermal hypersensitivity reactions, eosinophilic panniculitis, bullous pemphigoid, and morbilliform drug eruptions.",
       "citations": [
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Impact of semaglutide on biochemical and radiologic measures of metabolic-dysfunction associated fatty liver disease across the spectrum of glycaemia: A meta-analysis, (June 2022)"
+          "text": "Impact of semaglutide on biochemical and radiologic measures of metabolic-dysfunction associated fatty liver disease across the spectrum of glycaemia: A meta-analysis, (June 2022)",
+          "url": "https://doi.org/10.1016/j.dsx.2022.102539"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Semaglutide and cancer: A systematic review and meta-analysis, (September 2023)"
+          "text": "Semaglutide and cancer: A systematic review and meta-analysis, (September 2023)",
+          "url": "https://doi.org/10.1016/j.dsx.2023.102834"
         },
         {
           "id": "cite-2",
@@ -1030,7 +1057,8 @@
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension, (August 2022)"
+          "text": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: The STEP 1 trial extension, (August 2022)",
+          "url": "https://doi.org/10.1111/dom.14725"
         },
         {
           "id": "cite-5",
@@ -1077,17 +1105,20 @@
         {
           "id": "cite-12",
           "index": 12,
-          "text": "Glucagon-Like Peptide-1 Receptor Agonists and Risk of Neovascular Age-Related Macular Degeneration, (June 2025)"
+          "text": "Glucagon-Like Peptide-1 Receptor Agonists and Risk of Neovascular Age-Related Macular Degeneration, (June 2025)",
+          "url": "https://doi.org/10.1001/jamaophthalmol.2025.1455"
         },
         {
           "id": "cite-13",
           "index": 13,
-          "text": "Semaglutide versus placebo in people with obesity-related heart failure with preserved ejection fraction: a pooled analysis of the STEP-HFpEF and STEP-HFpEF DM randomised trials, (April 2024)"
+          "text": "Semaglutide versus placebo in people with obesity-related heart failure with preserved ejection fraction: a pooled analysis of the STEP-HFpEF and STEP-HFpEF DM randomised trials, (April 2024)",
+          "url": "https://doi.org/10.1016/S0140-6736(24)00469-0"
         },
         {
           "id": "cite-14",
           "index": 14,
-          "text": "Semaglutide and Tirzepatide in Patients With Heart Failure With Preserved Ejection Fraction, (August 2025)"
+          "text": "Semaglutide and Tirzepatide in Patients With Heart Failure With Preserved Ejection Fraction, (August 2025)",
+          "url": "https://doi.org/10.1001/jama.2025.14092"
         },
         {
           "id": "cite-15",
@@ -1112,7 +1143,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "A systematic review of the effect of semaglutide on lean mass: insights from clinical trials, (April 2024)"
+          "text": "A systematic review of the effect of semaglutide on lean mass: insights from clinical trials, (April 2024)",
+          "url": "https://doi.org/10.1080/14656566.2024.2343092"
         }
       ]
     }

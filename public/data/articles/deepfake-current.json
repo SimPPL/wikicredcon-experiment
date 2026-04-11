@@ -1,8 +1,8 @@
 {
   "id": "deepfake",
   "title": "Deepfake",
-  "revisionDate": "2026-04-05",
-  "revisionId": "1345341427",
+  "revisionDate": "2026-04-11",
+  "revisionId": "1348054520",
   "sections": [
     {
       "id": "deepfake-lead",
@@ -25,12 +25,14 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Berry, Synthetic media and computational capitalism: towards a critical theory of artificial intelligence, (19 March 2025)"
+          "text": "Berry, Synthetic media and computational capitalism: towards a critical theory of artificial intelligence, (19 March 2025)",
+          "url": "https://doi.org/10.1007/s00146-025-02265-2"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Juefei-Xu, Countering Malicious DeepFakes: Survey, Battleground, and Horizon, (1 July 2022)"
+          "text": "Juefei-Xu, Countering Malicious DeepFakes: Survey, Battleground, and Horizon, (1 July 2022)",
+          "url": "https://doi.org/10.1007/s11263-022-01606-8"
         },
         {
           "id": "cite-4",
@@ -95,7 +97,7 @@
           "id": "cite-14",
           "index": 14,
           "text": "Caramancion, 2021 IEEE International IOT, Electronics and Mechatronics Conference (IEMTRONICS), (21 April 2021)",
-          "url": "http://dx.doi.org/10.1109/iemtronics52119.2021.9422597"
+          "url": "https://doi.org/10.1109/iemtronics52119.2021.9422597"
         },
         {
           "id": "cite-15",
@@ -146,27 +148,32 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Vatreš, Deepfake Phenomenon: An advanced form of fake news and its implications on reliable journalism, (2021)"
+          "text": "Vatreš, Deepfake Phenomenon: An advanced form of fake news and its implications on reliable journalism, (2021)",
+          "url": "https://doi.org/10.51558/2490-3647.2021.6.3.561"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Rana, Deepfake Detection: A Systematic Literature Review, (2022)"
+          "text": "Rana, Deepfake Detection: A Systematic Literature Review, (2022)",
+          "url": "https://doi.org/10.1109/ACCESS.2022.3154404"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Sudarsan, 2024 20th IEEE International Colloquium on Signal Processing & Its Applications (CSPA), (1 March 2024)"
+          "text": "Sudarsan, 2024 20th IEEE International Colloquium on Signal Processing & Its Applications (CSPA), (1 March 2024)",
+          "url": "https://doi.org/10.1109/CSPA60979.2024.10525373"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Sudarsan, 2024 20th IEEE International Colloquium on Signal Processing & Its Applications (CSPA), (1 March 2024)"
+          "text": "Sudarsan, 2024 20th IEEE International Colloquium on Signal Processing & Its Applications (CSPA), (1 March 2024)",
+          "url": "https://doi.org/10.1109/CSPA60979.2024.10525373"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Sudarsan, 2024 20th IEEE International Colloquium on Signal Processing & Its Applications (CSPA), (1 March 2024)"
+          "text": "Sudarsan, 2024 20th IEEE International Colloquium on Signal Processing & Its Applications (CSPA), (1 March 2024)",
+          "url": "https://doi.org/10.1109/CSPA60979.2024.10525373"
         }
       ]
     },
@@ -179,7 +186,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Bode, The Digital Face and Deepfakes on Screen, (29 July 2021)"
+          "text": "Bode, The Digital Face and Deepfakes on Screen, (29 July 2021)",
+          "url": "https://doi.org/10.1177/13548565211034044"
         },
         {
           "id": "cite-1",
@@ -190,12 +198,14 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Holliday, Rewriting the stars: Surface tensions and gender troubles in the online media production of digital deepfakes, (26 July 2021)"
+          "text": "Holliday, Rewriting the stars: Surface tensions and gender troubles in the online media production of digital deepfakes, (26 July 2021)",
+          "url": "https://doi.org/10.1177/13548565211029412"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Gingrich, GENDER*UCK: Reframing gender & media art, (5 July 2021)"
+          "text": "Gingrich, GENDER*UCK: Reframing gender & media art, (5 July 2021)",
+          "url": "https://doi.org/10.14236/ewic/EVA2021.25"
         },
         {
           "id": "cite-4",
@@ -221,7 +231,7 @@
           "id": "cite-0",
           "index": 0,
           "text": "Bregler, Proceedings of the 24th annual conference on Computer graphics and interactive techniques – SIGGRAPH '97, (1997)",
-          "url": "https://dl.acm.org/doi/10.1145/258734.258880"
+          "url": "https://doi.org/10.1145/258734.258880"
         },
         {
           "id": "cite-1",
@@ -232,7 +242,8 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Thies, 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), (June 2016)"
+          "text": "Thies, 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), (June 2016)",
+          "url": "https://doi.org/10.1109/CVPR.2016.262"
         },
         {
           "id": "cite-3",
@@ -249,7 +260,8 @@
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Mirsky, The Creation and Detection of Deepfakes: A Survey, (12 May 2020)"
+          "text": "Mirsky, The Creation and Detection of Deepfakes: A Survey, (12 May 2020)",
+          "url": "https://doi.org/10.1145/3425780"
         },
         {
           "id": "cite-6",
@@ -280,12 +292,14 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Lyu, 2020 IEEE International Conference on Multimedia & Expo Workshops (ICMEW), (July 2020)"
+          "text": "Lyu, 2020 IEEE International Conference on Multimedia & Expo Workshops (ICMEW), (July 2020)",
+          "url": "https://doi.org/10.1109/ICMEW46912.2020.9105991"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Masood, Deepfakes generation and detection: state-of-the-art, open challenges, countermeasures, and way forward, (February 2023)"
+          "text": "Masood, Deepfakes generation and detection: state-of-the-art, open challenges, countermeasures, and way forward, (February 2023)",
+          "url": "https://doi.org/10.1007/s10489-022-03766-z"
         },
         {
           "id": "cite-4",
@@ -1047,7 +1061,8 @@
         {
           "id": "cite-12",
           "index": 12,
-          "text": "Paris, Configuring Fakes: Digitized Bodies, the Politics of Evidence, and Agency, (October 2021)"
+          "text": "Paris, Configuring Fakes: Digitized Bodies, the Politics of Evidence, and Agency, (October 2021)",
+          "url": "https://doi.org/10.1177/20563051211062919"
         }
       ]
     },
@@ -1138,12 +1153,14 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Vaccari, Deepfakes and Disinformation: Exploring the Impact of Synthetic Political Video on Deception, Uncertainty, and Trust in News, (January 2020)"
+          "text": "Vaccari, Deepfakes and Disinformation: Exploring the Impact of Synthetic Political Video on Deception, Uncertainty, and Trust in News, (January 2020)",
+          "url": "https://doi.org/10.1177/2056305120903408"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Pawelec, Deepfakes and Democracy (Theory): How Synthetic Audio-Visual Media for Disinformation and Hate Speech Threaten Core Democratic Functions., (2022)"
+          "text": "Pawelec, Deepfakes and Democracy (Theory): How Synthetic Audio-Visual Media for Disinformation and Hate Speech Threaten Core Democratic Functions., (2022)",
+          "url": "https://doi.org/10.1007/s44206-022-00010-6"
         },
         {
           "id": "cite-2",
@@ -1177,12 +1194,25 @@
       "id": "audio",
       "title": "Audio",
       "level": 4,
-      "content": "Detecting fake audio is a highly complex task that requires careful attention to the audio signal in order to achieve good performance. Using deep learning, preprocessing of feature design and masking augmentation have been proven effective in improving performance.",
+      "content": "Detecting fake audio is a challenging task that requires careful analysis of the underlying signal to achieve reliable performance. Deep learning approaches have shown that feature design and masking-based augmentation contribute to improved detection.\nMore recently, approaches that integrate trainable feature extractors with strong and diverse audio augmentation strategies have demonstrated improved performance by enabling the model to learn representations that more effectively capture manipulation artifacts.\n\nPartial deepfake audio detection, in which only a limited portion of the signal is manipulated, has emerged as a significant challenge in the field. This setting introduces additional complexity beyond conventional detection tasks, as it requires not only identifying the presence of spoofing but also accurately localizing the manipulated regions. Moreover, the need to detect short and often subtle spoofed segments within predominantly genuine audio further increases the difficulty of the problem.",
       "citations": [
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Cohen, A study on data augmentation in voice anti-spoofing, (June 2022)"
+          "text": "Cohen, A study on data augmentation in voice anti-spoofing, (June 2022)",
+          "url": "https://doi.org/10.1016/j.specom.2022.04.005"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Rimon, Unmasking Deepfakes: Leveraging Augmentations and Features Variability for Deepfake Speech Detection, (2025)",
+          "url": "https://arxiv.org/abs/2501.05545"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Rimon, Split and Conquer Partial Deepfake Speech, (2026)",
+          "url": "https://arxiv.org/abs/2604.02913"
         }
       ]
     },
@@ -1201,7 +1231,8 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Farid, Digital Doctoring: How to Tell the Real from the Fake, (1 December 2006)"
+          "text": "Farid, Digital Doctoring: How to Tell the Real from the Fake, (1 December 2006)",
+          "url": "https://doi.org/10.1111/j.1740-9713.2006.00197.x"
         },
         {
           "id": "cite-2",
@@ -1218,7 +1249,8 @@
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Groh, Deepfake detection by human crowds, machines, and machine-informed crowds, (2022)"
+          "text": "Groh, Deepfake detection by human crowds, machines, and machine-informed crowds, (2022)",
+          "url": "https://doi.org/10.1073/pnas.2110013119"
         },
         {
           "id": "cite-5",
@@ -1267,7 +1299,8 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Romero-Moreno, Deepfake detection in generative AI: A legal framework proposal to protect human rights, (23 June 2025)"
+          "text": "Romero-Moreno, Deepfake detection in generative AI: A legal framework proposal to protect human rights, (23 June 2025)",
+          "url": "https://doi.org/10.1016/j.clsr.2025.106162"
         }
       ]
     },
@@ -1287,12 +1320,14 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Karnouskos, Artificial Intelligence in Digital Media: The Era of Deepfakes, (September 2020)"
+          "text": "Karnouskos, Artificial Intelligence in Digital Media: The Era of Deepfakes, (September 2020)",
+          "url": "https://doi.org/10.1109/TTS.2020.3001312"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Turós, Fake video detection among secondary school students: The impact of sociocultural, media literacy and media use factors, (September 2024)"
+          "text": "Turós, Fake video detection among secondary school students: The impact of sociocultural, media literacy and media use factors, (September 2024)",
+          "url": "https://doi.org/10.1016/j.teler.2024.100160"
         },
         {
           "id": "cite-2",
@@ -1331,7 +1366,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Hameleers, They Would Never Say Anything Like This! Reasons To Doubt Political Deepfakes, (February 2024)"
+          "text": "Hameleers, They Would Never Say Anything Like This! Reasons To Doubt Political Deepfakes, (February 2024)",
+          "url": "https://doi.org/10.1177/02673231231184703"
         },
         {
           "id": "cite-1",
@@ -1342,7 +1378,8 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Dobber, Do (Microtargeted) Deepfakes Have Real Effects on Political Attitudes?, (January 2021)"
+          "text": "Dobber, Do (Microtargeted) Deepfakes Have Real Effects on Political Attitudes?, (January 2021)",
+          "url": "https://doi.org/10.1177/1940161220944364"
         },
         {
           "id": "cite-3",

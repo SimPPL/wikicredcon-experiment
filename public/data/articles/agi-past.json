@@ -13,12 +13,14 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Goertzel, Artificial General Intelligence: Concept, State of the Art, and Future Prospects, (2014)"
+          "text": "Goertzel, Artificial General Intelligence: Concept, State of the Art, and Future Prospects, (2014)",
+          "url": "https://doi.org/10.2478/jagi-2014-0001"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Lake, Building machines that learn and think like people, (2017)"
+          "text": "Lake, Building machines that learn and think like people, (2017)",
+          "url": "https://doi.org/10.1017/S0140525X16001837"
         },
         {
           "id": "cite-2",
@@ -86,12 +88,14 @@
         {
           "id": "cite-13",
           "index": 13,
-          "text": "Butler, Parable of the Sower, (1993)"
+          "text": "Butler, Parable of the Sower, (1993)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9780446675505"
         },
         {
           "id": "cite-14",
           "index": 14,
-          "text": "Vinge, A Fire Upon the Deep, (1992)"
+          "text": "Vinge, A Fire Upon the Deep, (1992)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9780812515282"
         },
         {
           "id": "cite-15",
@@ -108,7 +112,8 @@
         {
           "id": "cite-17",
           "index": 17,
-          "text": "Bostrom, Superintelligence: Paths, Dangers, Strategies, (2014)"
+          "text": "Bostrom, Superintelligence: Paths, Dangers, Strategies, (2014)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9780199678112"
         },
         {
           "id": "cite-18",
@@ -230,7 +235,8 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Van Eyghen, AI Algorithms as (Un)virtuous Knowers, (2025)"
+          "text": "Van Eyghen, AI Algorithms as (Un)virtuous Knowers, (2025)",
+          "url": "https://doi.org/10.1007/s44163-024-00219-z"
         }
       ]
     },
@@ -248,7 +254,8 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "White, Motivation reconsidered: The concept of competence, (1959)"
+          "text": "White, Motivation reconsidered: The concept of competence, (1959)",
+          "url": "https://doi.org/10.1037/h0040934"
         },
         {
           "id": "cite-2",
@@ -285,7 +292,8 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Turing, Can Automatic Calculating Machines Be Said To Think? (1957), (2004)"
+          "text": "Turing, Can Automatic Calculating Machines Be Said To Think? (1957), (2004)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9780198250791"
         },
         {
           "id": "cite-4",
@@ -500,7 +508,8 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Harnad, The Symbol Grounding Problem, (1990)"
+          "text": "Harnad, The Symbol Grounding Problem, (1990)",
+          "url": "https://doi.org/10.1016/0167-2789(90)90087-6"
         }
       ]
     },
@@ -565,7 +574,8 @@
         {
           "id": "cite-9",
           "index": 9,
-          "text": "Shevlin, The limits of machine intelligence: Despite progress in machine intelligence, artificial general intelligence is still a major challenge, (2019-10-04)"
+          "text": "Shevlin, The limits of machine intelligence: Despite progress in machine intelligence, artificial general intelligence is still a major challenge, (2019-10-04)",
+          "url": "https://doi.org/10.15252/embr.201949177"
         }
       ]
     },
@@ -596,12 +606,14 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Deane, Machines That Feel and Think: The Role of Affective Feelings and Mental Action in (Artificial) General Intelligence, (2022)"
+          "text": "Deane, Machines That Feel and Think: The Role of Affective Feelings and Mental Action in (Artificial) General Intelligence, (2022)",
+          "url": "https://doi.org/10.1162/artl_a_00368"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Fjelland, Why general artificial intelligence will not be realized, (2020-06-17)"
+          "text": "Fjelland, Why general artificial intelligence will not be realized, (2020-06-17)",
+          "url": "https://doi.org/10.1057/s41599-020-0494-4"
         },
         {
           "id": "cite-5",
@@ -634,7 +646,8 @@
         {
           "id": "cite-10",
           "index": 10,
-          "text": "Guzik, The originality of machines: AI takes the Torrance Test, (2023-12-01)"
+          "text": "Guzik, The originality of machines: AI takes the Torrance Test, (2023-12-01)",
+          "url": "https://doi.org/10.1016/j.yjoc.2023.100065"
         },
         {
           "id": "cite-11",
@@ -725,7 +738,8 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "James, The Why, What, and How of Artificial General Intelligence Chip Development, (2022)"
+          "text": "James, The Why, What, and How of Artificial General Intelligence Chip Development, (2022)",
+          "url": "https://doi.org/10.1109/TCDS.2021.3069871"
         },
         {
           "id": "cite-3",
@@ -736,7 +750,8 @@
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Pandey, The transformational role of GPU computing and deep learning in drug discovery, (March 2022)"
+          "text": "Pandey, The transformational role of GPU computing and deep learning in drug discovery, (March 2022)",
+          "url": "https://doi.org/10.1038/s42256-022-00463-x"
         },
         {
           "id": "cite-5",
@@ -752,12 +767,14 @@
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Butz, Towards Strong AI, (2021-03-01)"
+          "text": "Butz, Towards Strong AI, (2021-03-01)",
+          "url": "https://doi.org/10.1007/s13218-021-00705-x"
         },
         {
           "id": "cite-8",
           "index": 8,
-          "text": "Liu, Intelligence Quotient and Intelligence Grade of Artificial Intelligence, (2017)"
+          "text": "Liu, Intelligence Quotient and Intelligence Grade of Artificial Intelligence, (2017)",
+          "url": "https://doi.org/10.1007/s40745-017-0109-0"
         },
         {
           "id": "cite-9",
@@ -988,7 +1005,8 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Bostrom, Superintelligence: paths, dangers, strategies, (2017)"
+          "text": "Bostrom, Superintelligence: paths, dangers, strategies, (2017)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9780199678112"
         },
         {
           "id": "cite-4",
@@ -1013,17 +1031,20 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Topol, Deep medicine: how artificial intelligence can make healthcare human again, (2019)"
+          "text": "Topol, Deep medicine: how artificial intelligence can make healthcare human again, (2019)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9781541644632"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Jumper, Highly accurate protein structure prediction with AlphaFold, (August 2021)"
+          "text": "Jumper, Highly accurate protein structure prediction with AlphaFold, (August 2021)",
+          "url": "https://doi.org/10.1038/s41586-021-03819-2"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Alowais, Revolutionizing healthcare: the role of artificial intelligence in clinical practice, (2023-09-22)"
+          "text": "Alowais, Revolutionizing healthcare: the role of artificial intelligence in clinical practice, (2023-09-22)",
+          "url": "https://doi.org/10.1186/s12909-023-04698-z"
         }
       ]
     },
@@ -1036,12 +1057,14 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Tegmark, Life 3.0: being human in the age of artificial intelligence, (2017)"
+          "text": "Tegmark, Life 3.0: being human in the age of artificial intelligence, (2017)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9781101946596"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Brynjolfsson, The second machine age: work, progress, and prosperity in a time of brilliant technologies, (2016)"
+          "text": "Brynjolfsson, The second machine age: work, progress, and prosperity in a time of brilliant technologies, (2016)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9780393350647"
         }
       ]
     },
@@ -1054,12 +1077,14 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Zhai, A Review of Artificial Intelligence (AI) in Education from 2010 to 2020, (2021)"
+          "text": "Zhai, A Review of Artificial Intelligence (AI) in Education from 2010 to 2020, (2021)",
+          "url": "https://doi.org/10.1155/2021/8812542"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Bostrom, Superintelligence: paths, dangers, strategies, (2017)"
+          "text": "Bostrom, Superintelligence: paths, dangers, strategies, (2017)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9780198739838"
         }
       ]
     },
@@ -1072,7 +1097,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Crawford, Atlas of AI: power, politics, and the planetary costs of artificial intelligence, (2021)"
+          "text": "Crawford, Atlas of AI: power, politics, and the planetary costs of artificial intelligence, (2021)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9780300209570"
         }
       ]
     },
@@ -1123,12 +1149,14 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "MacAskill, What we owe the future, (2022)"
+          "text": "MacAskill, What we owe the future, (2022)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9781541618626"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Ord, The Precipice: Existential Risk and the Future of Humanity, (2020)"
+          "text": "Ord, The Precipice: Existential Risk and the Future of Humanity, (2020)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9781526600219"
         },
         {
           "id": "cite-3",
@@ -1189,12 +1217,14 @@
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Sotala, Responses to catastrophic AGI risk: a survey, (2014-12-19)"
+          "text": "Sotala, Responses to catastrophic AGI risk: a survey, (2014-12-19)",
+          "url": "https://doi.org/10.1088/0031-8949/90/1/018001"
         },
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Bostrom, Superintelligence: Paths, Dangers, Strategies, (2014)"
+          "text": "Bostrom, Superintelligence: Paths, Dangers, Strategies, (2014)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9780199678112"
         },
         {
           "id": "cite-7",

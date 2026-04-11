@@ -1,8 +1,8 @@
 {
   "id": "pfas",
   "title": "PFAS",
-  "revisionDate": "2026-04-05",
-  "revisionId": "1346537962",
+  "revisionDate": "2026-04-11",
+  "revisionId": "1347337913",
   "sections": [
     {
       "id": "pfas-lead",
@@ -19,7 +19,8 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Schymanski, Per- and Polyfluoroalkyl Substances (PFAS) in PubChem: 7 Million and Growing, (23 October 2023)"
+          "text": "Schymanski, Per- and Polyfluoroalkyl Substances (PFAS) in PubChem: 7 Million and Growing, (23 October 2023)",
+          "url": "https://doi.org/10.1021/acs.est.3c04855"
         },
         {
           "id": "cite-2",
@@ -54,7 +55,8 @@
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Leveraging Systematic Reviews to Explore Disease Burden and Costs of Per- and Polyfluoroalkyl Substance Exposures in the United States, (July 26, 2022)"
+          "text": "Leveraging Systematic Reviews to Explore Disease Burden and Costs of Per- and Polyfluoroalkyl Substance Exposures in the United States, (July 26, 2022)",
+          "url": "https://doi.org/10.1007/s12403-022-00496-y"
         },
         {
           "id": "cite-8",
@@ -85,22 +87,26 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Gaines, A proposed approach to defining per- and polyfluoroalkyl substances (PFAS) based on molecular structure and formula, (2023)"
+          "text": "Gaines, A proposed approach to defining per- and polyfluoroalkyl substances (PFAS) based on molecular structure and formula, (2023)",
+          "url": "https://doi.org/10.1002/ieam.4735"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Perfluoroalkyl and polyfluoroalkyl substances in the environment: terminology, classification, and origins, (October 2011)"
+          "text": "Perfluoroalkyl and polyfluoroalkyl substances in the environment: terminology, classification, and origins, (October 2011)",
+          "url": "https://doi.org/10.1002/ieam.258"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Reconciling Terminology of the Universe of Per- and Polyfluoroalkyl Substances: Recommendations and Practical Guidance, (2021)"
+          "text": "Reconciling Terminology of the Universe of Per- and Polyfluoroalkyl Substances: Recommendations and Practical Guidance, (2021)",
+          "url": "https://doi.org/10.1787/e458e796-en"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "A New OECD Definition for Per- and Polyfluoroalkyl Substances, (December 2021)"
+          "text": "A New OECD Definition for Per- and Polyfluoroalkyl Substances, (December 2021)",
+          "url": "https://doi.org/10.1021/acs.est.1c06896"
         },
         {
           "id": "cite-5",
@@ -110,7 +116,8 @@
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Hammel, Implications of PFAS definitions using fluorinated pharmaceuticals, (April 2022)"
+          "text": "Hammel, Implications of PFAS definitions using fluorinated pharmaceuticals, (April 2022)",
+          "url": "https://doi.org/10.1016/j.isci.2022.104020"
         }
       ]
     },
@@ -143,7 +150,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "The long and the short of perfluorinated replacements, (January 2006)"
+          "text": "The long and the short of perfluorinated replacements, (January 2006)",
+          "url": "https://doi.org/10.1021/es062612a"
         },
         {
           "id": "cite-1",
@@ -172,17 +180,20 @@
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Fluorinated Compounds in North American Cosmetics, (15 June 2021)"
+          "text": "Fluorinated Compounds in North American Cosmetics, (15 June 2021)",
+          "url": "https://doi.org/10.1021/acs.estlett.1c00240"
         },
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Arp, The Global Threat from the Irreversible Accumulation of Trifluoroacetic Acid (TFA), (12 November 2024)"
+          "text": "Arp, The Global Threat from the Irreversible Accumulation of Trifluoroacetic Acid (TFA), (12 November 2024)",
+          "url": "https://doi.org/10.1021/acs.est.4c06189"
         },
         {
           "id": "cite-7",
           "index": 7,
-          "text": "European Food Safety Authority, Peer review of the pesticide risk assessment of the active substance flufenacet, (September 2024)"
+          "text": "European Food Safety Authority, Peer review of the pesticide risk assessment of the active substance flufenacet, (September 2024)",
+          "url": "https://doi.org/10.2903/j.efsa.2024.8997"
         },
         {
           "id": "cite-8",
@@ -201,7 +212,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Kovalchuk, Fluoro- vs hydrocarbon surfactants: why do they differ in wetting performance?, (August 2014)"
+          "text": "Kovalchuk, Fluoro- vs hydrocarbon surfactants: why do they differ in wetting performance?, (August 2014)",
+          "url": "https://doi.org/10.1016/j.cis.2014.04.003"
         },
         {
           "id": "cite-1",
@@ -218,12 +230,14 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Polyfluoroalkyl chemicals in the U.S. population: data from the National Health and Nutrition Examination Survey (NHANES) 2003-2004 and comparisons with NHANES 1999-2000, (November 2007)"
+          "text": "Polyfluoroalkyl chemicals in the U.S. population: data from the National Health and Nutrition Examination Survey (NHANES) 2003-2004 and comparisons with NHANES 1999-2000, (November 2007)",
+          "url": "https://doi.org/10.1289/ehp.10598"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Comparative assessment of the environmental hazards of and exposure to perfluoroalkyl phosphonic and phosphinic acids (PFPAs and PFPiAs): Current knowledge, gaps, challenges and research needs, (2016)"
+          "text": "Comparative assessment of the environmental hazards of and exposure to perfluoroalkyl phosphonic and phosphinic acids (PFPAs and PFPiAs): Current knowledge, gaps, challenges and research needs, (2016)",
+          "url": "https://doi.org/10.1016/j.envint.2016.01.023"
         }
       ]
     },
@@ -256,12 +270,14 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Outside the Safe Operating Space of a New Planetary Boundary for Per- and Polyfluoroalkyl Substances (PFAS), (August 2022)"
+          "text": "Outside the Safe Operating Space of a New Planetary Boundary for Per- and Polyfluoroalkyl Substances (PFAS), (August 2022)",
+          "url": "https://doi.org/10.1021/acs.est.2c02765"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Arp, The Global Threat from the Irreversible Accumulation of Trifluoroacetic Acid (TFA), (2024-11-12)"
+          "text": "Arp, The Global Threat from the Irreversible Accumulation of Trifluoroacetic Acid (TFA), (2024-11-12)",
+          "url": "https://doi.org/10.1021/acs.est.4c06189"
         },
         {
           "id": "cite-2",
@@ -278,12 +294,14 @@
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Sea Spray Aerosol (SSA) as a Source of Perfluoroalkyl Acids (PFAAs) to the Atmosphere: Field Evidence from Long-Term Air Monitoring, (January 2022)"
+          "text": "Sea Spray Aerosol (SSA) as a Source of Perfluoroalkyl Acids (PFAAs) to the Atmosphere: Field Evidence from Long-Term Air Monitoring, (January 2022)",
+          "url": "https://doi.org/10.1021/acs.est.1c04277"
         },
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Sha, Constraining global transport of perfluoroalkyl acids on sea spray aerosol using field measurements, (2024)"
+          "text": "Sha, Constraining global transport of perfluoroalkyl acids on sea spray aerosol using field measurements, (2024)",
+          "url": "https://doi.org/10.1126/sciadv.adl1026"
         },
         {
           "id": "cite-6",
@@ -300,7 +318,8 @@
         {
           "id": "cite-8",
           "index": 8,
-          "text": "Wang, Association of diet with per- and polyfluoroalkyl substances in plasma and human milk in the New Hampshire Birth Cohort Study, (July 2024)"
+          "text": "Wang, Association of diet with per- and polyfluoroalkyl substances in plasma and human milk in the New Hampshire Birth Cohort Study, (July 2024)",
+          "url": "https://doi.org/10.1016/j.scitotenv.2024.173157"
         },
         {
           "id": "cite-9",
@@ -317,12 +336,14 @@
         {
           "id": "cite-11",
           "index": 11,
-          "text": "Adewuyi, Emergency of per- and polyfluoroalkyl substances in drinking water: Status, regulation, and mitigation strategies in developing countries, (2024-09-01)"
+          "text": "Adewuyi, Emergency of per- and polyfluoroalkyl substances in drinking water: Status, regulation, and mitigation strategies in developing countries, (2024-09-01)",
+          "url": "https://doi.org/10.1016/j.eehl.2024.05.008"
         },
         {
           "id": "cite-12",
           "index": 12,
-          "text": "Aborode, Challenges Associated With PFAS Detection Method in Africa, (2025)"
+          "text": "Aborode, Challenges Associated With PFAS Detection Method in Africa, (2025)",
+          "url": "https://doi.org/10.1177/11786302241310430"
         }
       ]
     },
@@ -347,12 +368,14 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Bioconcentration and tissue distribution of perfluorinated acids in rainbow trout (''Oncorhynchus mykiss''), (January 2003)"
+          "text": "Bioconcentration and tissue distribution of perfluorinated acids in rainbow trout (''Oncorhynchus mykiss''), (January 2003)",
+          "url": "https://doi.org/10.1002/etc.5620220126"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Ricolfi, Unravelling the magnitude and drivers of PFAS trophic magnification: a meta-analysis, (2025-11-28)"
+          "text": "Ricolfi, Unravelling the magnitude and drivers of PFAS trophic magnification: a meta-analysis, (2025-11-28)",
+          "url": "https://doi.org/10.1038/s41467-025-65746-4"
         },
         {
           "id": "cite-4",
@@ -363,22 +386,26 @@
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Locally caught freshwater fish across the United States are likely a significant source of exposure to PFOS and other perfluorinated compounds, (March 2023)"
+          "text": "Locally caught freshwater fish across the United States are likely a significant source of exposure to PFOS and other perfluorinated compounds, (March 2023)",
+          "url": "https://doi.org/10.1016/j.envres.2022.115165"
         },
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Origin and organ-specific bioaccumulation pattern of perfluorinated alkyl substances in crabs, (June 2020)"
+          "text": "Origin and organ-specific bioaccumulation pattern of perfluorinated alkyl substances in crabs, (June 2020)",
+          "url": "https://doi.org/10.1016/j.envpol.2020.114185"
         },
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Perfluoroalkyl substances (PFASs) in edible fish species from Charleston Harbor and tributaries, South Carolina, United States: Exposure and risk assessment, (April 2019)"
+          "text": "Perfluoroalkyl substances (PFASs) in edible fish species from Charleston Harbor and tributaries, South Carolina, United States: Exposure and risk assessment, (April 2019)",
+          "url": "https://doi.org/10.1016/j.envres.2019.01.021"
         },
         {
           "id": "cite-8",
           "index": 8,
-          "text": "PFAS accumulation in indigenous and translocated aquatic organisms from Belgium, with translation to human and ecological health risk, (March 29, 2021)"
+          "text": "PFAS accumulation in indigenous and translocated aquatic organisms from Belgium, with translation to human and ecological health risk, (March 29, 2021)",
+          "url": "https://doi.org/10.1186/s12302-021-00477-z"
         },
         {
           "id": "cite-9",
@@ -401,22 +428,26 @@
         {
           "id": "cite-12",
           "index": 12,
-          "text": "Hazard assessment of fluorinated alternatives to long-chain perfluoroalkyl acids (PFAAs) and their precursors: status quo, ongoing challenges and possible solutions, (February 2015)"
+          "text": "Hazard assessment of fluorinated alternatives to long-chain perfluoroalkyl acids (PFAAs) and their precursors: status quo, ongoing challenges and possible solutions, (February 2015)",
+          "url": "https://doi.org/10.1016/j.envint.2014.11.013"
         },
         {
           "id": "cite-13",
           "index": 13,
-          "text": "Alternatives to PFASs: perspectives on the science, (May 2015)"
+          "text": "Alternatives to PFASs: perspectives on the science, (May 2015)",
+          "url": "https://doi.org/10.1289/ehp.1509944"
         },
         {
           "id": "cite-14",
           "index": 14,
-          "text": "The Current Epidemiologic Evidence on Exposures to Poly- and Perfluoroalkyl Substances (PFASs) and Male Reproductive Health, (2016)"
+          "text": "The Current Epidemiologic Evidence on Exposures to Poly- and Perfluoroalkyl Substances (PFASs) and Male Reproductive Health, (2016)",
+          "url": "https://doi.org/10.1007/s40471-016-0071-y"
         },
         {
           "id": "cite-15",
           "index": 15,
-          "text": "Helsingør statement on poly- and perfluorinated alkyl substances (PFASs), (November 2014)"
+          "text": "Helsingør statement on poly- and perfluorinated alkyl substances (PFASs), (November 2014)",
+          "url": "https://doi.org/10.1016/j.chemosphere.2014.05.044"
         },
         {
           "id": "cite-16",
@@ -441,17 +472,20 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Preliminary Lists of PFOS, PFAS, PFOA and Related Compounds and Chemicals that May Degrade to PFCA, (October 25, 2006)"
+          "text": "Preliminary Lists of PFOS, PFAS, PFOA and Related Compounds and Chemicals that May Degrade to PFCA, (October 25, 2006)",
+          "url": "https://doi.org/10.1787/oecd_papers-v6-art38-en"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Health status of plant workers exposed to fluorochemicals—a preliminary report, (August 1980)"
+          "text": "Health status of plant workers exposed to fluorochemicals—a preliminary report, (August 1980)",
+          "url": "https://doi.org/10.1080/15298668091425310"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Epidemiologic assessment of worker serum perfluorooctanesulfonate (PFOS) and perfluorooctanoate (PFOA) concentrations and medical surveillance examinations, (March 2003)"
+          "text": "Epidemiologic assessment of worker serum perfluorooctanesulfonate (PFOS) and perfluorooctanoate (PFOA) concentrations and medical surveillance examinations, (March 2003)",
+          "url": "https://doi.org/10.1097/01.jom.0000052958.59271.10"
         },
         {
           "id": "cite-4",
@@ -474,7 +508,8 @@
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Analysis of PFOA in dosed CD-1 mice. Part 2. Disposition of PFOA in tissues and fluids from pregnant and lactating mice and their pups, (June 2009)"
+          "text": "Analysis of PFOA in dosed CD-1 mice. Part 2. Disposition of PFOA in tissues and fluids from pregnant and lactating mice and their pups, (June 2009)",
+          "url": "https://doi.org/10.1016/j.reprotox.2009.02.012"
         },
         {
           "id": "cite-8",
@@ -485,7 +520,8 @@
         {
           "id": "cite-9",
           "index": 9,
-          "text": "Predictors of PFOA levels in a community surrounding a chemical plant, (July 2009)"
+          "text": "Predictors of PFOA levels in a community surrounding a chemical plant, (July 2009)",
+          "url": "https://doi.org/10.1289/ehp.0800294"
         },
         {
           "id": "cite-10",
@@ -528,7 +564,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Considering environmental exposures to per- and polyfluoroalkyl substances (PFAS) as risk factors for hypertensive disorders of pregnancy, (June 2021)"
+          "text": "Considering environmental exposures to per- and polyfluoroalkyl substances (PFAS) as risk factors for hypertensive disorders of pregnancy, (June 2021)",
+          "url": "https://doi.org/10.1016/j.envres.2021.111113"
         },
         {
           "id": "cite-1",
@@ -539,7 +576,8 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Wang, Association of diet with per- and polyfluoroalkyl substances in plasma and human milk in the New Hampshire Birth Cohort Study, (July 2024)"
+          "text": "Wang, Association of diet with per- and polyfluoroalkyl substances in plasma and human milk in the New Hampshire Birth Cohort Study, (July 2024)",
+          "url": "https://doi.org/10.1016/j.scitotenv.2024.173157"
         },
         {
           "id": "cite-3",
@@ -591,7 +629,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Exposure to per- and Polyfluoroalkyl Substances and Markers of Liver Injury: A Systematic Review and Meta-Analysis, (April 2022)"
+          "text": "Exposure to per- and Polyfluoroalkyl Substances and Markers of Liver Injury: A Systematic Review and Meta-Analysis, (April 2022)",
+          "url": "https://doi.org/10.1289/EHP10092"
         }
       ]
     },
@@ -610,7 +649,8 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "PFAS and cancer, a scoping review of the epidemiologic evidence, (March 2021)"
+          "text": "PFAS and cancer, a scoping review of the epidemiologic evidence, (March 2021)",
+          "url": "https://doi.org/10.1016/j.envres.2020.110690"
         }
       ]
     },
@@ -623,7 +663,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Immunotoxicity of perfluorooctanoic acid and perfluorooctane sulfonate and the role of peroxisome proliferator-activated receptor alpha, (8 January 2009)"
+          "text": "Immunotoxicity of perfluorooctanoic acid and perfluorooctane sulfonate and the role of peroxisome proliferator-activated receptor alpha, (8 January 2009)",
+          "url": "https://doi.org/10.1080/10408440802209804"
         }
       ]
     },
@@ -636,12 +677,14 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Immunotoxicity of perfluorinated compounds: recent developments, (November 22, 2011)"
+          "text": "Immunotoxicity of perfluorinated compounds: recent developments, (November 22, 2011)",
+          "url": "https://doi.org/10.1177/0192623311428473"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Ulcerative colitis and perfluorooctanoic acid (PFOA) in a highly exposed population of community residents and workers in the mid-Ohio valley, (August 2013)"
+          "text": "Ulcerative colitis and perfluorooctanoic acid (PFOA) in a highly exposed population of community residents and workers in the mid-Ohio valley, (August 2013)",
+          "url": "https://doi.org/10.1289/ehp.1206449"
         }
       ]
     },
@@ -654,17 +697,20 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Perfluoroalkyl substances exposure and thyroid hormones in humans: epidemiological observations and implications, (March 2017)"
+          "text": "Perfluoroalkyl substances exposure and thyroid hormones in humans: epidemiological observations and implications, (March 2017)",
+          "url": "https://doi.org/10.6065/apem.2017.22.1.6"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Changes in thyroid peroxidase activity in response to various chemicals, (August 2012)"
+          "text": "Changes in thyroid peroxidase activity in response to various chemicals, (August 2012)",
+          "url": "https://doi.org/10.1039/c2em30106g"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Yu, Association between per- and polyfluoroalkyl substance exposures and thyroid homeostasis parameters., (18 November 2024)"
+          "text": "Yu, Association between per- and polyfluoroalkyl substance exposures and thyroid homeostasis parameters., (18 November 2024)",
+          "url": "https://doi.org/10.1210/clinem/dgae798"
         }
       ]
     },
@@ -713,7 +759,8 @@
         {
           "id": "cite-6",
           "index": 6,
-          "text": "DeWitt, Zürich II Statement on Per- and Polyfluoroalkyl Substances (PFASs): Scientific and Regulatory Needs, (April 22, 2024)"
+          "text": "DeWitt, Zürich II Statement on Per- and Polyfluoroalkyl Substances (PFASs): Scientific and Regulatory Needs, (April 22, 2024)",
+          "url": "https://doi.org/10.1021/acs.estlett.4c00147"
         },
         {
           "id": "cite-7",
@@ -738,7 +785,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "The Devil they Knew: Chemical Documents Analysis of Industry Influence on PFAS Science, (June 1, 2023)"
+          "text": "The Devil they Knew: Chemical Documents Analysis of Industry Influence on PFAS Science, (June 1, 2023)",
+          "url": "https://doi.org/10.5334/aogh.4013"
         },
         {
           "id": "cite-1",
@@ -805,7 +853,8 @@
         {
           "id": "cite-7",
           "index": 7,
-          "text": "The Madrid Statement on Poly- and Perfluoroalkyl Substances (PFASs), (May 2015)"
+          "text": "The Madrid Statement on Poly- and Perfluoroalkyl Substances (PFASs), (May 2015)",
+          "url": "https://doi.org/10.1289/ehp.1509934"
         },
         {
           "id": "cite-8",
@@ -866,17 +915,20 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "An overview of the uses of per- and polyfluoroalkyl substances (PFAS), (October 2020)"
+          "text": "An overview of the uses of per- and polyfluoroalkyl substances (PFAS), (October 2020)",
+          "url": "https://doi.org/10.1039/D0EM00291G"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "A time trend study of significantly elevated perfluorocarboxylate levels in humans after using fluorinated ski wax, (March 2010)"
+          "text": "A time trend study of significantly elevated perfluorocarboxylate levels in humans after using fluorinated ski wax, (March 2010)",
+          "url": "https://doi.org/10.1021/es9034733"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Exposure to Perfluoroalkyl Substances in a Cohort of Women Firefighters and Office Workers in San Francisco, (March 2020)"
+          "text": "Exposure to Perfluoroalkyl Substances in a Cohort of Women Firefighters and Office Workers in San Francisco, (March 2020)",
+          "url": "https://doi.org/10.1021/acs.est.9b05490"
         }
       ]
     },
@@ -889,17 +941,20 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Elevated levels of PFOS and PFHxS in firefighters exposed to aqueous film forming foam (AFFF), (September 2015)"
+          "text": "Elevated levels of PFOS and PFHxS in firefighters exposed to aqueous film forming foam (AFFF), (September 2015)",
+          "url": "https://doi.org/10.1016/j.envint.2015.05.005"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Perfluorinated compounds—exposure assessment for the general population in Western countries, (May 2009)"
+          "text": "Perfluorinated compounds—exposure assessment for the general population in Western countries, (May 2009)",
+          "url": "https://doi.org/10.1016/j.ijheh.2008.04.007"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Relationship between dietary exposure and serum perfluorochemical (PFC) levels—a case study, (May 2009)"
+          "text": "Relationship between dietary exposure and serum perfluorochemical (PFC) levels—a case study, (May 2009)",
+          "url": "https://doi.org/10.1016/j.envint.2009.01.010"
         },
         {
           "id": "cite-3",
@@ -918,12 +973,14 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Occupational exposure and serum levels of per- and polyfluoroalkyl substances (PFAS): A review, (May 2023)"
+          "text": "Occupational exposure and serum levels of per- and polyfluoroalkyl substances (PFAS): A review, (May 2023)",
+          "url": "https://doi.org/10.1002/ajim.23454"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Occupational exposures to airborne per- and polyfluoroalkyl substances (PFAS)-A review, (May 2023)"
+          "text": "Occupational exposures to airborne per- and polyfluoroalkyl substances (PFAS)-A review, (May 2023)",
+          "url": "https://doi.org/10.1002/ajim.23461"
         }
       ]
     },
@@ -936,42 +993,50 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Thirty years of medical surveillance in perfluooctanoic acid production workers, (March 2009)"
+          "text": "Thirty years of medical surveillance in perfluooctanoic acid production workers, (March 2009)",
+          "url": "https://doi.org/10.1097/JOM.0b013e3181965d80"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Plasma cholecystokinin and hepatic enzymes, cholesterol and lipoproteins in ammonium perfluorooctanoate production workers, (November 2000)"
+          "text": "Plasma cholecystokinin and hepatic enzymes, cholesterol and lipoproteins in ammonium perfluorooctanoate production workers, (November 2000)",
+          "url": "https://doi.org/10.1081/DCT-100101973"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Cross-sectional study of lipids and liver enzymes related to a serum biomarker of exposure (ammonium perfluorooctanoate or APFO) as part of a general health survey in a cohort of occupationally exposed workers, (October 2007)"
+          "text": "Cross-sectional study of lipids and liver enzymes related to a serum biomarker of exposure (ammonium perfluorooctanoate or APFO) as part of a general health survey in a cohort of occupationally exposed workers, (October 2007)",
+          "url": "https://doi.org/10.1097/JOM.0b013e318156eca3"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "A comparison of the pharmacokinetics of perfluorobutanesulfonate (PFBS) in rats, monkeys, and humans, (February 2009)"
+          "text": "A comparison of the pharmacokinetics of perfluorobutanesulfonate (PFBS) in rats, monkeys, and humans, (February 2009)",
+          "url": "https://doi.org/10.1016/j.tox.2008.11.008"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "A cohort incidence study of workers exposed to perfluorooctanoic acid (PFOA), (May 2015)"
+          "text": "A cohort incidence study of workers exposed to perfluorooctanoic acid (PFOA), (May 2015)",
+          "url": "https://doi.org/10.1136/oemed-2014-102364"
         },
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Elevated levels of perfluoroalkyl acids in family members of occupationally exposed workers: the importance of dust transfer, (March 2015)"
+          "text": "Elevated levels of perfluoroalkyl acids in family members of occupationally exposed workers: the importance of dust transfer, (March 2015)",
+          "url": "https://doi.org/10.1038/srep09313"
         },
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Differential accumulation and elimination behavior of perfluoroalkyl Acid isomers in occupational workers in a manufactory in China, (June 2015)"
+          "text": "Differential accumulation and elimination behavior of perfluoroalkyl Acid isomers in occupational workers in a manufactory in China, (June 2015)",
+          "url": "https://doi.org/10.1021/acs.est.5b00778"
         },
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Mass Spectrometry-Based Metabolomics Reveals Occupational Exposure to Per- and Polyfluoroalkyl Substances Relates to Oxidative Stress, Fatty Acid β-Oxidation Disorder, and Kidney Injury in a Manufactory in China, (August 2019)"
+          "text": "Mass Spectrometry-Based Metabolomics Reveals Occupational Exposure to Per- and Polyfluoroalkyl Substances Relates to Oxidative Stress, Fatty Acid β-Oxidation Disorder, and Kidney Injury in a Manufactory in China, (August 2019)",
+          "url": "https://doi.org/10.1021/acs.est.9b01608"
         }
       ]
     },
@@ -984,17 +1049,20 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Firefighters' exposure to perfluoroalkyl acids and 2-butoxyethanol present in firefighting foams, (December 2014)"
+          "text": "Firefighters' exposure to perfluoroalkyl acids and 2-butoxyethanol present in firefighting foams, (December 2014)",
+          "url": "https://doi.org/10.1016/j.toxlet.2014.09.007"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Perfluoroalkyl acids including perfluorooctane sulfonate and perfluorohexane sulfonate in firefighters, (March 2011)"
+          "text": "Perfluoroalkyl acids including perfluorooctane sulfonate and perfluorohexane sulfonate in firefighters, (March 2011)",
+          "url": "https://doi.org/10.1097/jom.0b013e31820d1314"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Sociodemographic and behavioral determinants of serum concentrations of per- and polyfluoroalkyl substances in a community highly exposed to aqueous film-forming foam contaminants in drinking water, (January 2020)"
+          "text": "Sociodemographic and behavioral determinants of serum concentrations of per- and polyfluoroalkyl substances in a community highly exposed to aqueous film-forming foam contaminants in drinking water, (January 2020)",
+          "url": "https://doi.org/10.1016/j.ijheh.2019.07.012"
         },
         {
           "id": "cite-3",
@@ -1033,7 +1101,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Transitioning Per- and Polyfluoroalkyl Substance Containing Fire Fighting Foams to New Alternatives: Evolving Methods and Best Practices to Protect the Environment, (April 2021)"
+          "text": "Transitioning Per- and Polyfluoroalkyl Substance Containing Fire Fighting Foams to New Alternatives: Evolving Methods and Best Practices to Protect the Environment, (April 2021)",
+          "url": "https://doi.org/10.1111/gwmr.12444"
         }
       ]
     },
@@ -1076,7 +1145,8 @@
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Burns, Commercial-scale remediation of per- and polyfluoroalkyl substances from a landfill leachate catchment using Surface-Active Foam Fractionation (SAFF®), (June 1, 2022)"
+          "text": "Burns, Commercial-scale remediation of per- and polyfluoroalkyl substances from a landfill leachate catchment using Surface-Active Foam Fractionation (SAFF®), (June 1, 2022)",
+          "url": "https://doi.org/10.1002/rem.21720"
         },
         {
           "id": "cite-6",
@@ -1087,7 +1157,8 @@
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Bertucci, Exploring Solar Energy Solutions for Per- and Polyfluoroalkyl Substances Degradation: Advancements and Future Directions in Photocatalytic Processes, (May 2024)"
+          "text": "Bertucci, Exploring Solar Energy Solutions for Per- and Polyfluoroalkyl Substances Degradation: Advancements and Future Directions in Photocatalytic Processes, (May 2024)",
+          "url": "https://doi.org/10.1002/solr.202400116"
         },
         {
           "id": "cite-8",
@@ -1112,7 +1183,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "We, A review of foam fractionation for the removal of per- and polyfluoroalkyl substances (PFAS) from aqueous matrices, (March 5, 2024)"
+          "text": "We, A review of foam fractionation for the removal of per- and polyfluoroalkyl substances (PFAS) from aqueous matrices, (March 5, 2024)",
+          "url": "https://doi.org/10.1016/j.jhazmat.2023.133182"
         }
       ]
     },
@@ -1125,7 +1197,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Loganathan, Perfluoroalkyl sulfonates and perfluorocarboxylates in two wastewater treatment plant facilities in Kentucky and Georgia, (December 2007)"
+          "text": "Loganathan, Perfluoroalkyl sulfonates and perfluorocarboxylates in two wastewater treatment plant facilities in Kentucky and Georgia, (December 2007)",
+          "url": "https://doi.org/10.1016/j.watres.2007.06.045"
         }
       ]
     },
@@ -1170,17 +1243,20 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Low-temperature mineralization of perfluorocarboxylic acids, (August 2022)"
+          "text": "Low-temperature mineralization of perfluorocarboxylic acids, (August 2022)",
+          "url": "https://doi.org/10.1126/science.abm8868"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Fluorine extraction from organofluorine molecules to make fluorinated clusters in yttrium MOFs, (December 2022)"
+          "text": "Fluorine extraction from organofluorine molecules to make fluorinated clusters in yttrium MOFs, (December 2022)",
+          "url": "https://doi.org/10.1039/D2SC05143E"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Integrated Photocatalytic Reduction and Oxidation of Perfluorooctanoic Acid by Metal-Organic Frameworks: Key Insights into the Degradation Mechanisms, (July 2022)"
+          "text": "Integrated Photocatalytic Reduction and Oxidation of Perfluorooctanoic Acid by Metal-Organic Frameworks: Key Insights into the Degradation Mechanisms, (July 2022)",
+          "url": "https://doi.org/10.1021/jacs.2c04341"
         }
       ]
     },
@@ -1193,7 +1269,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Awad, Long-term management of PFAS contaminated water using constructed floating wetlands: Opportunities, limitations, and implementation considerations, (2024-12-16)"
+          "text": "Awad, Long-term management of PFAS contaminated water using constructed floating wetlands: Opportunities, limitations, and implementation considerations, (2024-12-16)",
+          "url": "https://doi.org/10.1080/10643389.2024.2360762"
         },
         {
           "id": "cite-1",
@@ -1210,7 +1287,8 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Amen, A Critical Review on PFAS Removal from Water: Removal Mechanism and Future Challenges, (2023-11-21)"
+          "text": "Amen, A Critical Review on PFAS Removal from Water: Removal Mechanism and Future Challenges, (2023-11-21)",
+          "url": "https://doi.org/10.3390/su152316173"
         }
       ]
     },
@@ -1223,22 +1301,26 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Anik, A State-of-the-Art Review of the Environmental Mixtures, Exposure, and Health Risks of PFAS: A Special Focus on Developing Countries, (2025-06-18)"
+          "text": "Anik, A State-of-the-Art Review of the Environmental Mixtures, Exposure, and Health Risks of PFAS: A Special Focus on Developing Countries, (2025-06-18)",
+          "url": "https://doi.org/10.1007/s11270-025-08253-y"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Buekers, Socio-Economic Status and Health: Evaluation of Human Biomonitored Chemical Exposure to Per- and Polyfluorinated Substances across Status, (2018)"
+          "text": "Buekers, Socio-Economic Status and Health: Evaluation of Human Biomonitored Chemical Exposure to Per- and Polyfluorinated Substances across Status, (2018)",
+          "url": "https://doi.org/10.3390/ijerph15122818"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Ward, A Cross-Sectional Analysis of Blood Spot per- and Polyfluoroalkyl Substances (PFAS) from Adolescents in Chitwan Valley, Nepal, (2026-01-04)"
+          "text": "Ward, A Cross-Sectional Analysis of Blood Spot per- and Polyfluoroalkyl Substances (PFAS) from Adolescents in Chitwan Valley, Nepal, (2026-01-04)",
+          "url": "https://doi.org/10.3390/epidemiologia7010005"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Ng, Addressing Urgent Questions for PFAS in the 21st Century, (2021-10-05)"
+          "text": "Ng, Addressing Urgent Questions for PFAS in the 21st Century, (2021-10-05)",
+          "url": "https://doi.org/10.1021/acs.est.1c03386"
         }
       ]
     },
@@ -1269,12 +1351,14 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Ateia, Total Oxidizable Precursor (TOP) Assay─Best Practices, Capabilities and Limitations for PFAS Site Investigation and Remediation, (April 11, 2023)"
+          "text": "Ateia, Total Oxidizable Precursor (TOP) Assay─Best Practices, Capabilities and Limitations for PFAS Site Investigation and Remediation, (April 11, 2023)",
+          "url": "https://doi.org/10.1021/acs.estlett.3c00061"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Wang, Tracing per- and polyfluoroalkyl substances (PFASs) in the aquatic environment: Target analysis and beyond, (December 2023)"
+          "text": "Wang, Tracing per- and polyfluoroalkyl substances (PFASs) in the aquatic environment: Target analysis and beyond, (December 2023)",
+          "url": "https://doi.org/10.1016/j.trac.2023.117351"
         },
         {
           "id": "cite-5",

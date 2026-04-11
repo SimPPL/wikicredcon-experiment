@@ -1,8 +1,8 @@
 {
   "id": "cultivated-meat",
   "title": "Cultured meat",
-  "revisionDate": "2026-04-05",
-  "revisionId": "1346575136",
+  "revisionDate": "2026-04-11",
+  "revisionId": "1347422007",
   "sections": [
     {
       "id": "cultivated-meat-lead",
@@ -13,7 +13,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Gaydhane, Cultured meat: state of the art and future, (2018)"
+          "text": "Gaydhane, Cultured meat: state of the art and future, (2018)",
+          "url": "https://doi.org/10.1007/s40898-018-0005-1"
         },
         {
           "id": "cite-1",
@@ -30,22 +31,26 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Patil, Cultured Meat: The Upcoming Meat Production having Sustainable Benefits over Conventional Meat Production: A Review, (2024)"
+          "text": "Patil, Cultured Meat: The Upcoming Meat Production having Sustainable Benefits over Conventional Meat Production: A Review, (2024)",
+          "url": "https://doi.org/10.18805/ag.R-2333"
         },
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Hubalek, Towards resource-efficient and cost-efficient cultured meat, (2022)"
+          "text": "Hubalek, Towards resource-efficient and cost-efficient cultured meat, (2022)",
+          "url": "https://doi.org/10.1016/j.cofs.2022.100885"
         },
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Post, Medical technology to Produce Food, (4 December 2013)"
+          "text": "Post, Medical technology to Produce Food, (4 December 2013)",
+          "url": "https://doi.org/10.1002/jsfa.6474"
         },
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Gaydhane, Cultured meat: state of the art and future, (2018)"
+          "text": "Gaydhane, Cultured meat: state of the art and future, (2018)",
+          "url": "https://doi.org/10.1007/s40898-018-0005-1"
         },
         {
           "id": "cite-7",
@@ -56,27 +61,32 @@
         {
           "id": "cite-8",
           "index": 8,
-          "text": "Bryant, Culture, meat, and cultured meat, (2020)"
+          "text": "Bryant, Culture, meat, and cultured meat, (2020)",
+          "url": "https://doi.org/10.1093/jas/skaa172"
         },
         {
           "id": "cite-9",
           "index": 9,
-          "text": "Hong, Current Issues and Technical Advances in Cultured Meat Production: AReview, (2021)"
+          "text": "Hong, Current Issues and Technical Advances in Cultured Meat Production: AReview, (2021)",
+          "url": "https://doi.org/10.5851/kosfa.2021.e14"
         },
         {
           "id": "cite-10",
           "index": 10,
-          "text": "Treich, Cultured Meat: Promises and Challenges, (2021)"
+          "text": "Treich, Cultured Meat: Promises and Challenges, (2021)",
+          "url": "https://doi.org/10.1007/s10640-021-00551-3"
         },
         {
           "id": "cite-11",
           "index": 11,
-          "text": "Chriki, Is \"cultured meat\" a viable alternative to slaughtering animals and a good comprise between animal welfare and human expectations?, (2022)"
+          "text": "Chriki, Is \"cultured meat\" a viable alternative to slaughtering animals and a good comprise between animal welfare and human expectations?, (2022)",
+          "url": "https://doi.org/10.1093/af/vfac002"
         },
         {
           "id": "cite-12",
           "index": 12,
-          "text": "Chen, Large-scale cultured meat production: Trends, challenges and promising biomanufacturing technologies, (2022)"
+          "text": "Chen, Large-scale cultured meat production: Trends, challenges and promising biomanufacturing technologies, (2022)",
+          "url": "https://doi.org/10.1016/j.biomaterials.2021.121274"
         },
         {
           "id": "cite-13",
@@ -153,7 +163,8 @@
         {
           "id": "cite-25",
           "index": 25,
-          "text": "Chauvet, Should cultured meat be refused in the name of animal dignity?, (2018)"
+          "text": "Chauvet, Should cultured meat be refused in the name of animal dignity?, (2018)",
+          "url": "https://doi.org/10.1007/s10677-018-9888-4"
         },
         {
           "id": "cite-26",
@@ -196,7 +207,8 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Malerich, Nomenclature of cell-cultivated meat & seafood products, (2022)"
+          "text": "Malerich, Nomenclature of cell-cultivated meat & seafood products, (2022)",
+          "url": "https://doi.org/10.1038/s41538-022-00172-0"
         },
         {
           "id": "cite-2",
@@ -352,7 +364,8 @@
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Kadim, Cultured meat from muscle stem cells: A review of challenges and prospects, (February 2015)"
+          "text": "Kadim, Cultured meat from muscle stem cells: A review of challenges and prospects, (February 2015)",
+          "url": "https://doi.org/10.1016/S2095-3119(14)60881-9"
         },
         {
           "id": "cite-5",
@@ -451,7 +464,8 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Choudhury, The Business of Cultured Meat, (2020)"
+          "text": "Choudhury, The Business of Cultured Meat, (2020)",
+          "url": "https://doi.org/10.1016/j.tibtech.2020.02.012"
         },
         {
           "id": "cite-2",
@@ -700,7 +714,8 @@
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Delerm, Beyond the Butcher: Navigating the Legal Landscape of Cultured Meat, (15 October 2024)"
+          "text": "Delerm, Beyond the Butcher: Navigating the Legal Landscape of Cultured Meat, (15 October 2024)",
+          "url": "https://doi.org/10.21257/sg.265"
         },
         {
           "id": "cite-3",
@@ -889,7 +904,8 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Strand, Establishing Cell Lines from Fresh or Cryopreserved Tissue from the Great Crested Newt (Triturus cristatus):A Preliminary Protocol, (2021-02-01)"
+          "text": "Strand, Establishing Cell Lines from Fresh or Cryopreserved Tissue from the Great Crested Newt (Triturus cristatus):A Preliminary Protocol, (2021-02-01)",
+          "url": "https://doi.org/10.3390/ani11020367"
         }
       ]
     },
@@ -904,6 +920,12 @@
           "index": 0,
           "text": "Kawecki, Engineering multicomponent tissue by spontaneous adhesion of myogenic and adipogenic microtissues cultured with customized scaffolds, (October 2024)",
           "url": "https://www.sciencedirect.com/science/article/pii/S0963996923006257?via%3Dihub"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Leopold, Outgrowth, proliferation, viability, angiogenesis and phenotype of primary human endothelial cells in different purchasable endothelial culture media: feed wisely., (21 September 2019)",
+          "url": "https://doi.org/10.1007/s00418-019-01815-2"
         }
       ]
     },
@@ -965,22 +987,26 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Campuzano, Scaffolds for 3D Cell Culture and Cellular Agriculture Applications Derived From Non-animal Sources, (2019)"
+          "text": "Campuzano, Scaffolds for 3D Cell Culture and Cellular Agriculture Applications Derived From Non-animal Sources, (2019)",
+          "url": "https://doi.org/10.3389/fsufs.2019.00038"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Adamski, Two Methods for Decellularization of Plant Tissues for Tissue Engineering Applications, (2018-05-31)"
+          "text": "Adamski, Two Methods for Decellularization of Plant Tissues for Tissue Engineering Applications, (2018-05-31)",
+          "url": "https://doi.org/10.3791/57586"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Gome, Cultivation of bovine lipid chunks on Aloe vera scaffolds, (25 February 2025)"
+          "text": "Gome, Cultivation of bovine lipid chunks on Aloe vera scaffolds, (25 February 2025)",
+          "url": "https://doi.org/10.1038/s41538-025-00391-1"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Nurul Alam, Scaffolding fundamentals and recent advances in sustainable scaffolding techniques for cultured meat development, (August 2024)"
+          "text": "Nurul Alam, Scaffolding fundamentals and recent advances in sustainable scaffolding techniques for cultured meat development, (August 2024)",
+          "url": "https://doi.org/10.1016/j.foodres.2024.114549"
         }
       ]
     },
@@ -1041,7 +1067,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Muscle tissue engineering in fibrous gelatin: implications for meat analogs, (October 2019)"
+          "text": "Muscle tissue engineering in fibrous gelatin: implications for meat analogs, (October 2019)",
+          "url": "https://doi.org/10.1038/s41538-019-0054-8"
         },
         {
           "id": "cite-1",
@@ -1078,7 +1105,8 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Kang, Engineered whole cut meat-like tissue by the assembly of cell fibers using tendon-gel integrated bioprinting, (24 August 2021)"
+          "text": "Kang, Engineered whole cut meat-like tissue by the assembly of cell fibers using tendon-gel integrated bioprinting, (24 August 2021)",
+          "url": "https://doi.org/10.1038/s41467-021-25236-9"
         },
         {
           "id": "cite-2",
@@ -1097,7 +1125,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Rubio, Possibilities for Engineered Insect Tissue as a Food Source, (2019)"
+          "text": "Rubio, Possibilities for Engineered Insect Tissue as a Food Source, (2019)",
+          "url": "https://doi.org/10.3389/fsufs.2019.00024"
         },
         {
           "id": "cite-1",
@@ -1116,7 +1145,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Dessels, Making the Switch: Alternatives to Fetal Bovine Serum for Adipose-Derived Stromal Cell Expansion, (2016)"
+          "text": "Dessels, Making the Switch: Alternatives to Fetal Bovine Serum for Adipose-Derived Stromal Cell Expansion, (2016)",
+          "url": "https://doi.org/10.3389/fcell.2016.00115"
         },
         {
           "id": "cite-1",
@@ -1229,17 +1259,20 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Sharma, In vitro meat production system: why and how?, (December 2015)"
+          "text": "Sharma, In vitro meat production system: why and how?, (December 2015)",
+          "url": "https://doi.org/10.1007/s13197-015-1972-3"
         },
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Xiang, The challenges of bringing cultured meat to the market, (2023)"
+          "text": "Xiang, The challenges of bringing cultured meat to the market, (2023)",
+          "url": "https://doi.org/10.1038/s44222-023-00075-z"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Bryant, A Survey of Consumer Perceptions of Plant-Based and Clean Meat in the USA, India, and China, (27 February 2019)"
+          "text": "Bryant, A Survey of Consumer Perceptions of Plant-Based and Clean Meat in the USA, India, and China, (27 February 2019)",
+          "url": "https://doi.org/10.3389/fsufs.2019.00011"
         },
         {
           "id": "cite-3",
@@ -1250,17 +1283,20 @@
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Xie, An Overview of Recent Progress in Cultured Meat: Focusing on Technology, Quality Properties, Safety, Industrialization, and Public Acceptance, (1 March 2025)"
+          "text": "Xie, An Overview of Recent Progress in Cultured Meat: Focusing on Technology, Quality Properties, Safety, Industrialization, and Public Acceptance, (1 March 2025)",
+          "url": "https://doi.org/10.1016/j.tjnut.2025.01.010"
         },
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Bryant, The Impact of Framing on Acceptance of Cultured Meat, (3 July 2019)"
+          "text": "Bryant, The Impact of Framing on Acceptance of Cultured Meat, (3 July 2019)",
+          "url": "https://doi.org/10.3389/fnut.2019.00103"
         },
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Siegrist, Perceived naturalness and evoked disgust influence acceptance of cultured meat, (May 2018)"
+          "text": "Siegrist, Perceived naturalness and evoked disgust influence acceptance of cultured meat, (May 2018)",
+          "url": "https://doi.org/10.1016/j.meatsci.2018.02.007"
         },
         {
           "id": "cite-7",
@@ -1283,7 +1319,8 @@
         {
           "id": "cite-10",
           "index": 10,
-          "text": "Mancini, To What Extent Are Consumers' Perception and Acceptance of Alternative Meat Production Systems Affected by Information? The Case of Cultured Meat, (2020)"
+          "text": "Mancini, To What Extent Are Consumers' Perception and Acceptance of Alternative Meat Production Systems Affected by Information? The Case of Cultured Meat, (2020)",
+          "url": "https://doi.org/10.3390/ani10040656"
         },
         {
           "id": "cite-11",
@@ -1300,12 +1337,14 @@
         {
           "id": "cite-13",
           "index": 13,
-          "text": "Grasso, Older Consumers' Readiness to Accept Alternative, More Sustainable Protein Sources in the European Union, (15 August 2019)"
+          "text": "Grasso, Older Consumers' Readiness to Accept Alternative, More Sustainable Protein Sources in the European Union, (15 August 2019)",
+          "url": "https://doi.org/10.3390/nu11081904"
         },
         {
           "id": "cite-14",
           "index": 14,
-          "text": "Valente, First glimpse on attitudes of highly educated consumers towards cell-based meat and related issues in Brazil, (30 August 2019)"
+          "text": "Valente, First glimpse on attitudes of highly educated consumers towards cell-based meat and related issues in Brazil, (30 August 2019)",
+          "url": "https://doi.org/10.1371/journal.pone.0221129"
         }
       ]
     },
@@ -1318,7 +1357,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Stephens, Bringing cultured meat to market: Technical, socio-political, and regulatory challenges in cellular agriculture., (21 July 2018)"
+          "text": "Stephens, Bringing cultured meat to market: Technical, socio-political, and regulatory challenges in cellular agriculture., (21 July 2018)",
+          "url": "https://doi.org/10.1016/j.tifs.2018.04.010"
         }
       ]
     },
@@ -1443,17 +1483,20 @@
         {
           "id": "cite-1",
           "index": 1,
-          "text": "Miyake, Policy frameworks and regulations for the research and development of cell-based meats: Systematic literature review, (2023-05-01)"
+          "text": "Miyake, Policy frameworks and regulations for the research and development of cell-based meats: Systematic literature review, (2023-05-01)",
+          "url": "https://doi.org/10.1016/j.foodres.2023.112599"
         },
         {
           "id": "cite-2",
           "index": 2,
-          "text": "Guan, Trends and ideas in technology, regulation and public acceptance of cultured meat, (2021-06-01)"
+          "text": "Guan, Trends and ideas in technology, regulation and public acceptance of cultured meat, (2021-06-01)",
+          "url": "https://doi.org/10.1016/j.fufo.2021.100032"
         },
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Zandonadi, Global Insights into Cultured Meat: Uncovering Production Processes, Potential Hazards, Regulatory Frameworks, and Key Challenges—A Scoping Review, (2025-01-04)"
+          "text": "Zandonadi, Global Insights into Cultured Meat: Uncovering Production Processes, Potential Hazards, Regulatory Frameworks, and Key Challenges—A Scoping Review, (2025-01-04)",
+          "url": "https://doi.org/10.3390/foods14010129"
         },
         {
           "id": "cite-4",
@@ -1508,7 +1551,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Edelman, In vitro-cultured meat production, (2005)"
+          "text": "Edelman, In vitro-cultured meat production, (2005)",
+          "url": "https://doi.org/10.1089/ten.2005.11.659"
         },
         {
           "id": "cite-1",
@@ -1525,7 +1569,8 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Martin, Antibiotics Overuse in Animal Agriculture: A Call to Action for Health Care Providers, (December 2015)"
+          "text": "Martin, Antibiotics Overuse in Animal Agriculture: A Call to Action for Health Care Providers, (December 2015)",
+          "url": "https://doi.org/10.2105/AJPH.2015.302870"
         },
         {
           "id": "cite-4",
@@ -1542,12 +1587,14 @@
         {
           "id": "cite-6",
           "index": 6,
-          "text": "Anomaly, Flesh Without Blood: The Public Health Benefits of Lab-Grown Meat, (2024)"
+          "text": "Anomaly, Flesh Without Blood: The Public Health Benefits of Lab-Grown Meat, (2024)",
+          "url": "https://doi.org/10.1007/s11673-023-10254-7"
         },
         {
           "id": "cite-7",
           "index": 7,
-          "text": "Azcona, Omega-3 enriched broiler meat: The influence of dietary alpha-linolenic omega-3 fatty acid sources on growth, performance and meat fatty acid composition, (2008)"
+          "text": "Azcona, Omega-3 enriched broiler meat: The influence of dietary alpha-linolenic omega-3 fatty acid sources on growth, performance and meat fatty acid composition, (2008)",
+          "url": "https://doi.org/10.4141/cjas07081"
         },
         {
           "id": "cite-8",
@@ -1596,7 +1643,8 @@
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Pigott, Seafood, (1990)"
+          "text": "Pigott, Seafood, (1990)",
+          "url": "https://en.wikipedia.org/wiki/Special:BookSources/9780824779221"
         }
       ]
     },
@@ -1627,7 +1675,8 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Tuomisto, Environmental Impacts of Cultured Meat Production, (17 June 2011)"
+          "text": "Tuomisto, Environmental Impacts of Cultured Meat Production, (17 June 2011)",
+          "url": "https://doi.org/10.1021/es200130u"
         },
         {
           "id": "cite-4",
@@ -1668,7 +1717,8 @@
         {
           "id": "cite-10",
           "index": 10,
-          "text": "Gržinić, Intensive poultry farming: A review of the impact on the environment and human health, (2023-02-01)"
+          "text": "Gržinić, Intensive poultry farming: A review of the impact on the environment and human health, (2023-02-01)",
+          "url": "https://doi.org/10.1016/j.scitotenv.2022.160014"
         },
         {
           "id": "cite-11",
@@ -1678,7 +1728,8 @@
         {
           "id": "cite-12",
           "index": 12,
-          "text": "Despommier, The Rise of Vertical Farms, (November 2009)"
+          "text": "Despommier, The Rise of Vertical Farms, (November 2009)",
+          "url": "https://doi.org/10.1038/scientificamerican1109-80"
         }
       ]
     },
@@ -1797,7 +1848,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Kenigsberg, A Jewish Religious Perspective on Cellular Agriculture, (22 January 2020)"
+          "text": "Kenigsberg, A Jewish Religious Perspective on Cellular Agriculture, (22 January 2020)",
+          "url": "https://doi.org/10.3389/fsufs.2019.00128"
         },
         {
           "id": "cite-1",
@@ -1820,7 +1872,8 @@
         {
           "id": "cite-4",
           "index": 4,
-          "text": "Hamdan, Cultured Meat in Islamic Perspective, (1 December 2018)"
+          "text": "Hamdan, Cultured Meat in Islamic Perspective, (1 December 2018)",
+          "url": "https://doi.org/10.1007/s10943-017-0403-3"
         },
         {
           "id": "cite-5",
@@ -1869,7 +1922,8 @@
         {
           "id": "cite-5",
           "index": 5,
-          "text": "Garrison, How much will large-scale production of cell-cultured meat cost?, (December 2022)"
+          "text": "Garrison, How much will large-scale production of cell-cultured meat cost?, (December 2022)",
+          "url": "https://doi.org/10.1016/j.jafr.2022.100358"
         }
       ]
     },
@@ -2041,7 +2095,8 @@
         {
           "id": "cite-0",
           "index": 0,
-          "text": "Singh, Cultured meat production fuelled by fermentation, (2022)"
+          "text": "Singh, Cultured meat production fuelled by fermentation, (2022)",
+          "url": "https://doi.org/10.1016/j.tifs.2021.12.028"
         },
         {
           "id": "cite-1",
@@ -2058,7 +2113,8 @@
         {
           "id": "cite-3",
           "index": 3,
-          "text": "Wingfield, Overview of the Purification of Recombinant Proteins, (2015-04-01)"
+          "text": "Wingfield, Overview of the Purification of Recombinant Proteins, (2015-04-01)",
+          "url": "https://doi.org/10.1002/0471140864.ps0601s80"
         }
       ]
     }
