@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import type { ClaimGroup, ClaimSource } from '@/types';
 import { useIsMobile } from '@/lib/useIsMobile';
 
@@ -123,6 +123,46 @@ export default function ClaimsSidebar({
   const [selectedGroupId, setSelectedGroupId] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState<TabId>('claims');
   const isMobile = useIsMobile();
+  const [highlightPulse, setHighlightPulse] = useState(false);
+  const prevSectionRef = useRef<string | null>(null);
+  const firstRelevantRef = useRef<HTMLButtonElement | null>(null);
+
+  // When the active section changes: pulse highlights, auto-scroll, and
+  // if viewing a group detail that isn't relevant, jump to the most relevant group
+  useEffect(() => {
+    if (!activeSectionId || activeSectionId === prevSectionRef.current) {
+      prevSectionRef.current = activeSectionId ?? null;
+      return;
+    }
+    prevSectionRef.current = activeSectionId;
+
+    const relevantGroups = claimGroups.filter(g =>
+      g.relevantSectionIds.includes(activeSectionId)
+    );
+    if (relevantGroups.length === 0) return;
+
+    // Start the pulse animation
+    setHighlightPulse(true);
+    const timer = setTimeout(() => setHighlightPulse(false), 2000);
+
+    // If currently viewing a group detail that isn't relevant to the new section,
+    // auto-switch to the most relevant group (highest engagement)
+    if (selectedGroupId) {
+      const currentGroupIsRelevant = relevantGroups.some(g => g.groupId === selectedGroupId);
+      if (!currentGroupIsRelevant) {
+        const best = relevantGroups.sort((a, b) => b.totalEngagement - a.totalEngagement)[0];
+        setSelectedGroupId(best.groupId);
+        setActiveTab('claims');
+      }
+    } else {
+      // On group list view, scroll to the first relevant group
+      setTimeout(() => {
+        firstRelevantRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 100);
+    }
+
+    return () => clearTimeout(timer);
+  }, [activeSectionId, claimGroups, selectedGroupId]);
 
   const totalClaims = useMemo(
     () => (claimGroups || []).reduce((sum, g) => sum + (g.claimCount || g.claims?.length || 0), 0),
@@ -144,12 +184,20 @@ export default function ClaimsSidebar({
     [claimGroups, selectedGroupId]
   );
 
+  // Count how many groups are relevant to the current section
+  const relevantCount = activeSectionId
+    ? claimGroups.filter(g => g.relevantSectionIds.includes(activeSectionId)).length
+    : 0;
+
   // --- Collapsed state ---
   if (collapsed) {
     if (isMobile) {
       return (
-        <button onClick={onToggle} className="mobile-claims-bar">
-          <span>Claims ({totalClaims})</span>
+        <button
+          onClick={onToggle}
+          className={`mobile-claims-bar ${highlightPulse && relevantCount > 0 ? 'claims-highlight-pulse' : ''}`}
+        >
+          <span>Claims ({totalClaims}){relevantCount > 0 ? ` · ${relevantCount} relevant` : ''}</span>
           <span style={{ fontSize: '0.7rem', opacity: 0.8 }}>Tap to open</span>
         </button>
       );
@@ -157,14 +205,15 @@ export default function ClaimsSidebar({
     return (
       <button
         onClick={onToggle}
-        className="fixed right-0 top-1/2 -translate-y-1/2 px-2 py-4 text-xs font-semibold rounded-l cursor-pointer"
+        className={`fixed right-0 top-1/2 -translate-y-1/2 px-2 py-4 text-xs font-semibold rounded-l cursor-pointer ${highlightPulse && relevantCount > 0 ? 'claims-highlight-pulse' : ''}`}
         style={{
-          background: '#36c',
+          background: highlightPulse && relevantCount > 0 ? '#2a4b8d' : '#36c',
           color: '#fff',
           writingMode: 'vertical-rl',
+          transition: 'background 0.3s',
         }}
       >
-        Claims ({totalClaims})
+        Claims ({totalClaims}){relevantCount > 0 ? ` · ${relevantCount}!` : ''}
       </button>
     );
   }
@@ -415,16 +464,23 @@ export default function ClaimsSidebar({
 
       {/* Group cards */}
       <div className="space-y-2">
-        {sortedGroups.map((group) => {
+        {sortedGroups.map((group, idx) => {
           const isRelevant = activeSectionId
             ? group.relevantSectionIds.includes(activeSectionId)
             : false;
 
+          // Track the first relevant group for auto-scroll
+          const isFirstRelevant = isRelevant &&
+            !sortedGroups.slice(0, idx).some(g =>
+              activeSectionId && g.relevantSectionIds.includes(activeSectionId)
+            );
+
           return (
             <button
               key={group.groupId}
+              ref={isFirstRelevant ? firstRelevantRef : undefined}
               onClick={() => { setSelectedGroupId(group.groupId); setActiveTab('claims'); }}
-              className="w-full text-left rounded p-3 cursor-pointer"
+              className={`w-full text-left rounded p-3 cursor-pointer ${isRelevant && highlightPulse ? 'claims-highlight-pulse' : ''}`}
               style={{
                 background: isRelevant ? '#eef2ff' : '#f8f9fa',
                 border: isRelevant
