@@ -616,10 +616,13 @@ export default function AdminPage() {
                 const res = await fetch('/data/dummy-experiment/dummy-localstorage.json');
                 if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
                 const data: Record<string, unknown> = await res.json();
+                let count = 0;
                 for (const [key, value] of Object.entries(data)) {
                   localStorage.setItem(key, typeof value === 'string' ? value : JSON.stringify(value));
+                  if (key.startsWith('wikicred_participant_data_')) count++;
                 }
-                window.location.reload();
+                loadAllParticipants();
+                alert(`Loaded ${count} dummy participants.`);
               } catch (err) {
                 console.error('Failed to load dummy data:', err);
                 alert('Failed to load dummy data. Check the console for details.');
@@ -653,8 +656,8 @@ export default function AdminPage() {
                       );
                     }
                   }
+                  loadAllParticipants();
                   alert(`Synced ${rows.length} participants from server.`);
-                  window.location.reload();
                 }
               } catch (err) {
                 console.error('Sync failed:', err);
