@@ -26,6 +26,26 @@ import ClaimsSidebar from '@/components/arbiter/ClaimsSidebar';
 import { computeGranularMetrics } from '@/lib/metrics-computation';
 import { useIsMobile } from '@/lib/useIsMobile';
 
+function createNewSession(participantId: string, condition: 'treatment' | 'control', articleId: string, isMobileDevice: boolean): EditSession {
+  return {
+    sessionId: generateId(),
+    participantId,
+    condition,
+    articleId,
+    deviceType: isMobileDevice ? 'mobile' : 'desktop',
+    startedAt: Date.now(),
+    editEvents: [],
+    sectionTimes: {},
+    hoverEvents: [],
+    citationsAdded: [],
+    tabBlurEvents: [],
+    arbiterInteractions: [],
+    linkClicks: [],
+    finalContent: {},
+    totalEditTime: 0,
+  };
+}
+
 export default function EditPage() {
   // --- State ---
   const [participant, setParticipant] = useState<Participant | null>(null);
@@ -128,24 +148,24 @@ export default function EditPage() {
       setSidebarCollapsed(true);
     }
 
-    // Initialize session
-    const session: EditSession = {
-      sessionId: generateId(),
-      participantId: p.id,
-      condition: cond,
-      articleId,
-      deviceType: isMobileDevice ? 'mobile' : 'desktop',
-      startedAt: Date.now(),
-      editEvents: [],
-      sectionTimes: {},
-      hoverEvents: [],
-      citationsAdded: [],
-      tabBlurEvents: [],
-      arbiterInteractions: [],
-      linkClicks: [],
-      finalContent: {},
-      totalEditTime: 0,
-    };
+    // Restore session from localStorage if available (survives page refresh)
+    const storedSession = localStorage.getItem(LS_KEYS.CURRENT_SESSION);
+    let session: EditSession;
+    if (storedSession) {
+      try {
+        const restored = JSON.parse(storedSession) as EditSession;
+        // Only restore if it matches the current phase/article
+        if (restored.articleId === articleId && restored.participantId === p.id) {
+          session = restored;
+        } else {
+          session = createNewSession(p.id, cond, articleId, isMobileDevice);
+        }
+      } catch {
+        session = createNewSession(p.id, cond, articleId, isMobileDevice);
+      }
+    } else {
+      session = createNewSession(p.id, cond, articleId, isMobileDevice);
+    }
     sessionRef.current = session;
     timerStartRef.current = Date.now();
 
