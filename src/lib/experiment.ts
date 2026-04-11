@@ -38,19 +38,28 @@ function getSelectedArticlePair(): [string, string] {
     return [EXPERIMENT.ARTICLES.A, EXPERIMENT.ARTICLES.B];
   }
 
+  // Get the pool of available articles (admin-selected or all)
+  let pool: string[] = [];
   const stored = localStorage.getItem('wikicred_selected_articles');
   if (stored) {
     try {
       const selected: string[] = JSON.parse(stored);
       if (selected.length >= 2) {
-        return [selected[0], selected[1]];
+        pool = selected;
       }
     } catch {
-      // fall through to defaults
+      // fall through
     }
   }
 
-  return [EXPERIMENT.ARTICLES.A, EXPERIMENT.ARTICLES.B];
+  // Default to all articles if none selected or fewer than 2
+  if (pool.length < 2) {
+    pool = [...ALL_ARTICLES];
+  }
+
+  // Randomly select 2 distinct articles from the pool
+  const shuffled = [...pool].sort(() => Math.random() - 0.5);
+  return [shuffled[0], shuffled[1]];
 }
 
 export function assignCondition(): {

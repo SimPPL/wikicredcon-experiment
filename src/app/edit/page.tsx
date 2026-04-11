@@ -49,11 +49,13 @@ export default function EditPage() {
 
   const isMobile = useIsMobile();
 
-  // --- Refs for metrics (avoid re-renders) ---
+  // --- Refs for metrics and latest state (avoid stale closures) ---
   const sessionRef = useRef<EditSession | null>(null);
   const sectionFocusStart = useRef<{ sectionId: string; startTime: number } | null>(null);
   const tabBlurStart = useRef<number | null>(null);
   const timerStartRef = useRef<number>(0);
+  const editedContentRef = useRef<Record<string, string>>({});
+  const editedCitationsRef = useRef<Record<string, import('@/types').Citation[]>>({});
   const flushIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // --- Initialize ---
@@ -107,6 +109,7 @@ export default function EditPage() {
         initial[s.id] = s.content;
       });
       setEditedContent(initial);
+      editedContentRef.current = initial;
       setLoading(false);
     });
 
@@ -206,8 +209,12 @@ export default function EditPage() {
   // --- Handlers ---
   const handleContentChange = useCallback(
     (sectionId: string, newContent: string) => {
-      const oldContent = editedContent[sectionId] || '';
-      setEditedContent((prev) => ({ ...prev, [sectionId]: newContent }));
+      const oldContent = editedContentRef.current[sectionId] || '';
+      setEditedContent((prev) => {
+        const next = { ...prev, [sectionId]: newContent };
+        editedContentRef.current = next;
+        return next;
+      });
 
       if (sessionRef.current) {
         const event: EditEvent = {
@@ -220,11 +227,48 @@ export default function EditPage() {
         sessionRef.current.editEvents.push(event);
       }
     },
-    [editedContent]
+    []
   );
 
   const handleReferencesChange = useCallback((sectionId: string, citations: import('@/types').Citation[]) => {
-    setEditedCitations((prev) => ({ ...prev, [sectionId]: citations }));
+    const oldCitations = editedCitationsRef.current[sectionId] || [];
+    setEditedCitations((prev) => {
+      const next = { ...prev, [sectionId]: citations };
+      editedCitationsRef.current = next;
+      return next;
+    });
+
+    // Track reference changes as edit events
+    if (sessionRef.current) {
+      const added = citations.filter(c => !oldCitations.some(o => o.id === c.id));
+      const removed = oldCitations.filter(o => !citations.some(c => c.id === o.id));
+
+      for (const c of added) {
+        sessionRef.current.editEvents.push({
+          timestamp: Date.now(),
+          sectionId,
+          action: 'insert',
+          contentBefore: '',
+          contentAfter: `[ref added] ${c.text.slice(0, 80)} | ${c.url || 'no-url'}`,
+        });
+        // Also log as a citation event
+        sessionRef.current.citationsAdded.push({
+          timestamp: Date.now(),
+          sectionId,
+          referenceText: c.text,
+          url: c.url,
+        });
+      }
+      for (const c of removed) {
+        sessionRef.current.editEvents.push({
+          timestamp: Date.now(),
+          sectionId,
+          action: 'delete',
+          contentBefore: `[ref removed] ${c.text.slice(0, 80)} | ${c.url || 'no-url'}`,
+          contentAfter: '',
+        });
+      }
+    }
   }, []);
 
   const handleToggleEdit = useCallback((sectionId: string) => {
@@ -349,10 +393,12 @@ export default function EditPage() {
 
     sessionRef.current.endedAt = Date.now();
     sessionRef.current.totalEditTime = sessionRef.current.endedAt - sessionRef.current.startedAt;
-    sessionRef.current.finalContent = { ...editedContent };
+    // Use refs for latest state (avoids stale closure from timer auto-publish)
+    sessionRef.current.finalContent = { ...editedContentRef.current };
     // Save edited citations as a JSON string in finalContent under a special key
-    if (Object.keys(editedCitations).length > 0) {
-      sessionRef.current.finalContent['__editedCitations__'] = JSON.stringify(editedCitations);
+    const latestCitations = editedCitationsRef.current;
+    if (Object.keys(latestCitations).length > 0) {
+      sessionRef.current.finalContent['__editedCitations__'] = JSON.stringify(latestCitations);
     }
 
     // Compute granular metrics if ground truth is available
