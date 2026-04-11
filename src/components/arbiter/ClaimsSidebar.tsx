@@ -33,6 +33,38 @@ function formatEngagement(n: number): string {
   return String(n);
 }
 
+function CopyButton({ text }: { text: string }) {
+  const [copied, setCopied] = useState(false);
+
+  return (
+    <button
+      onClick={(e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        navigator.clipboard.writeText(text).then(() => {
+          setCopied(true);
+          setTimeout(() => setCopied(false), 1500);
+        });
+      }}
+      title="Copy link"
+      aria-label="Copy link"
+      style={{
+        flexShrink: 0,
+        background: 'none',
+        border: '1px solid var(--wiki-chrome-border)',
+        borderRadius: 3,
+        cursor: 'pointer',
+        padding: '2px 4px',
+        fontSize: '0.65rem',
+        color: copied ? 'var(--wiki-success)' : 'var(--wiki-text-secondary)',
+        lineHeight: 1,
+      }}
+    >
+      {copied ? '✓' : '⧉'}
+    </button>
+  );
+}
+
 function SourceLink({ source }: { source: ClaimSource }) {
   const icons: Record<string, string> = {
     'fact-check': '\u2713',
@@ -42,19 +74,22 @@ function SourceLink({ source }: { source: ClaimSource }) {
     'other': '\ud83d\udd17',
   };
   return (
-    <a
-      href={source.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block py-1.5 px-2 rounded text-xs hover:bg-gray-100"
-      style={{ color: 'var(--wiki-text)', textDecoration: 'none', borderBottom: '1px solid #f0f0f0' }}
+    <div
+      className="py-1.5 px-2 rounded text-xs hover:bg-gray-100"
+      style={{ borderBottom: '1px solid #f0f0f0' }}
     >
       <div className="flex items-start gap-1.5">
         <span style={{ fontSize: '0.7rem', flexShrink: 0 }}>{icons[source.type] || icons.other}</span>
-        <div className="min-w-0">
-          <div className="font-medium" style={{ color: 'var(--wiki-link)', fontSize: '0.75rem' }}>
+        <div className="min-w-0 flex-1">
+          <a
+            href={source.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium"
+            style={{ color: 'var(--wiki-link)', fontSize: '0.75rem', textDecoration: 'none' }}
+          >
             {source.title?.slice(0, 80) || source.url.slice(0, 60)}
-          </div>
+          </a>
           {source.publisher && (
             <div style={{ color: 'var(--wiki-text-secondary)', fontSize: '0.7rem' }}>
               {source.publisher}
@@ -66,8 +101,9 @@ function SourceLink({ source }: { source: ClaimSource }) {
             </div>
           )}
         </div>
+        <CopyButton text={source.url} />
       </div>
-    </a>
+    </div>
   );
 }
 
