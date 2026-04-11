@@ -33,6 +33,27 @@ export default function RegistrationPage() {
   const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
+    // If the user already registered, route them based on their current phase
+    const storedParticipant = localStorage.getItem(LS_KEYS.PARTICIPANT);
+    const storedPhase = localStorage.getItem(LS_KEYS.PHASE);
+
+    if (storedParticipant && storedPhase) {
+      const participant = JSON.parse(storedParticipant);
+      if (storedPhase === 'editing-1' || storedPhase === 'editing-2' || storedPhase === 'transition') {
+        window.location.href = '/edit';
+        return;
+      }
+      if (storedPhase === 'survey') {
+        window.location.href = '/survey';
+        return;
+      }
+      if (storedPhase === 'complete') {
+        window.location.href = `/dashboard/${participant.id}`;
+        return;
+      }
+    }
+
+    // No active session — check consent to skip landing/consent steps
     const stored = localStorage.getItem('wikicred_consent');
     if (stored) {
       setConsented(true);
