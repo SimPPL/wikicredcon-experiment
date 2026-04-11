@@ -41,6 +41,8 @@ export default function EditPage() {
   const [timeRemaining, setTimeRemaining] = useState(EXPERIMENT.EDIT_DURATION_MS);
   const [showTransition, setShowTransition] = useState(false);
   const [showPublishDialog, setShowPublishDialog] = useState(false);
+  const [showFinalizeNudge, setShowFinalizeNudge] = useState(false);
+  const [finalizeNudgeDismissed, setFinalizeNudgeDismissed] = useState(false);
   const [editSummary, setEditSummary] = useState('');
   const [loading, setLoading] = useState(true);
 
@@ -175,6 +177,11 @@ export default function EditPage() {
       const elapsed = Date.now() - timerStartRef.current;
       const remaining = Math.max(0, EXPERIMENT.EDIT_DURATION_MS - elapsed);
       setTimeRemaining(remaining);
+
+      // Show finalize nudge popup at 2-minute mark (once)
+      if (remaining <= 2 * 60 * 1000 && remaining > 0) {
+        setShowFinalizeNudge(true);
+      }
 
       if (remaining <= 0) {
         clearInterval(interval);
@@ -417,7 +424,7 @@ export default function EditPage() {
             showing social media claims.
           </p>
           <p className="mb-6 text-sm" style={{ color: 'var(--wiki-text-disabled)' }}>
-            You will have another 12 minutes for this task.
+            You will have another 10 minutes for this task.
           </p>
           <button
             onClick={handleContinueToTask2}
@@ -434,7 +441,7 @@ export default function EditPage() {
   if (!article) return null;
 
   const isWarning = timeRemaining < 2 * 60 * 1000;
-  const isFinalizePhase = timeRemaining < 60 * 1000; // last 1 minute = finalize
+  const isFinalizePhase = timeRemaining <= 2 * 60 * 1000; // last 2 minutes = finalize
 
   return (
     <div className="min-h-screen">
@@ -467,18 +474,36 @@ export default function EditPage() {
         {/* Article Area */}
         <div className={`flex-1 ${condition === 'treatment' && !sidebarCollapsed ? '' : ''}`}>
           <div className="max-w-[960px] mx-auto px-4 py-4">
-            {/* Finalize warning */}
-            {isFinalizePhase && (
+            {/* Finalize nudge popup — appears at 2-minute mark, dismissible */}
+            {isFinalizePhase && showFinalizeNudge && !finalizeNudgeDismissed && (
               <div
-                className="p-3 text-sm rounded mb-3 timer-warning"
+                className="p-4 text-sm rounded mb-3"
                 style={{
                   background: '#fef2f2',
                   border: '2px solid #ef4444',
                   color: '#991b1b',
                   fontWeight: 600,
+                  position: 'relative',
                 }}
               >
-                1 minute remaining — finalize and polish your changes before auto-submission.
+                <button
+                  onClick={() => setFinalizeNudgeDismissed(true)}
+                  style={{
+                    position: 'absolute',
+                    top: 8,
+                    right: 10,
+                    background: 'none',
+                    border: 'none',
+                    fontSize: '1.1rem',
+                    color: '#991b1b',
+                    cursor: 'pointer',
+                    lineHeight: 1,
+                  }}
+                  aria-label="Dismiss"
+                >
+                  ×
+                </button>
+                2 minutes remaining — please finalize and confirm your edits before auto-submission.
               </div>
             )}
 

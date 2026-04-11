@@ -364,6 +364,12 @@ export default function AnalysisPanel({ participants }: AnalysisPanelProps) {
         Paired participants: {pairedCount}
       </div>
 
+      {/* Histogram distributions with mean lines */}
+      <HistogramGrid
+        metricData={metricData}
+        groupFilter={groupFilter}
+      />
+
       {/* Visual Comparison Charts */}
       <VisualComparison
         metricData={metricData}
@@ -402,6 +408,316 @@ export default function AnalysisPanel({ participants }: AnalysisPanelProps) {
       </p>
     </div>
   );
+}
+
+// ============================================================
+// Histogram Grid — distribution charts with mean axvlines
+// ============================================================
+
+const HISTOGRAM_METRICS = [
+  { key: 'wordsAdded', label: 'Words Added' },
+  { key: 'citationsAdded', label: 'Citations Added' },
+  { key: 'sectionsEdited', label: 'Sections Edited' },
+  { key: 'improvementOverBaseline', label: 'Improvement Over Baseline' },
+  { key: 'groundTruthSimilarity', label: 'Ground Truth Similarity' },
+  { key: 'totalEditTime', label: 'Total Edit Time (ms)' },
+];
+
+// Colors: muted blue for treatment, muted gray-orange for control
+const TREATMENT_COLOR = '#3366cc';
+const TREATMENT_COLOR_LIGHT = 'rgba(51, 102, 204, 0.45)';
+const CONTROL_COLOR = '#e07a38';
+const CONTROL_COLOR_LIGHT = 'rgba(224, 122, 56, 0.40)';
+
+function computeBins(values: number[], numBins: number): { edges: number[]; counts: number[] } {
+  if (values.length === 0) return { edges: [], counts: [] };
+  const lo = Math.min(...values);
+  const hi = Math.max(...values);
+  const range = hi - lo || 1;
+  const binWidth = range / numBins;
+  const edges: number[] = [];
+  const counts: number[] = new Array(numBins).fill(0);
+
+  for (let i = 0; i <= numBins; i++) {
+    edges.push(lo + i * binWidth);
+  }
+
+  for (const v of values) {
+    let idx = Math.floor((v - lo) / binWidth);
+    if (idx >= numBins) idx = numBins - 1;
+    if (idx < 0) idx = 0;
+    counts[idx]++;
+  }
+
+  return { edges, counts };
+}
+
+function HistogramGrid({
+  metricData,
+  groupFilter,
+}: {
+  metricData: Record<string, { treatment: number[]; control: number[] }>;
+  groupFilter: GroupFilter;
+}) {
+  const hasData = Object.values(metricData).some(
+    d => d.treatment.length > 0 || d.control.length > 0,
+  );
+  if (!hasData) return null;
+
+  return (
+    <div style={{ marginBottom: 32 }}>
+      <h3 style={{
+        fontFamily: "Georgia, 'Times New Roman', serif",
+        fontSize: 16,
+        fontWeight: 600,
+        color: '#202122',
+        marginBottom: 16,
+      }}>
+        Score Distributions
+      </h3>
+
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(380px, 1fr))', gap: 20 }}>
+        {HISTOGRAM_METRICS.map(m => {
+          const d = metricData[m.key] || { treatment: [], control: [] };
+          return (
+            <Histogram
+              key={m.key}
+              label={m.label}
+              treatment={d.treatment}
+              control={d.control}
+              groupFilter={groupFilter}
+            />
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function Histogram({
+  label,
+  treatment,
+  control,
+  groupFilter,
+}: {
+  label: string;
+  treatment: number[];
+  control: number[];
+  groupFilter: GroupFilter;
+}) {
+  const showT = (groupFilter === 'treatment' || groupFilter === 'both') && treatment.length > 0;
+  const showC = (groupFilter === 'control' || groupFilter === 'both') && control.length > 0;
+
+  if (!showT && !showC) return null;
+
+  // Merge all values to find global range
+  const allVals = [
+    ...(showT ? treatment : []),
+    ...(showC ? control : []),
+  ];
+  if (allVals.length === 0) return null;
+
+  const NUM_BINS = 8;
+  const globalMin = Math.min(...allVals);
+  const globalMax = Math.max(...allVals);
+  const globalRange = globalMax - globalMin || 1;
+  const binWidth = globalRange / NUM_BINS;
+
+  // Compute bins for each group using the same edges
+  function binsForGroup(values: number[]): number[] {
+    const counts = new Array(NUM_BINS).fill(0);
+    for (const v of values) {
+      let idx = Math.floor((v - globalMin) / binWidth);
+      if (idx >= NUM_BINS) idx = NUM_BINS - 1;
+      if (idx < 0) idx = 0;
+      counts[idx]++;
+    }
+    return counts;
+  }
+
+  const tBins = showT ? binsForGroup(treatment) : [];
+  const cBins = showC ? binsForGroup(control) : [];
+  const maxCount = Math.max(
+    ...(tBins.length ? tBins : [0]),
+    ...(cBins.length ? cBins : [0]),
+    1,
+  );
+
+  const tMean = showT ? mean(treatment) : 0;
+  const cMean = showC ? mean(control) : 0;
+
+  // SVG dimensions
+  const W = 360;
+  const H = 180;
+  const PAD_LEFT = 40;
+  const PAD_RIGHT = 10;
+  const PAD_TOP = 10;
+  const PAD_BOTTOM = 30;
+  const chartW = W - PAD_LEFT - PAD_RIGHT;
+  const chartH = H - PAD_TOP - PAD_BOTTOM;
+
+  function xPos(value: number): number {
+    return PAD_LEFT + ((value - globalMin) / globalRange) * chartW;
+  }
+
+  function yPos(count: number): number {
+    return PAD_TOP + chartH - (count / maxCount) * chartH;
+  }
+
+  // Bar rendering: if both groups, side-by-side within each bin
+  const barGap = 1;
+  const fullBarWidth = chartW / NUM_BINS - barGap;
+  const halfBar = showT && showC ? fullBarWidth / 2 : fullBarWidth;
+
+  // Y-axis ticks
+  const yTicks = [0, Math.round(maxCount / 2), maxCount];
+
+  // X-axis labels: show edges at first, middle, last
+  const xLabels = [
+    { val: globalMin, label: formatAxisLabel(globalMin) },
+    { val: globalMin + globalRange / 2, label: formatAxisLabel(globalMin + globalRange / 2) },
+    { val: globalMax, label: formatAxisLabel(globalMax) },
+  ];
+
+  return (
+    <div style={{
+      background: '#ffffff',
+      border: '1px solid #c8ccd1',
+      borderRadius: 4,
+      padding: 16,
+    }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+        <h4 style={{
+          fontFamily: "Georgia, 'Times New Roman', serif",
+          fontSize: 14,
+          fontWeight: 600,
+          color: '#202122',
+          margin: 0,
+        }}>
+          {label}
+        </h4>
+        <div style={{ display: 'flex', gap: 12, fontSize: 11 }}>
+          {showT && (
+            <span style={{ display: 'flex', alignItems: 'center', gap: 3 }}>
+              <span style={{ display: 'inline-block', width: 10, height: 10, borderRadius: 2, background: TREATMENT_COLOR }} />
+              Treatment (μ={fmt(tMean)})
+            </span>
+          )}
+          {showC && (
+            <span style={{ display: 'flex', alignItems: 'center', gap: 3 }}>
+              <span style={{ display: 'inline-block', width: 10, height: 10, borderRadius: 2, background: CONTROL_COLOR }} />
+              Control (μ={fmt(cMean)})
+            </span>
+          )}
+        </div>
+      </div>
+
+      <svg width={W} height={H} style={{ display: 'block', margin: '0 auto' }}>
+        {/* Y-axis gridlines */}
+        {yTicks.map(tick => (
+          <g key={`ytick-${tick}`}>
+            <line
+              x1={PAD_LEFT} y1={yPos(tick)}
+              x2={W - PAD_RIGHT} y2={yPos(tick)}
+              stroke="#eaecf0" strokeWidth={1}
+            />
+            <text
+              x={PAD_LEFT - 4} y={yPos(tick) + 4}
+              textAnchor="end" fontSize={10} fill="#72777d"
+            >
+              {tick}
+            </text>
+          </g>
+        ))}
+
+        {/* Histogram bars */}
+        {Array.from({ length: NUM_BINS }).map((_, i) => {
+          const binX = PAD_LEFT + i * (chartW / NUM_BINS) + barGap / 2;
+          return (
+            <g key={`bin-${i}`}>
+              {showT && (
+                <rect
+                  x={binX}
+                  y={yPos(tBins[i])}
+                  width={halfBar}
+                  height={chartH - (yPos(tBins[i]) - PAD_TOP)}
+                  fill={TREATMENT_COLOR_LIGHT}
+                  stroke={TREATMENT_COLOR}
+                  strokeWidth={0.5}
+                />
+              )}
+              {showC && (
+                <rect
+                  x={binX + (showT ? halfBar : 0)}
+                  y={yPos(cBins[i])}
+                  width={halfBar}
+                  height={chartH - (yPos(cBins[i]) - PAD_TOP)}
+                  fill={CONTROL_COLOR_LIGHT}
+                  stroke={CONTROL_COLOR}
+                  strokeWidth={0.5}
+                />
+              )}
+            </g>
+          );
+        })}
+
+        {/* Mean lines (axvlines) */}
+        {showT && (
+          <>
+            <line
+              x1={xPos(tMean)} y1={PAD_TOP}
+              x2={xPos(tMean)} y2={PAD_TOP + chartH}
+              stroke={TREATMENT_COLOR} strokeWidth={2} strokeDasharray="6,3"
+            />
+          </>
+        )}
+        {showC && (
+          <>
+            <line
+              x1={xPos(cMean)} y1={PAD_TOP}
+              x2={xPos(cMean)} y2={PAD_TOP + chartH}
+              stroke={CONTROL_COLOR} strokeWidth={2} strokeDasharray="6,3"
+            />
+          </>
+        )}
+
+        {/* X-axis */}
+        <line
+          x1={PAD_LEFT} y1={PAD_TOP + chartH}
+          x2={W - PAD_RIGHT} y2={PAD_TOP + chartH}
+          stroke="#c8ccd1" strokeWidth={1}
+        />
+
+        {/* X-axis labels */}
+        {xLabels.map((xl, i) => (
+          <text
+            key={`xlabel-${i}`}
+            x={xPos(xl.val)}
+            y={H - 6}
+            textAnchor="middle"
+            fontSize={10}
+            fill="#72777d"
+          >
+            {xl.label}
+          </text>
+        ))}
+
+        {/* Y-axis */}
+        <line
+          x1={PAD_LEFT} y1={PAD_TOP}
+          x2={PAD_LEFT} y2={PAD_TOP + chartH}
+          stroke="#c8ccd1" strokeWidth={1}
+        />
+      </svg>
+    </div>
+  );
+}
+
+function formatAxisLabel(v: number): string {
+  if (Math.abs(v) >= 10000) return (v / 1000).toFixed(0) + 'k';
+  if (Math.abs(v) >= 1000) return (v / 1000).toFixed(1) + 'k';
+  if (Number.isInteger(v)) return String(v);
+  return v.toFixed(2);
 }
 
 // ============================================================

@@ -96,8 +96,8 @@ export default function ConsentForm({ onConsent }: ConsentFormProps) {
             </h2>
             <p>
               You will complete a brief demographic survey, edit two Wikipedia articles
-              (approximately 12 minutes each), and complete a post-editing survey. The total
-              time commitment is approximately 45 minutes.
+              (approximately 10 minutes each), and complete a post-editing survey. The total
+              time commitment is approximately 40 minutes.
             </p>
           </section>
 
