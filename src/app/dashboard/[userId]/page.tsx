@@ -189,9 +189,25 @@ export default function DashboardPage() {
         <h1 style={{ fontFamily: "Georgia, 'Linux Libertine', serif", fontSize: '1.5rem' }}>
           Your Editing Metrics
         </h1>
-        <p className="text-sm mt-1" style={{ color: 'var(--wiki-text-secondary)' }}>
-          WikiCredCon Editing Experiment — {data.participant.email}
-        </p>
+        <div className="flex items-center justify-between flex-wrap gap-2">
+          <p className="text-sm mt-1" style={{ color: 'var(--wiki-text-secondary)' }}>
+            WikiCredCon Editing Experiment — {data.participant.email}
+          </p>
+          <a
+            href="/sources"
+            style={{
+              padding: '0.4rem 0.75rem',
+              background: '#3366cc',
+              color: '#fff',
+              borderRadius: 4,
+              fontSize: '0.8rem',
+              fontWeight: 500,
+              textDecoration: 'none',
+            }}
+          >
+            View Source Reliability Scores
+          </a>
+        </div>
       </div>
 
       <div className="max-w-[1100px] mx-auto px-6 py-6">

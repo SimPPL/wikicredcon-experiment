@@ -34,18 +34,18 @@ function formatEngagement(n: number): string {
   return String(n);
 }
 
-// --- Source reliability (Iffy.news dataset) ---
+// --- Source reliability (combined: Lin et al. PC1 + LLM + Iffy.news) ---
 
-// Tier 1-5: very unreliable → mostly reliable. 0 = not rated.
+// Tier 1-5: Very Low → High credibility. 0 = not rated.
 type ReliabilityTier = 0 | 1 | 2 | 3 | 4 | 5;
 
 const TIER_COLORS: Record<ReliabilityTier, { bg: string; border: string; label: string; dot: string }> = {
-  0: { bg: '#f8f9fa', border: '#e0e0e0', label: 'Not rated', dot: '#a2a9b1' },
-  1: { bg: '#fde8e8', border: '#e53e3e', label: 'Very unreliable', dot: '#c53030' },
-  2: { bg: '#fef2e8', border: '#dd6b20', label: 'Unreliable', dot: '#c05621' },
-  3: { bg: '#fefce8', border: '#d69e2e', label: 'Questionable', dot: '#b7791f' },
-  4: { bg: '#fefce8', border: '#ecc94b', label: 'Mixed reliability', dot: '#b7791f' },
-  5: { bg: '#e8f8ef', border: '#38a169', label: 'Mostly reliable', dot: '#276749' },
+  0: { bg: '#f3f4f6', border: '#d1d5db', label: 'Not rated', dot: '#9ca3af' },
+  1: { bg: '#fde8e8', border: '#e53e3e', label: 'Very Low credibility', dot: '#c53030' },
+  2: { bg: '#fef2e8', border: '#dd6b20', label: 'Low credibility', dot: '#c05621' },
+  3: { bg: '#fefce8', border: '#d69e2e', label: 'Mixed credibility', dot: '#92711e' },
+  4: { bg: '#ecfdf5', border: '#38a169', label: 'Moderately High', dot: '#276749' },
+  5: { bg: '#d1fae5', border: '#059669', label: 'High credibility', dot: '#065f46' },
 };
 
 function extractDomain(url: string): string {
@@ -235,9 +235,9 @@ export default function ClaimsSidebar({
   const [highlightPulse, setHighlightPulse] = useState(false);
   const [iffyDomains, setIffyDomains] = useState<Record<string, number>>({});
 
-  // Load iffy-domains reliability data
+  // Load combined domain reliability data (Lin et al. PC1 + LLM + Iffy.news)
   useEffect(() => {
-    fetch('/data/iffy-domains.json')
+    fetch('/data/domain-reliability.json')
       .then(r => r.ok ? r.json() : {})
       .then(setIffyDomains)
       .catch(() => {});
