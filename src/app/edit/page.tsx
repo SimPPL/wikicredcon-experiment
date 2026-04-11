@@ -231,7 +231,7 @@ export default function EditPage() {
   );
 
   const handleReferencesChange = useCallback((sectionId: string, citations: import('@/types').Citation[]) => {
-    const oldCitations = editedCitationsRef.current[sectionId] || [];
+    const prevCitations = editedCitationsRef.current[sectionId];
     setEditedCitations((prev) => {
       const next = { ...prev, [sectionId]: citations };
       editedCitationsRef.current = next;
@@ -239,9 +239,10 @@ export default function EditPage() {
     });
 
     // Track reference changes as edit events
-    if (sessionRef.current) {
-      const added = citations.filter(c => !oldCitations.some(o => o.id === c.id));
-      const removed = oldCitations.filter(o => !citations.some(c => c.id === o.id));
+    if (sessionRef.current && prevCitations !== undefined) {
+      // Only diff against previous known state (not first call which initializes)
+      const added = citations.filter(c => !prevCitations.some(o => o.id === c.id));
+      const removed = prevCitations.filter(o => !citations.some(c => c.id === o.id));
 
       for (const c of added) {
         sessionRef.current.editEvents.push({
@@ -251,7 +252,6 @@ export default function EditPage() {
           contentBefore: '',
           contentAfter: `[ref added] ${c.text.slice(0, 80)} | ${c.url || 'no-url'}`,
         });
-        // Also log as a citation event
         sessionRef.current.citationsAdded.push({
           timestamp: Date.now(),
           sectionId,
@@ -266,6 +266,24 @@ export default function EditPage() {
           action: 'delete',
           contentBefore: `[ref removed] ${c.text.slice(0, 80)} | ${c.url || 'no-url'}`,
           contentAfter: '',
+        });
+      }
+    } else if (sessionRef.current && prevCitations === undefined) {
+      // First call for this section — detect user-added refs (id starts with "new-")
+      const userAdded = citations.filter(c => c.id.startsWith('new-'));
+      for (const c of userAdded) {
+        sessionRef.current.editEvents.push({
+          timestamp: Date.now(),
+          sectionId,
+          action: 'insert',
+          contentBefore: '',
+          contentAfter: `[ref added] ${c.text.slice(0, 80)} | ${c.url || 'no-url'}`,
+        });
+        sessionRef.current.citationsAdded.push({
+          timestamp: Date.now(),
+          sectionId,
+          referenceText: c.text,
+          url: c.url,
         });
       }
     }
