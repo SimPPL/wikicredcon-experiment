@@ -228,21 +228,60 @@ function extractCitations(wikitext: string): Citation[] {
 }
 
 /**
- * Strip wikitext markup to produce readable plain text.
+ * Strip wikitext markup to produce readable text with inline citation markers.
+ *
+ * Key behavior:
+ * - <ref> tags are replaced with [n] markers linking to extracted citations
+ * - Bullet points (* item) converted to "• item" lines
+ * - Numbered lists (# item) converted to numbered lines
+ * - [[File:...]] and [[Image:...]] blocks removed (handles nested brackets)
+ * - {{template}} blocks removed (handles nesting)
+ * - Wikilinks converted to display text
+ * - Tables ({| ... |}) removed
+ * - HTML tags stripped, entities decoded
  */
-function stripWikitext(raw: string): string {
+function stripWikitext(raw: string, citations: Citation[]): string {
   let text = raw;
 
-  // Remove <ref>...</ref> tags (content already extracted as citations)
-  text = text.replace(/<ref(?:\s+[^>]*)?>([^<]*(?:<(?!\/ref>)[^<]*)*)<\/ref>/gi, '');
-  // Remove self-closing <ref ... /> tags
+  // Step 1: Replace <ref>...</ref> with inline [n] markers
+  // This links citations to their position in the text
+  let citationIndex = 0;
+  text = text.replace(/<ref(?:\s+[^>]*)?>([^<]*(?:<(?!\/ref>)[^<]*)*)<\/ref>/gi, () => {
+    const marker = `[${citationIndex}]`;
+    citationIndex++;
+    return marker;
+  });
+  // Self-closing <ref ... /> (named refs reusing earlier definitions)
   text = text.replace(/<ref\s+[^/]*\/>/gi, '');
 
-  // Remove [[File:...]] and [[Image:...]] (can span multiple lines)
-  text = text.replace(/\[\[(?:File|Image):[^\]]*\]\]/gi, '');
+  // Step 2: Remove [[File:...]] and [[Image:...]] with nested brackets
+  // The simple regex fails on [[File:foo|thumb|[[link]] caption]]
+  function removeFileBlocks(input: string): string {
+    let result = '';
+    let i = 0;
+    while (i < input.length) {
+      if (input.slice(i, i + 7).match(/^\[\[(?:File|Image):/i)) {
+        // Found a File/Image block — skip to matching ]]
+        let depth = 1;
+        i += 2; // skip opening [[
+        while (i < input.length && depth > 0) {
+          if (input[i] === '[' && input[i + 1] === '[') { depth++; i += 2; }
+          else if (input[i] === ']' && input[i + 1] === ']') { depth--; i += 2; }
+          else { i++; }
+        }
+      } else {
+        result += input[i];
+        i++;
+      }
+    }
+    return result;
+  }
+  text = removeFileBlocks(text);
 
-  // Remove large templates that span multiple lines (Infobox, etc.)
-  // These use balanced {{ ... }} with nested templates inside
+  // Step 3: Remove table markup {| ... |}
+  text = text.replace(/\{\|[\s\S]*?\|\}/g, '');
+
+  // Step 4: Remove balanced {{ ... }} templates (Infobox, cite, etc.)
   function removeBalancedBraces(input: string): string {
     let result = '';
     let depth = 0;
@@ -266,30 +305,65 @@ function stripWikitext(raw: string): string {
   }
   text = removeBalancedBraces(text);
 
-  // Convert [[link|display text]] -> display text
+  // Step 5: Convert bullet points and numbered lists
+  // * item → • item (with proper line breaks)
+  // ** subitem → • subitem (indented)
+  // # item → 1. item
+  const lines = text.split('\n');
+  let numberedCount = 0;
+  text = lines.map(line => {
+    const bulletMatch = line.match(/^(\*+)\s*(.*)/);
+    if (bulletMatch) {
+      const indent = bulletMatch[1].length > 1 ? '  ' : '';
+      return `${indent}\u2022 ${bulletMatch[2]}`;
+    }
+    const numberMatch = line.match(/^(#+)\s*(.*)/);
+    if (numberMatch) {
+      numberedCount++;
+      return `${numberedCount}. ${numberMatch[2]}`;
+    } else {
+      numberedCount = 0;
+    }
+    // Definition lists (; term : definition)
+    const defMatch = line.match(/^;\s*(.*)/);
+    if (defMatch) return defMatch[1];
+    const defValMatch = line.match(/^:\s*(.*)/);
+    if (defValMatch) return `  ${defValMatch[1]}`;
+    return line;
+  }).join('\n');
+
+  // Step 6: Convert wikilinks
+  // [[link|display text]] -> display text
   text = text.replace(/\[\[[^[\]]*\|([^\]]+)\]\]/g, '$1');
-  // Convert [[link]] -> link
+  // [[link]] -> link
   text = text.replace(/\[\[([^\]]+)\]\]/g, '$1');
 
-  // Remove external links: [http://... display] -> display
+  // Step 7: Remove external links: [http://... display] -> display
   text = text.replace(/\[https?:\/\/[^\s\]]+(?: ([^\]]+))?\]/g, (_, display) => display || '');
 
-  // Remove HTML tags
+  // Step 8: Remove HTML tags (but preserve <br> as newlines)
+  text = text.replace(/<br\s*\/?>/gi, '\n');
   text = text.replace(/<\/?[^>]+>/g, '');
 
-  // Convert '''bold''' -> bold
+  // Step 9: Convert formatting
   text = text.replace(/'''([^']+)'''/g, '$1');
-  // Convert ''italic'' -> italic
   text = text.replace(/''([^']+)''/g, '$1');
 
-  // Remove remaining HTML entities
+  // Step 10: Decode HTML entities
   text = text.replace(/&nbsp;/g, ' ');
   text = text.replace(/&ndash;/g, '\u2013');
   text = text.replace(/&mdash;/g, '\u2014');
   text = text.replace(/&amp;/g, '&');
+  text = text.replace(/&lt;/g, '<');
+  text = text.replace(/&gt;/g, '>');
+  text = text.replace(/&quot;/g, '"');
 
-  // Collapse multiple blank lines
+  // Step 11: Clean up residual brackets and whitespace
+  text = text.replace(/\]\]/g, '');
+  text = text.replace(/\[\[/g, '');
   text = text.replace(/\n{3,}/g, '\n\n');
+  // Clean up leading commas or whitespace from removed images
+  text = text.replace(/^\s*,\s*/gm, '');
 
   return text.trim();
 }
@@ -329,7 +403,7 @@ function parseIntoSections(wikitext: string, articleId: string): ArticleSection[
   const leadEnd = rawSections.length > 0 ? rawSections[0].headingStart : wikitext.length;
   const leadText = wikitext.substring(0, leadEnd);
   const leadCitations = extractCitations(leadText);
-  const leadContent = stripWikitext(leadText);
+  const leadContent = stripWikitext(leadText, leadCitations);
 
   if (leadContent.trim()) {
     sections.push({
@@ -356,7 +430,7 @@ function parseIntoSections(wikitext: string, articleId: string): ArticleSection[
     if (skipTitles.includes(raw.title.toLowerCase())) continue;
 
     const citations = extractCitations(sectionText);
-    const content = stripWikitext(sectionText);
+    const content = stripWikitext(sectionText, citations);
 
     if (!content.trim()) continue;
 
