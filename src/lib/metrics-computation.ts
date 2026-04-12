@@ -1,5 +1,5 @@
 import DiffMatchPatch from 'diff-match-patch';
-import type { EditSession, Article, ArticleSection, ComputedSessionMetrics } from '@/types';
+import type { EditSession, Article, ArticleSection, ComputedSessionMetrics, ClaimGroup } from '@/types';
 
 // ============================================================
 // Post-Submission Metrics Computation
@@ -353,7 +353,8 @@ export function computeComparativeMetrics(
 export function computeGranularMetrics(
   session: EditSession,
   pastArticle: Article,
-  currentArticle: Article
+  currentArticle: Article,
+  claimGroups?: ClaimGroup[],
 ): ComputedSessionMetrics {
   // Content metrics
   let wordsAdded = 0;
@@ -499,6 +500,60 @@ export function computeGranularMetrics(
     : 0;
 
   // Arbiter-specific
+  // Claim coverage (H3): measure what fraction of relevant claim groups
+  // the editor addressed in their edits. A claim group is "addressed" if
+  // any of its claim keywords appear in the editor's added text.
+  const claimCoverageResult = (() => {
+    if (!claimGroups || claimGroups.length === 0) {
+      return { coverage: 0, relevant: 0, addressed: 0 };
+    }
+
+    // Find claim groups relevant to sections the editor edited
+    const editedSections = new Set(
+      pastArticle.sections
+        .filter(s => (session.finalContent[s.id] ?? s.content) !== s.content)
+        .map(s => s.id)
+    );
+
+    const relevantGroups = claimGroups.filter(g =>
+      g.relevantSectionIds.some(sid => editedSections.has(sid))
+    );
+
+    if (relevantGroups.length === 0) {
+      return { coverage: 0, relevant: 0, addressed: 0 };
+    }
+
+    // Build the editor's added text (what they wrote that wasn't in the original)
+    let addedText = '';
+    for (const section of pastArticle.sections) {
+      const edited = session.finalContent[section.id] ?? section.content;
+      if (edited !== section.content) {
+        // Simple: take the edited text (it contains both old + new)
+        addedText += ' ' + edited.toLowerCase();
+      }
+    }
+
+    // A claim group is "addressed" if keywords from its title or claims
+    // appear in the edited text
+    let addressed = 0;
+    for (const group of relevantGroups) {
+      const keywords = group.groupTitle.toLowerCase().split(/\s+/).filter(w => w.length > 4);
+      // Also extract keywords from individual claims
+      for (const claim of (group.claims || [])) {
+        keywords.push(...claim.claimText.toLowerCase().split(/\s+/).filter(w => w.length > 5));
+      }
+      // Check if at least 2 keywords appear in the added text
+      const matchCount = keywords.filter(kw => addedText.includes(kw)).length;
+      if (matchCount >= 2) addressed++;
+    }
+
+    return {
+      coverage: relevantGroups.length > 0 ? addressed / relevantGroups.length : 0,
+      relevant: relevantGroups.length,
+      addressed,
+    };
+  })();
+
   const arbiterClaimsViewed = new Set(
     session.arbiterInteractions
       .filter(a => a.action === 'view' || a.action === 'click')
@@ -533,11 +588,13 @@ export function computeGranularMetrics(
     citationsRemovedByEditor,
     citationsMatchingCurrent,
     citationRecoveryRate,
-    // Citation quality: average reliability of newly added citation domains (0 if none)
-    // Computed from URL domains; 0 = not in database, 1-5 = reliability tier
-    averageCitationReliability: 0, // populated by caller if domain-reliability data is available
+    averageCitationReliability: 0, // populated by caller if domain-reliability data available
+    // Claim coverage (H3): what fraction of relevant claims did the editor address?
+    claimCoverage: claimCoverageResult.coverage,
+    claimGroupsRelevant: claimCoverageResult.relevant,
+    claimGroupsAddressed: claimCoverageResult.addressed,
     arbiterClaimsViewed,
-    arbiterClaimsCoveredInEdits: 0,
+    arbiterClaimsCoveredInEdits: claimCoverageResult.addressed,
     arbiterTimeSpentMs,
   };
 }

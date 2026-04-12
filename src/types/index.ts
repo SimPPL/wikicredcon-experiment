@@ -149,6 +149,10 @@ export interface ComputedSessionMetrics {
   citationRecoveryRate: number; // % of new-in-current citations that editor also added
   // Citation quality (H2 from experiment proposal)
   averageCitationReliability: number; // mean domain reliability score (0-5) of added citations
+  // Claim coverage (H3 from experiment proposal)
+  claimCoverage: number; // fraction of relevant claims addressed in edited text (0-1)
+  claimGroupsRelevant: number; // how many claim groups were relevant to edited sections
+  claimGroupsAddressed: number; // how many the editor's text overlaps with
   // Arbiter-specific (treatment only)
   arbiterClaimsViewed: number;
   arbiterClaimsCoveredInEdits: number;

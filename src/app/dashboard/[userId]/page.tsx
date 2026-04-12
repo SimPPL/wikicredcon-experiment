@@ -475,6 +475,115 @@ export default function DashboardPage() {
                       </div>
                     )}
 
+                    {/* Per-section improvement breakdown (H1) */}
+                    {cm && cm.sectionImprovements && Object.keys(cm.sectionImprovements).length > 0 && (
+                      <div className="mt-3 p-2.5 rounded" style={{ background: '#f0fdf4', border: '1px solid #86efac' }}>
+                        <div className="text-xs font-semibold mb-1.5" style={{ color: '#15803d' }}>
+                          Per-section improvement (vs. current Wikipedia)
+                        </div>
+                        {Object.entries(cm.sectionImprovements)
+                          .filter(([, v]) => v !== 0)
+                          .sort(([, a], [, b]) => b - a)
+                          .map(([sectionId, improvement]) => (
+                            <div key={sectionId} className="flex items-center justify-between text-xs mb-1">
+                              <span style={{ color: '#202122', maxWidth: '60%', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                                {sectionId.replace(/-/g, ' ')}
+                              </span>
+                              <div className="flex items-center gap-2">
+                                <div style={{ width: 80, height: 8, background: '#e5e7eb', borderRadius: 4, overflow: 'hidden' }}>
+                                  <div style={{
+                                    width: `${Math.min(100, Math.abs(improvement) * 500)}%`,
+                                    height: '100%',
+                                    background: improvement >= 0 ? '#22c55e' : '#ef4444',
+                                    borderRadius: 4,
+                                  }} />
+                                </div>
+                                <span style={{ fontWeight: 600, color: improvement >= 0 ? '#15803d' : '#b91c1c', minWidth: 45, textAlign: 'right' }}>
+                                  {improvement >= 0 ? '+' : ''}{(improvement * 100).toFixed(1)}%
+                                </span>
+                              </div>
+                            </div>
+                          ))}
+                        {Object.values(cm.sectionImprovements).every(v => v === 0) && (
+                          <div className="text-xs" style={{ color: '#72777d' }}>No text changes detected in edited sections.</div>
+                        )}
+                      </div>
+                    )}
+
+                    {/* Citation quality (H2) */}
+                    {cm && cm.averageCitationReliability > 0 && (
+                      <div className="mt-3 p-2.5 rounded" style={{ background: '#eff6ff', border: '1px solid #93c5fd' }}>
+                        <div className="text-xs font-semibold mb-1" style={{ color: '#1e40af' }}>
+                          Citation quality
+                        </div>
+                        <div className="flex items-center gap-2 text-xs">
+                          <span style={{ color: '#202122' }}>Average source reliability:</span>
+                          <span style={{
+                            fontWeight: 600,
+                            color: cm.averageCitationReliability >= 4 ? '#15803d'
+                              : cm.averageCitationReliability >= 3 ? '#92711e'
+                              : '#b91c1c',
+                          }}>
+                            {cm.averageCitationReliability.toFixed(1)} / 5
+                          </span>
+                          <span style={{ color: '#72777d' }}>
+                            ({cm.averageCitationReliability >= 4 ? 'High' : cm.averageCitationReliability >= 3 ? 'Mixed' : 'Low'} credibility sources)
+                          </span>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Claim coverage (H3) */}
+                    {cm && cm.claimGroupsRelevant > 0 && (
+                      <div className="mt-3 p-2.5 rounded" style={{ background: '#faf5ff', border: '1px solid #c4b5fd' }}>
+                        <div className="text-xs font-semibold mb-1" style={{ color: '#6d28d9' }}>
+                          Claim coverage
+                        </div>
+                        <div className="text-xs" style={{ color: '#202122' }}>
+                          You addressed <strong>{cm.claimGroupsAddressed}</strong> of{' '}
+                          <strong>{cm.claimGroupsRelevant}</strong> social media claim groups relevant to your
+                          edited sections ({Math.round(cm.claimCoverage * 100)}% coverage).
+                        </div>
+                        {cm.claimCoverage > 0 && (
+                          <div className="mt-1">
+                            <div style={{ width: '100%', height: 8, background: '#e5e7eb', borderRadius: 4, overflow: 'hidden' }}>
+                              <div style={{
+                                width: `${cm.claimCoverage * 100}%`,
+                                height: '100%',
+                                background: '#8b5cf6',
+                                borderRadius: 4,
+                              }} />
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    )}
+
+                    {/* Behavioral metrics */}
+                    {cm && (
+                      <div className="mt-3 p-2.5 rounded" style={{ background: '#f8f9fa', border: '1px solid var(--wiki-chrome-border)' }}>
+                        <div className="text-xs font-semibold mb-1.5" style={{ color: 'var(--wiki-text-secondary)' }}>
+                          Editing behavior
+                        </div>
+                        <div className="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
+                          <div style={{ color: '#72777d' }}>Deliberation time</div>
+                          <div style={{ fontWeight: 500 }}>{formatDuration(cm.deliberationTimeMs)}</div>
+                          <div style={{ color: '#72777d' }}>Edit bursts</div>
+                          <div style={{ fontWeight: 500 }}>{cm.editBurstCount}</div>
+                          <div style={{ color: '#72777d' }}>Tab switches</div>
+                          <div style={{ fontWeight: 500 }}>{cm.tabSwitchCount} ({formatDuration(cm.totalTabAwayMs)} away)</div>
+                          {session.condition === 'treatment' && (
+                            <>
+                              <div style={{ color: '#72777d' }}>Claims viewed</div>
+                              <div style={{ fontWeight: 500 }}>{cm.arbiterClaimsViewed}</div>
+                              <div style={{ color: '#72777d' }}>Claims panel time</div>
+                              <div style={{ fontWeight: 500 }}>{formatDuration(cm.arbiterTimeSpentMs)}</div>
+                            </>
+                          )}
+                        </div>
+                      </div>
+                    )}
+
                     {!cm && (
                       <div className="text-xs mt-2 italic" style={{ color: '#72777d' }}>
                         Ground truth metrics not yet computed.

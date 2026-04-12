@@ -480,7 +480,8 @@ export default function EditPage() {
         sessionRef.current.computedMetrics = computeGranularMetrics(
           sessionRef.current,
           art,
-          gt
+          gt,
+          claimGroups.length > 0 ? claimGroups : undefined,
         );
         // Compute citation reliability if domain data is available
         try {

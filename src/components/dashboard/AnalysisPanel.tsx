@@ -152,8 +152,12 @@ const METRIC_DEFINITIONS: MetricDefinition[] = [
   { key: 'editBurstCount', label: 'Edit Burst Count', description: 'Number of rapid editing bursts', source: 'Behavioral' },
   { key: 'tabSwitches', label: 'Tab Switches', description: 'Times left the page', source: 'Behavioral' },
   { key: 'timeAway', label: 'Time Away (ms)', description: 'Total time on other tabs', source: 'Behavioral' },
-  { key: 'groundTruthSimilarity', label: 'Ground Truth Similarity', description: 'Similarity to current article', source: 'Experiment-specific' },
-  { key: 'improvementOverBaseline', label: 'Improvement Over Baseline', description: 'How much closer to ground truth', source: 'Experiment-specific' },
+  { key: 'groundTruthSimilarity', label: 'Ground Truth Similarity', description: 'Similarity to current article (0-1)', source: 'H1: Text quality' },
+  { key: 'improvementOverBaseline', label: 'Per-Section Improvement', description: 'Avg improvement on edited sections only', source: 'H1: Text quality' },
+  { key: 'citationReliability', label: 'Citation Reliability', description: 'Avg domain reliability of added refs (1-5)', source: 'H2: Citation quality' },
+  { key: 'citationRecoveryRate', label: 'Citation Recovery Rate', description: '% of current-article refs independently found', source: 'H2: Citation quality' },
+  { key: 'claimCoverage', label: 'Claim Coverage', description: 'Fraction of relevant claims addressed (0-1)', source: 'H3: Claim coverage' },
+  { key: 'claimGroupsAddressed', label: 'Claim Groups Addressed', description: 'Number of relevant claim groups covered', source: 'H3: Claim coverage' },
   { key: 'arbiterClaimsViewed', label: 'Claims Viewed', description: 'Claims viewed in sidebar', source: 'Treatment only', treatmentOnly: true },
   { key: 'arbiterTime', label: 'Claims Panel Time (ms)', description: 'Time reading claims', source: 'Treatment only', treatmentOnly: true },
   { key: 'totalEditTime', label: 'Total Edit Time (ms)', description: 'Session duration', source: 'Standard' },
@@ -176,6 +180,10 @@ function extractMetricFromSession(session: EditSession, key: string): number {
       case 'timeAway': return m.totalTabAwayMs;
       case 'groundTruthSimilarity': return m.similarityToGroundTruth;
       case 'improvementOverBaseline': return m.improvementOverBaseline;
+      case 'citationReliability': return m.averageCitationReliability ?? 0;
+      case 'citationRecoveryRate': return m.citationRecoveryRate ?? 0;
+      case 'claimCoverage': return m.claimCoverage ?? 0;
+      case 'claimGroupsAddressed': return m.claimGroupsAddressed ?? 0;
       case 'arbiterClaimsViewed': return m.arbiterClaimsViewed;
       case 'arbiterTime': return m.arbiterTimeSpentMs;
       case 'totalEditTime': return session.totalEditTime;
@@ -415,12 +423,14 @@ export default function AnalysisPanel({ participants }: AnalysisPanelProps) {
 // ============================================================
 
 const HISTOGRAM_METRICS = [
+  { key: 'improvementOverBaseline', label: 'H1: Per-Section Improvement' },
+  { key: 'groundTruthSimilarity', label: 'H1: Ground Truth Similarity' },
+  { key: 'citationsAdded', label: 'H2: Citations Added' },
+  { key: 'citationReliability', label: 'H2: Citation Reliability (1-5)' },
+  { key: 'citationRecoveryRate', label: 'H2: Citation Recovery Rate' },
+  { key: 'claimCoverage', label: 'H3: Claim Coverage (0-1)' },
   { key: 'wordsAdded', label: 'Words Added' },
-  { key: 'citationsAdded', label: 'Citations Added' },
   { key: 'sectionsEdited', label: 'Sections Edited' },
-  { key: 'improvementOverBaseline', label: 'Improvement Over Baseline' },
-  { key: 'groundTruthSimilarity', label: 'Ground Truth Similarity' },
-  { key: 'totalEditTime', label: 'Total Edit Time (ms)' },
 ];
 
 // Colors: muted blue for treatment, muted gray-orange for control
@@ -731,18 +741,26 @@ interface ChartGroup {
 
 const CHART_GROUPS: ChartGroup[] = [
   {
-    title: 'Editing Output',
+    title: 'H1: Text Quality',
     metrics: [
+      { key: 'improvementOverBaseline', label: 'Per-Section Improvement' },
+      { key: 'groundTruthSimilarity', label: 'Ground Truth Similarity' },
       { key: 'wordsAdded', label: 'Words Added' },
-      { key: 'citationsAdded', label: 'Citations Added' },
-      { key: 'sectionsEdited', label: 'Sections Edited' },
     ],
   },
   {
-    title: 'Ground Truth Alignment',
+    title: 'H2: Citation Quality',
     metrics: [
-      { key: 'groundTruthSimilarity', label: 'Similarity to Ground Truth' },
-      { key: 'improvementOverBaseline', label: 'Improvement Over Baseline' },
+      { key: 'citationsAdded', label: 'Citations Added' },
+      { key: 'citationReliability', label: 'Citation Reliability (1-5)' },
+      { key: 'citationRecoveryRate', label: 'Citation Recovery Rate' },
+    ],
+  },
+  {
+    title: 'H3: Claim Coverage',
+    metrics: [
+      { key: 'claimCoverage', label: 'Claim Coverage (0-1)' },
+      { key: 'claimGroupsAddressed', label: 'Claim Groups Addressed' },
     ],
   },
   {
