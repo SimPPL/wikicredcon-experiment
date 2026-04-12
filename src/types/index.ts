@@ -147,6 +147,8 @@ export interface ComputedSessionMetrics {
   citationsRemovedByEditor: number; // citations the editor removed
   citationsMatchingCurrent: number; // editor's citations that match the current article
   citationRecoveryRate: number; // % of new-in-current citations that editor also added
+  // Citation quality (H2 from experiment proposal)
+  averageCitationReliability: number; // mean domain reliability score (0-5) of added citations
   // Arbiter-specific (treatment only)
   arbiterClaimsViewed: number;
   arbiterClaimsCoveredInEdits: number;

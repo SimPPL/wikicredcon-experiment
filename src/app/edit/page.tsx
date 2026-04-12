@@ -23,7 +23,7 @@ import EditToolbar from '@/components/wiki/EditToolbar';
 import EditNotice from '@/components/wiki/EditNotice';
 import PublishDialog from '@/components/wiki/PublishDialog';
 import ClaimsSidebar from '@/components/arbiter/ClaimsSidebar';
-import { computeGranularMetrics } from '@/lib/metrics-computation';
+import { computeGranularMetrics, computeCitationReliability } from '@/lib/metrics-computation';
 import { useIsMobile } from '@/lib/useIsMobile';
 import { selectEditableSections } from '@/lib/section-selection';
 
@@ -438,7 +438,7 @@ export default function EditPage() {
     setShowPublishDialog(true);
   }, []);
 
-  const handlePublish = useCallback((summary?: string, isMinorEdit?: boolean) => {
+  const handlePublish = useCallback(async (summary?: string, isMinorEdit?: boolean) => {
     if (!sessionRef.current || !participant) return;
 
     // Store edit summary in session
@@ -482,6 +482,15 @@ export default function EditPage() {
           art,
           gt
         );
+        // Compute citation reliability if domain data is available
+        try {
+          const domainRes = await fetch('/data/domain-reliability.json');
+          if (domainRes.ok) {
+            const domainData = await domainRes.json();
+            sessionRef.current.computedMetrics.averageCitationReliability =
+              computeCitationReliability(sessionRef.current.computedMetrics, domainData);
+          }
+        } catch { /* non-critical */ }
       } catch (err) {
         console.error('Failed to compute granular metrics:', err);
       }

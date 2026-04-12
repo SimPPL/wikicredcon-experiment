@@ -533,8 +533,47 @@ export function computeGranularMetrics(
     citationsRemovedByEditor,
     citationsMatchingCurrent,
     citationRecoveryRate,
+    // Citation quality: average reliability of newly added citation domains (0 if none)
+    // Computed from URL domains; 0 = not in database, 1-5 = reliability tier
+    averageCitationReliability: 0, // populated by caller if domain-reliability data is available
     arbiterClaimsViewed,
     arbiterClaimsCoveredInEdits: 0,
     arbiterTimeSpentMs,
   };
+}
+
+/**
+ * Compute average citation reliability score for newly added citations.
+ * Call this after computeGranularMetrics with the domain-reliability lookup.
+ */
+export function computeCitationReliability(
+  metrics: ComputedSessionMetrics,
+  domainReliability: Record<string, number>,
+): number {
+  if (metrics.citationUrls.length === 0) return 0;
+
+  const scores: number[] = [];
+  for (const url of metrics.citationUrls) {
+    try {
+      const hostname = new URL(url).hostname.toLowerCase().replace(/^www\./, '');
+      const tier = domainReliability[hostname];
+      if (tier !== undefined) {
+        scores.push(tier);
+      } else {
+        // Check parent domain
+        const parts = hostname.split('.');
+        if (parts.length > 2) {
+          const parent = parts.slice(-2).join('.');
+          const parentTier = domainReliability[parent];
+          if (parentTier !== undefined) scores.push(parentTier);
+        }
+      }
+    } catch {
+      // skip malformed URLs
+    }
+  }
+
+  return scores.length > 0
+    ? scores.reduce((a, b) => a + b, 0) / scores.length
+    : 0;
 }
