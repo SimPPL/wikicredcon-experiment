@@ -87,8 +87,13 @@ const cardStyle: React.CSSProperties = {
 // ── Component ──────────────────────────────────────────────
 
 export default function AdminPage() {
-  // Auth state — session-only, no localStorage
-  const [authenticated, setAuthenticated] = useState(false);
+  // Auth state — persists in sessionStorage (survives reloads within tab)
+  const [authenticated, setAuthenticated] = useState(() => {
+    if (typeof window !== 'undefined') {
+      return sessionStorage.getItem('wikicred_admin_auth') === 'true';
+    }
+    return false;
+  });
   const [loginUsername, setLoginUsername] = useState('');
   const [loginPassword, setLoginPassword] = useState('');
   const [loginError, setLoginError] = useState('');
@@ -112,6 +117,7 @@ export default function AdminPage() {
       loginPassword === EXPERIMENT.ADMIN_PASSWORD
     ) {
       setAuthenticated(true);
+      sessionStorage.setItem('wikicred_admin_auth', 'true');
       setLoginError('');
     } else {
       setLoginError('Invalid username or password.');
