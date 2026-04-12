@@ -33,9 +33,13 @@ export default function EditNotice({ articleId, articleTitle, revisionDate }: Ed
           You have <strong>8 minutes</strong> to edit, plus <strong>2 minutes</strong> to
           finalize and polish your changes before submission.
         </p>
-        <p style={{ fontSize: '0.85rem', lineHeight: 1.6 }}>
+        <p style={{ fontSize: '0.85rem', lineHeight: 1.6, marginBottom: '0.5rem' }}>
           You may use <strong>any sources</strong> you prefer — news articles, academic papers,
           government databases, your own knowledge — to inform your edits.
+        </p>
+        <p style={{ fontSize: '0.85rem', lineHeight: 1.6, fontStyle: 'italic', color: 'var(--wiki-text-secondary)' }}>
+          You do not need to edit the entire article. Pick a few sections that interest you
+          or that you feel could benefit from better sourcing or clearer writing.
         </p>
       </div>
 

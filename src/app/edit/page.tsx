@@ -76,6 +76,8 @@ export default function EditPage() {
   const timerStartRef = useRef<number>(0);
   const editedContentRef = useRef<Record<string, string>>({});
   const editedCitationsRef = useRef<Record<string, import('@/types').Citation[]>>({});
+  const groundTruthRef = useRef<Article | null>(null);
+  const articleRef = useRef<Article | null>(null);
   const flushIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // --- Initialize ---
@@ -123,6 +125,7 @@ export default function EditPage() {
     // Load article and claims
     loadArticle(articleId, 'past').then((art) => {
       setArticle(art);
+      articleRef.current = art;
       // Initialize editedContent with original content
       const initial: Record<string, string> = {};
       art.sections.forEach((s) => {
@@ -135,8 +138,8 @@ export default function EditPage() {
 
     // Also load ground truth (current version) for metrics computation
     loadArticle(articleId, 'current')
-      .then(setGroundTruthArticle)
-      .catch(() => {}); // non-critical
+      .then((art) => { setGroundTruthArticle(art); groundTruthRef.current = art; })
+      .catch((err) => console.error('Failed to load ground truth:', err));
 
     if (cond === 'treatment') {
       loadClaimGroups(articleId).then(setClaimGroups).catch(() => setClaimGroups([]));
@@ -249,6 +252,35 @@ export default function EditPage() {
     },
     []
   );
+
+  const handleResetSection = useCallback((sectionId: string) => {
+    // Reset to original article content
+    const originalContent = articleRef.current?.sections.find(s => s.id === sectionId)?.content;
+    const originalCitations = articleRef.current?.sections.find(s => s.id === sectionId)?.citations;
+    if (originalContent !== undefined) {
+      setEditedContent((prev) => {
+        const next = { ...prev, [sectionId]: originalContent };
+        editedContentRef.current = next;
+        return next;
+      });
+    }
+    if (originalCitations) {
+      setEditedCitations((prev) => {
+        const next = { ...prev, [sectionId]: originalCitations };
+        editedCitationsRef.current = next;
+        return next;
+      });
+    }
+    if (sessionRef.current) {
+      sessionRef.current.editEvents.push({
+        timestamp: Date.now(),
+        sectionId,
+        action: 'replace',
+        contentBefore: '[section reset]',
+        contentAfter: '[reset to original]',
+      });
+    }
+  }, []);
 
   const handleReferencesChange = useCallback((sectionId: string, citations: import('@/types').Citation[]) => {
     const prevCitations = editedCitationsRef.current[sectionId] || [];
@@ -429,13 +461,15 @@ export default function EditPage() {
       sessionRef.current.finalContent['__editedCitations__'] = JSON.stringify(latestCitations);
     }
 
-    // Compute granular metrics if ground truth is available
-    if (article && groundTruthArticle) {
+    // Compute granular metrics if ground truth is available (use refs for fresh values)
+    const art = articleRef.current;
+    const gt = groundTruthRef.current;
+    if (art && gt) {
       try {
         sessionRef.current.computedMetrics = computeGranularMetrics(
           sessionRef.current,
-          article,
-          groundTruthArticle
+          art,
+          gt
         );
       } catch (err) {
         console.error('Failed to compute granular metrics:', err);
@@ -637,6 +671,7 @@ export default function EditPage() {
               onToggleEdit={handleToggleEdit}
               onContentChange={handleContentChange}
               onReferencesChange={handleReferencesChange}
+              onResetSection={handleResetSection}
               onSectionFocus={handleSectionFocus}
               onSectionBlur={handleSectionBlur}
               claims={condition === 'treatment' ? claimGroupsAsLegacyClaims : []}

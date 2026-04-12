@@ -427,7 +427,7 @@ export function computeGranularMetrics(
   const tabSwitchCount = session.tabBlurEvents.length;
   const totalTabAwayMs = session.tabBlurEvents.reduce((s, e) => s + e.duration, 0);
 
-  // Ground truth metrics
+  // Ground truth metrics — compute BOTH whole-article AND edited-sections-only
   const fullOriginal = pastArticle.sections.map(s => s.content).join('\n');
   const fullEdited = pastArticle.sections.map(s => session.finalContent[s.id] ?? s.content).join('\n');
   const fullGroundTruth = currentArticle.sections.map(s => s.content).join('\n');
@@ -435,7 +435,25 @@ export function computeGranularMetrics(
   const similarityToGroundTruth = computeSimilarity(fullEdited, fullGroundTruth);
   const similarityToBaseline = computeSimilarity(fullEdited, fullOriginal);
   const baselineToGT = computeSimilarity(fullOriginal, fullGroundTruth);
-  const improvementOverBaseline = similarityToGroundTruth - baselineToGT;
+
+  // Per-edited-section improvement: only average sections the editor actually touched
+  // This gives a fair score — editing 1 section of 50 shouldn't be diluted by 49 untouched
+  const editedSectionIds = pastArticle.sections
+    .filter(s => {
+      const edited = session.finalContent[s.id] ?? s.content;
+      return edited !== s.content;
+    })
+    .map(s => s.id);
+
+  let improvementOverBaseline: number;
+  if (editedSectionIds.length > 0) {
+    const improvements = editedSectionIds.map(id => sectionImprovements[id] || 0);
+    improvementOverBaseline = improvements.reduce((a, b) => a + b, 0) / improvements.length;
+  } else {
+    // No text edits — check if references were added (still valuable editing)
+    const refsAdded = session.citationsAdded.length;
+    improvementOverBaseline = refsAdded > 0 ? 0.01 * refsAdded : 0; // small positive signal for ref-only edits
+  }
 
   // Citation comparison: past vs current vs editor's changes
   const pastCitationUrls = new Set(

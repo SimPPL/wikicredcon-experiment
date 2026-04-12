@@ -9,6 +9,7 @@ interface SectionEditorProps {
   onToggleEdit: (sectionId: string) => void;
   onContentChange: (sectionId: string, newContent: string) => void;
   onReferencesChange?: (sectionId: string, citations: Citation[]) => void;
+  onResetSection?: (sectionId: string) => void;
   editedContent?: string;
   editedCitations?: Citation[];
   onFocus?: (sectionId: string) => void;
@@ -48,13 +49,13 @@ function EditableReferences({
   return (
     <div className="mt-3 p-3 rounded" style={{ background: '#f8f9fa', border: '1px solid var(--wiki-chrome-border)' }}>
       <div className="flex items-center justify-between mb-2">
-        <span className="text-xs font-semibold" style={{ color: 'var(--wiki-text-secondary)' }}>
+        <span className="text-sm font-semibold" style={{ color: 'var(--wiki-text-secondary)' }}>
           References ({citations.length})
         </span>
         <button
           onClick={() => setShowAddForm(!showAddForm)}
-          className="text-xs px-2 py-0.5 rounded cursor-pointer"
-          style={{ color: 'var(--wiki-link)', border: '1px solid var(--wiki-chrome-border)', background: '#fff' }}
+          className="text-sm px-3 py-1.5 rounded cursor-pointer"
+          style={{ color: 'var(--wiki-link)', border: '1px solid var(--wiki-chrome-border)', background: '#fff', minHeight: 36 }}
         >
           + Add reference
         </button>
@@ -62,35 +63,35 @@ function EditableReferences({
 
       {/* Add reference form */}
       {showAddForm && (
-        <div className="mb-2 p-2 rounded" style={{ background: '#fff', border: '1px solid var(--wiki-chrome-border)' }}>
+        <div className="mb-3 p-3 rounded" style={{ background: '#fff', border: '1px solid var(--wiki-chrome-border)' }}>
           <input
             type="text"
             value={newRefText}
             onChange={(e) => setNewRefText(e.target.value)}
             placeholder="Reference description (e.g., Author, Title, Year)"
-            className="w-full border rounded px-2 py-1 text-xs mb-1"
-            style={{ borderColor: 'var(--wiki-chrome-border)' }}
+            className="w-full border rounded px-3 py-2 text-sm mb-2"
+            style={{ borderColor: 'var(--wiki-chrome-border)', minHeight: 40 }}
           />
           <input
             type="url"
             value={newRefUrl}
             onChange={(e) => setNewRefUrl(e.target.value)}
             placeholder="URL (optional)"
-            className="w-full border rounded px-2 py-1 text-xs mb-1"
-            style={{ borderColor: 'var(--wiki-chrome-border)' }}
+            className="w-full border rounded px-3 py-2 text-sm mb-2"
+            style={{ borderColor: 'var(--wiki-chrome-border)', minHeight: 40 }}
           />
           <div className="flex gap-2">
             <button
               onClick={handleAdd}
-              className="text-xs px-2 py-0.5 rounded cursor-pointer text-white"
-              style={{ background: 'var(--wiki-button-primary)' }}
+              className="text-sm px-4 py-2 rounded cursor-pointer text-white"
+              style={{ background: 'var(--wiki-button-primary)', minHeight: 36 }}
             >
               Add
             </button>
             <button
               onClick={() => { setShowAddForm(false); setNewRefText(''); setNewRefUrl(''); }}
-              className="text-xs px-2 py-0.5 rounded cursor-pointer"
-              style={{ color: 'var(--wiki-text-secondary)', border: '1px solid var(--wiki-chrome-border)' }}
+              className="text-sm px-4 py-2 rounded cursor-pointer"
+              style={{ color: 'var(--wiki-text-secondary)', border: '1px solid var(--wiki-chrome-border)', minHeight: 36 }}
             >
               Cancel
             </button>
@@ -99,9 +100,9 @@ function EditableReferences({
       )}
 
       {/* Existing references — editable */}
-      <ol className="pl-4 space-y-1" style={{ fontSize: '0.7rem', color: 'var(--wiki-text-secondary)', lineHeight: 1.4 }}>
+      <ol className="pl-4 space-y-2" style={{ fontSize: '0.8rem', color: 'var(--wiki-text-secondary)', lineHeight: 1.5 }}>
         {citations.map((c) => (
-          <li key={c.id} className="flex items-start gap-1 group">
+          <li key={c.id} className="flex items-start gap-2">
             <div className="flex-1 min-w-0">
               {c.url ? (
                 <a
@@ -119,8 +120,15 @@ function EditableReferences({
             </div>
             <button
               onClick={() => handleRemove(c.id)}
-              className="text-xs cursor-pointer opacity-40 hover:opacity-100 flex-shrink-0"
-              style={{ color: 'var(--wiki-error)', background: 'none', border: 'none', padding: '0 2px' }}
+              className="text-sm cursor-pointer flex-shrink-0 rounded"
+              style={{
+                color: 'var(--wiki-error)',
+                background: 'none',
+                border: '1px solid var(--wiki-chrome-border)',
+                padding: '2px 8px',
+                minHeight: 28,
+                minWidth: 28,
+              }}
               title="Remove this reference"
             >
               ×
@@ -228,6 +236,7 @@ export default function SectionEditor({
   onContentChange,
   editedContent,
   onReferencesChange,
+  onResetSection,
   editedCitations,
   onFocus,
   onBlur,
@@ -244,14 +253,25 @@ export default function SectionEditor({
       return (
         <div className="mb-4" style={{ border: '1px solid var(--wiki-link)', borderRadius: 2, padding: '0.5rem' }}>
           <div className="flex items-center justify-between mb-1">
-            <span className="text-sm font-semibold" style={{ color: 'var(--wiki-text-secondary)' }}>Editing lead section</span>
-            <button
-              onClick={() => onToggleEdit(section.id)}
-              className="text-xs px-3 py-1 rounded cursor-pointer"
-              style={{ color: 'var(--wiki-link)', border: '1px solid var(--wiki-chrome-border)' }}
-            >
-              Done
-            </button>
+            <span className="text-sm font-semibold" style={{ color: 'var(--wiki-text-secondary)' }}>Editing lead section <span style={{ fontWeight: 400, color: 'var(--wiki-text-disabled)', fontSize: '0.75rem' }}>(auto-saved)</span></span>
+            <div className="flex gap-2">
+              {onResetSection && (
+                <button
+                  onClick={() => { if (window.confirm('Reset this section to the original text? Your edits will be lost.')) onResetSection(section.id); }}
+                  className="text-xs px-3 py-1.5 rounded cursor-pointer"
+                  style={{ color: 'var(--wiki-error)', border: '1px solid var(--wiki-chrome-border)' }}
+                >
+                  Reset
+                </button>
+              )}
+              <button
+                onClick={() => onToggleEdit(section.id)}
+                className="text-xs px-3 py-1.5 rounded cursor-pointer"
+                style={{ color: 'var(--wiki-link)', border: '1px solid var(--wiki-chrome-border)' }}
+              >
+                Close editor
+              </button>
+            </div>
           </div>
           <textarea
             className="wiki-editor-textarea"
@@ -330,14 +350,26 @@ export default function SectionEditor({
             onChange={(updated) => onReferencesChange(section.id, updated)}
           />
         )}
-        <div className="flex justify-end mt-2">
-          <button
-            onClick={() => onToggleEdit(section.id)}
-            className="text-xs px-3 py-1 rounded cursor-pointer"
-            style={{ color: 'var(--wiki-link)', border: '1px solid var(--wiki-chrome-border)' }}
-          >
-            Done editing section
-          </button>
+        <div className="flex items-center justify-between mt-2">
+          <span style={{ fontSize: '0.7rem', color: 'var(--wiki-text-disabled)' }}>Changes auto-saved</span>
+          <div className="flex gap-2">
+            {onResetSection && (
+              <button
+                onClick={() => { if (window.confirm('Reset this section to the original text? Your edits will be lost.')) onResetSection(section.id); }}
+                className="text-xs px-3 py-1.5 rounded cursor-pointer"
+                style={{ color: 'var(--wiki-error)', border: '1px solid var(--wiki-chrome-border)' }}
+              >
+                Reset
+              </button>
+            )}
+            <button
+              onClick={() => onToggleEdit(section.id)}
+              className="text-xs px-3 py-1.5 rounded cursor-pointer"
+              style={{ color: 'var(--wiki-link)', border: '1px solid var(--wiki-chrome-border)' }}
+            >
+              Close editor
+            </button>
+          </div>
         </div>
       </div>
     );

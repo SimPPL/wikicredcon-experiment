@@ -11,6 +11,7 @@ interface ArticleRendererProps {
   onToggleEdit: (sectionId: string) => void;
   onContentChange: (sectionId: string, newContent: string) => void;
   onReferencesChange?: (sectionId: string, citations: Citation[]) => void;
+  onResetSection?: (sectionId: string) => void;
   onSectionFocus?: (sectionId: string) => void;
   onSectionBlur?: (sectionId: string) => void;
   claims?: ArbiterClaim[];
@@ -25,6 +26,7 @@ export default function ArticleRenderer({
   onToggleEdit,
   onContentChange,
   onReferencesChange,
+  onResetSection,
   onSectionFocus,
   onSectionBlur,
   claims = [],
@@ -75,6 +77,7 @@ export default function ArticleRenderer({
               onToggleEdit={readOnly ? () => {} : onToggleEdit}
               onContentChange={onContentChange}
               onReferencesChange={readOnly ? undefined : onReferencesChange}
+              onResetSection={readOnly ? undefined : onResetSection}
               editedContent={editedContent[section.id]}
               editedCitations={editedCitations?.[section.id]}
               onFocus={onSectionFocus}
