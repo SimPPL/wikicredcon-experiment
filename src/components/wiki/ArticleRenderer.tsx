@@ -16,6 +16,7 @@ interface ArticleRendererProps {
   onSectionBlur?: (sectionId: string) => void;
   claims?: ArbiterClaim[];
   readOnly?: boolean;
+  editableSectionIds?: string[] | null;
 }
 
 export default function ArticleRenderer({
@@ -31,6 +32,7 @@ export default function ArticleRenderer({
   onSectionBlur,
   claims = [],
   readOnly = false,
+  editableSectionIds = null,
 }: ArticleRendererProps) {
   // Count claims per section for highlighting
   const claimCountBySection: Record<string, number> = {};
@@ -46,11 +48,19 @@ export default function ArticleRenderer({
 
       {article.sections.map((section) => {
         const claimCount = claimCountBySection[section.id] || 0;
+        // If editableSectionIds is set, only those sections are editable
+        const sectionReadOnly = readOnly || (editableSectionIds !== null && !editableSectionIds.includes(section.id));
 
         return (
-          <div key={section.id} style={{ position: 'relative' }}>
+          <div key={section.id} style={{ position: 'relative', opacity: sectionReadOnly && !readOnly ? 0.7 : 1 }}>
+            {/* Read-only indicator for non-editable sections */}
+            {sectionReadOnly && !readOnly && editableSectionIds !== null && (
+              <div style={{ fontSize: '0.7rem', color: 'var(--wiki-text-disabled)', fontStyle: 'italic', marginBottom: 2 }}>
+                Read-only (not selected for editing)
+              </div>
+            )}
             {/* Claim indicator badge on sections with claims */}
-            {claimCount > 0 && !readOnly && (
+            {claimCount > 0 && !sectionReadOnly && (
               <div
                 style={{
                   position: 'absolute',
@@ -73,16 +83,16 @@ export default function ArticleRenderer({
             )}
             <SectionEditor
               section={section}
-              isEditing={!readOnly && editingSectionId === section.id}
-              onToggleEdit={readOnly ? () => {} : onToggleEdit}
+              isEditing={!sectionReadOnly && editingSectionId === section.id}
+              onToggleEdit={sectionReadOnly ? () => {} : onToggleEdit}
               onContentChange={onContentChange}
-              onReferencesChange={readOnly ? undefined : onReferencesChange}
-              onResetSection={readOnly ? undefined : onResetSection}
+              onReferencesChange={sectionReadOnly ? undefined : onReferencesChange}
+              onResetSection={sectionReadOnly ? undefined : onResetSection}
               editedContent={editedContent[section.id]}
               editedCitations={editedCitations?.[section.id]}
               onFocus={onSectionFocus}
               onBlur={onSectionBlur}
-              hideEditLink={readOnly}
+              hideEditLink={sectionReadOnly}
             />
           </div>
         );

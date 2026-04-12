@@ -25,6 +25,7 @@ import PublishDialog from '@/components/wiki/PublishDialog';
 import ClaimsSidebar from '@/components/arbiter/ClaimsSidebar';
 import { computeGranularMetrics } from '@/lib/metrics-computation';
 import { useIsMobile } from '@/lib/useIsMobile';
+import { selectEditableSections } from '@/lib/section-selection';
 
 function createNewSession(participantId: string, condition: 'treatment' | 'control', articleId: string, isMobileDevice: boolean): EditSession {
   return {
@@ -66,6 +67,7 @@ export default function EditPage() {
   const [finalizeNudgeDismissed, setFinalizeNudgeDismissed] = useState(false);
   const [editSummary, setEditSummary] = useState('');
   const [loading, setLoading] = useState(true);
+  const [editableSectionIds, setEditableSectionIds] = useState<string[] | null>(null);
 
   const isMobile = useIsMobile();
 
@@ -205,6 +207,15 @@ export default function EditPage() {
       if (flushIntervalRef.current) clearInterval(flushIntervalRef.current);
     };
   }, []);
+
+  // --- Select editable sections (stratified sampling) ---
+  useEffect(() => {
+    if (!article || loading) return;
+    const gt = groundTruthRef.current;
+    // Use claim groups for stratification (even in control condition, to keep section selection consistent)
+    const selected = selectEditableSections(article, gt, claimGroups);
+    setEditableSectionIds(selected);
+  }, [article, claimGroups, loading]);
 
   // --- Timer ---
   useEffect(() => {
@@ -676,6 +687,7 @@ export default function EditPage() {
               onSectionBlur={handleSectionBlur}
               claims={condition === 'treatment' ? claimGroupsAsLegacyClaims : []}
               readOnly={viewMode === 'read'}
+              editableSectionIds={editableSectionIds}
             />
 
             {/* Publish area — mimics Wikipedia's bottom section */}
