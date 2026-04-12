@@ -70,6 +70,7 @@ export default function DashboardPage() {
   const [data, setData] = useState<ParticipantData | null>(null);
   const [articles, setArticles] = useState<Record<string, Article>>({});
   const [loading, setLoading] = useState(true);
+  const [uploadStatus, setUploadStatus] = useState<'idle' | 'uploading' | 'success' | 'error'>('idle');
 
   useEffect(() => {
     // Try to load from localStorage
@@ -193,20 +194,54 @@ export default function DashboardPage() {
           <p className="text-sm mt-1" style={{ color: 'var(--wiki-text-secondary)' }}>
             WikiCredCon Editing Experiment — {data.participant.email}
           </p>
-          <a
-            href="/sources"
-            style={{
-              padding: '0.4rem 0.75rem',
-              background: '#3366cc',
-              color: '#fff',
-              borderRadius: 4,
-              fontSize: '0.8rem',
-              fontWeight: 500,
-              textDecoration: 'none',
-            }}
-          >
-            View Source Reliability Scores
-          </a>
+          <div className="flex gap-2 flex-wrap">
+            <button
+              onClick={async () => {
+                if (!data) return;
+                setUploadStatus('uploading');
+                try {
+                  const res = await fetch('/api/persist', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ participantId: data.participant.id, data }),
+                  });
+                  setUploadStatus(res.ok ? 'success' : 'error');
+                } catch {
+                  setUploadStatus('error');
+                }
+              }}
+              disabled={uploadStatus === 'uploading'}
+              style={{
+                padding: '0.4rem 0.75rem',
+                background: uploadStatus === 'success' ? '#14866d' : uploadStatus === 'error' ? '#d33' : '#7c3aed',
+                color: '#fff',
+                borderRadius: 4,
+                fontSize: '0.8rem',
+                fontWeight: 500,
+                border: 'none',
+                cursor: uploadStatus === 'uploading' ? 'wait' : 'pointer',
+              }}
+            >
+              {uploadStatus === 'idle' && 'Sync Data to Server'}
+              {uploadStatus === 'uploading' && 'Uploading...'}
+              {uploadStatus === 'success' && 'Synced'}
+              {uploadStatus === 'error' && 'Failed — Retry'}
+            </button>
+            <a
+              href="/sources"
+              style={{
+                padding: '0.4rem 0.75rem',
+                background: '#3366cc',
+                color: '#fff',
+                borderRadius: 4,
+                fontSize: '0.8rem',
+                fontWeight: 500,
+                textDecoration: 'none',
+              }}
+            >
+              Source Reliability Scores
+            </a>
+          </div>
         </div>
       </div>
 
