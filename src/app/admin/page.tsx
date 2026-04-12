@@ -642,6 +642,43 @@ export default function AdminPage() {
             Generate Dummy Data
           </button>
           <button
+            onClick={() => {
+              if (!window.confirm('Remove all generated/dummy participant data from localStorage? Real participant data will be kept.')) return;
+              let removed = 0;
+              const keysToRemove: string[] = [];
+              for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if (!key?.startsWith('wikicred_participant_data_')) continue;
+                try {
+                  const d = JSON.parse(localStorage.getItem(key)!);
+                  const pid = d.participant?.id || '';
+                  const email = d.participant?.email || '';
+                  // Generated data has dummy emails or IDs from the generator script
+                  if (email.includes('example.com') || email.includes('dummy') ||
+                      pid.startsWith('DUMMY') || email.includes('@t.org') ||
+                      email.includes('@test.org') || email.includes('@wikicred-test.org')) {
+                    keysToRemove.push(key);
+                  }
+                } catch { /* skip */ }
+              }
+              keysToRemove.forEach(k => { localStorage.removeItem(k); removed++; });
+              loadAllParticipants();
+              alert(`Removed ${removed} generated participant(s). ${participants.length - removed} real participant(s) remain.`);
+            }}
+            style={{
+              padding: '0.45rem 1rem',
+              backgroundColor: '#dc2626',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '2px',
+              cursor: 'pointer',
+              fontSize: '0.85rem',
+              fontWeight: 500,
+            }}
+          >
+            Delete Generated Data
+          </button>
+          <button
             onClick={async () => {
               try {
                 const res = await fetch('/api/persist');

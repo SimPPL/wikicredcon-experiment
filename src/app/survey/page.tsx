@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { LS_KEYS } from '@/lib/constants';
 import { saveParticipantData } from '@/lib/data-export';
+import { persistToServer } from '@/lib/persist';
 import type {
   Participant,
   EditSession,
@@ -67,7 +68,7 @@ export default function SurveyPage() {
     setReady(true);
   }, []);
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (submitting || !participant) return;
     setSubmitting(true);
@@ -108,18 +109,10 @@ export default function SurveyPage() {
 
     saveParticipantData(fullData);
 
-    // Persist to Supabase (fire-and-forget — don't block on it)
-    fetch('/api/persist', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        participantId: participant.id,
-        data: fullData,
-      }),
-    }).catch((err) => console.error('Failed to persist to server:', err));
-
-    // Advance to complete
+    // Persist to Supabase with retries — wait for it before navigating
     localStorage.setItem(LS_KEYS.PHASE, 'complete');
+    await persistToServer(participant.id, fullData);
+
     window.location.href = `/dashboard/${participant.id}`;
   }
 

@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation';
 import { formatDuration, formatTimestamp } from '@/lib/utils';
 import type { ParticipantData, EditSession, Article } from '@/types';
 import DiffView from '@/components/wiki/DiffView';
+import { retryPendingSync } from '@/lib/persist';
 
 function BarChart({ data, label }: { data: Record<string, number>; label: string }) {
   const max = Math.max(...Object.values(data), 1);
@@ -79,6 +80,9 @@ export default function DashboardPage() {
       setData(JSON.parse(stored));
     }
     setLoading(false);
+
+    // Auto-retry any failed sync from previous session
+    retryPendingSync().catch(() => {});
 
     // Load ground truth articles for diff comparison
     async function loadArticles() {
