@@ -12,6 +12,21 @@ export default function EditNotice({ articleId, articleTitle, revisionDate }: Ed
 
   return (
     <div className="space-y-3 mb-4">
+      {/* Simulation disclaimer */}
+      <div
+        className="p-3 text-sm rounded"
+        style={{
+          background: '#eff6ff',
+          border: '2px solid #60a5fa',
+          color: 'var(--wiki-text)',
+        }}
+      >
+        <strong>Note:</strong> This is a simulated editing environment for research purposes.
+        You are <strong>not</strong> editing the actual Wikipedia article — your changes will
+        not appear on Wikipedia. This is part of a study on how editors interact with
+        different information sources.
+      </div>
+
       {/* Task instructions — what the editor should do */}
       <div
         className="p-4 text-sm rounded"
