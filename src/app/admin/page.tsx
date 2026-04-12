@@ -720,6 +720,23 @@ export default function AdminPage() {
           >
             Sync from Server
           </button>
+          <a
+            href="/sources"
+            target="_blank"
+            style={{
+              padding: '0.45rem 1rem',
+              backgroundColor: '#3366cc',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '2px',
+              cursor: 'pointer',
+              fontSize: '0.85rem',
+              fontWeight: 500,
+              textDecoration: 'none',
+            }}
+          >
+            Source Reliability Scores
+          </a>
         </div>
 
         {/* ── Overview cards ─────────────────────────────── */}

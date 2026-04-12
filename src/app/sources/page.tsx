@@ -34,10 +34,11 @@ export default function SourceScoresPage() {
   const [sortField, setSortField] = useState<'domain' | 'combined_score' | 'category'>('combined_score');
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
 
-  // Gate: only show after experiment completion
+  // Gate: show after experiment completion OR if admin is logged in
   useEffect(() => {
     const phase = localStorage.getItem(LS_KEYS.PHASE);
-    if (phase === 'complete') {
+    const isAdmin = sessionStorage.getItem('wikicred_admin_auth') === 'true';
+    if (phase === 'complete' || isAdmin) {
       setAuthorized(true);
     }
     setLoading(false);

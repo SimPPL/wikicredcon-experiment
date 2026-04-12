@@ -72,6 +72,15 @@ export default function DashboardPage() {
   const [articles, setArticles] = useState<Record<string, Article>>({});
   const [loading, setLoading] = useState(true);
   const [uploadStatus, setUploadStatus] = useState<'idle' | 'uploading' | 'success' | 'error'>('idle');
+  const [domainReliability, setDomainReliability] = useState<Record<string, number>>({});
+
+  // Load domain reliability data for citation scoring display
+  useEffect(() => {
+    fetch('/data/domain-reliability.json')
+      .then(r => r.ok ? r.json() : {})
+      .then(setDomainReliability)
+      .catch(() => {});
+  }, []);
 
   useEffect(() => {
     // Try to load from localStorage
@@ -799,31 +808,57 @@ export default function DashboardPage() {
                   );
                 })}
 
-              {/* Citations list */}
+              {/* Citations list with reliability scores */}
               {session.citationsAdded.length > 0 && (
                 <div className="mt-4">
                   <h4 className="text-sm font-semibold mb-2" style={{ color: 'var(--wiki-text-secondary)' }}>
                     Citations added
                   </h4>
-                  <ul className="text-sm space-y-1">
-                    {session.citationsAdded.map((c, i) => (
-                      <li key={i} className="flex gap-2">
-                        <span style={{ color: 'var(--wiki-text-disabled)' }}>
-                          [{i + 1}]
-                        </span>
-                        <span>{c.referenceText}</span>
-                        {c.url && (
-                          <a
-                            href={c.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            style={{ color: 'var(--wiki-link)' }}
-                          >
-                            link
-                          </a>
-                        )}
-                      </li>
-                    ))}
+                  <ul className="text-sm space-y-2">
+                    {session.citationsAdded.map((c, i) => {
+                      // Look up reliability tier for this citation's domain
+                      let domain = '';
+                      let tier = 0;
+                      if (c.url) {
+                        try {
+                          domain = new URL(c.url).hostname.replace(/^www\./, '');
+                          tier = domainReliability[domain] || 0;
+                          if (!tier) {
+                            const parts = domain.split('.');
+                            if (parts.length > 2) tier = domainReliability[parts.slice(-2).join('.')] || 0;
+                          }
+                        } catch {}
+                      }
+                      const tierColors: Record<number, { bg: string; text: string; label: string }> = {
+                        0: { bg: '#f3f4f6', text: '#6b7280', label: 'Not rated' },
+                        1: { bg: '#fde8e8', text: '#c53030', label: 'Very Low' },
+                        2: { bg: '#fef2e8', text: '#c05621', label: 'Low' },
+                        3: { bg: '#fefce8', text: '#92711e', label: 'Mixed' },
+                        4: { bg: '#ecfdf5', text: '#276749', label: 'Mod. High' },
+                        5: { bg: '#d1fae5', text: '#065f46', label: 'High' },
+                      };
+                      const tc = tierColors[tier] || tierColors[0];
+                      return (
+                        <li key={i} style={{ padding: '6px 8px', borderRadius: 4, background: tc.bg, borderLeft: `3px solid ${tc.text}` }}>
+                          <div className="flex items-start gap-2">
+                            <span style={{ color: 'var(--wiki-text-disabled)', flexShrink: 0 }}>[{i + 1}]</span>
+                            <div className="flex-1 min-w-0">
+                              <div>{c.referenceText?.slice(0, 120)}{(c.referenceText?.length || 0) > 120 ? '...' : ''}</div>
+                              <div className="flex items-center gap-2 mt-1" style={{ fontSize: '0.75rem' }}>
+                                {c.url && (
+                                  <a href={c.url} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--wiki-link)' }}>
+                                    {domain || 'link'}
+                                  </a>
+                                )}
+                                <span style={{ padding: '1px 6px', borderRadius: 8, background: tc.text, color: '#fff', fontSize: '0.65rem', fontWeight: 600 }}>
+                                  {tc.label}
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
               )}
@@ -849,9 +884,65 @@ export default function DashboardPage() {
           >
             Export My Data (JSON)
           </button>
-          <p className="text-xs mt-2 mb-4" style={{ color: 'var(--wiki-text-disabled)' }}>
+          <p className="text-xs mt-2 mb-6" style={{ color: 'var(--wiki-text-disabled)' }}>
             Download your experiment data to share with the workshop facilitator.
           </p>
+
+          {/* Source Reliability Scores — prominent link */}
+          <div
+            className="rounded-lg border mb-6"
+            style={{ borderColor: '#93c5fd', background: '#eff6ff', padding: '1.5rem' }}
+          >
+            <h3
+              style={{ fontFamily: "Georgia, 'Linux Libertine', serif", fontSize: '1.15rem', color: '#1e40af', marginBottom: '0.5rem' }}
+            >
+              Source Reliability Scores
+            </h3>
+            <p className="text-sm mb-3" style={{ color: '#202122', lineHeight: 1.6 }}>
+              During the experiment, sources in the claims panel were color-coded by credibility.
+              These ratings were synthesized from three independent academic rating systems
+              covering 11,786 news and media domains. You can now explore the full database,
+              search for any domain, and download the complete scoring methodology and data.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <a
+                href="/sources"
+                style={{
+                  padding: '0.6rem 1.2rem',
+                  background: '#3366cc',
+                  color: '#fff',
+                  borderRadius: 6,
+                  fontSize: '0.9rem',
+                  fontWeight: 600,
+                  textDecoration: 'none',
+                }}
+              >
+                Explore Source Reliability Scores
+              </a>
+              <a
+                href="/data/source-reliability-scores.csv"
+                download
+                style={{
+                  padding: '0.6rem 1.2rem',
+                  background: '#fff',
+                  color: '#3366cc',
+                  borderRadius: 6,
+                  fontSize: '0.9rem',
+                  fontWeight: 500,
+                  textDecoration: 'none',
+                  border: '1px solid #3366cc',
+                }}
+              >
+                Download CSV
+              </a>
+            </div>
+            <p className="text-xs mt-3" style={{ color: '#54595d', lineHeight: 1.5 }}>
+              Based on: Lin et al. (2023, PNAS Nexus) domain quality ratings,
+              Yang &amp; Menczer (2025) LLM credibility ratings,
+              and Iffy.news curated domain assessments.
+            </p>
+          </div>
+
           <a
             href="/"
             className="px-6 py-2 rounded cursor-pointer text-sm inline-block"
