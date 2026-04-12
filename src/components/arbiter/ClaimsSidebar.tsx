@@ -566,6 +566,49 @@ export default function ClaimsSidebar({
         Click on a claim group to see the claims and sources that relate to it.
       </p>
 
+      {/* Source reliability legend */}
+      <details className="text-xs mb-3">
+        <summary style={{ color: 'var(--wiki-link)', cursor: 'pointer', fontWeight: 500, fontSize: '0.7rem' }}>
+          About source reliability ratings
+        </summary>
+        <div className="mt-1 p-2 rounded" style={{ background: '#f8f9fa', border: '1px solid var(--wiki-chrome-border)', lineHeight: 1.5 }}>
+          <p style={{ marginBottom: 4, color: 'var(--wiki-text)' }}>
+            Sources linked in claims are color-coded by credibility using ratings
+            from three independent systems:
+          </p>
+          <div className="space-y-0.5" style={{ fontSize: '0.65rem' }}>
+            <div className="flex items-center gap-1.5">
+              <span style={{ display: 'inline-block', width: 8, height: 8, borderRadius: '50%', background: '#059669' }} />
+              <span><strong>High</strong> — consistently rated reliable across multiple assessments</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <span style={{ display: 'inline-block', width: 8, height: 8, borderRadius: '50%', background: '#38a169' }} />
+              <span><strong>Moderately High</strong> — generally reliable with some caveats</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <span style={{ display: 'inline-block', width: 8, height: 8, borderRadius: '50%', background: '#d69e2e' }} />
+              <span><strong>Mixed</strong> — variable quality, verify claims independently</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <span style={{ display: 'inline-block', width: 8, height: 8, borderRadius: '50%', background: '#dd6b20' }} />
+              <span><strong>Low</strong> — frequently publishes inaccurate content</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <span style={{ display: 'inline-block', width: 8, height: 8, borderRadius: '50%', background: '#e53e3e' }} />
+              <span><strong>Very Low</strong> — poor factual record, use extreme caution</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <span style={{ display: 'inline-block', width: 8, height: 8, borderRadius: '50%', background: '#9ca3af' }} />
+              <span><strong>Not rated</strong> — academic, government, or niche domain not in rating databases</span>
+            </div>
+          </div>
+          <p style={{ marginTop: 6, color: 'var(--wiki-text-secondary)', fontSize: '0.6rem' }}>
+            Ratings synthesized from Lin et al. (2023, PNAS Nexus), Yang &amp; Menczer (2025),
+            and Iffy.news. Full methodology and scores available after experiment completion.
+          </p>
+        </div>
+      </details>
+
       {/* Active section indicator */}
       {activeSectionId && sectionTitles[activeSectionId] && (
         <div
