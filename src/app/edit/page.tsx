@@ -124,14 +124,32 @@ export default function EditPage() {
     const { articleId, condition: cond } = getArticleForPhase(p, storedPhase);
     setCondition(cond);
 
+    // Check for a restored session FIRST (before loading article)
+    const storedSession = localStorage.getItem(LS_KEYS.CURRENT_SESSION);
+    let restoredSession: EditSession | null = null;
+    if (storedSession) {
+      try {
+        const restored = JSON.parse(storedSession) as EditSession;
+        if (restored.articleId === articleId && restored.participantId === p.id) {
+          restoredSession = restored;
+        }
+      } catch { /* ignore */ }
+    }
+
     // Load article and claims
     loadArticle(articleId, 'past').then((art) => {
       setArticle(art);
       articleRef.current = art;
-      // Initialize editedContent with original content
+
+      // If we have a restored session with finalContent, use that instead of original
+      // This preserves user edits across page refreshes
       const initial: Record<string, string> = {};
       art.sections.forEach((s) => {
-        initial[s.id] = s.content;
+        if (restoredSession?.finalContent?.[s.id] && restoredSession.finalContent[s.id] !== '') {
+          initial[s.id] = restoredSession.finalContent[s.id];
+        } else {
+          initial[s.id] = s.content;
+        }
       });
       setEditedContent(initial);
       editedContentRef.current = initial;
@@ -153,21 +171,10 @@ export default function EditPage() {
       setSidebarCollapsed(true);
     }
 
-    // Restore session from localStorage if available (survives page refresh)
-    const storedSession = localStorage.getItem(LS_KEYS.CURRENT_SESSION);
+    // Use the restored session or create a new one
     let session: EditSession;
-    if (storedSession) {
-      try {
-        const restored = JSON.parse(storedSession) as EditSession;
-        // Only restore if it matches the current phase/article
-        if (restored.articleId === articleId && restored.participantId === p.id) {
-          session = restored;
-        } else {
-          session = createNewSession(p.id, cond, articleId, isMobileDevice);
-        }
-      } catch {
-        session = createNewSession(p.id, cond, articleId, isMobileDevice);
-      }
+    if (restoredSession) {
+      session = restoredSession;
     } else {
       session = createNewSession(p.id, cond, articleId, isMobileDevice);
     }
@@ -195,9 +202,14 @@ export default function EditPage() {
     };
     document.addEventListener('visibilitychange', handleVisibility);
 
-    // Flush to localStorage periodically
+    // Flush to localStorage periodically — include current edits in finalContent
+    // so they survive page refresh
     flushIntervalRef.current = setInterval(() => {
       if (sessionRef.current) {
+        sessionRef.current.finalContent = { ...editedContentRef.current };
+        if (Object.keys(editedCitationsRef.current).length > 0) {
+          sessionRef.current.finalContent['__editedCitations__'] = JSON.stringify(editedCitationsRef.current);
+        }
         localStorage.setItem(LS_KEYS.CURRENT_SESSION, JSON.stringify(sessionRef.current));
       }
     }, 5000);
