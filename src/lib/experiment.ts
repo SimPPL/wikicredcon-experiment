@@ -17,6 +17,21 @@ export const ALL_ARTICLES = [
   'right-to-repair',
 ] as const;
 
+// Articles that have claim group data (required for treatment condition)
+// Exclude articles without claims from random assignment
+export const ARTICLES_WITH_CLAIMS = [
+  'semaglutide',
+  'vaccine-misinfo',
+  'ultra-processed-food',
+  'glp1-receptor-agonist',
+  'pfas',
+  'agi',
+  'openai',
+  'misinformation',
+  'microplastics',
+  'right-to-repair',
+] as const;
+
 // Human-readable names
 export const ARTICLE_NAMES: Record<string, string> = {
   'semaglutide': 'Semaglutide',
@@ -52,9 +67,9 @@ function getSelectedArticlePair(): [string, string] {
     }
   }
 
-  // Default to all articles if none selected or fewer than 2
+  // Default to articles with claims data (required for treatment condition)
   if (pool.length < 2) {
-    pool = [...ALL_ARTICLES];
+    pool = [...ARTICLES_WITH_CLAIMS];
   }
 
   // Randomly select 2 distinct articles from the pool
