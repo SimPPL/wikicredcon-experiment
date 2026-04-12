@@ -68,6 +68,7 @@ export async function POST() {
               hadMetrics,
               nowHasMetrics: false,
               improvement: null,
+              // error: String(err),
             });
           }
         } else {
@@ -82,22 +83,22 @@ export async function POST() {
 
       // Save back to Supabase if changed
       if (changed) {
-        await fetch(
-          `${SUPABASE_URL}/rest/v1/wikicred_participants`,
+        const saveRes = await fetch(
+          `${SUPABASE_URL}/rest/v1/wikicred_participants?participant_id=eq.${data.participant.id}`,
           {
-            method: 'POST',
+            method: 'PATCH',
             headers: {
               'apikey': SUPABASE_KEY,
               'Authorization': `Bearer ${SUPABASE_KEY}`,
               'Content-Type': 'application/json',
-              'Prefer': 'resolution=merge-duplicates',
             },
-            body: JSON.stringify({
-              participant_id: data.participant.id,
-              data: data,
-            }),
+            body: JSON.stringify({ data: data }),
           }
         );
+        if (!saveRes.ok) {
+          const err = await saveRes.text();
+          console.error('Save failed for', data.participant.id, err);
+        }
       }
 
       results.push({ pid: data.participant.id, sessions: sessionResults });
