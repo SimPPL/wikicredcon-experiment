@@ -1,3 +1,15 @@
+# Project Details
+
+How can we improve knowledge production in an age of AI? We have an experiment to answer this question. We think reducing misinterpretations and misconceptions can help produce higher quality knowledge and we run an experiment to test it. If we succeed, we could change how Wikipedians edit their articles with massive positive impact! We already present to Wikimedia Foundation leaders each year at https://wikicred.org so this funding can unlock widespread impact if this hypothesis holds up. 
+
+We want to pay participants to participate in an experiment to test if we can make wikipedia editing better in an age of AI. Participants will use https://editbetter.vercel.app, and a randomized treatment of "social media claims about this article" will be shown to Wikipedia editors as they edit the articles. Our hypothesis is the transparency about how the article is quoted will help editors better position the article to avoid misinterpretations. We already have pilot data of (a small but mightly) 7 samples, and agreement from Wikimedians in the Bay Area to help us host these sessions. With your help we can make it possible to run this experiment and write an academic paper about it! 
+
+Part of the funds will be used to support sourcing social media claims from Meta, Reddit, Twitter, Instagram, TikTok, and other platforms on specific issue areas like PFAS, COVID, Semaglutides, Vaccination, Right to Repair Policy, and a variety of diverse subjects. We already have a platform collecting such data from social media, that gathers 100M+ posts a month from 9 social media platforms reaching ~2 billion people. This took us 3 years to build, it works beautifully and is used by Pulitzer and Nobel winning journalists in 8 countries. You can sign up and check it out: https://arbiter.simppl.org/auth/register
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
