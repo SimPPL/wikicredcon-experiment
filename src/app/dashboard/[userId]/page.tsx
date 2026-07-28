@@ -6,6 +6,7 @@ import { formatDuration, formatTimestamp } from '@/lib/utils';
 import type { ParticipantData, EditSession, Article } from '@/types';
 import DiffView from '@/components/wiki/DiffView';
 import { retryPendingSync } from '@/lib/persist';
+import { ARTICLE_NAMES } from '@/lib/experiment';
 
 function BarChart({ data, label }: { data: Record<string, number>; label: string }) {
   const max = Math.max(...Object.values(data), 1);
@@ -60,9 +61,7 @@ function PercentageBar({ value, label }: { value: number; label: string }) {
 }
 
 function articleDisplayName(articleId: string): string {
-  if (articleId === 'semaglutide') return 'Semaglutide';
-  if (articleId === 'vaccine-misinfo') return 'Vaccine Misinformation';
-  return articleId;
+  return ARTICLE_NAMES[articleId] || articleId;
 }
 
 export default function DashboardPage() {
@@ -93,21 +92,24 @@ export default function DashboardPage() {
     // Auto-retry any failed sync from previous session
     retryPendingSync().catch(() => {});
 
-    // Load ground truth articles for diff comparison
+    // Load ground truth articles for diff comparison — use the articles this
+    // participant actually edited, not a hardcoded pair
     async function loadArticles() {
       try {
-        const [semPast, semCurrent, vaxPast, vaxCurrent] = await Promise.all([
-          fetch('/data/articles/semaglutide-past.json').then((r) => r.json()),
-          fetch('/data/articles/semaglutide-current.json').then((r) => r.json()),
-          fetch('/data/articles/vaccine-misinfo-past.json').then((r) => r.json()),
-          fetch('/data/articles/vaccine-misinfo-current.json').then((r) => r.json()),
-        ]);
-        setArticles({
-          'semaglutide-past': semPast,
-          'semaglutide-current': semCurrent,
-          'vaccine-misinfo-past': vaxPast,
-          'vaccine-misinfo-current': vaxCurrent,
-        });
+        const raw = localStorage.getItem(`wikicred_participant_data_${userId}`);
+        if (!raw) return;
+        const participantData: ParticipantData = JSON.parse(raw);
+        const articleIds = [...new Set(participantData.sessions.map((s) => s.articleId))];
+        const loaded: Record<string, Article> = {};
+        await Promise.all(
+          articleIds.flatMap((id) =>
+            (['past', 'current'] as const).map(async (version) => {
+              const res = await fetch(`/data/articles/${id}-${version}.json`);
+              if (res.ok) loaded[`${id}-${version}`] = await res.json();
+            })
+          )
+        );
+        setArticles(loaded);
       } catch {
         // Articles may not load if data files aren't present
       }
@@ -750,7 +752,7 @@ export default function DashboardPage() {
             >
               <div className="flex items-center justify-between mb-4">
                 <h2 style={{ fontFamily: "Georgia, 'Linux Libertine', serif", fontSize: '1.3rem' }}>
-                  Task {idx + 1}: {session.articleId === 'semaglutide' ? 'Semaglutide' : 'Vaccine Misinformation'}
+                  Task {idx + 1}: {articleDisplayName(session.articleId)}
                 </h2>
                 <span
                   className="text-xs px-2 py-1 rounded"

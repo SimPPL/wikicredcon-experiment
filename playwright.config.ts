@@ -4,7 +4,7 @@ export default defineConfig({
   testDir: './tests',
   timeout: 30000,
   use: {
-    baseURL: 'http://localhost:3001',
+    baseURL: process.env.BASE_URL || 'http://localhost:3001',
     headless: true,
     screenshot: 'only-on-failure',
   },

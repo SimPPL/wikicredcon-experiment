@@ -52,9 +52,13 @@ export async function POST(request: Request) {
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error('Persist error:', error);
+    // fetch throws (rather than returning !ok) when Supabase is unreachable —
+    // e.g. the project was deleted or paused. Report that distinctly so the
+    // client and logs show the real problem.
+    const unreachable = error instanceof TypeError;
     return NextResponse.json(
-      { error: 'Internal server error' },
-      { status: 500 }
+      { error: unreachable ? 'Storage backend unreachable — check the Supabase project' : 'Internal server error' },
+      { status: unreachable ? 502 : 500 }
     );
   }
 }

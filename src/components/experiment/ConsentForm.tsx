@@ -201,10 +201,17 @@ export default function ConsentForm({ onConsent }: ConsentFormProps) {
               8. Contact Information
             </h2>
             <p>
-              For questions about this research, contact the research team at{' '}
-              <span className="italic">[research-email-placeholder]</span>. For concerns
-              about your rights as a research participant, contact{' '}
-              <span className="italic">[irb-contact-placeholder]</span>.
+              For questions about this research or concerns about your rights as a
+              research participant, contact the SimPPL research team through{' '}
+              <a
+                href="https://simppl.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: '#3366cc', textDecoration: 'underline' }}
+              >
+                simppl.org
+              </a>{' '}
+              or speak with the workshop facilitator.
             </p>
           </section>
         </div>

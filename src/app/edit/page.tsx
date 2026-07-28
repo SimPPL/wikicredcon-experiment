@@ -20,7 +20,8 @@ import type {
 import WikiTabs from '@/components/wiki/WikiTabs';
 import ArticleRenderer from '@/components/wiki/ArticleRenderer';
 import EditToolbar from '@/components/wiki/EditToolbar';
-import EditNotice from '@/components/wiki/EditNotice';
+import EditNotice, { MEDICAL_ARTICLES, CONTROVERSIAL_ARTICLES } from '@/components/wiki/EditNotice';
+import InstructionStepper from '@/components/experiment/InstructionStepper';
 import PublishDialog from '@/components/wiki/PublishDialog';
 import ClaimsSidebar from '@/components/arbiter/ClaimsSidebar';
 import { computeGranularMetrics, computeCitationReliability } from '@/lib/metrics-computation';
@@ -68,6 +69,7 @@ export default function EditPage() {
   const [editSummary, setEditSummary] = useState('');
   const [loading, setLoading] = useState(true);
   const [editableSectionIds, setEditableSectionIds] = useState<string[] | null>(null);
+  const [showInstructions, setShowInstructions] = useState(false);
 
   const isMobile = useIsMobile();
 
@@ -181,12 +183,14 @@ export default function EditPage() {
     sessionRef.current = session;
     timerStartRef.current = Date.now();
 
-    // Check if there's a stored timer start (for page refresh resilience)
+    // Check if there's a stored timer start (for page refresh resilience).
+    // On a fresh task the timer does NOT start yet — instructions are shown
+    // first, and the timer starts when the participant dismisses them.
     const storedTimerStart = localStorage.getItem(`wikicred_timer_start_${storedPhase}`);
     if (storedTimerStart) {
       timerStartRef.current = parseInt(storedTimerStart, 10);
     } else {
-      localStorage.setItem(`wikicred_timer_start_${storedPhase}`, String(Date.now()));
+      setShowInstructions(true);
     }
 
     // Tab visibility tracking
@@ -231,7 +235,7 @@ export default function EditPage() {
 
   // --- Timer ---
   useEffect(() => {
-    if (loading || showTransition) return;
+    if (loading || showTransition || showInstructions) return;
 
     const interval = setInterval(() => {
       const elapsed = Date.now() - timerStartRef.current;
@@ -250,7 +254,18 @@ export default function EditPage() {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [loading, showTransition]);
+  }, [loading, showTransition, showInstructions]);
+
+  const handleInstructionsComplete = useCallback(() => {
+    const now = Date.now();
+    timerStartRef.current = now;
+    localStorage.setItem(`wikicred_timer_start_${phase}`, String(now));
+    // Editing time should not include time spent reading instructions
+    if (sessionRef.current && sessionRef.current.editEvents.length === 0) {
+      sessionRef.current.startedAt = now;
+    }
+    setShowInstructions(false);
+  }, [phase]);
 
   // --- Handlers ---
   const handleContentChange = useCallback(
@@ -624,6 +639,17 @@ export default function EditPage() {
 
   return (
     <div className="min-h-screen">
+      {/* Pre-task instructions, one card at a time; timer starts on completion */}
+      {showInstructions && (
+        <InstructionStepper
+          articleTitle={article.title}
+          condition={condition}
+          isMedical={MEDICAL_ARTICLES.includes(article.id)}
+          isControversial={CONTROVERSIAL_ARTICLES.includes(article.id)}
+          onComplete={handleInstructionsComplete}
+        />
+      )}
+
       {/* Header */}
       <div
         className="px-4 py-2 flex items-center justify-between"

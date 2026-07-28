@@ -1,150 +1,90 @@
 'use client';
 
+import { useState } from 'react';
+
 interface EditNoticeProps {
   articleId: string;
   articleTitle: string;
   revisionDate: string;
 }
 
-export default function EditNotice({ articleId, articleTitle, revisionDate }: EditNoticeProps) {
-  const isMedical = ['semaglutide', 'glp1-receptor-agonist', 'ultra-processed-food', 'microplastics'].includes(articleId);
-  const isControversial = ['vaccine-misinfo', 'misinformation', 'deepfake'].includes(articleId);
+export const MEDICAL_ARTICLES = ['semaglutide', 'glp1-receptor-agonist', 'ultra-processed-food', 'microplastics'];
+export const CONTROVERSIAL_ARTICLES = ['vaccine-misinfo', 'misinformation', 'deepfake'];
+
+/**
+ * Compact reminder shown while editing. The full instructions are presented
+ * one step at a time in InstructionStepper before the task begins — this box
+ * only summarizes them, and expands on demand.
+ */
+export default function EditNotice({ articleId, articleTitle }: EditNoticeProps) {
+  const [expanded, setExpanded] = useState(false);
+  const isMedical = MEDICAL_ARTICLES.includes(articleId);
+  const isControversial = CONTROVERSIAL_ARTICLES.includes(articleId);
 
   return (
-    <div className="space-y-3 mb-4">
-      {/* Simulation disclaimer */}
-      <div
-        className="p-3 text-sm rounded"
-        style={{
-          background: '#eff6ff',
-          border: '2px solid #60a5fa',
-          color: 'var(--wiki-text)',
-        }}
-      >
-        <strong>Note:</strong> This is a simulated editing environment for research purposes.
-        You are <strong>not</strong> editing the actual Wikipedia article — your changes will
-        not appear on Wikipedia. This is part of a study on how editors interact with
-        different information sources.
-      </div>
-
-      {/* Task instructions — what the editor should do */}
-      <div
-        className="p-4 text-sm rounded"
-        style={{
-          background: '#f0fdf4',
-          border: '2px solid #86efac',
-          color: 'var(--wiki-text)',
-        }}
-      >
-        <div className="font-bold mb-2" style={{ fontFamily: 'sans-serif', fontSize: '0.95rem' }}>
-          Your task
-        </div>
-        <p style={{ fontSize: '0.85rem', lineHeight: 1.6, marginBottom: '0.5rem' }}>
-          You are editing <strong>&ldquo;{articleTitle}&rdquo;</strong>. Edit this article for{' '}
-          <strong>clarity</strong>, <strong>accuracy</strong>, <strong>reliability</strong>,{' '}
-          and any <strong>new information</strong> you believe should be included.
-        </p>
-        <p style={{ fontSize: '0.85rem', lineHeight: 1.6, marginBottom: '0.5rem' }}>
-          You have <strong>8 minutes</strong> to edit, plus <strong>2 minutes</strong> to
-          finalize and polish your changes before submission.
-        </p>
-        <p style={{ fontSize: '0.85rem', lineHeight: 1.6, marginBottom: '0.5rem' }}>
-          You may use <strong>any sources</strong> you prefer — news articles, academic papers,
-          government databases, your own knowledge — to inform your edits.
-        </p>
-        <p style={{ fontSize: '0.85rem', lineHeight: 1.6, fontStyle: 'italic', color: 'var(--wiki-text-secondary)' }}>
-          You do not need to edit the entire article. Pick a few sections that interest you
-          or that you feel could benefit from better sourcing or clearer writing.
-        </p>
-      </div>
-
-      {/* Restriction: cannot visit current Wikipedia article */}
-      <div
-        className="p-3 text-sm rounded"
-        style={{
-          background: '#fef2f2',
-          border: '2px solid #fca5a5',
-          color: 'var(--wiki-text)',
-        }}
-      >
-        <div className="font-bold mb-1" style={{ fontFamily: 'sans-serif' }}>
-          Important restriction
-        </div>
+    <div
+      className="mb-4 text-sm rounded"
+      style={{
+        background: '#f0fdf4',
+        border: '1px solid #86efac',
+        color: 'var(--wiki-text)',
+      }}
+    >
+      <div className="p-3 flex items-start justify-between gap-3">
         <p style={{ fontSize: '0.85rem', lineHeight: 1.5 }}>
-          You <strong>cannot</strong> visit the current Wikipedia page for this article.
-          This is the only resource you may not consult, as it would bias the experimental
-          outcome. All other sources — search engines, news sites, academic databases,
-          social media — are permitted.
+          <strong>Simulated editor</strong> — nothing is published to Wikipedia. Improve{' '}
+          <strong>&ldquo;{articleTitle}&rdquo;</strong> for accuracy and sourcing.{' '}
+          <strong>Editing one or two sections is enough.</strong>{' '}
+          Don&apos;t consult the live Wikipedia article.
         </p>
+        <button
+          onClick={() => setExpanded((e) => !e)}
+          className="text-xs whitespace-nowrap cursor-pointer flex-shrink-0"
+          style={{ color: 'var(--wiki-link)', background: 'none', border: 'none', padding: '2px 0' }}
+        >
+          {expanded ? 'Hide details' : 'Full instructions'}
+        </button>
       </div>
 
-      {/* Editing guidelines */}
-      <div
-        className="p-3 text-sm rounded"
-        style={{
-          background: '#eaf3ff',
-          border: '1px solid #a3c1e0',
-          color: 'var(--wiki-text)',
-        }}
-      >
-        <div className="font-semibold mb-1" style={{ fontFamily: 'sans-serif' }}>
-          Wikipedia editing guidelines
-        </div>
-        <ul className="list-disc pl-5 space-y-1" style={{ fontSize: '0.85rem' }}>
-          <li>
-            <strong>Neutral point of view:</strong> Represent all significant viewpoints
-            proportionately. Do not advocate for any position.
-          </li>
-          <li>
-            <strong>Verifiability:</strong> All content must be attributable to reliable,
-            published sources. Add inline citations for any claims likely to be challenged.
-          </li>
-          <li>
-            <strong>No original research:</strong> Summarize what reliable sources say.
-            Do not add your own analysis or interpretation.
-          </li>
-        </ul>
-      </div>
-
-      {/* Medical article notice */}
-      {isMedical && (
+      {expanded && (
         <div
-          className="p-3 text-sm rounded"
-          style={{
-            background: '#fff8e5',
-            border: '1px solid #e0c97f',
-            color: 'var(--wiki-text)',
-          }}
+          className="px-3 pb-3 space-y-2"
+          style={{ fontSize: '0.85rem', lineHeight: 1.6, borderTop: '1px solid #d1fae5', paddingTop: '0.75rem' }}
         >
-          <div className="font-semibold mb-1" style={{ fontFamily: 'sans-serif' }}>
-            Medical content notice
-          </div>
-          <p style={{ fontSize: '0.85rem' }}>
-            This article contains biomedical content. Biomedical claims require high-quality
-            sources such as review articles, major textbooks, or statements from recognized
-            health organizations. Primary research studies should be used cautiously.
+          <p>
+            This is a simulated editing environment for research. Your changes will not
+            appear on Wikipedia; they are recorded anonymously for this study.
           </p>
-        </div>
-      )}
-
-      {/* Controversial topic notice */}
-      {isControversial && (
-        <div
-          className="p-3 text-sm rounded"
-          style={{
-            background: '#fef0f0',
-            border: '1px solid #e0a0a0',
-            color: 'var(--wiki-text)',
-          }}
-        >
-          <div className="font-semibold mb-1" style={{ fontFamily: 'sans-serif' }}>
-            Contentious topic
-          </div>
-          <p style={{ fontSize: '0.85rem' }}>
-            This article covers a frequently contested topic. Take particular care to ensure
-            all additions are well-sourced, written from a neutral point of view, and give
-            appropriate weight to different perspectives.
+          <p>
+            Edit for <strong>clarity</strong>, <strong>accuracy</strong>,{' '}
+            <strong>reliability</strong>, and any <strong>new information</strong> you
+            believe should be included. You have 8 minutes to edit plus 2 minutes to
+            finalize. Sections marked <span style={{ color: '#3366cc' }}>[edit]</span> are
+            editable, and one or two well-sourced section edits is a complete task.
           </p>
+          <p>
+            You may use any sources <em>except</em> the current Wikipedia page for this
+            article, which would bias the results.
+          </p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li><strong>Neutral point of view:</strong> represent significant viewpoints proportionately.</li>
+            <li><strong>Verifiability:</strong> cite reliable, published sources for claims likely to be challenged.</li>
+            <li><strong>No original research:</strong> summarize what sources say; don&apos;t add your own analysis.</li>
+          </ul>
+          {isMedical && (
+            <p>
+              <strong>Medical content:</strong> biomedical claims require high-quality
+              sources such as review articles, major textbooks, or recognized health
+              organizations.
+            </p>
+          )}
+          {isControversial && (
+            <p>
+              <strong>Contentious topic:</strong> take particular care that additions are
+              well-sourced, neutral, and give appropriate weight to different
+              perspectives.
+            </p>
+          )}
         </div>
       )}
     </div>
