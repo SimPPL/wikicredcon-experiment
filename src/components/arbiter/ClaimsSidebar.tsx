@@ -549,6 +549,8 @@ export default function ClaimsSidebar({
         </button>
       </div>
 
+      {/* Everything below the header scrolls — the shell is overflow-hidden */}
+      <div className="flex-1 overflow-y-auto">
       {/* Warning */}
       <div
         className="text-xs mb-3 p-2 rounded"
@@ -698,6 +700,7 @@ export default function ClaimsSidebar({
             </button>
           );
         })}
+      </div>
       </div>
     </SidebarShell>
   );

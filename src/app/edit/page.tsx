@@ -534,6 +534,17 @@ export default function EditPage() {
       localStorage.setItem(LS_KEYS.COMPLETED_SESSIONS, JSON.stringify(completedSessions));
     }
     localStorage.removeItem(LS_KEYS.CURRENT_SESSION);
+
+    // Sync to the server after every session (fire-and-forget), so data
+    // survives even if the participant abandons before the survey
+    fetch('/api/persist', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        participantId: participant.id,
+        data: { participant, sessions: completedSessions },
+      }),
+    }).catch(() => {});
     setShowPublishDialog(false);
 
     // Advance phase

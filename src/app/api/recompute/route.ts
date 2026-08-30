@@ -1,11 +1,9 @@
 import { NextResponse } from 'next/server';
 import { promises as fs } from 'fs';
 import path from 'path';
-import type { Article, EditSession, ParticipantData } from '@/types';
+import type { Article, ParticipantData } from '@/types';
 import { computeGranularMetrics } from '@/lib/metrics-computation';
-
-const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL || '';
-const SUPABASE_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.SUPABASE_ANON_KEY || '';
+import { isDbConfigured, listParticipants, upsertParticipant } from '@/lib/db';
 
 async function loadArticle(articleId: string, version: 'past' | 'current'): Promise<Article | null> {
   try {
@@ -19,29 +17,18 @@ async function loadArticle(articleId: string, version: 'past' | 'current'): Prom
 
 export async function POST() {
   try {
-    if (!SUPABASE_URL || !SUPABASE_KEY) {
-      return NextResponse.json({ error: 'Supabase not configured' }, { status: 500 });
+    if (!isDbConfigured()) {
+      return NextResponse.json(
+        { error: 'Database not configured — set DATABASE_URL (Vercel Neon integration)' },
+        { status: 503 }
+      );
     }
 
-    // Fetch all participants
-    const fetchRes = await fetch(
-      `${SUPABASE_URL}/rest/v1/wikicred_participants?select=*`,
-      {
-        headers: {
-          'apikey': SUPABASE_KEY,
-          'Authorization': `Bearer ${SUPABASE_KEY}`,
-        },
-      }
-    );
-    if (!fetchRes.ok) {
-      return NextResponse.json({ error: 'Failed to fetch participants' }, { status: 500 });
-    }
-
-    const rows = await fetchRes.json();
+    const rows = await listParticipants();
     const results: Array<{ pid: string; sessions: Array<{ articleId: string; hadMetrics: boolean; nowHasMetrics: boolean; improvement: number | null }> }> = [];
 
     for (const row of rows) {
-      const data: ParticipantData = typeof row.data === 'string' ? JSON.parse(row.data) : row.data;
+      const data: ParticipantData = typeof row.data === 'string' ? JSON.parse(row.data) : (row.data as ParticipantData);
       let changed = false;
 
       const sessionResults: typeof results[0]['sessions'] = [];
@@ -62,13 +49,12 @@ export async function POST() {
               nowHasMetrics: true,
               improvement: session.computedMetrics.improvementOverBaseline,
             });
-          } catch (err) {
+          } catch {
             sessionResults.push({
               articleId: session.articleId,
               hadMetrics,
               nowHasMetrics: false,
               improvement: null,
-              // error: String(err),
             });
           }
         } else {
@@ -81,22 +67,10 @@ export async function POST() {
         }
       }
 
-      // Save back to Supabase if changed
       if (changed) {
-        const saveRes = await fetch(
-          `${SUPABASE_URL}/rest/v1/wikicred_participants?participant_id=eq.${data.participant.id}`,
-          {
-            method: 'PATCH',
-            headers: {
-              'apikey': SUPABASE_KEY,
-              'Authorization': `Bearer ${SUPABASE_KEY}`,
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ data: data }),
-          }
-        );
-        if (!saveRes.ok) {
-          const err = await saveRes.text();
+        try {
+          await upsertParticipant(data.participant.id, data);
+        } catch (err) {
           console.error('Save failed for', data.participant.id, err);
         }
       }
