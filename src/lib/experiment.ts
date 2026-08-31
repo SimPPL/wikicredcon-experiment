@@ -17,19 +17,32 @@ export const ALL_ARTICLES = [
   'right-to-repair',
 ] as const;
 
-// Articles that have claim group data (required for treatment condition)
-// Exclude articles without claims from random assignment
+// Articles in the assignment rotation. Curated 2026-08-30 after labeling every
+// claim (scratchpad/claim-labels/ in the parent repo) and re-measured 2026-08-31
+// against the curated set that participants actually see (see claim-curation.ts).
+// Counts are misrepresentations / actionable claims / distinct target sections:
+//   openai 17 / 77 / 6      glp1-receptor-agonist 12 / 38 / 13
+//   pfas 11 / 28 / 14       agi 9 / 21 / 7
+//   ultra-processed-food 4 / 16 / 7
+// The rotation needs topics where the sidebar can point at real errors in more
+// than one section, so misrepresentation count is the gate and section spread is
+// the tie-break. Excluded topics and the reason each falls short:
+//   microplastics    6 mis, but only 11 actionable claims spread over a 50-section
+//                    past revision — thinner coverage per section than kept pfas,
+//                    which carries 28 actionable claims over 56 sections
+//   misinformation   only 11 actionable claims across 4 groups
+//   right-to-repair  4 mis, and three of them restate one another; no fact-check
+//                    or article-citing evidence behind any of them
+//   semaglutide      3 mis out of 54 claims — the sidebar reads as already-covered
+//   vaccine-misinfo  3 mis; its 33 gaps ask the editor to expand, not to correct
+// microplastics and vaccine-misinfo are the debatable calls: both carry
+// fact-check backing (8 and 7 respectively) that no kept topic has.
 export const ARTICLES_WITH_CLAIMS = [
-  'semaglutide',
-  'vaccine-misinfo',
-  'ultra-processed-food',
-  'glp1-receptor-agonist',
   'pfas',
+  'glp1-receptor-agonist',
   'agi',
   'openai',
-  'misinformation',
-  'microplastics',
-  'right-to-repair',
+  'ultra-processed-food',
 ] as const;
 
 // Human-readable names

@@ -224,6 +224,15 @@ export interface ArbiterClaim {
 
 // --- Grouped Claims (for ClaimsSidebar) ---
 
+/**
+ * How a claim relates to the article being edited.
+ * - misrepresentation: contradicted by fact-checks or the evidence Arbiter retrieved;
+ *   an edit can put the correction where readers will find it
+ * - gap: plausibly accurate but absent or thin in the past article revision
+ * - accurate: consistent with existing coverage (shown without a badge)
+ */
+export type ClaimLabel = 'misrepresentation' | 'gap' | 'accurate';
+
 export interface ClaimGroupItem {
   id: string;
   claimText: string;
@@ -231,6 +240,17 @@ export interface ClaimGroupItem {
   platform: string;
   engagement: number;
   postExcerpt: string;
+  label?: ClaimLabel;
+  /** One-sentence participant-facing reason for the label */
+  labelRationale?: string;
+  /** Best section of the past article to address this claim */
+  sectionId?: string;
+  /** Fact-check or source URL backing the label */
+  evidenceUrl?: string;
+  /** For gaps: the current article revision covers this, so editors did fill it */
+  validatedByCurrent?: boolean;
+  /** How many other posts in this group restated the same claim */
+  duplicateCount?: number;
 }
 
 export interface ClaimGroup {
@@ -247,6 +267,13 @@ export interface ClaimGroup {
   factChecks?: ClaimSource[];
   /** Optional related Wikipedia pages (excluding the current article) */
   wikipediaRefs?: ClaimSource[];
+  /** Label counts across this group's claims */
+  misrepresentationCount?: number;
+  gapCount?: number;
+  /** Arbiter's retrieved evidence for this group cites the article being edited */
+  citesThisArticle?: boolean;
+  /** Misrepresentations plus gaps, i.e. claims an edit can answer */
+  actionableCount?: number;
 }
 
 // --- Survey ---

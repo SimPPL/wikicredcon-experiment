@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect, useRef } from 'react';
 import type { ClaimGroup, ClaimSource } from '@/types';
+import { headlineClaim } from '@/lib/claim-curation';
 import { useIsMobile } from '@/lib/useIsMobile';
 
 interface ClaimsSidebarProps {
@@ -25,6 +26,33 @@ const platformEmoji: Record<string, string> = {
 
 function getPlatformEmoji(platform: string): string {
   return platformEmoji[platform.toLowerCase()] || '\ud83d\udcac';
+}
+
+// --- Claim labels (misrepresentation / gap) ---
+
+const LABEL_STYLES: Record<string, { bg: string; fg: string; border: string; text: string; title: string }> = {
+  misrepresentation: {
+    bg: '#fde8e8', fg: '#b42318', border: '#e53e3e', text: 'Misrepresents',
+    title: 'Fact-checks or the retrieved evidence contradict this claim',
+  },
+  gap: {
+    bg: '#fef3c7', fg: '#92400e', border: '#d69e2e', text: 'Coverage gap',
+    title: 'This revision of the article barely covers what the claim raises',
+  },
+};
+
+function LabelBadge({ label }: { label?: string }) {
+  if (!label || !LABEL_STYLES[label]) return null;
+  const s = LABEL_STYLES[label];
+  return (
+    <span
+      title={s.title}
+      className="text-xs px-1.5 py-0.5 rounded flex-shrink-0 font-semibold"
+      style={{ background: s.bg, color: s.fg, border: `1px solid ${s.border}`, fontSize: '0.65rem' }}
+    >
+      {s.text}
+    </span>
+  );
 }
 
 function formatEngagement(n: number): string {
@@ -233,6 +261,7 @@ export default function ClaimsSidebar({
   const [activeTab, setActiveTab] = useState<TabId>('claims');
   const isMobile = useIsMobile();
   const [highlightPulse, setHighlightPulse] = useState(false);
+  const [showAccurate, setShowAccurate] = useState(false);
   const [iffyDomains, setIffyDomains] = useState<Record<string, number>>({});
 
   // Load combined domain reliability data (Lin et al. PC1 + LLM + Iffy.news)
@@ -287,13 +316,19 @@ export default function ClaimsSidebar({
     [claimGroups]
   );
 
-  // Sort groups: relevant ones first when a section is active
+  // Sort groups: relevant ones first when a section is active, then by how many
+  // claims misrepresent the topic, then by engagement
   const sortedGroups = useMemo(() => {
-    if (!activeSectionId) return claimGroups;
     return [...claimGroups].sort((a, b) => {
-      const aRelevant = a.relevantSectionIds.includes(activeSectionId) ? 1 : 0;
-      const bRelevant = b.relevantSectionIds.includes(activeSectionId) ? 1 : 0;
-      return bRelevant - aRelevant;
+      if (activeSectionId) {
+        const aRelevant = a.relevantSectionIds.includes(activeSectionId) ? 1 : 0;
+        const bRelevant = b.relevantSectionIds.includes(activeSectionId) ? 1 : 0;
+        if (aRelevant !== bRelevant) return bRelevant - aRelevant;
+      }
+      const aMis = a.misrepresentationCount ?? 0;
+      const bMis = b.misrepresentationCount ?? 0;
+      if (aMis !== bMis) return bMis - aMis;
+      return (b.totalEngagement || 0) - (a.totalEngagement || 0);
     });
   }, [claimGroups, activeSectionId]);
 
@@ -338,6 +373,22 @@ export default function ClaimsSidebar({
 
   // --- Group detail view ---
   if (selectedGroup) {
+    const labelRank: Record<string, number> = { misrepresentation: 0, gap: 1, accurate: 2 };
+    const detailClaims = [...selectedGroup.claims].sort((a, b) => {
+      const ra = labelRank[a.label ?? 'accurate'] ?? 2;
+      const rb = labelRank[b.label ?? 'accurate'] ?? 2;
+      if (ra !== rb) return ra - rb;
+      return (b.engagement || 0) - (a.engagement || 0);
+    });
+    // Claims the article already handles correctly sit behind a toggle so the
+    // ones an edit can answer stay at the top of the panel.
+    const actionableClaims = detailClaims.filter(
+      (c) => c.label === 'misrepresentation' || c.label === 'gap'
+    );
+    const accurateClaims = detailClaims.filter(
+      (c) => !(c.label === 'misrepresentation' || c.label === 'gap')
+    );
+    const visibleClaims = showAccurate ? [...actionableClaims, ...accurateClaims] : actionableClaims;
     const sources = selectedGroup.sources || [];
     const factChecks = selectedGroup.factChecks || [];
     const wikiRefs = (selectedGroup.wikipediaRefs || []).filter((r: ClaimSource) => {
@@ -383,11 +434,19 @@ export default function ClaimsSidebar({
           {selectedGroup.groupTitle}
         </h3>
         <p
-          className="text-xs mb-3"
+          className="text-xs mb-2"
           style={{ color: 'var(--wiki-text-secondary)', lineHeight: 1.4 }}
         >
           {selectedGroup.groupSummary}
         </p>
+        {selectedGroup.citesThisArticle && (
+          <p
+            className="text-xs mb-2 px-2 py-1 rounded"
+            style={{ background: '#eef2ff', color: '#3730a3', border: '1px solid #c7d2fe', lineHeight: 1.4 }}
+          >
+            The evidence Arbiter retrieved for these claims cites this Wikipedia article.
+          </p>
+        )}
 
         {/* Tabs */}
         <div
@@ -421,9 +480,10 @@ export default function ClaimsSidebar({
         <div className="flex-1 overflow-y-auto mt-2">
           {activeTab === 'claims' && (
             <div className="space-y-2">
-              {selectedGroup.claims.map((claim) => (
+              {visibleClaims.map((claim) => (
                 <div
                   key={claim.id}
+                  data-claim-card={claim.label || 'accurate'}
                   className="rounded p-2.5"
                   style={{
                     background: '#f8f9fa',
@@ -449,15 +509,61 @@ export default function ClaimsSidebar({
                       <span>{getPlatformEmoji(claim.platform)}</span>
                       <span className="font-medium">{claim.sourceAuthor}</span>
                     </span>
-                    {claim.engagement > 0 && (
-                      <span title="Engagement">{formatEngagement(claim.engagement)}</span>
-                    )}
+                    <span className="flex items-center gap-1.5">
+                      {claim.engagement > 0 && (
+                        <span title="Engagement">{formatEngagement(claim.engagement)}</span>
+                      )}
+                      <LabelBadge label={claim.label} />
+                    </span>
                   </div>
 
                   {/* Claim text */}
                   <p className="text-sm mb-1.5 leading-snug" style={{ color: 'var(--wiki-text)' }}>
                     {claim.claimText}
                   </p>
+
+                  {/* Why this claim is labeled */}
+                  {claim.labelRationale && claim.label && claim.label !== 'accurate' && (
+                    <p
+                      className="text-xs mb-1.5 leading-snug px-1.5 py-1 rounded"
+                      style={{
+                        background: LABEL_STYLES[claim.label]?.bg || '#f3f4f6',
+                        color: LABEL_STYLES[claim.label]?.fg || 'var(--wiki-text-secondary)',
+                      }}
+                    >
+                      {claim.labelRationale}
+                      {claim.evidenceUrl && (
+                        <>
+                          {' '}
+                          <a
+                            href={claim.evidenceUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: 'inherit', textDecoration: 'underline' }}
+                            onClick={(e) => { e.stopPropagation(); onLinkEvent?.(claim.evidenceUrl!, 'claim-evidence', 'click'); }}
+                          >
+                            evidence
+                          </a>
+                        </>
+                      )}
+                    </p>
+                  )}
+
+                  {/* Section this claim points at */}
+                  {claim.sectionId && claim.label && claim.label !== 'accurate' && (
+                    <div className="mb-1.5">
+                      <span
+                        className="text-xs px-1.5 py-0.5 rounded"
+                        style={{
+                          background: claim.sectionId === activeSectionId ? '#c7d2fe' : '#e8e8e8',
+                          color: claim.sectionId === activeSectionId ? '#312e81' : 'var(--wiki-text-secondary)',
+                          fontSize: '0.65rem',
+                        }}
+                      >
+                        Edit: {sectionTitles[claim.sectionId] || claim.sectionId}
+                      </span>
+                    </div>
+                  )}
 
                   {/* Post excerpt */}
                   {claim.postExcerpt && (
@@ -468,8 +574,40 @@ export default function ClaimsSidebar({
                       &ldquo;{claim.postExcerpt.slice(0, 200)}{claim.postExcerpt.length > 200 ? '...' : ''}&rdquo;
                     </p>
                   )}
+
+                  {/* Restatements we collapsed into this one */}
+                  {(claim.duplicateCount ?? 0) > 0 && (
+                    <p
+                      className="text-xs mt-1"
+                      style={{ color: 'var(--wiki-text-disabled)', fontSize: '0.65rem' }}
+                    >
+                      {claim.duplicateCount} other {claim.duplicateCount === 1 ? 'post says' : 'posts say'} the same thing
+                    </p>
+                  )}
                 </div>
               ))}
+
+              {actionableClaims.length === 0 && (
+                <p className="text-xs py-4 text-center" style={{ color: 'var(--wiki-text-disabled)' }}>
+                  Nothing in this group contradicts the article or asks it to cover more.
+                </p>
+              )}
+
+              {accurateClaims.length > 0 && (
+                <button
+                  onClick={() => setShowAccurate((v) => !v)}
+                  className="w-full text-xs py-2 rounded cursor-pointer"
+                  style={{
+                    border: '1px solid var(--wiki-chrome-border)',
+                    color: 'var(--wiki-text-secondary)',
+                    background: '#f8f9fa',
+                  }}
+                >
+                  {showAccurate
+                    ? `Hide the ${accurateClaims.length} claims the article already covers`
+                    : `Show ${accurateClaims.length} more ${accurateClaims.length === 1 ? 'claim' : 'claims'} the article already covers`}
+                </button>
+              )}
             </div>
           )}
 
@@ -556,8 +694,12 @@ export default function ClaimsSidebar({
         className="text-xs mb-3 p-2 rounded"
         style={{ background: '#fef8e7', border: '1px solid #f0d060', color: '#7c6a20', lineHeight: 1.4 }}
       >
-        These claims are sourced from social media and <strong>need not be accurate</strong>.
-        They are shown because they are prominent and relate to content in this article.
+        These claims circulate on social media and <strong>need not be accurate</strong>.
+        We labeled each one against fact-checks and this article&rsquo;s coverage:{' '}
+        <span className="font-semibold" style={{ color: '#b42318' }}>Misrepresents</span> marks
+        claims the evidence contradicts, and{' '}
+        <span className="font-semibold" style={{ color: '#92400e' }}>Coverage gap</span> marks
+        topics this revision barely covers. Both point at sections you can improve.
       </div>
 
       {/* Instruction */}
@@ -631,6 +773,16 @@ export default function ClaimsSidebar({
           const isRelevant = activeSectionId
             ? group.relevantSectionIds.includes(activeSectionId)
             : false;
+          const headline = headlineClaim(group);
+          // Put the section the participant is editing first, then the rest;
+          // a group can point at a dozen sections and the card has room for four.
+          const orderedSections = [...group.relevantSectionIds].sort((a, b) => {
+            if (a === activeSectionId) return -1;
+            if (b === activeSectionId) return 1;
+            return 0;
+          });
+          const cardSections = orderedSections.slice(0, 4);
+          const hiddenSectionCount = orderedSections.length - cardSections.length;
 
           // Track the first relevant group for auto-scroll
           const isFirstRelevant = isRelevant &&
@@ -672,18 +824,46 @@ export default function ClaimsSidebar({
 
               {/* Stats row */}
               <div
-                className="flex items-center gap-3 text-xs mb-1.5"
+                className="flex items-center gap-3 text-xs mb-1.5 flex-wrap"
                 style={{ color: 'var(--wiki-text-secondary)' }}
               >
                 <span>{group.claimCount} {group.claimCount === 1 ? 'claim' : 'claims'}</span>
                 {group.totalEngagement > 0 && (
                   <span>{formatEngagement(group.totalEngagement)} interactions</span>
                 )}
+                {(group.misrepresentationCount ?? 0) > 0 && (
+                  <span className="font-semibold" style={{ color: '#b42318' }}>
+                    {group.misrepresentationCount} misrepresent{group.misrepresentationCount === 1 ? 's' : ''}
+                  </span>
+                )}
+                {(group.gapCount ?? 0) > 0 && (
+                  <span className="font-semibold" style={{ color: '#92400e' }}>
+                    {group.gapCount} gap{group.gapCount === 1 ? '' : 's'}
+                  </span>
+                )}
+                {group.citesThisArticle && (
+                  <span title="Arbiter's retrieved evidence cites this Wikipedia article" style={{ color: '#3730a3', fontWeight: 600 }}>
+                    cites this article
+                  </span>
+                )}
               </div>
 
-              {/* Related sections */}
+              {/* The claim this group leads with */}
+              {headline && (
+                <div className="flex items-start gap-1.5 mb-1.5">
+                  <LabelBadge label={headline.label} />
+                  <span
+                    className="text-xs leading-snug"
+                    style={{ color: 'var(--wiki-text)' }}
+                  >
+                    &ldquo;{headline.claimText.slice(0, 130)}{headline.claimText.length > 130 ? '\u2026' : ''}&rdquo;
+                  </span>
+                </div>
+              )}
+
+              {/* Related sections. Sections a labeled claim points at come first. */}
               <div className="flex flex-wrap gap-1">
-                {group.relevantSectionIds.map((sid) => (
+                {cardSections.map((sid) => (
                   <span
                     key={sid}
                     className="text-xs px-1.5 py-0.5 rounded"
@@ -696,6 +876,14 @@ export default function ClaimsSidebar({
                     {sectionTitles[sid] || sid}
                   </span>
                 ))}
+                {hiddenSectionCount > 0 && (
+                  <span
+                    className="text-xs px-1.5 py-0.5"
+                    style={{ color: 'var(--wiki-text-disabled)', fontSize: '0.65rem' }}
+                  >
+                    +{hiddenSectionCount} more
+                  </span>
+                )}
               </div>
             </button>
           );

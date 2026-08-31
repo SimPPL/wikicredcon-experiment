@@ -15,7 +15,10 @@
         "sourceAuthor": "GuntherEagleman",
         "platform": "twitter",
         "engagement": 983388,
-        "postExcerpt": "HOLY BOMBSHELL! Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE!"
+        "postExcerpt": "HOLY BOMBSHELL! Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE!",
+        "label": "misrepresentation",
+        "labelRationale": "The article traces John Deere's repair restrictions to the software era and a 2023 Farm Bureau agreement, undercutting the decades framing.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c17",
@@ -23,7 +26,10 @@
         "sourceAuthor": "StandUpForTrmp",
         "platform": "twitter",
         "engagement": 722239,
-        "postExcerpt": "🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?"
+        "postExcerpt": "🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?",
+        "label": "misrepresentation",
+        "labelRationale": "The article traces John Deere's repair restrictions to the software era and a 2023 Farm Bureau agreement, undercutting the decades framing.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c18",
@@ -31,7 +37,11 @@
         "sourceAuthor": "StoolGreenie",
         "platform": "twitter",
         "engagement": 176520,
-        "postExcerpt": "Jayson Tatum - Right Achilles Repair - QUESTIONABLE is going to hit like crack"
+        "postExcerpt": "Jayson Tatum - Right Achilles Repair - QUESTIONABLE is going to hit like crack",
+        "label": "accurate",
+        "labelRationale": "Off topic NBA injury listing; nothing in the past article addresses player availability.",
+        "sectionId": "right-to-repair-lead",
+        "evidenceUrl": "https://timesofindia.indiatimes.com/sports/nba/top-stories/dallas-mavericks-vs-boston-celtics-injury-report-whos-playing-injured-and-questionable-players-head-to-head-records-team-stats-and-more-march-6-2026/articleshow/129179242.cms"
       },
       {
         "id": "right-to-repair-c19",
@@ -39,7 +49,10 @@
         "sourceAuthor": "SenWarren",
         "platform": "twitter",
         "engagement": 111700,
-        "postExcerpt": "Right now, greedy defense contractors are blocking our troops from fixing their own equipment. Congress had a bipartisan plan to fix that, but lobbyists stopped it. @RepDeluzio and I aren't giving up on this. Our troops should have the right to repair their own stuff."
+        "postExcerpt": "Right now, greedy defense contractors are blocking our troops from fixing their own equipment. Congress had a bipartisan plan to fix that, but lobbyists stopped it. @RepDeluzio and I aren't giving up on this. Our troops should have the right to repair their own stuff.",
+        "label": "gap",
+        "labelRationale": "The past article never mentions military right to repair or the NDAA provision this bipartisan bill targeted.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c20",
@@ -47,7 +60,10 @@
         "sourceAuthor": "SenWarren",
         "platform": "twitter",
         "engagement": 111700,
-        "postExcerpt": "Right now, greedy defense contractors are blocking our troops from fixing their own equipment. Congress had a bipartisan plan to fix that, but lobbyists stopped it. @RepDeluzio and I aren't giving up on this. Our troops should have the right to repair their own stuff."
+        "postExcerpt": "Right now, greedy defense contractors are blocking our troops from fixing their own equipment. Congress had a bipartisan plan to fix that, but lobbyists stopped it. @RepDeluzio and I aren't giving up on this. Our troops should have the right to repair their own stuff.",
+        "label": "misrepresentation",
+        "labelRationale": "States as settled fact that lobbyists killed the provision; the article documents lobbying but attributes no legislative outcome to it.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c21",
@@ -55,7 +71,10 @@
         "sourceAuthor": "RightPulseNewss",
         "platform": "twitter",
         "engagement": 43633,
-        "postExcerpt": "🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?"
+        "postExcerpt": "🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?",
+        "label": "misrepresentation",
+        "labelRationale": "The article traces John Deere's repair restrictions to the software era and a 2023 Farm Bureau agreement, undercutting the decades framing.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c22",
@@ -63,7 +82,10 @@
         "sourceAuthor": "KaiSchwemmer",
         "platform": "twitter",
         "engagement": 32749,
-        "postExcerpt": "the debate i had on barfight with @michaeljknowles and @stevedeaceshow is up now on youtube, go give it a watch!"
+        "postExcerpt": "the debate i had on barfight with @michaeljknowles and @stevedeaceshow is up now on youtube, go give it a watch!",
+        "label": "accurate",
+        "labelRationale": "Off topic podcast promotion; the debate connects to nothing the past article covers.",
+        "sectionId": "right-to-repair-lead"
       },
       {
         "id": "right-to-repair-c23",
@@ -71,7 +93,10 @@
         "sourceAuthor": "edify_club",
         "platform": "twitter",
         "engagement": 23505,
-        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou"
+        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou",
+        "label": "misrepresentation",
+        "labelRationale": "Presents an unsourced vendor statistic; the Impacts section cites studies on unrepaired devices, not a 70 percent laptop figure.",
+        "sectionId": "impacts"
       },
       {
         "id": "right-to-repair-c24",
@@ -79,7 +104,10 @@
         "sourceAuthor": "edify_club",
         "platform": "twitter",
         "engagement": 23505,
-        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou"
+        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou",
+        "label": "accurate",
+        "labelRationale": "A refurbisher describing its own service; the article already frames repair as an alternative to replacement.",
+        "sectionId": "impacts"
       },
       {
         "id": "right-to-repair-c25",
@@ -87,7 +115,10 @@
         "sourceAuthor": "edify_club",
         "platform": "twitter",
         "engagement": 23505,
-        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou"
+        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou",
+        "label": "accurate",
+        "labelRationale": "A vendor's own pricing claim about its refurbished laptops; the Impacts section already covers repair affordability.",
+        "sectionId": "impacts"
       },
       {
         "id": "right-to-repair-c26",
@@ -95,7 +126,10 @@
         "sourceAuthor": "Zcash_Daily",
         "platform": "twitter",
         "engagement": 21139,
-        "postExcerpt": "Open source software & 3D printing are the future. Pirate Party helped farmers sue John Deere for the “Right To Repair” tractors. Website: Marcin Jakubowski, Ph.D founder of Open Source Ecology. Credit: OpenSourceEcology (IG)"
+        "postExcerpt": "Open source software & 3D printing are the future. Pirate Party helped farmers sue John Deere for the “Right To Repair” tractors. Website: Marcin Jakubowski, Ph.D founder of Open Source Ecology. Credit: OpenSourceEcology (IG)",
+        "label": "accurate",
+        "labelRationale": "Open Source Ecology sits outside the article's advocacy list and this founder credit needs no correction.",
+        "sectionId": "non-government-right-to-repair-organizations"
       },
       {
         "id": "right-to-repair-c27",
@@ -103,7 +137,11 @@
         "sourceAuthor": "GBNEWS",
         "platform": "twitter",
         "engagement": 9683,
-        "postExcerpt": "'Reform not only can repair that damage, we can take Britain to new heights.' Head of Policy at Reform UK Zia Yusuf hits out at Kemi Badenoch for refusing to admit the Conservative Party broke Britain. 🇬🇧 Become a Friend of GB News:"
+        "postExcerpt": "'Reform not only can repair that damage, we can take Britain to new heights.' Head of Policy at Reform UK Zia Yusuf hits out at Kemi Badenoch for refusing to admit the Conservative Party broke Britain. 🇬🇧 Become a Friend of GB News:",
+        "label": "accurate",
+        "labelRationale": "Off topic UK politics; the post uses repair figuratively and reporting confirms Yusuf leads Reform UK policy.",
+        "sectionId": "right-to-repair-lead",
+        "evidenceUrl": "https://www.dailypost.co.uk/news/north-wales-news/bangor-university-students-union-releases-33399585"
       },
       {
         "id": "right-to-repair-c28",
@@ -111,7 +149,10 @@
         "sourceAuthor": "GBNEWS",
         "platform": "twitter",
         "engagement": 9683,
-        "postExcerpt": "'Reform not only can repair that damage, we can take Britain to new heights.' Head of Policy at Reform UK Zia Yusuf hits out at Kemi Badenoch for refusing to admit the Conservative Party broke Britain. 🇬🇧 Become a Friend of GB News:"
+        "postExcerpt": "'Reform not only can repair that damage, we can take Britain to new heights.' Head of Policy at Reform UK Zia Yusuf hits out at Kemi Badenoch for refusing to admit the Conservative Party broke Britain. 🇬🇧 Become a Friend of GB News:",
+        "label": "accurate",
+        "labelRationale": "Off topic UK party dispute with no bearing on repair rights or the past article.",
+        "sectionId": "right-to-repair-lead"
       },
       {
         "id": "right-to-repair-c29",
@@ -119,7 +160,10 @@
         "sourceAuthor": "NickSolheim",
         "platform": "twitter",
         "engagement": 6688,
-        "postExcerpt": "Happy New Year and welcome to Season 6 of Moment of Truth. We’re kicking it off with a topic that fills me with incredible fury: the fight over Right to Repair. If you’ve ever tried to work on your own car and found yourself locked out by software or unable to twist a trademarked bespoke screw, this"
+        "postExcerpt": "Happy New Year and welcome to Season 6 of Moment of Truth. We’re kicking it off with a topic that fills me with incredible fury: the fight over Right to Repair. If you’ve ever tried to work on your own car and found yourself locked out by software or unable to twist a trademarked bespoke screw, this",
+        "label": "accurate",
+        "labelRationale": "Off topic season announcement; the article needs nothing from a podcast schedule.",
+        "sectionId": "right-to-repair-lead"
       },
       {
         "id": "right-to-repair-c30",
@@ -127,7 +171,10 @@
         "sourceAuthor": "NickSolheim",
         "platform": "twitter",
         "engagement": 6688,
-        "postExcerpt": "Happy New Year and welcome to Season 6 of Moment of Truth. We’re kicking it off with a topic that fills me with incredible fury: the fight over Right to Repair. If you’ve ever tried to work on your own car and found yourself locked out by software or unable to twist a trademarked bespoke screw, this"
+        "postExcerpt": "Happy New Year and welcome to Season 6 of Moment of Truth. We’re kicking it off with a topic that fills me with incredible fury: the fight over Right to Repair. If you’ve ever tried to work on your own car and found yourself locked out by software or unable to twist a trademarked bespoke screw, this",
+        "label": "gap",
+        "labelRationale": "The past article says nothing about military repair restrictions or administration officials raising them.",
+        "sectionId": "history"
       }
     ],
     "sources": [
@@ -260,7 +307,10 @@
         "type": "wikipedia",
         "snippet": "ThinkPad is a line of business-oriented laptops originally designed by IBM and now manufactured by Lenovo; provides background on the brand mentioned in the post."
       }
-    ]
+    ],
+    "misrepresentationCount": 5,
+    "gapCount": 2,
+    "citesThisArticle": false
   },
   {
     "groupId": "right-to-repair-g1",
@@ -278,7 +328,10 @@
         "sourceAuthor": "GuntherEagleman",
         "platform": "twitter",
         "engagement": 983388,
-        "postExcerpt": "HOLY BOMBSHELL! Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE!"
+        "postExcerpt": "HOLY BOMBSHELL! Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE!",
+        "label": "gap",
+        "labelRationale": "The past article stops at the 2023 John Deere agreement and covers no 2025 White House action on farm equipment.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c2",
@@ -286,7 +339,10 @@
         "sourceAuthor": "StandUpForTrmp",
         "platform": "twitter",
         "engagement": 722239,
-        "postExcerpt": "🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?"
+        "postExcerpt": "🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?",
+        "label": "gap",
+        "labelRationale": "The past article stops at the 2023 John Deere agreement and covers no 2025 White House action on farm equipment.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c3",
@@ -294,7 +350,11 @@
         "sourceAuthor": "StoolGreenie",
         "platform": "twitter",
         "engagement": 176520,
-        "postExcerpt": "Jayson Tatum - Right Achilles Repair - QUESTIONABLE is going to hit like crack"
+        "postExcerpt": "Jayson Tatum - Right Achilles Repair - QUESTIONABLE is going to hit like crack",
+        "label": "accurate",
+        "labelRationale": "Off topic sports post about Achilles surgery; the article covers repair rights for devices and equipment.",
+        "sectionId": "right-to-repair-lead",
+        "evidenceUrl": "https://timesofindia.indiatimes.com/sports/nba/top-stories/dallas-mavericks-vs-boston-celtics-injury-report-whos-playing-injured-and-questionable-players-head-to-head-records-team-stats-and-more-march-6-2026/articleshow/129179242.cms"
       },
       {
         "id": "right-to-repair-c4",
@@ -302,7 +362,10 @@
         "sourceAuthor": "RightPulseNewss",
         "platform": "twitter",
         "engagement": 43633,
-        "postExcerpt": "🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?"
+        "postExcerpt": "🚨BREAKING: Trump just said that the RIGHT TO REPAIR is coming to our farmers! John Deere has been BENDING OVER our farmers and giving them the raw end of the deal for DECADES. This is PHENOMENALLY HUGE! Do you support this? YES or NO?",
+        "label": "gap",
+        "labelRationale": "The past article stops at the 2023 John Deere agreement and covers no 2025 White House action on farm equipment.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c5",
@@ -310,7 +373,10 @@
         "sourceAuthor": "edify_club",
         "platform": "twitter",
         "engagement": 23505,
-        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou"
+        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou",
+        "label": "gap",
+        "labelRationale": "History mentions France's repairability score once; the European Union section describes no repairability index at all.",
+        "sectionId": "european-union"
       },
       {
         "id": "right-to-repair-c6",
@@ -318,7 +384,10 @@
         "sourceAuthor": "Zcash_Daily",
         "platform": "twitter",
         "engagement": 21139,
-        "postExcerpt": "Open source software & 3D printing are the future. Pirate Party helped farmers sue John Deere for the “Right To Repair” tractors. Website: Marcin Jakubowski, Ph.D founder of Open Source Ecology. Credit: OpenSourceEcology (IG)"
+        "postExcerpt": "Open source software & 3D printing are the future. Pirate Party helped farmers sue John Deere for the “Right To Repair” tractors. Website: Marcin Jakubowski, Ph.D founder of Open Source Ecology. Credit: OpenSourceEcology (IG)",
+        "label": "misrepresentation",
+        "labelRationale": "The article's John Deere coverage records farmer suits and a Farm Bureau memorandum, with no Pirate Party involvement anywhere.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c7",
@@ -326,7 +395,10 @@
         "sourceAuthor": "FaytuksNetwork",
         "platform": "twitter",
         "engagement": 16880,
-        "postExcerpt": "🇺🇸 Right to repair language for military equipment was stripped from the NDAA in December despite White House, Pentagon, and bipartisan backing. Atlantic Council analysis says the current repair restrictions threaten U.S. forces combat readiness."
+        "postExcerpt": "🇺🇸 Right to repair language for military equipment was stripped from the NDAA in December despite White House, Pentagon, and bipartisan backing. Atlantic Council analysis says the current repair restrictions threaten U.S. forces combat readiness.",
+        "label": "gap",
+        "labelRationale": "The past article covers no military right to repair, including the NDAA language stripped in December 2025.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c8",
@@ -334,7 +406,10 @@
         "sourceAuthor": "FaytuksNetwork",
         "platform": "twitter",
         "engagement": 16880,
-        "postExcerpt": "🇺🇸 Right to repair language for military equipment was stripped from the NDAA in December despite White House, Pentagon, and bipartisan backing. Atlantic Council analysis says the current repair restrictions threaten U.S. forces combat readiness."
+        "postExcerpt": "🇺🇸 Right to repair language for military equipment was stripped from the NDAA in December despite White House, Pentagon, and bipartisan backing. Atlantic Council analysis says the current repair restrictions threaten U.S. forces combat readiness.",
+        "label": "gap",
+        "labelRationale": "Nothing in the past article records White House or Pentagon support for military repair language.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c9",
@@ -342,7 +417,10 @@
         "sourceAuthor": "FaytuksNetwork",
         "platform": "twitter",
         "engagement": 16880,
-        "postExcerpt": "🇺🇸 Right to repair language for military equipment was stripped from the NDAA in December despite White House, Pentagon, and bipartisan backing. Atlantic Council analysis says the current repair restrictions threaten U.S. forces combat readiness."
+        "postExcerpt": "🇺🇸 Right to repair language for military equipment was stripped from the NDAA in December despite White House, Pentagon, and bipartisan backing. Atlantic Council analysis says the current repair restrictions threaten U.S. forces combat readiness.",
+        "label": "gap",
+        "labelRationale": "The past article cites no analysis linking repair restrictions to US military readiness.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c10",
@@ -350,7 +428,10 @@
         "sourceAuthor": "WIRED",
         "platform": "twitter",
         "engagement": 13072,
-        "postExcerpt": "This year, the right-to-repair movement got a boost from—surprisingly—big tech, tariffs, and economic downturn. But the companies controlling who fixes their stuff aren’t giving up that power willingly."
+        "postExcerpt": "This year, the right-to-repair movement got a boost from—surprisingly—big tech, tariffs, and economic downturn. But the companies controlling who fixes their stuff aren’t giving up that power willingly.",
+        "label": "gap",
+        "labelRationale": "The History section stops in 2023 and covers none of the 2025 tariff and economic pressures these posts cite.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c11",
@@ -358,7 +439,11 @@
         "sourceAuthor": "WIRED",
         "platform": "twitter",
         "engagement": 13072,
-        "postExcerpt": "This year, the right-to-repair movement got a boost from—surprisingly—big tech, tariffs, and economic downturn. But the companies controlling who fixes their stuff aren’t giving up that power willingly."
+        "postExcerpt": "This year, the right-to-repair movement got a boost from—surprisingly—big tech, tariffs, and economic downturn. But the companies controlling who fixes their stuff aren’t giving up that power willingly.",
+        "label": "gap",
+        "labelRationale": "The past lead lists repair obstacles but never names the repair monopoly the current revision now defines.",
+        "sectionId": "right-to-repair-lead",
+        "validatedByCurrent": true
       },
       {
         "id": "right-to-repair-c12",
@@ -366,7 +451,10 @@
         "sourceAuthor": "WIRED",
         "platform": "twitter",
         "engagement": 9810,
-        "postExcerpt": "As vehicles grow more software-dependent, repairing them has become harder than ever. A bill in the US House called the Repair Act would ease those restrictions, but it comes with caveats."
+        "postExcerpt": "As vehicles grow more software-dependent, repairing them has become harder than ever. A bill in the US House called the Repair Act would ease those restrictions, but it comes with caveats.",
+        "label": "gap",
+        "labelRationale": "The past United States section lists no federal bills, including the REPAIR Act now in the House.",
+        "sectionId": "united-states"
       },
       {
         "id": "right-to-repair-c13",
@@ -374,7 +462,10 @@
         "sourceAuthor": "GBNEWS",
         "platform": "twitter",
         "engagement": 9683,
-        "postExcerpt": "'Reform not only can repair that damage, we can take Britain to new heights.' Head of Policy at Reform UK Zia Yusuf hits out at Kemi Badenoch for refusing to admit the Conservative Party broke Britain. 🇬🇧 Become a Friend of GB News:"
+        "postExcerpt": "'Reform not only can repair that damage, we can take Britain to new heights.' Head of Policy at Reform UK Zia Yusuf hits out at Kemi Badenoch for refusing to admit the Conservative Party broke Britain. 🇬🇧 Become a Friend of GB News:",
+        "label": "accurate",
+        "labelRationale": "Off topic UK politics using repair figuratively; the article covers repair rights, not party messaging.",
+        "sectionId": "right-to-repair-lead"
       },
       {
         "id": "right-to-repair-c14",
@@ -382,7 +473,10 @@
         "sourceAuthor": "MeadorFTC",
         "platform": "twitter",
         "engagement": 9385,
-        "postExcerpt": "Right to repair is common sense. When you buy something, you should be able to fix it yourself. This is about basic fairness—and it’s also about keeping the market competitive. Honored to be fighting alongside good men like ⁦@SecWar⁩ in this battle."
+        "postExcerpt": "Right to repair is common sense. When you buy something, you should be able to fix it yourself. This is about basic fairness—and it’s also about keeping the market competitive. Honored to be fighting alongside good men like ⁦@SecWar⁩ in this battle.",
+        "label": "gap",
+        "labelRationale": "The past article's FTC coverage ends in 2021 and records no sitting commissioner backing military repair.",
+        "sectionId": "history"
       },
       {
         "id": "right-to-repair-c15",
@@ -390,7 +484,10 @@
         "sourceAuthor": "ObiWan_Catnobi",
         "platform": "twitter",
         "engagement": 9341,
-        "postExcerpt": "malas baca jadi abri. namanya diskusi publik, mimbar bebas, even demo itu hak. buat exercise hak, ga butuh izin aparat, cukup kasi surat pemberitahuan"
+        "postExcerpt": "malas baca jadi abri. namanya diskusi publik, mimbar bebas, even demo itu hak. buat exercise hak, ga butuh izin aparat, cukup kasi surat pemberitahuan",
+        "label": "accurate",
+        "labelRationale": "Off topic Indonesian post about protest rights, unrelated to repairing products.",
+        "sectionId": "right-to-repair-lead"
       }
     ],
     "sources": [
@@ -523,7 +620,10 @@
         "type": "wikipedia",
         "snippet": "NDAAs are federal laws specifying annual DoD budget/expenditures and defense policies."
       }
-    ]
+    ],
+    "misrepresentationCount": 1,
+    "gapCount": 11,
+    "citesThisArticle": false
   },
   {
     "groupId": "right-to-repair-g3",
@@ -541,7 +641,10 @@
         "sourceAuthor": "osbornforne",
         "platform": "twitter",
         "engagement": 221708,
-        "postExcerpt": "Here I am fixing the brakes on my Campaign Manager’s RAM hoping to get your attention on an issue I care a lot about as a mechanic – Right To Repair. Right to Repair is simple: if you own something, you should be able to fix it or take it to a technician you trust. But for decades, big corporations "
+        "postExcerpt": "Here I am fixing the brakes on my Campaign Manager’s RAM hoping to get your attention on an issue I care a lot about as a mechanic – Right To Repair. Right to Repair is simple: if you own something, you should be able to fix it or take it to a technician you trust. But for decades, big corporations ",
+        "label": "gap",
+        "labelRationale": "The past United States section names no federal right to repair bill a senator could cosponsor.",
+        "sectionId": "united-states"
       }
     ],
     "sources": [],
@@ -554,7 +657,10 @@
         "type": "wikipedia",
         "snippet": "Explains the Senate is the upper house of the U.S. Congress with authority to make and pass federal legislation."
       }
-    ]
+    ],
+    "misrepresentationCount": 0,
+    "gapCount": 1,
+    "citesThisArticle": false
   },
   {
     "groupId": "right-to-repair-g4",
@@ -572,7 +678,11 @@
         "sourceAuthor": "edify_club",
         "platform": "twitter",
         "engagement": 23505,
-        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou"
+        "postExcerpt": "Right to Repair is trending everywhere. But there is one truth the entire industry avoids. Most laptops do not die. They are killed by poor repair, cheap components, and zero accountability. And once a laptop struggles, the reflex action is to buy a new one. This habit drains India’s wallets by thou",
+        "label": "gap",
+        "labelRationale": "The past United States section promises a list of state laws and then names none.",
+        "sectionId": "united-states",
+        "validatedByCurrent": true
       },
       {
         "id": "right-to-repair-c47",
@@ -580,7 +690,10 @@
         "sourceAuthor": "WIRED",
         "platform": "twitter",
         "engagement": 9810,
-        "postExcerpt": "As vehicles grow more software-dependent, repairing them has become harder than ever. A bill in the US House called the Repair Act would ease those restrictions, but it comes with caveats."
+        "postExcerpt": "As vehicles grow more software-dependent, repairing them has become harder than ever. A bill in the US House called the Repair Act would ease those restrictions, but it comes with caveats.",
+        "label": "gap",
+        "labelRationale": "The past article covers vehicle repair through Massachusetts but never mentions the House REPAIR Act.",
+        "sectionId": "united-states"
       },
       {
         "id": "right-to-repair-c48",
@@ -588,7 +701,10 @@
         "sourceAuthor": "seidosha",
         "platform": "twitter",
         "engagement": 7244,
-        "postExcerpt": "『修理する権利』(アーロン・パーザナウスキー著/西村伸泰訳)の解題を書いてくださった吉田健彦さんが、本書のガイダンスを行われます。 欧米における「修理する権利(Right to repair)」の動向から、仙台に根ざすローカルな取り組みまで、さまざまな位相で「修理すること」について考えます。"
+        "postExcerpt": "『修理する権利』(アーロン・パーザナウスキー著/西村伸泰訳)の解題を書いてくださった吉田健彦さんが、本書のガイダンスを行われます。 欧米における「修理する権利(Right to repair)」の動向から、仙台に根ざすローカルな取り組みまで、さまざまな位相で「修理すること」について考えます。",
+        "label": "accurate",
+        "labelRationale": "Off topic book event announcement; the article needs nothing from a Sendai reading guide.",
+        "sectionId": "united-states"
       }
     ],
     "sources": [],
@@ -601,7 +717,10 @@
         "type": "wikipedia",
         "snippet": "The House is the lower house of Congress; with the Senate it can pass federal legislation, and bills passed by both are sent to the president for signature or veto."
       }
-    ]
+    ],
+    "misrepresentationCount": 0,
+    "gapCount": 2,
+    "citesThisArticle": false
   },
   {
     "groupId": "right-to-repair-g5",
@@ -619,7 +738,10 @@
         "sourceAuthor": "WIRED",
         "platform": "twitter",
         "engagement": 9810,
-        "postExcerpt": "As vehicles grow more software-dependent, repairing them has become harder than ever. A bill in the US House called the Repair Act would ease those restrictions, but it comes with caveats."
+        "postExcerpt": "As vehicles grow more software-dependent, repairing them has become harder than ever. A bill in the US House called the Repair Act would ease those restrictions, but it comes with caveats.",
+        "label": "accurate",
+        "labelRationale": "The Software section already explains how software barriers block repairs as devices add electronics.",
+        "sectionId": "software"
       },
       {
         "id": "right-to-repair-c62",
@@ -627,7 +749,10 @@
         "sourceAuthor": "Uncle Tony's Garage",
         "platform": "youtube",
         "engagement": 9026,
-        "postExcerpt": "When we first heard about Hyundai requiring a computer connection complete with subscription software to perform a simple rear brake pad service, it was via a video by @louisrossman, and to be honest we thought he might have been mistaken since he's not an actual hands on mechanic. But, we did just "
+        "postExcerpt": "When we first heard about Hyundai requiring a computer connection complete with subscription software to perform a simple rear brake pad service, it was via a video by @louisrossman, and to be honest we thought he might have been mistaken since he's not an actual hands on mechanic. But, we did just ",
+        "label": "gap",
+        "labelRationale": "The Software section covers parts pairing but not subscription diagnostic software gating a routine brake job.",
+        "sectionId": "software"
       },
       {
         "id": "right-to-repair-c63",
@@ -635,7 +760,10 @@
         "sourceAuthor": "Uncle Tony's Garage",
         "platform": "youtube",
         "engagement": 9026,
-        "postExcerpt": "When we first heard about Hyundai requiring a computer connection complete with subscription software to perform a simple rear brake pad service, it was via a video by @louisrossman, and to be honest we thought he might have been mistaken since he's not an actual hands on mechanic. But, we did just "
+        "postExcerpt": "When we first heard about Hyundai requiring a computer connection complete with subscription software to perform a simple rear brake pad service, it was via a video by @louisrossman, and to be honest we thought he might have been mistaken since he's not an actual hands on mechanic. But, we did just ",
+        "label": "accurate",
+        "labelRationale": "Attributes a video to Rossmann, whom the article already names as a repair advocate.",
+        "sectionId": "software"
       }
     ],
     "sources": [
@@ -648,6 +776,9 @@
       }
     ],
     "factChecks": [],
-    "wikipediaRefs": []
+    "wikipediaRefs": [],
+    "misrepresentationCount": 0,
+    "gapCount": 1,
+    "citesThisArticle": false
   }
 ]

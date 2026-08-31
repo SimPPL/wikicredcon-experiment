@@ -15,7 +15,10 @@
         "sourceAuthor": "zenzele",
         "platform": "twitter",
         "engagement": 201120,
-        "postExcerpt": "if we don't pay attention, we're going to lose many young people especially in matabeleland. there's a dangerous narrative spreading in whatsapp groups, convincing youths that going to fight in russia will earn them instant citizenship and big money after the war. for some, the historic ties between"
+        "postExcerpt": "if we don't pay attention, we're going to lose many young people especially in matabeleland. there's a dangerous narrative spreading in whatsapp groups, convincing youths that going to fight in russia will earn them instant citizenship and big money after the war. for some, the historic ties between",
+        "label": "accurate",
+        "labelRationale": "Soviet sponsorship of ZPRA is documented history, so this background detail calls for no change to the article.",
+        "sectionId": "spread"
       },
       {
         "id": "misinformation-c17",
@@ -23,7 +26,11 @@
         "sourceAuthor": "DiligentDenizen",
         "platform": "twitter",
         "engagement": 114889,
-        "postExcerpt": ".@grok has been restricted from being used to investigate the charlie kirk assassination outside of the \"official\" narrative...  eyes  to present the spread of what it calls \"misinformation\" what happened to maximum truth-seeking, @elonmusk?  thinking_face  we should all be very concerned."
+        "postExcerpt": ".@grok has been restricted from being used to investigate the charlie kirk assassination outside of the \"official\" narrative...  eyes  to present the spread of what it calls \"misinformation\" what happened to maximum truth-seeking, @elonmusk?  thinking_face  we should all be very concerned.",
+        "label": "misrepresentation",
+        "labelRationale": "Reporting shows Grok restricted image generation after deepfake complaints, and the post recasts that as blocking inquiry into the assassination.",
+        "sectionId": "censorship-accusations",
+        "evidenceUrl": "https://in.mashable.com/tech/104511/grok-says-it-has-restricted-image-generation-to-subscribers-after-deepfake-concerns-but-has-it"
       },
       {
         "id": "misinformation-c18",
@@ -31,7 +38,11 @@
         "sourceAuthor": "HemanNamo",
         "platform": "twitter",
         "engagement": 112374,
-        "postExcerpt": "keycap:_1  fact check for @republic & #arnabgoswami \"aravallis are being destroyed\" is a false narrative. what's spreading right now is misinformation, not bulldozers. let's go by court orders & data.  thread  backhand_index_pointing_down  #savearavallis #factcheck"
+        "postExcerpt": "keycap:_1  fact check for @republic & #arnabgoswami \"aravallis are being destroyed\" is a false narrative. what's spreading right now is misinformation, not bulldozers. let's go by court orders & data.  thread  backhand_index_pointing_down  #savearavallis #factcheck",
+        "label": "misrepresentation",
+        "labelRationale": "Reporting documents active Aravalli mining and construction, so calling the destruction reports a false narrative overstates the record.",
+        "sectionId": "trust-of-other-information",
+        "evidenceUrl": "https://indianexpress.com/shorts/cities/delhi/environmentalists-meet-gurgaon-june-january-aravallis-fall-10480520/"
       },
       {
         "id": "misinformation-c19",
@@ -39,7 +50,11 @@
         "sourceAuthor": "mullvadnet",
         "platform": "twitter",
         "engagement": 83926,
-        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9",
+        "label": "accurate",
+        "labelRationale": "German technology reporting confirms the December chat control negotiations, and the article does not track legislative timelines.",
+        "sectionId": "misinformation-lead",
+        "evidenceUrl": "https://www.heise.de/en/news/EU-agreement-fails-Voluntary-chat-control-ends-11213083.html"
       },
       {
         "id": "misinformation-c20",
@@ -47,7 +62,10 @@
         "sourceAuthor": "mullvadnet",
         "platform": "twitter",
         "engagement": 83926,
-        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9",
+        "label": "accurate",
+        "labelRationale": "Reported speech from a parliamentary exchange, with nothing in the article that this contradicts or improves.",
+        "sectionId": "misinformation-lead"
       },
       {
         "id": "misinformation-c21",
@@ -55,7 +73,11 @@
         "sourceAuthor": "mullvadnet",
         "platform": "twitter",
         "engagement": 83926,
-        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9",
+        "label": "misrepresentation",
+        "labelRationale": "Coverage describes the proposal as mandating automated scanning of private messages, which conflicts with calling the approach targeted.",
+        "sectionId": "censorship-accusations",
+        "evidenceUrl": "https://www.heise.de/en/news/Setback-for-the-Commission-EU-MEPs-let-chat-control-fail-11197237.html"
       },
       {
         "id": "misinformation-c22",
@@ -63,7 +85,10 @@
         "sourceAuthor": "mullvadnet",
         "platform": "twitter",
         "engagement": 83926,
-        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9",
+        "label": "accurate",
+        "labelRationale": "This records an MEP question at a hearing, a procedural detail that sits outside the article's scope.",
+        "sectionId": "misinformation-lead"
       },
       {
         "id": "misinformation-c23",
@@ -71,7 +96,10 @@
         "sourceAuthor": "mullvadnet",
         "platform": "twitter",
         "engagement": 83926,
-        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9",
+        "label": "accurate",
+        "labelRationale": "Reported remarks about missing victim figures, and the article carries no section on EU hearing testimony.",
+        "sectionId": "misinformation-lead"
       },
       {
         "id": "misinformation-c24",
@@ -79,7 +107,10 @@
         "sourceAuthor": "mullvadnet",
         "platform": "twitter",
         "engagement": 83926,
-        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9",
+        "label": "accurate",
+        "labelRationale": "Brunner admitting he lacked figures is reported speech with no bearing on what the article says.",
+        "sectionId": "misinformation-lead"
       },
       {
         "id": "misinformation-c25",
@@ -87,7 +118,11 @@
         "sourceAuthor": "mullvadnet",
         "platform": "twitter",
         "engagement": 83926,
-        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9",
+        "label": "accurate",
+        "labelRationale": "Zarzalejos chairs the European Parliament's LIBE committee in the current term, so the identification is right.",
+        "sectionId": "misinformation-lead",
+        "evidenceUrl": "https://www.heise.de/en/news/Setback-for-the-Commission-EU-MEPs-let-chat-control-fail-11197237.html"
       },
       {
         "id": "misinformation-c26",
@@ -95,7 +130,10 @@
         "sourceAuthor": "theeemprasss",
         "platform": "twitter",
         "engagement": 73582,
-        "postExcerpt": "imaan is literally at her boyfriend's ( achraf hakimi ) soccer game right now as we speak. those pictures are from 2024. the misinformation on this app is so bad that it's scary how much people believe these type of posts. can we leave lying for engagement in 2025?"
+        "postExcerpt": "imaan is literally at her boyfriend's ( achraf hakimi ) soccer game right now as we speak. those pictures are from 2024. the misinformation on this app is so bad that it's scary how much people believe these type of posts. can we leave lying for engagement in 2025?",
+        "label": "accurate",
+        "labelRationale": "The Identification section already teaches readers to check when and where an image was taken.",
+        "sectionId": "identification"
       },
       {
         "id": "misinformation-c27",
@@ -103,7 +141,10 @@
         "sourceAuthor": "theeemprasss",
         "platform": "twitter",
         "engagement": 73582,
-        "postExcerpt": "imaan is literally at her boyfriend's ( achraf hakimi ) soccer game right now as we speak. those pictures are from 2024. the misinformation on this app is so bad that it's scary how much people believe these type of posts. can we leave lying for engagement in 2025?"
+        "postExcerpt": "imaan is literally at her boyfriend's ( achraf hakimi ) soccer game right now as we speak. those pictures are from 2024. the misinformation on this app is so bad that it's scary how much people believe these type of posts. can we leave lying for engagement in 2025?",
+        "label": "accurate",
+        "labelRationale": "Identification already tells readers to reverse image search photos pulled out of their original context.",
+        "sectionId": "identification"
       },
       {
         "id": "misinformation-c28",
@@ -111,7 +152,11 @@
         "sourceAuthor": "ZardanSi",
         "platform": "twitter",
         "engagement": 40264,
-        "postExcerpt": "\"misinformation cannot substitute for evidence. the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.\" - attaullah tarar (moib pakistan) exposed indian propaganda targeting pakistan over the bondi beach incident."
+        "postExcerpt": "\"misinformation cannot substitute for evidence. the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.\" - attaullah tarar (moib pakistan) exposed indian propaganda targeting pakistan over the bondi beach incident.",
+        "label": "accurate",
+        "labelRationale": "Pakistani reporting confirms Tarar made statements in this role, so the attribution matches the record.",
+        "sectionId": "politics",
+        "evidenceUrl": "https://www.nation.com.pk/16-Mar-2026/pakistan-targets-taliban-installations-terrorist-hideouts-kandahar"
       },
       {
         "id": "misinformation-c29",
@@ -119,7 +164,11 @@
         "sourceAuthor": "ZardanSi",
         "platform": "twitter",
         "engagement": 40264,
-        "postExcerpt": "\"misinformation cannot substitute for evidence. the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.\" - attaullah tarar (moib pakistan) exposed indian propaganda targeting pakistan over the bondi beach incident."
+        "postExcerpt": "\"misinformation cannot substitute for evidence. the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.\" - attaullah tarar (moib pakistan) exposed indian propaganda targeting pakistan over the bondi beach incident.",
+        "label": "misrepresentation",
+        "labelRationale": "Australian coverage traces Bondi rumours to scattered sources, and no reporting establishes an organised Indian propaganda campaign.",
+        "sectionId": "politics",
+        "evidenceUrl": "https://www.canberratimes.com.au/story/9142125/patterns-of-misinformation-swirl-around-bondi-massacre/"
       }
     ],
     "sources": [
@@ -217,7 +266,10 @@
         "type": "wikipedia",
         "snippet": "The Aravalli Range is a mountain range in north-western India, running ~670 km from near Delhi through Haryana and Rajasthan to Gujarat."
       }
-    ]
+    ],
+    "misrepresentationCount": 4,
+    "gapCount": 0,
+    "citesThisArticle": true
   },
   {
     "groupId": "misinformation-g4",
@@ -235,7 +287,12 @@
         "sourceAuthor": "BasilTheGreat",
         "platform": "twitter",
         "engagement": 120676,
-        "postExcerpt": "police_car_light holy sh*t. the british government has admitted it collects our social media posts they are using ai to assess the posts for what they call 'misinformation' or more likely people disagreeing with them this is crazy. it's 1984. the uk is not a free country"
+        "postExcerpt": "police_car_light holy sh*t. the british government has admitted it collects our social media posts they are using ai to assess the posts for what they call 'misinformation' or more likely people disagreeing with them this is crazy. it's 1984. the uk is not a free country",
+        "label": "gap",
+        "labelRationale": "The past lead says nothing about governments screening social media posts for misinformation, which the current lead now discusses.",
+        "sectionId": "misinformation-lead",
+        "evidenceUrl": "https://www.breitbart.com/tech/2025/07/31/jim-jordan-uk-government-tried-to-censor-criticism-of-mass-migration-asylum-refugees/",
+        "validatedByCurrent": true
       },
       {
         "id": "misinformation-c47",
@@ -243,7 +300,11 @@
         "sourceAuthor": "DiligentDenizen",
         "platform": "twitter",
         "engagement": 114889,
-        "postExcerpt": ".@grok has been restricted from being used to investigate the charlie kirk assassination outside of the \"official\" narrative...  eyes  to present the spread of what it calls \"misinformation\" what happened to maximum truth-seeking, @elonmusk?  thinking_face  we should all be very concerned."
+        "postExcerpt": ".@grok has been restricted from being used to investigate the charlie kirk assassination outside of the \"official\" narrative...  eyes  to present the spread of what it calls \"misinformation\" what happened to maximum truth-seeking, @elonmusk?  thinking_face  we should all be very concerned.",
+        "label": "gap",
+        "labelRationale": "The past AI section runs three bullet points and never mentions chatbots judging or spreading claims about breaking events.",
+        "sectionId": "ai-contribution-to-the-problem-and-aid-in-combatting",
+        "evidenceUrl": "https://www.thestar.com.my/tech/tech-news/2025/12/17/grok-spews-misinformation-about-deadly-australia-shooting"
       },
       {
         "id": "misinformation-c48",
@@ -251,7 +312,11 @@
         "sourceAuthor": "HemanNamo",
         "platform": "twitter",
         "engagement": 112374,
-        "postExcerpt": "keycap:_1  fact check for @republic & #arnabgoswami \"aravallis are being destroyed\" is a false narrative. what's spreading right now is misinformation, not bulldozers. let's go by court orders & data.  thread  backhand_index_pointing_down  #savearavallis #factcheck"
+        "postExcerpt": "keycap:_1  fact check for @republic & #arnabgoswami \"aravallis are being destroyed\" is a false narrative. what's spreading right now is misinformation, not bulldozers. let's go by court orders & data.  thread  backhand_index_pointing_down  #savearavallis #factcheck",
+        "label": "misrepresentation",
+        "labelRationale": "Environmentalists and courts document ongoing Aravalli mining, so treating the destruction reports as pure misinformation misstates the evidence.",
+        "sectionId": "trust-of-other-information",
+        "evidenceUrl": "https://indianexpress.com/shorts/cities/delhi/environmentalists-meet-gurgaon-june-january-aravallis-fall-10480520/"
       },
       {
         "id": "misinformation-c49",
@@ -259,7 +324,12 @@
         "sourceAuthor": "DefiantLs",
         "platform": "twitter",
         "engagement": 78956,
-        "postExcerpt": "spanish pm pedro sánchez calls for \"an end to anonymity on social media\" says it's very important to stop \"misinformation\" and \"hate speech\" and who decides what's hate speech or misinformation?"
+        "postExcerpt": "spanish pm pedro sánchez calls for \"an end to anonymity on social media\" says it's very important to stop \"misinformation\" and \"hate speech\" and who decides what's hate speech or misinformation?",
+        "label": "gap",
+        "labelRationale": "The past lead omits state anti-misinformation campaigns, while the current lead added a paragraph on such policies and press freedom.",
+        "sectionId": "misinformation-lead",
+        "evidenceUrl": "https://www.foxnews.com/world/musk-calls-spanish-pm-tyrant-after-spain-announces-sweeping-social-media-crackdown",
+        "validatedByCurrent": true
       }
     ],
     "sources": [
@@ -357,7 +427,10 @@
         "type": "wikipedia",
         "snippet": "Describes social media platforms’ features and criticism, including viral spread with little/no oversight and amplification of misinformation."
       }
-    ]
+    ],
+    "misrepresentationCount": 1,
+    "gapCount": 3,
+    "citesThisArticle": true
   },
   {
     "groupId": "misinformation-g6",
@@ -375,7 +448,11 @@
         "sourceAuthor": "News24",
         "platform": "twitter",
         "engagement": 83483,
-        "postExcerpt": "opinion | disinformation doesn't happen in a vacuum, nor is it the product of happenstance. kallie kriel and afriforum are past masters at creating and amplifying it, writes @pieterdutoit."
+        "postExcerpt": "opinion | disinformation doesn't happen in a vacuum, nor is it the product of happenstance. kallie kriel and afriforum are past masters at creating and amplifying it, writes @pieterdutoit.",
+        "label": "accurate",
+        "labelRationale": "The Causes section already describes disinformation as deliberately created and amplified by motivated actors.",
+        "sectionId": "causes",
+        "evidenceUrl": "https://www.rappler.com/newsbreak/fact-check/engineered-lies-how-disinformation-machinery-hijacks-collective-reality/"
       },
       {
         "id": "misinformation-c77",
@@ -383,7 +460,10 @@
         "sourceAuthor": "News24",
         "platform": "twitter",
         "engagement": 83483,
-        "postExcerpt": "opinion | disinformation doesn't happen in a vacuum, nor is it the product of happenstance. kallie kriel and afriforum are past masters at creating and amplifying it, writes @pieterdutoit."
+        "postExcerpt": "opinion | disinformation doesn't happen in a vacuum, nor is it the product of happenstance. kallie kriel and afriforum are past masters at creating and amplifying it, writes @pieterdutoit.",
+        "label": "accurate",
+        "labelRationale": "An opinion columnist's charge, relayed accurately, and the article does not catalogue individual national disinformation actors.",
+        "sectionId": "politics"
       },
       {
         "id": "misinformation-c78",
@@ -391,7 +471,11 @@
         "sourceAuthor": "ZardanSi",
         "platform": "twitter",
         "engagement": 40264,
-        "postExcerpt": "\"misinformation cannot substitute for evidence. the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.\" - attaullah tarar (moib pakistan) exposed indian propaganda targeting pakistan over the bondi beach incident."
+        "postExcerpt": "\"misinformation cannot substitute for evidence. the rush to blame pakistan for the sydney tragedy without a shred of proof was an organized campaign of lies by india.\" - attaullah tarar (moib pakistan) exposed indian propaganda targeting pakistan over the bondi beach incident.",
+        "label": "accurate",
+        "labelRationale": "Pakistani reporting identifies Tarar as information minister, so the title given in the post is right.",
+        "sectionId": "politics",
+        "evidenceUrl": "https://www.nation.com.pk/16-Mar-2026/pakistan-targets-taliban-installations-terrorist-hideouts-kandahar"
       }
     ],
     "sources": [
@@ -467,7 +551,10 @@
       }
     ],
     "factChecks": [],
-    "wikipediaRefs": []
+    "wikipediaRefs": [],
+    "misrepresentationCount": 0,
+    "gapCount": 0,
+    "citesThisArticle": false
   },
   {
     "groupId": "misinformation-g1",
@@ -485,7 +572,10 @@
         "sourceAuthor": "zenzele",
         "platform": "twitter",
         "engagement": 201120,
-        "postExcerpt": "if we don't pay attention, we're going to lose many young people especially in matabeleland. there's a dangerous narrative spreading in whatsapp groups, convincing youths that going to fight in russia will earn them instant citizenship and big money after the war. for some, the historic ties between"
+        "postExcerpt": "if we don't pay attention, we're going to lose many young people especially in matabeleland. there's a dangerous narrative spreading in whatsapp groups, convincing youths that going to fight in russia will earn them instant citizenship and big money after the war. for some, the historic ties between",
+        "label": "gap",
+        "labelRationale": "The Spread section covers open platforms and algorithms and never addresses rumours moving through closed WhatsApp groups.",
+        "sectionId": "spread"
       }
     ],
     "sources": [
@@ -513,7 +603,10 @@
         "type": "wikipedia",
         "snippet": "Matabeleland is a southwestern Zimbabwe region divided into Matabeleland North, Bulawayo, and Matabeleland South."
       }
-    ]
+    ],
+    "misrepresentationCount": 0,
+    "gapCount": 1,
+    "citesThisArticle": false
   },
   {
     "groupId": "misinformation-g3",
@@ -531,7 +624,12 @@
         "sourceAuthor": "BasilTheGreat",
         "platform": "twitter",
         "engagement": 120676,
-        "postExcerpt": "police_car_light holy sh*t. the british government has admitted it collects our social media posts they are using ai to assess the posts for what they call 'misinformation' or more likely people disagreeing with them this is crazy. it's 1984. the uk is not a free country"
+        "postExcerpt": "police_car_light holy sh*t. the british government has admitted it collects our social media posts they are using ai to assess the posts for what they call 'misinformation' or more likely people disagreeing with them this is crazy. it's 1984. the uk is not a free country",
+        "label": "gap",
+        "labelRationale": "The past article never mentions government units collecting social media posts, and the current lead now covers such policies.",
+        "sectionId": "misinformation-lead",
+        "evidenceUrl": "https://www.express.co.uk/showbiz/tv-radio/2090646/fox-news-keir-starmer-breaking-alert",
+        "validatedByCurrent": true
       },
       {
         "id": "misinformation-c32",
@@ -539,7 +637,11 @@
         "sourceAuthor": "DefiantLs",
         "platform": "twitter",
         "engagement": 78956,
-        "postExcerpt": "spanish pm pedro sánchez calls for \"an end to anonymity on social media\" says it's very important to stop \"misinformation\" and \"hate speech\" and who decides what's hate speech or misinformation?"
+        "postExcerpt": "spanish pm pedro sánchez calls for \"an end to anonymity on social media\" says it's very important to stop \"misinformation\" and \"hate speech\" and who decides what's hate speech or misinformation?",
+        "label": "gap",
+        "labelRationale": "The Lack of regulation section describes missing gatekeepers and skips proposals like ending anonymity or charging executives.",
+        "sectionId": "lack-of-regulation",
+        "evidenceUrl": "https://www.foxnews.com/world/musk-calls-spanish-pm-tyrant-after-spain-announces-sweeping-social-media-crackdown"
       }
     ],
     "sources": [
@@ -630,7 +732,10 @@
         "type": "wikipedia",
         "snippet": "Provides an overview of social media and notes it is criticized for various negative impacts; discusses viral spread and lack of oversight."
       }
-    ]
+    ],
+    "misrepresentationCount": 0,
+    "gapCount": 2,
+    "citesThisArticle": true
   },
   {
     "groupId": "misinformation-g5",
@@ -648,11 +753,17 @@
         "sourceAuthor": "mullvadnet",
         "platform": "twitter",
         "engagement": 83926,
-        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9"
+        "postExcerpt": "chat control trilogue negotiations to start 9 december - the eu commission continues to spread misinformation about the chat control proposal. today, eu commissioner magnus brunner visited the european parliament and announced that the trilogue negotiations on chat control will begin next week, on 9",
+        "label": "accurate",
+        "labelRationale": "This records cross-party support for a parliamentary report, a procedural detail outside a section on confirmation bias.",
+        "sectionId": "political-ideology-and-confirmation-bias"
       }
     ],
     "sources": [],
     "factChecks": [],
-    "wikipediaRefs": []
+    "wikipediaRefs": [],
+    "misrepresentationCount": 0,
+    "gapCount": 0,
+    "citesThisArticle": false
   }
 ]

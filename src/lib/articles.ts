@@ -1,4 +1,5 @@
 import type { Article, ArbiterClaim, ClaimGroup } from '@/types';
+import { curateClaimGroups } from './claim-curation';
 
 export async function loadArticle(articleId: string, version: 'past' | 'current'): Promise<Article> {
   const res = await fetch(`/data/articles/${articleId}-${version}.json`, { cache: 'no-store' });
@@ -19,7 +20,10 @@ export async function loadClaimGroups(articleId: string): Promise<ClaimGroup[]> 
     if (!res.ok) return [];
     const data = await res.json();
     if (!Array.isArray(data)) return [];
-    return data;
+    // Everything downstream (sidebar, section selection, claim-coverage
+    // metrics) reads the curated set, so participants and metrics agree on
+    // what counted as a claim worth answering.
+    return curateClaimGroups(data as ClaimGroup[]);
   } catch {
     return [];
   }

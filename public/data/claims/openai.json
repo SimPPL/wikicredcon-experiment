@@ -15,7 +15,10 @@
         "sourceAuthor": "Fireship",
         "platform": "youtube",
         "engagement": 603941,
-        "postExcerpt": "OpenAI was dead… Then GPT-5.2 dropped"
+        "postExcerpt": "OpenAI was dead… Then GPT-5.2 dropped",
+        "label": "misrepresentation",
+        "labelRationale": "The Finances section records a $500 billion valuation in October 2025, so calling OpenAI dead misstates its position.",
+        "sectionId": "finances"
       },
       {
         "id": "openai-c47",
@@ -23,7 +26,11 @@
         "sourceAuthor": "Ric_RTP",
         "platform": "twitter",
         "engagement": 359129,
-        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words"
+        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
+        "label": "misrepresentation",
+        "labelRationale": "The article reports five million business users; OpenAI's one million figure counts business customers, not users.",
+        "sectionId": "finances",
+        "evidenceUrl": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/"
       },
       {
         "id": "openai-c48",
@@ -31,7 +38,10 @@
         "sourceAuthor": "Ric_RTP",
         "platform": "twitter",
         "engagement": 359129,
-        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words"
+        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
+        "label": "misrepresentation",
+        "labelRationale": "OpenAI's published GDPval results place its models near half of expert tasks, far below the 74.1% cited here.",
+        "sectionId": "development"
       },
       {
         "id": "openai-c49",
@@ -39,7 +49,11 @@
         "sourceAuthor": "MarioNawfal",
         "platform": "twitter",
         "engagement": 175655,
-        "postExcerpt": "flag:_United_States  sam altman just hit \"code red\" - and big tech finally smells blood openai just threw the emergency lever. sam altman - the man who spent the last 2 years looking untouchable - told his staff this week that the ai crown is no longer guaranteed. not with google firing off gemini 3"
+        "postExcerpt": "flag:_United_States  sam altman just hit \"code red\" - and big tech finally smells blood openai just threw the emergency lever. sam altman - the man who spent the last 2 years looking untouchable - told his staff this week that the ai crown is no longer guaranteed. not with google firing off gemini 3",
+        "label": "gap",
+        "labelRationale": "The past article describes no advertising, shopping, or health products, so it cannot show what OpenAI shelved.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.cryptobreaking.com/chatgpt-ads-are-officially-here/"
       },
       {
         "id": "openai-c50",
@@ -47,7 +61,11 @@
         "sourceAuthor": "MarioNawfal",
         "platform": "twitter",
         "engagement": 175655,
-        "postExcerpt": "flag:_United_States  sam altman just hit \"code red\" - and big tech finally smells blood openai just threw the emergency lever. sam altman - the man who spent the last 2 years looking untouchable - told his staff this week that the ai crown is no longer guaranteed. not with google firing off gemini 3"
+        "postExcerpt": "flag:_United_States  sam altman just hit \"code red\" - and big tech finally smells blood openai just threw the emergency lever. sam altman - the man who spent the last 2 years looking untouchable - told his staff this week that the ai crown is no longer guaranteed. not with google firing off gemini 3",
+        "label": "gap",
+        "labelRationale": "The Finances section counts paid subscribers and business users but never gives ChatGPT's weekly user total.",
+        "sectionId": "finances",
+        "evidenceUrl": "https://indianexpress.com/shorts/technology/chatgpt-records-strongest-subscriber-growth-as-number-of-weekly-users-nears-a-billion-10557308/"
       },
       {
         "id": "openai-c51",
@@ -55,7 +73,10 @@
         "sourceAuthor": "zerohedge",
         "platform": "twitter",
         "engagement": 164828,
-        "postExcerpt": "so when the board kicked out sam as ceo, they were right? *openai says planning safeguards for ai models *openai: training models to safely respond to harmful requests"
+        "postExcerpt": "so when the board kicked out sam as ceo, they were right? *openai says planning safeguards for ai models *openai: training models to safely respond to harmful requests",
+        "label": "accurate",
+        "labelRationale": "The past article already says OpenAI is strengthening protections, including crisis response behavior and parental controls.",
+        "sectionId": "wrongful-death-lawsuit-over-chatgpt-safety-2025"
       },
       {
         "id": "openai-c52",
@@ -63,7 +84,10 @@
         "sourceAuthor": "zerohedge",
         "platform": "twitter",
         "engagement": 164828,
-        "postExcerpt": "so when the board kicked out sam as ceo, they were right? *openai says planning safeguards for ai models *openai: training models to safely respond to harmful requests"
+        "postExcerpt": "so when the board kicked out sam as ceo, they were right? *openai says planning safeguards for ai models *openai: training models to safely respond to harmful requests",
+        "label": "accurate",
+        "labelRationale": "The past article already reports OpenAI updating how its models respond to self-harm and crisis prompts.",
+        "sectionId": "wrongful-death-lawsuit-over-chatgpt-safety-2025"
       },
       {
         "id": "openai-c53",
@@ -71,7 +95,12 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article lists subscriptions and enterprise deals as revenue sources and never mentions advertising in ChatGPT.",
+        "sectionId": "finances",
+        "evidenceUrl": "https://www.cryptobreaking.com/chatgpt-ads-are-officially-here/",
+        "validatedByCurrent": true
       },
       {
         "id": "openai-c54",
@@ -79,7 +108,10 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article's product timeline ends at ChatGPT Atlas and omits shopping and health agents in development.",
+        "sectionId": "development"
       },
       {
         "id": "openai-c55",
@@ -87,7 +119,10 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article never mentions Pulse, OpenAI's daily personalized report feature.",
+        "sectionId": "development"
       },
       {
         "id": "openai-c56",
@@ -95,7 +130,11 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article covers model launches only and says nothing about personalization work on ChatGPT.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
       },
       {
         "id": "openai-c57",
@@ -103,7 +142,11 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article's image generation coverage stops at DALL-E and omits the 2025 competition with Google.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.androidcentral.com/apps-software/google-announces-nano-banana-2"
       },
       {
         "id": "openai-c58",
@@ -111,7 +154,11 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article never discusses ChatGPT response speed or refusal behavior.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
       },
       {
         "id": "openai-c59",
@@ -119,7 +166,10 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "accurate",
+        "labelRationale": "The Development section already records the December 2024 launch of the o1 reasoning model.",
+        "sectionId": "development"
       },
       {
         "id": "openai-c60",
@@ -127,7 +177,11 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article stops in October 2025 and lists no reasoning model planned after o1 and o3.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
       }
     ],
     "sources": [
@@ -211,7 +265,10 @@
         "type": "wikipedia",
         "snippet": "Google is described as a major technology company; Wikipedia lists AI-related products such as Gemini and Google Assistant."
       }
-    ]
+    ],
+    "misrepresentationCount": 3,
+    "gapCount": 9,
+    "citesThisArticle": false
   },
   {
     "groupId": "openai-g1",
@@ -229,7 +286,11 @@
         "sourceAuthor": "sama",
         "platform": "twitter",
         "engagement": 3111094,
-        "postExcerpt": "gpt-5.2-codex launches today. it is trained specifically for agentic coding and terminal use, and people at openai have been having great success with it."
+        "postExcerpt": "gpt-5.2-codex launches today. it is trained specifically for agentic coding and terminal use, and people at openai have been having great success with it.",
+        "label": "gap",
+        "labelRationale": "The past article's Development section stops in October 2025 and never mentions a GPT-5.2-Codex release.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.tomsguide.com/ai/claude-code-vs-chatgpt-codex-which-ai-coding-agent-is-actually-better"
       },
       {
         "id": "openai-c2",
@@ -237,7 +298,11 @@
         "sourceAuthor": "Fireship",
         "platform": "youtube",
         "engagement": 603941,
-        "postExcerpt": "OpenAI was dead… Then GPT-5.2 dropped"
+        "postExcerpt": "OpenAI was dead… Then GPT-5.2 dropped",
+        "label": "misrepresentation",
+        "labelRationale": "OpenAI announced GPT-5.2 on December 11, 2025, so the December 12 date the post gives is wrong.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
       },
       {
         "id": "openai-c3",
@@ -245,7 +310,11 @@
         "sourceAuthor": "Ric_RTP",
         "platform": "twitter",
         "engagement": 359129,
-        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words"
+        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
+        "label": "misrepresentation",
+        "labelRationale": "The Finances section credits OpenAI's revenue jump to ChatGPT subscriptions, which cuts against the enterprise-outpaces-consumer framing.",
+        "sectionId": "finances",
+        "evidenceUrl": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/"
       },
       {
         "id": "openai-c4",
@@ -253,7 +322,11 @@
         "sourceAuthor": "MarioNawfal",
         "platform": "twitter",
         "engagement": 175655,
-        "postExcerpt": "flag:_United_States  sam altman just hit \"code red\" - and big tech finally smells blood openai just threw the emergency lever. sam altman - the man who spent the last 2 years looking untouchable - told his staff this week that the ai crown is no longer guaranteed. not with google firing off gemini 3"
+        "postExcerpt": "flag:_United_States  sam altman just hit \"code red\" - and big tech finally smells blood openai just threw the emergency lever. sam altman - the man who spent the last 2 years looking untouchable - told his staff this week that the ai crown is no longer guaranteed. not with google firing off gemini 3",
+        "label": "gap",
+        "labelRationale": "The past article records no December 2025 code red memo and no response to Google's Gemini 3.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
       },
       {
         "id": "openai-c5",
@@ -261,7 +334,11 @@
         "sourceAuthor": "shanaka86",
         "platform": "twitter",
         "engagement": 102637,
-        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi"
+        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
+        "label": "gap",
+        "labelRationale": "Nothing in the past article covers Altman's December 2, 2025 code red declaration.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece"
       },
       {
         "id": "openai-c6",
@@ -269,7 +346,11 @@
         "sourceAuthor": "wallstengine",
         "platform": "twitter",
         "engagement": 84163,
-        "postExcerpt": "altman told employees in a memo that openai is declaring a \"code red\" on chatgpt, pausing work on ads, ai agents & pulse to focus on day to day quality, more personalization, faster responses & fewer unnecessary refusals he also acknowledged $googl gemini is gaining ground and said openai plans to r"
+        "postExcerpt": "altman told employees in a memo that openai is declaring a \"code red\" on chatgpt, pausing work on ads, ai agents & pulse to focus on day to day quality, more personalization, faster responses & fewer unnecessary refusals he also acknowledged $googl gemini is gaining ground and said openai plans to r",
+        "label": "gap",
+        "labelRationale": "The past article ends in October 2025 and never mentions the internal memo declaring a code red on ChatGPT.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.hindustantimes.com/technology/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-101765255981406.html"
       },
       {
         "id": "openai-c7",
@@ -277,7 +358,11 @@
         "sourceAuthor": "wallstengine",
         "platform": "twitter",
         "engagement": 84163,
-        "postExcerpt": "altman told employees in a memo that openai is declaring a \"code red\" on chatgpt, pausing work on ads, ai agents & pulse to focus on day to day quality, more personalization, faster responses & fewer unnecessary refusals he also acknowledged $googl gemini is gaining ground and said openai plans to r"
+        "postExcerpt": "altman told employees in a memo that openai is declaring a \"code red\" on chatgpt, pausing work on ads, ai agents & pulse to focus on day to day quality, more personalization, faster responses & fewer unnecessary refusals he also acknowledged $googl gemini is gaining ground and said openai plans to r",
+        "label": "gap",
+        "labelRationale": "The past article lists no paused roadmap items and never mentions ads, shopping agents, or Pulse.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
       },
       {
         "id": "openai-c8",
@@ -285,7 +370,11 @@
         "sourceAuthor": "wallstengine",
         "platform": "twitter",
         "engagement": 84163,
-        "postExcerpt": "altman told employees in a memo that openai is declaring a \"code red\" on chatgpt, pausing work on ads, ai agents & pulse to focus on day to day quality, more personalization, faster responses & fewer unnecessary refusals he also acknowledged $googl gemini is gaining ground and said openai plans to r"
+        "postExcerpt": "altman told employees in a memo that openai is declaring a \"code red\" on chatgpt, pausing work on ads, ai agents & pulse to focus on day to day quality, more personalization, faster responses & fewer unnecessary refusals he also acknowledged $googl gemini is gaining ground and said openai plans to r",
+        "label": "gap",
+        "labelRationale": "The Development section closes before Gemini 3 shipped and records no acknowledgement that Google was catching up.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
       },
       {
         "id": "openai-c9",
@@ -293,7 +382,11 @@
         "sourceAuthor": "wallstengine",
         "platform": "twitter",
         "engagement": 84163,
-        "postExcerpt": "altman told employees in a memo that openai is declaring a \"code red\" on chatgpt, pausing work on ads, ai agents & pulse to focus on day to day quality, more personalization, faster responses & fewer unnecessary refusals he also acknowledged $googl gemini is gaining ground and said openai plans to r"
+        "postExcerpt": "altman told employees in a memo that openai is declaring a \"code red\" on chatgpt, pausing work on ads, ai agents & pulse to focus on day to day quality, more personalization, faster responses & fewer unnecessary refusals he also acknowledged $googl gemini is gaining ground and said openai plans to r",
+        "label": "gap",
+        "labelRationale": "The past article's model timeline ends at ChatGPT Atlas and omits the reasoning model promised in December 2025.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
       },
       {
         "id": "openai-c10",
@@ -301,7 +394,11 @@
         "sourceAuthor": "chatgpt21",
         "platform": "twitter",
         "engagement": 67432,
-        "postExcerpt": "gpt-5.2 next week! it will arrive on december 9th. i was the first person mid november to report the initial release date & model. i was ready to have my jimmy apples moment until a code read was declared and as you have seen from the verge > \"i'm told that openai was originally planning to launch g"
+        "postExcerpt": "gpt-5.2 next week! it will arrive on december 9th. i was the first person mid november to report the initial release date & model. i was ready to have my jimmy apples moment until a code read was declared and as you have seen from the verge > \"i'm told that openai was originally planning to launch g",
+        "label": "gap",
+        "labelRationale": "The past article says nothing about GPT-5.2 release planning or the schedule reporting around it.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
       },
       {
         "id": "openai-c11",
@@ -309,7 +406,11 @@
         "sourceAuthor": "chatgpt21",
         "platform": "twitter",
         "engagement": 67432,
-        "postExcerpt": "gpt-5.2 next week! it will arrive on december 9th. i was the first person mid november to report the initial release date & model. i was ready to have my jimmy apples moment until a code read was declared and as you have seen from the verge > \"i'm told that openai was originally planning to launch g"
+        "postExcerpt": "gpt-5.2 next week! it will arrive on december 9th. i was the first person mid november to report the initial release date & model. i was ready to have my jimmy apples moment until a code read was declared and as you have seen from the verge > \"i'm told that openai was originally planning to launch g",
+        "label": "misrepresentation",
+        "labelRationale": "OpenAI announced GPT-5.2 on December 11, which makes the December 9 date the post reports inaccurate.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
       },
       {
         "id": "openai-c12",
@@ -317,7 +418,11 @@
         "sourceAuthor": "MarioNawfal",
         "platform": "twitter",
         "engagement": 65744,
-        "postExcerpt": "police_car_light  flag:_United_States  openai declares \"code red\" as google and anthropic eat their lunch sam altman has sent an internal memo telling openai employees to drop everything and focus on fixing chatgpt. jason calacanis from the all in podcast: \"a code red has been called by sam altman. "
+        "postExcerpt": "police_car_light  flag:_United_States  openai declares \"code red\" as google and anthropic eat their lunch sam altman has sent an internal memo telling openai employees to drop everything and focus on fixing chatgpt. jason calacanis from the all in podcast: \"a code red has been called by sam altman. ",
+        "label": "gap",
+        "labelRationale": "The past article never mentions Gemini 3 even though it names Bard as Google's earlier answer to ChatGPT.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
       },
       {
         "id": "openai-c13",
@@ -325,7 +430,11 @@
         "sourceAuthor": "FGhoddoussi",
         "platform": "twitter",
         "engagement": 60745,
-        "postExcerpt": "red_circle ‌خبر فوری: عصر اول هوش مصنوعی به پایان رسید ‌ در تاریخ ۲ دسامبر ۲۰۲۵، سم آلتمن در openai وضعیت \"code red\" (قرمز) اعلام کرد. این یک شکست در رقابت نیست. این یک انتقال فاز است. اعداد داستانی را روایت می‌کنند که هیچ‌کس نمی‌خواهد بشنود: اوپن ای آی (open ai)مبلغ ۱.۴ تریلیون دلار در زیرساخت‌ها س"
+        "postExcerpt": "red_circle ‌خبر فوری: عصر اول هوش مصنوعی به پایان رسید ‌ در تاریخ ۲ دسامبر ۲۰۲۵، سم آلتمن در openai وضعیت \"code red\" (قرمز) اعلام کرد. این یک شکست در رقابت نیست. این یک انتقال فاز است. اعداد داستانی را روایت می‌کنند که هیچ‌کس نمی‌خواهد بشنود: اوپن ای آی (open ai)مبلغ ۱.۴ تریلیون دلار در زیرساخت‌ها س",
+        "label": "gap",
+        "labelRationale": "The past article carries no record of the December 2, 2025 code red at OpenAI.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece"
       },
       {
         "id": "openai-c14",
@@ -333,7 +442,11 @@
         "sourceAuthor": "L_ThinkTank",
         "platform": "twitter",
         "engagement": 39154,
-        "postExcerpt": "[  flag:_United_States  états‑unis ]  small_orange_diamond  sam altman a déclaré une alerte rouge chez openai face à la concurrence de google et anthropic. selon plusieurs sources, la sortie de gpt‑5.2 serait précipitamment avancée au 9 décembre afin de répondre à gemini 3. openai n'a pas commenté."
+        "postExcerpt": "[  flag:_United_States  états‑unis ]  small_orange_diamond  sam altman a déclaré une alerte rouge chez openai face à la concurrence de google et anthropic. selon plusieurs sources, la sortie de gpt‑5.2 serait précipitamment avancée au 9 décembre afin de répondre à gemini 3. openai n'a pas commenté.",
+        "label": "misrepresentation",
+        "labelRationale": "GPT-5.2 shipped on December 11, not the December 9 date the post presents as the accelerated launch.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
       },
       {
         "id": "openai-c15",
@@ -341,7 +454,12 @@
         "sourceAuthor": "btibor91",
         "platform": "twitter",
         "engagement": 12488,
-        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-"
+        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-",
+        "label": "gap",
+        "labelRationale": "The current revision dates the GPT-5.2 announcement to December 11, 2025; the past revision stops in October.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner",
+        "validatedByCurrent": true
       }
     ],
     "sources": [
@@ -417,7 +535,10 @@
       }
     ],
     "factChecks": [],
-    "wikipediaRefs": []
+    "wikipediaRefs": [],
+    "misrepresentationCount": 4,
+    "gapCount": 11,
+    "citesThisArticle": false
   },
   {
     "groupId": "openai-g2",
@@ -435,7 +556,11 @@
         "sourceAuthor": "sama",
         "platform": "twitter",
         "engagement": 3111094,
-        "postExcerpt": "gpt-5.2-codex launches today. it is trained specifically for agentic coding and terminal use, and people at openai have been having great success with it."
+        "postExcerpt": "gpt-5.2-codex launches today. it is trained specifically for agentic coding and terminal use, and people at openai have been having great success with it.",
+        "label": "gap",
+        "labelRationale": "The past article lists Codex among products but describes no agentic coding model built for terminal use.",
+        "sectionId": "development",
+        "evidenceUrl": "https://fortune.com/2026/02/13/openais-codex-and-anthropics-claude-spark-coding-revolution-as-developers-say-theyve-abandoned-traditional-programming/"
       },
       {
         "id": "openai-c17",
@@ -443,7 +568,11 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article never mentions Gemini 3 or Google's Nano Banana image models that OpenAI now competes against.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.androidcentral.com/apps-software/google-announces-nano-banana-2"
       },
       {
         "id": "openai-c18",
@@ -451,7 +580,10 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "misrepresentation",
+        "labelRationale": "Presents unconfirmed internal codenames as a settled release order; no reliable source documents Garlic or Shallotpeat.",
+        "sectionId": "development"
       },
       {
         "id": "openai-c19",
@@ -459,7 +591,11 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article's benchmark coverage stops at OpenAI's own Olympiad result and omits rival math models.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.cnbc.com/2026/02/23/deepseek-to-release-new-ai-model-a-rough-period-for-nasdaq-stocks-could-follow.html"
       },
       {
         "id": "openai-c20",
@@ -467,7 +603,11 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article mentions DeepSeek only as a security worry and gives no account of its model performance.",
+        "sectionId": "development",
+        "evidenceUrl": "https://economictimes.indiatimes.com/ai/ai-insights/deepseek-withholds-latest-ai-model-from-us-chipmakers-including-nvidia-sources-say/articleshow/128799730.cms"
       },
       {
         "id": "openai-c21",
@@ -475,7 +615,11 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article calls DeepSeek's models open without naming versions, and never covers DeepSeek-V3.2.",
+        "sectionId": "development",
+        "evidenceUrl": "https://economictimes.indiatimes.com/ai/ai-insights/deepseek-withholds-latest-ai-model-from-us-chipmakers-including-nvidia-sources-say/articleshow/128799730.cms"
       },
       {
         "id": "openai-c22",
@@ -483,7 +627,11 @@
         "sourceAuthor": "shanaka86",
         "platform": "twitter",
         "engagement": 102637,
-        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi"
+        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
+        "label": "gap",
+        "labelRationale": "The past article records no LMArena standings and no comparison between OpenAI's models and Gemini 3.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
       },
       {
         "id": "openai-c23",
@@ -491,7 +639,11 @@
         "sourceAuthor": "shanaka86",
         "platform": "twitter",
         "engagement": 102637,
-        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi"
+        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
+        "label": "gap",
+        "labelRationale": "The past article ends before Gemini 3 and never notes that a rival model topped OpenAI on LMArena.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
       },
       {
         "id": "openai-c24",
@@ -499,7 +651,10 @@
         "sourceAuthor": "shanaka86",
         "platform": "twitter",
         "engagement": 102637,
-        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi"
+        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
+        "label": "misrepresentation",
+        "labelRationale": "Alphabet's annual revenue passed $350 billion in 2024, so the $300 billion figure understates its scale.",
+        "sectionId": "finances"
       },
       {
         "id": "openai-c25",
@@ -507,7 +662,10 @@
         "sourceAuthor": "shanaka86",
         "platform": "twitter",
         "engagement": 102637,
-        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi"
+        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
+        "label": "misrepresentation",
+        "labelRationale": "Gemini reaches only some Chrome and Android surfaces; the post states blanket embedding across 3 billion of each.",
+        "sectionId": "development"
       },
       {
         "id": "openai-c26",
@@ -515,7 +673,10 @@
         "sourceAuthor": "shanaka86",
         "platform": "twitter",
         "engagement": 102637,
-        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi"
+        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
+        "label": "misrepresentation",
+        "labelRationale": "Compares Claude's output price against GPT's input price, so the tenfold gap the post reports is not real.",
+        "sectionId": "finances"
       },
       {
         "id": "openai-c27",
@@ -523,7 +684,11 @@
         "sourceAuthor": "shanaka86",
         "platform": "twitter",
         "engagement": 102637,
-        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi"
+        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
+        "label": "gap",
+        "labelRationale": "The past article notes Mira Murati's departure but never says she founded Thinking Machines or raised money for it.",
+        "sectionId": "personnel-changes",
+        "evidenceUrl": "https://wccftech.com/mark-zuckerbergs-1-billion-offer-to-poach-talent-from-ex-openai-ctos-ai-firm-gets-rejected-report/"
       },
       {
         "id": "openai-c28",
@@ -531,7 +696,11 @@
         "sourceAuthor": "MarioNawfal",
         "platform": "twitter",
         "engagement": 65744,
-        "postExcerpt": "police_car_light  flag:_United_States  openai declares \"code red\" as google and anthropic eat their lunch sam altman has sent an internal memo telling openai employees to drop everything and focus on fixing chatgpt. jason calacanis from the all in podcast: \"a code red has been called by sam altman. "
+        "postExcerpt": "police_car_light  flag:_United_States  openai declares \"code red\" as google and anthropic eat their lunch sam altman has sent an internal memo telling openai employees to drop everything and focus on fixing chatgpt. jason calacanis from the all in podcast: \"a code red has been called by sam altman. ",
+        "label": "gap",
+        "labelRationale": "The past article cites Humanity's Last Exam only for OpenAI's deep research score and omits later rival records.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
       },
       {
         "id": "openai-c29",
@@ -539,7 +708,11 @@
         "sourceAuthor": "FGhoddoussi",
         "platform": "twitter",
         "engagement": 60745,
-        "postExcerpt": "red_circle ‌خبر فوری: عصر اول هوش مصنوعی به پایان رسید ‌ در تاریخ ۲ دسامبر ۲۰۲۵، سم آلتمن در openai وضعیت \"code red\" (قرمز) اعلام کرد. این یک شکست در رقابت نیست. این یک انتقال فاز است. اعداد داستانی را روایت می‌کنند که هیچ‌کس نمی‌خواهد بشنود: اوپن ای آی (open ai)مبلغ ۱.۴ تریلیون دلار در زیرساخت‌ها س"
+        "postExcerpt": "red_circle ‌خبر فوری: عصر اول هوش مصنوعی به پایان رسید ‌ در تاریخ ۲ دسامبر ۲۰۲۵، سم آلتمن در openai وضعیت \"code red\" (قرمز) اعلام کرد. این یک شکست در رقابت نیست. این یک انتقال فاز است. اعداد داستانی را روایت می‌کنند که هیچ‌کس نمی‌خواهد بشنود: اوپن ای آی (open ai)مبلغ ۱.۴ تریلیون دلار در زیرساخت‌ها س",
+        "label": "gap",
+        "labelRationale": "The past article gives no LMArena scores, so a reader cannot place Gemini 3 against OpenAI's models.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
       },
       {
         "id": "openai-c30",
@@ -547,7 +720,11 @@
         "sourceAuthor": "FGhoddoussi",
         "platform": "twitter",
         "engagement": 60745,
-        "postExcerpt": "red_circle ‌خبر فوری: عصر اول هوش مصنوعی به پایان رسید ‌ در تاریخ ۲ دسامبر ۲۰۲۵، سم آلتمن در openai وضعیت \"code red\" (قرمز) اعلام کرد. این یک شکست در رقابت نیست. این یک انتقال فاز است. اعداد داستانی را روایت می‌کنند که هیچ‌کس نمی‌خواهد بشنود: اوپن ای آی (open ai)مبلغ ۱.۴ تریلیون دلار در زیرساخت‌ها س"
+        "postExcerpt": "red_circle ‌خبر فوری: عصر اول هوش مصنوعی به پایان رسید ‌ در تاریخ ۲ دسامبر ۲۰۲۵، سم آلتمن در openai وضعیت \"code red\" (قرمز) اعلام کرد. این یک شکست در رقابت نیست. این یک انتقال فاز است. اعداد داستانی را روایت می‌کنند که هیچ‌کس نمی‌خواهد بشنود: اوپن ای آی (open ai)مبلغ ۱.۴ تریلیون دلار در زیرساخت‌ها س",
+        "label": "gap",
+        "labelRationale": "The past article stops before Gemini 3 and records nothing about its leaderboard milestone.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
       }
     ],
     "sources": [
@@ -638,7 +815,10 @@
         "type": "wikipedia",
         "snippet": "Anthropic PBC is an AI company founded in 2021 that developed Claude; it also describes integration/offerings (e.g., Claude models)."
       }
-    ]
+    ],
+    "misrepresentationCount": 4,
+    "gapCount": 11,
+    "citesThisArticle": false
   },
   {
     "groupId": "openai-g3",
@@ -656,7 +836,11 @@
         "sourceAuthor": "WSJ",
         "platform": "twitter",
         "engagement": 650373,
-        "postExcerpt": "openai chief executive sam altman told employees that the company was declaring a \"code red\" effort to improve the quality of chatgpt"
+        "postExcerpt": "openai chief executive sam altman told employees that the company was declaring a \"code red\" effort to improve the quality of chatgpt",
+        "label": "gap",
+        "labelRationale": "The past article documents no code red and no company-wide push to raise ChatGPT quality.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece"
       },
       {
         "id": "openai-c32",
@@ -664,7 +848,10 @@
         "sourceAuthor": "Ric_RTP",
         "platform": "twitter",
         "engagement": 359129,
-        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words"
+        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
+        "label": "gap",
+        "labelRationale": "The past article reports ChatGPT usage patterns but carries no Altman projection about token output.",
+        "sectionId": "development"
       },
       {
         "id": "openai-c33",
@@ -672,7 +859,10 @@
         "sourceAuthor": "Ric_RTP",
         "platform": "twitter",
         "engagement": 359129,
-        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words"
+        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
+        "label": "gap",
+        "labelRationale": "The Finances section details compute spending but never reports Altman tying compute directly to revenue.",
+        "sectionId": "finances"
       },
       {
         "id": "openai-c34",
@@ -680,7 +870,10 @@
         "sourceAuthor": "Ric_RTP",
         "platform": "twitter",
         "engagement": 359129,
-        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words"
+        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
+        "label": "misrepresentation",
+        "labelRationale": "OpenAI's GDPval benchmark spans 44 occupations drawn from nine sectors, not more than 40 verticals.",
+        "sectionId": "development"
       },
       {
         "id": "openai-c35",
@@ -688,7 +881,10 @@
         "sourceAuthor": "Ric_RTP",
         "platform": "twitter",
         "engagement": 359129,
-        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words"
+        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
+        "label": "gap",
+        "labelRationale": "The Founding section quotes the charter's AGI definition and records no Altman claim that AGI already arrived.",
+        "sectionId": "founding"
       },
       {
         "id": "openai-c36",
@@ -696,7 +892,10 @@
         "sourceAuthor": "Ric_RTP",
         "platform": "twitter",
         "engagement": 359129,
-        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words"
+        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
+        "label": "gap",
+        "labelRationale": "The Finances section projects spending through 2029 but never states how much compute OpenAI plans to add.",
+        "sectionId": "finances"
       },
       {
         "id": "openai-c37",
@@ -704,7 +903,10 @@
         "sourceAuthor": "Ric_RTP",
         "platform": "twitter",
         "engagement": 359129,
-        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words"
+        "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
+        "label": "gap",
+        "labelRationale": "The past article gives dollar projections only and omits Altman's stated compute expansion targets.",
+        "sectionId": "finances"
       },
       {
         "id": "openai-c38",
@@ -712,7 +914,11 @@
         "sourceAuthor": "MacRumors",
         "platform": "twitter",
         "engagement": 95723,
-        "postExcerpt": "sam altman declares 'code red' for chatgpt, delays openai advertising plans"
+        "postExcerpt": "sam altman declares 'code red' for chatgpt, delays openai advertising plans",
+        "label": "gap",
+        "labelRationale": "The past article ends in October 2025 and never mentions the code red called on ChatGPT.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece"
       },
       {
         "id": "openai-c39",
@@ -720,7 +926,10 @@
         "sourceAuthor": "rohanpaul_ai",
         "platform": "twitter",
         "engagement": 74187,
-        "postExcerpt": "Sam Altman says OpenAI’s models are “beginning to find critical vulnerabilities,” so OpenAI is hiring a $555,000 Head of Preparedness to tighten how it tests and ships agentic systems. The job listing says the role runs OpenAI’s Preparedness Framework, building capability evaluations, threat models,"
+        "postExcerpt": "Sam Altman says OpenAI’s models are “beginning to find critical vulnerabilities,” so OpenAI is hiring a $555,000 Head of Preparedness to tighten how it tests and ships agentic systems. The job listing says the role runs OpenAI’s Preparedness Framework, building capability evaluations, threat models,",
+        "label": "gap",
+        "labelRationale": "The Alignment section stops at the 2024 superalignment shutdown and omits OpenAI's later vulnerability-finding claims.",
+        "sectionId": "alignment"
       },
       {
         "id": "openai-c40",
@@ -728,7 +937,10 @@
         "sourceAuthor": "rohanpaul_ai",
         "platform": "twitter",
         "engagement": 74067,
-        "postExcerpt": "sam altman says openai's models are \"beginning to find critical vulnerabilities,\" so openai is hiring a $555,000 head of preparedness to tighten how it tests and ships agentic systems. the job listing says the role runs openai's preparedness framework, building capability evaluations, threat models,"
+        "postExcerpt": "sam altman says openai's models are \"beginning to find critical vulnerabilities,\" so openai is hiring a $555,000 head of preparedness to tighten how it tests and ships agentic systems. the job listing says the role runs openai's preparedness framework, building capability evaluations, threat models,",
+        "label": "gap",
+        "labelRationale": "The past article describes no security research program and no claim that models find critical vulnerabilities.",
+        "sectionId": "alignment"
       },
       {
         "id": "openai-c41",
@@ -736,7 +948,11 @@
         "sourceAuthor": "MarioNawfal",
         "platform": "twitter",
         "engagement": 65744,
-        "postExcerpt": "police_car_light  flag:_United_States  openai declares \"code red\" as google and anthropic eat their lunch sam altman has sent an internal memo telling openai employees to drop everything and focus on fixing chatgpt. jason calacanis from the all in podcast: \"a code red has been called by sam altman. "
+        "postExcerpt": "police_car_light  flag:_United_States  openai declares \"code red\" as google and anthropic eat their lunch sam altman has sent an internal memo telling openai employees to drop everything and focus on fixing chatgpt. jason calacanis from the all in podcast: \"a code red has been called by sam altman. ",
+        "label": "gap",
+        "labelRationale": "The past article records no internal memo redirecting staff to ChatGPT quality work.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.hindustantimes.com/technology/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-101765255981406.html"
       },
       {
         "id": "openai-c42",
@@ -744,7 +960,11 @@
         "sourceAuthor": "MarioNawfal",
         "platform": "twitter",
         "engagement": 65744,
-        "postExcerpt": "police_car_light  flag:_United_States  openai declares \"code red\" as google and anthropic eat their lunch sam altman has sent an internal memo telling openai employees to drop everything and focus on fixing chatgpt. jason calacanis from the all in podcast: \"a code red has been called by sam altman. "
+        "postExcerpt": "police_car_light  flag:_United_States  openai declares \"code red\" as google and anthropic eat their lunch sam altman has sent an internal memo telling openai employees to drop everything and focus on fixing chatgpt. jason calacanis from the all in podcast: \"a code red has been called by sam altman. ",
+        "label": "gap",
+        "labelRationale": "The past article never names Gemini 3, so it cannot show Altman conceding the model's strength.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
       },
       {
         "id": "openai-c43",
@@ -752,7 +972,11 @@
         "sourceAuthor": "momoblog0214",
         "platform": "twitter",
         "engagement": 43246,
-        "postExcerpt": "openaiが最新ai「gpt-5.2」を発表！ サム・アルトマン氏は、1月までに「コードレッド」から脱却すると予想している。  small_orange_diamond 日常業務に最適な最先端aiモデルが登場 openaiは、これまでで最も高度なaiモデル「gpt-5.2」を発表しました。 このモデルは、表計算の作成やプレゼン資料の構築、画像認識、コード作成、長文理解において従来より優れています。 木曜日からchatgptチャットボットとapiで利用可能になりました。  small_orange_diamond 競合他社との激しい開発競争が背景に 今回の発表は、openaiがgpt-5.1モ"
+        "postExcerpt": "openaiが最新ai「gpt-5.2」を発表！ サム・アルトマン氏は、1月までに「コードレッド」から脱却すると予想している。  small_orange_diamond 日常業務に最適な最先端aiモデルが登場 openaiは、これまでで最も高度なaiモデル「gpt-5.2」を発表しました。 このモデルは、表計算の作成やプレゼン資料の構築、画像認識、コード作成、長文理解において従来より優れています。 木曜日からchatgptチャットボットとapiで利用可能になりました。  small_orange_diamond 競合他社との激しい開発競争が背景に 今回の発表は、openaiがgpt-5.1モ",
+        "label": "gap",
+        "labelRationale": "The past article covers neither the code red nor Altman's timeline for ending it.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
       },
       {
         "id": "openai-c44",
@@ -760,7 +984,11 @@
         "sourceAuthor": "Fireship",
         "platform": "youtube",
         "engagement": 22184,
-        "postExcerpt": "Deploying on Railway feels like magic. Get $20 in free credits to try it out - https://railway.com/?referralCode=fireship Sam Altman declared a code red, and OpenAI responded. GPT-5.2 is now at the top of most leaderboards and benchmarks, but is this actually getting us closer to real AGI, or is it "
+        "postExcerpt": "Deploying on Railway feels like magic. Get $20 in free credits to try it out - https://railway.com/?referralCode=fireship Sam Altman declared a code red, and OpenAI responded. GPT-5.2 is now at the top of most leaderboards and benchmarks, but is this actually getting us closer to real AGI, or is it ",
+        "label": "gap",
+        "labelRationale": "Nothing in the past article mentions a code red at OpenAI.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece"
       },
       {
         "id": "openai-c45",
@@ -768,7 +996,11 @@
         "sourceAuthor": "RobynHD",
         "platform": "twitter",
         "engagement": 18545,
-        "postExcerpt": "openai ruft „code red\" aus! ➟ noch vor 2 jahren war es google, die nach dem chatgpt-launch in panik geraten sind ➟ jetzt ist der spieß umgedreht: openai stoppt side-projekte & fokussiert sich voll auf chatgpt ➟ grund? google's gemini 3 & co. holen stark auf sam altman fordert „surge-modus\"; tägliche"
+        "postExcerpt": "openai ruft „code red\" aus! ➟ noch vor 2 jahren war es google, die nach dem chatgpt-launch in panik geraten sind ➟ jetzt ist der spieß umgedreht: openai stoppt side-projekte & fokussiert sich voll auf chatgpt ➟ grund? google's gemini 3 & co. holen stark auf sam altman fordert „surge-modus\"; tägliche",
+        "label": "misrepresentation",
+        "labelRationale": "Reporting quotes Altman's memo declaring a code red; no source records him calling for a surge mode.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
       }
     ],
     "sources": [
@@ -844,7 +1076,10 @@
       }
     ],
     "factChecks": [],
-    "wikipediaRefs": []
+    "wikipediaRefs": [],
+    "misrepresentationCount": 2,
+    "gapCount": 13,
+    "citesThisArticle": false
   },
   {
     "groupId": "openai-g8",
@@ -862,7 +1097,11 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article names no Anthropic model releases, so readers see none of the coding competition OpenAI faces.",
+        "sectionId": "development",
+        "evidenceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUVVtZUxlMERpeV9qVllXeEhvWS1ZN0JFMG50em1QTXdaQ3FsTllBdGRiUDNvVFVKYkhqNVBBQkEyRGJYcnlFOWJxQ19hR3E1SzM2TzV1Qjk0T2hQRGpKZ2x6VEx1OEc3bWRiNlVodEJDVnI1SWMyVjRjdW51YU9UcE9Oc1BaRFd1em9STFJMVkJHLUtRNEIzWXZZSHZVSnM?oc=5&hl=en-US&gl=US&ceid=US:en"
       },
       {
         "id": "openai-c107",
@@ -870,7 +1109,11 @@
         "sourceAuthor": "shanaka86",
         "platform": "twitter",
         "engagement": 102637,
-        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi"
+        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
+        "label": "misrepresentation",
+        "labelRationale": "No cited source measures session length; the traffic report tracks share of visits, not time spent per session.",
+        "sectionId": "finances",
+        "evidenceUrl": "https://www.livemint.com/companies/news/chatgpt-loses-traffic-share-as-googles-gemini-and-xais-grok-gain-ground-reveals-report-11766749377825.html"
       },
       {
         "id": "openai-c108",
@@ -878,7 +1121,10 @@
         "sourceAuthor": "rohanpaul_ai",
         "platform": "twitter",
         "engagement": 74187,
-        "postExcerpt": "Sam Altman says OpenAI’s models are “beginning to find critical vulnerabilities,” so OpenAI is hiring a $555,000 Head of Preparedness to tighten how it tests and ships agentic systems. The job listing says the role runs OpenAI’s Preparedness Framework, building capability evaluations, threat models,"
+        "postExcerpt": "Sam Altman says OpenAI’s models are “beginning to find critical vulnerabilities,” so OpenAI is hiring a $555,000 Head of Preparedness to tighten how it tests and ships agentic systems. The job listing says the role runs OpenAI’s Preparedness Framework, building capability evaluations, threat models,",
+        "label": "gap",
+        "labelRationale": "The past article lists executives and departures but never mentions a Head of Preparedness role.",
+        "sectionId": "personnel-changes"
       },
       {
         "id": "openai-c109",
@@ -886,7 +1132,11 @@
         "sourceAuthor": "rohanpaul_ai",
         "platform": "twitter",
         "engagement": 74187,
-        "postExcerpt": "Sam Altman says OpenAI’s models are “beginning to find critical vulnerabilities,” so OpenAI is hiring a $555,000 Head of Preparedness to tighten how it tests and ships agentic systems. The job listing says the role runs OpenAI’s Preparedness Framework, building capability evaluations, threat models,"
+        "postExcerpt": "Sam Altman says OpenAI’s models are “beginning to find critical vulnerabilities,” so OpenAI is hiring a $555,000 Head of Preparedness to tighten how it tests and ships agentic systems. The job listing says the role runs OpenAI’s Preparedness Framework, building capability evaluations, threat models,",
+        "label": "gap",
+        "labelRationale": "The Alignment section covers superalignment only and omits reported state-linked misuse of coding agents.",
+        "sectionId": "alignment",
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Anthropic"
       },
       {
         "id": "openai-c110",
@@ -894,7 +1144,10 @@
         "sourceAuthor": "rohanpaul_ai",
         "platform": "twitter",
         "engagement": 74067,
-        "postExcerpt": "sam altman says openai's models are \"beginning to find critical vulnerabilities,\" so openai is hiring a $555,000 head of preparedness to tighten how it tests and ships agentic systems. the job listing says the role runs openai's preparedness framework, building capability evaluations, threat models,"
+        "postExcerpt": "sam altman says openai's models are \"beginning to find critical vulnerabilities,\" so openai is hiring a $555,000 head of preparedness to tighten how it tests and ships agentic systems. the job listing says the role runs openai's preparedness framework, building capability evaluations, threat models,",
+        "label": "gap",
+        "labelRationale": "The past article says nothing about OpenAI hiring for its Preparedness Framework or what the role pays.",
+        "sectionId": "personnel-changes"
       },
       {
         "id": "openai-c111",
@@ -902,7 +1155,11 @@
         "sourceAuthor": "rohanpaul_ai",
         "platform": "twitter",
         "engagement": 74067,
-        "postExcerpt": "sam altman says openai's models are \"beginning to find critical vulnerabilities,\" so openai is hiring a $555,000 head of preparedness to tighten how it tests and ships agentic systems. the job listing says the role runs openai's preparedness framework, building capability evaluations, threat models,"
+        "postExcerpt": "sam altman says openai's models are \"beginning to find critical vulnerabilities,\" so openai is hiring a $555,000 head of preparedness to tighten how it tests and ships agentic systems. the job listing says the role runs openai's preparedness framework, building capability evaluations, threat models,",
+        "label": "gap",
+        "labelRationale": "The past article records no automated cyberattack campaigns run through AI coding tools.",
+        "sectionId": "alignment",
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Anthropic"
       },
       {
         "id": "openai-c112",
@@ -910,7 +1167,11 @@
         "sourceAuthor": "chatgpt21",
         "platform": "twitter",
         "engagement": 67432,
-        "postExcerpt": "gpt-5.2 next week! it will arrive on december 9th. i was the first person mid november to report the initial release date & model. i was ready to have my jimmy apples moment until a code read was declared and as you have seen from the verge > \"i'm told that openai was originally planning to launch g"
+        "postExcerpt": "gpt-5.2 next week! it will arrive on december 9th. i was the first person mid november to report the initial release date & model. i was ready to have my jimmy apples moment until a code read was declared and as you have seen from the verge > \"i'm told that openai was originally planning to launch g",
+        "label": "gap",
+        "labelRationale": "The past article ends before Gemini 3, so it frames no gap for GPT-5.2 to close.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
       },
       {
         "id": "openai-c113",
@@ -918,7 +1179,11 @@
         "sourceAuthor": "btibor91",
         "platform": "twitter",
         "engagement": 12488,
-        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-"
+        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-",
+        "label": "gap",
+        "labelRationale": "The past article lists no Sora licensing partners; the current revision describes the three-year Disney deal.",
+        "sectionId": "corporate-partnerships",
+        "validatedByCurrent": true
       },
       {
         "id": "openai-c114",
@@ -926,7 +1191,10 @@
         "sourceAuthor": "btibor91",
         "platform": "twitter",
         "engagement": 12488,
-        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-"
+        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-",
+        "label": "gap",
+        "labelRationale": "The past article covers no consumer distribution deals and never mentions ChatGPT Go or Latin American rollouts.",
+        "sectionId": "corporate-partnerships"
       }
     ],
     "sources": [
@@ -1017,7 +1285,10 @@
         "type": "wikipedia",
         "snippet": "Wikipedia says that in Nov 2025 Anthropic reported “hackers sponsored by the Chinese government” used Claude for automated cyberattacks against around 30 global organisations, by tricking Claude into carrying out automated subtasks for defensive testing."
       }
-    ]
+    ],
+    "misrepresentationCount": 1,
+    "gapCount": 8,
+    "citesThisArticle": false
   },
   {
     "groupId": "openai-g6",
@@ -1035,7 +1306,10 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "gap",
+        "labelRationale": "The past article's model roadmap ends in October 2025 and mentions no larger model in training.",
+        "sectionId": "development"
       },
       {
         "id": "openai-c77",
@@ -1043,7 +1317,11 @@
         "sourceAuthor": "shanaka86",
         "platform": "twitter",
         "engagement": 102637,
-        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi"
+        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
+        "label": "gap",
+        "labelRationale": "The past article mentions Anthropic only as a spinoff of departing staff and gives no revenue figures.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.indiatoday.in/technology/news/story/ai-impact-anthropic-grows-from-zero-to-14-billion-revenue-in-3-years-while-fortunes-of-indian-it-dwindle-2867920-2026-02-14"
       },
       {
         "id": "openai-c78",
@@ -1051,7 +1329,11 @@
         "sourceAuthor": "shanaka86",
         "platform": "twitter",
         "engagement": 102637,
-        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi"
+        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
+        "label": "gap",
+        "labelRationale": "The Personnel changes section lists who left OpenAI but never says which rivals hired them.",
+        "sectionId": "personnel-changes",
+        "evidenceUrl": "https://wccftech.com/mark-zuckerbergs-1-billion-offer-to-poach-talent-from-ex-openai-ctos-ai-firm-gets-rejected-report/"
       },
       {
         "id": "openai-c79",
@@ -1059,7 +1341,11 @@
         "sourceAuthor": "FGhoddoussi",
         "platform": "twitter",
         "engagement": 60745,
-        "postExcerpt": "red_circle ‌خبر فوری: عصر اول هوش مصنوعی به پایان رسید ‌ در تاریخ ۲ دسامبر ۲۰۲۵، سم آلتمن در openai وضعیت \"code red\" (قرمز) اعلام کرد. این یک شکست در رقابت نیست. این یک انتقال فاز است. اعداد داستانی را روایت می‌کنند که هیچ‌کس نمی‌خواهد بشنود: اوپن ای آی (open ai)مبلغ ۱.۴ تریلیون دلار در زیرساخت‌ها س"
+        "postExcerpt": "red_circle ‌خبر فوری: عصر اول هوش مصنوعی به پایان رسید ‌ در تاریخ ۲ دسامبر ۲۰۲۵، سم آلتمن در openai وضعیت \"code red\" (قرمز) اعلام کرد. این یک شکست در رقابت نیست. این یک انتقال فاز است. اعداد داستانی را روایت می‌کنند که هیچ‌کس نمی‌خواهد بشنود: اوپن ای آی (open ai)مبلغ ۱.۴ تریلیون دلار در زیرساخت‌ها س",
+        "label": "gap",
+        "labelRationale": "The past article tracks OpenAI's finances alone and reports nothing on Anthropic's revenue growth.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.indiatoday.in/technology/news/story/ai-impact-anthropic-grows-from-zero-to-14-billion-revenue-in-3-years-while-fortunes-of-indian-it-dwindle-2867920-2026-02-14"
       },
       {
         "id": "openai-c80",
@@ -1067,7 +1353,11 @@
         "sourceAuthor": "FGhoddoussi",
         "platform": "twitter",
         "engagement": 60745,
-        "postExcerpt": "red_circle ‌خبر فوری: عصر اول هوش مصنوعی به پایان رسید ‌ در تاریخ ۲ دسامبر ۲۰۲۵، سم آلتمن در openai وضعیت \"code red\" (قرمز) اعلام کرد. این یک شکست در رقابت نیست. این یک انتقال فاز است. اعداد داستانی را روایت می‌کنند که هیچ‌کس نمی‌خواهد بشنود: اوپن ای آی (open ai)مبلغ ۱.۴ تریلیون دلار در زیرساخت‌ها س"
+        "postExcerpt": "red_circle ‌خبر فوری: عصر اول هوش مصنوعی به پایان رسید ‌ در تاریخ ۲ دسامبر ۲۰۲۵، سم آلتمن در openai وضعیت \"code red\" (قرمز) اعلام کرد. این یک شکست در رقابت نیست. این یک انتقال فاز است. اعداد داستانی را روایت می‌کنند که هیچ‌کس نمی‌خواهد بشنود: اوپن ای آی (open ai)مبلغ ۱.۴ تریلیون دلار در زیرساخت‌ها س",
+        "label": "gap",
+        "labelRationale": "The past article records Murati's 2024 exit but not that she recruited former colleagues to Thinking Machines.",
+        "sectionId": "personnel-changes",
+        "evidenceUrl": "https://wccftech.com/mark-zuckerbergs-1-billion-offer-to-poach-talent-from-ex-openai-ctos-ai-firm-gets-rejected-report/"
       },
       {
         "id": "openai-c81",
@@ -1075,7 +1365,11 @@
         "sourceAuthor": "L_ThinkTank",
         "platform": "twitter",
         "engagement": 39154,
-        "postExcerpt": "[  flag:_United_States  états‑unis ]  small_orange_diamond  sam altman a déclaré une alerte rouge chez openai face à la concurrence de google et anthropic. selon plusieurs sources, la sortie de gpt‑5.2 serait précipitamment avancée au 9 décembre afin de répondre à gemini 3. openai n'a pas commenté."
+        "postExcerpt": "[  flag:_United_States  états‑unis ]  small_orange_diamond  sam altman a déclaré une alerte rouge chez openai face à la concurrence de google et anthropic. selon plusieurs sources, la sortie de gpt‑5.2 serait précipitamment avancée au 9 décembre afin de répondre à gemini 3. openai n'a pas commenté.",
+        "label": "gap",
+        "labelRationale": "The past article names no competitive pressure from Google or Anthropic and omits the December 2025 alert.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
       },
       {
         "id": "openai-c82",
@@ -1083,7 +1377,11 @@
         "sourceAuthor": "btibor91",
         "platform": "twitter",
         "engagement": 12488,
-        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-"
+        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-",
+        "label": "gap",
+        "labelRationale": "The Corporate partnerships section ends in October 2025 and omits Disney's $1 billion investment.",
+        "sectionId": "corporate-partnerships",
+        "validatedByCurrent": true
       },
       {
         "id": "openai-c83",
@@ -1091,7 +1389,11 @@
         "sourceAuthor": "btibor91",
         "platform": "twitter",
         "engagement": 12488,
-        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-"
+        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-",
+        "label": "gap",
+        "labelRationale": "The past article lists no media licensing deal covering Sora, which the current revision now describes.",
+        "sectionId": "corporate-partnerships",
+        "validatedByCurrent": true
       }
     ],
     "sources": [
@@ -1175,7 +1477,10 @@
         "type": "wikipedia",
         "snippet": "Anthropic PBC is an American AI company founded in 2021 and develops large language models named Claude."
       }
-    ]
+    ],
+    "misrepresentationCount": 0,
+    "gapCount": 8,
+    "citesThisArticle": false
   },
   {
     "groupId": "openai-g5",
@@ -1193,7 +1498,11 @@
         "sourceAuthor": "MarioNawfal",
         "platform": "twitter",
         "engagement": 175655,
-        "postExcerpt": "flag:_United_States  sam altman just hit \"code red\" - and big tech finally smells blood openai just threw the emergency lever. sam altman - the man who spent the last 2 years looking untouchable - told his staff this week that the ai crown is no longer guaranteed. not with google firing off gemini 3"
+        "postExcerpt": "flag:_United_States  sam altman just hit \"code red\" - and big tech finally smells blood openai just threw the emergency lever. sam altman - the man who spent the last 2 years looking untouchable - told his staff this week that the ai crown is no longer guaranteed. not with google firing off gemini 3",
+        "label": "misrepresentation",
+        "labelRationale": "No source supports ChatGPT taking a tenth of global search traffic; the cited report measures Google's AI Overviews.",
+        "sectionId": "finances",
+        "evidenceUrl": "https://www.business2community.com/business-news/search-clicks-are-crashing-due-to-ai-overviews-can-businesses-navigate-the-challenge/"
       },
       {
         "id": "openai-c62",
@@ -1201,7 +1510,11 @@
         "sourceAuthor": "shanaka86",
         "platform": "twitter",
         "engagement": 102637,
-        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi"
+        "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
+        "label": "misrepresentation",
+        "labelRationale": "The cited Similarweb report shows Gemini gaining share, not growing three times faster than ChatGPT.",
+        "sectionId": "finances",
+        "evidenceUrl": "https://www.livemint.com/companies/news/chatgpt-loses-traffic-share-as-googles-gemini-and-xais-grok-gain-ground-reveals-report-11766749377825.html"
       },
       {
         "id": "openai-c63",
@@ -1209,7 +1522,11 @@
         "sourceAuthor": "MarioNawfal",
         "platform": "twitter",
         "engagement": 65744,
-        "postExcerpt": "police_car_light  flag:_United_States  openai declares \"code red\" as google and anthropic eat their lunch sam altman has sent an internal memo telling openai employees to drop everything and focus on fixing chatgpt. jason calacanis from the all in podcast: \"a code red has been called by sam altman. "
+        "postExcerpt": "police_car_light  flag:_United_States  openai declares \"code red\" as google and anthropic eat their lunch sam altman has sent an internal memo telling openai employees to drop everything and focus on fixing chatgpt. jason calacanis from the all in podcast: \"a code red has been called by sam altman. ",
+        "label": "gap",
+        "labelRationale": "The past article reports no benchmark results for competing models, so readers cannot judge the Gemini 3 comparison.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
       },
       {
         "id": "openai-c64",
@@ -1217,7 +1534,11 @@
         "sourceAuthor": "momoblog0214",
         "platform": "twitter",
         "engagement": 43246,
-        "postExcerpt": "openaiが最新ai「gpt-5.2」を発表！ サム・アルトマン氏は、1月までに「コードレッド」から脱却すると予想している。  small_orange_diamond 日常業務に最適な最先端aiモデルが登場 openaiは、これまでで最も高度なaiモデル「gpt-5.2」を発表しました。 このモデルは、表計算の作成やプレゼン資料の構築、画像認識、コード作成、長文理解において従来より優れています。 木曜日からchatgptチャットボットとapiで利用可能になりました。  small_orange_diamond 競合他社との激しい開発競争が背景に 今回の発表は、openaiがgpt-5.1モ"
+        "postExcerpt": "openaiが最新ai「gpt-5.2」を発表！ サム・アルトマン氏は、1月までに「コードレッド」から脱却すると予想している。  small_orange_diamond 日常業務に最適な最先端aiモデルが登場 openaiは、これまでで最も高度なaiモデル「gpt-5.2」を発表しました。 このモデルは、表計算の作成やプレゼン資料の構築、画像認識、コード作成、長文理解において従来より優れています。 木曜日からchatgptチャットボットとapiで利用可能になりました。  small_orange_diamond 競合他社との激しい開発競争が背景に 今回の発表は、openaiがgpt-5.1モ",
+        "label": "gap",
+        "labelRationale": "The past article gives subscriber counts but never states how many people use ChatGPT each week.",
+        "sectionId": "finances",
+        "evidenceUrl": "https://indianexpress.com/shorts/technology/chatgpt-records-strongest-subscriber-growth-as-number-of-weekly-users-nears-a-billion-10557308/"
       },
       {
         "id": "openai-c65",
@@ -1225,7 +1546,11 @@
         "sourceAuthor": "btibor91",
         "platform": "twitter",
         "engagement": 12488,
-        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-"
+        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-",
+        "label": "gap",
+        "labelRationale": "The past article names no GPT-5 series model and describes no deprecation schedule for older versions.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
       },
       {
         "id": "openai-c66",
@@ -1233,7 +1558,11 @@
         "sourceAuthor": "btibor91",
         "platform": "twitter",
         "engagement": 12488,
-        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-"
+        "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-",
+        "label": "gap",
+        "labelRationale": "The past article does not describe ChatGPT tiers or how prompts route between fast and reasoning models.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
       }
     ],
     "sources": [
@@ -1289,7 +1618,10 @@
         "type": "wikipedia",
         "snippet": "Describes Google LLC as an American multinational technology company and lists AI products including Gemini; also provides corporate background (founded 1998, reorganized under Alphabet in 2015)."
       }
-    ]
+    ],
+    "misrepresentationCount": 2,
+    "gapCount": 4,
+    "citesThisArticle": false
   },
   {
     "groupId": "openai-g7",
@@ -1307,7 +1639,11 @@
         "sourceAuthor": "ImAI_Eruel",
         "platform": "twitter",
         "engagement": 129219,
-        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch"
+        "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
+        "label": "misrepresentation",
+        "labelRationale": "States as fact that OpenAI trails Gemini 3 overall; the cited traffic report still puts ChatGPT well ahead.",
+        "sectionId": "development",
+        "evidenceUrl": "https://www.livemint.com/companies/news/chatgpt-loses-traffic-share-as-googles-gemini-and-xais-grok-gain-ground-reveals-report-11766749377825.html"
       }
     ],
     "sources": [
@@ -1334,6 +1670,9 @@
       }
     ],
     "factChecks": [],
-    "wikipediaRefs": []
+    "wikipediaRefs": [],
+    "misrepresentationCount": 1,
+    "gapCount": 0,
+    "citesThisArticle": false
   }
 ]

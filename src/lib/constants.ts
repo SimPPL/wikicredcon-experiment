@@ -19,8 +19,8 @@ export const LS_KEYS = {
 export const EXPERIMENT = {
   EDIT_DURATION_MS: 10 * 60 * 1000, // 8 min editing + 2 min finalize
   ARTICLES: {
-    A: 'semaglutide',
-    B: 'vaccine-misinfo',
+    A: 'glp1-receptor-agonist',
+    B: 'pfas',
   },
   ADMIN_USERNAME: 'admin',
   ADMIN_PASSWORD: 'demo',
