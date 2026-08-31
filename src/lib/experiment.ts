@@ -31,8 +31,8 @@ export const ALL_ARTICLES = [
 //                    past revision — thinner coverage per section than kept pfas,
 //                    which carries 28 actionable claims over 56 sections
 //   misinformation   only 11 actionable claims across 4 groups
-//   right-to-repair  4 mis, and three of them restate one another; no fact-check
-//                    or article-citing evidence behind any of them
+//   right-to-repair  6 labeled mis collapse to 4 once restatements merge, and no
+//                    fact-check or article-citing evidence backs any of them
 //   semaglutide      3 mis out of 54 claims — the sidebar reads as already-covered
 //   vaccine-misinfo  3 mis; its 33 gaps ask the editor to expand, not to correct
 // microplastics and vaccine-misinfo are the debatable calls: both carry
