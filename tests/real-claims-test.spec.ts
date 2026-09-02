@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
+import { dismissInstructions, reachSignupForm } from './helpers';
 
-const BASE = 'http://localhost:3001';
+const BASE = process.env.BASE_URL || 'http://127.0.0.1:3099';
 
 test('Full flow with real Arbiter claims', async ({ page }) => {
   test.setTimeout(60000);
@@ -18,6 +19,7 @@ test('Full flow with real Arbiter claims', async ({ page }) => {
   await page.waitForLoadState('networkidle');
 
   // Register
+  await reachSignupForm(page);
   await page.fill('input[type="email"]', 'claims-test@example.com');
   await page.selectOption('select >> nth=0', '3-5 years');
   await page.selectOption('select >> nth=1', '500-5,000');
@@ -26,8 +28,10 @@ test('Full flow with real Arbiter claims', async ({ page }) => {
   await page.click('input[name="usefulness"][value="3"]');
   await page.click('button[type="submit"]');
   await page.waitForURL('**/edit', { timeout: 15000 });
+  await dismissInstructions(page);
 
   // Wait for article to load
+  await dismissInstructions(page);
   await page.waitForSelector('.wiki-article', { timeout: 15000 });
   const title = await page.locator('.wiki-article h1').first().textContent();
   console.log('Article title:', title);

@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const BASE = 'http://localhost:3001';
+const BASE = process.env.BASE_URL || 'http://127.0.0.1:3099';
 
 test.describe('Admin Dashboard', () => {
   test.beforeEach(async ({ page }) => {

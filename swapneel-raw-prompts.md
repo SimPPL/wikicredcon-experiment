@@ -23,3 +23,11 @@ continue?
 ## [auto] 2026-08-31 13:49
 
 continue claims analysis and stuff?
+
+## [auto] 2026-09-02 02:27
+
+Can you complete the labeling and find the right articles that meks sense to present here for editing and appropriately include claims that actually amtter that are relevant to driving edits and include wikipedia links or otherwise are helpful ton include?
+
+## [auto] 2026-09-02 02:27
+
+and then update and run through the full experiment please

@@ -1,4 +1,4 @@
-import type { ClaimGroup, ClaimGroupItem } from '@/types';
+import type { ClaimGroup, ClaimGroupItem, ClaimSource } from '@/types';
 
 /**
  * Curation layer between the raw Arbiter claim files and everything the
@@ -117,10 +117,44 @@ function describeGroup(mis: number, gap: number): string {
 const BOILERPLATE_SUMMARY = /^Claims from social media discourse related to/i;
 
 /**
+ * Strips evidence links that point back at the article being edited.
+ *
+ * Arbiter's retrieval sometimes cites the very Wikipedia page a participant is
+ * working on. Showing that link would hand them the current revision, which is
+ * the ground truth their edit is scored against, and the task instructions ask
+ * them not to consult it. The link is still worth counting — it is the signal
+ * behind citesThisArticle — so we record it and drop it from the list.
+ */
+function splitSelfReferences(
+  refs: ClaimSource[] | undefined,
+  articleTitle?: string,
+): { kept: ClaimSource[]; selfCount: number } {
+  const list = refs || [];
+  if (!articleTitle) return { kept: list, selfCount: 0 };
+
+  const wanted = articleTitle.trim().toLowerCase();
+  const wantedSlug = wanted.replace(/\s+/g, '_');
+  let selfCount = 0;
+  const kept: ClaimSource[] = [];
+
+  for (const ref of list) {
+    const title = (ref.title || '').trim().toLowerCase();
+    const urlTail = (ref.url || '').split('/wiki/')[1]?.split(/[#?]/)[0]?.toLowerCase() || '';
+    if (title === wanted || (urlTail && decodeURIComponent(urlTail) === wantedSlug)) {
+      selfCount++;
+      continue;
+    }
+    kept.push(ref);
+  }
+  return { kept, selfCount };
+}
+
+/**
  * Apply the curation to a topic's groups. Returns the groups a participant
  * should see, ordered as they arrived; the sidebar handles display ordering.
+ * Pass the article's title so evidence links back to it can be stripped.
  */
-export function curateClaimGroups(groups: ClaimGroup[]): ClaimGroup[] {
+export function curateClaimGroups(groups: ClaimGroup[], articleTitle?: string): ClaimGroup[] {
   if (!Array.isArray(groups)) return [];
 
   const curated: ClaimGroup[] = [];
@@ -141,9 +175,16 @@ export function curateClaimGroups(groups: ClaimGroup[]): ClaimGroup[] {
       if (isActionable(claim) && claim.sectionId) sectionIds.add(claim.sectionId);
     }
 
+    const { kept: wikipediaRefs, selfCount } = splitSelfReferences(
+      group.wikipediaRefs,
+      articleTitle,
+    );
+
     curated.push({
       ...group,
       claims,
+      wikipediaRefs,
+      citesThisArticle: group.citesThisArticle || selfCount > 0,
       claimCount: claims.length,
       totalEngagement: claims.reduce((sum, c) => sum + (c.engagement || 0), 0),
       relevantSectionIds: Array.from(sectionIds),

@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
-const PROD = 'https://app-1t58fcex3-swapneel-mehta-projects.vercel.app';
+// Points at whatever build is under test; the old hardcoded preview URL is gone.
+const PROD = process.env.BASE_URL || 'http://127.0.0.1:3099';
 
 test('Consent form flow on production', async ({ page }) => {
   test.setTimeout(60000);
@@ -7,8 +8,15 @@ test('Consent form flow on production', async ({ page }) => {
   await page.evaluate(() => localStorage.clear());
   await page.reload();
   await page.waitForLoadState('networkidle');
-  
-  // Should see consent form first
+
+  // The landing hero comes first; consent is the screen behind "Start Editing".
+  const start = page.locator('button:has-text("Start Editing")');
+  if (await start.count() > 0) {
+    await start.first().click();
+    await page.waitForTimeout(700);
+  }
+
+  // Should now see the consent form
   await page.screenshot({ path: 'tests/screenshots/consent-01-form.png', fullPage: true });
   const bodyText = await page.textContent('body');
   console.log('Shows consent form:', bodyText?.includes('Informed Consent'));

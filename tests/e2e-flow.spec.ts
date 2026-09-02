@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
+import { dismissInstructions, reachSignupForm } from './helpers';
 
-const BASE = 'http://localhost:3001';
+const BASE = process.env.BASE_URL || 'http://127.0.0.1:3099';
 
 test.describe('WikiCredCon Experiment E2E', () => {
   test.beforeEach(async ({ page }) => {
@@ -33,6 +34,7 @@ test.describe('WikiCredCon Experiment E2E', () => {
     await expect(page.locator('select').first()).toBeVisible();
 
     // Fill form
+    await reachSignupForm(page);
     await page.fill('input[type="email"]', 'test@example.com');
     await page.fill('input[placeholder="Your username on Wikipedia"]', 'TestEditor');
     await page.selectOption('select >> nth=0', '3-5 years');
@@ -56,6 +58,7 @@ test.describe('WikiCredCon Experiment E2E', () => {
 
     // Should redirect to /edit
     await page.waitForURL('**/edit');
+  await dismissInstructions(page);
 
     // Verify localStorage has participant data
     const participant = await page.evaluate(() => localStorage.getItem('wikicred_participant'));
@@ -69,6 +72,7 @@ test.describe('WikiCredCon Experiment E2E', () => {
   test('2. Edit page renders article and [edit] links work', async ({ page }) => {
     // First register
     await page.goto(BASE);
+    await reachSignupForm(page);
     await page.fill('input[type="email"]', 'editor@test.com');
     await page.selectOption('select >> nth=0', '1-3 years');
     await page.selectOption('select >> nth=1', '50-500');
@@ -77,6 +81,7 @@ test.describe('WikiCredCon Experiment E2E', () => {
     await page.click('input[name="usefulness"][value="3"]');
     await page.click('button[type="submit"]');
     await page.waitForURL('**/edit');
+  await dismissInstructions(page);
 
     // Wait for article to load
     await page.waitForSelector('.wiki-article', { timeout: 10000 });
@@ -121,6 +126,7 @@ test.describe('WikiCredCon Experiment E2E', () => {
   test('3. Publish dialog works', async ({ page }) => {
     // Register and go to edit
     await page.goto(BASE);
+    await reachSignupForm(page);
     await page.fill('input[type="email"]', 'publish@test.com');
     await page.selectOption('select >> nth=0', '1-3 years');
     await page.selectOption('select >> nth=1', '50-500');
@@ -129,10 +135,13 @@ test.describe('WikiCredCon Experiment E2E', () => {
     await page.click('input[name="usefulness"][value="3"]');
     await page.click('button[type="submit"]');
     await page.waitForURL('**/edit');
+  await dismissInstructions(page);
     await page.waitForSelector('.wiki-article', { timeout: 10000 });
 
     // Click "Publish changes" button
-    await page.click('button:has-text("Publish changes")');
+    const publishTrigger = page.locator('button:has-text("Publish changes")').first();
+    await publishTrigger.scrollIntoViewIfNeeded();
+    await publishTrigger.click();
 
     // Publish dialog should appear
     await expect(page.locator('text=Edit summary')).toBeVisible({ timeout: 3000 });
@@ -158,6 +167,7 @@ test.describe('WikiCredCon Experiment E2E', () => {
   test('4. Edit notices display correctly', async ({ page }) => {
     // Register
     await page.goto(BASE);
+    await reachSignupForm(page);
     await page.fill('input[type="email"]', 'notices@test.com');
     await page.selectOption('select >> nth=0', '1-3 years');
     await page.selectOption('select >> nth=1', '50-500');
@@ -166,12 +176,20 @@ test.describe('WikiCredCon Experiment E2E', () => {
     await page.click('input[name="usefulness"][value="3"]');
     await page.click('button[type="submit"]');
     await page.waitForURL('**/edit');
+  await dismissInstructions(page);
     await page.waitForSelector('.wiki-article', { timeout: 10000 });
 
     // Check editing guidelines banner
-    await expect(page.locator('text=Editing guidelines')).toBeVisible();
+    // The notice was reworded; it now leads with the simulated-editor line.
+    await expect(page.locator('text=Simulated editor').first()).toBeVisible();
+    // The policy list lives behind "Full instructions"; open it before asserting.
+    const fullInstructions = page.locator('button:has-text("Full instructions")');
+    if (await fullInstructions.count() > 0) {
+      await fullInstructions.first().click();
+      await page.waitForTimeout(300);
+    }
     await expect(page.locator('text=Neutral point of view')).toBeVisible();
-    await expect(page.locator('text=Verifiability')).toBeVisible();
+    await expect(page.locator('text=Verifiability').first()).toBeVisible();
 
     // Take screenshot
     await page.screenshot({ path: 'tests/screenshots/edit-notices.png', fullPage: true });
@@ -194,6 +212,7 @@ test.describe('WikiCredCon Experiment E2E', () => {
       localStorage.setItem('wikicred_participant_count', '0');
     });
 
+    await reachSignupForm(page);
     await page.fill('input[type="email"]', 'treatment@test.com');
     await page.selectOption('select >> nth=0', '1-3 years');
     await page.selectOption('select >> nth=1', '50-500');
@@ -202,6 +221,7 @@ test.describe('WikiCredCon Experiment E2E', () => {
     await page.click('input[name="usefulness"][value="3"]');
     await page.click('button[type="submit"]');
     await page.waitForURL('**/edit');
+  await dismissInstructions(page);
     await page.waitForSelector('.wiki-article', { timeout: 10000 });
 
     // Check if Arbiter sidebar is visible (treatment condition)

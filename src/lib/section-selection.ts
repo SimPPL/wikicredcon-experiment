@@ -3,10 +3,11 @@ import type { Article, ClaimGroup } from '@/types';
 /**
  * Stratified section selection for the editing experiment.
  *
- * Selects 4 sections per article across 3 strata:
- * - 2 sections with HIGH claim density (5+ related claims)
- * - 1 section with MODERATE claim density (1-4 claims)
- * - 1 section with LOW/ZERO claim density (0 claims)
+ * Selects 4 sections per article across 3 strata, scored by the weight of the
+ * actionable claims that target each section (see actionableWeightBySection):
+ * - 2 sections with HIGH weight (4+, i.e. two misrepresentations or four gaps)
+ * - 1 section with MODERATE weight (1-3)
+ * - 1 section with ZERO weight
  *
  * Within each stratum, sections are prioritized by quality gap
  * (how much the past version diverges from the current version),
@@ -15,6 +16,43 @@ import type { Article, ClaimGroup } from '@/types';
  * This avoids selection bias: if we only picked high-claims sections,
  * we'd be stacking the deck in favor of the treatment condition.
  */
+
+/**
+ * Actionable-claim weight per section.
+ *
+ * The labeling pass gives every claim its own target `sectionId` and a label,
+ * so a section's score is the weight of the claims an editor could answer by
+ * editing that section — misrepresentations count double, since correcting an
+ * error is the behaviour the treatment is meant to provoke. Accurate claims add
+ * nothing: they give the editor nothing to do.
+ *
+ * Older claim files have no per-claim sectionId. For those we fall back to the
+ * previous behaviour, spreading a group's claim count over the sections it lists.
+ */
+export function actionableWeightBySection(claimGroups: ClaimGroup[]): Record<string, number> {
+  const weight: Record<string, number> = {};
+  let sawPerClaimTargets = false;
+
+  for (const group of claimGroups) {
+    for (const claim of group.claims || []) {
+      if (!claim.sectionId) continue;
+      if (claim.label !== 'misrepresentation' && claim.label !== 'gap') continue;
+      sawPerClaimTargets = true;
+      weight[claim.sectionId] =
+        (weight[claim.sectionId] || 0) + (claim.label === 'misrepresentation' ? 2 : 1);
+    }
+  }
+
+  if (sawPerClaimTargets) return weight;
+
+  for (const group of claimGroups) {
+    const count = group.claimCount || group.claims?.length || 0;
+    for (const sid of group.relevantSectionIds || []) {
+      weight[sid] = (weight[sid] || 0) + count;
+    }
+  }
+  return weight;
+}
 
 interface SectionScore {
   sectionId: string;
@@ -30,14 +68,7 @@ export function selectEditableSections(
   currentArticle: Article | null,
   claimGroups: ClaimGroup[],
 ): string[] {
-  // Build claim density per section
-  const sectionClaims: Record<string, number> = {};
-  for (const group of claimGroups) {
-    const count = group.claimCount || group.claims?.length || 0;
-    for (const sid of group.relevantSectionIds) {
-      sectionClaims[sid] = (sectionClaims[sid] || 0) + count;
-    }
-  }
+  const sectionClaims = actionableWeightBySection(claimGroups);
 
   // Build quality gap per section (content length difference from current)
   const currentMap = new Map(
@@ -53,8 +84,9 @@ export function selectEditableSections(
         ? Math.abs(currentSection.content.length - s.content.length)
         : 0;
 
+      // Weights, not raw counts: 4 is two misrepresentations, or four gaps.
       let stratum: 'high' | 'moderate' | 'low';
-      if (claims >= 5) stratum = 'high';
+      if (claims >= 4) stratum = 'high';
       else if (claims >= 1) stratum = 'moderate';
       else stratum = 'low';
 
@@ -119,13 +151,7 @@ export function describeSectionSelection(
 ): Array<{ sectionId: string; title: string; stratum: string; claimCount: number; qualityGap: number }> {
   const selected = selectEditableSections(pastArticle, currentArticle, claimGroups);
 
-  const sectionClaims: Record<string, number> = {};
-  for (const group of claimGroups) {
-    const count = group.claimCount || group.claims?.length || 0;
-    for (const sid of group.relevantSectionIds) {
-      sectionClaims[sid] = (sectionClaims[sid] || 0) + count;
-    }
-  }
+  const sectionClaims = actionableWeightBySection(claimGroups);
 
   const currentMap = new Map(
     (currentArticle?.sections || []).map(s => [s.id, s])
@@ -140,7 +166,7 @@ export function describeSectionSelection(
       : 0;
 
     let stratum = 'low';
-    if (claims >= 5) stratum = 'high';
+    if (claims >= 4) stratum = 'high';
     else if (claims >= 1) stratum = 'moderate';
 
     return {

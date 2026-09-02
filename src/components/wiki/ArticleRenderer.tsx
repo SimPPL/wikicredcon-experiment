@@ -52,7 +52,11 @@ export default function ArticleRenderer({
         const sectionReadOnly = readOnly || (editableSectionIds !== null && !editableSectionIds.includes(section.id));
 
         return (
-          <div key={section.id} style={{ position: 'relative', opacity: sectionReadOnly && !readOnly ? 0.7 : 1 }}>
+          <div
+            key={section.id}
+            id={`section-${section.id}`}
+            style={{ position: 'relative', opacity: sectionReadOnly && !readOnly ? 0.7 : 1, scrollMarginTop: 80 }}
+          >
             {/* Read-only indicator for non-editable sections */}
             {sectionReadOnly && !readOnly && editableSectionIds !== null && (
               <div style={{ fontSize: '0.7rem', color: 'var(--wiki-text-disabled)', fontStyle: 'italic', marginBottom: 2 }}>

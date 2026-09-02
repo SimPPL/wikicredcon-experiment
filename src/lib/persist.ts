@@ -5,6 +5,7 @@ import type { ParticipantData } from '@/types';
 const SYNC_STATUS_KEY = 'wikicred_sync_status';
 const MAX_RETRIES = 3;
 const RETRY_DELAY_MS = 2000;
+const REQUEST_TIMEOUT_MS = 10000;
 
 interface SyncStatus {
   participantId: string;
@@ -42,11 +43,22 @@ export async function persistToServer(
     });
 
     try {
-      const res = await fetch('/api/persist', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ participantId, data }),
-      });
+      // The participant is held on a "Submitting..." button until this settles,
+      // so a server that accepts the connection and never answers would strand
+      // them. Their data is already in localStorage; give up and move on.
+      const abort = new AbortController();
+      const timer = setTimeout(() => abort.abort(), REQUEST_TIMEOUT_MS);
+      let res: Response;
+      try {
+        res = await fetch('/api/persist', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ participantId, data }),
+          signal: abort.signal,
+        });
+      } finally {
+        clearTimeout(timer);
+      }
 
       if (res.ok) {
         setSyncStatus({

@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
+import { dismissInstructions, reachSignupForm } from './helpers';
 
-const PROD = 'http://localhost:3001';
+const PROD = process.env.BASE_URL || 'http://127.0.0.1:3099';
 
 test('Production E2E: register, edit, interact', async ({ page }) => {
   // Step 1: Go to production URL
@@ -23,6 +24,7 @@ test('Production E2E: register, edit, interact', async ({ page }) => {
 
   // Step 2: Fill registration form
   console.log('Filling registration form...');
+  await reachSignupForm(page);
   await page.fill('input[type="email"]', 'a@gmail.com');
   await page.screenshot({ path: 'tests/screenshots/prod-02-email-filled.png' });
 
@@ -37,9 +39,11 @@ test('Production E2E: register, edit, interact', async ({ page }) => {
   // Submit
   await page.click('button[type="submit"]');
   await page.waitForURL('**/edit', { timeout: 15000 });
+  await dismissInstructions(page);
   console.log('Redirected to:', page.url());
 
   // Step 3: Edit page
+  await dismissInstructions(page);
   await page.waitForSelector('.wiki-article', { timeout: 15000 });
   await page.screenshot({ path: 'tests/screenshots/prod-04-edit-page.png', fullPage: true });
   console.log('Edit page loaded');

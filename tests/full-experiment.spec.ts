@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
+import { dismissInstructions, reachSignupForm } from './helpers';
 
-const PROD = 'https://app-l98w12t0k-swapneel-mehta-projects.vercel.app';
+// Points at whatever build is under test; the old hardcoded preview URL is gone.
+const PROD = process.env.BASE_URL || 'http://127.0.0.1:3099';
 
 test('Full experiment: register, edit both articles, survey, dashboard', async ({ page }) => {
   test.setTimeout(120000); // 2 minutes for full flow against production
@@ -13,6 +15,7 @@ test('Full experiment: register, edit both articles, survey, dashboard', async (
   // === STEP 1: REGISTER ===
   console.log('=== STEP 1: REGISTER ===');
   await page.evaluate(() => localStorage.setItem('wikicred_participant_count', '0')); // force treatment first
+  await reachSignupForm(page);
   await page.fill('input[type="email"]', 'a@gmail.com');
   await page.selectOption('select >> nth=0', '3-5 years');
   await page.selectOption('select >> nth=1', '500-5,000');
@@ -21,10 +24,12 @@ test('Full experiment: register, edit both articles, survey, dashboard', async (
   await page.click('input[name="usefulness"][value="3"]');
   await page.click('button[type="submit"]');
   await page.waitForURL('**/edit', { timeout: 15000 });
+  await dismissInstructions(page);
   console.log('Registered and redirected to /edit');
 
   // === STEP 2: TASK 1 — EDIT WITH ARBITER (treatment) ===
   console.log('=== STEP 2: TASK 1 (treatment) ===');
+  await dismissInstructions(page);
   await page.waitForSelector('.wiki-article', { timeout: 15000 });
   const articleTitle = await page.locator('.wiki-article h1').first().textContent();
   console.log('Article:', articleTitle);
@@ -142,6 +147,8 @@ test('Full experiment: register, edit both articles, survey, dashboard', async (
   console.log('=== STEP 4: TASK 2 (control) ===');
   await page.click('button:has-text("Continue to Task 2")');
   await page.waitForURL('**/edit', { timeout: 15000 });
+  await dismissInstructions(page);
+  await dismissInstructions(page);
   await page.waitForSelector('.wiki-article', { timeout: 15000 });
 
   const article2Title = await page.locator('.wiki-article h1').first().textContent();
@@ -194,11 +201,12 @@ test('Full experiment: register, edit both articles, survey, dashboard', async (
 
   // Find and click radio buttons for Likert scales
   // The survey has multiple scale questions — click value 4 for first two scales
+  // Submit stays disabled until every scale is answered, so answer all of them.
   const scaleButtons = page.locator('input[type="radio"][value="4"]');
   const scaleCount = await scaleButtons.count();
   console.log('Scale radio buttons (value=4):', scaleCount);
-  for (let i = 0; i < Math.min(scaleCount, 3); i++) {
-    await scaleButtons.nth(i).click();
+  for (let i = 0; i < scaleCount; i++) {
+    await scaleButtons.nth(i).click({ force: true });
   }
 
   // Yes/No questions — click the "Yes" labels (radios have no value attr)
@@ -223,7 +231,7 @@ test('Full experiment: register, edit both articles, survey, dashboard', async (
   const submitSurvey = page.locator('button[type="submit"], button:has-text("Submit")');
   if (await submitSurvey.count() > 0) {
     await submitSurvey.first().click();
-    await page.waitForTimeout(2000);
+    await page.waitForURL('**/dashboard/**', { timeout: 30000 }).catch(() => {});
     console.log('Survey submitted');
     console.log('Redirected to:', page.url());
   }

@@ -69,6 +69,7 @@ export default function EditPage() {
   const [editSummary, setEditSummary] = useState('');
   const [loading, setLoading] = useState(true);
   const [editableSectionIds, setEditableSectionIds] = useState<string[] | null>(null);
+  const [claimsLoaded, setClaimsLoaded] = useState(false);
   const [showInstructions, setShowInstructions] = useState(false);
 
   const isMobile = useIsMobile();
@@ -163,9 +164,14 @@ export default function EditPage() {
       .then((art) => { setGroundTruthArticle(art); groundTruthRef.current = art; })
       .catch((err) => console.error('Failed to load ground truth:', err));
 
-    if (cond === 'treatment') {
-      loadClaimGroups(articleId).then(setClaimGroups).catch(() => setClaimGroups([]));
-    }
+    // Claims load in BOTH conditions. Only the sidebar is condition-gated; the
+    // section stratification needs the same claim data either way, otherwise a
+    // control participant would be editing different sections than a treatment
+    // participant on the same article.
+    loadClaimGroups(articleId)
+      .then(setClaimGroups)
+      .catch(() => setClaimGroups([]))
+      .finally(() => setClaimsLoaded(true));
 
     // Start sidebar collapsed on mobile so article is immediately visible
     const isMobileDevice = window.matchMedia('(max-width: 767px)').matches;
@@ -226,12 +232,13 @@ export default function EditPage() {
 
   // --- Select editable sections (stratified sampling) ---
   useEffect(() => {
-    if (!article || loading) return;
+    // Wait for the claims fetch to settle. Stratifying on an empty list first
+    // would unlock one set of sections and then swap it under the participant.
+    if (!article || loading || !claimsLoaded) return;
     const gt = groundTruthRef.current;
-    // Use claim groups for stratification (even in control condition, to keep section selection consistent)
     const selected = selectEditableSections(article, gt, claimGroups);
     setEditableSectionIds(selected);
-  }, [article, claimGroups, loading]);
+  }, [article, claimGroups, loading, claimsLoaded]);
 
   // --- Timer ---
   useEffect(() => {
@@ -445,6 +452,26 @@ export default function EditPage() {
       };
       sessionRef.current.arbiterInteractions.push(interaction);
     }
+  }, []);
+
+  // Sidebar claims name the section they want fixed. Clicking that target opens
+  // the section and scrolls to it, so the editor never has to hunt for it.
+  const handleJumpToSection = useCallback((sectionId: string) => {
+    setEditingSectionId(sectionId);
+    if (sessionRef.current) {
+      sessionRef.current.arbiterInteractions.push({
+        timestamp: Date.now(),
+        claimId: `section-jump:${sectionId}`,
+        action: 'click',
+        duration: 0,
+      });
+    }
+    requestAnimationFrame(() => {
+      document.getElementById(`section-${sectionId}`)?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    });
   }, []);
 
   const handleLinkEvent = useCallback((url: string, sourceType: string, action: 'click' | 'copy') => {
@@ -828,6 +855,8 @@ export default function EditPage() {
             onClaimView={handleClaimView}
             onClaimClick={handleClaimClick}
             onLinkEvent={handleLinkEvent}
+            editableSectionIds={editableSectionIds}
+            onJumpToSection={handleJumpToSection}
             collapsed={sidebarCollapsed}
             onToggle={handleSidebarToggle}
           />
@@ -846,6 +875,9 @@ export default function EditPage() {
           }
           onClaimView={handleClaimView}
           onClaimClick={handleClaimClick}
+          onLinkEvent={handleLinkEvent}
+          editableSectionIds={editableSectionIds}
+          onJumpToSection={handleJumpToSection}
           collapsed={sidebarCollapsed}
           onToggle={handleSidebarToggle}
         />

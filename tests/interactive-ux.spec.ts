@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
+import { dismissInstructions, reachSignupForm } from './helpers';
 
-const BASE = 'http://localhost:3001';
+const BASE = process.env.BASE_URL || 'http://127.0.0.1:3099';
 
 test.describe('Interactive UX Verification', () => {
 
@@ -13,6 +14,7 @@ test.describe('Interactive UX Verification', () => {
     await page.evaluate(() => localStorage.setItem('wikicred_participant_count', '0'));
 
     // === REGISTRATION ===
+    await reachSignupForm(page);
     await page.fill('input[type="email"]', 'ux-test@example.com');
     await page.selectOption('select >> nth=0', '3-5 years');
     await page.selectOption('select >> nth=1', '500-5,000');
@@ -21,9 +23,11 @@ test.describe('Interactive UX Verification', () => {
     await page.click('input[name="usefulness"][value="3"]');
     await page.click('button[type="submit"]');
     await page.waitForURL('**/edit');
+  await dismissInstructions(page);
 
     // === EDIT PAGE LOAD ===
-    await page.waitForSelector('.wiki-article', { timeout: 10000 });
+    await dismissInstructions(page);
+  await page.waitForSelector('.wiki-article', { timeout: 10000 });
     await page.screenshot({ path: 'tests/screenshots/ux-01-edit-loaded.png', fullPage: true });
 
     // === TEST: Wiki tabs are clickable ===
@@ -179,7 +183,9 @@ test.describe('Interactive UX Verification', () => {
     if (await continueBtn.isVisible()) {
       await continueBtn.click();
       await page.waitForURL('**/edit');
-      await page.waitForSelector('.wiki-article', { timeout: 10000 });
+  await dismissInstructions(page);
+      await dismissInstructions(page);
+  await page.waitForSelector('.wiki-article', { timeout: 10000 });
       await page.screenshot({ path: 'tests/screenshots/ux-12-task2.png', fullPage: true });
 
       // This should be control condition (no sidebar) since we set arbiter-first
@@ -194,6 +200,7 @@ test.describe('Interactive UX Verification', () => {
 
     // Register
     await page.evaluate(() => localStorage.setItem('wikicred_participant_count', '0'));
+    await reachSignupForm(page);
     await page.fill('input[type="email"]', 'persist-test@example.com');
     await page.selectOption('select >> nth=0', '1-3 years');
     await page.selectOption('select >> nth=1', '50-500');
@@ -202,6 +209,7 @@ test.describe('Interactive UX Verification', () => {
     await page.click('input[name="usefulness"][value="3"]');
     await page.click('button[type="submit"]');
     await page.waitForURL('**/edit');
+  await dismissInstructions(page);
 
     // Verify participant persisted
     const participant = await page.evaluate(() => localStorage.getItem('wikicred_participant'));
@@ -209,7 +217,8 @@ test.describe('Interactive UX Verification', () => {
 
     // Refresh page — should still show edit page, not redirect
     await page.reload();
-    await page.waitForSelector('.wiki-article', { timeout: 10000 });
+    await dismissInstructions(page);
+  await page.waitForSelector('.wiki-article', { timeout: 10000 });
     console.log('Edit page survived refresh: YES');
 
     // Verify phase persisted

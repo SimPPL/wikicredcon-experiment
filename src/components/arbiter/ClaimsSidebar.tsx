@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useMemo, useEffect, useRef } from 'react';
-import type { ClaimGroup, ClaimSource } from '@/types';
+import { useState, useMemo, useEffect, useRef, useCallback } from 'react';
+import type { ClaimGroup, ClaimGroupItem, ClaimSource } from '@/types';
 import { headlineClaim } from '@/lib/claim-curation';
 import { useIsMobile } from '@/lib/useIsMobile';
 
@@ -12,6 +12,10 @@ interface ClaimsSidebarProps {
   onClaimView?: (claimId: string) => void;
   onClaimClick?: (claimId: string) => void;
   onLinkEvent?: (url: string, sourceType: string, action: 'click' | 'copy') => void;
+  /** The four sections the task unlocks. Claims pointing outside them are context, not work. */
+  editableSectionIds?: string[] | null;
+  /** Opens a section for editing and scrolls it into view. */
+  onJumpToSection?: (sectionId: string) => void;
   collapsed: boolean;
   onToggle: () => void;
 }
@@ -254,6 +258,8 @@ export default function ClaimsSidebar({
   onClaimView,
   onClaimClick,
   onLinkEvent,
+  editableSectionIds = null,
+  onJumpToSection,
   collapsed,
   onToggle,
 }: ClaimsSidebarProps) {
@@ -263,6 +269,12 @@ export default function ClaimsSidebar({
   const [highlightPulse, setHighlightPulse] = useState(false);
   const [showAccurate, setShowAccurate] = useState(false);
   const [iffyDomains, setIffyDomains] = useState<Record<string, number>>({});
+
+  // With no unlock list (control data, or an article we did not stratify) every
+  // section counts as reachable, so nothing gets demoted for the wrong reason.
+  const editableSet = editableSectionIds ? new Set(editableSectionIds) : null;
+  const isEditable = (sectionId?: string) =>
+    !editableSet || !sectionId || editableSet.has(sectionId);
 
   // Load combined domain reliability data (Lin et al. PC1 + LLM + Iffy.news)
   useEffect(() => {
@@ -318,6 +330,18 @@ export default function ClaimsSidebar({
 
   // Sort groups: relevant ones first when a section is active, then by how many
   // claims misrepresent the topic, then by engagement
+  // How many claims in a group point at a section this task actually unlocks.
+  const reachableCount = useCallback(
+    (group: ClaimGroup) =>
+      (group.claims || []).filter(
+        (c) =>
+          (c.label === 'misrepresentation' || c.label === 'gap') && isEditable(c.sectionId)
+      ).length,
+    // editableSectionIds is the only input that changes isEditable
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [editableSectionIds]
+  );
+
   const sortedGroups = useMemo(() => {
     return [...claimGroups].sort((a, b) => {
       if (activeSectionId) {
@@ -325,12 +349,18 @@ export default function ClaimsSidebar({
         const bRelevant = b.relevantSectionIds.includes(activeSectionId) ? 1 : 0;
         if (aRelevant !== bRelevant) return bRelevant - aRelevant;
       }
+      // Order by how much work the group actually offers: claims landing in the
+      // sections this task unlocks. A group that lands entirely in read-only
+      // text is background and sinks to the bottom.
+      const aReach = reachableCount(a);
+      const bReach = reachableCount(b);
+      if (aReach !== bReach) return bReach - aReach;
       const aMis = a.misrepresentationCount ?? 0;
       const bMis = b.misrepresentationCount ?? 0;
       if (aMis !== bMis) return bMis - aMis;
       return (b.totalEngagement || 0) - (a.totalEngagement || 0);
     });
-  }, [claimGroups, activeSectionId]);
+  }, [claimGroups, activeSectionId, reachableCount]);
 
   const selectedGroup = useMemo(
     () => claimGroups.find((g) => g.groupId === selectedGroupId) ?? null,
@@ -375,26 +405,30 @@ export default function ClaimsSidebar({
   if (selectedGroup) {
     const labelRank: Record<string, number> = { misrepresentation: 0, gap: 1, accurate: 2 };
     const detailClaims = [...selectedGroup.claims].sort((a, b) => {
+      // A claim pointing at a section this task unlocks is work the editor can
+      // actually do, so it outranks one pointing at read-only text.
+      const ea = isEditable(a.sectionId) ? 0 : 1;
+      const eb = isEditable(b.sectionId) ? 0 : 1;
+      if (ea !== eb) return ea - eb;
       const ra = labelRank[a.label ?? 'accurate'] ?? 2;
       const rb = labelRank[b.label ?? 'accurate'] ?? 2;
       if (ra !== rb) return ra - rb;
       return (b.engagement || 0) - (a.engagement || 0);
     });
-    // Claims the article already handles correctly sit behind a toggle so the
-    // ones an edit can answer stay at the top of the panel.
-    const actionableClaims = detailClaims.filter(
-      (c) => c.label === 'misrepresentation' || c.label === 'gap'
-    );
-    const accurateClaims = detailClaims.filter(
-      (c) => !(c.label === 'misrepresentation' || c.label === 'gap')
-    );
-    const visibleClaims = showAccurate ? [...actionableClaims, ...accurateClaims] : actionableClaims;
+    // The panel opens on the claims an edit can actually answer: labeled as a
+    // misrepresentation or a gap, AND pointing at one of the sections this task
+    // unlocks. Everything else — claims about read-only text, and claims the
+    // article already handles — sits behind one toggle so it stays available as
+    // background without burying the work.
+    const isWorkable = (c: ClaimGroupItem) =>
+      (c.label === 'misrepresentation' || c.label === 'gap') && isEditable(c.sectionId);
+    const primaryClaims = detailClaims.filter(isWorkable);
+    const secondaryClaims = detailClaims.filter((c) => !isWorkable(c));
+    const visibleClaims = showAccurate ? [...primaryClaims, ...secondaryClaims] : primaryClaims;
     const sources = selectedGroup.sources || [];
     const factChecks = selectedGroup.factChecks || [];
-    const wikiRefs = (selectedGroup.wikipediaRefs || []).filter((r: ClaimSource) => {
-      // Exclude the current article's Wikipedia page
-      return true; // Already filtered in parse script
-    });
+    // Curation already removed links back to the article being edited.
+    const wikiRefs = selectedGroup.wikipediaRefs || [];
 
     return (
       <SidebarShell isMobile={isMobile} onClose={onToggle}>
@@ -446,6 +480,56 @@ export default function ClaimsSidebar({
           >
             The evidence Arbiter retrieved for these claims cites this Wikipedia article.
           </p>
+        )}
+
+        {/* Wikipedia articles cited as evidence — the editor's shortcut to
+            wikilinks and background, without hunting through a tab. */}
+        {wikiRefs.length > 0 && (
+          <div className="mb-2" data-wiki-strip>
+            <div
+              className="text-xs mb-1"
+              style={{ color: 'var(--wiki-text-secondary)', fontWeight: 600 }}
+            >
+              Wikipedia articles cited as evidence
+            </div>
+            <div className="flex flex-wrap gap-1">
+              {wikiRefs.slice(0, 6).map((ref, i) => (
+                <a
+                  key={`wikichip-${i}`}
+                  href={ref.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs px-1.5 py-0.5 rounded"
+                  style={{
+                    background: '#f3f4f6',
+                    border: '1px solid var(--wiki-chrome-border)',
+                    color: 'var(--wiki-link)',
+                    fontSize: '0.65rem',
+                    textDecoration: 'none',
+                  }}
+                  title={ref.snippet || ref.title}
+                  onClick={() => onLinkEvent?.(ref.url, 'wikipedia', 'click')}
+                >
+                  {ref.title}
+                </a>
+              ))}
+              {wikiRefs.length > 6 && (
+                <button
+                  type="button"
+                  className="text-xs px-1.5 py-0.5 rounded cursor-pointer"
+                  style={{
+                    background: 'none',
+                    border: 'none',
+                    color: 'var(--wiki-link)',
+                    fontSize: '0.65rem',
+                  }}
+                  onClick={() => setActiveTab('wikipedia')}
+                >
+                  +{wikiRefs.length - 6} more
+                </button>
+              )}
+            </div>
+          </div>
         )}
 
         {/* Tabs */}
@@ -549,19 +633,42 @@ export default function ClaimsSidebar({
                     </p>
                   )}
 
-                  {/* Section this claim points at */}
+                  {/* Section this claim points at — a button when the task unlocks it */}
                   {claim.sectionId && claim.label && claim.label !== 'accurate' && (
                     <div className="mb-1.5">
-                      <span
-                        className="text-xs px-1.5 py-0.5 rounded"
-                        style={{
-                          background: claim.sectionId === activeSectionId ? '#c7d2fe' : '#e8e8e8',
-                          color: claim.sectionId === activeSectionId ? '#312e81' : 'var(--wiki-text-secondary)',
-                          fontSize: '0.65rem',
-                        }}
-                      >
-                        Edit: {sectionTitles[claim.sectionId] || claim.sectionId}
-                      </span>
+                      {isEditable(claim.sectionId) ? (
+                        <button
+                          type="button"
+                          data-section-jump={claim.sectionId}
+                          className="text-xs px-1.5 py-0.5 rounded cursor-pointer"
+                          style={{
+                            background: claim.sectionId === activeSectionId ? '#c7d2fe' : '#e0e7ff',
+                            color: claim.sectionId === activeSectionId ? '#312e81' : '#3730a3',
+                            border: '1px solid #c7d2fe',
+                            fontSize: '0.65rem',
+                            fontWeight: 600,
+                          }}
+                          title="Open this section and scroll to it"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onJumpToSection?.(claim.sectionId!);
+                          }}
+                        >
+                          Edit: {sectionTitles[claim.sectionId] || claim.sectionId} →
+                        </button>
+                      ) : (
+                        <span
+                          className="text-xs px-1.5 py-0.5 rounded"
+                          style={{
+                            background: '#f1f1f1',
+                            color: 'var(--wiki-text-disabled)',
+                            fontSize: '0.65rem',
+                          }}
+                          title="This section is read-only for your task — treat the claim as background"
+                        >
+                          Background: {sectionTitles[claim.sectionId] || claim.sectionId}
+                        </span>
+                      )}
                     </div>
                   )}
 
@@ -587,14 +694,16 @@ export default function ClaimsSidebar({
                 </div>
               ))}
 
-              {actionableClaims.length === 0 && (
+              {primaryClaims.length === 0 && (
                 <p className="text-xs py-4 text-center" style={{ color: 'var(--wiki-text-disabled)' }}>
-                  Nothing in this group contradicts the article or asks it to cover more.
+                  Nothing in this group points at a section you can edit. Open it
+                  for background, or go back and pick another group.
                 </p>
               )}
 
-              {accurateClaims.length > 0 && (
+              {secondaryClaims.length > 0 && (
                 <button
+                  data-secondary-toggle
                   onClick={() => setShowAccurate((v) => !v)}
                   className="w-full text-xs py-2 rounded cursor-pointer"
                   style={{
@@ -604,8 +713,8 @@ export default function ClaimsSidebar({
                   }}
                 >
                   {showAccurate
-                    ? `Hide the ${accurateClaims.length} claims the article already covers`
-                    : `Show ${accurateClaims.length} more ${accurateClaims.length === 1 ? 'claim' : 'claims'} the article already covers`}
+                    ? `Hide the ${secondaryClaims.length} background ${secondaryClaims.length === 1 ? 'claim' : 'claims'}`
+                    : `Show ${secondaryClaims.length} more ${secondaryClaims.length === 1 ? 'claim' : 'claims'} (read-only sections, or already covered)`}
                 </button>
               )}
             </div>
@@ -646,7 +755,7 @@ export default function ClaimsSidebar({
               {wikiRefs.length > 0 ? (
                 <>
                   <p className="text-xs mb-2" style={{ color: 'var(--wiki-text-secondary)' }}>
-                    Related Wikipedia articles that may provide useful context. Links to the article you are currently editing have been excluded.
+                    Wikipedia articles Arbiter cited as evidence for these claims. Useful for wikilinks and background. The article you are editing is left out on purpose.
                   </p>
                   {wikiRefs.map((ref, i) => <SourceLink key={`wiki-${i}`} source={ref} iffyDomains={iffyDomains} onLinkEvent={onLinkEvent} />)}
                 </>
@@ -774,6 +883,7 @@ export default function ClaimsSidebar({
             ? group.relevantSectionIds.includes(activeSectionId)
             : false;
           const headline = headlineClaim(group);
+          const groupReach = reachableCount(group);
           // Put the section the participant is editing first, then the rest;
           // a group can point at a dozen sections and the card has room for four.
           const orderedSections = [...group.relevantSectionIds].sort((a, b) => {
@@ -846,7 +956,27 @@ export default function ClaimsSidebar({
                     cites this article
                   </span>
                 )}
+                {(group.wikipediaRefs?.length ?? 0) > 0 && (
+                  <span title="Wikipedia articles cited as evidence for these claims" style={{ color: 'var(--wiki-link)' }}>
+                    {group.wikipediaRefs!.length} wiki ref{group.wikipediaRefs!.length === 1 ? '' : 's'}
+                  </span>
+                )}
               </div>
+
+              {/* Whether this group is work the participant can do right now */}
+              {editableSectionIds && (
+                <div className="text-xs mb-1.5" style={{ fontSize: '0.68rem' }}>
+                  {groupReach > 0 ? (
+                    <span style={{ color: '#166534', fontWeight: 600 }}>
+                      {groupReach} {groupReach === 1 ? 'claim points' : 'claims point'} at a section you can edit
+                    </span>
+                  ) : (
+                    <span style={{ color: 'var(--wiki-text-disabled)' }}>
+                      Background — these point at read-only sections
+                    </span>
+                  )}
+                </div>
+              )}
 
               {/* The claim this group leads with */}
               {headline && (
