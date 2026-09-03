@@ -3,7 +3,8 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useParams } from 'next/navigation';
 import { formatDuration, formatTimestamp } from '@/lib/utils';
-import type { ParticipantData, EditSession, Article } from '@/types';
+import type { ParticipantData, EditSession, Article, ClaimGroup } from '@/types';
+import { loadClaimGroups } from '@/lib/articles';
 import DiffView from '@/components/wiki/DiffView';
 import { retryPendingSync } from '@/lib/persist';
 import { ARTICLE_NAMES } from '@/lib/experiment';
@@ -72,6 +73,7 @@ export default function DashboardPage() {
   const [loading, setLoading] = useState(true);
   const [uploadStatus, setUploadStatus] = useState<'idle' | 'uploading' | 'success' | 'error'>('idle');
   const [domainReliability, setDomainReliability] = useState<Record<string, number>>({});
+  const [claimsByArticle, setClaimsByArticle] = useState<Record<string, ClaimGroup[]>>({});
 
   // Load domain reliability data for citation scoring display
   useEffect(() => {
@@ -110,6 +112,18 @@ export default function DashboardPage() {
           )
         );
         setArticles(loaded);
+
+        // Claim data for the post-task report. validatedByCurrent is held back
+        // during the task because the current revision is the ground truth the
+        // edit is scored against; once the edit is published it becomes the
+        // strongest evidence we can show that a flagged gap was real.
+        const claims: Record<string, ClaimGroup[]> = {};
+        await Promise.all(
+          articleIds.map(async (id) => {
+            claims[id] = await loadClaimGroups(id);
+          })
+        );
+        setClaimsByArticle(claims);
       } catch {
         // Articles may not load if data files aren't present
       }
@@ -569,6 +583,59 @@ export default function DashboardPage() {
                         )}
                       </div>
                     )}
+
+                    {/* Gaps the community went on to fill. Held back during the
+                        task, since it names what the current revision says. */}
+                    {(() => {
+                      // Only the treatment session had a panel, so only there
+                      // can we say a claim was flagged in one.
+                      if (session.condition !== 'treatment') return null;
+                      const groups = claimsByArticle[session.articleId] || [];
+                      const confirmed = groups.flatMap((g) =>
+                        (g.claims || []).filter(
+                          (c) => c.validatedByCurrent && (c.label === 'gap' || c.label === 'misrepresentation')
+                        )
+                      );
+                      if (confirmed.length === 0) return null;
+                      // finalContent holds every section, edited or not, so it
+                      // cannot say where the participant actually worked. Edit
+                      // events can.
+                      const edited = new Set(
+                        (session.editEvents || [])
+                          .map((e) => e.sectionId)
+                          .filter((id) => id && id !== '__edit_summary__')
+                      );
+                      const inYourSections = confirmed.filter((c) => c.sectionId && edited.has(c.sectionId));
+                      return (
+                        <div
+                          className="mt-3 p-2.5 rounded"
+                          data-confirmed-by-wikipedia
+                          style={{ background: '#ecfdf5', border: '1px solid #6ee7b7' }}
+                        >
+                          <div className="text-xs font-semibold mb-1" style={{ color: '#065f46' }}>
+                            Confirmed by Wikipedia since
+                          </div>
+                          <div className="text-xs" style={{ color: '#202122' }}>
+                            <strong>{confirmed.length}</strong>{' '}
+                            {confirmed.length === 1 ? 'claim' : 'claims'} flagged in the panel{' '}
+                            {confirmed.length === 1 ? 'is' : 'are'}{' '}
+                            covered in today&rsquo;s article, so the community judged the same
+                            material worth adding
+                            {inYourSections.length > 0
+                              ? ` — ${inYourSections.length} in a section you edited.`
+                              : '.'}
+                          </div>
+                          <ul className="mt-1.5 space-y-1">
+                            {confirmed.slice(0, 5).map((c) => (
+                              <li key={c.id} className="text-xs" style={{ color: '#374151', lineHeight: 1.4 }}>
+                                &ldquo;{c.claimText.slice(0, 120)}
+                                {c.claimText.length > 120 ? '\u2026' : ''}&rdquo;
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      );
+                    })()}
 
                     {/* Behavioral metrics */}
                     {cm && (

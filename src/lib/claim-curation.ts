@@ -201,13 +201,22 @@ export function curateClaimGroups(groups: ClaimGroup[], articleTitle?: string): 
   return curated;
 }
 
-/** The claim a group card should preview: worst label first, then reach. */
+const CONFIDENCE_RANK: Record<string, number> = { high: 0, medium: 1, low: 2 };
+
+/**
+ * The claim a group card should preview: worst label first, then the firmest
+ * reading of it, then reach. Leading a card with a claim we were unsure about
+ * would oversell the group.
+ */
 export function headlineClaim(group: ClaimGroup): ClaimGroupItem | undefined {
   const rank: Record<string, number> = { misrepresentation: 0, gap: 1, accurate: 2 };
   return [...(group.claims || [])].sort((a, b) => {
     const ra = rank[a.label ?? 'accurate'] ?? 2;
     const rb = rank[b.label ?? 'accurate'] ?? 2;
     if (ra !== rb) return ra - rb;
+    const ca = CONFIDENCE_RANK[a.confidence ?? 'medium'] ?? 1;
+    const cb = CONFIDENCE_RANK[b.confidence ?? 'medium'] ?? 1;
+    if (ca !== cb) return ca - cb;
     return (b.engagement || 0) - (a.engagement || 0);
   })[0];
 }

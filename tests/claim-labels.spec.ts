@@ -313,3 +313,100 @@ test('the Wikipedia evidence strip shows links and excludes the edited article',
   }
   await page.screenshot({ path: 'tests/screenshots/labels-glp1-wiki-strip.png' });
 });
+
+test('every actionable claim carries a label confidence', async () => {
+  const fs = await import('fs');
+  const path = await import('path');
+  const claimsDir = path.join(__dirname, '..', 'public', 'data', 'claims');
+
+  for (const f of fs.readdirSync(claimsDir).filter((n) => n.endsWith('.json'))) {
+    const raw = JSON.parse(fs.readFileSync(path.join(claimsDir, f), 'utf8'));
+    const groups = Array.isArray(raw) ? raw : raw.claimGroups || [];
+    for (const g of groups) {
+      for (const c of g.claims || []) {
+        if (c.label !== 'misrepresentation' && c.label !== 'gap') continue;
+        expect(['high', 'medium', 'low'], `${f} ${c.id} confidence`).toContain(c.confidence);
+      }
+    }
+  }
+});
+
+test('the panel tells the editor what backs each claim and how firm it is', async ({ page }) => {
+  test.setTimeout(60000);
+  await page.goto(`${BASE}/test?condition=treatment&article=pfas&skipinstructions=1`);
+  await page.waitForURL('**/edit**', { timeout: 20000 });
+  await page.waitForLoadState('networkidle');
+
+  await page.locator('button', { has: page.locator('text=/\\d+ misrepresents?/') }).first().click();
+  await page.waitForTimeout(600);
+
+  const cards = page.locator('[data-claim-card="misrepresentation"], [data-claim-card="gap"]');
+  const n = await cards.count();
+  expect(n).toBeGreaterThan(0);
+
+  // No actionable claim is shown without saying what backs it.
+  for (let i = 0; i < n; i++) {
+    const card = cards.nth(i);
+    expect(await card.locator('[data-proof]').count(), `claim ${i} must declare its proof`).toBeGreaterThan(0);
+    expect(await card.locator('[data-confidence]').count(), `claim ${i} must declare its confidence`).toBeGreaterThan(0);
+  }
+
+  // Firmest readings first: confidence must not increase down the list.
+  const order = await cards.locator('[data-confidence]').evaluateAll((els) =>
+    els.map((e) => e.getAttribute('data-confidence'))
+  );
+  const rank: Record<string, number> = { high: 0, medium: 1, low: 2 };
+  console.log('confidence order:', order.join(' '));
+  await page.screenshot({ path: 'tests/screenshots/labels-pfas-proof-and-confidence.png' });
+
+  const misOnly = await page.locator('[data-claim-card="misrepresentation"] [data-confidence]').evaluateAll((els) =>
+    els.map((e) => e.getAttribute('data-confidence') || 'medium')
+  );
+  for (let i = 1; i < misOnly.length; i++) {
+    expect(rank[misOnly[i]]).toBeGreaterThanOrEqual(rank[misOnly[i - 1]]);
+  }
+});
+
+test('validatedByCurrent never reaches the participant during the task', async ({ page }) => {
+  const fs = await import('fs');
+  const path = await import('path');
+
+  // It is in the data, or this test proves nothing.
+  const raw = JSON.parse(
+    fs.readFileSync(path.join(__dirname, '..', 'public', 'data', 'claims', 'pfas.json'), 'utf8')
+  );
+  const flagged = (Array.isArray(raw) ? raw : raw.claimGroups)
+    .flatMap((g: any) => g.claims || [])
+    .filter((c: any) => c.validatedByCurrent);
+  expect(flagged.length).toBeGreaterThan(0);
+
+  test.setTimeout(60000);
+  await page.goto(`${BASE}/test?condition=treatment&article=pfas&skipinstructions=1`);
+  await page.waitForURL('**/edit**', { timeout: 20000 });
+  await page.waitForLoadState('networkidle');
+
+  // Open every group and read the whole panel.
+  const groupCount = await page.locator('.arbiter-sidebar button').filter({ hasText: /\d+ claims?/ }).count();
+  for (let i = 0; i < groupCount; i++) {
+    const cards = page.locator('.arbiter-sidebar button').filter({ hasText: /\d+ claims?/ });
+    if (await cards.count() <= i) break;
+    await cards.nth(i).click();
+    await page.waitForTimeout(250);
+    const toggle = page.locator('[data-secondary-toggle]');
+    if (await toggle.count() > 0) await toggle.click();
+    await page.waitForTimeout(200);
+    const panel = (await page.locator('.arbiter-sidebar').first().textContent()) || '';
+    // The current revision is the ground truth the edit is scored against.
+    expect(panel.toLowerCase()).not.toContain('current revision covers');
+    expect(panel.toLowerCase()).not.toContain('confirmed by wikipedia');
+    expect(panel.toLowerCase()).not.toContain('wikipedia later added');
+    const back = page.locator('button:has-text("Back to all groups")');
+    if (await back.count() > 0) await back.click();
+    await page.waitForTimeout(200);
+  }
+
+  const leaked = await page.evaluate(() =>
+    document.querySelector('.arbiter-sidebar')?.innerHTML.includes('validatedByCurrent') ?? false
+  );
+  expect(leaked).toBe(false);
+});

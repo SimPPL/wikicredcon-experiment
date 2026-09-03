@@ -247,8 +247,14 @@ export interface ClaimGroupItem {
   sectionId?: string;
   /** Fact-check or source URL backing the label */
   evidenceUrl?: string;
-  /** For gaps: the current article revision covers this, so editors did fill it */
+  /**
+   * For gaps: the current article revision covers this, so editors did fill it.
+   * Analysis and post-task reporting only — never shown during the task, since
+   * the current revision is the ground truth the edit is scored against.
+   */
   validatedByCurrent?: boolean;
+  /** How sure the labeling pass was about the label and its rationale */
+  confidence?: 'high' | 'medium' | 'low';
   /** How many other posts in this group restated the same claim */
   duplicateCount?: number;
 }

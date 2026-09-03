@@ -18,7 +18,8 @@
         "postExcerpt": "OpenAI was dead… Then GPT-5.2 dropped",
         "label": "misrepresentation",
         "labelRationale": "The Finances section records a $500 billion valuation in October 2025, so calling OpenAI dead misstates its position.",
-        "sectionId": "finances"
+        "sectionId": "finances",
+        "confidence": "high"
       },
       {
         "id": "openai-c47",
@@ -30,7 +31,8 @@
         "label": "misrepresentation",
         "labelRationale": "The article reports five million business users; OpenAI's one million figure counts business customers, not users.",
         "sectionId": "finances",
-        "evidenceUrl": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/"
+        "evidenceUrl": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/",
+        "confidence": "medium"
       },
       {
         "id": "openai-c48",
@@ -41,7 +43,8 @@
         "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
         "label": "misrepresentation",
         "labelRationale": "OpenAI's published GDPval results place its models near half of expert tasks, far below the 74.1% cited here.",
-        "sectionId": "development"
+        "sectionId": "development",
+        "confidence": "medium"
       },
       {
         "id": "openai-c49",
@@ -53,7 +56,8 @@
         "label": "gap",
         "labelRationale": "The past article describes no advertising, shopping, or health products, so it cannot show what OpenAI shelved.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.cryptobreaking.com/chatgpt-ads-are-officially-here/"
+        "evidenceUrl": "https://www.cryptobreaking.com/chatgpt-ads-are-officially-here/",
+        "confidence": "medium"
       },
       {
         "id": "openai-c50",
@@ -65,7 +69,8 @@
         "label": "gap",
         "labelRationale": "The Finances section counts paid subscribers and business users but never gives ChatGPT's weekly user total.",
         "sectionId": "finances",
-        "evidenceUrl": "https://indianexpress.com/shorts/technology/chatgpt-records-strongest-subscriber-growth-as-number-of-weekly-users-nears-a-billion-10557308/"
+        "evidenceUrl": "https://indianexpress.com/shorts/technology/chatgpt-records-strongest-subscriber-growth-as-number-of-weekly-users-nears-a-billion-10557308/",
+        "confidence": "high"
       },
       {
         "id": "openai-c51",
@@ -76,7 +81,8 @@
         "postExcerpt": "so when the board kicked out sam as ceo, they were right? *openai says planning safeguards for ai models *openai: training models to safely respond to harmful requests",
         "label": "accurate",
         "labelRationale": "The past article already says OpenAI is strengthening protections, including crisis response behavior and parental controls.",
-        "sectionId": "wrongful-death-lawsuit-over-chatgpt-safety-2025"
+        "sectionId": "wrongful-death-lawsuit-over-chatgpt-safety-2025",
+        "confidence": "high"
       },
       {
         "id": "openai-c52",
@@ -87,7 +93,8 @@
         "postExcerpt": "so when the board kicked out sam as ceo, they were right? *openai says planning safeguards for ai models *openai: training models to safely respond to harmful requests",
         "label": "accurate",
         "labelRationale": "The past article already reports OpenAI updating how its models respond to self-harm and crisis prompts.",
-        "sectionId": "wrongful-death-lawsuit-over-chatgpt-safety-2025"
+        "sectionId": "wrongful-death-lawsuit-over-chatgpt-safety-2025",
+        "confidence": "medium"
       },
       {
         "id": "openai-c53",
@@ -100,7 +107,8 @@
         "labelRationale": "The past article lists subscriptions and enterprise deals as revenue sources and never mentions advertising in ChatGPT.",
         "sectionId": "finances",
         "evidenceUrl": "https://www.cryptobreaking.com/chatgpt-ads-are-officially-here/",
-        "validatedByCurrent": true
+        "validatedByCurrent": true,
+        "confidence": "high"
       },
       {
         "id": "openai-c54",
@@ -111,7 +119,8 @@
         "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
         "label": "gap",
         "labelRationale": "The past article's product timeline ends at ChatGPT Atlas and omits shopping and health agents in development.",
-        "sectionId": "development"
+        "sectionId": "development",
+        "confidence": "medium"
       },
       {
         "id": "openai-c55",
@@ -122,7 +131,8 @@
         "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
         "label": "gap",
         "labelRationale": "The past article never mentions Pulse, OpenAI's daily personalized report feature.",
-        "sectionId": "development"
+        "sectionId": "development",
+        "confidence": "medium"
       },
       {
         "id": "openai-c56",
@@ -134,7 +144,8 @@
         "label": "gap",
         "labelRationale": "The past article covers model launches only and says nothing about personalization work on ChatGPT.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html",
+        "confidence": "medium"
       },
       {
         "id": "openai-c57",
@@ -146,7 +157,8 @@
         "label": "gap",
         "labelRationale": "The past article's image generation coverage stops at DALL-E and omits the 2025 competition with Google.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.androidcentral.com/apps-software/google-announces-nano-banana-2"
+        "evidenceUrl": "https://www.androidcentral.com/apps-software/google-announces-nano-banana-2",
+        "confidence": "low"
       },
       {
         "id": "openai-c58",
@@ -158,7 +170,8 @@
         "label": "gap",
         "labelRationale": "The past article never discusses ChatGPT response speed or refusal behavior.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html",
+        "confidence": "medium"
       },
       {
         "id": "openai-c59",
@@ -169,7 +182,8 @@
         "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
         "label": "accurate",
         "labelRationale": "The Development section already records the December 2024 launch of the o1 reasoning model.",
-        "sectionId": "development"
+        "sectionId": "development",
+        "confidence": "high"
       },
       {
         "id": "openai-c60",
@@ -181,7 +195,8 @@
         "label": "gap",
         "labelRationale": "The past article stops in October 2025 and lists no reasoning model planned after o1 and o3.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -290,7 +305,8 @@
         "label": "gap",
         "labelRationale": "The past article's Development section stops in October 2025 and never mentions a GPT-5.2-Codex release.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.tomsguide.com/ai/claude-code-vs-chatgpt-codex-which-ai-coding-agent-is-actually-better"
+        "evidenceUrl": "https://www.tomsguide.com/ai/claude-code-vs-chatgpt-codex-which-ai-coding-agent-is-actually-better",
+        "confidence": "medium"
       },
       {
         "id": "openai-c2",
@@ -302,7 +318,8 @@
         "label": "misrepresentation",
         "labelRationale": "OpenAI announced GPT-5.2 on December 11, 2025, so the December 12 date the post gives is wrong.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner",
+        "confidence": "medium"
       },
       {
         "id": "openai-c3",
@@ -314,7 +331,8 @@
         "label": "misrepresentation",
         "labelRationale": "The Finances section credits OpenAI's revenue jump to ChatGPT subscriptions, which cuts against the enterprise-outpaces-consumer framing.",
         "sectionId": "finances",
-        "evidenceUrl": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/"
+        "evidenceUrl": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/",
+        "confidence": "medium"
       },
       {
         "id": "openai-c4",
@@ -326,7 +344,8 @@
         "label": "gap",
         "labelRationale": "The past article records no December 2025 code red memo and no response to Google's Gemini 3.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html",
+        "confidence": "high"
       },
       {
         "id": "openai-c5",
@@ -338,7 +357,8 @@
         "label": "gap",
         "labelRationale": "Nothing in the past article covers Altman's December 2, 2025 code red declaration.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece"
+        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece",
+        "confidence": "high"
       },
       {
         "id": "openai-c6",
@@ -350,7 +370,8 @@
         "label": "gap",
         "labelRationale": "The past article ends in October 2025 and never mentions the internal memo declaring a code red on ChatGPT.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.hindustantimes.com/technology/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-101765255981406.html"
+        "evidenceUrl": "https://www.hindustantimes.com/technology/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-101765255981406.html",
+        "confidence": "high"
       },
       {
         "id": "openai-c7",
@@ -362,7 +383,8 @@
         "label": "gap",
         "labelRationale": "The past article lists no paused roadmap items and never mentions ads, shopping agents, or Pulse.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html",
+        "confidence": "high"
       },
       {
         "id": "openai-c8",
@@ -374,7 +396,8 @@
         "label": "gap",
         "labelRationale": "The Development section closes before Gemini 3 shipped and records no acknowledgement that Google was catching up.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html",
+        "confidence": "medium"
       },
       {
         "id": "openai-c9",
@@ -386,7 +409,8 @@
         "label": "gap",
         "labelRationale": "The past article's model timeline ends at ChatGPT Atlas and omits the reasoning model promised in December 2025.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html",
+        "confidence": "medium"
       },
       {
         "id": "openai-c10",
@@ -398,7 +422,8 @@
         "label": "gap",
         "labelRationale": "The past article says nothing about GPT-5.2 release planning or the schedule reporting around it.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner",
+        "confidence": "medium"
       },
       {
         "id": "openai-c11",
@@ -410,7 +435,8 @@
         "label": "misrepresentation",
         "labelRationale": "OpenAI announced GPT-5.2 on December 11, which makes the December 9 date the post reports inaccurate.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner",
+        "confidence": "low"
       },
       {
         "id": "openai-c12",
@@ -422,7 +448,8 @@
         "label": "gap",
         "labelRationale": "The past article never mentions Gemini 3 even though it names Bard as Google's earlier answer to ChatGPT.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13",
+        "confidence": "high"
       },
       {
         "id": "openai-c13",
@@ -434,7 +461,8 @@
         "label": "gap",
         "labelRationale": "The past article carries no record of the December 2, 2025 code red at OpenAI.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece"
+        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece",
+        "confidence": "high"
       },
       {
         "id": "openai-c14",
@@ -446,7 +474,8 @@
         "label": "misrepresentation",
         "labelRationale": "GPT-5.2 shipped on December 11, not the December 9 date the post presents as the accelerated launch.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner",
+        "confidence": "medium"
       },
       {
         "id": "openai-c15",
@@ -459,7 +488,8 @@
         "labelRationale": "The current revision dates the GPT-5.2 announcement to December 11, 2025; the past revision stops in October.",
         "sectionId": "development",
         "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner",
-        "validatedByCurrent": true
+        "validatedByCurrent": true,
+        "confidence": "high"
       }
     ],
     "sources": [
@@ -560,7 +590,8 @@
         "label": "gap",
         "labelRationale": "The past article lists Codex among products but describes no agentic coding model built for terminal use.",
         "sectionId": "development",
-        "evidenceUrl": "https://fortune.com/2026/02/13/openais-codex-and-anthropics-claude-spark-coding-revolution-as-developers-say-theyve-abandoned-traditional-programming/"
+        "evidenceUrl": "https://fortune.com/2026/02/13/openais-codex-and-anthropics-claude-spark-coding-revolution-as-developers-say-theyve-abandoned-traditional-programming/",
+        "confidence": "medium"
       },
       {
         "id": "openai-c17",
@@ -572,7 +603,8 @@
         "label": "gap",
         "labelRationale": "The past article never mentions Gemini 3 or Google's Nano Banana image models that OpenAI now competes against.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.androidcentral.com/apps-software/google-announces-nano-banana-2"
+        "evidenceUrl": "https://www.androidcentral.com/apps-software/google-announces-nano-banana-2",
+        "confidence": "low"
       },
       {
         "id": "openai-c18",
@@ -583,7 +615,8 @@
         "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
         "label": "misrepresentation",
         "labelRationale": "Presents unconfirmed internal codenames as a settled release order; no reliable source documents Garlic or Shallotpeat.",
-        "sectionId": "development"
+        "sectionId": "development",
+        "confidence": "low"
       },
       {
         "id": "openai-c19",
@@ -595,7 +628,8 @@
         "label": "gap",
         "labelRationale": "The past article's benchmark coverage stops at OpenAI's own Olympiad result and omits rival math models.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.cnbc.com/2026/02/23/deepseek-to-release-new-ai-model-a-rough-period-for-nasdaq-stocks-could-follow.html"
+        "evidenceUrl": "https://www.cnbc.com/2026/02/23/deepseek-to-release-new-ai-model-a-rough-period-for-nasdaq-stocks-could-follow.html",
+        "confidence": "low"
       },
       {
         "id": "openai-c20",
@@ -607,7 +641,8 @@
         "label": "gap",
         "labelRationale": "The past article mentions DeepSeek only as a security worry and gives no account of its model performance.",
         "sectionId": "development",
-        "evidenceUrl": "https://economictimes.indiatimes.com/ai/ai-insights/deepseek-withholds-latest-ai-model-from-us-chipmakers-including-nvidia-sources-say/articleshow/128799730.cms"
+        "evidenceUrl": "https://economictimes.indiatimes.com/ai/ai-insights/deepseek-withholds-latest-ai-model-from-us-chipmakers-including-nvidia-sources-say/articleshow/128799730.cms",
+        "confidence": "medium"
       },
       {
         "id": "openai-c21",
@@ -619,7 +654,8 @@
         "label": "gap",
         "labelRationale": "The past article calls DeepSeek's models open without naming versions, and never covers DeepSeek-V3.2.",
         "sectionId": "development",
-        "evidenceUrl": "https://economictimes.indiatimes.com/ai/ai-insights/deepseek-withholds-latest-ai-model-from-us-chipmakers-including-nvidia-sources-say/articleshow/128799730.cms"
+        "evidenceUrl": "https://economictimes.indiatimes.com/ai/ai-insights/deepseek-withholds-latest-ai-model-from-us-chipmakers-including-nvidia-sources-say/articleshow/128799730.cms",
+        "confidence": "low"
       },
       {
         "id": "openai-c22",
@@ -631,7 +667,8 @@
         "label": "gap",
         "labelRationale": "The past article records no LMArena standings and no comparison between OpenAI's models and Gemini 3.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13",
+        "confidence": "medium"
       },
       {
         "id": "openai-c23",
@@ -643,7 +680,8 @@
         "label": "gap",
         "labelRationale": "The past article ends before Gemini 3 and never notes that a rival model topped OpenAI on LMArena.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13",
+        "confidence": "medium"
       },
       {
         "id": "openai-c24",
@@ -654,7 +692,8 @@
         "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
         "label": "misrepresentation",
         "labelRationale": "Alphabet's annual revenue passed $350 billion in 2024, so the $300 billion figure understates its scale.",
-        "sectionId": "finances"
+        "sectionId": "finances",
+        "confidence": "medium"
       },
       {
         "id": "openai-c25",
@@ -665,7 +704,8 @@
         "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
         "label": "misrepresentation",
         "labelRationale": "Gemini reaches only some Chrome and Android surfaces; the post states blanket embedding across 3 billion of each.",
-        "sectionId": "development"
+        "sectionId": "development",
+        "confidence": "medium"
       },
       {
         "id": "openai-c26",
@@ -676,7 +716,8 @@
         "postExcerpt": "breaking: the first ai era just ended on december 2, 2025, sam altman declared \"code red\" at openai. this is not a competitive setback. this is a phase transition. the numbers tell a story no one wants to hear: openai has committed $1.4 trillion in infrastructure spending. current revenue: $20 billi",
         "label": "misrepresentation",
         "labelRationale": "Compares Claude's output price against GPT's input price, so the tenfold gap the post reports is not real.",
-        "sectionId": "finances"
+        "sectionId": "finances",
+        "confidence": "high"
       },
       {
         "id": "openai-c27",
@@ -688,7 +729,8 @@
         "label": "gap",
         "labelRationale": "The past article notes Mira Murati's departure but never says she founded Thinking Machines or raised money for it.",
         "sectionId": "personnel-changes",
-        "evidenceUrl": "https://wccftech.com/mark-zuckerbergs-1-billion-offer-to-poach-talent-from-ex-openai-ctos-ai-firm-gets-rejected-report/"
+        "evidenceUrl": "https://wccftech.com/mark-zuckerbergs-1-billion-offer-to-poach-talent-from-ex-openai-ctos-ai-firm-gets-rejected-report/",
+        "confidence": "medium"
       },
       {
         "id": "openai-c28",
@@ -700,7 +742,8 @@
         "label": "gap",
         "labelRationale": "The past article cites Humanity's Last Exam only for OpenAI's deep research score and omits later rival records.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13",
+        "confidence": "medium"
       },
       {
         "id": "openai-c29",
@@ -712,7 +755,8 @@
         "label": "gap",
         "labelRationale": "The past article gives no LMArena scores, so a reader cannot place Gemini 3 against OpenAI's models.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13",
+        "confidence": "medium"
       },
       {
         "id": "openai-c30",
@@ -724,7 +768,8 @@
         "label": "gap",
         "labelRationale": "The past article stops before Gemini 3 and records nothing about its leaderboard milestone.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -840,7 +885,8 @@
         "label": "gap",
         "labelRationale": "The past article documents no code red and no company-wide push to raise ChatGPT quality.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece"
+        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece",
+        "confidence": "high"
       },
       {
         "id": "openai-c32",
@@ -851,7 +897,8 @@
         "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
         "label": "gap",
         "labelRationale": "The past article reports ChatGPT usage patterns but carries no Altman projection about token output.",
-        "sectionId": "development"
+        "sectionId": "development",
+        "confidence": "low"
       },
       {
         "id": "openai-c33",
@@ -862,7 +909,8 @@
         "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
         "label": "gap",
         "labelRationale": "The Finances section details compute spending but never reports Altman tying compute directly to revenue.",
-        "sectionId": "finances"
+        "sectionId": "finances",
+        "confidence": "low"
       },
       {
         "id": "openai-c34",
@@ -873,7 +921,8 @@
         "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
         "label": "misrepresentation",
         "labelRationale": "OpenAI's GDPval benchmark spans 44 occupations drawn from nine sectors, not more than 40 verticals.",
-        "sectionId": "development"
+        "sectionId": "development",
+        "confidence": "low"
       },
       {
         "id": "openai-c35",
@@ -884,7 +933,8 @@
         "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
         "label": "gap",
         "labelRationale": "The Founding section quotes the charter's AGI definition and records no Altman claim that AGI already arrived.",
-        "sectionId": "founding"
+        "sectionId": "founding",
+        "confidence": "medium"
       },
       {
         "id": "openai-c36",
@@ -895,7 +945,8 @@
         "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
         "label": "gap",
         "labelRationale": "The Finances section projects spending through 2029 but never states how much compute OpenAI plans to add.",
-        "sectionId": "finances"
+        "sectionId": "finances",
+        "confidence": "low"
       },
       {
         "id": "openai-c37",
@@ -906,7 +957,8 @@
         "postExcerpt": "sam altman just dropped the most important interview of 2025. and buried in it are four numbers that explain why everything you think about ai is wrong. here's what he revealed: number 1: ai companies are generating 10 trillion tokens per day. humans? average 20,000 tokens per day. sam's exact words",
         "label": "gap",
         "labelRationale": "The past article gives dollar projections only and omits Altman's stated compute expansion targets.",
-        "sectionId": "finances"
+        "sectionId": "finances",
+        "confidence": "low"
       },
       {
         "id": "openai-c38",
@@ -918,7 +970,8 @@
         "label": "gap",
         "labelRationale": "The past article ends in October 2025 and never mentions the code red called on ChatGPT.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece"
+        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece",
+        "confidence": "high"
       },
       {
         "id": "openai-c39",
@@ -929,7 +982,8 @@
         "postExcerpt": "Sam Altman says OpenAI’s models are “beginning to find critical vulnerabilities,” so OpenAI is hiring a $555,000 Head of Preparedness to tighten how it tests and ships agentic systems. The job listing says the role runs OpenAI’s Preparedness Framework, building capability evaluations, threat models,",
         "label": "gap",
         "labelRationale": "The Alignment section stops at the 2024 superalignment shutdown and omits OpenAI's later vulnerability-finding claims.",
-        "sectionId": "alignment"
+        "sectionId": "alignment",
+        "confidence": "medium"
       },
       {
         "id": "openai-c40",
@@ -940,7 +994,8 @@
         "postExcerpt": "sam altman says openai's models are \"beginning to find critical vulnerabilities,\" so openai is hiring a $555,000 head of preparedness to tighten how it tests and ships agentic systems. the job listing says the role runs openai's preparedness framework, building capability evaluations, threat models,",
         "label": "gap",
         "labelRationale": "The past article describes no security research program and no claim that models find critical vulnerabilities.",
-        "sectionId": "alignment"
+        "sectionId": "alignment",
+        "confidence": "medium"
       },
       {
         "id": "openai-c41",
@@ -952,7 +1007,8 @@
         "label": "gap",
         "labelRationale": "The past article records no internal memo redirecting staff to ChatGPT quality work.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.hindustantimes.com/technology/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-101765255981406.html"
+        "evidenceUrl": "https://www.hindustantimes.com/technology/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-101765255981406.html",
+        "confidence": "high"
       },
       {
         "id": "openai-c42",
@@ -964,7 +1020,8 @@
         "label": "gap",
         "labelRationale": "The past article never names Gemini 3, so it cannot show Altman conceding the model's strength.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html",
+        "confidence": "low"
       },
       {
         "id": "openai-c43",
@@ -976,7 +1033,8 @@
         "label": "gap",
         "labelRationale": "The past article covers neither the code red nor Altman's timeline for ending it.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html",
+        "confidence": "low"
       },
       {
         "id": "openai-c44",
@@ -988,7 +1046,8 @@
         "label": "gap",
         "labelRationale": "Nothing in the past article mentions a code red at OpenAI.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece"
+        "evidenceUrl": "https://www.thehindu.com/sci-tech/technology/sam-altman-merchant-of-the-future/article70366667.ece",
+        "confidence": "high"
       },
       {
         "id": "openai-c45",
@@ -1000,7 +1059,8 @@
         "label": "misrepresentation",
         "labelRationale": "Reporting quotes Altman's memo declaring a code red; no source records him calling for a surge mode.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html",
+        "confidence": "low"
       }
     ],
     "sources": [
@@ -1101,7 +1161,8 @@
         "label": "gap",
         "labelRationale": "The past article names no Anthropic model releases, so readers see none of the coding competition OpenAI faces.",
         "sectionId": "development",
-        "evidenceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUVVtZUxlMERpeV9qVllXeEhvWS1ZN0JFMG50em1QTXdaQ3FsTllBdGRiUDNvVFVKYkhqNVBBQkEyRGJYcnlFOWJxQ19hR3E1SzM2TzV1Qjk0T2hQRGpKZ2x6VEx1OEc3bWRiNlVodEJDVnI1SWMyVjRjdW51YU9UcE9Oc1BaRFd1em9STFJMVkJHLUtRNEIzWXZZSHZVSnM?oc=5&hl=en-US&gl=US&ceid=US:en"
+        "evidenceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUVVtZUxlMERpeV9qVllXeEhvWS1ZN0JFMG50em1QTXdaQ3FsTllBdGRiUDNvVFVKYkhqNVBBQkEyRGJYcnlFOWJxQ19hR3E1SzM2TzV1Qjk0T2hQRGpKZ2x6VEx1OEc3bWRiNlVodEJDVnI1SWMyVjRjdW51YU9UcE9Oc1BaRFd1em9STFJMVkJHLUtRNEIzWXZZSHZVSnM?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "confidence": "low"
       },
       {
         "id": "openai-c107",
@@ -1113,7 +1174,8 @@
         "label": "misrepresentation",
         "labelRationale": "No cited source measures session length; the traffic report tracks share of visits, not time spent per session.",
         "sectionId": "finances",
-        "evidenceUrl": "https://www.livemint.com/companies/news/chatgpt-loses-traffic-share-as-googles-gemini-and-xais-grok-gain-ground-reveals-report-11766749377825.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/chatgpt-loses-traffic-share-as-googles-gemini-and-xais-grok-gain-ground-reveals-report-11766749377825.html",
+        "confidence": "medium"
       },
       {
         "id": "openai-c108",
@@ -1124,7 +1186,8 @@
         "postExcerpt": "Sam Altman says OpenAI’s models are “beginning to find critical vulnerabilities,” so OpenAI is hiring a $555,000 Head of Preparedness to tighten how it tests and ships agentic systems. The job listing says the role runs OpenAI’s Preparedness Framework, building capability evaluations, threat models,",
         "label": "gap",
         "labelRationale": "The past article lists executives and departures but never mentions a Head of Preparedness role.",
-        "sectionId": "personnel-changes"
+        "sectionId": "personnel-changes",
+        "confidence": "medium"
       },
       {
         "id": "openai-c109",
@@ -1136,7 +1199,8 @@
         "label": "gap",
         "labelRationale": "The Alignment section covers superalignment only and omits reported state-linked misuse of coding agents.",
         "sectionId": "alignment",
-        "evidenceUrl": "https://en.wikipedia.org/wiki/Anthropic"
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Anthropic",
+        "confidence": "medium"
       },
       {
         "id": "openai-c110",
@@ -1147,7 +1211,8 @@
         "postExcerpt": "sam altman says openai's models are \"beginning to find critical vulnerabilities,\" so openai is hiring a $555,000 head of preparedness to tighten how it tests and ships agentic systems. the job listing says the role runs openai's preparedness framework, building capability evaluations, threat models,",
         "label": "gap",
         "labelRationale": "The past article says nothing about OpenAI hiring for its Preparedness Framework or what the role pays.",
-        "sectionId": "personnel-changes"
+        "sectionId": "personnel-changes",
+        "confidence": "medium"
       },
       {
         "id": "openai-c111",
@@ -1159,7 +1224,8 @@
         "label": "gap",
         "labelRationale": "The past article records no automated cyberattack campaigns run through AI coding tools.",
         "sectionId": "alignment",
-        "evidenceUrl": "https://en.wikipedia.org/wiki/Anthropic"
+        "evidenceUrl": "https://en.wikipedia.org/wiki/Anthropic",
+        "confidence": "medium"
       },
       {
         "id": "openai-c112",
@@ -1171,7 +1237,8 @@
         "label": "gap",
         "labelRationale": "The past article ends before Gemini 3, so it frames no gap for GPT-5.2 to close.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner",
+        "confidence": "medium"
       },
       {
         "id": "openai-c113",
@@ -1183,7 +1250,8 @@
         "label": "gap",
         "labelRationale": "The past article lists no Sora licensing partners; the current revision describes the three-year Disney deal.",
         "sectionId": "corporate-partnerships",
-        "validatedByCurrent": true
+        "validatedByCurrent": true,
+        "confidence": "high"
       },
       {
         "id": "openai-c114",
@@ -1194,7 +1262,8 @@
         "postExcerpt": "openai released gpt-5.2 today with three variants (instant, thinking, pro) for paid chatgpt users and api developers, bringing major improvements in professional knowledge work, coding, long-context understanding, and tool calling, and also announced a $1 billion investment from disney with a three-",
         "label": "gap",
         "labelRationale": "The past article covers no consumer distribution deals and never mentions ChatGPT Go or Latin American rollouts.",
-        "sectionId": "corporate-partnerships"
+        "sectionId": "corporate-partnerships",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -1309,7 +1378,8 @@
         "postExcerpt": "openaiがgoogleのgemini3.0の性能を見てコードレッド （緊急事態）を宣言したと話題ですが、これのインパクトはともかく、他にopenai内部の研究状況や今後に関してかなり面白い話題が出ていますので、全体的なまとめとコメント（また超長くなってしまった）。 ・直近でchatgpt関連のコード分析で噂されていた広告導入の話は事実だったが、優先度を考えて延期 ・買い物、健康に関するタスクを自動化するエージェントも開発中だったが、これも延期 ・さらにユーザーに対する毎朝のパーソナライズレポート機能も（pulseというらしい）も延期（これは個人的には早く欲しかった・・・） ・とにかく、ch",
         "label": "gap",
         "labelRationale": "The past article's model roadmap ends in October 2025 and mentions no larger model in training.",
-        "sectionId": "development"
+        "sectionId": "development",
+        "confidence": "low"
       },
       {
         "id": "openai-c77",
@@ -1321,7 +1391,8 @@
         "label": "gap",
         "labelRationale": "The past article mentions Anthropic only as a spinoff of departing staff and gives no revenue figures.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.indiatoday.in/technology/news/story/ai-impact-anthropic-grows-from-zero-to-14-billion-revenue-in-3-years-while-fortunes-of-indian-it-dwindle-2867920-2026-02-14"
+        "evidenceUrl": "https://www.indiatoday.in/technology/news/story/ai-impact-anthropic-grows-from-zero-to-14-billion-revenue-in-3-years-while-fortunes-of-indian-it-dwindle-2867920-2026-02-14",
+        "confidence": "low"
       },
       {
         "id": "openai-c78",
@@ -1333,7 +1404,8 @@
         "label": "gap",
         "labelRationale": "The Personnel changes section lists who left OpenAI but never says which rivals hired them.",
         "sectionId": "personnel-changes",
-        "evidenceUrl": "https://wccftech.com/mark-zuckerbergs-1-billion-offer-to-poach-talent-from-ex-openai-ctos-ai-firm-gets-rejected-report/"
+        "evidenceUrl": "https://wccftech.com/mark-zuckerbergs-1-billion-offer-to-poach-talent-from-ex-openai-ctos-ai-firm-gets-rejected-report/",
+        "confidence": "medium"
       },
       {
         "id": "openai-c79",
@@ -1345,7 +1417,8 @@
         "label": "gap",
         "labelRationale": "The past article tracks OpenAI's finances alone and reports nothing on Anthropic's revenue growth.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.indiatoday.in/technology/news/story/ai-impact-anthropic-grows-from-zero-to-14-billion-revenue-in-3-years-while-fortunes-of-indian-it-dwindle-2867920-2026-02-14"
+        "evidenceUrl": "https://www.indiatoday.in/technology/news/story/ai-impact-anthropic-grows-from-zero-to-14-billion-revenue-in-3-years-while-fortunes-of-indian-it-dwindle-2867920-2026-02-14",
+        "confidence": "low"
       },
       {
         "id": "openai-c80",
@@ -1357,7 +1430,8 @@
         "label": "gap",
         "labelRationale": "The past article records Murati's 2024 exit but not that she recruited former colleagues to Thinking Machines.",
         "sectionId": "personnel-changes",
-        "evidenceUrl": "https://wccftech.com/mark-zuckerbergs-1-billion-offer-to-poach-talent-from-ex-openai-ctos-ai-firm-gets-rejected-report/"
+        "evidenceUrl": "https://wccftech.com/mark-zuckerbergs-1-billion-offer-to-poach-talent-from-ex-openai-ctos-ai-firm-gets-rejected-report/",
+        "confidence": "medium"
       },
       {
         "id": "openai-c81",
@@ -1369,7 +1443,8 @@
         "label": "gap",
         "labelRationale": "The past article names no competitive pressure from Google or Anthropic and omits the December 2025 alert.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/sam-altman-s-sprint-to-correct-openai-s-direction-and-fend-off-google-11765254511524.html",
+        "confidence": "high"
       },
       {
         "id": "openai-c82",
@@ -1381,7 +1456,8 @@
         "label": "gap",
         "labelRationale": "The Corporate partnerships section ends in October 2025 and omits Disney's $1 billion investment.",
         "sectionId": "corporate-partnerships",
-        "validatedByCurrent": true
+        "validatedByCurrent": true,
+        "confidence": "high"
       },
       {
         "id": "openai-c83",
@@ -1393,7 +1469,8 @@
         "label": "gap",
         "labelRationale": "The past article lists no media licensing deal covering Sora, which the current revision now describes.",
         "sectionId": "corporate-partnerships",
-        "validatedByCurrent": true
+        "validatedByCurrent": true,
+        "confidence": "high"
       }
     ],
     "sources": [
@@ -1502,7 +1579,8 @@
         "label": "misrepresentation",
         "labelRationale": "No source supports ChatGPT taking a tenth of global search traffic; the cited report measures Google's AI Overviews.",
         "sectionId": "finances",
-        "evidenceUrl": "https://www.business2community.com/business-news/search-clicks-are-crashing-due-to-ai-overviews-can-businesses-navigate-the-challenge/"
+        "evidenceUrl": "https://www.business2community.com/business-news/search-clicks-are-crashing-due-to-ai-overviews-can-businesses-navigate-the-challenge/",
+        "confidence": "high"
       },
       {
         "id": "openai-c62",
@@ -1514,7 +1592,8 @@
         "label": "misrepresentation",
         "labelRationale": "The cited Similarweb report shows Gemini gaining share, not growing three times faster than ChatGPT.",
         "sectionId": "finances",
-        "evidenceUrl": "https://www.livemint.com/companies/news/chatgpt-loses-traffic-share-as-googles-gemini-and-xais-grok-gain-ground-reveals-report-11766749377825.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/chatgpt-loses-traffic-share-as-googles-gemini-and-xais-grok-gain-ground-reveals-report-11766749377825.html",
+        "confidence": "medium"
       },
       {
         "id": "openai-c63",
@@ -1526,7 +1605,8 @@
         "label": "gap",
         "labelRationale": "The past article reports no benchmark results for competing models, so readers cannot judge the Gemini 3 comparison.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13"
+        "evidenceUrl": "https://www.businesstoday.in/technology/story/google-upgrades-gemini-3-deep-think-to-tackle-real-world-scientific-problems-hits-top-benchmarks-516014-2026-02-13",
+        "confidence": "medium"
       },
       {
         "id": "openai-c64",
@@ -1538,7 +1618,8 @@
         "label": "gap",
         "labelRationale": "The past article gives subscriber counts but never states how many people use ChatGPT each week.",
         "sectionId": "finances",
-        "evidenceUrl": "https://indianexpress.com/shorts/technology/chatgpt-records-strongest-subscriber-growth-as-number-of-weekly-users-nears-a-billion-10557308/"
+        "evidenceUrl": "https://indianexpress.com/shorts/technology/chatgpt-records-strongest-subscriber-growth-as-number-of-weekly-users-nears-a-billion-10557308/",
+        "confidence": "high"
       },
       {
         "id": "openai-c65",
@@ -1550,7 +1631,8 @@
         "label": "gap",
         "labelRationale": "The past article names no GPT-5 series model and describes no deprecation schedule for older versions.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner",
+        "confidence": "low"
       },
       {
         "id": "openai-c66",
@@ -1562,7 +1644,8 @@
         "label": "gap",
         "labelRationale": "The past article does not describe ChatGPT tiers or how prompts route between fast and reasoning models.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner"
+        "evidenceUrl": "https://www.tomsguide.com/ai/i-tested-chatgpt-5-2-vs-grok-4-1-with-7-challenging-prompts-heres-the-winner",
+        "confidence": "low"
       }
     ],
     "sources": [
@@ -1643,7 +1726,8 @@
         "label": "misrepresentation",
         "labelRationale": "States as fact that OpenAI trails Gemini 3 overall; the cited traffic report still puts ChatGPT well ahead.",
         "sectionId": "development",
-        "evidenceUrl": "https://www.livemint.com/companies/news/chatgpt-loses-traffic-share-as-googles-gemini-and-xais-grok-gain-ground-reveals-report-11766749377825.html"
+        "evidenceUrl": "https://www.livemint.com/companies/news/chatgpt-loses-traffic-share-as-googles-gemini-and-xais-grok-gain-ground-reveals-report-11766749377825.html",
+        "confidence": "medium"
       }
     ],
     "sources": [

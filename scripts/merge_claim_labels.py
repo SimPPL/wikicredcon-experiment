@@ -3,7 +3,8 @@
 
 Each label file is produced by a classification pass (see
 scratchpad/claim-labels/INSTRUCTIONS.md in the parent repo). This script:
-  - attaches label / labelRationale / sectionId / evidenceUrl / validatedByCurrent to each claim
+  - attaches label / labelRationale / sectionId / evidenceUrl / validatedByCurrent /
+    confidence to each claim
   - adds misrepresentationCount / gapCount per group
   - sets citesThisArticle on groups whose Arbiter wikipediaRefs point at the article itself
   - validates that every sectionId exists in the past article revision
@@ -35,6 +36,7 @@ ARTICLE_PAGES = {
 }
 
 VALID_LABELS = {"misrepresentation", "gap", "accurate"}
+VALID_CONFIDENCE = {"high", "medium", "low"}
 
 
 def cites_article(refs, slug):
@@ -84,6 +86,11 @@ def merge(slug):
                 c["evidenceUrl"] = lab["evidenceUrl"]
             if lab.get("validatedByCurrent"):
                 c["validatedByCurrent"] = True
+            # How sure the labeling pass was. The sidebar ranks on this and says
+            # so, rather than presenting a shaky reading of a post next to a
+            # claim that a retrieved source flatly contradicts.
+            if lab.get("confidence") in VALID_CONFIDENCE:
+                c["confidence"] = lab["confidence"]
             n_labeled += 1
             if lab["label"] == "misrepresentation":
                 mis += 1

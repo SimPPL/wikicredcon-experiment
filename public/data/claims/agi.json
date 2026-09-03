@@ -19,7 +19,8 @@
         "label": "gap",
         "labelRationale": "The past article's Timescales section stops in 2025 and omits Huang's 2026 forecast about AI generating most knowledge.",
         "sectionId": "timescales",
-        "evidenceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPb19VRjJRRHloVDdoTW9VNHpNSHYxZXBYUGtNcG1NRWJydU5xcXRlRTNwYWdNak8yb2pCSFJuNTZfc084T0NFN2NEdUU4cmcyZnVrMUZNcU1FNkUwcmJnRXFQVnJQSmVOdWRBRUUwN0Jybk9DQmVPMWpLX3pFSHd4RmstenUyVkVMSGM0Vg?oc=5&hl=en-US&gl=US&ceid=US:en"
+        "evidenceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPb19VRjJRRHloVDdoTW9VNHpNSHYxZXBYUGtNcG1NRWJydU5xcXRlRTNwYWdNak8yb2pCSFJuNTZfc084T0NFN2NEdUU4cmcyZnVrMUZNcU1FNkUwcmJnRXFQVnJQSmVOdWRBRUUwN0Jybk9DQmVPMWpLX3pFSHd4RmstenUyVkVMSGM0Vg?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "confidence": "medium"
       },
       {
         "id": "agi-c2",
@@ -31,7 +32,8 @@
         "label": "accurate",
         "labelRationale": "The article already names Hassabis and Amodei's companies among the AGI leaders arguing publicly about risk.",
         "sectionId": "risk-of-loss-of-control-and-human-extinction",
-        "evidenceUrl": "https://www.tribuneindia.com/news/business/sam-altman-sundar-pichai-and-demis-hassabis-were-all-at-indias-ai-summit-the-most-important-launch-may-have-been-one-they-missed/"
+        "evidenceUrl": "https://www.tribuneindia.com/news/business/sam-altman-sundar-pichai-and-demis-hassabis-were-all-at-indias-ai-summit-the-most-important-launch-may-have-been-one-they-missed/",
+        "confidence": "high"
       },
       {
         "id": "agi-c3",
@@ -43,7 +45,8 @@
         "label": "misrepresentation",
         "labelRationale": "States a promotional superlative as fact; nothing verifies Surge AI as the fastest company ever to a billion dollars.",
         "sectionId": "modern-artificial-general-intelligence-research",
-        "evidenceUrl": "https://www.financialexpress.com/trending/how-surge-ais-edwin-chen-became-the-richest-self-made-billionaire-under-40-in-forbes-list/4094546/"
+        "evidenceUrl": "https://www.financialexpress.com/trending/how-surge-ais-edwin-chen-became-the-richest-self-made-billionaire-under-40-in-forbes-list/4094546/",
+        "confidence": "medium"
       },
       {
         "id": "agi-c4",
@@ -55,7 +58,8 @@
         "label": "gap",
         "labelRationale": "The past article describes AGI research without mentioning the data-labeling suppliers that frontier labs depend on.",
         "sectionId": "modern-artificial-general-intelligence-research",
-        "evidenceUrl": "https://www.financialexpress.com/trending/how-surge-ais-edwin-chen-became-the-richest-self-made-billionaire-under-40-in-forbes-list/4094546/"
+        "evidenceUrl": "https://www.financialexpress.com/trending/how-surge-ais-edwin-chen-became-the-richest-self-made-billionaire-under-40-in-forbes-list/4094546/",
+        "confidence": "medium"
       },
       {
         "id": "agi-c5",
@@ -67,7 +71,8 @@
         "label": "accurate",
         "labelRationale": "Founder funding history contradicts nothing the article says and falls outside its scope.",
         "sectionId": "modern-artificial-general-intelligence-research",
-        "evidenceUrl": "https://www.financialexpress.com/trending/how-surge-ais-edwin-chen-became-the-richest-self-made-billionaire-under-40-in-forbes-list/4094546/"
+        "evidenceUrl": "https://www.financialexpress.com/trending/how-surge-ais-edwin-chen-became-the-richest-self-made-billionaire-under-40-in-forbes-list/4094546/",
+        "confidence": "medium"
       },
       {
         "id": "agi-c6",
@@ -78,7 +83,8 @@
         "postExcerpt": "FULL DISCUSSION: Yuval Noah Harari Warns AI Will Take Over Language, Law, and Power at WEF | AI1G",
         "label": "gap",
         "labelRationale": "The Existential risks section covers extinction and totalitarianism, and says nothing about Harari's argument on language and law.",
-        "sectionId": "existential-risks"
+        "sectionId": "existential-risks",
+        "confidence": "medium"
       },
       {
         "id": "agi-c7",
@@ -89,7 +95,8 @@
         "postExcerpt": "the largest theft in human history is not money it is your mind. stanford's october 2025 study confirmed what they hoped you would never understand: all six frontier ai companies harvest your conversations by default. 300 million people weekly. teaching machines. for free. the data reveals something",
         "label": "gap",
         "labelRationale": "Cites an unnamed Stanford study; the past article gives readers no coverage of training-data practices to check it against.",
-        "sectionId": "modern-artificial-general-intelligence-research"
+        "sectionId": "modern-artificial-general-intelligence-research",
+        "confidence": "low"
       },
       {
         "id": "agi-c8",
@@ -100,7 +107,8 @@
         "postExcerpt": "the largest theft in human history is not money it is your mind. stanford's october 2025 study confirmed what they hoped you would never understand: all six frontier ai companies harvest your conversations by default. 300 million people weekly. teaching machines. for free. the data reveals something",
         "label": "gap",
         "labelRationale": "No section explains how labs reuse user conversations for training, a live dispute about what fuels AGI research.",
-        "sectionId": "modern-artificial-general-intelligence-research"
+        "sectionId": "modern-artificial-general-intelligence-research",
+        "confidence": "low"
       },
       {
         "id": "agi-c9",
@@ -111,7 +119,8 @@
         "postExcerpt": "the largest theft in human history is not money it is your mind. stanford's october 2025 study confirmed what they hoped you would never understand: all six frontier ai companies harvest your conversations by default. 300 million people weekly. teaching machines. for free. the data reveals something",
         "label": "misrepresentation",
         "labelRationale": "Recycles ChatGPT's 2024 weekly user count as a current total across six companies, understating reported 2025 usage.",
-        "sectionId": "modern-artificial-general-intelligence-research"
+        "sectionId": "modern-artificial-general-intelligence-research",
+        "confidence": "low"
       },
       {
         "id": "agi-c10",
@@ -122,7 +131,8 @@
         "postExcerpt": "the largest theft in human history is not money it is your mind. stanford's october 2025 study confirmed what they hoped you would never understand: all six frontier ai companies harvest your conversations by default. 300 million people weekly. teaching machines. for free. the data reveals something",
         "label": "accurate",
         "labelRationale": "Anthropic did extend consumer chat retention to five years in 2025, and the change sits outside this article's scope.",
-        "sectionId": "modern-artificial-general-intelligence-research"
+        "sectionId": "modern-artificial-general-intelligence-research",
+        "confidence": "medium"
       },
       {
         "id": "agi-c11",
@@ -133,7 +143,8 @@
         "postExcerpt": "the largest theft in human history is not money it is your mind. stanford's october 2025 study confirmed what they hoped you would never understand: all six frontier ai companies harvest your conversations by default. 300 million people weekly. teaching machines. for free. the data reveals something",
         "label": "accurate",
         "labelRationale": "The 1.5 billion dollar book piracy settlement is real and concerns copyright, which the article never addresses.",
-        "sectionId": "modern-artificial-general-intelligence-research"
+        "sectionId": "modern-artificial-general-intelligence-research",
+        "confidence": "medium"
       },
       {
         "id": "agi-c12",
@@ -144,7 +155,8 @@
         "postExcerpt": "the largest theft in human history is not money it is your mind. stanford's october 2025 study confirmed what they hoped you would never understand: all six frontier ai companies harvest your conversations by default. 300 million people weekly. teaching machines. for free. the data reveals something",
         "label": "misrepresentation",
         "labelRationale": "The one-day Nvidia selloff happened; calling it proof that chips are no moat states a market inference as fact.",
-        "sectionId": "timescales"
+        "sectionId": "timescales",
+        "confidence": "medium"
       },
       {
         "id": "agi-c13",
@@ -155,7 +167,8 @@
         "postExcerpt": "the largest theft in human history is not money it is your mind. stanford's october 2025 study confirmed what they hoped you would never understand: all six frontier ai companies harvest your conversations by default. 300 million people weekly. teaching machines. for free. the data reveals something",
         "label": "gap",
         "labelRationale": "The Timescales section tracks progress without mentioning the 2024 Nature model collapse result these posts cite.",
-        "sectionId": "timescales"
+        "sectionId": "timescales",
+        "confidence": "medium"
       },
       {
         "id": "agi-c14",
@@ -166,7 +179,8 @@
         "postExcerpt": "agi is here? 1) what a tokyo based firm - integral ai - claims to have built what it calls the first artificial general intelligence (agi). according to the article, the model exhibits reasoning capabilities that go beyond typical narrow ai, potentially enabling broader general problem solving, unde",
         "label": "accurate",
         "labelRationale": "An attributed company statement about its own trials, contradicting nothing the past article asserts.",
-        "sectionId": "modern-artificial-general-intelligence-research"
+        "sectionId": "modern-artificial-general-intelligence-research",
+        "confidence": "medium"
       },
       {
         "id": "agi-c15",
@@ -177,7 +191,8 @@
         "postExcerpt": "police_car_light  breaking: pentagon ordered to officially prepare for agi in a historic first, congress has formally directed the department of defense to prepare for artificial general intelligence (agi), ai that matches or surpasses human intelligence. the fiscal 2026 national defense authorizati",
         "label": "gap",
         "labelRationale": "The past article covers company and academic AGI work and omits US government mandates such as the fiscal 2026 NDAA.",
-        "sectionId": "modern-artificial-general-intelligence-research"
+        "sectionId": "modern-artificial-general-intelligence-research",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -300,7 +315,8 @@
         "label": "accurate",
         "labelRationale": "An attributed personal opinion about industry incentives; the article takes no position it conflicts with.",
         "sectionId": "timescales",
-        "evidenceUrl": "https://www.financialexpress.com/trending/how-surge-ais-edwin-chen-became-the-richest-self-made-billionaire-under-40-in-forbes-list/4094546/"
+        "evidenceUrl": "https://www.financialexpress.com/trending/how-surge-ais-edwin-chen-became-the-richest-self-made-billionaire-under-40-in-forbes-list/4094546/",
+        "confidence": "low"
       },
       {
         "id": "agi-c17",
@@ -312,7 +328,8 @@
         "label": "accurate",
         "labelRationale": "A decade-out forecast sits inside the range of expert estimates the Timescales section already reports.",
         "sectionId": "timescales",
-        "evidenceUrl": "https://www.financialexpress.com/trending/how-surge-ais-edwin-chen-became-the-richest-self-made-billionaire-under-40-in-forbes-list/4094546/"
+        "evidenceUrl": "https://www.financialexpress.com/trending/how-surge-ais-edwin-chen-became-the-richest-self-made-billionaire-under-40-in-forbes-list/4094546/",
+        "confidence": "high"
       },
       {
         "id": "agi-c18",
@@ -323,7 +340,8 @@
         "postExcerpt": "The Singularity Countdown: AGI by 2029, Humans Merge with AI, Intelligence 1000x | Ray Kurzweil",
         "label": "gap",
         "labelRationale": "The Timescales section cites Kurzweil's 2005 book and skips the 2029 date these videos repeat.",
-        "sectionId": "timescales"
+        "sectionId": "timescales",
+        "confidence": "medium"
       },
       {
         "id": "agi-c19",
@@ -334,7 +352,8 @@
         "postExcerpt": "The Singularity Countdown: AGI by 2029, Humans Merge with AI, Intelligence 1000x | Ray Kurzweil",
         "label": "gap",
         "labelRationale": "The article records Kurzweil's timeline and says nothing about his projected thousandfold jump in intelligence.",
-        "sectionId": "timescales"
+        "sectionId": "timescales",
+        "confidence": "low"
       },
       {
         "id": "agi-c20",
@@ -346,7 +365,8 @@
         "label": "misrepresentation",
         "labelRationale": "No accepted test supports a first AGI claim; the article treats every such benchmark as disputed.",
         "sectionId": "tests-for-human-level-agianchortestsforconfirminghuman-levelagi",
-        "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZWZfRWg5eWQ4bWxHWGZsVGU2Q1o2LS1TT2xVVzM3MTM4dnl6MTlrS0Q5RGRXYkloN0l5VHFmS24xQXV0LVc1U2pXU3djVGVhME4wS3VSeGRUaVVHZlBlbkdnWDhRR09IUE90RjdUZHBybUNMbVlkSTA5R19aSXZCT1U2RGM5VHpGMXQ3VTItbUNyWWQzeDFoNFd1b2tsRDV4UnlDSjBZQkduR3o3ZGJHSWZlSFRBU1hhR2xZb05Jb2U?oc=5&hl=en-US&gl=US&ceid=US:en"
+        "evidenceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZWZfRWg5eWQ4bWxHWGZsVGU2Q1o2LS1TT2xVVzM3MTM4dnl6MTlrS0Q5RGRXYkloN0l5VHFmS24xQXV0LVc1U2pXU3djVGVhME4wS3VSeGRUaVVHZlBlbkdnWDhRR09IUE90RjdUZHBybUNMbVlkSTA5R19aSXZCT1U2RGM5VHpGMXQ3VTItbUNyWWQzeDFoNFd1b2tsRDV4UnlDSjBZQkduR3o3ZGJHSWZlSFRBU1hhR2xZb05Jb2U?oc=5&hl=en-US&gl=US&ceid=US:en",
+        "confidence": "high"
       },
       {
         "id": "agi-c21",
@@ -358,7 +378,8 @@
         "label": "misrepresentation",
         "labelRationale": "Reports a company all-hands forecast for 2026 as news, far ahead of the researcher surveys the article cites.",
         "sectionId": "timescales",
-        "evidenceUrl": "https://www.financialexpress.com/life/technology-davos-2026-ai-could-be-smarter-than-all-of-humanity-in-5-years-says-elon-musk-at-world-economic-forum-4116578/"
+        "evidenceUrl": "https://www.financialexpress.com/life/technology-davos-2026-ai-could-be-smarter-than-all-of-humanity-in-5-years-says-elon-musk-at-world-economic-forum-4116578/",
+        "confidence": "medium"
       },
       {
         "id": "agi-c22",
@@ -369,7 +390,8 @@
         "postExcerpt": "police_car_light  breaking: pentagon ordered to officially prepare for agi in a historic first, congress has formally directed the department of defense to prepare for artificial general intelligence (agi), ai that matches or surpasses human intelligence. the fiscal 2026 national defense authorizati",
         "label": "gap",
         "labelRationale": "Congress directing the Defense Department to prepare for AGI appears nowhere in the past article.",
-        "sectionId": "modern-artificial-general-intelligence-research"
+        "sectionId": "modern-artificial-general-intelligence-research",
+        "confidence": "medium"
       },
       {
         "id": "agi-c23",
@@ -381,7 +403,8 @@
         "label": "misrepresentation",
         "labelRationale": "Turns Musk's speculation into a claim that AI outsmarts humans this year, against surveys the article puts near 2040.",
         "sectionId": "timescales",
-        "evidenceUrl": "https://www.thestar.com.my/tech/tech-news/2026/02/01/elon-musk-says-singularity-is-here---what-to-know-about-ai-threats-to-humanity"
+        "evidenceUrl": "https://www.thestar.com.my/tech/tech-news/2026/02/01/elon-musk-says-singularity-is-here---what-to-know-about-ai-threats-to-humanity",
+        "confidence": "high"
       }
     ],
     "sources": [
@@ -482,7 +505,8 @@
         "label": "gap",
         "labelRationale": "The past article never mentions Epoch AI's projection that public human text runs out around 2028.",
         "sectionId": "timescales",
-        "evidenceUrl": "https://www.nextbigfuture.com/2026/02/space-is-the-ai-endgame-for-ai-scaling.html"
+        "evidenceUrl": "https://www.nextbigfuture.com/2026/02/space-is-the-ai-endgame-for-ai-scaling.html",
+        "confidence": "medium"
       },
       {
         "id": "agi-c32",
@@ -493,7 +517,8 @@
         "postExcerpt": "The Singularity Countdown: AGI by 2029, Humans Merge with AI, Intelligence 1000x | Ray Kurzweil",
         "label": "gap",
         "labelRationale": "This section cites Kurzweil on brain scanning and omits his human-AI merger prediction that the clips center on.",
-        "sectionId": "whole-brain-emulation"
+        "sectionId": "whole-brain-emulation",
+        "confidence": "low"
       },
       {
         "id": "agi-c33",
@@ -504,7 +529,8 @@
         "postExcerpt": "agi is here? 1) what a tokyo based firm - integral ai - claims to have built what it calls the first artificial general intelligence (agi). according to the article, the model exhibits reasoning capabilities that go beyond typical narrow ai, potentially enabling broader general problem solving, unde",
         "label": "misrepresentation",
         "labelRationale": "Presents unverified vendor claims of unsupervised skill learning as evidence that autonomous AGI already exists.",
-        "sectionId": "risk-of-loss-of-control-and-human-extinction"
+        "sectionId": "risk-of-loss-of-control-and-human-extinction",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -583,7 +609,8 @@
         "postExcerpt": "agi is here? 1) what a tokyo based firm - integral ai - claims to have built what it calls the first artificial general intelligence (agi). according to the article, the model exhibits reasoning capabilities that go beyond typical narrow ai, potentially enabling broader general problem solving, unde",
         "label": "misrepresentation",
         "labelRationale": "A vendor's self-assessment that its model exceeds narrow AI is stated as fact with no independent evaluation.",
-        "sectionId": "narrow-ai-research"
+        "sectionId": "narrow-ai-research",
+        "confidence": "high"
       }
     ],
     "sources": [],
@@ -612,7 +639,8 @@
         "postExcerpt": "agi is here? 1) what a tokyo based firm - integral ai - claims to have built what it calls the first artificial general intelligence (agi). according to the article, the model exhibits reasoning capabilities that go beyond typical narrow ai, potentially enabling broader general problem solving, unde",
         "label": "misrepresentation",
         "labelRationale": "The article requires a faithful scan and simulation of a real brain, which a neocortex-inspired design does not provide.",
-        "sectionId": "whole-brain-emulation"
+        "sectionId": "whole-brain-emulation",
+        "confidence": "medium"
       }
     ],
     "sources": [],

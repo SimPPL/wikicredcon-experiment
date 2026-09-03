@@ -18,7 +18,8 @@
         "postExcerpt": "I gained 30 pounds in recovery from alcoholism, turning to sugar. then I relapsed & was at my lowest. my doctor prescribed a GLP-1. it’s been a month & I have no desire to drink or binge eat—& thus have more time & energy to do healthy things like exercise. it’s been a miracle.",
         "label": "accurate",
         "labelRationale": "A personal weight gain anecdote that the article neither supports nor contradicts, so it offers little to edit.",
-        "sectionId": "reward-system-disorders"
+        "sectionId": "reward-system-disorders",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c17",
@@ -29,7 +30,8 @@
         "postExcerpt": "I gained 30 pounds in recovery from alcoholism, turning to sugar. then I relapsed & was at my lowest. my doctor prescribed a GLP-1. it’s been a month & I have no desire to drink or binge eat—& thus have more time & energy to do healthy things like exercise. it’s been a miracle.",
         "label": "accurate",
         "labelRationale": "A prescription anecdote consistent with the article's account of GLP-1 agonists prescribed alongside lifestyle intervention.",
-        "sectionId": "obesity"
+        "sectionId": "obesity",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c18",
@@ -41,7 +43,8 @@
         "label": "misrepresentation",
         "labelRationale": "The article states the alcohol and drug intake effect has not been proven in humans; this post treats one month as proof.",
         "sectionId": "reward-system-disorders",
-        "evidenceUrl": "https://www.futurity.org/glp-1-medications-addiction-3327142/"
+        "evidenceUrl": "https://www.futurity.org/glp-1-medications-addiction-3327142/",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c19",
@@ -53,7 +56,8 @@
         "label": "gap",
         "labelRationale": "The past Obesity section says nothing about lean or muscle mass loss during GLP-1 treatment.",
         "sectionId": "obesity",
-        "evidenceUrl": "https://www.oxfordmail.co.uk/news/25955765.new-health-scheme-using-weight-loss-medication/"
+        "evidenceUrl": "https://www.oxfordmail.co.uk/news/25955765.new-health-scheme-using-weight-loss-medication/",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c20",
@@ -65,7 +69,8 @@
         "label": "misrepresentation",
         "labelRationale": "Reads a null difference across separate trials as proof that GLP-1 and lifestyle muscle loss are identical.",
         "sectionId": "obesity",
-        "evidenceUrl": "https://www.oxfordmail.co.uk/news/25955765.new-health-scheme-using-weight-loss-medication/"
+        "evidenceUrl": "https://www.oxfordmail.co.uk/news/25955765.new-health-scheme-using-weight-loss-medication/",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c21",
@@ -76,7 +81,8 @@
         "postExcerpt": "While nearly 18% of U.S. adults have taken a GLP-1 drug for weight loss or to treat a chronic condition, about half of people will stop taking it within a year. Often, they don’t understand what is likely to come next. 🔗:",
         "label": "gap",
         "labelRationale": "The past article gives no figures on how many US adults have used these drugs.",
-        "sectionId": "off-label-and-gray-market-usage"
+        "sectionId": "off-label-and-gray-market-usage",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c22",
@@ -88,7 +94,8 @@
         "label": "gap",
         "labelRationale": "The Cost section names cost as a discontinuation reason but gives no rate of stopping within a year.",
         "sectionId": "cost",
-        "evidenceUrl": "https://www.sciencealert.com/the-biggest-mistake-people-make-with-glp-1-drugs-and-how-to-avoid-it"
+        "evidenceUrl": "https://www.sciencealert.com/the-biggest-mistake-people-make-with-glp-1-drugs-and-how-to-avoid-it",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c23",
@@ -99,7 +106,8 @@
         "postExcerpt": "Nobody's talking about the second-order effects of GLP-1 drugs loudly enough. So let us drop some data on the effect it is having on different industries! 1. 23% of U.S. households already have someone on Ozempic or Wegovy. By 2030, that number hits 35% of all food & beverage units sold. This isn't ",
         "label": "gap",
         "labelRationale": "The past article carries no household or population uptake figures for Ozempic and Wegovy.",
-        "sectionId": "off-label-and-gray-market-usage"
+        "sectionId": "off-label-and-gray-market-usage",
+        "confidence": "low"
       },
       {
         "id": "glp1-receptor-agonist-c24",
@@ -110,7 +118,8 @@
         "postExcerpt": "Nobody's talking about the second-order effects of GLP-1 drugs loudly enough. So let us drop some data on the effect it is having on different industries! 1. 23% of U.S. households already have someone on Ozempic or Wegovy. By 2030, that number hits 35% of all food & beverage units sold. This isn't ",
         "label": "misrepresentation",
         "labelRationale": "Slides from a household adoption rate to a share of food and beverage units sold, two different measures.",
-        "sectionId": "off-label-and-gray-market-usage"
+        "sectionId": "off-label-and-gray-market-usage",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c25",
@@ -122,7 +131,8 @@
         "label": "gap",
         "labelRationale": "The past article does not cover measured spending shifts by people taking these drugs.",
         "sectionId": "off-label-and-gray-market-usage",
-        "evidenceUrl": "https://www.cnbc.com/2026/03/15/restaurant-stocks-are-struggling-to-start-2026-where-to-find-buying-opportunities.html"
+        "evidenceUrl": "https://www.cnbc.com/2026/03/15/restaurant-stocks-are-struggling-to-start-2026-where-to-find-buying-opportunities.html",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c26",
@@ -134,7 +144,8 @@
         "label": "gap",
         "labelRationale": "No section of the past article covers grocery category spending changes among users.",
         "sectionId": "off-label-and-gray-market-usage",
-        "evidenceUrl": "https://www.cnbc.com/2026/03/15/restaurant-stocks-are-struggling-to-start-2026-where-to-find-buying-opportunities.html"
+        "evidenceUrl": "https://www.cnbc.com/2026/03/15/restaurant-stocks-are-struggling-to-start-2026-where-to-find-buying-opportunities.html",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c27",
@@ -146,7 +157,8 @@
         "label": "gap",
         "labelRationale": "The Reward system disorders section cites only animal data and omits human alcohol consumption evidence.",
         "sectionId": "reward-system-disorders",
-        "evidenceUrl": "https://www.futurity.org/glp-1-medications-addiction-3327142/"
+        "evidenceUrl": "https://www.futurity.org/glp-1-medications-addiction-3327142/",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c28",
@@ -157,7 +169,8 @@
         "postExcerpt": "Nobody's talking about the second-order effects of GLP-1 drugs loudly enough. So let us drop some data on the effect it is having on different industries! 1. 23% of U.S. households already have someone on Ozempic or Wegovy. By 2030, that number hits 35% of all food & beverage units sold. This isn't ",
         "label": "gap",
         "labelRationale": "The past article does not describe which cravings fade first for people on these drugs.",
-        "sectionId": "reward-system-disorders"
+        "sectionId": "reward-system-disorders",
+        "confidence": "low"
       },
       {
         "id": "glp1-receptor-agonist-c29",
@@ -168,7 +181,8 @@
         "postExcerpt": "Nobody's talking about the second-order effects of GLP-1 drugs loudly enough. So let us drop some data on the effect it is having on different industries! 1. 23% of U.S. households already have someone on Ozempic or Wegovy. By 2030, that number hits 35% of all food & beverage units sold. This isn't ",
         "label": "misrepresentation",
         "labelRationale": "Attributes a pet spending decline to drug use with no stated evidence of any link.",
-        "sectionId": "off-label-and-gray-market-usage"
+        "sectionId": "off-label-and-gray-market-usage",
+        "confidence": "low"
       },
       {
         "id": "glp1-receptor-agonist-c30",
@@ -179,7 +193,8 @@
         "postExcerpt": "Nobody's talking about the second-order effects of GLP-1 drugs loudly enough. So let us drop some data on the effect it is having on different industries! 1. 23% of U.S. households already have someone on Ozempic or Wegovy. By 2030, that number hits 35% of all food & beverage units sold. This isn't ",
         "label": "misrepresentation",
         "labelRationale": "Attributes rising spending on skincare, cameras and wearables to drug use without evidence of causation.",
-        "sectionId": "off-label-and-gray-market-usage"
+        "sectionId": "off-label-and-gray-market-usage",
+        "confidence": "low"
       }
     ],
     "sources": [
@@ -337,7 +352,8 @@
         "label": "gap",
         "labelRationale": "The Legal status section lists only US approvals and omits Indian regulatory action on the GLP-1 supply chain.",
         "sectionId": "legal-status",
-        "evidenceUrl": "https://timesofindia.indiatimes.com/india/govt-tightens-watch-on-glp-1-weight-loss-drugs-amid-concerns-over-unauthorised-sales/articleshow/129767740.cms"
+        "evidenceUrl": "https://timesofindia.indiatimes.com/india/govt-tightens-watch-on-glp-1-weight-loss-drugs-amid-concerns-over-unauthorised-sales/articleshow/129767740.cms",
+        "confidence": "high"
       },
       {
         "id": "glp1-receptor-agonist-c2",
@@ -348,7 +364,8 @@
         "postExcerpt": "Un verdadero problema para los GLP-1. Los GLP-1 son tan efectivos para perder peso que en los ensayos clínicos los pacientes en el grupo placebo están identificando inmediatamente qué están en el placebo y solicitan ser dados de baja del estudio.",
         "label": "misrepresentation",
         "labelRationale": "States trial-wide placebo unblinding as fact without pointing to any trial that reported it.",
-        "sectionId": "research"
+        "sectionId": "research",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c3",
@@ -359,7 +376,8 @@
         "postExcerpt": "Nobody's talking about the second-order effects of GLP-1 drugs loudly enough. So let us drop some data on the effect it is having on different industries! 1. 23% of U.S. households already have someone on Ozempic or Wegovy. By 2030, that number hits 35% of all food & beverage units sold. This isn't ",
         "label": "gap",
         "labelRationale": "The past article records no consumer spending effects, including the grocery decline these posts cite.",
-        "sectionId": "off-label-and-gray-market-usage"
+        "sectionId": "off-label-and-gray-market-usage",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c4",
@@ -370,7 +388,8 @@
         "postExcerpt": "Nobody's talking about the second-order effects of GLP-1 drugs loudly enough. So let us drop some data on the effect it is having on different industries! 1. 23% of U.S. households already have someone on Ozempic or Wegovy. By 2030, that number hits 35% of all food & beverage units sold. This isn't ",
         "label": "gap",
         "labelRationale": "No section covers how grocery spending changes differ by household income among users.",
-        "sectionId": "off-label-and-gray-market-usage"
+        "sectionId": "off-label-and-gray-market-usage",
+        "confidence": "low"
       },
       {
         "id": "glp1-receptor-agonist-c5",
@@ -382,7 +401,8 @@
         "label": "gap",
         "labelRationale": "The Obesity section covers weight regain after stopping and says nothing about returning appetite during treatment.",
         "sectionId": "obesity",
-        "evidenceUrl": "https://www.sciencealert.com/the-biggest-mistake-people-make-with-glp-1-drugs-and-how-to-avoid-it"
+        "evidenceUrl": "https://www.sciencealert.com/the-biggest-mistake-people-make-with-glp-1-drugs-and-how-to-avoid-it",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c6",
@@ -394,7 +414,8 @@
         "label": "gap",
         "labelRationale": "The past article does not describe weight regain that happens while people are still taking the drug.",
         "sectionId": "obesity",
-        "evidenceUrl": "https://www.sciencealert.com/the-biggest-mistake-people-make-with-glp-1-drugs-and-how-to-avoid-it"
+        "evidenceUrl": "https://www.sciencealert.com/the-biggest-mistake-people-make-with-glp-1-drugs-and-how-to-avoid-it",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c7",
@@ -406,7 +427,8 @@
         "label": "gap",
         "labelRationale": "The past article does not mention India's drug controller or its surveillance of unauthorised GLP-1 sales.",
         "sectionId": "legal-status",
-        "evidenceUrl": "https://www.thehindu.com/sci-tech/health/centre-intensifies-regulatory-surveillance-over-weight-loss-drugs/article70780200.ece"
+        "evidenceUrl": "https://www.thehindu.com/sci-tech/health/centre-intensifies-regulatory-surveillance-over-weight-loss-drugs/article70780200.ece",
+        "confidence": "high"
       },
       {
         "id": "glp1-receptor-agonist-c8",
@@ -418,7 +440,8 @@
         "label": "gap",
         "labelRationale": "The Legal status list stops at brand approvals and omits generic semaglutide now sold in India.",
         "sectionId": "legal-status",
-        "evidenceUrl": "https://www.theweek.in/news/health/2026/03/24/will-generic-semaglutide-make-diabetes-and-weight-loss-treatment-more-accessible-in-india.html"
+        "evidenceUrl": "https://www.theweek.in/news/health/2026/03/24/will-generic-semaglutide-make-diabetes-and-weight-loss-treatment-more-accessible-in-india.html",
+        "confidence": "high"
       },
       {
         "id": "glp1-receptor-agonist-c9",
@@ -430,7 +453,8 @@
         "label": "gap",
         "labelRationale": "The Research section lists neurocognitive and cardiometabolic findings and says nothing about inflammation or immunity.",
         "sectionId": "research",
-        "evidenceUrl": "https://www.adn.com/nation-world/2026/03/27/13-surprising-ways-glp-1-medications-may-benefit-the-body-according-to-science/"
+        "evidenceUrl": "https://www.adn.com/nation-world/2026/03/27/13-surprising-ways-glp-1-medications-may-benefit-the-body-according-to-science/",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c10",
@@ -442,7 +466,8 @@
         "label": "accurate",
         "labelRationale": "The Research section already reports reduced risks across several seemingly unrelated conditions.",
         "sectionId": "research",
-        "evidenceUrl": "https://www.adn.com/nation-world/2026/03/27/13-surprising-ways-glp-1-medications-may-benefit-the-body-according-to-science/"
+        "evidenceUrl": "https://www.adn.com/nation-world/2026/03/27/13-surprising-ways-glp-1-medications-may-benefit-the-body-according-to-science/",
+        "confidence": "high"
       },
       {
         "id": "glp1-receptor-agonist-c11",
@@ -454,7 +479,8 @@
         "label": "gap",
         "labelRationale": "The past article covers no Indian regulatory action against unauthorised sale of these drugs.",
         "sectionId": "legal-status",
-        "evidenceUrl": "https://www.news18.com/agency-feeds/regulatory-surveillance-over-supply-chain-of-weight-loss-drug-glp-1-intensified-9993801.html"
+        "evidenceUrl": "https://www.news18.com/agency-feeds/regulatory-surveillance-over-supply-chain-of-weight-loss-drug-glp-1-intensified-9993801.html",
+        "confidence": "high"
       },
       {
         "id": "glp1-receptor-agonist-c12",
@@ -466,7 +492,8 @@
         "label": "gap",
         "labelRationale": "Generic semaglutide in India appears nowhere in the past article's approval list.",
         "sectionId": "legal-status",
-        "evidenceUrl": "https://www.news18.com/lifestyle/health-and-fitness/what-semaglutides-patent-expiry-means-for-diabetes-and-weight-loss-patients-in-india-9991752.html"
+        "evidenceUrl": "https://www.news18.com/lifestyle/health-and-fitness/what-semaglutides-patent-expiry-means-for-diabetes-and-weight-loss-patients-in-india-9991752.html",
+        "confidence": "high"
       },
       {
         "id": "glp1-receptor-agonist-c13",
@@ -478,7 +505,8 @@
         "label": "gap",
         "labelRationale": "The past article does not discuss who should prescribe these drugs or under what supervision.",
         "sectionId": "off-label-and-gray-market-usage",
-        "evidenceUrl": "https://www.thehindubusinessline.com/news/national/semaglutide-telangana-drug-control-cautions-public-on-self-medication/article70780908.ece"
+        "evidenceUrl": "https://www.thehindubusinessline.com/news/national/semaglutide-telangana-drug-control-cautions-public-on-self-medication/article70780908.ece",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c14",
@@ -490,7 +518,8 @@
         "label": "gap",
         "labelRationale": "CDSCO and India's supply chain oversight appear nowhere in the past article.",
         "sectionId": "legal-status",
-        "evidenceUrl": "https://www.hindustantimes.com/india-news/govt-intensifies-regulatory-surveillance-over-supply-chain-of-weight-loss-drug-glp1-101774329494760.html"
+        "evidenceUrl": "https://www.hindustantimes.com/india-news/govt-intensifies-regulatory-surveillance-over-supply-chain-of-weight-loss-drug-glp1-101774329494760.html",
+        "confidence": "high"
       },
       {
         "id": "glp1-receptor-agonist-c15",
@@ -502,7 +531,8 @@
         "label": "gap",
         "labelRationale": "The gray market section describes US shortages only and omits regulator concerns about misuse elsewhere.",
         "sectionId": "off-label-and-gray-market-usage",
-        "evidenceUrl": "https://www.ndtv.com/health/drug-regulator-tightens-watch-on-glp-1-weight-loss-drugs-issues-notice-11258204"
+        "evidenceUrl": "https://www.ndtv.com/health/drug-regulator-tightens-watch-on-glp-1-weight-loss-drugs-issues-notice-11258204",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -668,7 +698,8 @@
         "label": "misrepresentation",
         "labelRationale": "The article says the class was developed for type 2 diabetes; obesity approvals came later.",
         "sectionId": "type-2-diabetes",
-        "evidenceUrl": "https://timesofindia.indiatimes.com/india/glp-1-gold-rush-under-scanner-raids-across-india-expose-easy-access-to-weight-loss-drugs/articleshow/129792211.cms"
+        "evidenceUrl": "https://timesofindia.indiatimes.com/india/glp-1-gold-rush-under-scanner-raids-across-india-expose-easy-access-to-weight-loss-drugs/articleshow/129792211.cms",
+        "confidence": "high"
       },
       {
         "id": "glp1-receptor-agonist-c62",
@@ -680,7 +711,8 @@
         "label": "gap",
         "labelRationale": "The past article records no commercial effects of GLP-1 uptake on food and restaurant businesses.",
         "sectionId": "off-label-and-gray-market-usage",
-        "evidenceUrl": "https://www.cnbc.com/2026/03/15/restaurant-stocks-are-struggling-to-start-2026-where-to-find-buying-opportunities.html"
+        "evidenceUrl": "https://www.cnbc.com/2026/03/15/restaurant-stocks-are-struggling-to-start-2026-where-to-find-buying-opportunities.html",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c63",
@@ -692,7 +724,8 @@
         "label": "misrepresentation",
         "labelRationale": "The article says these drugs were developed for type 2 diabetes; the severe obesity indication arrived years later.",
         "sectionId": "type-2-diabetes",
-        "evidenceUrl": "https://economictimes.indiatimes.com/news/new-updates/glp-1-drugs-made-for-us-medanta-founder-dr-naresh-trehan-explains-risks-for-indians-using-weight-loss-drugs/articleshow/129820177.cms"
+        "evidenceUrl": "https://economictimes.indiatimes.com/news/new-updates/glp-1-drugs-made-for-us-medanta-founder-dr-naresh-trehan-explains-risks-for-indians-using-weight-loss-drugs/articleshow/129820177.cms",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c64",
@@ -704,7 +737,8 @@
         "label": "misrepresentation",
         "labelRationale": "The article credits glucose control to slowed gastric emptying, glucagon inhibition and insulin release, separate from brain appetite effects.",
         "sectionId": "mechanism-of-action",
-        "evidenceUrl": "https://economictimes.indiatimes.com/news/new-updates/glp-1-drugs-made-for-us-medanta-founder-dr-naresh-trehan-explains-risks-for-indians-using-weight-loss-drugs/articleshow/129820177.cms"
+        "evidenceUrl": "https://economictimes.indiatimes.com/news/new-updates/glp-1-drugs-made-for-us-medanta-founder-dr-naresh-trehan-explains-risks-for-indians-using-weight-loss-drugs/articleshow/129820177.cms",
+        "confidence": "high"
       },
       {
         "id": "glp1-receptor-agonist-c65",
@@ -716,7 +750,8 @@
         "label": "accurate",
         "labelRationale": "Matches the article's account of GLP-1 agonists as first-line therapy for type 2 diabetes and obesity.",
         "sectionId": "type-2-diabetes",
-        "evidenceUrl": "https://www.ndtv.com/health/affordable-weight-loss-drugs-in-india-how-cheap-glp-1s-will-affect-the-anti-obesity-market-11263812"
+        "evidenceUrl": "https://www.ndtv.com/health/affordable-weight-loss-drugs-in-india-how-cheap-glp-1s-will-affect-the-anti-obesity-market-11263812",
+        "confidence": "high"
       },
       {
         "id": "glp1-receptor-agonist-c66",
@@ -728,7 +763,8 @@
         "label": "accurate",
         "labelRationale": "The lead already states the class was initially developed for type 2 diabetes.",
         "sectionId": "type-2-diabetes",
-        "evidenceUrl": "https://www.devdiscourse.com/article/headlines/3848183-crackdown-on-unauthorised-sales-of-glp-1-weight-loss-medications"
+        "evidenceUrl": "https://www.devdiscourse.com/article/headlines/3848183-crackdown-on-unauthorised-sales-of-glp-1-weight-loss-medications",
+        "confidence": "high"
       }
     ],
     "sources": [
@@ -864,7 +900,8 @@
         "postExcerpt": "Nobody's talking about the second-order effects of GLP-1 drugs loudly enough. So let us drop some data on the effect it is having on different industries! 1. 23% of U.S. households already have someone on Ozempic or Wegovy. By 2030, that number hits 35% of all food & beverage units sold. This isn't ",
         "label": "misrepresentation",
         "labelRationale": "Presents a speculative national calorie projection as an established figure with no stated method.",
-        "sectionId": "obesity"
+        "sectionId": "obesity",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c32",
@@ -876,7 +913,8 @@
         "label": "gap",
         "labelRationale": "The Obesity section gives BMI thresholds and omits any guidance on which specialists should prescribe.",
         "sectionId": "obesity",
-        "evidenceUrl": "https://indianexpress.com/article/health-wellness/drug-regulator-inspects-stores-online-pharmacies-for-unauthorised-sales-of-semaglutide-10597820/"
+        "evidenceUrl": "https://indianexpress.com/article/health-wellness/drug-regulator-inspects-stores-online-pharmacies-for-unauthorised-sales-of-semaglutide-10597820/",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -992,7 +1030,8 @@
         "label": "misrepresentation",
         "labelRationale": "Claims a preclinical appetite molecule avoids GLP-1 side effects, an outcome no human trial has tested.",
         "sectionId": "adverse-effects",
-        "evidenceUrl": "https://www.euronews.com/health/2026/03/23/what-python-blood-can-teach-us-about-weight-loss-muscle-health-and-gut-bacteria"
+        "evidenceUrl": "https://www.euronews.com/health/2026/03/23/what-python-blood-can-teach-us-about-weight-loss-muscle-health-and-gut-bacteria",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c47",
@@ -1004,7 +1043,8 @@
         "label": "gap",
         "labelRationale": "The past article covers multi-target injectables and omits the oral next-generation pipeline these posts describe.",
         "sectionId": "combination-and-multiple-target-drugs",
-        "evidenceUrl": "https://medicalxpress.com/news/2026-03-weightloss-pill-orforglipron.html"
+        "evidenceUrl": "https://medicalxpress.com/news/2026-03-weightloss-pill-orforglipron.html",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c48",
@@ -1016,7 +1056,8 @@
         "label": "accurate",
         "labelRationale": "The Adverse effects section already documents pancreatitis, gastrointestinal reactions and other risks that warrant medical oversight.",
         "sectionId": "adverse-effects",
-        "evidenceUrl": "https://www.devdiscourse.com/article/headlines/3850834-ima-raises-alarm-over-potential-misuse-of-glp-1-drugs-in-india"
+        "evidenceUrl": "https://www.devdiscourse.com/article/headlines/3850834-ima-raises-alarm-over-potential-misuse-of-glp-1-drugs-in-india",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -1139,7 +1180,8 @@
         "label": "gap",
         "labelRationale": "The Pharmacokinetics section describes oral candidates in development and records no approved weight loss pill.",
         "sectionId": "pharmacokinetics",
-        "evidenceUrl": "https://www.globenewswire.com/news-release/2025/12/26/3210673/0/en/Best-Semaglutide-Options-for-2026-New-Oral-Wegovy-Pill-Approved-by-FDA-as-Patients-Compare-Injectable-and-Compounded-Access-Pathways.html"
+        "evidenceUrl": "https://www.globenewswire.com/news-release/2025/12/26/3210673/0/en/Best-Semaglutide-Options-for-2026-New-Oral-Wegovy-Pill-Approved-by-FDA-as-Patients-Compare-Injectable-and-Compounded-Access-Pathways.html",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c77",
@@ -1151,7 +1193,8 @@
         "label": "gap",
         "labelRationale": "The past article's approval list predates the semaglutide generics now entering the Indian market.",
         "sectionId": "legal-status",
-        "evidenceUrl": "https://www.theweek.in/news/health/2026/03/24/will-generic-semaglutide-make-diabetes-and-weight-loss-treatment-more-accessible-in-india.html"
+        "evidenceUrl": "https://www.theweek.in/news/health/2026/03/24/will-generic-semaglutide-make-diabetes-and-weight-loss-treatment-more-accessible-in-india.html",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c78",
@@ -1163,7 +1206,8 @@
         "label": "accurate",
         "labelRationale": "The History section already describes semaglutide and tirzepatide as among the world's most lucrative drugs.",
         "sectionId": "history",
-        "evidenceUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/glp-1-rush-pharma-food-firms-eye-tie-ups-for-weight-loss-boom/articleshow/129737763.cms"
+        "evidenceUrl": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/glp-1-rush-pharma-food-firms-eye-tie-ups-for-weight-loss-boom/articleshow/129737763.cms",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -1264,7 +1308,8 @@
         "label": "misrepresentation",
         "labelRationale": "The article reports GLP-1 agonists reduce liver steatosis and fibrosis, so listing liver harm as a side effect misleads readers.",
         "sectionId": "metabolic-dysfunctionassociated-steatotic-liver-disease",
-        "evidenceUrl": "https://www.thehindu.com/news/national/telangana/telangana-dca-cautions-against-unsupervised-semaglutide-use-amid-rising-drug-demand-for-weight-loss/article70778664.ece"
+        "evidenceUrl": "https://www.thehindu.com/news/national/telangana/telangana-dca-cautions-against-unsupervised-semaglutide-use-amid-rising-drug-demand-for-weight-loss/article70778664.ece",
+        "confidence": "high"
       },
       {
         "id": "glp1-receptor-agonist-c107",
@@ -1276,7 +1321,8 @@
         "label": "gap",
         "labelRationale": "The MASLD section covers current agonists only and omits liver outcomes for next-generation multi-receptor drugs.",
         "sectionId": "metabolic-dysfunctionassociated-steatotic-liver-disease",
-        "evidenceUrl": "https://medicalxpress.com/news/2026-03-weightloss-pill-orforglipron.html"
+        "evidenceUrl": "https://medicalxpress.com/news/2026-03-weightloss-pill-orforglipron.html",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -1392,7 +1438,8 @@
         "label": "gap",
         "labelRationale": "The Depression section cites no large cohort study like the 90,000-person analysis these posts invoke.",
         "sectionId": "depression",
-        "evidenceUrl": "https://www.news-medical.net/news/20260327/Diverse-biobank-study-links-genetics-to-disease-risk-and-treatment.aspx"
+        "evidenceUrl": "https://www.news-medical.net/news/20260327/Diverse-biobank-study-links-genetics-to-disease-risk-and-treatment.aspx",
+        "confidence": "medium"
       },
       {
         "id": "glp1-receptor-agonist-c137",
@@ -1404,7 +1451,8 @@
         "label": "accurate",
         "labelRationale": "The Depression section already reports antidepressant effects of GLP-1 agonists.",
         "sectionId": "depression",
-        "evidenceUrl": "https://www.adn.com/nation-world/2026/03/27/13-surprising-ways-glp-1-medications-may-benefit-the-body-according-to-science/"
+        "evidenceUrl": "https://www.adn.com/nation-world/2026/03/27/13-surprising-ways-glp-1-medications-may-benefit-the-body-according-to-science/",
+        "confidence": "medium"
       }
     ],
     "sources": [

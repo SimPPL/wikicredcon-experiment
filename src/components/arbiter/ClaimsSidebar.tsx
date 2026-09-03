@@ -211,6 +211,14 @@ function SourceLink({ source, iffyDomains, onLinkEvent }: { source: ClaimSource;
   );
 }
 
+const CONFIDENCE_RANK: Record<string, number> = { high: 0, medium: 1, low: 2 };
+
+const CONFIDENCE_NOTE: Record<string, string> = {
+  high: 'A retrieved source contradicts the claim outright, or the article plainly lacks what it asserts.',
+  medium: 'The reading holds up but rests on one source or on wording that could be read another way.',
+  low: 'A judgement call. Read the post and the article yourself before editing on it.',
+};
+
 type TabId = 'claims' | 'sources' | 'fact-checks' | 'wikipedia';
 
 function SidebarShell({
@@ -413,6 +421,11 @@ export default function ClaimsSidebar({
       const ra = labelRank[a.label ?? 'accurate'] ?? 2;
       const rb = labelRank[b.label ?? 'accurate'] ?? 2;
       if (ra !== rb) return ra - rb;
+      // A shaky reading of a post should not sit above one a source contradicts
+      // outright, so confidence breaks the tie before reach does.
+      const ca = CONFIDENCE_RANK[a.confidence ?? 'medium'] ?? 1;
+      const cb = CONFIDENCE_RANK[b.confidence ?? 'medium'] ?? 1;
+      if (ca !== cb) return ca - cb;
       return (b.engagement || 0) - (a.engagement || 0);
     });
     // The panel opens on the claims an edit can actually answer: labeled as a
@@ -633,6 +646,55 @@ export default function ClaimsSidebar({
                     </p>
                   )}
 
+                  {/* What backs this claim, and how far to trust the reading.
+                      A claim with no retrieved source says so, and points at the
+                      group's sources rather than leaving the editor with nothing
+                      to check. */}
+                  {claim.label && claim.label !== 'accurate' && (
+                    <div className="flex items-center gap-2 mb-1.5 flex-wrap" style={{ fontSize: '0.65rem' }}>
+                      {claim.evidenceUrl ? (
+                        <span data-proof="source" style={{ color: '#166534', fontWeight: 600 }}>
+                          Source attached
+                        </span>
+                      ) : sources.length > 0 ? (
+                        <button
+                          type="button"
+                          data-proof="group-sources"
+                          className="cursor-pointer"
+                          style={{
+                            background: 'none',
+                            border: 'none',
+                            padding: 0,
+                            color: 'var(--wiki-link)',
+                            textDecoration: 'underline',
+                            fontSize: '0.65rem',
+                          }}
+                          onClick={(e) => { e.stopPropagation(); setActiveTab('sources'); }}
+                        >
+                          No source for this claim — check the {sources.length} for this group
+                        </button>
+                      ) : (
+                        <span data-proof="none" style={{ color: 'var(--wiki-text-disabled)' }}>
+                          No source retrieved
+                        </span>
+                      )}
+                      {claim.confidence && (
+                        <span
+                          data-confidence={claim.confidence}
+                          title={CONFIDENCE_NOTE[claim.confidence]}
+                          style={{
+                            color: claim.confidence === 'low' ? '#92400e' : 'var(--wiki-text-secondary)',
+                            fontWeight: claim.confidence === 'low' ? 600 : 400,
+                          }}
+                        >
+                          {claim.confidence === 'low'
+                            ? 'weaker basis'
+                            : `${claim.confidence} confidence`}
+                        </span>
+                      )}
+                    </div>
+                  )}
+
                   {/* Section this claim points at — a button when the task unlocks it */}
                   {claim.sectionId && claim.label && claim.label !== 'accurate' && (
                     <div className="mb-1.5">
@@ -804,11 +866,14 @@ export default function ClaimsSidebar({
         style={{ background: '#fef8e7', border: '1px solid #f0d060', color: '#7c6a20', lineHeight: 1.4 }}
       >
         These claims circulate on social media and <strong>need not be accurate</strong>.
-        We labeled each one against fact-checks and this article&rsquo;s coverage:{' '}
+        We read each one against the sources Arbiter retrieved and against this
+        revision&rsquo;s text:{' '}
         <span className="font-semibold" style={{ color: '#b42318' }}>Misrepresents</span> marks
-        claims the evidence contradicts, and{' '}
+        claims a source or the article contradicts, and{' '}
         <span className="font-semibold" style={{ color: '#92400e' }}>Coverage gap</span> marks
         topics this revision barely covers. Both point at sections you can improve.
+        Each claim says what backs it and how firm the reading is &mdash; check the
+        source before you edit on it.
       </div>
 
       {/* Instruction */}

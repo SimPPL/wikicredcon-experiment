@@ -18,7 +18,8 @@
         "postExcerpt": "Firefighters have relied on firefighting foams for decades, but many contain PFAS, or “forever chemicals,” linked to serious health risks. Meanwhile, Congress just approved an extension to the deadline to eliminate them. A new alternative is gaining traction 👇",
         "label": "gap",
         "labelRationale": "The past article's Military bases section says nothing about the congressional deadline for phasing out PFAS firefighting foam.",
-        "sectionId": "military-bases"
+        "sectionId": "military-bases",
+        "confidence": "high"
       },
       {
         "id": "pfas-c32",
@@ -30,7 +31,8 @@
         "label": "accurate",
         "labelRationale": "The Firefighters section already states that Class B firefighting foams commonly contain PFAS.",
         "sectionId": "firefighters",
-        "evidenceUrl": "https://www.agriculture.com/partners-soybean-based-firefighting-foam-could-replace-forever-chemical-foam-11900406"
+        "evidenceUrl": "https://www.agriculture.com/partners-soybean-based-firefighting-foam-could-replace-forever-chemical-foam-11900406",
+        "confidence": "high"
       },
       {
         "id": "pfas-c33",
@@ -41,7 +43,8 @@
         "postExcerpt": "Hundreds of military bases have #PFAS contamination. Yet Congress is now going to let the #Pentagon keep using #foreverchemicals in firefighting foam, reports @RachelFrazin? This makes no sense. @EWG #MAHA @pirg",
         "label": "gap",
         "labelRationale": "The article covers military base contamination but never mentions the phaseout deadline Congress just extended for the Pentagon.",
-        "sectionId": "military-bases"
+        "sectionId": "military-bases",
+        "confidence": "high"
       },
       {
         "id": "pfas-c34",
@@ -52,7 +55,8 @@
         "postExcerpt": "Defense Bill Delays Phaseout of ‘Forever Chemicals’ in Firefighting Foam December 8, 2025 The latest version of the National Defense Authorization Act extends the Pentagon’s timeline for eliminating firefighting foam containing PFAS, commonly known as “forever chemicals.”",
         "label": "gap",
         "labelRationale": "No section mentions the National Defense Authorization Act or the Pentagon's timeline for eliminating PFAS foam.",
-        "sectionId": "military-bases"
+        "sectionId": "military-bases",
+        "confidence": "high"
       },
       {
         "id": "pfas-c35",
@@ -64,7 +68,8 @@
         "label": "gap",
         "labelRationale": "Mitigation measures mentions fluorine-free foam in one clause and names no specific alternative such as soy-based foam.",
         "sectionId": "mitigation-measures",
-        "evidenceUrl": "https://www.agriculture.com/partners-soybean-based-firefighting-foam-could-replace-forever-chemical-foam-11900406"
+        "evidenceUrl": "https://www.agriculture.com/partners-soybean-based-firefighting-foam-could-replace-forever-chemical-foam-11900406",
+        "confidence": "high"
       },
       {
         "id": "pfas-c36",
@@ -76,7 +81,8 @@
         "label": "accurate",
         "labelRationale": "The lead already lists carpets, furniture, cosmetics, and firefighting foam among PFAS uses.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/"
+        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
+        "confidence": "high"
       },
       {
         "id": "pfas-c37",
@@ -87,7 +93,8 @@
         "postExcerpt": "PFAS, often called “forever chemicals,” are not an abstract environmental issue anymore. They are a real, proven public-health threat. In Europe, PFAS production was stopped after drinking water contamination, long-term health damage, and court convictions—most notably in Italy. Scientific evidence ",
         "label": "accurate",
         "labelRationale": "The lead already describes some PFAS as endocrine disruptors linked to hormone interference.",
-        "sectionId": "pfas-lead"
+        "sectionId": "pfas-lead",
+        "confidence": "high"
       },
       {
         "id": "pfas-c38",
@@ -98,7 +105,8 @@
         "postExcerpt": "PFAS, often called “forever chemicals,” are not an abstract environmental issue anymore. They are a real, proven public-health threat. In Europe, PFAS production was stopped after drinking water contamination, long-term health damage, and court convictions—most notably in Italy. Scientific evidence ",
         "label": "accurate",
         "labelRationale": "The lead already lists suboptimal antibody response and decreased immunity among PFAS health links.",
-        "sectionId": "pfas-lead"
+        "sectionId": "pfas-lead",
+        "confidence": "high"
       },
       {
         "id": "pfas-c39",
@@ -109,7 +117,8 @@
         "postExcerpt": "\"Fresno’s groundwater is over 600% EPA standards for forever chemicals — some of the worst contamination in California. The Fresno complaint takes aim not just at chemical manufacturers but the entire PFAS supply chain: the companies that made the synthetic compounds, those that distributed them, an",
         "label": "gap",
         "labelRationale": "Legal actions covers the 3M and DuPont settlements and omits municipalities such as Fresno that opted out.",
-        "sectionId": "legal-actions"
+        "sectionId": "legal-actions",
+        "confidence": "medium"
       },
       {
         "id": "pfas-c40",
@@ -120,7 +129,8 @@
         "postExcerpt": "\"Forever chemicals,\" or PFAS (Per- and Polyfluoroalkyl Substances), are a large group of man-made chemicals known for their resistance to heat, water, and stains, making them useful in countless products like non-stick pans, waterproof clothing, and food packaging, but they're also called \"forever c",
         "label": "misrepresentation",
         "labelRationale": "Federal blood surveys detect PFAS in roughly 97 percent of Americans; this post rounds the figure up to 99.",
-        "sectionId": "pfas-lead"
+        "sectionId": "pfas-lead",
+        "confidence": "medium"
       },
       {
         "id": "pfas-c41",
@@ -131,7 +141,8 @@
         "postExcerpt": "“Forever Chemicals” — scientifically known as PFAS (per- and polyfluoroalkyl substances) — are synthetic chemicals that literally stay in the environment and our bodies for decades due to incredibly strong carbon-fluorine bonds. PFAS were first developed in the early 20th century for products that r",
         "label": "accurate",
         "labelRationale": "The article already documents EPA rules, the EU restriction proposal, and research into destroying PFAS.",
-        "sectionId": "pfas-lead"
+        "sectionId": "pfas-lead",
+        "confidence": "high"
       },
       {
         "id": "pfas-c42",
@@ -142,7 +153,8 @@
         "postExcerpt": "Defense bill delays phaseout of ‘forever chemicals’ in firefighting foam #PFAS",
         "label": "gap",
         "labelRationale": "The article records base contamination and skips the defense bill that pushed back the foam phaseout.",
-        "sectionId": "military-bases"
+        "sectionId": "military-bases",
+        "confidence": "high"
       },
       {
         "id": "pfas-c43",
@@ -154,7 +166,8 @@
         "label": "accurate",
         "labelRationale": "The lead already calls PFAS persistent organic pollutants now found in rain, drinking water, and wastewater.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c44",
@@ -166,7 +179,8 @@
         "label": "accurate",
         "labelRationale": "The lead already calls PFAS persistent organic pollutants now found in rain, drinking water, and wastewater.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c45",
@@ -178,7 +192,8 @@
         "label": "gap",
         "labelRationale": "The United Kingdom section lists drinking water reporting duties and says nothing about restrictions on PFAS foam extinguishers.",
         "sectionId": "united-kingdom",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -315,7 +330,8 @@
         "label": "accurate",
         "labelRationale": "The article already frames PFAS as useful industrial chemicals that carry documented health risks.",
         "sectionId": "health-and-environmental-effects",
-        "evidenceUrl": "https://www.ajc.com/about-us/2026/02/multi-newsroom-investigation-reveals-toxic-legacy-of-the-souths-carpet-empire-that-used-forever-chemicals-linked-to-a-variety-of-health-risks/"
+        "evidenceUrl": "https://www.ajc.com/about-us/2026/02/multi-newsroom-investigation-reveals-toxic-legacy-of-the-souths-carpet-empire-that-used-forever-chemicals-linked-to-a-variety-of-health-risks/",
+        "confidence": "high"
       },
       {
         "id": "pfas-c167",
@@ -327,7 +343,8 @@
         "label": "accurate",
         "labelRationale": "The article already links PFAS to kidney and testicular cancer, thyroid disease, and hormone interference.",
         "sectionId": "adverse-health-outcomes",
-        "evidenceUrl": "https://www.ajc.com/about-us/2026/02/multi-newsroom-investigation-reveals-toxic-legacy-of-the-souths-carpet-empire-that-used-forever-chemicals-linked-to-a-variety-of-health-risks/"
+        "evidenceUrl": "https://www.ajc.com/about-us/2026/02/multi-newsroom-investigation-reveals-toxic-legacy-of-the-souths-carpet-empire-that-used-forever-chemicals-linked-to-a-variety-of-health-risks/",
+        "confidence": "high"
       },
       {
         "id": "pfas-c168",
@@ -338,7 +355,8 @@
         "postExcerpt": "\"Forever chemicals,\" or PFAS (Per- and Polyfluoroalkyl Substances), are a large group of man-made chemicals known for their resistance to heat, water, and stains, making them useful in countless products like non-stick pans, waterproof clothing, and food packaging, but they're also called \"forever c",
         "label": "accurate",
         "labelRationale": "The EPA actions section already describes tightened advisories, Superfund listing, and the 2024 drinking water rule.",
-        "sectionId": "environmental-protection-agency-actions"
+        "sectionId": "environmental-protection-agency-actions",
+        "confidence": "high"
       },
       {
         "id": "pfas-c169",
@@ -350,7 +368,8 @@
         "label": "misrepresentation",
         "labelRationale": "European production continues; the article shows the EU ban is still a proposal and names five European producers.",
         "sectionId": "european-union",
-        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/"
+        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
+        "confidence": "high"
       },
       {
         "id": "pfas-c170",
@@ -361,7 +380,8 @@
         "postExcerpt": "\"Forever chemicals,\" or PFAS (Per- and Polyfluoroalkyl Substances), are a large group of man-made chemicals known for their resistance to heat, water, and stains, making them useful in countless products like non-stick pans, waterproof clothing, and food packaging, but they're also called \"forever c",
         "label": "accurate",
         "labelRationale": "The EPA actions section already describes tightened advisories, Superfund listing, and the 2024 drinking water rule.",
-        "sectionId": "environmental-protection-agency-actions"
+        "sectionId": "environmental-protection-agency-actions",
+        "confidence": "high"
       },
       {
         "id": "pfas-c171",
@@ -372,7 +392,8 @@
         "postExcerpt": "PFAS, known as “forever chemicals,” are toxic substances that never break down in the environment or the human body. Linked to cancer, organ failure, and long-term health damage, PFAS have already caused a major public health crisis in Europe. Now, PFAS manufacturing equipment has reached India, rai",
         "label": "misrepresentation",
         "labelRationale": "No section links PFAS to organ failure, and the lead gives body half-lives rather than permanent retention.",
-        "sectionId": "adverse-health-outcomes"
+        "sectionId": "adverse-health-outcomes",
+        "confidence": "high"
       },
       {
         "id": "pfas-c172",
@@ -384,7 +405,8 @@
         "label": "accurate",
         "labelRationale": "The lead already lists cancers and decreased immunity among documented PFAS health links.",
         "sectionId": "adverse-health-outcomes",
-        "evidenceUrl": "https://www.ajc.com/about-us/2026/02/multi-newsroom-investigation-reveals-toxic-legacy-of-the-souths-carpet-empire-that-used-forever-chemicals-linked-to-a-variety-of-health-risks/"
+        "evidenceUrl": "https://www.ajc.com/about-us/2026/02/multi-newsroom-investigation-reveals-toxic-legacy-of-the-souths-carpet-empire-that-used-forever-chemicals-linked-to-a-variety-of-health-risks/",
+        "confidence": "high"
       },
       {
         "id": "pfas-c173",
@@ -395,7 +417,8 @@
         "postExcerpt": "PFAS Forever Chemicals Explained in Hindi | Health Risks & Facts Italy ke Vicenza shehar mein Miteni factory se nikle PFAS forever chemicals ne logon ki zindagi barbaad kar di. Ye wahi chemicals hain jo kabhi destroy nahi hote aur serious bimariyon ka sabab bante hain. Public pressure ke baad Italy ",
         "label": "accurate",
         "labelRationale": "The article already covers PFAS in drinking water and IARC's carcinogenicity classification for PFOA.",
-        "sectionId": "adverse-health-outcomes"
+        "sectionId": "adverse-health-outcomes",
+        "confidence": "high"
       },
       {
         "id": "pfas-c174",
@@ -406,7 +429,8 @@
         "postExcerpt": "PFAS has been linked to numerous health issues and is one of the most persistent problems in the environment. The materials deployed at Selfridge Air National Guard Base could stop chemicals from further contaminating groundwater.",
         "label": "accurate",
         "labelRationale": "Adverse health outcomes already summarises the C8 Science Panel's probable links to six illnesses.",
-        "sectionId": "adverse-health-outcomes"
+        "sectionId": "adverse-health-outcomes",
+        "confidence": "high"
       },
       {
         "id": "pfas-c175",
@@ -417,7 +441,8 @@
         "postExcerpt": "PFAS has been linked to numerous health issues and is one of the most persistent problems in the environment. The materials deployed at Selfridge Air National Guard Base could stop chemicals from further contaminating groundwater.",
         "label": "accurate",
         "labelRationale": "Adverse health outcomes already summarises the C8 Science Panel's probable links to six illnesses.",
-        "sectionId": "adverse-health-outcomes"
+        "sectionId": "adverse-health-outcomes",
+        "confidence": "high"
       },
       {
         "id": "pfas-c176",
@@ -429,7 +454,8 @@
         "label": "accurate",
         "labelRationale": "The Italy section already calls the Veneto contamination Europe's biggest PFAS-related environmental disaster.",
         "sectionId": "italy",
-        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/"
+        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
+        "confidence": "high"
       },
       {
         "id": "pfas-c177",
@@ -441,7 +467,8 @@
         "label": "accurate",
         "labelRationale": "The article already reports links to cancer, thyroid disease, and reduced antibody response.",
         "sectionId": "adverse-health-outcomes",
-        "evidenceUrl": "https://www.ajc.com/about-us/2026/02/multi-newsroom-investigation-reveals-toxic-legacy-of-the-souths-carpet-empire-that-used-forever-chemicals-linked-to-a-variety-of-health-risks/"
+        "evidenceUrl": "https://www.ajc.com/about-us/2026/02/multi-newsroom-investigation-reveals-toxic-legacy-of-the-souths-carpet-empire-that-used-forever-chemicals-linked-to-a-variety-of-health-risks/",
+        "confidence": "high"
       },
       {
         "id": "pfas-c178",
@@ -453,7 +480,8 @@
         "label": "gap",
         "labelRationale": "The Italy section covers Veneto contamination and never mentions Miteni or the convictions of its executives.",
         "sectionId": "italy",
-        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/"
+        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
+        "confidence": "high"
       }
     ],
     "sources": [
@@ -533,7 +561,8 @@
         "postExcerpt": "Understanding the \"Forever Chemical\" today In 2024, 3M announce settlements with various public water systems for a collective $10.3 billion. DuPont and two of its spinoff companies announce $1.3 billion in settlements with various water providers over complaints of PFAS contamination. Health Concer",
         "label": "misrepresentation",
         "labelRationale": "3M announced the $10.3 billion water settlement in June 2023, a year earlier than this post says.",
-        "sectionId": "legal-actions"
+        "sectionId": "legal-actions",
+        "confidence": "medium"
       },
       {
         "id": "pfas-c77",
@@ -544,7 +573,8 @@
         "postExcerpt": "Understanding the \"Forever Chemical\" today In 2024, 3M announce settlements with various public water systems for a collective $10.3 billion. DuPont and two of its spinoff companies announce $1.3 billion in settlements with various water providers over complaints of PFAS contamination. Health Concer",
         "label": "misrepresentation",
         "labelRationale": "The article puts the Chemours, DuPont and Corteva settlement at $1.19 billion, below the $1.3 billion claimed.",
-        "sectionId": "legal-actions"
+        "sectionId": "legal-actions",
+        "confidence": "medium"
       },
       {
         "id": "pfas-c78",
@@ -555,7 +585,8 @@
         "postExcerpt": "Understanding the \"Forever Chemical\" today In 2024, 3M announce settlements with various public water systems for a collective $10.3 billion. DuPont and two of its spinoff companies announce $1.3 billion in settlements with various water providers over complaints of PFAS contamination. Health Concer",
         "label": "gap",
         "labelRationale": "The section still gives water systems three years to comply and omits the extended 2031 compliance deadline.",
-        "sectionId": "environmental-protection-agency-actions"
+        "sectionId": "environmental-protection-agency-actions",
+        "confidence": "medium"
       },
       {
         "id": "pfas-c79",
@@ -566,7 +597,8 @@
         "postExcerpt": "PFAS (per- and polyfluoroalkyl substances), known as \"forever chemicals,\" are persistent synthetic compounds that never break down in nature or the human body, accumulating over decades. In Italy, over 3.5 lakh people in Veneto region face severe contamination from industrial discharge into drinking",
         "label": "misrepresentation",
         "labelRationale": "The Italy section puts Veneto tap water exposure at 127,000 residents, far below the 350,000 claimed here.",
-        "sectionId": "italy"
+        "sectionId": "italy",
+        "confidence": "medium"
       },
       {
         "id": "pfas-c80",
@@ -578,7 +610,8 @@
         "label": "accurate",
         "labelRationale": "The lead already lists cookware, textiles, food packaging, and firefighting foam among PFAS applications.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/"
+        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
+        "confidence": "high"
       },
       {
         "id": "pfas-c81",
@@ -590,7 +623,8 @@
         "label": "accurate",
         "labelRationale": "The lead already lists cookware, textiles, food packaging, and firefighting foam among PFAS applications.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/"
+        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
+        "confidence": "high"
       },
       {
         "id": "pfas-c82",
@@ -602,7 +636,8 @@
         "label": "accurate",
         "labelRationale": "The article already documents PFAS in drinking water, rice, coffee, fish, and consumer goods.",
         "sectionId": "prevalence-in-rain-soil-water-bodies-and-air",
-        "evidenceUrl": "https://phys.org/news/2026-02-pfas-exposure-greater-pet-food.html"
+        "evidenceUrl": "https://phys.org/news/2026-02-pfas-exposure-greater-pet-food.html",
+        "confidence": "high"
       },
       {
         "id": "pfas-c83",
@@ -614,7 +649,8 @@
         "label": "accurate",
         "labelRationale": "The article already traces PFAS through rain, soil, groundwater, fish, and human blood.",
         "sectionId": "prevalence-in-rain-soil-water-bodies-and-air",
-        "evidenceUrl": "https://phys.org/news/2026-02-pfas-exposure-greater-pet-food.html"
+        "evidenceUrl": "https://phys.org/news/2026-02-pfas-exposure-greater-pet-food.html",
+        "confidence": "high"
       },
       {
         "id": "pfas-c84",
@@ -625,7 +661,8 @@
         "postExcerpt": "\"Fresno’s groundwater is over 600% EPA standards for forever chemicals — some of the worst contamination in California. The Fresno complaint takes aim not just at chemical manufacturers but the entire PFAS supply chain: the companies that made the synthetic compounds, those that distributed them, an",
         "label": "gap",
         "labelRationale": "The United States section gives national contamination figures and covers no California cities such as Fresno.",
-        "sectionId": "united-states"
+        "sectionId": "united-states",
+        "confidence": "medium"
       },
       {
         "id": "pfas-c85",
@@ -637,7 +674,8 @@
         "label": "accurate",
         "labelRationale": "The lead already lists cookware, textiles, food packaging, and firefighting foam among PFAS applications.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/"
+        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
+        "confidence": "high"
       },
       {
         "id": "pfas-c86",
@@ -649,7 +687,8 @@
         "label": "accurate",
         "labelRationale": "The article already documents PFAS in drinking water, rice, coffee, fish, and consumer goods.",
         "sectionId": "prevalence-in-rain-soil-water-bodies-and-air",
-        "evidenceUrl": "https://phys.org/news/2026-02-pfas-exposure-greater-pet-food.html"
+        "evidenceUrl": "https://phys.org/news/2026-02-pfas-exposure-greater-pet-food.html",
+        "confidence": "high"
       },
       {
         "id": "pfas-c87",
@@ -661,7 +700,8 @@
         "label": "accurate",
         "labelRationale": "The lead already lists cosmetics, carpets, food packaging, firefighting foam, and electrical wire insulation.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/"
+        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
+        "confidence": "high"
       },
       {
         "id": "pfas-c88",
@@ -673,7 +713,8 @@
         "label": "accurate",
         "labelRationale": "The article already reports PFAS in rain, soil, groundwater, wildlife, and human blood.",
         "sectionId": "prevalence-in-rain-soil-water-bodies-and-air",
-        "evidenceUrl": "https://phys.org/news/2026-02-pfas-exposure-greater-pet-food.html"
+        "evidenceUrl": "https://phys.org/news/2026-02-pfas-exposure-greater-pet-food.html",
+        "confidence": "high"
       },
       {
         "id": "pfas-c89",
@@ -684,7 +725,8 @@
         "postExcerpt": "PFAS has been linked to numerous health issues and is one of the most persistent problems in the environment. The materials deployed at Selfridge Air National Guard Base could stop chemicals from further contaminating groundwater.",
         "label": "gap",
         "labelRationale": "The Michigan section covers Wurtsmith and Oscoda and never mentions remediation at Selfridge Air National Guard Base.",
-        "sectionId": "michigan"
+        "sectionId": "michigan",
+        "confidence": "medium"
       },
       {
         "id": "pfas-c90",
@@ -695,7 +737,8 @@
         "postExcerpt": "PFAS has been linked to numerous health issues and is one of the most persistent problems in the environment. The materials deployed at Selfridge Air National Guard Base could stop chemicals from further contaminating groundwater.",
         "label": "gap",
         "labelRationale": "The Michigan section covers Wurtsmith and Oscoda and never mentions remediation at Selfridge Air National Guard Base.",
-        "sectionId": "michigan"
+        "sectionId": "michigan",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -796,7 +839,8 @@
         "label": "accurate",
         "labelRationale": "The Firefighters section already states that Class B firefighting foams commonly contain PFAS.",
         "sectionId": "firefighters",
-        "evidenceUrl": "https://www.agriculture.com/partners-soybean-based-firefighting-foam-could-replace-forever-chemical-foam-11900406"
+        "evidenceUrl": "https://www.agriculture.com/partners-soybean-based-firefighting-foam-could-replace-forever-chemical-foam-11900406",
+        "confidence": "high"
       },
       {
         "id": "pfas-c17",
@@ -807,7 +851,8 @@
         "postExcerpt": "Understanding the \"Forever Chemical\" today In 2024, 3M announce settlements with various public water systems for a collective $10.3 billion. DuPont and two of its spinoff companies announce $1.3 billion in settlements with various water providers over complaints of PFAS contamination. Health Concer",
         "label": "accurate",
         "labelRationale": "The lead's estimate of a $28 billion PFAS market in 2023 matches this figure.",
-        "sectionId": "pfas-lead"
+        "sectionId": "pfas-lead",
+        "confidence": "medium"
       },
       {
         "id": "pfas-c18",
@@ -819,7 +864,8 @@
         "label": "accurate",
         "labelRationale": "The lead already records the 2018 Washington Post article that branded PFAS forever chemicals.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c19",
@@ -831,7 +877,8 @@
         "label": "accurate",
         "labelRationale": "The lead already records the 2018 Washington Post article that branded PFAS forever chemicals.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c20",
@@ -844,7 +891,8 @@
         "labelRationale": "The Italy section stops at Veneto and omits reports that the same production equipment moved to India.",
         "sectionId": "italy",
         "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
-        "validatedByCurrent": true
+        "validatedByCurrent": true,
+        "confidence": "medium"
       },
       {
         "id": "pfas-c21",
@@ -855,7 +903,8 @@
         "postExcerpt": "\"Fresno’s groundwater is over 600% EPA standards for forever chemicals — some of the worst contamination in California. The Fresno complaint takes aim not just at chemical manufacturers but the entire PFAS supply chain: the companies that made the synthetic compounds, those that distributed them, an",
         "label": "gap",
         "labelRationale": "Legal actions covers manufacturer settlements and no suit reaching distributors and downstream users.",
-        "sectionId": "legal-actions"
+        "sectionId": "legal-actions",
+        "confidence": "medium"
       },
       {
         "id": "pfas-c22",
@@ -866,7 +915,8 @@
         "postExcerpt": "“Forever Chemicals” — scientifically known as PFAS (per- and polyfluoroalkyl substances) — are synthetic chemicals that literally stay in the environment and our bodies for decades due to incredibly strong carbon-fluorine bonds. PFAS were first developed in the early 20th century for products that r",
         "label": "accurate",
         "labelRationale": "The Definition section already gives this expansion of the acronym.",
-        "sectionId": "definition"
+        "sectionId": "definition",
+        "confidence": "high"
       },
       {
         "id": "pfas-c23",
@@ -878,7 +928,8 @@
         "label": "accurate",
         "labelRationale": "The lead already records the 2018 Washington Post article that branded PFAS forever chemicals.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c24",
@@ -890,7 +941,8 @@
         "label": "accurate",
         "labelRationale": "The Firefighters section already states that Class B foams for fuel fires commonly contain PFAS.",
         "sectionId": "firefighters",
-        "evidenceUrl": "https://www.agriculture.com/partners-soybean-based-firefighting-foam-could-replace-forever-chemical-foam-11900406"
+        "evidenceUrl": "https://www.agriculture.com/partners-soybean-based-firefighting-foam-could-replace-forever-chemical-foam-11900406",
+        "confidence": "high"
       },
       {
         "id": "pfas-c25",
@@ -902,7 +954,8 @@
         "label": "accurate",
         "labelRationale": "The lead already ties the nickname to the carbon-fluorine bond and long environmental persistence.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c26",
@@ -913,7 +966,8 @@
         "postExcerpt": "PFAS are “forever chemicals” for a reason - they never break down. They contaminate water, soil, and our bodies, and are linked to cancer, immune-system damage, and major health risks. Approving more of these chemicals is dangerous.",
         "label": "misrepresentation",
         "labelRationale": "Treats thousands of distinct compounds as uniformly dangerous; the article says risks vary and remain largely unassessed.",
-        "sectionId": "definition"
+        "sectionId": "definition",
+        "confidence": "medium"
       },
       {
         "id": "pfas-c27",
@@ -926,7 +980,8 @@
         "labelRationale": "The section maps fluorochemical production in the United States, Europe, and China and omits India.",
         "sectionId": "manufacturing-workers",
         "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
-        "validatedByCurrent": true
+        "validatedByCurrent": true,
+        "confidence": "medium"
       },
       {
         "id": "pfas-c28",
@@ -937,7 +992,8 @@
         "postExcerpt": "PFAS \"forever chemicals\" are in 97% of Americans' blood right now. Here's what they are, where they come from, and why companies hid the health risks for decades. 🧾 WHAT ARE PFAS? PFAS stands for per- and polyfluoroalkyl substances—a group of thousands of synthetic chemicals created in the 1940s. T",
         "label": "misrepresentation",
         "labelRationale": "The lead dates PFAS to the 1938 invention of Teflon, not the 1940s.",
-        "sectionId": "pfas-lead"
+        "sectionId": "pfas-lead",
+        "confidence": "low"
       },
       {
         "id": "pfas-c29",
@@ -949,7 +1005,8 @@
         "label": "accurate",
         "labelRationale": "The lead already ties the nickname to the carbon-fluorine bond and long environmental persistence.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c30",
@@ -961,7 +1018,8 @@
         "label": "gap",
         "labelRationale": "The Italy section names no successor to Miteni and omits the reported transfer of its plant to Maharashtra.",
         "sectionId": "italy",
-        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/"
+        "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -1048,7 +1106,8 @@
         "label": "misrepresentation",
         "labelRationale": "The lead reports body half-lives of over eight years, which contradicts the claim that PFAS never break down.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c122",
@@ -1060,7 +1119,8 @@
         "label": "accurate",
         "labelRationale": "The lead already says PFAS resist breakdown and bioaccumulate in wildlife and in people.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c123",
@@ -1072,7 +1132,8 @@
         "label": "accurate",
         "labelRationale": "The lead already reports half-lives of over eight years in the body.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c124",
@@ -1084,7 +1145,8 @@
         "label": "accurate",
         "labelRationale": "The lead already reports half-lives of over eight years in the body.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c125",
@@ -1096,7 +1158,8 @@
         "label": "accurate",
         "labelRationale": "The lead already says PFAS resist breakdown and bioaccumulate in wildlife and in people.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c126",
@@ -1108,7 +1171,8 @@
         "label": "misrepresentation",
         "labelRationale": "The article reports body half-lives over eight years and treatment that destroys 99 percent of PFAS in water.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       },
       {
         "id": "pfas-c127",
@@ -1120,7 +1184,8 @@
         "label": "misrepresentation",
         "labelRationale": "The lead reports half-lives of over eight years in the body, so PFAS degrade slowly.",
         "sectionId": "pfas-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "high"
       }
     ],
     "sources": [
@@ -1165,7 +1230,8 @@
         "label": "accurate",
         "labelRationale": "The Firefighters section already covers decades of Class B foam use.",
         "sectionId": "firefighters",
-        "evidenceUrl": "https://www.agriculture.com/partners-soybean-based-firefighting-foam-could-replace-forever-chemical-foam-11900406"
+        "evidenceUrl": "https://www.agriculture.com/partners-soybean-based-firefighting-foam-could-replace-forever-chemical-foam-11900406",
+        "confidence": "high"
       },
       {
         "id": "pfas-c2",
@@ -1176,7 +1242,8 @@
         "postExcerpt": "🧯PFAS, also known as “forever chemicals,” are associated with #cancer and can be found in many products, such as #firefighter foam. 📖Data from @HAZMAT_journal showed firefighters can have a large amount of PFAS on their gear, including breathing masks.",
         "label": "gap",
         "labelRationale": "The section notes PFAS in protective equipment and cites no study measuring residues on gear or breathing masks.",
-        "sectionId": "firefighters"
+        "sectionId": "firefighters",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -1230,7 +1297,8 @@
         "labelRationale": "The section tracks fluorochemical production in the United States, Europe, and China and omits India.",
         "sectionId": "manufacturing-workers",
         "evidenceUrl": "https://theprint.in/environment/why-one-of-italys-biggest-environmental-scandals-is-causing-a-stir-in-maharashtras-ratnagiri/2813995/",
-        "validatedByCurrent": true
+        "validatedByCurrent": true,
+        "confidence": "medium"
       }
     ],
     "sources": [],
@@ -1260,7 +1328,8 @@
         "label": "accurate",
         "labelRationale": "The Firefighters section already covers longstanding use of Class B foam on fuel fires.",
         "sectionId": "firefighters",
-        "evidenceUrl": "https://www.agriculture.com/partners-soybean-based-firefighting-foam-could-replace-forever-chemical-foam-11900406"
+        "evidenceUrl": "https://www.agriculture.com/partners-soybean-based-firefighting-foam-could-replace-forever-chemical-foam-11900406",
+        "confidence": "high"
       }
     ],
     "sources": [

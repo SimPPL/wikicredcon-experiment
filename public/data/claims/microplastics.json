@@ -18,7 +18,8 @@
         "postExcerpt": "die eu behandelt ihre bürger wie kleine kinder. sie schreibt vor, was gesagt werden darf, das deckel an plastikflaschen bleiben müssen, man nur noch led lampen nutzen darf und nun soll geprüft werden, ob man sich auch schuhe für 200€ in 3 raten leisten kann.",
         "label": "misrepresentation",
         "labelRationale": "The EU phased out mercury-containing fluorescent lamps under RoHS rules and never mandated LED lamps.",
-        "sectionId": "european-union"
+        "sectionId": "european-union",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c137",
@@ -29,7 +30,8 @@
         "postExcerpt": "die eu behandelt ihre bürger wie kleine kinder. sie schreibt vor, was gesagt werden darf, das deckel an plastikflaschen bleiben müssen, man nur noch led lampen nutzen darf und nun soll geprüft werden, ob man sich auch schuhe für 200€ in 3 raten leisten kann.",
         "label": "misrepresentation",
         "labelRationale": "Distorts the revised EU Consumer Credit Directive, which brings buy-now-pay-later loans under normal creditworthiness rules.",
-        "sectionId": "european-union"
+        "sectionId": "european-union",
+        "confidence": "low"
       }
     ],
     "sources": [
@@ -87,7 +89,8 @@
         "postExcerpt": "die eu behandelt ihre bürger wie kleine kinder. sie schreibt vor, was gesagt werden darf, das deckel an plastikflaschen bleiben müssen, man nur noch led lampen nutzen darf und nun soll geprüft werden, ob man sich auch schuhe für 200€ in 3 raten leisten kann.",
         "label": "gap",
         "labelRationale": "This is true, yet the past European Union section never mentions the Single-Use Plastics Directive tethered-cap requirement.",
-        "sectionId": "european-union"
+        "sectionId": "european-union",
+        "confidence": "high"
       }
     ],
     "sources": [],
@@ -116,7 +119,8 @@
         "postExcerpt": "سمندر کا قتل! 150 ملین ٹن پلاسٹک ہر سال  PlasticPollution#OceanPollution#Environment",
         "label": "misrepresentation",
         "labelRationale": "Global plastic production runs above 400 million tonnes a year, roughly triple the figure this post states.",
-        "sectionId": "sources-of-microplastics"
+        "sectionId": "sources-of-microplastics",
+        "confidence": "high"
       },
       {
         "id": "microplastics-c47",
@@ -127,7 +131,8 @@
         "postExcerpt": "Three years on... ✅From 3 to 14 EU countries ✅From classrooms to riverbanks ✅From curiosity to 1,200+ datasets on microplastics That's the power of @PlasticPirateEU 🔗 @HorizonEU @OurMissionOcean #MissionOcean #HorizonEU #Climate #ResearchImpactEU",
         "label": "gap",
         "labelRationale": "The past Education and recycling section lists no citizen-science sampling programmes such as the EU Plastic Pirates project.",
-        "sectionId": "education-and-recycling"
+        "sectionId": "education-and-recycling",
+        "confidence": "low"
       },
       {
         "id": "microplastics-c48",
@@ -140,7 +145,8 @@
         "labelRationale": "The past Human health section omits the cancer and heart-attack links these posts cite; the current revision adds them.",
         "sectionId": "human-health",
         "evidenceUrl": "https://www.nbcnews.com/health/mens-health/microplastics-found-prostate-tumors-small-study-rcna260296",
-        "validatedByCurrent": true
+        "validatedByCurrent": true,
+        "confidence": "high"
       }
     ],
     "sources": [
@@ -199,7 +205,8 @@
         "label": "accurate",
         "labelRationale": "The Clothing section already reports over 700,000 fibres released per average wash load.",
         "sectionId": "clothing",
-        "evidenceUrl": "https://www.theguardian.com/news/ng-interactive/2025/jul/28/the-life-of-microplastic-how-fragments-move-through-plants-insects-animals-and-you"
+        "evidenceUrl": "https://www.theguardian.com/news/ng-interactive/2025/jul/28/the-life-of-microplastic-how-fragments-move-through-plants-insects-animals-and-you",
+        "confidence": "high"
       },
       {
         "id": "microplastics-c2",
@@ -210,7 +217,8 @@
         "postExcerpt": "Did you know that microplastics are found in many processed foods? 🍔⚠️ In this video, we explain what microplastics are, how they get into our food, and the potential risks they pose to our health. Learn why paying attention to what you eat is more important than ever. 📺 Science Explained Daily #T",
         "label": "accurate",
         "labelRationale": "The Oral intake section already lists microplastics in everyday foods including tea bags, salt, sugar and milk.",
-        "sectionId": "oral-intake"
+        "sectionId": "oral-intake",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c3",
@@ -221,7 +229,8 @@
         "postExcerpt": "Did you know that microplastics are found in many processed foods? 🍔⚠️ In this video, we explain what microplastics are, how they get into our food, and the potential risks they pose to our health. Learn why paying attention to what you eat is more important than ever. 📺 Science Explained Daily #T",
         "label": "accurate",
         "labelRationale": "The Oral intake section already names food as the main pathway of human exposure.",
-        "sectionId": "oral-intake"
+        "sectionId": "oral-intake",
+        "confidence": "high"
       },
       {
         "id": "microplastics-c4",
@@ -232,7 +241,8 @@
         "postExcerpt": "Did you know that microplastics are found in many processed foods? 🍔⚠️ In this video, we explain what microplastics are, how they get into our food, and the potential risks they pose to our health. Learn why paying attention to what you eat is more important than ever. 📺 Science Explained Daily #T",
         "label": "accurate",
         "labelRationale": "Hedged the same way the Human health section is, which says impacts are still being tested.",
-        "sectionId": "human-health"
+        "sectionId": "human-health",
+        "confidence": "high"
       },
       {
         "id": "microplastics-c5",
@@ -243,7 +253,8 @@
         "postExcerpt": "Three years on... ✅From 3 to 14 EU countries ✅From classrooms to riverbanks ✅From curiosity to 1,200+ datasets on microplastics That's the power of @PlasticPirateEU 🔗 @HorizonEU @OurMissionOcean #MissionOcean #HorizonEU #Climate #ResearchImpactEU",
         "label": "gap",
         "labelRationale": "The past article describes awareness projects like FMAP but says nothing about the EU Plastic Pirates dataset collection.",
-        "sectionId": "education-and-recycling"
+        "sectionId": "education-and-recycling",
+        "confidence": "low"
       },
       {
         "id": "microplastics-c6",
@@ -254,7 +265,8 @@
         "postExcerpt": "Seed oils are fine. Diet soda is no problem. Unlimited Screens is a-okay. Microplastics is nonsense. AI won’t take all the jobs. Vaccines are safe.",
         "label": "misrepresentation",
         "labelRationale": "The EU Scientific Advice Mechanism review cited in this section found microplastics throughout the environment with rising ecological risk.",
-        "sectionId": "effects-on-the-environment"
+        "sectionId": "effects-on-the-environment",
+        "confidence": "high"
       },
       {
         "id": "microplastics-c7",
@@ -265,7 +277,8 @@
         "postExcerpt": "microplastic accumulation in the human body could be a serious health hazard, according to some researchers, and might be linked to cancer, heart attacks and other threatening medical conditions. we'll never eliminate all microplastic from the environment, but we could significantly reduce the volum",
         "label": "misrepresentation",
         "labelRationale": "The credit-card-a-week estimate comes from one 2019 report that later intake studies put orders of magnitude too high.",
-        "sectionId": "human-health"
+        "sectionId": "human-health",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c8",
@@ -276,7 +289,8 @@
         "postExcerpt": "microplastic accumulation in the human body could be a serious health hazard, according to some researchers, and might be linked to cancer, heart attacks and other threatening medical conditions. we'll never eliminate all microplastic from the environment, but we could significantly reduce the volum",
         "label": "accurate",
         "labelRationale": "Matches the section, which relies on in vitro and animal work and calls human impacts still untested.",
-        "sectionId": "human-health"
+        "sectionId": "human-health",
+        "confidence": "high"
       },
       {
         "id": "microplastics-c9",
@@ -287,7 +301,8 @@
         "postExcerpt": "🐟 Fish-Inspired Filter Stops Microplastics in Washers: Details inside 👇",
         "label": "gap",
         "labelRationale": "The past Filtering section covers only wastewater plants and skips filters that capture fibres inside the washing machine.",
-        "sectionId": "filtering"
+        "sectionId": "filtering",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -375,7 +390,8 @@
         "label": "accurate",
         "labelRationale": "Reports PFAS detections on a Florida reservation, a separate class of pollutant this article does not cover.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c32",
@@ -387,7 +403,8 @@
         "label": "accurate",
         "labelRationale": "Describes seasonal PFAS levels in rainfall, which is forever-chemical research rather than microplastics.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c33",
@@ -399,7 +416,8 @@
         "label": "accurate",
         "labelRationale": "Reports airborne PFAS types measured in South Florida, a pollutant class outside this article's scope.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c34",
@@ -411,7 +429,8 @@
         "label": "accurate",
         "labelRationale": "Repeats the Miccosukee PFAS finding with the university named; still PFAS research, not microplastics.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c35",
@@ -423,7 +442,8 @@
         "label": "accurate",
         "labelRationale": "Duplicate of the dry-season PFAS rainfall claim; nothing here bears on the microplastics article.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c36",
@@ -435,7 +455,8 @@
         "label": "accurate",
         "labelRationale": "Duplicate of the South Florida airborne PFAS claim; this article covers plastic particles, not PFAS.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c37",
@@ -447,7 +468,8 @@
         "label": "accurate",
         "labelRationale": "Kennedy did describe a parasitic worm in his brain, and the topic sits far outside this article.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://www.scientificamerican.com/article/how-a-year-of-rfk-jr-has-changed-american-science/"
+        "evidenceUrl": "https://www.scientificamerican.com/article/how-a-year-of-rfk-jr-has-changed-american-science/",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c38",
@@ -459,7 +481,8 @@
         "label": "misrepresentation",
         "labelRationale": "FactCheck.org documents Kennedy misstating vaccine safety evidence, and the claim has no bearing on microplastics.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://www.factcheck.org/2025/05/rfk-jr-misleads-about-safety-of-covid-19-vaccine-in-children/"
+        "evidenceUrl": "https://www.factcheck.org/2025/05/rfk-jr-misleads-about-safety-of-covid-19-vaccine-in-children/",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c39",
@@ -471,7 +494,8 @@
         "label": "accurate",
         "labelRationale": "Another restatement of the Miccosukee PFAS analysis, which this article never discusses.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c40",
@@ -483,7 +507,8 @@
         "label": "accurate",
         "labelRationale": "Restates the PFAS rainfall seasonality finding; no microplastics content to correct or add.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c41",
@@ -495,7 +520,8 @@
         "label": "accurate",
         "labelRationale": "Restates the count of airborne PFAS types in coastal Florida, a separate contaminant family.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c42",
@@ -506,7 +532,8 @@
         "postExcerpt": "megaphone on december 11, in milan, the annual national recycling industry conference 2025 (conferenza nazionale dell'industria del riciclo) took place, which is one of italy's key events dedicated to circular economy issues. the event was organized by the sustainable development foundation (fondazi",
         "label": "accurate",
         "labelRationale": "Names the organisers of an Italian recycling conference, a detail too local for this article.",
-        "sectionId": "education-and-recycling"
+        "sectionId": "education-and-recycling",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c43",
@@ -518,7 +545,8 @@
         "label": "accurate",
         "labelRationale": "Fourth restatement of the Miccosukee PFAS finding; the article covers plastic particles instead.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c44",
@@ -530,7 +558,8 @@
         "label": "accurate",
         "labelRationale": "Fourth restatement of the PFAS rainfall study; nothing in it touches microplastics.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       },
       {
         "id": "microplastics-c45",
@@ -542,7 +571,8 @@
         "label": "accurate",
         "labelRationale": "Fourth restatement of the airborne PFAS survey, again outside what this article documents.",
         "sectionId": "microplastics-lead",
-        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191"
+        "evidenceUrl": "https://theconversation.com/how-the-uk-government-plans-to-limit-forever-chemical-pollution-and-whats-missing-275191",
+        "confidence": "medium"
       }
     ],
     "sources": [
@@ -678,7 +708,8 @@
         "postExcerpt": "megaphone on december 11, in milan, the annual national recycling industry conference 2025 (conferenza nazionale dell'industria del riciclo) took place, which is one of italy's key events dedicated to circular economy issues. the event was organized by the sustainable development foundation (fondazi",
         "label": "accurate",
         "labelRationale": "Reports the date and place of an Italian recycling conference, which the article has no reason to record.",
-        "sectionId": "education-and-recycling"
+        "sectionId": "education-and-recycling",
+        "confidence": "medium"
       }
     ],
     "sources": [],
@@ -707,7 +738,8 @@
         "postExcerpt": "megaphone on december 11, in milan, the annual national recycling industry conference 2025 (conferenza nazionale dell'industria del riciclo) took place, which is one of italy's key events dedicated to circular economy issues. the event was organized by the sustainable development foundation (fondazi",
         "label": "accurate",
         "labelRationale": "The section already carries a similar patronage clause about UNESCO and the Italian environment ministry.",
-        "sectionId": "education-and-recycling"
+        "sectionId": "education-and-recycling",
+        "confidence": "medium"
       }
     ],
     "sources": [],
@@ -736,7 +768,8 @@
         "postExcerpt": "megaphone on december 11, in milan, the annual national recycling industry conference 2025 (conferenza nazionale dell'industria del riciclo) took place, which is one of italy's key events dedicated to circular economy issues. the event was organized by the sustainable development foundation (fondazi",
         "label": "accurate",
         "labelRationale": "Describes an Italian national recycling report launch, too narrow for a global overview article.",
-        "sectionId": "education-and-recycling"
+        "sectionId": "education-and-recycling",
+        "confidence": "medium"
       }
     ],
     "sources": [],

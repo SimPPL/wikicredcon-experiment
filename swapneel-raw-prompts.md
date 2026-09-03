@@ -31,3 +31,11 @@ Can you complete the labeling and find the right articles that meks sense to pre
 ## [auto] 2026-09-02 02:27
 
 and then update and run through the full experiment please
+
+## [auto] 2026-09-03 03:41
+
+did you complete surfacing new kinds of claims properly?
+
+## [auto] 2026-09-03 03:41
+
+that actually inform editors with proof or meaningful links?
