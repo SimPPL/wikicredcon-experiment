@@ -75,3 +75,14 @@ export async function deleteAllExcept(keepId: string): Promise<{ deleted: number
   `) as Array<{ participant_id: string }>;
   return { deleted: deletedRows.length, total: count };
 }
+
+export async function getParticipant(participantId: string): Promise<ParticipantRow | null> {
+  const sql = getSql();
+  await ensureTable(sql);
+  const rows = (await sql`
+    SELECT participant_id, data, created_at, updated_at
+    FROM wikicred_participants
+    WHERE participant_id = ${participantId}
+  `) as ParticipantRow[];
+  return rows[0] ?? null;
+}

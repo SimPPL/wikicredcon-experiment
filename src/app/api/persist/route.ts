@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { isDbConfigured, upsertParticipant, listParticipants, deleteAllExcept } from '@/lib/db';
+import { isDbConfigured, upsertParticipant, listParticipants, deleteAllExcept, getParticipant } from '@/lib/db';
 
 // Participant data is stored in Neon Postgres (free tier, provisioned via the
 // Vercel Marketplace — DATABASE_URL is injected automatically). The client
@@ -37,9 +37,17 @@ export async function POST(request: Request) {
   }
 }
 
-export async function GET() {
+export async function GET(request: Request) {
   try {
     if (!isDbConfigured()) return NOT_CONFIGURED;
+    // ?id= reads one row back so a self-serve run can confirm it was stored.
+    const id = new URL(request.url).searchParams.get('id');
+    if (id) {
+      const row = await getParticipant(id);
+      return row
+        ? NextResponse.json({ participant_id: row.participant_id, updated_at: row.updated_at })
+        : NextResponse.json({ error: 'Not found' }, { status: 404 });
+    }
     const rows = await listParticipants();
     return NextResponse.json(rows);
   } catch (error) {

@@ -1,0 +1,257 @@
+{
+  "articleId": "semaglutide-jun26",
+  "study": {
+    "id": "jd76ydb68xwbjmx4zyxgvnar858fdncr",
+    "title": "Semaglutide, GLP-1 Weight Loss Claims and Safety Debate",
+    "window": "2026-06-01..2026-08-31",
+    "platforms": [
+      "twitter",
+      "youtube"
+    ],
+    "posts": 5600
+  },
+  "pulledAt": "2026-10-14",
+  "claims": [
+    {
+      "id": "semaglutide-jun26-1",
+      "text": "Doctors prescribed 1.5 liters of Diet Coke to dissolve a stomach mass in a woman caused by the weight-loss drug semaglutide",
+      "sectionId": "side-effects",
+      "label": "gap",
+      "why": "Side effects lists gastrointestinal effects and gastroparesis but nothing on bezoars or gastric masses.",
+      "author": "Polymarket",
+      "platform": "twitter",
+      "postUrl": "https://x.com/Polymarket/status/2076702503370953075",
+      "postDate": "2026-07-13",
+      "interactions": 4200000,
+      "verification": "Reported by 3 sources · 3 support",
+      "sourceUrls": [
+        "https://www.livescience.com/health/diagnostic-dilemma-huge-mass-in-womans-stomach-was-likely-caused-by-ozempic-style-drug-and-dissolved-with-diet-soda"
+      ],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-2",
+      "text": "Vivani Medical co-founder and CEO Adam Mendelsohn said the company is launching the first-in-human Phase 1 \"SLIM-1\" trial for its semaglutide implant",
+      "sectionId": "research",
+      "label": "gap",
+      "why": "Research section covers liver, cancer, eye and heart findings but no implantable semaglutide or SLIM-1 trial.",
+      "author": "ST_BoardroomX",
+      "platform": "twitter",
+      "postUrl": "https://x.com/ST_BoardroomX/status/2081756970567049267",
+      "postDate": "2026-07-27",
+      "interactions": 1200000,
+      "verification": "No source states this claim",
+      "sourceUrls": [],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-3",
+      "text": "Laboratory testing found the vial labeled \"semaglutide\" contained zero semaglutide, and the substance detected did not match any peptide or small molecule in the lab's reference library",
+      "sectionId": "counterfeits",
+      "label": "gap",
+      "why": "Counterfeits covers fake pens; it says nothing about online sellers shipping vials that test as containing no semaglutide.",
+      "author": "w_terrence",
+      "platform": "twitter",
+      "postUrl": "https://x.com/w_terrence/status/2087265684229079285",
+      "postDate": "2026-08-11",
+      "interactions": 881700,
+      "verification": "No source states this claim (2 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-4",
+      "text": "Per a 2025 Gallup survey, 12.4 percent of people nationwide said they were using semaglutide drugs",
+      "sectionId": "cost-coverage-and-supply",
+      "label": "gap",
+      "why": "Cost, coverage and supply discusses demand and shortages but gives no survey figure on population use.",
+      "author": "NYMag",
+      "platform": "twitter",
+      "postUrl": "https://x.com/NYMag/status/2066887879239086421",
+      "postDate": "2026-06-16",
+      "interactions": 488100,
+      "verification": "No source states this claim (1 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-5",
+      "text": "GLP-1s have been shown in studies to lower blood pressure, improve blood sugar regulation, and reduce lipid levels and inflammatory markers",
+      "sectionId": "research",
+      "label": "gap",
+      "why": "Article notes glucagon suppression and weight loss but not effects on blood pressure, lipids or inflammatory markers.",
+      "author": "bryan_johnson",
+      "platform": "twitter",
+      "postUrl": "https://x.com/bryan_johnson/status/2079987669594214556",
+      "postDate": "2026-07-22",
+      "interactions": 479000,
+      "verification": "Reported by 1 source · 1 support",
+      "sourceUrls": [
+        "https://ubiehealth.com/doctors-note/zepbound-vs-wegovy-glp1-black-women-over40-drnote773q1"
+      ],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-6",
+      "text": "In a large observational study, semaglutide was associated with a 21% lower risk for psychiatric hospitalization and a 17% lower risk for hospitalization for bipolar disorder relapse in patients with bipolar disorder and diabetes and/or obesity",
+      "sectionId": "research",
+      "label": "gap",
+      "why": "Research covers suicidality reviews but nothing on psychiatric hospitalization or bipolar disorder outcomes.",
+      "author": "Medscape",
+      "platform": "twitter",
+      "postUrl": "https://x.com/Medscape/status/2093503940310495355",
+      "postDate": "2026-08-29",
+      "interactions": 214500,
+      "verification": "No source states this claim (3 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-7",
+      "text": "Neither liraglutide nor dulaglutide was associated with a significant reduction in psychiatric hospitalization, although the investigators noted that fewer users of these drugs may have limited the analyses",
+      "sectionId": "research",
+      "label": "gap",
+      "why": "Research section says nothing about the bipolar disorder study or its liraglutide and dulaglutide comparisons.",
+      "author": "Medscape",
+      "platform": "twitter",
+      "postUrl": "https://x.com/Medscape/status/2093503940310495355",
+      "postDate": "2026-08-29",
+      "interactions": 214500,
+      "verification": "No source states this claim (7 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-8",
+      "text": "Study investigator Mark Taylor, MD, professor at the School of Medicine and Dentistry, Griffith University, Gold Coast, Australia, said the findings raise the possibility that GLP-1 medications could eventually be used as an adjunct to mood stabilizers in patients with bipolar disorder and obesity or type 2 diabetes",
+      "sectionId": "research",
+      "label": "gap",
+      "why": "Research section does not mention GLP-1 drugs as a possible adjunct to mood stabilizers.",
+      "author": "Medscape",
+      "platform": "twitter",
+      "postUrl": "https://x.com/Medscape/status/2093503940310495355",
+      "postDate": "2026-08-29",
+      "interactions": 214500,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://www.breastcancer.org/news/glp-1s-brain-mets"
+      ],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-9",
+      "text": "When GLP-1 receptor agonists were evaluated as a group, their use was associated with a lower psychiatric hospitalization risk in patients with bipolar disorder and diabetes and/or obesity",
+      "sectionId": "research",
+      "label": "gap",
+      "why": "Research section has no finding on psychiatric hospitalization risk for GLP-1 receptor agonists as a class.",
+      "author": "Medscape",
+      "platform": "twitter",
+      "postUrl": "https://x.com/Medscape/status/2093503940310495355",
+      "postDate": "2026-08-29",
+      "interactions": 214500,
+      "verification": "No source states this claim (4 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-10",
+      "text": "John Eng, a doctor at a Veterans Affairs hospital in the Bronx, discovered the molecule exendin-4 in Gila monster venom in 1992",
+      "sectionId": "history",
+      "label": "gap",
+      "why": "History credits Holst, Habener and Drucker for GLP-1 work but does not mention John Eng or exendin-4.",
+      "author": "MillieMarconnni",
+      "platform": "twitter",
+      "postUrl": "https://x.com/MillieMarconnni/status/2093630254468460922",
+      "postDate": "2026-08-29",
+      "interactions": 202000,
+      "verification": "Reported by 1 source · 1 support",
+      "sourceUrls": [
+        "https://formblends.com/articles/glp1-hub/is-ozempic-made-from-venom"
+      ],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-11",
+      "text": "The FDA approved Byetta, the first GLP-1 based drug, in 2005",
+      "sectionId": "history",
+      "label": "gap",
+      "why": "History covers GLP-1 discovery and Novo Nordisk development but not Byetta as the first GLP-1 drug in 2005.",
+      "author": "MillieMarconnni",
+      "platform": "twitter",
+      "postUrl": "https://x.com/MillieMarconnni/status/2093630254468460922",
+      "postDate": "2026-08-29",
+      "interactions": 202000,
+      "verification": "No source states this claim (4 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-12",
+      "text": "The GLP-1 drug family including Ozempic and Wegovy generated over 48 billion USD in sales in 2025 and became the best-selling prescription medicine on the planet",
+      "sectionId": "economics",
+      "label": "gap",
+      "why": "Economics notes top US sales in 2023 with no figure; nothing on 2025 global GLP-1 sales.",
+      "author": "MillieMarconnni",
+      "platform": "twitter",
+      "postUrl": "https://x.com/MillieMarconnni/status/2093630254468460922",
+      "postDate": "2026-08-29",
+      "interactions": 202000,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://www.uncmedicalcenter.org/app/files/public/1605f550-d2d0-436b-bc82-0172fa108a3f/pdf-Rehabilitation-Rosen-Review-on-GLP1-RAs-Article-Notes.pdf"
+      ],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-13",
+      "text": "The SELECT trial data proves Ozempic (semaglutide) has benefits beyond weight loss for patients with existing heart disease",
+      "sectionId": "trials-for-cardiovascular-health",
+      "label": "covered",
+      "why": "Section reports SELECT showing fewer major cardiovascular events with semaglutide in people with cardiovascular disease.",
+      "author": "MohammedAlo",
+      "platform": "twitter",
+      "postUrl": "https://x.com/MohammedAlo/status/2077930261568745753",
+      "postDate": "2026-07-17",
+      "interactions": 170100,
+      "verification": "Reported by 1 source · 1 support",
+      "sourceUrls": [
+        "https://www.foundmyfitness.com/stories/i2ufw4"
+      ],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-14",
+      "text": "The SELECT trial of semaglutide (Ozempic) enrolled 17,604 people without diabetes, all overweight or obese with existing heart disease",
+      "sectionId": "trials-for-cardiovascular-health",
+      "label": "covered",
+      "why": "Section states 17,604 overweight or obese participants with cardiovascular disease; it does not say they lacked diabetes.",
+      "author": "MohammedAlo",
+      "platform": "twitter",
+      "postUrl": "https://x.com/MohammedAlo/status/2077930261568745753",
+      "postDate": "2026-07-17",
+      "interactions": 170100,
+      "verification": "Reported by 2 sources · 2 support",
+      "sourceUrls": [
+        "https://www.cidrap.umn.edu/covid-19/weight-loss-drug-tied-lower-risk-death-covid-heart-disease-all-causes"
+      ],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    },
+    {
+      "id": "semaglutide-jun26-15",
+      "text": "TOFA worked even better when combined with semaglutide or tirzepatide",
+      "sectionId": "research",
+      "label": "gap",
+      "why": "Research does not mention TOFA or any preclinical work combining other compounds with semaglutide.",
+      "author": "kimmonismus",
+      "platform": "twitter",
+      "postUrl": "https://x.com/kimmonismus/status/2092997958975328374",
+      "postDate": "2026-08-27",
+      "interactions": 141800,
+      "verification": "Reported by 2 sources · 2 support",
+      "sourceUrls": [
+        "https://www.sci.news/medicine/tofa-obesity-15011.html"
+      ],
+      "question": "What claims are people making about semaglutide and Ozempic side effects?"
+    }
+  ]
+}

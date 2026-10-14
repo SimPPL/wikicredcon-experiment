@@ -6,6 +6,12 @@
  *
  * Usage:
  *   npx tsx scripts/fetch-articles.ts
+ *   npx tsx scripts/fetch-articles.ts --window <revisions.json> --suffix jun26
+ *
+ * --window reads the output of resolve-revisions.mjs and pins BOTH snapshots
+ * to revision ids, writing <slug>-<suffix>-past.json / -current.json. Without
+ * it the "current" snapshot is whatever is live today, which drifts past the
+ * end of the social-media window.
  *
  * Requires Node 18+ (uses built-in fetch).
  */
@@ -416,6 +422,8 @@ function parseIntoSections(wikitext: string, articleId: string): ArticleSection[
   }
 
   // Remaining sections
+  const usedIds = new Set<string>();
+  let parentSlug = '';
   for (let i = 0; i < rawSections.length; i++) {
     const raw = rawSections[i];
     // Content ends at the start of the NEXT heading (not after it)
@@ -434,7 +442,13 @@ function parseIntoSections(wikitext: string, articleId: string): ArticleSection[
 
     if (!content.trim()) continue;
 
-    const sectionId = slugify(raw.title) || `section-${i}`;
+    // Titles repeat under different parents (Semaglutide has three "United
+    // States" subsections), so a repeat takes its parent's slug as a prefix.
+    if (raw.level <= 2) parentSlug = slugify(raw.title);
+    let sectionId = slugify(raw.title) || `section-${i}`;
+    if (usedIds.has(sectionId)) sectionId = `${parentSlug}-${sectionId}`;
+    for (let k = 2; usedIds.has(sectionId); k++) sectionId = `${slugify(raw.title)}-${k}`;
+    usedIds.add(sectionId);
 
     sections.push({
       id: sectionId,
@@ -479,7 +493,43 @@ async function processArticle(
   return article;
 }
 
+async function fetchPinned(
+  id: string,
+  revId: string,
+  date: string,
+): Promise<Article> {
+  const result = await fetchWikitext({ oldid: revId });
+  const sections = parseIntoSections(result.wikitext, id);
+  console.log(`    -> ${sections.length} sections parsed (rev ${revId}, ${date})`);
+  return { id, title: result.title, revisionDate: date, revisionId: String(result.revid), sections };
+}
+
+async function mainWindow(windowPath: string, suffix: string) {
+  const { readFileSync } = await import('node:fs');
+  const win = JSON.parse(readFileSync(windowPath, 'utf8')) as {
+    rows: { title: string; olderRevId: string; olderDate: string; newerRevId: string; newerDate: string }[];
+  };
+  mkdirSync(OUTPUT_DIR, { recursive: true });
+  for (const row of win.rows) {
+    const id = `${row.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-${suffix}`;
+    console.log(`Processing: ${row.title} -> ${id}`);
+    for (const [variant, revId, date] of [
+      ['past', row.olderRevId, row.olderDate],
+      ['current', row.newerRevId, row.newerDate],
+    ] as const) {
+      const article = await fetchPinned(id, revId, date);
+      writeFileSync(join(OUTPUT_DIR, `${id}-${variant}.json`), JSON.stringify(article, null, 2));
+      await sleep(1000);
+    }
+  }
+}
+
 async function main() {
+  const wi = process.argv.indexOf('--window');
+  if (wi !== -1) {
+    const si = process.argv.indexOf('--suffix');
+    return mainWindow(process.argv[wi + 1], si !== -1 ? process.argv[si + 1] : 'pinned');
+  }
   mkdirSync(OUTPUT_DIR, { recursive: true });
   console.log(`Output directory: ${OUTPUT_DIR}\n`);
 
