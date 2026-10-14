@@ -83,3 +83,39 @@ test('phone width: claims sheet and finish reachable', async ({ page }) => {
   await expect(page.getByTestId('claim-list')).toBeVisible();
   await shot(page, 'edit-390-sheet');
 });
+
+// The local dev server has no database, so this stands in for /api/persist to
+// prove the client sends the run and reports a read-back save. The real write
+// path is covered by running this same spec with BASE_URL at the deployment.
+test('results report a confirmed server save when the store answers', async ({ page }) => {
+  test.skip(!!process.env.BASE_URL, 'mock only applies locally');
+  const stored: Record<string, unknown> = {};
+  await page.route('**/api/persist**', async (route) => {
+    const req = route.request();
+    if (req.method() === 'POST') {
+      const { participantId, data } = req.postDataJSON();
+      stored[participantId] = data;
+      return route.fulfill({ json: { success: true } });
+    }
+    const id = new URL(req.url()).searchParams.get('id');
+    if (id) return route.fulfill(stored[id] ? { json: { participant_id: id, updated_at: new Date().toISOString() } } : { status: 404, json: {} });
+    return route.fulfill({ json: Object.entries(stored).map(([participant_id, data]) => ({ participant_id, data, updated_at: new Date().toISOString() })) });
+  });
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto(`${BASE}/try/${index[0].id}`);
+  await expect(page.getByTestId('finish')).toBeVisible({ timeout: 20000 });
+  await page.getByTestId('finish').click();
+  await page.waitForURL('**/try/results?run=*');
+  await expect(page.getByTestId('server-status')).toContainText('Saved on the server', { timeout: 15000 });
+  const sent = Object.values(stored)[0] as { kind: string; articleId: string };
+  expect(sent.kind).toBe('self-serve-run');
+  expect(sent.articleId).toBe(index[0].id);
+  await shot(page, 'results-saved-1440');
+
+  await page.goto(`${BASE}/try/runs`);
+  await page.getByPlaceholder('Username').fill('admin');
+  await page.getByPlaceholder('Password').fill('demo');
+  await page.getByRole('button', { name: 'Sign in' }).click();
+  await expect(page.getByTestId('runs-count')).toContainText('1 on server');
+  await shot(page, 'runs-1440');
+});

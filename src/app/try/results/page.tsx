@@ -76,7 +76,9 @@ function Results() {
         ? 'removed or renamed'
         : r.wikipediaMinor
           ? 'minor wording'
-          : `rewritten, ${r.wikipediaWordsDelta >= 0 ? '+' : ''}${r.wikipediaWordsDelta} words`;
+          : r.wikipediaWordsDelta === 0
+            ? 'reworded, same length'
+            : `rewritten, ${r.wikipediaWordsDelta > 0 ? '+' : ''}${r.wikipediaWordsDelta} words`;
   const claimText = new Map(claims.map((c) => [c.id, c.text]));
   const exportJSON = () =>
     download(`editbetter-${run.runId}.json`, JSON.stringify({ run, summary, sections: sections.filter((s) => s.youChanged) }, null, 2), 'application/json');

@@ -159,3 +159,21 @@ storytelling, wrong register for an editor tool); `hugo-book-flex-three-pane`
   people may still edit them.
 - Pick screen at 1440: header 56px, intro 2 lines, one row of four 320×260
   cards, all above 500px; fits with room to spare.
+
+## 8. Facilitator runs table (moved from Later to Now, 2026-10-14)
+
+Task, in Swapneel's words: "Show me every run people did on their own, from
+the server, and let me download them all." Data: one row per server record
+with `data.kind = self-serve-run`; tens of rows at a workshop.
+
+```
+┌──────────────────────────────────────────────────────────────────────────┐
+│ Self-serve runs · 23 on server · fetched 16:40   [Download CSV] [JSON]   │ 56
+├──────────────────────────────────────────────────────────────────────────┤
+│ run id │ article │ finished │ min │ sections │ +words │ claims used │ ▸ │ table scrolls in box
+│ …                                                                        │
+└──────────────────────────────────────────────────────────────────────────┘
+```
+Same admin login as /admin. Words ≈ 40 plus rows; actions: Download CSV,
+Download JSON, open a run. Not separately read by a fresh reader: it is
+one table with no decision beyond "download".

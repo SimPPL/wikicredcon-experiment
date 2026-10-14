@@ -162,7 +162,7 @@ export default function TryEditPage() {
     ([id, text]) => text !== article.sections.find((s) => s.id === id)?.content,
   ).length;
   const usedCount = Object.values(run.marks).filter((m) => m.state === 'used').length;
-  const ms = now - run.startedAt;
+  const ms = Math.max(0, now - run.startedAt);
   const snapshot = new Date(article.revisionDate + 'T00:00:00Z').toLocaleDateString('en-GB', {
     day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC',
   });
