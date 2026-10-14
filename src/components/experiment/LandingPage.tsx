@@ -41,6 +41,11 @@ export default function LandingPage({ onStart }: LandingPageProps) {
           <p className="text-sm mt-4" style={{ color: '#72777d' }}>
             ~25 minutes &middot; No account needed &middot; See your editing insights at the end
           </p>
+          <p className="text-sm mt-2">
+            <a href="/try" style={{ color: '#3366cc' }} data-testid="try-link">
+              Or try one article on your own, with downloadable results →
+            </a>
+          </p>
         </div>
       </div>
 

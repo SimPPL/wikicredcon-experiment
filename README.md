@@ -10,6 +10,18 @@ Part of the funds will be used to support sourcing social media claims from Meta
 
 
 
+## Trying it on your own (`/try`)
+
+Anyone can open `/try`, pick one of the articles, and edit it beside the claims people made about its subject on X and YouTube between June and August 2026. Each article opens at the revision live on about 1 June 2026. When you press Finish, the results page shows your changes next to what Wikipedia's editors did by the end of August, and you can download them as JSON or CSV.
+
+Finish also sends the run to `/api/persist` under an id starting `self_`, then reads it back. The results page says "Saved on the server" only when that read-back finds the row. If the database is down, the page says so, and the run stays in the browser for download.
+
+Facilitators see every stored run at `/try/runs` (same login as `/admin`), with CSV and JSON export of the whole set.
+
+The claims come from the Claims tab of four Arbiter studies, pulled through the browser on 2026-10-14 and labeled section by section against the June revision. The raw captures, labels and notes live in the workshop repo under `scratchpad/arbiter-claims-2026-10-14/`. Rebuild the sidebar files with `python3 scripts/build_selfserve_claims.py`, and re-pin both snapshots with `npx tsx scripts/fetch-articles.ts --window <revisions.json> --suffix jun26`.
+
+Run `npx playwright test tests/selfserve.spec.ts` against a dev server on port 3001 to check the whole path at desktop and phone widths.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

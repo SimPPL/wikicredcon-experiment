@@ -7,5 +7,14 @@
     "byteDelta": 14795,
     "claimCount": 40,
     "blurb": "Weight-loss drugs drew viral side-effect stories, counterfeit vials and new trial results. Wikipedia added thirteen sections over the summer."
+  },
+  {
+    "id": "openai-jun26",
+    "title": "OpenAI",
+    "pastDate": "2026-05-30",
+    "currentDate": "2026-09-01",
+    "byteDelta": 6697,
+    "claimCount": 48,
+    "blurb": "An agent-containment incident, Apple's trade-secret suit, a first in-house chip and the end of the Cursor deal, none of it in the June article."
   }
 ]

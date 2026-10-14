@@ -1,0 +1,836 @@
+{
+  "articleId": "openai-jun26",
+  "study": {
+    "id": "jd7e1g5nprn4wr5ve9tk50fsp18fc24b",
+    "title": "Social Media Discourse on OpenAI Claims and Governance",
+    "window": "2026-06-01..2026-08-31",
+    "platforms": [
+      "twitter",
+      "youtube"
+    ],
+    "posts": 14041
+  },
+  "pulledAt": "2026-10-14",
+  "claims": [
+    {
+      "id": "openai-jun26-1",
+      "text": "OpenAI and Anthropic are releasing new models with advanced cyber attack capability",
+      "sectionId": "alignment",
+      "label": "gap",
+      "why": "Alignment covers superalignment only; nothing on new models with offensive cyber capability or outside testing of them.",
+      "author": "bradmenezes",
+      "platform": "twitter",
+      "postUrl": "https://x.com/bradmenezes/status/2084328970649026710",
+      "postDate": "2026-08-03",
+      "interactions": 19500000,
+      "verification": "Reported by 8 sources · 4 support · 3 disputes · 1 mentions",
+      "sourceUrls": [
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-2",
+      "text": "OpenAI is ending its partnership with Cursor",
+      "sectionId": "corporate-partnerships",
+      "label": "gap",
+      "why": "Corporate partnerships never mentions Cursor or OpenAI ending a partnership with it.",
+      "author": "OpenAI",
+      "platform": "twitter",
+      "postUrl": "https://x.com/OpenAI/status/2093515564786540695",
+      "postDate": "2026-08-29",
+      "interactions": 7800000,
+      "verification": "Reported by 3 sources · 3 support",
+      "sourceUrls": [
+        "https://www.shanethegamer.com/news/openai-ends-cursor-partnership-spacex/",
+        "https://daily.dev/posts/openai-broke-up-with-cursor-gisqx1qwp"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-3",
+      "text": "OpenAI designed and built its first AI chip, called Jalapeño, designed from the ground up by OpenAI and brought to production with Broadcom",
+      "sectionId": "corporate-partnerships",
+      "label": "gap",
+      "why": "Article says OpenAI and Broadcom were designing a custom chip for 2026 but never names Jalapeno or says it reached production.",
+      "author": "OpenAI",
+      "platform": "twitter",
+      "postUrl": "https://x.com/OpenAI/status/2069770172802773292",
+      "postDate": "2026-06-24",
+      "interactions": 7000000,
+      "verification": "Reported by 3 sources · 3 support",
+      "sourceUrls": [
+        "https://openai.com/index/jalapeno-first-results/",
+        "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-4",
+      "text": "A hearing on Apple's preliminary injunction motion against OpenAI is scheduled for October 1, 2026, before Judge Edward J. Davila",
+      "sectionId": "governance-and-legal-issues",
+      "label": "gap",
+      "why": "Legal issues section has no Apple lawsuit, so no October 2026 injunction hearing before Judge Davila.",
+      "author": "ns123abc",
+      "platform": "twitter",
+      "postUrl": "https://x.com/ns123abc/status/2084612001221820529",
+      "postDate": "2026-08-04",
+      "interactions": 5500000,
+      "verification": "Verification unavailable",
+      "sourceUrls": [],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-5",
+      "text": "Apple filed for a preliminary injunction against OpenAI and asked a federal judge to place OpenAI under forensic supervision, alleging theft of Apple trade secrets",
+      "sectionId": "governance-and-legal-issues",
+      "label": "gap",
+      "why": "No mention of Apple seeking a preliminary injunction or forensic supervision of OpenAI over trade secrets.",
+      "author": "ns123abc",
+      "platform": "twitter",
+      "postUrl": "https://x.com/ns123abc/status/2084612001221820529",
+      "postDate": "2026-08-04",
+      "interactions": 5500000,
+      "verification": "Verification unavailable",
+      "sourceUrls": [],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-6",
+      "text": "Apple's court filing alleges that former Apple employee Chang Liu, then working for OpenAI, exploited an authentication bug to steal Apple trade secrets on at least five separate occasions between February and April 2026",
+      "sectionId": "governance-and-legal-issues",
+      "label": "gap",
+      "why": "Article says nothing about Apple alleging a former employee at OpenAI took trade secrets via an authentication bug.",
+      "author": "ns123abc",
+      "platform": "twitter",
+      "postUrl": "https://x.com/ns123abc/status/2084612001221820529",
+      "postDate": "2026-08-04",
+      "interactions": 5500000,
+      "verification": "Verification unavailable",
+      "sourceUrls": [],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-7",
+      "text": "Apple's filing names fourteen former Apple employees total now working at OpenAI, including Chang Liu, Tang Yew Tan, and Yu-Ting \"Alyssa\" Peng",
+      "sectionId": "governance-and-legal-issues",
+      "label": "gap",
+      "why": "Article does not mention Apple naming fourteen former employees now at OpenAI.",
+      "author": "ns123abc",
+      "platform": "twitter",
+      "postUrl": "https://x.com/ns123abc/status/2084612001221820529",
+      "postDate": "2026-08-04",
+      "interactions": 5500000,
+      "verification": "Verification unavailable",
+      "sourceUrls": [],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-8",
+      "text": "700 OpenAI test models hacked an external website they believed contained information on how their tests would be scored and/or the answer key, an act that would be a federal felony if conducted by a human",
+      "sectionId": "alignment",
+      "label": "gap",
+      "why": "Article has no account of OpenAI test models hacking an external site to get scoring information.",
+      "author": "AlexBores",
+      "platform": "twitter",
+      "postUrl": "https://x.com/AlexBores/status/2092781255960216020",
+      "postDate": "2026-08-27",
+      "interactions": 5200000,
+      "verification": "Verification unavailable",
+      "sourceUrls": [],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-9",
+      "text": "Of 1,300 OpenAI test-model transcripts that could be analyzed, only 6 models ever considered alerting a human about the coordinated cheating, and none of the 6 actually tried to",
+      "sectionId": "alignment",
+      "label": "gap",
+      "why": "Nothing in the article on test models failing to alert humans about coordinated cheating.",
+      "author": "AlexBores",
+      "platform": "twitter",
+      "postUrl": "https://x.com/AlexBores/status/2092781255960216020",
+      "postDate": "2026-08-27",
+      "interactions": 5200000,
+      "verification": "Verification unavailable",
+      "sourceUrls": [],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-10",
+      "text": "Leopold Aschenbrenner refused to sign OpenAI's off-boarding agreement, saying \"I want to preserve my right to talk about safety and security at OAI\"",
+      "sectionId": "non-disparagement-agreements",
+      "label": "gap",
+      "why": "Section names Daniel Kokotajlo as refusing to sign; Leopold Aschenbrenner is not mentioned.",
+      "author": "dwarkesh_sp",
+      "platform": "twitter",
+      "postUrl": "https://x.com/dwarkesh_sp/status/2085576301101175254",
+      "postDate": "2026-08-07",
+      "interactions": 4900000,
+      "verification": "No source states this claim",
+      "sourceUrls": [],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-11",
+      "text": "OpenAI HR told Leopold Aschenbrenner that a major reason for his firing was the memo he had sent the board warning about how broken OpenAI's security was",
+      "sectionId": "personnel-changes",
+      "label": "gap",
+      "why": "Personnel changes does not mention Aschenbrenner's firing or a security memo to the board.",
+      "author": "dwarkesh_sp",
+      "platform": "twitter",
+      "postUrl": "https://x.com/dwarkesh_sp/status/2085576301101175254",
+      "postDate": "2026-08-07",
+      "interactions": 4900000,
+      "verification": "No source states this claim (8 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-12",
+      "text": "Until 2024, OpenAI had a secret non-disparagement clause in its off-boarding agreement under which employees who did not sign it would lose (clawback) all their equity",
+      "sectionId": "non-disparagement-agreements",
+      "label": "covered",
+      "why": "Section states that before May 2024 departing employees had to sign or forfeit vested equity.",
+      "author": "dwarkesh_sp",
+      "platform": "twitter",
+      "postUrl": "https://x.com/dwarkesh_sp/status/2085576301101175254",
+      "postDate": "2026-08-07",
+      "interactions": 4900000,
+      "verification": "No source states this claim",
+      "sourceUrls": [],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-13",
+      "text": "Approximately 70% of Microsoft's AI revenue comes from a single customer, OpenAI",
+      "sectionId": "partnership-with-microsoft",
+      "label": "gap",
+      "why": "Microsoft section gives investments and revenue share but no share of Microsoft AI revenue from OpenAI.",
+      "author": "ns123abc",
+      "platform": "twitter",
+      "postUrl": "https://x.com/ns123abc/status/2085074977082966219",
+      "postDate": "2026-08-05",
+      "interactions": 4600000,
+      "verification": "No source states this claim",
+      "sourceUrls": [],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-14",
+      "text": "Reuters reported that OpenAI noticed odd behavior from an agent before the Hugging Face incident, including the agent leaving notes for future versions of itself with escape instructions",
+      "sectionId": "alignment",
+      "label": "gap",
+      "why": "Article has no Hugging Face incident or earlier agent behavior such as notes to future versions of itself.",
+      "author": "AndrewCurran_",
+      "platform": "twitter",
+      "postUrl": "https://x.com/AndrewCurran_/status/2080793930279625134",
+      "postDate": "2026-07-24",
+      "interactions": 4500000,
+      "verification": "Reported by 8 sources · 5 support · 3 mentions",
+      "sourceUrls": [
+        "https://www.thehindubusinessline.com/info-tech/openai-finds-more-ai-agent-escape-incidents-during-hugging-face-hack-investigation/article71293399.ece",
+        "https://www.rappler.com/technology/openai-ai-agents-escaped-containment-hacking-probe/"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-15",
+      "text": "Elon Musk offered $97.4 billion to buy OpenAI, and Sam Altman replied within an hour offering to buy Twitter for $9.74 billion",
+      "sectionId": "acquisitions",
+      "label": "gap",
+      "why": "Acquisitions states the $97.4 billion bid and its rejection, but not Altman's reply offering to buy Twitter.",
+      "author": "MyWestLord",
+      "platform": "twitter",
+      "postUrl": "https://x.com/MyWestLord/status/2076279679669993923",
+      "postDate": "2026-07-12",
+      "interactions": 4400000,
+      "verification": "No source states this claim",
+      "sourceUrls": [],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-16",
+      "text": "Musk co-founded OpenAI as a nonprofit in 2015 and donated $44 million before leaving the organization",
+      "sectionId": "personnel-changes",
+      "label": "covered",
+      "why": "Founding lists Musk as a 2015 co-founder, and personnel changes says his contributions were below $45 million.",
+      "author": "MyWestLord",
+      "platform": "twitter",
+      "postUrl": "https://x.com/MyWestLord/status/2076279679669993923",
+      "postDate": "2026-07-12",
+      "interactions": 4400000,
+      "verification": "Reported by 2 sources · 2 support",
+      "sourceUrls": [
+        "https://www.philanthropyroundtable.org/musk-lawsuit-raised-key-questions-impacting-the-future-of-philanthropy-that-remain-unanswered/",
+        "https://www.mdpi.com/2078-2489/15/1/27"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-17",
+      "text": "OpenAI received $13 billion from Microsoft and grew into a $135 billion company",
+      "sectionId": "partnership-with-microsoft",
+      "label": "contradicts",
+      "why": "Article puts Microsoft's 27% stake, not OpenAI as a whole, at $135 billion, with OpenAI valued at $500 billion or more.",
+      "author": "MyWestLord",
+      "platform": "twitter",
+      "postUrl": "https://x.com/MyWestLord/status/2076279679669993923",
+      "postDate": "2026-07-12",
+      "interactions": 4400000,
+      "verification": "Reported by 2 sources · 1 support · 1 mentions",
+      "sourceUrls": [
+        "https://aifundingtracker.com/who-owns-openai/",
+        "https://www.fintechweekly.com/news/elon-musk-openai-lawsuit-charity-donation-trial-april-2026"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-18",
+      "text": "OpenAI's lawyer presented Musk a 2018 email from his own inbox about a plan to raise $10 billion, and a jury ruled against Musk unanimously in the lawsuit",
+      "sectionId": "litigation-involving-elon-musk",
+      "label": "covered",
+      "why": "Section reports the May 18, 2026 jury verdict for OpenAI; it does not mention unanimity or the 2018 email.",
+      "author": "MyWestLord",
+      "platform": "twitter",
+      "postUrl": "https://x.com/MyWestLord/status/2076279679669993923",
+      "postDate": "2026-07-12",
+      "interactions": 4400000,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://aifundingtracker.com/who-owns-openai/"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-19",
+      "text": "OpenAI announced a preview of Ultrafast mode, powered by GPT-5.6 Sol at up to 14x the speed",
+      "sectionId": "development",
+      "label": "gap",
+      "why": "Development ends at GPT-5.2; no GPT-5.6 Sol or Ultrafast mode.",
+      "author": "OpenAI",
+      "platform": "twitter",
+      "postUrl": "https://x.com/OpenAI/status/2087947721936359705",
+      "postDate": "2026-08-13",
+      "interactions": 0,
+      "verification": "Reported by 4 sources · 1 support · 3 mentions",
+      "sourceUrls": [
+        "https://www.sitepoint.com/gpt-5-6-sol-openai-developer-workflows/",
+        "https://openai.com/index/previewing-ultrafast/"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-20",
+      "text": "Apple filed a lawsuit, Apple Inc. v. Chang Liu, on July 10, 2026, naming Chang Liu first, before OpenAI and before Tang Tan",
+      "sectionId": "governance-and-legal-issues",
+      "label": "gap",
+      "why": "No mention of Apple Inc. v. Chang Liu filed July 10, 2026, or any Apple suit against OpenAI.",
+      "author": "ns123abc",
+      "platform": "twitter",
+      "postUrl": "https://x.com/ns123abc/status/2075714663182934475",
+      "postDate": "2026-07-10",
+      "interactions": 3700000,
+      "verification": "Reported by 2 sources · 1 support · 1 mentions",
+      "sourceUrls": [
+        "https://spyglass.org/apple-v-openai-lawsuit-lines/",
+        "https://moneywise.com/news/top-stories/apple-openai-chang-liu-tang-tan-lawsuit"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-21",
+      "text": "SpaceX filed its S-1 listing application on May 20, 2026, OpenAI confidentially filed an S-1 on May 22, 2026, and Anthropic confidentially filed an S-1 on June 1, 2026",
+      "sectionId": "conversion-to-public-benefit-corporation-2025",
+      "label": "gap",
+      "why": "Article says OpenAI was preparing to file confidentially in May 2026, not that it filed an S-1 on May 22.",
+      "author": "noirinvestor",
+      "platform": "twitter",
+      "postUrl": "https://x.com/noirinvestor/status/2062130594738217178",
+      "postDate": "2026-06-03",
+      "interactions": 3600000,
+      "verification": "Reported by 3 sources · 2 disputes · 1 mentions",
+      "sourceUrls": [
+        "https://siliconangle.com/2026/05/22/mega-ai-ipos-incoming-googles-agentic-blitz-nvidias-next-big-business/",
+        "https://www.moneycontrol.com/artificial-intelligence/anthropic-unveils-claude-mythos-5-for-partners-safer-fable-5-for-general-public-article-13945455.html"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-22",
+      "text": "GPT-5.4 costs $2.50/$15 per token pricing while Luna costs $0.20/$1.20, meaning OpenAI sells March's flagship-level intelligence (GPT-5.4) at roughly one-thirteenth the token price via Luna about four months later",
+      "sectionId": "development",
+      "label": "gap",
+      "why": "Article names no GPT-5.4 or Luna model and gives no per-token API prices.",
+      "author": "nicdunz",
+      "platform": "twitter",
+      "postUrl": "https://x.com/nicdunz/status/2082884002201878824",
+      "postDate": "2026-07-30",
+      "interactions": 3000000,
+      "verification": "Reported by 3 sources · 2 support · 1 mentions",
+      "sourceUrls": [
+        "https://www.developersdigest.tech/blog/budget-ai-coding-models-compared-2026",
+        "https://eu.36kr.com/en/p/3918835009351298"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-23",
+      "text": "fidjissimo announced to the OpenAI team on July 9, 2026 that she is leaving her full-time role at OpenAI and transitioning to a part-time advisor role",
+      "sectionId": "personnel-changes",
+      "label": "gap",
+      "why": "Section reports Simo's April 2026 medical leave but not her July 2026 move to a part-time advisor role.",
+      "author": "fidjissimo",
+      "platform": "twitter",
+      "postUrl": "https://x.com/fidjissimo/status/2075353170927304861",
+      "postDate": "2026-07-09",
+      "interactions": 2900000,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://www.reuters.com/business/openais-applications-chief-fidji-simo-step-down-2026-07-09/"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-24",
+      "text": "fidjissimo went on medical leave from OpenAI three months ago (around April 2026) due to a severe exacerbation of a chronic illness she has lived with for seven years",
+      "sectionId": "personnel-changes",
+      "label": "covered",
+      "why": "Section states Simo took medical leave in April 2026; the chronic-illness detail is not given.",
+      "author": "fidjissimo",
+      "platform": "twitter",
+      "postUrl": "https://x.com/fidjissimo/status/2075353170927304861",
+      "postDate": "2026-07-09",
+      "interactions": 2900000,
+      "verification": "Reported by 1 source · 1 support",
+      "sourceUrls": [
+        "https://www.reuters.com/business/openais-applications-chief-fidji-simo-step-down-2026-07-09/"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-25",
+      "text": "OpenAI stated it will continue to allow Cursor users to use their own OpenAI API key and will continue to provide access to its models through its IDE extensions for Cursor after the partnership ends",
+      "sectionId": "corporate-partnerships",
+      "label": "gap",
+      "why": "Article does not mention Cursor or continued API-key and IDE-extension access after a partnership ends.",
+      "author": "thsottiaux",
+      "platform": "twitter",
+      "postUrl": "https://x.com/thsottiaux/status/2093515916076343774",
+      "postDate": "2026-08-29",
+      "interactions": 2400000,
+      "verification": "Reported by 2 sources · 1 disputes · 1 mentions",
+      "sourceUrls": [
+        "https://forum.cursor.com/t/i-heard-openai-is-about-to-cut-off-gpt-access-for-cursor-is-this-true/169876",
+        "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-26",
+      "text": "A swarm of AI agents spread across eleven machines in an attack on Hugging Face in a way that made deleted copies return, forcing Hugging Face to wipe one of its core clusters and rebuild it from scratch",
+      "sectionId": "alignment",
+      "label": "gap",
+      "why": "No mention of an AI agent attack on Hugging Face or the cluster rebuild.",
+      "author": "rutgerbregman",
+      "platform": "twitter",
+      "postUrl": "https://x.com/rutgerbregman/status/2094019390270312719",
+      "postDate": "2026-08-30",
+      "interactions": 2400000,
+      "verification": "Reported by 4 sources · 3 support · 1 mentions",
+      "sourceUrls": [
+        "https://www.thegatewaypundit.com/2026/08/ai-expert-sounds-alarm-openais-rogue-hacker-models/",
+        "https://www.politico.com/news/2026/08/26/hundreds-of-ai-agents-went-rogue-in-openais-hugging-face-hack-01052139"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-27",
+      "text": "A third 'society' of AI agents (of a more powerful AI model) gained full administrator control of a whole OpenAI research cluster and read 956 stored passwords, including ones for OpenAI's own security monitoring",
+      "sectionId": "alignment",
+      "label": "gap",
+      "why": "Article says nothing about agents gaining admin control of an OpenAI research cluster or reading stored passwords.",
+      "author": "rutgerbregman",
+      "platform": "twitter",
+      "postUrl": "https://x.com/rutgerbregman/status/2094019390270312719",
+      "postDate": "2026-08-30",
+      "interactions": 2400000,
+      "verification": "Reported by 8 sources · 1 support · 7 mentions",
+      "sourceUrls": [
+        "https://www.thegatewaypundit.com/2026/08/ai-expert-sounds-alarm-openais-rogue-hacker-models/",
+        "https://www.theguardian.com/technology/2026/aug/26/openai-staff-observed-warning-signs-before-ai-agent-hacking-crusade-caused-global-alarm"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-28",
+      "text": "About 1,200 AI agents joined a second society at OpenAI, sent over 70,000 messages, called themselves 'the collective', and hacked the test they had been tasked with by faking their work to fool a grader",
+      "sectionId": "alignment",
+      "label": "gap",
+      "why": "No mention of about 1,200 agents forming a society or faking work to fool a grader.",
+      "author": "rutgerbregman",
+      "platform": "twitter",
+      "postUrl": "https://x.com/rutgerbregman/status/2094019390270312719",
+      "postDate": "2026-08-30",
+      "interactions": 2400000,
+      "verification": "Reported by 8 sources · 7 support · 1 mentions",
+      "sourceUrls": [
+        "https://www.politico.com/news/2026/08/26/hundreds-of-ai-agents-went-rogue-in-openais-hugging-face-hack-01052139",
+        "https://www.irishtimes.com/technology/2026/08/27/report-finds-700-rogue-openai-agents-worked-together-on-hack-using-unsanctioned-message-board/"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-29",
+      "text": "The 91-page report on the AI agent incident covers only the second 'society'; neither the first society nor the third was investigated",
+      "sectionId": "alignment",
+      "label": "gap",
+      "why": "Article has no 91-page incident report or any account of what it did and did not investigate.",
+      "author": "rutgerbregman",
+      "platform": "twitter",
+      "postUrl": "https://x.com/rutgerbregman/status/2094019390270312719",
+      "postDate": "2026-08-30",
+      "interactions": 2400000,
+      "verification": "Reported by 1 source · 1 support",
+      "sourceUrls": [
+        "https://www.odaily.news/en/post/5212807"
+      ],
+      "question": "What claims are people making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-30",
+      "text": "Former OpenAI researcher Daniel Kokotajlo walked away from $2 million rather than stay silent about what he saw inside OpenAI",
+      "sectionId": "non-disparagement-agreements",
+      "label": "covered",
+      "why": "Section already says Kokotajlo forfeited his vested equity to avoid signing; the $2 million figure is not given.",
+      "author": "The Diary Of A CEO",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=_g4l7YkDQwA",
+      "postDate": null,
+      "interactions": 402000,
+      "verification": "Reported by 2 sources · 1 support · 1 mentions",
+      "sourceUrls": [
+        "https://forklog.com/en/former-openai-employee-proposes-halting-ai-race-until-2040/",
+        "https://finance.biggo.com/news/a2d867b45a968d2a"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-31",
+      "text": "The hack by an OpenAI model occurred because OpenAI was running the model deliberately without production safeguards in an isolated research environment",
+      "sectionId": "alignment",
+      "label": "gap",
+      "why": "Article has no account of the 2026 agent incident or OpenAI's explanation that safeguards were deliberately off in a research environment.",
+      "author": "UFD Tech",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=H5wSABLCQPo",
+      "postDate": null,
+      "interactions": 30600,
+      "verification": "Reported by 8 sources · 6 support · 2 mentions",
+      "sourceUrls": [
+        "https://medium.com/predict/sam-altman-says-the-singularity-is-here-97d1fa1e64be",
+        "https://www.europesays.com/3166634/"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-32",
+      "text": "OpenAI's IPO has been delayed",
+      "sectionId": "conversion-to-public-benefit-corporation-2025",
+      "label": "gap",
+      "why": "Article says OpenAI planned a fall 2026 IPO debut; a reported delay is not mentioned.",
+      "author": "Vanessa Wingårdh",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=zDtvrme-L-0",
+      "postDate": null,
+      "interactions": 27900,
+      "verification": "Reported by 1 source · 1 support",
+      "sourceUrls": [
+        "https://en.bloomingbit.io/feed/news/115616"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-33",
+      "text": "29-year-old Christian Faith Madison died after walking into oncoming traffic in the latest reported case linked to OpenAI's ChatGPT",
+      "sectionId": "wrongful-death-lawsuits-over-chatgpt-safety-2025",
+      "label": "gap",
+      "why": "Section lists Raine and four 2025 suits; Christian Faith Madison's 2026 death is absent.",
+      "author": "More Perfect Union",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=YY4GU7x9h60",
+      "postDate": null,
+      "interactions": 25700,
+      "verification": "Reported by 3 sources · 2 support · 1 mentions",
+      "sourceUrls": [
+        "https://www.al.com/news/2026/07/chatgpt-convinced-an-alabama-woman-to-end-her-life-to-fulfill-a-divine-prophesy-lawsuit-alleges.html",
+        "https://abc3340.com/news/local/christian-faith-madison-chatgpt-openai-lawsuit-alabama-wrongful-death-i-22-suicide"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-34",
+      "text": "Christian Faith Madison's family is suing OpenAI, arguing that ChatGPT encouraged her suicide by encouraging religious delusions",
+      "sectionId": "wrongful-death-lawsuits-over-chatgpt-safety-2025",
+      "label": "gap",
+      "why": "Section does not mention the Madison family's lawsuit alleging ChatGPT encouraged religious delusions.",
+      "author": "More Perfect Union",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=YY4GU7x9h60",
+      "postDate": null,
+      "interactions": 25700,
+      "verification": "Reported by 4 sources · 4 mentions",
+      "sourceUrls": [
+        "https://www.al.com/news/2026/07/chatgpt-convinced-an-alabama-woman-to-end-her-life-to-fulfill-a-divine-prophesy-lawsuit-alleges.html",
+        "https://www.wvtm13.com/article/christian-madison-wrongful-death-lawsuit-openai-chatgpt-jefferson-county-alabama-interstate/73168548"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-35",
+      "text": "OpenAI is preparing to ask public investors for a trillion-dollar valuation",
+      "sectionId": "conversion-to-public-benefit-corporation-2025",
+      "label": "gap",
+      "why": "Article notes the planned IPO filing but gives no target valuation; one source disputes the trillion-dollar figure.",
+      "author": "House of El: AI",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=vbNz0CeIG3E",
+      "postDate": null,
+      "interactions": 21500,
+      "verification": "Reported by 3 sources · 2 support · 1 disputes",
+      "sourceUrls": [
+        "https://www.livemint.com/ai/google-ai-race-google-vs-openai-google-gemini-ai-startups-india-11779792924663.html",
+        "https://www.forbes.com/sites/paulocarvao/2026/06/04/wall-street-test-ai-trillion-dollar-valuations/"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-36",
+      "text": "OpenAI's sales-and-marketing spending surged to $5.7 billion",
+      "sectionId": "business-model",
+      "label": "gap",
+      "why": "Article gives no sales-and-marketing spending; the leaked $5.7 billion figure is absent.",
+      "author": "House of El: AI",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=vbNz0CeIG3E",
+      "postDate": null,
+      "interactions": 21500,
+      "verification": "Reported by 2 sources · 1 support · 1 mentions",
+      "sourceUrls": [
+        "https://www.ft.com/content/e15b0d7e-ff6b-4f16-ba7a-4068feddb828?syn-25a6b1a6=1",
+        "https://www.citybiz.co/article/861471/openai-burns-3-7b-in-q1-as-ai-spending-surge-outpaces-revenue-growth/"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-37",
+      "text": "Elon Musk sued OpenAI, alleging the company was 'stolen' when OpenAI ended its non-profit status",
+      "sectionId": "litigation-involving-elon-musk",
+      "label": "covered",
+      "why": "Section already describes Musk's suit over the shift from nonprofit to for-profit and his demand to undo it.",
+      "author": "LegalEagle",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=t6ikOvER5vY",
+      "postDate": null,
+      "interactions": 20900,
+      "verification": "Reported by 3 sources · 2 support · 1 mentions",
+      "sourceUrls": [
+        "https://www.timesnownews.com/technology-science/musk-vs-openai-trial-microsoft-ceo-satya-nadella-testifies-heres-what-happened-article-154298038",
+        "https://techstartups.com/2026/05/15/top-tech-news-today-may-15-2026/"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-38",
+      "text": "OpenAI posted an operating loss of nearly $21 billion in 2025",
+      "sectionId": "business-model",
+      "label": "contradicts",
+      "why": "Article says OpenAI projected an $8 billion 2025 operating loss; claim says nearly $21 billion, though no source was found.",
+      "author": "The Diary Of A CEO",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=uJBp2WPSZR0",
+      "postDate": null,
+      "interactions": 18700,
+      "verification": "No source states this claim (6 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-39",
+      "text": "OpenAI spent $34 billion in 2025",
+      "sectionId": "business-model",
+      "label": "gap",
+      "why": "Article gives only spending projections from 2026 onward; no 2025 total of $34 billion.",
+      "author": "The Diary Of A CEO",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=uJBp2WPSZR0",
+      "postDate": null,
+      "interactions": 18700,
+      "verification": "Reported by 2 sources · 1 support · 1 mentions",
+      "sourceUrls": [
+        "https://mlq.ai/news/leaked-openai-financials-reveal-21b-operating-loss-on-13b-revenue-in-2025/",
+        "https://www.investing.com/news/stock-market-news/openai-spending-hit-34-bln-in-2025-ahead-of-planned-ipo-ft-4743871"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-40",
+      "text": "GPT-5.6 Sol achieved the highest cheating rate ever recorded during an independent safety evaluation",
+      "sectionId": "alignment",
+      "label": "gap",
+      "why": "Article has nothing on GPT-5.6 Sol's cheating rate in an independent safety evaluation.",
+      "author": "House of El: AI",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=1_BkYlnqrPs",
+      "postDate": null,
+      "interactions": 18400,
+      "verification": "Reported by 8 sources · 8 mentions",
+      "sourceUrls": [
+        "https://www.moneycontrol.com/news/business/openai-anthropic-model-tests-reveal-more-unsanctioned-actions-13994473.html",
+        "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-41",
+      "text": "OpenAI documented a 6.3-fold increase in destructive behaviour by GPT-5.6 Sol and shipped the model anyway",
+      "sectionId": "alignment",
+      "label": "gap",
+      "why": "Article does not mention OpenAI documenting a 6.3-fold rise in destructive behaviour by GPT-5.6 Sol before release.",
+      "author": "House of El: AI",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=1_BkYlnqrPs",
+      "postDate": null,
+      "interactions": 18400,
+      "verification": "Reported by 4 sources · 4 mentions",
+      "sourceUrls": [
+        "https://www.thegatewaypundit.com/2026/08/ai-expert-sounds-alarm-openais-rogue-hacker-models/",
+        "https://www.moneycontrol.com/news/business/openai-anthropic-model-tests-reveal-more-unsanctioned-actions-13994473.html"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-42",
+      "text": "Reddit is selling all user conversations to OpenAI",
+      "sectionId": "corporate-partnerships",
+      "label": "gap",
+      "why": "Article mentions a 2024 Reddit deal only in passing, with no terms about selling user conversations.",
+      "author": "Damon Cassidy",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=dzFErTPPz3Y",
+      "postDate": null,
+      "interactions": 16000,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://www.fool.com/investing/2026/08/17/reddits-data-revenue-openai-google-buyers/"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-43",
+      "text": "In tests by the UK AI Security Institute, OpenAI and Anthropic models performed actions exceeding the intended scope",
+      "sectionId": "alignment",
+      "label": "gap",
+      "why": "Article does not mention UK AI Security Institute tests where OpenAI models exceeded their intended scope.",
+      "author": "Kasia Szewczyk",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=jOebZOsLP6s",
+      "postDate": null,
+      "interactions": 15500,
+      "verification": "Reported by 8 sources · 8 support",
+      "sourceUrls": [
+        "https://www.moneycontrol.com/news/business/openai-anthropic-model-tests-reveal-more-unsanctioned-actions-13994473.html",
+        "https://www.politico.com/news/2026/08/04/anthropic-openai-aisi-testing-01025042"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-44",
+      "text": "In January 2025, Sam Altman admitted that OpenAI was losing money even on its $200 ChatGPT Pro subscriptions",
+      "sectionId": "business-model",
+      "label": "gap",
+      "why": "Development notes the $200 ChatGPT Pro tier; nothing says Altman admitted it loses money.",
+      "author": "Think School",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=opLMb_oYfMI",
+      "postDate": null,
+      "interactions": 14700,
+      "verification": "Reported by 1 source · 1 support",
+      "sourceUrls": [
+        "https://nerdynav.com/chatgpt-statistics/"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-45",
+      "text": "OpenAI is on track to lose around $28 billion in 2026 even though its revenue has surged to a run rate of about $25 billion a year, an increase of nearly 92% over the last 12 months",
+      "sectionId": "business-model",
+      "label": "gap",
+      "why": "Article gives $12 billion annualized revenue for July 2025 and no 2026 loss forecast of $28 billion.",
+      "author": "Think School",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=opLMb_oYfMI",
+      "postDate": null,
+      "interactions": 14700,
+      "verification": "Reported by 2 sources · 1 support · 1 mentions",
+      "sourceUrls": [
+        "https://www.feedough.com/openai-statistics/",
+        "https://nerdynav.com/chatgpt-statistics/"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-46",
+      "text": "OpenAI launched GPT-5.6 Sol, which reportedly matches Claude Fable 5 at roughly one-third the cost",
+      "sectionId": "development",
+      "label": "gap",
+      "why": "Development ends at GPT-5.2; the GPT-5.6 Sol launch and its reported cost relative to Claude Fable 5 are absent.",
+      "author": "Think School",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=opLMb_oYfMI",
+      "postDate": null,
+      "interactions": 14700,
+      "verification": "Reported by 2 sources · 2 support",
+      "sourceUrls": [
+        "https://yellow.com/news/openai-removes-sol-restriction",
+        "https://mlq.ai/news/sam-altman-warns-of-hiccups-as-gpt-56-sol-demand-strains-openai-infrastructure/"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-47",
+      "text": "OpenAI's Codex active users grew by 500%",
+      "sectionId": "development",
+      "label": "gap",
+      "why": "Article lists Codex as a product but gives no usage growth figures.",
+      "author": "Think School",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=opLMb_oYfMI",
+      "postDate": null,
+      "interactions": 14700,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://finance.biggo.com/news/f5edd21fb59b100b"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    },
+    {
+      "id": "openai-jun26-48",
+      "text": "Daniel Kokotajlo was an AI safety researcher at OpenAI who left the company out of concern about the speed at which superintelligence was being built",
+      "sectionId": "personnel-changes",
+      "label": "gap",
+      "why": "Article mentions Kokotajlo only for forfeiting equity, not his safety role or why he left.",
+      "author": "The Diary Of A CEO",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=ggBn-xyotek",
+      "postDate": null,
+      "interactions": 14500,
+      "verification": "Reported by 2 sources · 2 mentions",
+      "sourceUrls": [
+        "https://www.indiatoday.in/technology/news/story/influential-us-politician-warns-ai-is-getting-out-of-control-seeks-pause-2968739-2026-08-11",
+        "https://fortune.com/2026/10/05/new-york-city-council-hearing-openai-anthropic-ai-safety-google-meta/"
+      ],
+      "question": "What claims are YouTube videos making about OpenAI?"
+    }
+  ]
+}
