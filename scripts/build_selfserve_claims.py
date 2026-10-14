@@ -90,7 +90,7 @@ def main() -> int:
 
         claims, seen = [], set()
         for fname, meta, row in load_raw(st["topic"]):
-            n, text, verification, _cat, inter_or_date, author, link, sources, _stance, _sdate = row
+            n, text, verification, _cat, inter_or_date, author, link, sources, _stance, _sdate = row[:10]
             key = f"{fname}#{n}"
             lab = labels.get(key)
             if lab is None:

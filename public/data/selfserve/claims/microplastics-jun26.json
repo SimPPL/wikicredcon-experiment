@@ -215,6 +215,222 @@
         "https://www.modernghana.com/news/1520857/microplastics-found-in-fish-threat-to-human-healt.html"
       ],
       "question": "What claims are people making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-13",
+      "text": "Researchers at McGill University found that a single plastic tea bag releases 11.6 billion microplastic particles into one cup (Hernandez et al., Environmental Science & Technology, 2019)",
+      "sectionId": "oral-intake",
+      "label": "gap",
+      "why": "Article lists tea bags as an intake source but gives no figure; nothing on McGill's 2019 estimate of 11.6 billion particles per cup.",
+      "author": "Grocery Exposed",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=JZsuRqwzTaI",
+      "postDate": null,
+      "interactions": 2500,
+      "verification": "No source states this claim (1 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are YouTube videos making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-14",
+      "text": "The Autonomous University of Barcelona confirmed in 2024 (Chemosphere Journal) that polypropylene tea bags release about 1.2 billion particles per mL, which were absorbed by human intestinal cells and found in the cell nucleus",
+      "sectionId": "oral-intake",
+      "label": "gap",
+      "why": "Article lists tea bags but not the 2024 Barcelona study of polypropylene tea bags or particle uptake by intestinal cells.",
+      "author": "Grocery Exposed",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=JZsuRqwzTaI",
+      "postDate": null,
+      "interactions": 2500,
+      "verification": "No source states this claim (2 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are YouTube videos making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-15",
+      "text": "The FDA has set no limits for microplastics in food or drink",
+      "sectionId": "united-states",
+      "label": "gap",
+      "why": "United States section covers state bans, a California definition and a 2018 amendment; it says nothing on FDA limits for food or drink.",
+      "author": "Grocery Exposed",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=JZsuRqwzTaI",
+      "postDate": null,
+      "interactions": 2500,
+      "verification": "No source states this claim (2 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are YouTube videos making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-16",
+      "text": "Toxic microplastics were found in 26 toothpastes",
+      "sectionId": "cosmetics-industry",
+      "label": "gap",
+      "why": "Article mentions toothpaste only for the US microbead phase-out; no 2026 Bangladesh study finding microplastics in 26 toothpaste brands.",
+      "author": "Campus Times",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=9Mq2PgrVn3o",
+      "postDate": null,
+      "interactions": 1700,
+      "verification": "Reported by 4 sources · 4 support",
+      "sourceUrls": [
+        "https://www.tbsnews.net/bangladesh/health/microplastics-detected-76-toothpaste-samples-sold-bangladesh-study-1498326",
+        "http://www.daily-sun.com/health/888757/study-finds-microplastics-in-most-toothpaste-brands"
+      ],
+      "question": "What claims are YouTube videos making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-17",
+      "text": "A recent study found indications of microplastic particles in various edible oils, including soybean oil",
+      "sectionId": "oral-intake",
+      "label": "gap",
+      "why": "Oral intake lists water, seafood, salt, sugar, tea bags and milk, but not edible oils such as soybean oil.",
+      "author": "Jago Live",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=COr6objJWjs",
+      "postDate": null,
+      "interactions": 861,
+      "verification": "Reported by 3 sources · 3 support",
+      "sourceUrls": [
+        "https://protidinerbangladesh.com/national/176358/microplastics-found-in-soybean-oil-and-sugar-too",
+        "https://tv9bangla.com/lifestyle/microplastics-in-food-shocking-study-finds-plastic-particles-in-milk-sugar-and-edible-oil-1336759.html"
+      ],
+      "question": "What claims are YouTube videos making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-18",
+      "text": "Research on the long-term health effects of microplastics is still ongoing and definitive conclusions about health concerns have not yet been reached",
+      "sectionId": "human-health",
+      "label": "covered",
+      "why": "Human health already says impacts are still being tested and causation for associated conditions is unknown.",
+      "author": "PureAi",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=Y0UQe_Py8aI",
+      "postDate": null,
+      "interactions": 474,
+      "verification": "Reported by 3 sources · 3 support",
+      "sourceUrls": [
+        "https://e360.yale.edu/features/cassandra-rauert-interview",
+        "https://news.cuanschutz.edu/dental/cu-anschutz-researchers-explore-emerging-questions-about-microplastics-and-oral-health"
+      ],
+      "question": "What claims are YouTube videos making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-19",
+      "text": "Some plastic containers can release microplastics into food or drinks when hot food or hot drinks are placed in them",
+      "sectionId": "containers-and-packaging",
+      "label": "gap",
+      "why": "Section says containers shed microplastics but not that heat increases release; heat appears only under Baby bottles.",
+      "author": "PureAi",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=Y0UQe_Py8aI",
+      "postDate": null,
+      "interactions": 474,
+      "verification": "Reported by 2 sources · 2 support",
+      "sourceUrls": [
+        "https://e360.yale.edu/features/cassandra-rauert-interview",
+        "https://rightasrain.uwmedicine.org/well/prevention/microplastics-and-health"
+      ],
+      "question": "What claims are YouTube videos making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-20",
+      "text": "Research reveals that microplastics have invaded the abyssal ocean trenches, the deepest and most remote part of the ocean",
+      "sectionId": "effects-on-the-environment",
+      "label": "gap",
+      "why": "Article notes deep ocean sediment layers and high mountains but never mentions microplastics in hadal or abyssal trenches.",
+      "author": "Azteca Noticias",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=PPVw4FaanwM",
+      "postDate": null,
+      "interactions": 396,
+      "verification": "Reported by 3 sources · 1 support · 2 mentions",
+      "sourceUrls": [
+        "http://www.iaea.org/newscenter/news/world-oceans-day-2020-new-iaea-research-records-dramatic-increase-in-microplastic-pollution-in-eastern-tropical-pacific-ocean",
+        "https://oceanservice.noaa.gov/education/tutorial-coastal/marine-debris/md04-sub-01.html"
+      ],
+      "question": "What claims are YouTube videos making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-21",
+      "text": "The claim that people ingest a credit card's worth of microplastics per week is based on a flawed study in which lab equipment contaminated the data",
+      "sectionId": "contested-studies",
+      "label": "gap",
+      "why": "Contested studies covers brain-tissue and glove contamination; the article never states or disputes the credit-card-per-week figure.",
+      "author": "Dan Go",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=Kv9E5lTPDEM",
+      "postDate": null,
+      "interactions": 340,
+      "verification": "No source states this claim",
+      "sourceUrls": [],
+      "question": "What claims are YouTube videos making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-22",
+      "text": "There is no established evidence that microplastics harm human health",
+      "sectionId": "human-health",
+      "label": "contradicts",
+      "why": "Article cites early evidence of harm and a 2024 study linking arterial-plaque microplastics to heart attack, stroke and death.",
+      "author": "Dan Go",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=Kv9E5lTPDEM",
+      "postDate": null,
+      "interactions": 340,
+      "verification": "Reported by 3 sources · 1 disputes · 2 mentions",
+      "sourceUrls": [
+        "https://www.theguardian.com/environment/2026/jan/13/microplastics-human-body-doubt",
+        "https://med.stanford.edu/news/insights/2025/01/microplastics-in-body-polluted-tiny-plastic-fragments.html"
+      ],
+      "question": "What claims are YouTube videos making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-23",
+      "text": "Microplastics accumulated in soil are absorbed by plant roots and accumulate inside fruits and vegetables such as apples and carrots",
+      "sectionId": "oral-intake",
+      "label": "covered",
+      "why": "Oral intake already says microplastics move from roots into stems, leaves and fruits.",
+      "author": "EBS 컬렉션 - 사이언스",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=tVj_1a_8pT4",
+      "postDate": null,
+      "interactions": 296,
+      "verification": "No source states this claim (1 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are YouTube videos making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-24",
+      "text": "South Korean researchers found that microplastics pass through the placenta, amniotic fluid, umbilical cord blood, and breast milk of pregnant women",
+      "sectionId": "human-health",
+      "label": "gap",
+      "why": "Article names placenta and breast milk but not amniotic fluid, umbilical cord blood, or the South Korean study.",
+      "author": "EBS 컬렉션 - 사이언스",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=tVj_1a_8pT4",
+      "postDate": null,
+      "interactions": 296,
+      "verification": "No source states this claim",
+      "sourceUrls": [],
+      "question": "What claims are YouTube videos making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-25",
+      "text": "Nanoplastics are particles so small that human kidneys cannot filter them out; they remain in the bloodstream and have been found in breast milk",
+      "sectionId": "nanoplastics",
+      "label": "gap",
+      "why": "Nanoplastics section says particles cross cell membranes but nothing on kidneys failing to filter them or persistence in blood.",
+      "author": "Dr Ayyappa Pindi's Podcast",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=i7DN_qYYgHE",
+      "postDate": null,
+      "interactions": 288,
+      "verification": "Reported by 3 sources · 3 support",
+      "sourceUrls": [
+        "https://uknow.uky.edu/uk-healthcare/don-t-let-summer-heat-hijack-your-drink",
+        "https://health.ucdavis.edu/blog/cultivating-health/microplastics-10-easy-ways-to-reduce-your-exposure/2026/05"
+      ],
+      "question": "What claims are YouTube videos making about microplastics?"
     }
   ]
 }
