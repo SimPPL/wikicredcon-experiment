@@ -16,5 +16,23 @@
     "byteDelta": 6697,
     "claimCount": 48,
     "blurb": "An agent-containment incident, Apple's trade-secret suit, a first in-house chip and the end of the Cursor deal, none of it in the June article."
+  },
+  {
+    "id": "right-to-repair-jun26",
+    "title": "Right to repair",
+    "pastDate": "2026-05-23",
+    "currentDate": "2026-08-30",
+    "byteDelta": 872,
+    "claimCount": 16,
+    "blurb": "A presidential memo on fixing cars, an FTC settlement with John Deere and the EU directive taking effect. Wikipedia barely moved."
+  },
+  {
+    "id": "microplastics-jun26",
+    "title": "Microplastics",
+    "pastDate": "2026-05-27",
+    "currentDate": "2026-08-30",
+    "byteDelta": 7770,
+    "claimCount": 12,
+    "blurb": "A heart-attack study, microplastics joining the EPA's candidate list and fish sampled in India and Ghana, against a long article."
   }
 ]

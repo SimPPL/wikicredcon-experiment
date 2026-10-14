@@ -1,0 +1,294 @@
+{
+  "articleId": "right-to-repair-jun26",
+  "study": {
+    "id": "jd79htp1g5qa6zk9mfj1w13b4s8fc7bb",
+    "title": "Right to Repair Claims Across Social Media",
+    "window": "2026-06-01..2026-08-31",
+    "platforms": [
+      "twitter",
+      "youtube"
+    ],
+    "posts": 2481
+  },
+  "pulledAt": "2026-10-14",
+  "claims": [
+    {
+      "id": "right-to-repair-jun26-1",
+      "text": "President Trump signed a presidential memo to make it easier for Americans to repair their own cars by protecting the right to fix vehicles and opening up more options for approving aftermarket parts",
+      "sectionId": "united-states",
+      "label": "gap",
+      "why": "Article has no mention of the June 2026 presidential memorandum on vehicle repair or aftermarket parts approval.",
+      "author": "FoxNews",
+      "platform": "twitter",
+      "postUrl": "https://x.com/FoxNews/status/2071682967408185811",
+      "postDate": "2026-06-29",
+      "interactions": 8600000,
+      "verification": "Reported by 7 sources · 5 support · 2 mentions",
+      "sourceUrls": [
+        "https://www.freep.com/story/news/politics/2026/06/29/trump-issues-narrow-right-to-repair-directive-on-automobiles/90746311007/",
+        "https://www.reuters.com/world/us/trump-signs-memo-making-it-easier-americans-fix-own-vehicles-2026-06-29/"
+      ],
+      "question": "What claims are people making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-2",
+      "text": "The FTC announced a right-to-repair settlement with John Deere on July 8, 2026",
+      "sectionId": "united-states",
+      "label": "gap",
+      "why": "United States section stops at the 2021 FTC report; nothing on a July 2026 FTC and states settlement with Deere.",
+      "author": "gothburz",
+      "platform": "twitter",
+      "postUrl": "https://x.com/gothburz/status/2075352594394874221",
+      "postDate": "2026-07-09",
+      "interactions": 1100000,
+      "verification": "Reported by 5 sources · 5 support",
+      "sourceUrls": [
+        "https://www.reuters.com/legal/government/deere-settles-lawsuit-by-us-ftc-states-over-equipment-repair-restrictions-2026-07-08/",
+        "https://www.axinn.com/en/insights/axinn-viewpoints/right-to-repair-alert-deere-company-reaches-settlement-with-ftc-states"
+      ],
+      "question": "What claims are people making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-3",
+      "text": "The settlement provides farmers access to the same software as dealers on a schedule reported every 60 days over a 10-year period",
+      "sectionId": "united-states",
+      "label": "gap",
+      "why": "Settlement terms (dealer-equivalent software access, 60-day reporting, 10 years) are absent; article only describes Deere's 2023 Farm Bureau memorandum.",
+      "author": "gothburz",
+      "platform": "twitter",
+      "postUrl": "https://x.com/gothburz/status/2075352594394874221",
+      "postDate": "2026-07-09",
+      "interactions": 1100000,
+      "verification": "Reported by 3 sources · 3 mentions",
+      "sourceUrls": [
+        "https://boingboing.net/2026/04/10/john-deere-settles-right-to-repair-lawsuit-for-99-million.html",
+        "https://www.axinn.com/en/insights/axinn-viewpoints/right-to-repair-alert-deere-company-reaches-settlement-with-ftc-states"
+      ],
+      "question": "What claims are people making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-4",
+      "text": "Under the EU's new right to repair rules, manufacturers will have to offer repairs where possible, keep spare parts reasonably priced, and give independent repair shops a fair chance",
+      "sectionId": "european-union",
+      "label": "covered",
+      "why": "EU section already states the directive's repair obligation at reasonable price and application from July 31, 2026.",
+      "author": "EUPerspectives",
+      "platform": "twitter",
+      "postUrl": "https://x.com/EUPerspectives/status/2084263013004046567",
+      "postDate": "2026-08-03",
+      "interactions": 317900,
+      "verification": "Reported by 4 sources · 3 support · 1 mentions",
+      "sourceUrls": [
+        "https://commission.europa.eu/news-and-media/news/right-repair-new-consumer-rights-easy-and-attractive-repairs-2026-07-31_en",
+        "https://www.engadget.com/2227720/eu-right-to-repair-directive-kicks-in-today/"
+      ],
+      "question": "What claims are people making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-5",
+      "text": "The California Air Resources Board (CARB) currently runs the only certification process for aftermarket parts",
+      "sectionId": "united-states",
+      "label": "gap",
+      "why": "Article never mentions CARB or aftermarket parts certification; two sources dispute that CARB's process is the only one.",
+      "author": "MJTruthUltra",
+      "platform": "twitter",
+      "postUrl": "https://x.com/MJTruthUltra/status/2071716863705489746",
+      "postDate": "2026-06-29",
+      "interactions": 168700,
+      "verification": "Reported by 5 sources · 2 disputes · 3 mentions",
+      "sourceUrls": [
+        "https://www.eenews.net/articles/trump-directs-rollback-of-emissions-penalties-for-those-who-fix-cars/",
+        "https://www.hotrod.com/features/trump-epa-memorandum-could-strengthen-right-to-repair-for-vehicle-owners"
+      ],
+      "question": "What claims are people making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-6",
+      "text": "The Presidential Memorandum signed by Trump directs the EPA to encourage and expedite alternative certification pathways for aftermarket parts, reducing reliance on California's process",
+      "sectionId": "united-states",
+      "label": "gap",
+      "why": "Memo's direction to EPA to expedite alternative aftermarket parts certification is not in the article.",
+      "author": "MJTruthUltra",
+      "platform": "twitter",
+      "postUrl": "https://x.com/MJTruthUltra/status/2071716863705489746",
+      "postDate": "2026-06-29",
+      "interactions": 168700,
+      "verification": "Reported by 4 sources · 4 support",
+      "sourceUrls": [
+        "https://www.hotrod.com/features/trump-epa-memorandum-could-strengthen-right-to-repair-for-vehicle-owners",
+        "https://www.epa.gov/newsreleases/epa-implements-new-freedom-fix-presidential-memorandum-gives-sema-greenlight-certify"
+      ],
+      "question": "What claims are people making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-7",
+      "text": "President Trump said \"I am setting them all free\" while granting pardons to mechanics persecuted in connection with a right-to-repair crackdown",
+      "sectionId": "united-states",
+      "label": "gap",
+      "why": "Article says nothing about pardons tied to repair enforcement; single Fox News source, needs confirmation.",
+      "author": "PressSec",
+      "platform": "twitter",
+      "postUrl": "https://x.com/PressSec/status/2073395353668178008",
+      "postDate": "2026-07-04",
+      "interactions": 147200,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://www.foxnews.com/politics/trump-grants-pardons-persecuted-mechanics-right-to-repair-crackdown-setting-them-all-free"
+      ],
+      "question": "What claims are people making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-8",
+      "text": "Louis Rossmann, a Right to Repair activist and technology YouTuber, announced a lawsuit against Samsung",
+      "sectionId": "non-government-right-to-repair-organizations",
+      "label": "gap",
+      "why": "Article lists Rossmann's organizations but not his Samsung warranty dispute; sources dispute whether a lawsuit was filed or threatened.",
+      "author": "sknerus_",
+      "platform": "twitter",
+      "postUrl": "https://x.com/sknerus_/status/2067102437438025999",
+      "postDate": "2026-06-17",
+      "interactions": 140400,
+      "verification": "Reported by 3 sources · 1 support · 2 disputes",
+      "sourceUrls": [
+        "https://www.hindustantimes.com/world-news/us-news/who-is-louis-rossmann-and-why-tech-influencer-has-threatened-samsung-with-a-lawsuit-101781196500602.html",
+        "https://www.neowin.net/news/louis-rossmann-suing-samsung-over-990-pro-ssd-warranty-scam/"
+      ],
+      "question": "What claims are people making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-9",
+      "text": "President Trump remarked after a meeting with automotive executives that he found it strange that some automotive industry leaders appeared opposed to Americans repairing their own vehicles",
+      "sectionId": "united-states",
+      "label": "gap",
+      "why": "United States section has no 2026 events; Trump's remarks after meeting automakers, reported by Reuters, are absent.",
+      "author": "Car Coach Reports",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=4mCoVcpxvHU",
+      "postDate": null,
+      "interactions": 23400,
+      "verification": "Reported by 5 sources · 3 support · 2 mentions",
+      "sourceUrls": [
+        "https://www.reuters.com/legal/legalindustry/trump-meets-with-auto-industry-over-right-to-repair-debate-2026-06-04/",
+        "https://www.automotiveworld.com/news/trump-wades-into-right-to-repair-fight-with-auto-sector/"
+      ],
+      "question": "What claims are YouTube videos making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-10",
+      "text": "HP uses Dynamic Security and cartridge authentication chips that can remotely disable printer cartridges and restrict third-party ink use, and offers an Instant Ink subscription service",
+      "sectionId": "history",
+      "label": "gap",
+      "why": "History mentions ink-cartridge chips but not HP Dynamic Security remotely disabling third-party cartridges or Instant Ink.",
+      "author": "Fine Print",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=1KXR2JWOa-g",
+      "postDate": null,
+      "interactions": 11900,
+      "verification": "Reported by 3 sources · 2 support · 1 mentions",
+      "sourceUrls": [
+        "https://hackaday.com/2024/09/28/man-in-the-middle-pcb-unlocks-hp-ink-cartridges/",
+        "https://h30434.www3.hp.com/t5/Printing-Errors-or-Lights-Stuck-Print-Jobs/Printer-Blocked-due-to-HP-greed/m-p/9710860"
+      ],
+      "question": "What claims are YouTube videos making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-11",
+      "text": "Ford and General Motors executives asked President Trump in the Oval Office to create legislation banning customers from repairing their own vehicles, and Trump rejected the request",
+      "sectionId": "united-states",
+      "label": "gap",
+      "why": "Article has nothing on Ford and GM asking Trump in June 2026 for repair restrictions, or his rejection; Reuters-sourced.",
+      "author": "TK's Garage",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=2vAmPbrZXUo",
+      "postDate": null,
+      "interactions": 10200,
+      "verification": "Reported by 3 sources · 3 mentions",
+      "sourceUrls": [
+        "https://www.reuters.com/legal/legalindustry/trump-meets-with-auto-industry-over-right-to-repair-debate-2026-06-04/",
+        "https://www.autoweek.com/news/a71606200/trump-weights-in-on-right-to-repair-debate/"
+      ],
+      "question": "What claims are YouTube videos making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-12",
+      "text": "Ford CEO Jim Farley said that while he is fine with \"Right To Repair\", he himself could not repair a new Ford at home without special equipment and that attempting to do so could get someone killed",
+      "sectionId": "united-states",
+      "label": "gap",
+      "why": "Article quotes no automaker executive; Farley's July 2026 remark that home repair of new Fords is unsafe is absent.",
+      "author": "Uncle Tony's Garage",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=toZF_qxxBaQ",
+      "postDate": null,
+      "interactions": 7100,
+      "verification": "Reported by 2 sources · 2 mentions",
+      "sourceUrls": [
+        "https://www.carscoops.com/2026/07/ford-plant-quality-benchmark/",
+        "https://fordauthority.com/2026/08/ford-ceo-jim-farley-says-company-going-after-younger-wealthier-buyers/"
+      ],
+      "question": "What claims are YouTube videos making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-13",
+      "text": "Automakers use software locks and VIN-pairing to prevent home mechanics and independent shops from performing DIY maintenance on modern cars",
+      "sectionId": "software",
+      "label": "gap",
+      "why": "Software section describes parts pairing generically; nothing on automakers' VIN-pairing or software locks. Unsourced, needs a citation.",
+      "author": "Hayden Schreier",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=5gg0_mBPJgE",
+      "postDate": null,
+      "interactions": 6500,
+      "verification": "No source states this claim (7 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are YouTube videos making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-14",
+      "text": "A new European Union 'right to repair' law, already in force, requires manufacturers to repair damaged products even after the warranty period has ended",
+      "sectionId": "european-union",
+      "label": "gap",
+      "why": "EU section states repair at reasonable price and time but never says the obligation runs past the warranty period.",
+      "author": "DW Brasil",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=25sYf2PCtkk",
+      "postDate": null,
+      "interactions": 5800,
+      "verification": "No source states this claim (6 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are YouTube videos making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-15",
+      "text": "The EU right to repair law applies to products such as smartphones, washing machines, and electric bicycles",
+      "sectionId": "european-union",
+      "label": "gap",
+      "why": "EU section cites the annex without naming products; annex covers smartphones and washing machines, e-bike batteries rather than e-bikes.",
+      "author": "DW Brasil",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=25sYf2PCtkk",
+      "postDate": null,
+      "interactions": 5800,
+      "verification": "No source states this claim (3 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are YouTube videos making about right to repair?"
+    },
+    {
+      "id": "right-to-repair-jun26-16",
+      "text": "Farmers are suing John Deere",
+      "sectionId": "united-states",
+      "label": "gap",
+      "why": "Article mentions Deere only for the 2023 Farm Bureau memorandum; new 2026 lawsuits over construction and forestry equipment are absent.",
+      "author": "Nathan Proctor",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=TpDuc9wCzXw",
+      "postDate": null,
+      "interactions": 3700,
+      "verification": "Reported by 3 sources · 1 support · 2 mentions",
+      "sourceUrls": [
+        "https://www.wsj.com/business/right-to-repair-advocates-are-taking-on-deere-againthis-time-in-construction-a93aa654",
+        "https://capitalpress.com/2026/06/01/john-deere-faces-new-lawsuit-over-repairs-to-construction-forestry-equipment/"
+      ],
+      "question": "What claims are YouTube videos making about right to repair?"
+    }
+  ]
+}

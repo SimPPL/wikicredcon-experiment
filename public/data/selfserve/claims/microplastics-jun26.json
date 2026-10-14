@@ -1,0 +1,220 @@
+{
+  "articleId": "microplastics-jun26",
+  "study": {
+    "id": "jd7d6ytzvsr3cw6gapyxxnwm8h8etbm6",
+    "title": "Social Media Narratives on Microplastics Claims",
+    "window": "2026-07-01..2026-08-31",
+    "platforms": [
+      "twitter",
+      "youtube"
+    ],
+    "posts": 1816
+  },
+  "pulledAt": "2026-10-14",
+  "claims": [
+    {
+      "id": "microplastics-jun26-1",
+      "text": "Scientists have discovered that chewing gum is a massive source of microplastics, with each piece of gum potentially releasing thousands of plastic fragments into the body",
+      "sectionId": "oral-intake",
+      "label": "gap",
+      "why": "Article lists drinking water, seafood, salt, sugar, tea bags and milk as intake sources but never mentions chewing gum.",
+      "author": "pubity",
+      "platform": "twitter",
+      "postUrl": "https://x.com/pubity/status/2073678265424719887",
+      "postDate": "2026-07-05",
+      "interactions": 1700000,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://e360.yale.edu/features/cassandra-rauert-interview"
+      ],
+      "question": "What claims are people making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-2",
+      "text": "The Trump Administration added microplastics to the EPA's Contaminant Candidate List for the first time ever, shortly before July 1, 2026",
+      "sectionId": "united-states",
+      "label": "gap",
+      "why": "United States section covers state laws and a 2018 House amendment, not EPA listing microplastics on the Contaminant Candidate List.",
+      "author": "epaleezeldin",
+      "platform": "twitter",
+      "postUrl": "https://x.com/epaleezeldin/status/2072438489371521324",
+      "postDate": "2026-07-01",
+      "interactions": 222700,
+      "verification": "No source states this claim (3 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are people making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-3",
+      "text": "Microplastics have been found in the testicles of every man studied, and in the brain, ovaries, kidneys and every organ of the human body",
+      "sectionId": "human-health",
+      "label": "gap",
+      "why": "Article names placenta, breast milk, brain, heart and urine in humans; testicles, ovaries and kidneys appear only in mice.",
+      "author": "WallStreetApes",
+      "platform": "twitter",
+      "postUrl": "https://x.com/WallStreetApes/status/2075252954215628951",
+      "postDate": "2026-07-09",
+      "interactions": 165800,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://www.pbs.org/video/whats-the-big-deal-about-microplastics-wfnkg5/"
+      ],
+      "question": "What claims are people making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-4",
+      "text": "Plastic bottles contain 250,000 microplastics per liter",
+      "sectionId": "bottled-water",
+      "label": "contradicts",
+      "why": "Article reports an average of 325 particles per liter in bottled water (930 at most), far below the claimed 250,000.",
+      "author": "WallStreetApes",
+      "platform": "twitter",
+      "postUrl": "https://x.com/WallStreetApes/status/2075252954215628951",
+      "postDate": "2026-07-09",
+      "interactions": 165800,
+      "verification": "No source states this claim (1 nearby articles checked)",
+      "sourceUrls": [],
+      "question": "What claims are people making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-5",
+      "text": "Recent scientific studies have detected microplastic particles in human blood, lungs, placentas, and cardiac tissue",
+      "sectionId": "human-health",
+      "label": "gap",
+      "why": "Article names placenta, brain, heart and urine but never says microplastics have been found in human blood or lungs.",
+      "author": "GYRUS SULCUS",
+      "platform": "youtube",
+      "postUrl": "https://www.youtube.com/watch?v=njyP1uvAlGs",
+      "postDate": null,
+      "interactions": 48600,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://news.utexas.edu/2026/08/20/the-microplastics-inside-us-understanding-their-effects-on-the-human-body/"
+      ],
+      "question": "What claims are people making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-6",
+      "text": "A study in the European Heart Journal found detectable micro- and nanoplastics in the coronary blood of 84.2% of severe active heart attack (STEMI) patients, compared with 40% of patients with stable chronic heart disease and 31.8% of controls with healthy arteries",
+      "sectionId": "human-health",
+      "label": "gap",
+      "why": "Article cites a 2024 arterial plaque study only; no mention of the European Heart Journal coronary blood findings in heart attack patients.",
+      "author": "paulsaladinomd",
+      "platform": "twitter",
+      "postUrl": "https://x.com/paulsaladinomd/status/2080639557419102489",
+      "postDate": "2026-07-24",
+      "interactions": 28600,
+      "verification": "Reported by 2 sources · 1 support · 1 mentions",
+      "sourceUrls": [
+        "https://www.advisory.com/daily-briefing/2026/07/30/microplastics-heart-attack",
+        "https://www.medpagetoday.com/cardiology/generalcardiology/122208"
+      ],
+      "question": "What claims are people making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-7",
+      "text": "In the European Heart Journal study, polyethylene was the primary plastic found, detected in 97% of plastic-positive samples",
+      "sectionId": "human-health",
+      "label": "gap",
+      "why": "Article says polyethylene accumulates in the brain, but not that it made up 97% of plastic in heart attack patients.",
+      "author": "paulsaladinomd",
+      "platform": "twitter",
+      "postUrl": "https://x.com/paulsaladinomd/status/2080639557419102489",
+      "postDate": "2026-07-24",
+      "interactions": 28600,
+      "verification": "Reported by 3 sources · 3 support",
+      "sourceUrls": [
+        "https://sciencemediacentre.es/en/study-claims-patients-who-have-suffered-heart-attack-have-higher-levels-micro-and-nanoplastics",
+        "https://pharmaphorum.com/news/could-microplastics-be-linked-cardiovascular-disease"
+      ],
+      "question": "What claims are people making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-8",
+      "text": "In the study, micro- and nanoplastic detection was highest in smokers, who had a 5.7x increased likelihood, and in individuals exposed to fine air pollution above PM2.5 of 15; researchers hypothesize smoking and airborne particulate matter compromise lung tissue barriers, and that inhalation and consumption are the primary routes of exposure",
+      "sectionId": "human-health",
+      "label": "gap",
+      "why": "Article does not link microplastic levels to smoking or air pollution; Oral intake calls ingestion the main exposure pathway.",
+      "author": "paulsaladinomd",
+      "platform": "twitter",
+      "postUrl": "https://x.com/paulsaladinomd/status/2080639557419102489",
+      "postDate": "2026-07-24",
+      "interactions": 28600,
+      "verification": "Reported by 4 sources · 3 support · 1 mentions",
+      "sourceUrls": [
+        "https://sciencemediacentre.es/en/study-claims-patients-who-have-suffered-heart-attack-have-higher-levels-micro-and-nanoplastics",
+        "https://pubmed.ncbi.nlm.nih.gov/42447841/"
+      ],
+      "question": "What claims are people making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-9",
+      "text": "Microplastics have been found in the muscle tissue of anchovies and ribbonfish caught off the Vizag coast, meaning they are present in the edible part of the fish and not just the gut",
+      "sectionId": "salt-and-seafood",
+      "label": "gap",
+      "why": "Article discusses microplastics in seafood generally, not in the edible muscle of fish such as anchovies and ribbonfish.",
+      "author": "hyderabaddoctor",
+      "platform": "twitter",
+      "postUrl": "https://x.com/hyderabaddoctor/status/2090302747480584322",
+      "postDate": "2026-08-20",
+      "interactions": 28000,
+      "verification": "Reported by 1 source · 1 support",
+      "sourceUrls": [
+        "https://thesouthfirst.com/health/microplastics-found-in-edible-muscle-of-fish-sampled-at-vizag-harbour-a-neurologist-explains-what-it-means/"
+      ],
+      "question": "What claims are people making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-10",
+      "text": "Wear from tires is the largest source of microplastics in nature",
+      "sectionId": "car-and-truck-tires",
+      "label": "gap",
+      "why": "Article says tire emissions exceed brakes, turf and road markings and are 5-10% of ocean plastics, but not the largest source overall.",
+      "author": "EenVandaag",
+      "platform": "twitter",
+      "postUrl": "https://x.com/EenVandaag/status/2090091213676499151",
+      "postDate": "2026-08-19",
+      "interactions": 17000,
+      "verification": "Reported by 2 sources · 2 mentions",
+      "sourceUrls": [
+        "https://phys.org/news/2026-07-microplastic-pollution-brisbane-balcony.html",
+        "https://www.earth.com/environment/invisible-tire-particles-from-passing-traffic-alter-the-ecosystems-found-in-rivers-ponds-and-lakes/"
+      ],
+      "question": "What claims are people making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-11",
+      "text": "In mice, the probiotic strain found in kimchi more than doubled the excretion of nanoplastics",
+      "sectionId": "gastrointestinal-effects",
+      "label": "gap",
+      "why": "Article covers gut effects of microplastics but no probiotic or kimchi strain that increases nanoplastic excretion.",
+      "author": "OMGFacts",
+      "platform": "twitter",
+      "postUrl": "https://x.com/OMGFacts/status/2077521941187924328",
+      "postDate": "2026-07-15",
+      "interactions": 14800,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://draxe.com/health/kimchi-and-microplastics/"
+      ],
+      "question": "What claims are people making about microplastics?"
+    },
+    {
+      "id": "microplastics-jun26-12",
+      "text": "Research Scientist Dr. Pennate Bruce-Vanderpuije said the CSIR-Water Research Institute study found significantly higher levels of microplastics in cage-farmed tilapia than in wild fish from the Lower Volta Basin",
+      "sectionId": "salt-and-seafood",
+      "label": "gap",
+      "why": "Article has no farmed versus wild fish comparison and no Ghanaian or Lower Volta Basin study.",
+      "author": "Citi973",
+      "platform": "twitter",
+      "postUrl": "https://x.com/Citi973/status/2087912913780560364",
+      "postDate": "2026-08-13",
+      "interactions": 8500,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://www.modernghana.com/news/1520857/microplastics-found-in-fish-threat-to-human-healt.html"
+      ],
+      "question": "What claims are people making about microplastics?"
+    }
+  ]
+}
