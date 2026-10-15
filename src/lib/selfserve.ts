@@ -35,6 +35,8 @@ export interface SelfServeArticleMeta {
   title: string;
   pastDate: string;
   currentDate: string;
+  liveFrom: string; // the earlier snapshot is the revision live on this date
+  liveTo: string; // the later snapshot is the revision live on this date
   byteDelta: number;
   claimCount: number;
   blurb: string;

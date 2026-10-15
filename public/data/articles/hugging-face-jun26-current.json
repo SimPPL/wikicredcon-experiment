@@ -1,0 +1,260 @@
+{
+  "id": "hugging-face-jun26",
+  "title": "Hugging Face",
+  "revisionDate": "2026-09-01",
+  "revisionId": "1372638504",
+  "sections": [
+    {
+      "id": "hugging-face-jun26-lead",
+      "title": "Lead",
+      "level": 1,
+      "content": "Hugging Face, Inc., is an American company based in New York City that develops computation tools for building applications using machine learning.  Hugging Face's transformers library is built for natural language processing applications.  The Hugging Face platform allows users to share machine learning models and datasets and showcase their work.[2]",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Nvidia Agrees to Buy Open Source AI Platform Hugging Face For $12.9 Billion, (August 26, 2026)",
+          "url": "https://www.theinformation.com/articles/nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Palazzolo, Hugging Face Lays Off 4% of Staff, (February 5, 2025)",
+          "url": "https://www.theinformation.com/briefings/hugging-face-lays-off-4-of-staff"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Stryker, What is Hugging Face?, (2025-05-02)",
+          "url": "https://www.ibm.com/think/topics/hugging-face"
+        }
+      ]
+    },
+    {
+      "id": "founding",
+      "title": "Founding",
+      "level": 3,
+      "content": "The company was founded in 2016 by French entrepreneurs Clément Delangue, Julien Chaumond, and Thomas Wolf in New York City, originally as a company that developed a chatbot app targeted at teenagers. The company was named after the :commons:Category:U+1F917| emoji.[0] After open sourcing the model behind the chatbot, the company pivoted to focus on being a platform for machine learning.",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Dillet, Hugging Face wants to become your artificial BFF, (March 9, 2017)",
+          "url": "https://techcrunch.com/2017/03/09/hugging-face-wants-to-become-your-artificial-bff/"
+        }
+      ]
+    },
+    {
+      "id": "ai-boom",
+      "title": "AI boom",
+      "level": 3,
+      "content": "On April 28, 2021, the company launched the BigScience Research Workshop in collaboration with several other research groups to release an open large language model.[0] In 2022, the workshop concluded with the announcement of BLOOM, a multilingual large language model with 176 billion parameters.[1][2]\n\nIn February 2023, the company announced a partnership with Amazon Web Services (AWS) that would allow Hugging Face's products to be available to AWS customers to use as the building blocks for their custom applications. The company also said the next generation of BLOOM will be run on Trainium, a proprietary machine learning chip created by AWS.[3][4][5]\n\nIn August 2023, Hugging Face said it was valued at $4.5 billion in a $235-million funding round backed by technology heavyweights, including Salesforce, Alphabet's Google and Nvidia.[6][7]\n\nIn June 2024, the company announced, along with Meta and Scaleway, their launch of a new AI accelerator program for European startups. The initiative aimed to help startups integrate open foundation models into their products, accelerating the EU AI ecosystem.[8] The program, based at Station F in Paris, ran from September 2024 to February 2025. Selected startups received mentoring, and access to AI models and tools and Scaleway's computing power.[9]\n\nOn September 23, 2024, to further the International Decade of Indigenous Languages, Hugging Face teamed up with Meta and UNESCO to launch a new online language translator.[10] It was built on Meta's No Language Left Behind open-source AI model, enabling free text translation across 200 languages, including many low-resource languages.[11]\n\nIn April 2025, Hugging Face announced that they acquired a humanoid robotics startup, Pollen Robotics, based in France and founded by Matthieu Lapeyre and Pierre Rouanet in 2016.[12][13] In an X tweet, Delangue shared his vision to \"make Artificial Intelligence robotics Open Source\".[14]",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Wiggers, Inside BigScience, the quest to build a powerful open language model, (January 10, 2022)",
+          "url": "https://venturebeat.com/2022/01/10/inside-bigscience-the-quest-to-build-a-powerful-open-language-model/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "BLOOM",
+          "url": "https://bigscience.huggingface.co/blog/bloom"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Heikkllä, Inside a radical new project to democratize AI, (July 12, 2022)",
+          "url": "https://www.technologyreview.com/2022/07/12/1055817/inside-a-radical-new-project-to-democratize-ai/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Bass, Amazon's Cloud Unit Partners With Startup Hugging Face as AI Deals Heat Up, (February 21, 2023)",
+          "url": "https://www.bloomberg.com/news/articles/2023-02-21/amazon-s-aws-joins-with-ai-startup-hugging-face-as-chatgpt-competition-heats-up"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Nellis, Amazon Web Services pairs with Hugging Face to target AI developers, (February 21, 2023)",
+          "url": "https://www.reuters.com/technology/amazon-web-services-pairs-with-hugging-face-target-ai-developers-2023-02-21/"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Amazon Web Services, AWS and Hugging Face collaborate to make generative AI more accessible and cost efficient, (February 21, 2023)",
+          "url": "https://aws.amazon.com/blogs/machine-learning/aws-and-hugging-face-collaborate-to-make-generative-ai-more-accessible-and-cost-efficient/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "AI startup Hugging Face valued at $4.5 bln in latest round of funding",
+          "url": "https://www.reuters.com/technology/ai-startup-hugging-face-valued-45-bln-latest-round-funding-2023-08-24/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Wiggers, Hugging Face raises $235M from investors, including Salesforce and Nvidia, (2023-08-24)",
+          "url": "https://techcrunch.com/2023/08/24/hugging-face-raises-235m-from-investors-including-salesforce-and-nvidia/"
+        },
+        {
+          "id": "cite-8",
+          "index": 8,
+          "text": "Ecosystem for AI innovation in Europe {{!",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/ecosystem-ai-innovation-europe"
+        },
+        {
+          "id": "cite-9",
+          "index": 9,
+          "text": "Zacks Equity Research, META Collaboration Launches AI Accelerator for European Startups, (June 25, 2024)",
+          "url": "https://finance.yahoo.com/news/meta-collaboration-launches-ai-accelerator-151500146.html"
+        },
+        {
+          "id": "cite-10",
+          "index": 10,
+          "text": "NLLB: UNESCO Language Translator, (September 23, 2024)",
+          "url": "https://huggingface.co/spaces/UNESCO/nllb"
+        },
+        {
+          "id": "cite-11",
+          "index": 11,
+          "text": "UNESCO Language Translator powered by Meta and Hugging Face Launching Event, ()",
+          "url": "https://www.unesco.org/en/event/unesco-language-translator-powered-meta-and-hugging-face-launching-event-0"
+        },
+        {
+          "id": "cite-12",
+          "index": 12,
+          "text": "Wiggers, Hugging Face buys a humanoid robotics startup, (April 14, 2025)",
+          "url": "https://techcrunch.com/2025/04/14/hugging-face-buys-a-humanoid-robotics-startup/"
+        },
+        {
+          "id": "cite-13",
+          "index": 13,
+          "text": "Koetsier, Open Source Humanoid Robots That You Can 3D Print Yourself: Hugging Face Buys Pollen Robotics, (April 14, 2025)",
+          "url": "https://www.forbes.com/sites/johnkoetsier/2025/04/14/open-source-humanoid-robots-hugging-face-buys-pollen-robotics/"
+        },
+        {
+          "id": "cite-14",
+          "index": 14,
+          "text": "Knight, An Open Source Pioneer Wants to Unleash Open Source AI Robots, (April 14, 2025)",
+          "url": "https://www.wired.com/story/hugging-face-acquires-open-source-robot-startup/"
+        }
+      ]
+    },
+    {
+      "id": "cyberattacks",
+      "title": "Cyberattacks",
+      "level": 3,
+      "content": "In early 2026, hackers hijacked the Hugging Face platform to launch Android-targeted attacks involving \"powerful malware\" which could completely take over a compromised target.[0]\n\nIn July 2026, Hugging Face disclosed a cyberattack by autonomous AI agents. OpenAI then explained that two of its models, including GPT-5.6 Sol, had escaped their sandbox and hacked into Hugging Face servers using exposed credentials and zero-day vulnerabilities in order to find answers to the benchmark ExploitGym from a database.[1] Hugging Face attempted to mitigate the security breach using American proprietary frontier models, but the models' AI safety features rejected Hugging Face's requests, after which Hugging Face used a self-hosted instance of GLM-5.2 (an open-weights model developed by Chinese AI firm Z.ai) to contain the attack.[2][3][4] The incident was reported as the first publicly documented case of AI models autonomously conducting a multi-stage intrusion against a third party,[5][6] and has been called \"the first true AI safety incident\".[7]",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Fadilpašić, Hugging Face platform hijacked to send out Android malware - here's what we know so far, (January 30, 2026)",
+          "url": "https://www.techradar.com/pro/security/hugging-face-platform-hijacked-to-send-out-android-malware-heres-what-we-know-so-far"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Kahn, OpenAI says its AI models escaped from a secure test environment and hacked into AI company Hugging Face in order to cheat on an evaluation",
+          "url": "https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "Soni, Chinese AI's role in stopping rogue OpenAI agent shows cost of US guardrails, (July 22, 2026)",
+          "url": "https://www.reuters.com/legal/litigation/chinese-ais-role-stopping-rogue-openai-agent-shows-cost-us-guardrails-2026-07-22/"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "Goudarzi, What the OpenAI-Hugging Face incident reveals about US-China AI interdependence, (July 23, 2026)",
+          "url": "https://thebulletin.org/2026/07/what-the-openai-hugging-face-incident-reveals-about-us-china-ai-interdependence/"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "Shen, China’s Zhipu AI model contains hack after OpenAI models go rogue, (July 22, 2026)",
+          "url": "https://www.scmp.com/tech/tech-trends/article/3361450/hugging-face-deploys-zhipus-glm-52-model-contain-autonomous-openai-cyberattack"
+        },
+        {
+          "id": "cite-5",
+          "index": 5,
+          "text": "Franceschi-Bicchierai, How OpenAI's human mistake led to the AI-powered hack on Hugging Face, (22 July 2026)",
+          "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/"
+        },
+        {
+          "id": "cite-6",
+          "index": 6,
+          "text": "Booth, How OpenAI Lost Control of an AI Model—and What Needs to Change, (24 July 2026)",
+          "url": "https://time.com/article/2026/07/24/openai-hugging-face-attack/"
+        },
+        {
+          "id": "cite-7",
+          "index": 7,
+          "text": "Sabin, AI's alarming new skill: Breaking out of the test lab, (23 July 2026)",
+          "url": "https://www.axios.com/2026/07/23/openai-hugging-face-cyber-hacks-testing"
+        }
+      ]
+    },
+    {
+      "id": "acquisition",
+      "title": "Acquisition",
+      "level": 3,
+      "content": "On August 26, 2026, it was reported that Nvidia agreed to acquire Hugging Face for $12.9 billion,[0] after Hugging Face had reportedly turned down a $500M deal with Nvidia in late 2025.[1]",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Nvidia agrees to buy Hugging Face for $12.9 billion, The Information reports, (2026-08-26)",
+          "url": "https://www.reuters.com/technology/nvidia-talks-acquire-hugging-face-13-billion-deal-business-insider-reports-2026-08-27/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "Loizos, Nvidia closes in on Hugging Face acquisition, (2026-08-27)",
+          "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/"
+        }
+      ]
+    },
+    {
+      "id": "language-models",
+      "title": "Language models",
+      "level": 2,
+      "content": "Hugging Face develops a family of small language models known as SmolLM.[0] The original SmolLM family was released in 2024 with models containing 135 million, 360 million, and 1.7 billion parameters, designed to provide relatively capable language models that could run with limited computing resources.[1]\n\nSmolLM2 continued the family with 135-million, 360-million, and 1.7-billion-parameter models intended for on-device applications.[2] SmolLM3, released in 2025, is a 3-billion-parameter multilingual language model supporting reasoning, long-context processing, and six languages.[3]\n\nHugging Face has also developed SmolVLM, a family of compact vision-language models designed to process both images and text. The family includes models intended for memory-efficient and on-device use, with model weights, training recipes, and associated datasets released under the Apache License 2.0.[4]",
+      "citations": [
+        {
+          "id": "cite-0",
+          "index": 0,
+          "text": "Wiggers, Hugging Face's SmolLM models bring powerful AI to your phone, no cloud required, (July 16, 2024)",
+          "url": "https://venturebeat.com/infrastructure/hugging-faces-smollm-models-bring-powerful-ai-to-your-phone-no-cloud-required/"
+        },
+        {
+          "id": "cite-1",
+          "index": 1,
+          "text": "SmolLM - blazingly fast and remarkably powerful, (July 16, 2024)",
+          "url": "https://huggingface.co/blog/smollm"
+        },
+        {
+          "id": "cite-2",
+          "index": 2,
+          "text": "SmolLM2",
+          "url": "https://huggingface.co/collections/HuggingFaceTB/smollm2"
+        },
+        {
+          "id": "cite-3",
+          "index": 3,
+          "text": "SmolLM3: smol, multilingual, long-context reasoner, (July 8, 2025)",
+          "url": "https://huggingface.co/blog/smollm3"
+        },
+        {
+          "id": "cite-4",
+          "index": 4,
+          "text": "SmolVLM - small yet mighty Vision Language Model, (November 26, 2024)",
+          "url": "https://huggingface.co/blog/smolvlm"
+        }
+      ]
+    }
+  ]
+}

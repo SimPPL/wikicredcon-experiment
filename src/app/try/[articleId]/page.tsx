@@ -8,6 +8,7 @@ import { useIsMobile } from '@/lib/useIsMobile';
 import type { Article, Citation } from '@/types';
 import {
   currentRunFor,
+  loadIndex,
   loadArticle,
   loadClaims,
   newRunId,
@@ -40,9 +41,13 @@ export default function TryEditPage() {
   const [activeId, setActiveId] = useState<string | null>(null);
   const [now, setNow] = useState(() => Date.now());
   const [finishing, setFinishing] = useState(false);
+  const [liveFrom, setLiveFrom] = useState<string | null>(null);
   const [sheetOpen, setSheetOpen] = useState(false);
   const [mobileTab, setMobileTab] = useState<'article' | 'sections'>('article');
   const scroller = useRef<HTMLDivElement>(null);
+  // A click on the section list holds that section while the jump animates,
+  // so the scroll tracking below does not overrule it mid-flight.
+  const pinnedUntil = useRef(0);
 
   useEffect(() => {
     Promise.all([loadArticle(articleId, 'past'), loadClaims(articleId)])
@@ -65,6 +70,12 @@ export default function TryEditPage() {
         saveRun(r);
       })
       .catch(() => setError('This article did not load. Go back and pick it again.'));
+  }, [articleId]);
+
+  useEffect(() => {
+    loadIndex()
+      .then((idx) => setLiveFrom(idx.find((a) => a.id === articleId)?.liveFrom ?? null))
+      .catch(() => {});
   }, [articleId]);
 
   useEffect(() => {
@@ -94,12 +105,17 @@ export default function TryEditPage() {
     const root = scroller.current;
     if (!root || !article) return;
     const onScroll = () => {
-      const top = root.getBoundingClientRect().top;
+      if (Date.now() < pinnedUntil.current) return;
+      const box = root.getBoundingClientRect();
+      // Short articles cannot bring their last sections to the top, so at the
+      // bottom of the pane the last section whose heading is visible wins.
+      const atBottom = root.scrollTop + root.clientHeight >= root.scrollHeight - 4;
       let best: string | null = null;
       for (const s of article.sections) {
         const el = document.getElementById(`sec-${s.id}`);
         if (!el) continue;
-        if (el.getBoundingClientRect().top - top <= 120) best = s.id;
+        const t = el.getBoundingClientRect().top - box.top;
+        if (t <= 120 || (atBottom && t < box.height)) best = s.id;
         else break;
       }
       if (best) setActiveId(best);
@@ -109,6 +125,7 @@ export default function TryEditPage() {
   }, [article]);
 
   const jumpTo = (id: string) => {
+    pinnedUntil.current = Date.now() + 1200;
     setActiveId(id);
     setMobileTab('article');
     document.getElementById(`sec-${id}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -163,7 +180,7 @@ export default function TryEditPage() {
   ).length;
   const usedCount = Object.values(run.marks).filter((m) => m.state === 'used').length;
   const ms = Math.max(0, now - run.startedAt);
-  const snapshot = new Date(article.revisionDate + 'T00:00:00Z').toLocaleDateString('en-GB', {
+  const snapshot = new Date((liveFrom ?? article.revisionDate) + 'T00:00:00Z').toLocaleDateString('en-GB', {
     day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC',
   });
 
@@ -260,7 +277,7 @@ export default function TryEditPage() {
       >
         <span className="truncate text-sm md:text-base">
           <strong>{article.title}</strong>
-          {!isMobile && <span style={{ color: 'var(--wiki-text-secondary)' }}> · as of {snapshot}</span>}
+          {!isMobile && <span style={{ color: 'var(--wiki-text-secondary)' }} data-testid="snapshot-date"> · as live on {snapshot}</span>}
         </span>
         <span
           className="ml-auto text-sm tabular-nums"

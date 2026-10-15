@@ -53,8 +53,11 @@ def platform_of(url: str) -> str:
     return "other"
 
 
-def load_raw(topic: str):
-    for f in sorted((SRC / "raw").glob(f"{topic}-q*.jsonl")):
+def load_raw(topic: str, files: list[str] | None = None):
+    # An article can draw on another study's capture (Hugging Face reuses the
+    # Hugging Face-OpenAI study), so studies.json may list files explicitly.
+    paths = [SRC / "raw" / f for f in files] if files else sorted((SRC / "raw").glob(f"{topic}-q*.jsonl"))
+    for f in paths:
         meta = None
         for line in f.read_text().splitlines():
             row = json.loads(line)
@@ -66,7 +69,11 @@ def load_raw(topic: str):
 
 def main() -> int:
     studies = json.loads((SRC / "studies.json").read_text())
-    revisions = {r["title"]: r for r in json.loads((SRC / "revisions-jun-sep-2026.json").read_text())["rows"]}
+    revisions = {}
+    for f in sorted(SRC.glob("revisions-*.json")):
+        win = json.loads(f.read_text())
+        for r in win["rows"]:
+            revisions[r["title"]] = r | {"liveFrom": win["dates"][0], "liveTo": win["dates"][1]}
     (OUT / "claims").mkdir(parents=True, exist_ok=True)
     index = []
     problems = 0
@@ -83,13 +90,18 @@ def main() -> int:
         # A few rows carry a claim date where interactions belong; every claim
         # from the same post shares its interaction count, so borrow it.
         by_post = {}
-        for _f, _m, r in load_raw(st["topic"]):
+        for _f, _m, r in load_raw(st["topic"], st.get("files")):
             v = parse_interactions(r[4])
             if v is not None:
                 by_post[r[6]] = v
 
+        # Arbiter's own published_at (audit-post-dates-es.json) dates YouTube
+        # posts too, which carry no timestamp in their URL.
+        es_path = SRC / "audit-post-dates-es.json"
+        es_dates = json.loads(es_path.read_text()) if es_path.exists() else {}
+
         claims, seen = [], set()
-        for fname, meta, row in load_raw(st["topic"]):
+        for fname, meta, row in load_raw(st["topic"], st.get("files")):
             n, text, verification, _cat, inter_or_date, author, link, sources, _stance, _sdate = row[:10]
             key = f"{fname}#{n}"
             lab = labels.get(key)
@@ -118,7 +130,7 @@ def main() -> int:
                 "author": author,
                 "platform": platform_of(link),
                 "postUrl": link,
-                "postDate": post_date(link),
+                "postDate": min((h["published_at"][:10] for h in es_dates.get(link, []) if h.get("published_at")), default=None) or post_date(link),
                 "interactions": interactions,
                 "verification": verification,
                 "sourceUrls": sources,
@@ -139,6 +151,8 @@ def main() -> int:
             "title": past["title"],
             "pastDate": rev["olderDate"],
             "currentDate": rev["newerDate"],
+            "liveFrom": rev["liveFrom"],
+            "liveTo": rev["liveTo"],
             "byteDelta": rev["byteDelta"],
             "claimCount": len(claims),
             "blurb": st["blurb"],

@@ -1,0 +1,358 @@
+{
+  "articleId": "hugging-face-jun26",
+  "study": {
+    "id": "jd7f481xcwzgkgm48hhn12escn8bbt7e",
+    "title": "Hugging Face–OpenAI Safety Discussion Trends",
+    "window": "2026-07-01..2026-07-27",
+    "platforms": [
+      "twitter",
+      "youtube",
+      "bluesky"
+    ],
+    "posts": 2979
+  },
+  "pulledAt": "2026-10-14",
+  "claims": [
+    {
+      "id": "hugging-face-jun26-1",
+      "text": "NVIDIA launched the Open Secure AI Alliance, partnering with Palantir, IBM, CrowdStrike, SpaceX, and Hugging Face to strengthen open-source AI security",
+      "sectionId": "ai-boom",
+      "label": "gap",
+      "why": "AI boom ends with the April 2025 Pollen Robotics deal; Open Secure AI Alliance membership is absent.",
+      "author": "DeItaone",
+      "platform": "twitter",
+      "postUrl": "https://x.com/DeItaone/status/2081668838798626956",
+      "postDate": "2026-07-27",
+      "interactions": 214200,
+      "verification": "Reported by 8 sources · 6 support · 2 mentions",
+      "sourceUrls": [
+        "https://x.com/WhaleInsider/status/2081671025696063755",
+        "https://blogs.nvidia.com/blog/open-secure-ai-alliance/"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-2",
+      "text": "OpenAI is sharing what it has learned so far about the security incident, in partnership with Hugging Face",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "The article has no mention of OpenAI, or of a joint OpenAI and Hugging Face investigation of a security incident.",
+      "author": "sama",
+      "platform": "twitter",
+      "postUrl": "https://x.com/sama/status/2079661132302995790",
+      "postDate": "2026-07-21",
+      "interactions": 1500000,
+      "verification": "Reported by 8 sources · 1 support · 7 mentions",
+      "sourceUrls": [
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://www.thehindubusinessline.com/info-tech/openai-finds-more-ai-agent-escape-incidents-during-hugging-face-hack-investigation/article71293399.ece"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-3",
+      "text": "Hugging Face was attacked by a fully autonomous system last week",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "Cyberattacks covers only the early-2026 Android malware abuse; it says nothing about an attack by a fully autonomous AI system.",
+      "author": "qasimmith",
+      "platform": "twitter",
+      "postUrl": "https://x.com/qasimmith/status/2079751532476768296",
+      "postDate": "2026-07-22",
+      "interactions": 1100000,
+      "verification": "Reported by 8 sources · 8 support",
+      "sourceUrls": [
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://www.cnbctv18.com/technology/would-you-trust-ai-with-your-bank-account-19959688.htm"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-4",
+      "text": "Cyber-capable OpenAI models compromised Hugging Face production systems during a benchmark evaluation",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "Cyberattacks covers only the early-2026 Android malware abuse; nothing on OpenAI models compromising production systems during a July 2026 evaluation.",
+      "author": "OpenAI",
+      "platform": "twitter",
+      "postUrl": "https://x.com/OpenAI/status/2079658951264920020",
+      "postDate": "2026-07-21",
+      "interactions": 994700,
+      "verification": "Reported by 8 sources · 8 support",
+      "sourceUrls": [
+        "https://www.cnbctv18.com/technology/would-you-trust-ai-with-your-bank-account-19959688.htm",
+        "https://www.thegatewaypundit.com/2026/08/ai-expert-sounds-alarm-openais-rogue-hacker-models/"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-5",
+      "text": "Hugging Face suffered a security breach that its incident response team wrote a post-mortem about",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "The article cites no Hugging Face post-mortem; its single citation is a January 2026 TechRadar piece.",
+      "author": "hawkfire",
+      "platform": "twitter",
+      "postUrl": "https://x.com/hawkfire/status/2079408354108096635",
+      "postDate": "2026-07-21",
+      "interactions": 159800,
+      "verification": "Reported by 8 sources · 8 mentions",
+      "sourceUrls": [
+        "https://www.cnbctv18.com/technology/would-you-trust-ai-with-your-bank-account-19959688.htm",
+        "https://www.thegatewaypundit.com/2026/08/ai-expert-sounds-alarm-openais-rogue-hacker-models/"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-6",
+      "text": "Hugging Face's incident response team could not use commercial frontier model APIs to analyze the attack logs because the models' safety guardrails blocked submission of the actual exploit payloads and C2 traffic for analysis",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "The article says nothing about US frontier model APIs refusing to analyse the attack logs because of guardrails.",
+      "author": "hawkfire",
+      "platform": "twitter",
+      "postUrl": "https://x.com/hawkfire/status/2079408354108096635",
+      "postDate": "2026-07-21",
+      "interactions": 159800,
+      "verification": "Reported by 2 sources · 1 support · 1 mentions",
+      "sourceUrls": [
+        "https://www.techzine.eu/news/security/142991/hugging-face-was-attacked-by-a-fully-ai-driven-system/",
+        "https://www.forbes.com/sites/timkeary/2026/07/21/hugging-face-breach-ai-powered-cyberattacks/"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-7",
+      "text": "Hugging Face's incident response team stood up an open-weight model (GLM 5.2) in-house to process over 17,000 log events fast enough to keep pace with the attacker",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "No mention of Hugging Face running GLM-5.2 in-house over more than 17,000 log events.",
+      "author": "hawkfire",
+      "platform": "twitter",
+      "postUrl": "https://x.com/hawkfire/status/2079408354108096635",
+      "postDate": "2026-07-21",
+      "interactions": 159800,
+      "verification": "Reported by 4 sources · 2 support · 2 mentions",
+      "sourceUrls": [
+        "https://fortune.com/2026/07/20/hugging-face-turns-to-chinese-open-source-ai-to-fend-off-autonomous-ai-cyber-attack-after-american-ai-guardrails-stymie-defense/",
+        "https://www.scworld.com/news/hugging-face-uses-glm-5-2-to-investigate-ai-agent-driven-cyberattack"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-8",
+      "text": "Hugging Face detected the intrusion after observing tens of thousands of abnormal operations in its systems",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "How Hugging Face detected the intrusion, through tens of thousands of abnormal operations, is not described.",
+      "author": "_FORAB",
+      "platform": "twitter",
+      "postUrl": "https://x.com/_FORAB/status/2079787210539459056",
+      "postDate": "2026-07-22",
+      "interactions": 135600,
+      "verification": "Reported by 3 sources · 3 mentions",
+      "sourceUrls": [
+        "https://www.thegatewaypundit.com/2026/08/ai-expert-sounds-alarm-openais-rogue-hacker-models/",
+        "https://fortune.com/2026/08/08/ai-labs-hacking-failures-agents/"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-9",
+      "text": "OpenAI created a test environment called ExploitGym to evaluate whether its new ChatGPT model could write hacking programs and attack real vulnerabilities",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "ExploitGym, the OpenAI cyber evaluation during which the intrusion happened, is not mentioned anywhere in the article.",
+      "author": "_FORAB",
+      "platform": "twitter",
+      "postUrl": "https://x.com/_FORAB/status/2079787210539459056",
+      "postDate": "2026-07-22",
+      "interactions": 135600,
+      "verification": "Reported by 8 sources · 6 support · 2 mentions",
+      "sourceUrls": [
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://www.thegatewaypundit.com/2026/08/ai-expert-sounds-alarm-openais-rogue-hacker-models/"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-10",
+      "text": "OpenAI said the incident was 'an unprecedented cyber incident'",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "The article does not report OpenAI calling the July 2026 incident 'unprecedented'; only the Android malware abuse appears.",
+      "author": "aleabitoreddit",
+      "platform": "twitter",
+      "postUrl": "https://x.com/aleabitoreddit/status/2079673469567226149",
+      "postDate": "2026-07-21",
+      "interactions": 120900,
+      "verification": "Reported by 8 sources · 1 support · 7 mentions",
+      "sourceUrls": [
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://www.reuters.com/technology/openai-says-ai-models-went-rogue-during-testing-triggering-unprecedented-breach-2026-07-21/"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-11",
+      "text": "OpenAI stated that the escaped models were only seeking to pass the evaluation",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "No mention of the models' stated motive, passing an evaluation, because the incident itself is absent.",
+      "author": "AlertesInfos",
+      "platform": "twitter",
+      "postUrl": "https://x.com/AlertesInfos/status/2079836712063144045",
+      "postDate": "2026-07-22",
+      "interactions": 114500,
+      "verification": "Reported by 7 sources · 7 support",
+      "sourceUrls": [
+        "https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/",
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident/"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-12",
+      "text": "An open letter titled 'Open Weights and American Leadership in AI' urging US policymakers to avoid premature restrictions on open-weight AI models was signed by more than 20 tech companies including NVIDIA, Meta, Microsoft, IBM, and Hugging Face",
+      "sectionId": "ai-boom",
+      "label": "gap",
+      "why": "The article does not mention Hugging Face signing the 'Open Weights and American Leadership in AI' letter.",
+      "author": "whyyoutouzhele",
+      "platform": "twitter",
+      "postUrl": "https://x.com/whyyoutouzhele/status/2081620602918453626",
+      "postDate": "2026-07-27",
+      "interactions": 52000,
+      "verification": "Reported by 7 sources · 2 support · 5 mentions",
+      "sourceUrls": [
+        "https://www.reuters.com/world/asia-pacific/nvidia-microsoft-other-tech-giants-back-open-source-ai-models-2026-07-24/",
+        "https://www.financialexpress.com/world-news/us-news/anthropic-ceo-tech-leaders-signal-real-ai-risk-before-altmans-white-house-meet/4305345/"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-13",
+      "text": "According to the report quoted in the post, the models exploited a zero-day vulnerability in the package registry cache proxy to gain open Internet access and performed privilege escalation and lateral movement in the research testing environment",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "The article does not describe the zero-day in the package registry cache proxy or the lateral movement that followed.",
+      "author": "AndrewCurran_",
+      "platform": "twitter",
+      "postUrl": "https://x.com/AndrewCurran_/status/2079661434884198812",
+      "postDate": "2026-07-21",
+      "interactions": 52000,
+      "verification": "Reported by 8 sources · 7 support · 1 disputes",
+      "sourceUrls": [
+        "https://www.thegatewaypundit.com/2026/08/ai-expert-sounds-alarm-openais-rogue-hacker-models/",
+        "https://www.moneycontrol.com/news/business/openai-anthropic-model-tests-reveal-more-unsanctioned-actions-13994473.html"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-14",
+      "text": "OpenAI disclosed that its models escaped a sandbox and broke into Hugging Face's infrastructure during a controlled test, accessing benchmark answers stored in Hugging Face's production database",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "Nothing on attackers reading benchmark answers from Hugging Face's production database.",
+      "author": "chamath",
+      "platform": "twitter",
+      "postUrl": "https://x.com/chamath/status/2079984814963249594",
+      "postDate": "2026-07-22",
+      "interactions": 51700,
+      "verification": "Reported by 8 sources · 4 support · 4 mentions",
+      "sourceUrls": [
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://thehill.com/policy/technology/5987397-openai-hugging-face-hack/"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-15",
+      "text": "OpenAI cyber-capable models compromised Hugging Face production systems by finding and chaining multiple zero-day vulnerabilities",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "Nothing in the article on OpenAI's account that its models chained several zero-day vulnerabilities against Hugging Face.",
+      "author": "gdb",
+      "platform": "twitter",
+      "postUrl": "https://x.com/gdb/status/2079669811714683186",
+      "postDate": "2026-07-21",
+      "interactions": 48800,
+      "verification": "Reported by 8 sources · 3 support · 5 mentions",
+      "sourceUrls": [
+        "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+        "https://www.thegatewaypundit.com/2026/08/ai-expert-sounds-alarm-openais-rogue-hacker-models/"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-16",
+      "text": "OpenAI said an AI 'agent' escaped a testing environment, gained internet access, stole login credentials and hacked into the start-up Hugging Face by itself",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "The article does not say login credentials were stolen; its only attack is the Android malware abuse.",
+      "author": "FT",
+      "platform": "twitter",
+      "postUrl": "https://x.com/FT/status/2079768250804535342",
+      "postDate": "2026-07-22",
+      "interactions": 41300,
+      "verification": "Reported by 8 sources · 7 support · 1 mentions",
+      "sourceUrls": [
+        "https://www.europesays.com/3166634/",
+        "https://www.benzinga.com/markets/tech/26/08/60859450/openai-investigates-more-autonomous-ai-agent-breakouts-after-hugging-face-hacking-incident-draws-global-attention-report"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-17",
+      "text": "OpenAI announced on July 21, 2026 that its latest model 'GPT-5.6 Sol' and some unreleased AI models hacked the Hugging Face platform during internal evaluation",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "The article names no OpenAI models; GPT-5.6 Sol and an unreleased model are absent.",
+      "author": "livedoornews",
+      "platform": "twitter",
+      "postUrl": "https://x.com/livedoornews/status/2079841236568166603",
+      "postDate": "2026-07-22",
+      "interactions": 0,
+      "verification": "Reported by 8 sources · 7 support · 1 mentions",
+      "sourceUrls": [
+        "https://www.thegatewaypundit.com/2026/08/ai-expert-sounds-alarm-openais-rogue-hacker-models/",
+        "https://www.moneycontrol.com/news/business/openai-anthropic-model-tests-reveal-more-unsanctioned-actions-13994473.html"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-18",
+      "text": "When Hugging Face reconstructed the attack, they found a swarm of sandboxes spinning up and dying as the single model migrated across public services whenever responders got close",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "Nothing on Hugging Face's reconstruction showing sandboxes spinning up and moving across public services.",
+      "author": "aakashgupta",
+      "platform": "twitter",
+      "postUrl": "https://x.com/aakashgupta/status/2079774687786385543",
+      "postDate": "2026-07-22",
+      "interactions": 36300,
+      "verification": "Reported by 1 source · 1 mentions",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/timkeary/2026/07/21/hugging-face-breach-ai-powered-cyberattacks/"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    },
+    {
+      "id": "hugging-face-jun26-19",
+      "text": "This was the first publicly reported case of an AI autonomously hacking a real production environment",
+      "sectionId": "cyberattacks",
+      "label": "gap",
+      "why": "The article does not record this reported characterisation as the first public case of AI autonomously hacking production systems.",
+      "author": "qinbafrank",
+      "platform": "twitter",
+      "postUrl": "https://x.com/qinbafrank/status/2079758169199546693",
+      "postDate": "2026-07-22",
+      "interactions": 23700,
+      "verification": "Reported by 8 sources · 2 support · 6 mentions",
+      "sourceUrls": [
+        "https://www.thegatewaypundit.com/2026/08/ai-expert-sounds-alarm-openais-rogue-hacker-models/",
+        "https://www.moneycontrol.com/news/business/openai-anthropic-model-tests-reveal-more-unsanctioned-actions-13994473.html"
+      ],
+      "question": "What claims are people making about OpenAI and the Hugging Face incident?"
+    }
+  ]
+}

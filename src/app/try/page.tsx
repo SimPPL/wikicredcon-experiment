@@ -45,7 +45,7 @@ export default function TryPickPage() {
           >
             <h2 style={{ fontFamily: "Georgia, 'Linux Libertine', serif", fontSize: '1.3rem', color: 'var(--wiki-link)' }}>{a.title}</h2>
             <p className="text-sm mt-1" style={{ color: 'var(--wiki-text-secondary)' }}>
-              {fmt(a.pastDate)} → {fmt(a.currentDate)}
+              As live on {fmt(a.liveFrom)} → {fmt(a.liveTo)}
             </p>
             <p className="text-sm mt-3" style={{ lineHeight: 1.45 }}>{a.blurb}</p>
             <dl className="grid grid-cols-2 gap-2 mt-4 text-sm">

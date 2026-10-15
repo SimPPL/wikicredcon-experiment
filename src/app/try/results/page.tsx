@@ -10,6 +10,7 @@ import {
   download,
   loadArticle,
   loadClaims,
+  loadIndex,
   loadRun,
   resultsCSV,
   saveRun,
@@ -30,6 +31,7 @@ function Results() {
   const [server, setServer] = useState<ServerState>('checking');
   const [open, setOpen] = useState<string | null>(null);
   const [missing, setMissing] = useState(false);
+  const [live, setLive] = useState<{ from: string; to: string } | null>(null);
 
   useEffect(() => {
     const r = loadRun(runId);
@@ -46,6 +48,12 @@ function Results() {
       },
     );
     confirmRun(r.runId).then(setServer);
+    loadIndex()
+      .then((idx) => {
+        const a = idx.find((x) => x.id === r.articleId);
+        if (a) setLive({ from: a.liveFrom, to: a.liveTo });
+      })
+      .catch(() => {});
   }, [runId]);
 
   const retry = async () => {
@@ -117,7 +125,7 @@ function Results() {
           `${summary.sectionsEdited} section${summary.sectionsEdited === 1 ? '' : 's'} edited, ${summary.wordsAdded >= 0 ? '+' : ''}${summary.wordsAdded} words`,
           `${summary.citationsAdded} citation${summary.citationsAdded === 1 ? '' : 's'} added, ${summary.claimsUsed} claim${summary.claimsUsed === 1 ? '' : 's'} used`,
         ])}
-        {stat(`Wikipedia, ${past.revisionDate} → ${current.revisionDate}`, [
+        {stat(`Wikipedia, as live on ${live?.from ?? past.revisionDate} → ${live?.to ?? current.revisionDate}`, [
           `${summary.wikipediaSectionsChanged} sections changed or added`,
           `${newSectionsOnWikipedia.length} new section${newSectionsOnWikipedia.length === 1 ? '' : 's'}${newSectionsOnWikipedia.length ? ': ' + newSectionsOnWikipedia.slice(0, 3).map((s) => s.title).join(', ') + (newSectionsOnWikipedia.length > 3 ? '…' : '') : ''}`,
         ])}

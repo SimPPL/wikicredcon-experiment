@@ -1,5 +1,6 @@
 import { test, expect, type Page } from '@playwright/test';
 import { readFileSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 
 // Self-serve run: Pick -> Edit -> Results, at desktop and phone widths.
 // Screenshots land in tests/screenshots/selfserve-* as the evidence trail.
@@ -21,6 +22,9 @@ for (const a of index) {
     await page.setViewportSize({ width: 1440, height: 900 });
     await page.goto(`${BASE}/try/${a.id}`);
     await expect(page.getByTestId('article-pane')).toBeVisible({ timeout: 20000 });
+
+    // The header names the date the snapshot was live, not its last edit.
+    await expect(page.getByTestId('snapshot-date')).toContainText('1 Jun 2026');
 
     // Page itself never scrolls: all three columns fit the viewport.
     const scrollH = await page.evaluate(() => document.documentElement.scrollHeight);
@@ -118,4 +122,11 @@ test('results report a confirmed server save when the store answers', async ({ p
   await page.getByRole('button', { name: 'Sign in' }).click();
   await expect(page.getByTestId('runs-count')).toContainText('1 on server');
   await shot(page, 'runs-1440');
+});
+
+// Snapshot before the window, every sidebar claim posted inside it, snapshot
+// after it. The script exits non-zero on any break in that order.
+test('timeline audit: snapshots and claim dates are in order', () => {
+  const out = execFileSync('python3', ['scripts/audit_timeline.py'], { encoding: 'utf8' });
+  for (const a of index) expect(out).toContain(a.id === 'hugging-face-jun26' ? 'Hugging Face' : '|');
 });
