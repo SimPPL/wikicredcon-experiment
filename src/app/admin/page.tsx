@@ -110,14 +110,20 @@ export default function AdminPage() {
 
   // ── Login handler ──────────────────────────────────────
 
-  const handleLogin = (e: React.FormEvent) => {
+  // The password doubles as the x-admin-key for /api/persist. The server's
+  // ADMIN_KEY is accepted too, so setting it in Vercel does not lock admins out.
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (
-      loginUsername === EXPERIMENT.ADMIN_USERNAME &&
-      loginPassword === EXPERIMENT.ADMIN_PASSWORD
-    ) {
+    let ok = loginUsername === EXPERIMENT.ADMIN_USERNAME && loginPassword === EXPERIMENT.ADMIN_PASSWORD;
+    if (!ok && loginUsername === EXPERIMENT.ADMIN_USERNAME) {
+      try {
+        ok = (await fetch('/api/persist', { headers: { 'x-admin-key': loginPassword } })).ok;
+      } catch {}
+    }
+    if (ok) {
       setAuthenticated(true);
       sessionStorage.setItem('wikicred_admin_auth', 'true');
+      sessionStorage.setItem('wikicred_admin_key', loginPassword);
       setLoginError('');
     } else {
       setLoginError('Invalid username or password.');
@@ -687,7 +693,10 @@ export default function AdminPage() {
           <button
             onClick={async () => {
               try {
-                const res = await fetch('/api/persist');
+                const res = await fetch('/api/persist', {
+                  headers: { 'x-admin-key': sessionStorage.getItem('wikicred_admin_key') ?? '' },
+                });
+                if (res.status === 401) throw new Error('The server refused the admin password. Sign out and sign in again with the server key.');
                 if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
                 const rows = await res.json();
                 if (Array.isArray(rows)) {

@@ -18,6 +18,10 @@ Finish also sends the run to `/api/persist` under an id starting `self_`, then r
 
 Facilitators see every stored run at `/try/runs` (same login as `/admin`), with CSV and JSON export of the whole set.
 
+Listing or deleting rows on `/api/persist` needs the facilitator password in an `x-admin-key` header; the two admin pages send it for you. Set `ADMIN_KEY` in the Vercel project to replace the default password, which ships in the page code. Anyone can still save a run or check that their own run id was stored.
+
+Someone who has already started or finished the experiment sees a choice on the home page: carry on, or start a new attempt. A new attempt gets a fresh participant id and the opposite condition order; the earlier attempt's dashboard stays in the browser.
+
 The claims come from the Claims tab of four Arbiter studies, pulled through the browser on 2026-10-14 and labeled section by section against the June revision. The raw captures, labels and notes live in the workshop repo under `scratchpad/arbiter-claims-2026-10-14/`. Rebuild the sidebar files with `python3 scripts/build_selfserve_claims.py`, and re-pin both snapshots with `npx tsx scripts/fetch-articles.ts --window <revisions.json> --suffix jun26`.
 
 Run `npx playwright test tests/selfserve.spec.ts` against a dev server on port 3001 to check the whole path at desktop and phone widths.

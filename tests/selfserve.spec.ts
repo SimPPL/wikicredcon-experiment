@@ -92,7 +92,7 @@ test('phone width: claims sheet and finish reachable', async ({ page }) => {
 // prove the client sends the run and reports a read-back save. The real write
 // path is covered by running this same spec with BASE_URL at the deployment.
 test('results report a confirmed server save when the store answers', async ({ page }) => {
-  test.skip(!!process.env.BASE_URL, 'mock only applies locally');
+  test.skip(!BASE.includes('localhost'), 'mock only applies locally');
   const stored: Record<string, unknown> = {};
   await page.route('**/api/persist**', async (route) => {
     const req = route.request();
@@ -103,6 +103,7 @@ test('results report a confirmed server save when the store answers', async ({ p
     }
     const id = new URL(req.url()).searchParams.get('id');
     if (id) return route.fulfill(stored[id] ? { json: { participant_id: id, updated_at: new Date().toISOString() } } : { status: 404, json: {} });
+    if (req.headers()['x-admin-key'] !== 'demo') return route.fulfill({ status: 401, json: { error: 'Admin key required' } });
     return route.fulfill({ json: Object.entries(stored).map(([participant_id, data]) => ({ participant_id, data, updated_at: new Date().toISOString() })) });
   });
   await page.setViewportSize({ width: 1440, height: 900 });

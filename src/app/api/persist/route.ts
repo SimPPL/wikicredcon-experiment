@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { isDbConfigured, upsertParticipant, listParticipants, deleteAllExcept, getParticipant } from '@/lib/db';
+import { EXPERIMENT } from '@/lib/constants';
 
 // Participant data is stored in Neon Postgres (free tier, provisioned via the
 // Vercel Marketplace — DATABASE_URL is injected automatically). The client
@@ -10,6 +11,16 @@ const NOT_CONFIGURED = NextResponse.json(
   { error: 'Database not configured — set DATABASE_URL (Vercel Neon integration)' },
   { status: 503 }
 );
+
+// Listing every row (which carries participant emails) and deleting rows need
+// the facilitator password in an x-admin-key header. Set ADMIN_KEY in Vercel;
+// until then the /admin password is accepted.
+function isAdmin(request: Request): boolean {
+  const key = process.env.ADMIN_KEY || EXPERIMENT.ADMIN_PASSWORD;
+  return request.headers.get('x-admin-key') === key;
+}
+
+const FORBIDDEN = () => NextResponse.json({ error: 'Admin key required' }, { status: 401 });
 
 export async function POST(request: Request) {
   try {
@@ -39,9 +50,10 @@ export async function POST(request: Request) {
 
 export async function GET(request: Request) {
   try {
-    if (!isDbConfigured()) return NOT_CONFIGURED;
     // ?id= reads one row back so a self-serve run can confirm it was stored.
     const id = new URL(request.url).searchParams.get('id');
+    if (!id && !isAdmin(request)) return FORBIDDEN();
+    if (!isDbConfigured()) return NOT_CONFIGURED;
     if (id) {
       const row = await getParticipant(id);
       return row
@@ -58,6 +70,7 @@ export async function GET(request: Request) {
 
 export async function DELETE(request: Request) {
   try {
+    if (!isAdmin(request)) return FORBIDDEN();
     if (!isDbConfigured()) return NOT_CONFIGURED;
 
     const { searchParams } = new URL(request.url);

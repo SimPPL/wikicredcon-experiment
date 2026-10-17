@@ -32,23 +32,23 @@ export default function RegistrationPage() {
   const [usefulness, setUsefulness] = useState<number>(0);
   const [submitting, setSubmitting] = useState(false);
 
+  // A returning visitor chooses between their existing attempt and a new one,
+  // so the experiment can be retaken in the same browser.
+  const [returning, setReturning] = useState<{ phase: string; href: string } | null>(null);
+
   useEffect(() => {
-    // If the user already registered, route them based on their current phase
     const storedParticipant = localStorage.getItem(LS_KEYS.PARTICIPANT);
     const storedPhase = localStorage.getItem(LS_KEYS.PHASE);
 
     if (storedParticipant && storedPhase) {
       const participant = JSON.parse(storedParticipant);
-      if (storedPhase === 'editing-1' || storedPhase === 'editing-2' || storedPhase === 'transition') {
-        window.location.href = '/edit';
-        return;
-      }
-      if (storedPhase === 'survey') {
-        window.location.href = '/survey';
-        return;
-      }
-      if (storedPhase === 'complete') {
-        window.location.href = `/dashboard/${participant.id}`;
+      const href =
+        storedPhase === 'survey' ? '/survey'
+        : storedPhase === 'complete' ? `/dashboard/${participant.id}`
+        : ['editing-1', 'editing-2', 'transition'].includes(storedPhase) ? '/edit'
+        : null;
+      if (href) {
+        setReturning({ phase: storedPhase, href });
         return;
       }
     }
@@ -118,6 +118,42 @@ export default function RegistrationPage() {
     frequency !== '' &&
     confidence > 0 &&
     usefulness > 0;
+
+  // Clears only the active attempt. The finished attempt's dashboard copy
+  // (wikicred_participant_data_<id>), PII, consent and pending sync stay.
+  function startOver() {
+    [LS_KEYS.PARTICIPANT, LS_KEYS.PHASE, LS_KEYS.CURRENT_SESSION, LS_KEYS.COMPLETED_SESSIONS, LS_KEYS.SURVEY,
+      'wikicred_timer_start_editing-1', 'wikicred_timer_start_editing-2'].forEach((k) => localStorage.removeItem(k));
+    setReturning(null);
+    setStarted(true);
+    setConsented(!!localStorage.getItem('wikicred_consent'));
+  }
+
+  if (returning) {
+    const finished = returning.phase === 'complete';
+    return (
+      <div className="min-h-screen bg-white">
+        <div className="max-w-xl mx-auto px-6 py-16">
+          <h1 className="text-2xl mb-3" style={{ fontFamily: "Georgia, 'Linux Libertine', serif", color: '#202122' }}>
+            {finished ? 'You have already finished the experiment' : 'You have an attempt in progress'}
+          </h1>
+          <p className="mb-6" style={{ color: '#54595d', lineHeight: 1.6 }}>
+            {finished
+              ? 'Your results stay on your dashboard. You can also take the experiment again as a new attempt.'
+              : 'Pick up where you left off, or start again from the beginning as a new attempt.'}
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <a href={returning.href} data-testid="continue-attempt" className="px-4 py-2 rounded text-white" style={{ background: '#3366cc' }}>
+              {finished ? 'See my results' : 'Continue my attempt'}
+            </a>
+            <button type="button" onClick={startOver} data-testid="start-new-attempt" className="px-4 py-2 rounded border" style={{ borderColor: '#a2a9b1', color: '#202122' }}>
+              Start a new attempt
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   if (!started) {
     return <LandingPage onStart={() => setStarted(true)} />;

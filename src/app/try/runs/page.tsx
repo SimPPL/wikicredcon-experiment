@@ -25,14 +25,21 @@ export default function RunsPage() {
 
   useEffect(() => {
     try {
-      if (sessionStorage.getItem('wikicred_runs_auth') === '1') setAuthed(true);
+      if (sessionStorage.getItem('wikicred_admin_key')) setAuthed(true);
     } catch {}
   }, []);
 
   useEffect(() => {
     if (!authed) return;
-    fetch('/api/persist')
+    let key = '';
+    try { key = sessionStorage.getItem('wikicred_admin_key') ?? ''; } catch {}
+    fetch('/api/persist', { headers: { 'x-admin-key': key } })
       .then(async (r) => {
+        if (r.status === 401) {
+          try { sessionStorage.removeItem('wikicred_admin_key'); } catch {}
+          setAuthed(false);
+          throw new Error('Wrong username or password.');
+        }
         if (!r.ok) throw new Error(`The results server answered ${r.status}.`);
         return r.json();
       })
@@ -49,8 +56,10 @@ export default function RunsPage() {
         className="max-w-xs mx-auto mt-24 space-y-3 p-4"
         onSubmit={(e) => {
           e.preventDefault();
-          if (user === EXPERIMENT.ADMIN_USERNAME && pass === EXPERIMENT.ADMIN_PASSWORD) {
-            try { sessionStorage.setItem('wikicred_runs_auth', '1'); } catch {}
+          // The server checks the password (x-admin-key); the username is the /admin one.
+          if (user === EXPERIMENT.ADMIN_USERNAME && pass) {
+            try { sessionStorage.setItem('wikicred_admin_key', pass); } catch {}
+            setError(null);
             setAuthed(true);
           } else setError('Wrong username or password.');
         }}
