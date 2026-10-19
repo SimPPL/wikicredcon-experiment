@@ -40,11 +40,18 @@ for (const a of index) {
     await page.getByTestId('section-nav').getByRole('button', { name: new RegExp(topTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')) }).first().click();
     await expect(page.getByTestId('rail-heading')).toContainText(topTitle);
     await expect(page.getByTestId('claim-list').locator('li')).toHaveCount(counts[top]);
+
+    // The sidebar is Wikipedia-minimal: the claim, who posted it, its sources. No verdicts or engagement counts.
+    const railText = await page.getByTestId('claim-list').innerText();
+    for (const slop of ['Gap', 'Contradicts', 'Covered', 'Why it is here', "Arbiter's check", 'interactions', 'Cite its source'])
+      expect(railText).not.toContain(slop);
+    const firstRow = page.getByTestId('claim-list').locator('li').first();
+    await expect(firstRow.locator('a[href^="http"]').first()).toHaveAttribute('target', '_blank');
     await shot(page, `edit-${a.id}-1440`);
 
     // Mark the first claim used, then edit the section.
     const firstClaim = claims.find((c) => c.sectionId === top)!;
-    await page.getByTestId(`claim-${firstClaim.id}`).getByRole('button', { name: 'Used this' }).click();
+    await page.getByTestId(`claim-${firstClaim.id}`).getByRole('button', { name: 'used in my edit' }).click();
     await expect(page.getByTestId('counts')).toContainText('1 claims used');
 
     const sec = page.locator(`#sec-${top}`);

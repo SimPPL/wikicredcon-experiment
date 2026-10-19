@@ -12,3 +12,4 @@ files that prove it.
 - [ ] 2026-10-19 04:06  remove mistakes and slop you put in earlier
 - [ ] 2026-10-19 17:24  yes add it
 - [ ] 2026-10-19 17:25  and run /zero-trust-testing and /reviewer-roleplay to see if you understand what the insights are from your edits and see in that process if the claims actually "make sense" to guide your edits in the sense assess…
+- [ ] 2026-10-19 19:46  the sidebar has so much slop in the claims can you please let it be like wikipedia as much as possible and minimal wordslop juist the claim and the link to sources that they can visit and check that they're reliable?

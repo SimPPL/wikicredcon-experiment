@@ -140,27 +140,6 @@ export default function TryEditPage() {
       return { ...r, marks, events: [...r.events, { t: Date.now(), type: state ? `mark-${state}` : 'unmark', claimId }] };
     });
 
-  const onCite = (claim: SelfServeClaim) => {
-    if (!article) return;
-    const section = article.sections.find((s) => s.id === claim.sectionId);
-    if (!section) return;
-    update((r) => {
-      const existing = r.citations[section.id] ?? section.citations;
-      const url = claim.sourceUrls[0];
-      if (existing.some((c) => c.url === url)) return r;
-      const host = url.replace(/^https?:\/\/(www\.)?/, '').split('/')[0];
-      const cite: Citation = { id: `cite-${claim.id}`, index: existing.length + 1, text: host, url };
-      return {
-        ...r,
-        citations: { ...r.citations, [section.id]: [...existing, cite] },
-        marks: { ...r.marks, [claim.id]: { claimId: claim.id, state: 'used', at: Date.now() } },
-        events: [...r.events, { t: Date.now(), type: 'cite', claimId: claim.id, sectionId: section.id }],
-      };
-    });
-    setEditingId(section.id);
-    jumpTo(section.id);
-  };
-
   const finish = async () => {
     if (!run) return;
     setFinishing(true);
@@ -253,7 +232,6 @@ export default function TryEditPage() {
       activeSectionTitle={activeTitle}
       marks={run.marks}
       onMark={onMark}
-      onCite={onCite}
     />
   );
 
