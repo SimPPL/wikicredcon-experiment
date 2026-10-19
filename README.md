@@ -59,4 +59,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-editbetter.vercel.app builds from `main` of [SwapneelM/wikicredcon](https://github.com/SwapneelM/wikicredcon) on Swapneel's personal Vercel, so a push to that repo ships. The project needs `DATABASE_URL` (Neon, added through the Storage tab) and, optionally, `ADMIN_KEY`. Vercel there only builds commits authored by SwapneelM. [SimPPL/wikicredcon-experiment](https://github.com/SimPPL/wikicredcon-experiment) holds the same history but deploys nothing.
+editbetter.vercel.app builds from `main` of [SwapneelM/wikicredcon-experiment](https://github.com/SwapneelM/wikicredcon-experiment) (git remote `deploy`) on Swapneel's personal Vercel, so `git push deploy main` ships. The project needs `DATABASE_URL` (Neon, added through the Storage tab) and, optionally, `ADMIN_KEY`. Vercel there only builds commits authored by SwapneelM. [SimPPL/wikicredcon-experiment](https://github.com/SimPPL/wikicredcon-experiment) holds the same history but deploys nothing.
