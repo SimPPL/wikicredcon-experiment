@@ -57,6 +57,24 @@ test('the results server will not list or delete rows without the admin key', as
   expect((await request.get(`${BASE}/api/persist`)).status()).toBe(401);
   expect((await request.get(`${BASE}/api/persist`, { headers: { 'x-admin-key': 'wrong' } })).status()).toBe(401);
   expect((await request.delete(`${BASE}/api/persist?keep=x`)).status()).toBe(401);
+  expect((await request.delete(`${BASE}/api/persist?id=x`)).status()).toBe(401);
   // Read-back of a single run stays open: it returns only the id and a timestamp.
   expect((await request.get(`${BASE}/api/persist?id=self_missing`)).status()).not.toBe(401);
+});
+
+// Needs a live database and the key in the environment (ADMIN_KEY=… npx playwright test).
+test('delete by id removes only the named row', async ({ request }) => {
+  const key = process.env.ADMIN_KEY;
+  test.skip(!key, 'set ADMIN_KEY to run against a database');
+  const id = `self_deltest_${Date.now()}`;
+  const saved = await request.post(`${BASE}/api/persist`, { data: { participantId: id, data: { kind: 'probe' } } });
+  test.skip(saved.status() === 503, 'no database on this server');
+  expect(saved.ok()).toBe(true);
+  const before = (await (await request.get(`${BASE}/api/persist`, { headers: { 'x-admin-key': key! } })).json()).length;
+
+  const res = await request.delete(`${BASE}/api/persist?id=${id}&id=self_never_existed`, { headers: { 'x-admin-key': key! } });
+  expect(await res.json()).toEqual({ deleted: [id], notFound: ['self_never_existed'] });
+  expect((await request.get(`${BASE}/api/persist?id=${id}`)).status()).toBe(404);
+  const after = (await (await request.get(`${BASE}/api/persist`, { headers: { 'x-admin-key': key! } })).json()).length;
+  expect(after).toBe(before - 1);
 });

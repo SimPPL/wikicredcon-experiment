@@ -86,3 +86,15 @@ export async function getParticipant(participantId: string): Promise<Participant
   `) as ParticipantRow[];
   return rows[0] ?? null;
 }
+
+// Deletes only the named rows (e.g. test runs) and returns the ids it removed.
+export async function deleteParticipants(ids: string[]): Promise<string[]> {
+  const sql = getSql();
+  await ensureTable(sql);
+  const rows = (await sql`
+    DELETE FROM wikicred_participants
+    WHERE participant_id = ANY(${ids})
+    RETURNING participant_id
+  `) as Array<{ participant_id: string }>;
+  return rows.map((r) => r.participant_id);
+}

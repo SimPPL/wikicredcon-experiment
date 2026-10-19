@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { isDbConfigured, upsertParticipant, listParticipants, deleteAllExcept, getParticipant } from '@/lib/db';
+import { isDbConfigured, upsertParticipant, listParticipants, deleteAllExcept, getParticipant, deleteParticipants } from '@/lib/db';
 import { EXPERIMENT } from '@/lib/constants';
 
 // Participant data is stored in Neon Postgres (free tier, provisioned via the
@@ -75,9 +75,18 @@ export async function DELETE(request: Request) {
 
     const { searchParams } = new URL(request.url);
     const keepId = searchParams.get('keep');
+    // ?id=a&id=b removes just those rows, for clearing test runs.
+    const ids = searchParams.getAll('id').filter(Boolean);
 
+    if (ids.length && keepId) {
+      return NextResponse.json({ error: 'Use either ?id= or ?keep=, not both' }, { status: 400 });
+    }
+    if (ids.length) {
+      const deleted = await deleteParticipants(ids);
+      return NextResponse.json({ deleted, notFound: ids.filter((i) => !deleted.includes(i)) });
+    }
     if (!keepId) {
-      return NextResponse.json({ error: 'Must specify ?keep=participant_id to protect' }, { status: 400 });
+      return NextResponse.json({ error: 'Must specify ?id=participant_id to delete, or ?keep=participant_id to protect' }, { status: 400 });
     }
 
     const { deleted, total } = await deleteAllExcept(keepId);
